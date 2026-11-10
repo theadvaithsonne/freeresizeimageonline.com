@@ -2,7 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import ResizerTool from '../../components/tool/ResizerTool.astro';
 import Sections from '../../components/content/Sections.astro';
-import { languageStaticPaths, list, localizedPath, t } from '../../i18n';
+import { getLanguage, languageStaticPaths, list, localizedPath, t } from '../../i18n';
+import { safeJson } from '../../i18n/safe-json';
 import { SITE } from '../../config/site';
 
 export function getStaticPaths() {
@@ -19,12 +20,6 @@ const faqLd = {
   '@type': 'FAQPage',
   mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
 };
-const howToLd = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: t(lang, 'home.how.title'),
-  step: steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.title, text: s.text })),
-};
 const appLd = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
@@ -35,14 +30,13 @@ const appLd = {
   browserRequirements: 'Requires a modern web browser',
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
   description: t(lang, 'home.description'),
-  inLanguage: lang,
+  inLanguage: getLanguage(lang).htmlLang,
 };
 ---
 <Layout title={t(lang, 'home.title')} description={t(lang, 'home.description')} lang={lang} path="/" inlineAd="manual">
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify(appLd)} />
-    <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
-    <script type="application/ld+json" set:html={JSON.stringify(howToLd)} />
+    <script type="application/ld+json" set:html={safeJson(appLd)} />
+    <script type="application/ld+json" set:html={safeJson(faqLd)} />
   </Fragment>
 
   <h1>{t(lang, 'home.h1')}</h1>
@@ -87,7 +81,7 @@ const appLd = {
   .features {
     display: grid;
     gap: var(--space-4);
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
   }
   .feature {
     padding: var(--space-5);

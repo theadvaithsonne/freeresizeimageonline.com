@@ -1,3 +1,4 @@
+import { hasTransparency } from './alpha';
 import { decodeImage } from './decode';
 import type { Encoder } from './encoder';
 import { planResize } from './geometry';
@@ -13,6 +14,33 @@ export interface ProcessContext {
 
 function throwIfCancelled(signal?: AbortSignal) {
   if (signal?.aborted) throw new EngineError('cancelled', 'Cancelled');
+}
+
+/** Quick check (on a small copy) whether any part of the picture is see-through. */
+function hasAlpha(bitmap: ImageBitmap): boolean {
+  const scale = Math.min(1, 128 / Math.max(bitmap.width, bitmap.height));
+  const canvas = document.createElement('canvas');
+  canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+  canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+  const ctx = canvas.getContext('2d', { willReadFrequently: true });
+  if (!ctx) return true; // unknown: be safe and keep transparency
+  ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+  const transparent = hasTransparency(ctx.getImageData(0, 0, canvas.width, canvas.height).data);
+  canvas.width = 0;
+  return transparent;
+}
+
+/**
+ * "Same as original" keeps JPG, PNG and WebP. Other types cannot be written, so: GIF becomes PNG (flat graphics),
+ * and BMP / AVIF become JPG when they are plain photos (much smaller than PNG) or PNG when they have transparency.
+ */
+function chooseFormat(file: File, bitmap: ImageBitmap, requested: ResizeOptions['format']): OutputFormat {
+  if (requested !== 'original') return requested;
+  const base = formatFromMime(file.type);
+  if (base === 'png' && /^image\/(bmp|x-ms-bmp|avif)$/i.test(file.type)) {
+    return hasAlpha(bitmap) ? 'png' : 'jpeg';
+  }
+  return base;
 }
 
 /**
@@ -31,7 +59,7 @@ export async function processImage(
 
   try {
     const plan = planResize(decoded.width, decoded.height, options);
-    const format: OutputFormat = options.format === 'original' ? formatFromMime(file.type) : options.format;
+    const format: OutputFormat = chooseFormat(file, bitmap, options.format);
     const flattenOn = format === 'jpeg' ? options.background : null;
     const quality = Math.min(1, Math.max(0.01, options.quality / 100));
 

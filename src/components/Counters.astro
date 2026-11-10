@@ -7,6 +7,7 @@
  */
 import { COUNTERS } from '../config/site';
 import { t } from '../i18n';
+import { safeJson } from '../i18n/safe-json';
 
 interface Props {
   lang: string;
@@ -33,7 +34,7 @@ const config = {
         <span class="dot" aria-hidden="true" />
         <span data-counter-online-text />
       </span>
-      <script type="application/json" data-counters-config set:html={JSON.stringify(config)} />
+      <script type="application/json" data-counters-config set:html={safeJson(config)} />
     </div>
   )
 }

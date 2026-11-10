@@ -1,5 +1,6 @@
 ---
 import { LANGUAGES, localizedPath, t } from '../i18n';
+import { safeJson } from '../i18n/safe-json';
 
 interface Props {
   /** Current language code. */
@@ -26,16 +27,22 @@ const data = Object.fromEntries(
 ---
 <!--
   Suggest only: never auto-redirects. Hidden until JS finds a better language than the page's.
-  Fixed-position so it can't cause layout shift.
+  It is an ordinary block between the tool links and the page (nothing is covered, it scrolls away with the page,
+  and it is decided before the page content is painted, so nothing jumps). It goes away when the visitor starts
+  using the tool, presses Esc, or picks an answer.
 -->
-<div class="lang-suggest" data-lang-suggest hidden role="region" aria-live="polite">
-  <p class="lang-suggest__text" data-text></p>
-  <div class="lang-suggest__actions">
-    <a class="btn" data-switch href="#"></a>
-    <button type="button" class="btn btn--ghost" data-dismiss></button>
+<div class="lang-suggest-wrap">
+  <div class="container">
+    <div class="lang-suggest" data-lang-suggest hidden role="region">
+      <p class="lang-suggest__text" data-text></p>
+      <div class="lang-suggest__actions">
+        <a class="btn" data-switch href="#"></a>
+        <button type="button" class="btn btn--ghost" data-dismiss></button>
+      </div>
+    </div>
   </div>
 </div>
-<script type="application/json" id="lang-suggest-data" set:html={JSON.stringify(data)} />
+<script type="application/json" id="lang-suggest-data" set:html={safeJson(data)} />
 <script define:vars={{ currentLang: lang }}>
   (function () {
     var box = document.querySelector('[data-lang-suggest]');
@@ -78,6 +85,7 @@ const data = Object.fromEntries(
     var d = data[target];
     box.lang = d.htmlLang;
     box.dir = d.dir;
+    box.setAttribute('aria-label', d.text);
     box.querySelector('[data-text]').textContent = d.text;
     var sw = box.querySelector('[data-switch]');
     sw.textContent = d.switch;
@@ -94,23 +102,36 @@ const data = Object.fromEntries(
       write(sessionStorage, 'lang-suggest-dismissed', '1');
       box.hidden = true;
     });
+
+    // Quietly go away (without remembering a choice) on Esc, or when the visitor starts using the tool.
+    function hide() {
+      box.hidden = true;
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('change', onChange, true);
+      document.removeEventListener('drop', hide, true);
+    }
+    function onKey(e) {
+      if (e.key === 'Escape') hide();
+    }
+    function onChange(e) {
+      if (e.target && e.target.type === 'file') hide();
+    }
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('change', onChange, true);
+    document.addEventListener('drop', hide, true);
     box.hidden = false;
   })();
 </script>
 
 <style>
   .lang-suggest {
-    position: fixed;
-    inset-inline: var(--space-4);
-    bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
-    z-index: 70;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: var(--space-3) var(--space-5);
     max-width: 40rem;
-    margin-inline: auto;
+    margin-block: var(--space-3) 0;
     padding: var(--space-4) var(--space-5);
     background: var(--surface);
     border: 1px solid var(--border-strong);

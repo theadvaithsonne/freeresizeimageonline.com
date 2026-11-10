@@ -14,16 +14,17 @@ const { wordmark = true, class: className } = Astro.props;
     <path d="M36 14 H50 V28" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
   {wordmark && (
-    <span class="logo__text">Free<strong>Resize</strong>Image</span>
+    <span class="logo__text" dir="ltr">Free<strong>Resize</strong>Image<span class="visually-hidden">Online</span></span>
   )}
 </span>
 
 <style>
   .logo {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 0.6rem;
     min-width: 0;
+    max-width: 100%;
     color: var(--text);
     font-weight: 500;
     font-size: clamp(1.1rem, 0.9rem + 0.6vw, 1.5rem);

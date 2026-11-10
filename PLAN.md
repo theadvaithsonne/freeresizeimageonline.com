@@ -1,6 +1,6 @@
 # FreeResizeImageOnline.com — Build Plan & Task Tracker
 
-> **Status: AWAITING APPROVAL.** No code is written until the owner approves this plan.
+> **Status: BUILT AND LIVE** at https://freeresizeimageonline.com (approved 2026-11-10). Remaining work is mostly owner-side (AdSense review, ad units, consent message, Cloudflare dashboard settings, counters decision).
 > Claude ticks boxes as work is completed. Update the "Progress log" at the bottom after each step.
 
 Legend: `[ ]` todo · `[~]` in progress · `[x]` done · `[!]` blocked  
@@ -16,7 +16,7 @@ A free, unlimited image resizer: **no login, no signup, no upload**. All image p
 | Topic | Decision |
 |---|---|
 | Languages (20) | en, hi, es, pt-BR, fr, de, id, ar, ru, tr, ja, ko, vi, it, th, pl, nl, bn, ur, zh-CN |
-| Hosting | Cloudflare Pages (static site) + one small Cloudflare Worker for live counters |
+| Hosting | Cloudflare **Worker with static assets** (`wrangler.jsonc`, deployed with `npx wrangler deploy`) + one small separate Worker for live counters (built, not deployed) |
 | Audience | International. ~50% weight USA/UK (AdSense revenue), ~50% India (volume) |
 | Cost rule | No paid APIs, models or services. Only free/open-source libraries |
 | Privacy rule | Images never leave the device. Only anonymous counts are sent to our Worker |
@@ -31,7 +31,7 @@ A free, unlimited image resizer: **no login, no signup, no upload**. All image p
 
 ```
 Browser (visitor)
- ├─ loads static HTML/CSS/JS from Cloudflare Pages CDN        (free, unlimited bandwidth)
+ ├─ loads static HTML/CSS/JS from Cloudflare (static assets)  (free, unlimited bandwidth)
  ├─ resizes / compresses / converts images locally            (Canvas + Web Workers + WASM codecs)
  └─ WebSocket (anonymous) ──► Cloudflare Worker + Durable Object (SQLite, free plan)
                                • "online now" = open connections
@@ -59,7 +59,7 @@ Browser (visitor)
 - [x] **Postal address:** DECIDED — NOT shown on the site unless AdSense policy turns out to require it (to be verified against Google's official policy text in Step 9.4). AdSense takes the address privately inside the AdSense account.
 - [x] **Cloudflare account:** already exists (hosts another site). Add this domain to the same account. Note: free-tier Worker/Durable Object quota is per account, so check usage of the existing site before Step 7.
 - [ ] ★ **Google account for AdSense** (must belong to someone 18+, and be the person who gets paid). Do you already have an AdSense account / publisher ID (`pub-XXXXXXXXXXXXXXXX`)?
-- [ ] **GitHub repository** (you have a GitHub tab open) — Cloudflare Pages deploys from it. Create an empty repo and tell me the URL, or I will give steps.
+- [ ] **GitHub repository** (you have a GitHub tab open) — done: `origin` is https://github.com/theadvaithsonne/freeresizeimageonline.com (deploys are manual with `npx wrangler deploy`; CI only checks and builds).
 - [ ] **BigRock access** — you'll change the domain's nameservers to Cloudflare's (I'll give exact steps). I never need your BigRock password.
 - [ ] **Analytics choice** — I recommend *no Google Analytics*; use Cloudflare Web Analytics (cookie-less) + Google Search Console. This keeps the consent banner simpler. Confirm.
 - [ ] Anything you want in branding (colors you like, a competitor design you admire). Otherwise I decide.
@@ -95,7 +95,7 @@ Browser (visitor)
 - [x] 3.5 (C) `hreflang` for all 20 + `x-default`, canonical, localized title/description/og:locale
 - [x] 3.6 (C) RTL for Arabic & Urdu: `dir="rtl"`, logical CSS properties, mirrored layout verified by screenshot
 - [x] 3.7 (C) Locale-aware formatting in `src/i18n/format.ts` (numbers, %, px/cm/mm/in, KB/MB, compact counts, dates); always Latin digits (inputs are ASCII); unit-tested
-- [ ] 3.8 (C) Translation strings so far cover only the shell + home page headline/meta; tool, content and legal strings are added with Steps 5, 8, 9 and checked again in Step 10
+- [x] 3.8 (C) Translation strings cover the shell, tool, content pages, legal pages and guides in all 20 languages (validated by `scripts/check-locale.mjs` and `tests/i18n.test.ts`)
 
 **Done when:** switching language changes all UI text and the URL; Arabic/Urdu mirror correctly.
 
@@ -256,3 +256,4 @@ Sources read: AdSense Program policies (updated Aug 4, 2026), Eligibility requir
 | 2026-11-10 | Step 2 | Done. Design system, light/dark, responsive shell, ad slot placeholders, fonts, brand icons. Hard-coded English labels in Header/Footer/AdSlot/Layout get replaced by translation keys in Step 3. |
 | 2026-11-10 | Steps 5-11 | Tool UI, ads, counters (built, not deployed), content, legal, 19 translations, SEO. Site deployed to Cloudflare, AdSense snippet + meta tag + ads.txt live. |
 | 2026-11-11 | Owner requests | (1) Everything committed, pushed to GitHub (`origin/main`) and deployed. (2) New warm cream/burnt-orange palette taken from the reference screenshot (light + dark), orange logo and icons. (3) Larger text and controls for low-vision readers: root font 18-28px, 52px+ controls, bigger headings, wider content area, tool-link strip. (4) "Download as" JPG / PNG / WebP after resizing, for single files and ZIP. (5) AdSense policy pass: see `docs/ADSENSE-CHECKLIST.md`. |
+| 2026-11-11 | Results view + audit | (1) Pressing Resize now opens a separate results view: progress bar, one card per image (thumbnail, before/after size, saved %, per-image download), a sticky toolbar (Change settings, Start over, Cancel, Download as, Download all as ZIP) and a totals line. (2) An independent audit found 50 issues (`docs/AUDIT-2026-11-11.md`); all code-side items are fixed: unit/DPI conversion, decimal KB limits, cancel, validation messages next to the button, bidi-safe numbers, JSON-LD escaping, plain 404, AdSense script only on home pages until ad units exist, language banner moved to the top, bigger touch targets, system fonts for Japanese/Korean/Chinese (14 MB less), favicon.ico, worker hardening, CI. (3) Three written guides (reduce size, JPG vs PNG vs WebP, photo size for online forms) in all 20 languages. |

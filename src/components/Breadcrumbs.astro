@@ -3,8 +3,8 @@
  * Visible breadcrumb trail ("Image resizer > Resize in cm, mm or inches") shown above the page title on every
  * inner page. Search engines also get the same trail as structured data (BreadcrumbList on tool pages).
  */
-import { LEGAL_ROUTES, TOOL_ROUTES } from '../data/routes';
-import { localizedPath, t } from '../i18n';
+import { GUIDES_INDEX_PATH, GUIDE_ROUTES, LEGAL_ROUTES, TOOL_ROUTES } from '../data/routes';
+import { localizedPath, t, type MessageKey } from '../i18n';
 
 interface Props {
   lang: string;
@@ -15,21 +15,35 @@ const { lang, path } = Astro.props;
 
 const tool = TOOL_ROUTES.find((r) => r.path === path);
 const legal = LEGAL_ROUTES.find((r) => r.path === path);
-const label = tool
-  ? t(lang, `nav.${tool.key}` as 'nav.home')
-  : legal
-    ? t(lang, `footer.${legal.key}` as 'footer.about')
-    : null;
-const show = label !== null && path !== '/';
+const guide = GUIDE_ROUTES.find((r) => r.path === path);
+
+// The trail: every step except the last is a link. Guide articles are "Image resizer > Guides > <article>".
+let trail: { label: string; href?: string }[] = [];
+if (tool) trail = [{ label: t(lang, `nav.${tool.key}` as 'nav.home') }];
+else if (legal) trail = [{ label: t(lang, `footer.${legal.key}` as 'footer.about') }];
+else if (path === GUIDES_INDEX_PATH) trail = [{ label: t(lang, 'guides.nav') }];
+else if (guide) {
+  trail = [
+    { label: t(lang, 'guides.nav'), href: localizedPath(lang, GUIDES_INDEX_PATH) },
+    { label: t(lang, `guides.${guide.key}.h1` as MessageKey) },
+  ];
+}
+const show = trail.length > 0 && path !== '/';
+const crumbs = [{ label: t(lang, 'nav.home'), href: localizedPath(lang, '/') }, ...trail];
 ---
 {
   show && (
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <ol>
-        <li>
-          <a href={localizedPath(lang, '/')}>{t(lang, 'nav.home')}</a>
-        </li>
-        <li aria-current="page">{label}</li>
+        {crumbs.map((c, i) =>
+          i === crumbs.length - 1 ? (
+            <li aria-current="page">{c.label}</li>
+          ) : (
+            <li>
+              <a href={c.href}>{c.label}</a>
+            </li>
+          ),
+        )}
       </ol>
     </nav>
   )
@@ -42,7 +56,7 @@ const show = label !== null && path !== '/';
   }
   ol {
     display: flex;
-    flex-wrap: nowrap; /* keep "Home > Page" on one line; a long page name wraps inside its own box */
+    flex-wrap: wrap; /* a long page name moves to its own line instead of being squeezed into a narrow column */
     align-items: center;
     gap: var(--space-2);
     margin: 0;
@@ -55,18 +69,19 @@ const show = label !== null && path !== '/';
     gap: var(--space-2);
     min-width: 0;
   }
-  li:first-child {
+  li:not(:last-child) {
     flex: none;
   }
   li:last-child {
-    flex: 1 1 0;
+    flex: 1 1 12rem;
   }
-  li + li::before {
+  /* The separator belongs to the crumb before it, so a trail that wraps never starts a line with one. */
+  li:not(:last-child)::after {
     content: '›';
     color: var(--text-muted);
     font-weight: 700;
   }
-  :global([dir='rtl']) li + li::before {
+  :global([dir='rtl']) li:not(:last-child)::after {
     content: '‹';
   }
   a {

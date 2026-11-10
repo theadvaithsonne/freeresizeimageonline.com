@@ -4,7 +4,7 @@
  * Each block is optional; pass only what the page has.
  */
 import { localizedPath, t } from '../../i18n';
-import { TOOL_ROUTES } from '../../data/routes';
+import { GUIDES_INDEX_PATH, TOOL_ROUTES } from '../../data/routes';
 import AdSlot from '../AdSlot.astro';
 
 interface Step {
@@ -106,6 +106,9 @@ const related = TOOL_ROUTES.filter((r) => r.key !== currentKey);
               <a href={localizedPath(lang, r.path)}>{t(lang, `nav.${r.key}` as 'nav.home')}</a>
             </li>
           ))}
+          <li>
+            <a href={localizedPath(lang, GUIDES_INDEX_PATH)}>{t(lang, 'guides.nav')}</a>
+          </li>
         </ul>
       </section>
     )

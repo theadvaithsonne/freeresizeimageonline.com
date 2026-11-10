@@ -43,6 +43,15 @@ export function fromPixels(px: number, unit: LengthUnit, dpi: number): number {
 }
 
 /**
+ * The DPI to use when the unit changes. Leaving pixels with a screen-like DPI (below 150, such as the 96 left
+ * by a pixel preset) switches to print DPI 300 BEFORE converting, so "1080 px" becomes "9.14 cm at 300 DPI" and
+ * still means 1080 px. (Converting first and raising the DPI afterwards would silently triple the output size.)
+ */
+export function dpiForUnitChange(from: LengthUnit, to: LengthUnit, dpi: number): number {
+  return from === 'px' && to !== 'px' && dpi < 150 ? 300 : dpi;
+}
+
+/**
  * Keep one dimension in sync with the other when the aspect ratio is locked.
  * Returns the *other* side in the same unit as `value`.
  */

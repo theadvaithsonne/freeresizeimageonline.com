@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { planResize, integerRect } from '../src/engine/geometry';
-import { fromPixels, lockedCounterpart, toPixels } from '../src/engine/units';
+import { dpiForUnitChange, fromPixels, lockedCounterpart, toPixels } from '../src/engine/units';
 import { DEFAULT_OPTIONS, EngineError, LIMITS, type ResizeOptions } from '../src/engine/types';
 
 const opts = (o: Partial<ResizeOptions>): ResizeOptions => ({ ...DEFAULT_OPTIONS, ...o });
@@ -23,6 +23,20 @@ describe('units', () => {
     expect(fromPixels(300, 'in', 300)).toBe(1);
     expect(fromPixels(413, 'mm', 300)).toBeCloseTo(34.97, 1);
     expect(fromPixels(640.4, 'px', 96)).toBe(640);
+  });
+
+  it('switching a pixel size to cm keeps the same number of pixels', () => {
+    const dpi = dpiForUnitChange('px', 'cm', 96); // a pixel preset leaves 96 in the hidden DPI box
+    expect(dpi).toBe(300);
+    const cm = fromPixels(1080, 'cm', dpi);
+    expect(cm).toBeCloseTo(9.14, 2);
+    expect(toPixels(cm, 'cm', dpi)).toBe(1080); // not 3,376 as it was before the fix
+  });
+
+  it('keeps a deliberate print DPI and never changes DPI for other unit switches', () => {
+    expect(dpiForUnitChange('px', 'in', 600)).toBe(600);
+    expect(dpiForUnitChange('cm', 'mm', 96)).toBe(96);
+    expect(dpiForUnitChange('in', 'px', 300)).toBe(300);
   });
 
   it('keeps the aspect ratio when locked', () => {

@@ -12,7 +12,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Publisher is 18+, owns the site, can edit its HTML | **You** confirm. Site is yours; the code snippet, `google-adsense-account` meta tag and `ads.txt` are live for verification |
 | Own, high-quality content | Done: original how-to text, tips, FAQ and size tables on 7 pages, in 20 languages |
 | Site language supported | Done: all 20 languages are on Google's supported-language list |
-| Working, finished site | Done: live over HTTPS, 221 pages, no placeholder text |
+| Working, finished site | Done: live over HTTPS, 301 pages (15 pages x 20 languages + 404), no placeholder text |
 
 ## 2. Required pages and disclosures
 | Requirement | Status |
@@ -27,7 +27,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Requirement | Status |
 |---|---|
 | Consent through a Google-certified consent platform before personalised ads | **You**: AdSense -> **Privacy & messaging** -> create the EEA/UK/Switzerland consent message (free). Takes 2 minutes; the code needs no change |
-| Visitors can change their choice later | Done: footer link "Privacy and cookie settings" re-opens Google's message once it exists |
+| Visitors can change their choice later | Link is built but hidden until you create the message: then set `consentMessage: true` in `src/config/site.ts` (footer link "Cookie settings" re-opens Google's message) |
 | Own analytics/cookies | Done: no analytics cookies; only theme/language choices are saved in the browser; Cloudflare Web Analytics is cookie-free |
 
 ## 4. Ad placement
@@ -41,7 +41,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | No ads in modals, loading or empty states | Done |
 | No incentives to click, no asking for clicks | Done: the only text is "Ads keep FreeResizeImageOnline free. Everything works without them." |
 | Layout does not jump when ads load (Better Ads / user experience) | Done: fixed reserved heights; measured layout shift ~0 |
-| Auto ads | **You**: keep **OFF** (AdSense -> Sites -> freeresizeimageonline.com -> Auto ads). Manual placement is built in |
+| Auto ads | **You**: set **OFF** now (AdSense -> Sites -> freeresizeimageonline.com -> Auto ads). With the snippet on the page, Auto ads would otherwise place ads anywhere. Manual placement is built in |
 | Ad units | **You** (after approval): create 1 vertical unit (right column) and 1 responsive unit (phones), paste the slot ids in `src/config/site.ts`, redeploy |
 
 ## 5. Content policies
@@ -50,7 +50,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Illegal, dangerous, hateful, adult, deceptive, copyright-infringing content | None. Platform names (Instagram, YouTube, ...) are used only to state image sizes, and the Terms say the site is not affiliated with them |
 | Misrepresentation | Done: claims are true ("images never leave your device" is how the tool works; counters, if enabled, show real numbers only; photo-ID sizes carry a reminder to check the official rules) |
 | User-generated content / comments | None |
-| Valuable inventory (not scraped, not auto-generated filler, not duplicated) | Done: translations are written per language, not machine-bulk copies; pages differ in purpose |
+| Valuable inventory (not scraped, not auto-generated filler, not duplicated) | Done: every language has its own written text (reviewed by language, not pasted from English); pages differ in purpose; three original guides add depth. A native-speaker proof-read is still recommended |
 
 ## 6. Traffic and behaviour
 | Policy | Status |

@@ -23,7 +23,16 @@ export const ADSENSE = {
     rail: '',
     inline: '',
   },
-} as const;
+  /**
+   * Set to true after you create the EEA/UK/Switzerland consent message in AdSense > Privacy & messaging.
+   * It shows the "Cookie settings" link in the footer (the link re-opens that message). Until then the link is hidden,
+   * because it would do nothing.
+   */
+  consentMessage: false as boolean,
+};
+
+/** True once at least one ad unit id is filled in above (ads can actually appear). */
+export const ADS_LIVE = Boolean(ADSENSE.slots.rail || ADSENSE.slots.inline);
 
 /**
  * Live counters (Step 7). Leave `endpoint` empty to hide the counters.

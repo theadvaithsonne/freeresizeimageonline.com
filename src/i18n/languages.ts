@@ -62,7 +62,9 @@ export const FONT_STYLESHEETS: Record<FontGroup, string[]> = {
   arabic: ['inter', 'noto-sans-arabic'],
   bengali: ['inter', 'noto-sans-bengali'],
   thai: ['inter', 'noto-sans-thai'],
-  jp: ['inter', 'noto-sans-jp'],
-  kr: ['inter', 'noto-sans-kr'],
-  sc: ['inter', 'noto-sans-sc'],
+  // Japanese, Korean and Chinese use the device's own fonts (see the :lang() rules in tokens.css): shipping three
+  // CJK web fonts would add ~350 files and 14 MB to the site for no visible benefit.
+  jp: ['inter'],
+  kr: ['inter'],
+  sc: ['inter'],
 };

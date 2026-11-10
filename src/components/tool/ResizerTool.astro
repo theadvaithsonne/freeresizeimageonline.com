@@ -2,6 +2,7 @@
 import { PRESET_GROUPS, presetLabel } from '../../data/presets';
 import { subtree } from '../../i18n';
 import { t } from '../../i18n';
+import { safeJson } from '../../i18n/safe-json';
 
 interface Props {
   lang: string;
@@ -35,11 +36,12 @@ const clientData = {
   text: subtree(lang, 'tool'),
 };
 ---
-<section class="tool" data-tool aria-label={t(lang, 'tool.aria')}>
-  <div class="tool__grid">
+<section class="tool" data-tool data-view="setup" aria-label={t(lang, 'tool.aria')}>
+  <div class="tool__grid" data-setup>
     <!-- Left: drop zone + file list -->
     <div class="tool__main">
-      <div class="drop" data-drop tabindex="0" role="button">
+      <!-- Mouse users can click anywhere in the zone; keyboard and screen-reader users use the real "Choose" button. -->
+      <div class="drop" data-drop>
         <svg class="drop__icon" viewBox="0 0 48 48" width="56" height="56" aria-hidden="true" focusable="false">
           <rect x="6" y="9" width="36" height="30" rx="5" fill="none" stroke="currentColor" stroke-width="3" />
           <circle cx="17" cy="20" r="3.5" fill="currentColor" />
@@ -47,40 +49,20 @@ const clientData = {
         </svg>
         <p class="drop__title" data-drop-title>{t(lang, 'tool.drop.title')}</p>
         <p class="drop__or">{t(lang, 'tool.drop.or')}</p>
-        <label class="btn drop__button">
-          <span data-choose-label>{t(lang, 'tool.drop.choose')}</span>
-          <input type="file" accept="image/*" multiple hidden data-file-input />
-        </label>
+        <button type="button" class="btn drop__button" data-choose>{t(lang, 'tool.drop.choose')}</button>
+        <input type="file" accept="image/*" multiple hidden data-file-input />
         <p class="drop__hint">{t(lang, 'tool.drop.paste')}</p>
         <p class="drop__hint">{t(lang, 'tool.drop.formats')}</p>
         <p class="drop__privacy">{t(lang, 'tool.drop.privacy')}</p>
       </div>
       <p class="tool__notice" role="alert" data-notice hidden></p>
+      <noscript><p class="tool__notice">{t(lang, 'tool.noscript')}</p></noscript>
 
       <div class="files" data-files hidden>
         <div class="files__head">
           <h2 class="files__title" data-files-title></h2>
           <button type="button" class="link-button" data-clear>{t(lang, 'tool.files.clear')}</button>
         </div>
-        <div class="progress" data-progress hidden>
-          <div class="progress__bar"><span data-progress-bar></span></div>
-          <p class="progress__text" data-progress-text></p>
-        </div>
-
-        <!-- Shown once results exist: choose the download format and get everything as one ZIP -->
-        <div class="results-bar" data-results-bar hidden>
-          <div class="field results-bar__format">
-            <label for="opt-saveas">{t(lang, 'tool.actions.saveAs')}</label>
-            <select id="opt-saveas" data-saveas>
-              <option value="">{t(lang, 'tool.actions.sameAsResized')}</option>
-              <option value="jpeg">JPG</option>
-              <option value="png">PNG</option>
-              <option value="webp">WebP</option>
-            </select>
-          </div>
-          <button type="button" class="btn btn--accent" data-download-all hidden>{t(lang, 'tool.actions.downloadAll')}</button>
-        </div>
-
         <ul class="files__list" data-list></ul>
       </div>
     </div>
@@ -182,26 +164,93 @@ const clientData = {
         <p class="field__note" data-target-note hidden>{t(lang, 'tool.options.targetNote')}</p>
       </div>
 
+      <p class="field__error" role="alert" data-run-error hidden></p>
+
       <div class="actions" data-actions>
         <button type="submit" class="btn btn--big" data-run disabled>{t(lang, 'tool.actions.resize')}</button>
-        <button type="button" class="btn btn--ghost" data-cancel hidden>{t(lang, 'tool.actions.cancel')}</button>
       </div>
     </form>
   </div>
 
+  <!-- Results view: shown after "Resize images" is pressed. Full width, one card per image. -->
+  <div class="results" data-results hidden>
+    <div class="results__head">
+      <h2 class="results__title" data-results-title tabindex="-1">{t(lang, 'tool.results.title')}</h2>
+      <p class="results__sub" data-results-sub></p>
+      <div class="progress" data-progress>
+        <div class="progress__bar" role="progressbar" aria-label={t(lang, 'tool.results.progress')} aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-progress-meter>
+          <span data-progress-bar></span>
+        </div>
+      </div>
+      <p class="results__total" data-results-total hidden></p>
+    </div>
+
+    <div class="results__bar" data-results-bar>
+      <div class="results__bar-group">
+        <button type="button" class="btn btn--ghost" data-back>{t(lang, 'tool.results.back')}</button>
+        <button type="button" class="btn btn--ghost" data-start-over>{t(lang, 'tool.results.startOver')}</button>
+        <button type="button" class="btn btn--ghost" data-cancel hidden>{t(lang, 'tool.actions.cancel')}</button>
+      </div>
+      <div class="results__bar-group results__bar-group--end" data-download-group hidden>
+        <div class="field results__format">
+          <label for="opt-saveas">{t(lang, 'tool.actions.saveAs')}</label>
+          <select id="opt-saveas" data-saveas>
+            <option value="">{t(lang, 'tool.actions.sameAsResized')}</option>
+            <option value="jpeg">JPG</option>
+            <option value="png">PNG</option>
+            <option value="webp">WebP</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn--accent" data-download-all hidden>{t(lang, 'tool.actions.downloadAll')}</button>
+      </div>
+    </div>
+
+    <p class="results__alert" role="alert" data-results-alert hidden></p>
+    <ul class="results__grid" data-grid></ul>
+  </div>
+
   <div class="visually-hidden" aria-live="polite" data-live></div>
 
-  <template data-item-template>
-    <li class="item" data-item>
+  <!-- A row in the "your images" list, before resizing -->
+  <template data-row-template>
+    <li class="item" data-row>
       <div class="item__thumb"><img alt="" width="72" height="72" decoding="async" /></div>
       <div class="item__info">
         <p class="item__name" data-name></p>
         <p class="item__meta" data-meta></p>
-        <p class="item__error" data-error hidden></p>
       </div>
-      <div class="item__side">
-        <span class="item__status" data-status></span>
-        <button type="button" class="btn btn--small" data-download hidden>{t(lang, 'tool.actions.download')}</button>
+      <button type="button" class="icon-button" data-remove>
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" /></svg>
+      </button>
+    </li>
+  </template>
+
+  <!-- A card in the results view, after "Resize images" -->
+  <template data-card-template>
+    <li class="rcard" data-item>
+      <div class="rcard__media">
+        <img alt="" decoding="async" />
+        <span class="rcard__status" data-status></span>
+        <span class="rcard__badge" data-badge hidden></span>
+      </div>
+      <div class="rcard__body">
+        <p class="rcard__name" data-name></p>
+        <p class="rcard__dims" data-dims></p>
+        <dl class="rcard__sizes" data-sizes hidden>
+          <div>
+            <dt>{t(lang, 'tool.results.original')}</dt>
+            <dd data-size-before></dd>
+          </div>
+          <div>
+            <dt>{t(lang, 'tool.results.resized')}</dt>
+            <dd data-size-after></dd>
+          </div>
+        </dl>
+        <p class="rcard__meta" data-meta hidden></p>
+        <p class="rcard__error" data-error hidden></p>
+      </div>
+      <div class="rcard__actions">
+        <button type="button" class="btn rcard__download" data-download hidden>{t(lang, 'tool.actions.download')}</button>
         <button type="button" class="icon-button" data-remove>
           <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" /></svg>
         </button>
@@ -209,7 +258,7 @@ const clientData = {
     </li>
   </template>
 
-  <script type="application/json" data-tool-data set:html={JSON.stringify(clientData)} />
+  <script type="application/json" data-tool-data set:html={safeJson(clientData)} />
 </section>
 
 <script>
@@ -229,7 +278,7 @@ const clientData = {
     min-width: 0;
   }
   /* Two columns whenever the content column is wide enough (not just when the window is) */
-  @container page (min-width: 44rem) {
+  @container page (min-width: 40rem) {
     .tool__grid {
       grid-template-columns: minmax(0, 1.2fr) minmax(19rem, 1fr);
     }
@@ -245,16 +294,6 @@ const clientData = {
       /* room for focus rings, which overflow:auto would otherwise clip */
       padding: 4px;
       margin: -4px;
-    }
-  }
-  /* Narrow screens: the file list's per-row buttons go under the name */
-  @container page (max-width: 36rem) {
-    .item {
-      grid-template-columns: auto minmax(0, 1fr);
-    }
-    .item__side {
-      grid-column: 1 / -1;
-      justify-content: space-between;
     }
   }
 
@@ -381,26 +420,6 @@ const clientData = {
     background: var(--brand);
     transition: width 0.2s ease;
   }
-  .progress__text {
-    margin: var(--space-1) 0 0;
-    font-size: var(--step--1);
-    color: var(--text-muted);
-  }
-
-  .results-bar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    gap: var(--space-3) var(--space-4);
-    margin-top: var(--space-4);
-    padding: var(--space-4);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-  }
-  .results-bar__format {
-    flex: 1 1 14rem;
-  }
 
   .files__list {
     list-style: none;
@@ -410,12 +429,13 @@ const clientData = {
     gap: var(--space-3);
   }
 
+  /* A row in the list of added images (before resizing) */
   .item {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr) auto;
     gap: var(--space-3) var(--space-4);
     align-items: center;
-    padding: var(--space-4);
+    padding: var(--space-3) var(--space-4);
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
@@ -443,38 +463,250 @@ const clientData = {
     direction: ltr;
     text-align: start;
   }
-  .item__meta,
-  .item__error {
+  .item__meta {
     margin: 0;
     font-size: var(--step--1);
     color: var(--text-muted);
   }
-  .item__error {
-    color: var(--danger);
-    font-weight: 600;
+
+  /* ------------------------------------------------------------------------------------------
+     Results view (after "Resize images"): full width, header with progress, toolbar, card grid
+     ------------------------------------------------------------------------------------------ */
+  .results {
+    display: grid;
+    gap: var(--space-5);
   }
-  .item__side {
+  .results__head {
+    display: grid;
+    gap: var(--space-2);
+  }
+  .results__title {
+    margin: 0;
+    font-size: var(--step-3);
+  }
+  .results__title:focus {
+    outline: none;
+  }
+  .results__sub {
+    margin: 0;
+    font-size: var(--step-1);
+    font-weight: 650;
+    color: var(--text-muted);
+  }
+  .results__total {
+    margin: 0;
+    padding: var(--space-3) var(--space-4);
+    background: var(--success-soft);
+    border-radius: var(--radius-md);
+    font-size: var(--step-1);
+    font-weight: 750;
+    color: var(--text);
+  }
+  .progress {
+    margin: var(--space-2) 0 0;
+  }
+  .results__alert {
+    margin: 0;
+    padding: var(--space-3) var(--space-4);
+    background: var(--danger-soft);
+    border-radius: var(--radius-md);
+    font-weight: 650;
+  }
+
+  /* Toolbar: stays reachable while scrolling through many images */
+  .results__bar {
+    position: sticky;
+    top: var(--header-h);
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    gap: var(--space-3) var(--space-5);
+    padding: var(--space-3) var(--space-4);
+    background: color-mix(in srgb, var(--surface) 96%, transparent);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .results__bar-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: var(--space-3);
+  }
+  .results__bar .btn {
+    min-height: var(--control-h);
+    padding-inline: var(--space-5);
+  }
+  .results__format {
+    min-width: 12rem;
+  }
+  @container page (max-width: 40rem) {
+    .results__bar {
+      position: static;
+    }
+    .results__bar-group,
+    .results__bar-group .btn,
+    .results__format {
+      flex: 1 1 100%;
+    }
+  }
+
+  /* Card grid: 1 column on phones, 2-3 on larger screens */
+  .results__grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+    gap: var(--space-4);
+  }
+  .rcard {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-width: 0;
+    overflow: hidden;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+  .rcard[data-state='error'] {
+    border-color: var(--danger);
+  }
+  .rcard__media {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    display: grid;
+    place-items: center;
+    /* light checkerboard so transparent images are easy to see */
+    background:
+      conic-gradient(var(--surface-2) 25%, var(--surface) 0 50%, var(--surface-2) 0 75%, var(--surface) 0) 0 0 /
+      1.25rem 1.25rem;
+  }
+  .rcard__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  .rcard__status {
+    position: absolute;
+    inset-inline: var(--space-3);
+    bottom: var(--space-3);
+    justify-self: center;
+    padding: 0.3rem 0.9rem;
+    border-radius: var(--radius-full);
+    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    color: var(--text);
+    font-size: var(--step--1);
+    font-weight: 700;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+  }
+  .rcard[data-state='done'] .rcard__status {
+    display: none;
+  }
+  .rcard[data-state='error'] .rcard__status {
+    color: var(--danger);
+  }
+  .rcard[data-state='processing'] .rcard__status::before {
+    content: '';
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    margin-inline-end: 0.5em;
+    vertical-align: -0.1em;
+    border: 2px solid var(--border-strong);
+    border-top-color: var(--brand);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .rcard__badge {
+    position: absolute;
+    top: var(--space-3);
+    inset-inline-end: var(--space-3);
+    padding: 0.25rem 0.7rem;
+    border-radius: var(--radius-full);
+    background: var(--success-strong);
+    color: var(--on-success);
+    font-size: var(--step--1);
+    font-weight: 800;
+    box-shadow: var(--shadow-sm);
+  }
+  .rcard__badge--larger {
+    background: var(--warning);
+    color: #fff;
+  }
+  .rcard__body {
+    display: grid;
+    align-content: start;
+    gap: var(--space-2);
+    padding: var(--space-4) var(--space-4) var(--space-2);
+    min-width: 0;
+  }
+  .rcard__name {
+    margin: 0;
+    font-weight: 750;
+    font-size: var(--step-0);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    direction: ltr;
+    text-align: start;
+  }
+  .rcard__dims,
+  .rcard__meta {
+    margin: 0;
+    font-size: var(--step--1);
+    color: var(--text-muted);
+  }
+  .rcard__sizes {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3);
+  }
+  .rcard__sizes dt {
+    font-size: var(--step--1);
+    color: var(--text-muted);
+  }
+  .rcard__sizes dd {
+    margin: 0;
+    font-size: var(--step-1);
+    font-weight: 800;
+  }
+  .rcard__sizes div:last-child dd {
+    color: var(--success-strong);
+  }
+  .rcard__error {
+    margin: 0;
+    font-size: var(--step--1);
+    font-weight: 650;
+    color: var(--danger);
+  }
+  .rcard__actions {
     display: flex;
     align-items: center;
     gap: var(--space-2);
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    padding: var(--space-2) var(--space-4) var(--space-4);
   }
-  .item__status {
-    font-size: var(--step--1);
-    font-weight: 700;
-    color: var(--text-muted);
+  .rcard__download {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: var(--control-h);
   }
-  .item[data-state='done'] .item__status {
-    color: var(--success-strong);
-  }
-  .item[data-state='error'] .item__status {
-    color: var(--danger);
-  }
-  .btn--small {
-    min-height: 2.75rem;
-    padding-inline: var(--space-4);
-    font-size: var(--step--1);
+  .rcard__download:disabled {
+    opacity: 0.7;
   }
   .btn--big {
     min-height: 3.75rem;
@@ -540,6 +772,18 @@ const clientData = {
     font-size: var(--step--1);
     color: var(--text-muted);
   }
+  .field__error {
+    margin: 0;
+    padding: var(--space-3) var(--space-4);
+    background: var(--danger-soft);
+    border-inline-start: 4px solid var(--danger);
+    border-radius: var(--radius-sm);
+    font-weight: 650;
+  }
+  .options :global([aria-invalid='true']) {
+    border-color: var(--danger);
+    background: var(--danger-soft);
+  }
   .row {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -550,7 +794,7 @@ const clientData = {
   }
   .options :global(input[type='number']),
   .options :global(select),
-  .results-bar :global(select) {
+  .results__format :global(select) {
     width: 100%;
     min-height: var(--control-h);
     padding: 0 var(--space-3);
@@ -563,12 +807,13 @@ const clientData = {
   }
   .options :global(input[type='number']):focus,
   .options :global(select):focus,
-  .results-bar :global(select):focus {
+  .results__format :global(select):focus {
     border-color: var(--brand);
   }
   .options :global(input[type='range']) {
     width: 100%;
-    height: 2rem;
+    height: 2.75rem; /* a comfortable touch target (at least 44 px) */
+    margin: 0;
     accent-color: var(--brand);
   }
   .check {

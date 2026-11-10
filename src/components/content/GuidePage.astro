@@ -1,0 +1,241 @@
+---
+/**
+ * A written guide (article) or the guides index. Text comes from the "guides.*" locale entries:
+ *   guides.<key>.{title, description, h1, intro, sections[{title, paragraphs?, bullets?}], faq.items}
+ */
+import Layout from '../../layouts/Layout.astro';
+import { SITE } from '../../config/site';
+import { GUIDES_DATE, GUIDES_INDEX_PATH, GUIDE_ROUTES } from '../../data/routes';
+import { getLanguage, list, localizedPath, t, type MessageKey } from '../../i18n';
+import { safeJson } from '../../i18n/safe-json';
+
+interface Section {
+  title: string;
+  paragraphs?: string[];
+  bullets?: string[];
+}
+interface Props {
+  lang: string;
+  /** 'index' for the list of guides, otherwise the guide key from GUIDE_ROUTES. */
+  guideKey: 'index' | (typeof GUIDE_ROUTES)[number]['key'];
+}
+const { lang, guideKey } = Astro.props;
+
+const p = (suffix: string) => t(lang, `guides.${guideKey}.${suffix}` as MessageKey);
+const route = GUIDE_ROUTES.find((r) => r.key === guideKey);
+const path = route ? route.path : GUIDES_INDEX_PATH;
+const url = new URL(localizedPath(lang, path), SITE.url).href;
+
+const indexItems = list<{ title: string; text: string }>(lang, 'guides.index.items');
+const sections = guideKey === 'index' ? [] : list<Section>(lang, `guides.${guideKey}.sections`);
+const faq = guideKey === 'index' ? [] : list<{ q: string; a: string }>(lang, `guides.${guideKey}.faq.items`);
+// Each other guide, with the title shown on the index page (the items are in the same order as GUIDE_ROUTES).
+const others = GUIDE_ROUTES.map((r, i) => ({ ...r, title: indexItems[i]?.title ?? '', text: indexItems[i]?.text ?? '' }));
+
+const home = { '@type': 'ListItem', position: 1, name: t(lang, 'nav.home'), item: new URL(localizedPath(lang, '/'), SITE.url).href };
+const guidesCrumb = {
+  '@type': 'ListItem',
+  position: 2,
+  name: t(lang, 'guides.nav'),
+  item: new URL(localizedPath(lang, GUIDES_INDEX_PATH), SITE.url).href,
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement:
+    guideKey === 'index' ? [home, guidesCrumb] : [home, guidesCrumb, { '@type': 'ListItem', position: 3, name: p('h1'), item: url }],
+};
+const articleLd =
+  guideKey === 'index'
+    ? null
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: p('h1'),
+        description: p('description'),
+        inLanguage: getLanguage(lang).htmlLang,
+        mainEntityOfPage: url,
+        datePublished: GUIDES_DATE,
+        dateModified: GUIDES_DATE,
+        author: { '@type': 'Person', name: SITE.owner },
+        publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+      };
+const faqLd = faq.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    }
+  : null;
+---
+<Layout title={p('title')} description={p('description')} lang={lang} path={path}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={safeJson(breadcrumbLd)} />
+    {articleLd && <script type="application/ld+json" set:html={safeJson(articleLd)} />}
+    {faqLd && <script type="application/ld+json" set:html={safeJson(faqLd)} />}
+  </Fragment>
+
+  <article class="guide">
+    <h1>{p('h1')}</h1>
+    <p class="lead">{p('intro')}</p>
+
+    {
+      guideKey === 'index' ? (
+        <ul class="guide-list">
+          {others.map((g) => (
+            <li class="card">
+              <h2>
+                <a href={localizedPath(lang, g.path)}>{g.title}</a>
+              </h2>
+              <p>{g.text}</p>
+              <a class="guide-list__more" href={localizedPath(lang, g.path)}>
+                {t(lang, 'guides.common.readGuide')}
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <>
+          {sections.map((s) => (
+            <section class="guide__section">
+              <h2>{s.title}</h2>
+              {s.paragraphs?.map((text) => <p>{text}</p>)}
+              {s.bullets && s.bullets.length > 0 && (
+                <ul>
+                  {s.bullets.map((b) => (
+                    <li>{b}</li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          ))}
+
+          <aside class="guide__cta card" aria-label={t(lang, 'guides.common.openTool')}>
+            <p>{t(lang, 'guides.common.toolHint')}</p>
+            <a class="btn" href={localizedPath(lang, '/')}>{t(lang, 'guides.common.openTool')}</a>
+          </aside>
+
+          {faq.length > 0 && (
+            <section class="guide__section" aria-labelledby="guide-faq">
+              <h2 id="guide-faq">{t(lang, 'common.faqTitle')}</h2>
+              <div class="faq">
+                {faq.map((item) => (
+                  <details>
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <section class="guide__section" aria-labelledby="guide-more">
+            <h2 id="guide-more">{t(lang, 'guides.common.moreGuides')}</h2>
+            <ul class="guide-links">
+              {others
+                .filter((g) => g.key !== guideKey)
+                .map((g) => (
+                  <li>
+                    <a href={localizedPath(lang, g.path)}>{g.title}</a>
+                  </li>
+                ))}
+              <li>
+                <a href={localizedPath(lang, GUIDES_INDEX_PATH)}>{t(lang, 'guides.nav')}</a>
+              </li>
+            </ul>
+          </section>
+        </>
+      )
+    }
+  </article>
+</Layout>
+
+<style>
+  .guide {
+    max-width: 48rem;
+  }
+  .lead {
+    font-size: var(--step-1);
+    color: var(--text-muted);
+  }
+  .guide__section {
+    margin-top: var(--space-7);
+  }
+  .guide__section h2 {
+    font-size: var(--step-2);
+  }
+  .guide p,
+  .guide li {
+    line-height: 1.65;
+  }
+  .guide__section ul {
+    padding-inline-start: 1.25rem;
+    display: grid;
+    gap: var(--space-2);
+  }
+  .guide__cta {
+    display: grid;
+    gap: var(--space-3);
+    justify-items: start;
+    margin-top: var(--space-7);
+    padding: var(--space-5);
+    background: var(--brand-soft);
+  }
+  .guide__cta p {
+    margin: 0;
+    font-weight: 650;
+  }
+  .guide-list {
+    list-style: none;
+    margin: var(--space-6) 0 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-4);
+  }
+  .guide-list li {
+    padding: var(--space-5);
+  }
+  .guide-list h2 {
+    font-size: var(--step-1);
+    margin: 0 0 var(--space-2);
+  }
+  .guide-list p {
+    margin: 0 0 var(--space-3);
+    color: var(--text-muted);
+  }
+  .guide-list__more,
+  .guide-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem; /* touch target of at least 44 px */
+    font-weight: 650;
+  }
+  .guide-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-1);
+  }
+  .faq {
+    display: grid;
+    gap: var(--space-2);
+  }
+  .faq details {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 0 var(--space-4);
+  }
+  .faq summary {
+    cursor: pointer;
+    font-weight: 650;
+    padding: var(--space-3) 0;
+    min-height: var(--control-h);
+    font-size: var(--step-1);
+  }
+  .faq p {
+    margin: 0 0 var(--space-4);
+    color: var(--text-muted);
+  }
+</style>

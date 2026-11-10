@@ -6,8 +6,9 @@
 }
 
 html {
-  /* 18px on phones (bigger than the usual 16px so text is easy to read), growing on large monitors, capped at 28px (4K). */
-  font-size: clamp(18px, 0.4vw + 12.5px, 28px);
+  /* 18px on phones (bigger than the usual 16px so text is easy to read), growing on large monitors, capped at 28px (4K).
+     Written in rem so the text-size choice made in the browser or phone settings still applies. */
+  font-size: clamp(1.125rem, 0.4vw + 0.78rem, 1.75rem);
   scrollbar-color: var(--brand) var(--surface-2);
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -268,6 +269,8 @@ select optgroup {
 }
 .badge {
   display: inline-flex;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   align-items: center;
   gap: 0.5rem;
   padding: 0.45rem 1rem 0.45rem 0.6rem;

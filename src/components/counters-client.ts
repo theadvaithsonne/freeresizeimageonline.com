@@ -136,6 +136,13 @@ export function initCounters(): void {
     stopped = true;
     disconnect();
   });
+  // Coming back through the browser's back/forward cache: the page is alive again, so reconnect.
+  window.addEventListener('pageshow', (event) => {
+    if (!(event as PageTransitionEvent).persisted) return;
+    stopped = false;
+    attempts = 0;
+    connect();
+  });
 
   connect();
 }

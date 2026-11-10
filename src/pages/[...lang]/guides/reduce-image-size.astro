@@ -1,0 +1,10 @@
+---
+import GuidePage from '../../../components/content/GuidePage.astro';
+import { languageStaticPaths } from '../../../i18n';
+
+export function getStaticPaths() {
+  return languageStaticPaths();
+}
+const { lang } = Astro.props;
+---
+<GuidePage lang={lang} guideKey="reduce" />

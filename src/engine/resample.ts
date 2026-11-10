@@ -5,13 +5,24 @@ import { EngineError } from './types';
 type PicaInstance = ReturnType<typeof Pica>;
 let picaPromise: Promise<PicaInstance> | undefined;
 
-/** Load Pica lazily so pages that never resize don't pay for it. */
-function getPica(): Promise<PicaInstance> {
-  picaPromise ??= import('pica').then((m) => {
-    const Ctor = (m.default ?? m) as unknown as new () => PicaInstance;
-    return new Ctor();
-  });
-  return picaPromise;
+/**
+ * Load Pica lazily so pages that never resize don't pay for it. A failed download (flaky mobile connection) is
+ * NOT remembered: the next resize tries again. Returns null when it cannot be loaded.
+ */
+async function getPica(): Promise<PicaInstance | null> {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    picaPromise ??= import('pica').then((m) => {
+      const Ctor = (m.default ?? m) as unknown as new () => PicaInstance;
+      return new Ctor();
+    });
+    try {
+      return await picaPromise;
+    } catch {
+      picaPromise = undefined; // forget the failure so a later try can succeed
+      if (attempt === 0) await new Promise((r) => setTimeout(r, 400));
+    }
+  }
+  return null;
 }
 
 /** The plan scaled by an extra factor (used when shrinking to reach a target file size). */
@@ -51,7 +62,14 @@ export async function resample(bitmap: ImageBitmap, plan: ResizePlan): Promise<I
       }
       try {
         const pica = await getPica();
-        await pica.resize(source, dest);
+        if (pica) {
+          await pica.resize(source, dest);
+        } else {
+          // Resizer library unavailable: use the browser's own high-quality scaling so the visitor still gets a result.
+          ctx.imageSmoothingEnabled = true;
+          ctx.imageSmoothingQuality = 'high';
+          ctx.drawImage(source, 0, 0, source.width, source.height, 0, 0, plan.outW, plan.outH);
+        }
       } finally {
         if (cropped) source.close();
       }

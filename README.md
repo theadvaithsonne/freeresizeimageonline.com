@@ -8,7 +8,7 @@ Static site on Cloudflare, 20 languages, monetised with Google AdSense.
 - How to deploy and connect AdSense / Search Console: [docs/DEPLOY.md](docs/DEPLOY.md)
 
 ## Requirements
-- Node.js 20+ and npm (Cloudflare deploys use `.node-version` = 22)
+- Node.js 22.23.4 or newer and npm (`.node-version` = 22)
 
 ## Commands
 | Command | What it does |

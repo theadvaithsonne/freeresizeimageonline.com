@@ -12,9 +12,6 @@ const FONTS = [
   'noto-sans-arabic',
   'noto-sans-bengali',
   'noto-sans-thai',
-  'noto-sans-jp',
-  'noto-sans-kr',
-  'noto-sans-sc',
 ];
 
 const out = join(root, 'public', 'fonts');

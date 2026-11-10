@@ -3,12 +3,13 @@ import type core from './locales/en/core.json';
 import type tool from './locales/en/tool.json';
 import type pages from './locales/en/pages.json';
 import type legal from './locales/en/legal.json';
+import type guides from './locales/en/guides.json';
 
 /**
  * Every language has the same set of files under src/i18n/locales/<code>/ (core, tool, pages, legal).
  * English is the source of truth; tests verify the others match it.
  */
-export type Messages = typeof core & typeof tool & typeof pages & typeof legal;
+export type Messages = typeof core & typeof tool & typeof pages & typeof legal & typeof guides;
 
 type Join<K extends string, P extends string> = `${K}.${P}`;
 /** Dotted paths to string leaves. Arrays (steps, FAQ lists) are read with list() instead. */

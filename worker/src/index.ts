@@ -22,9 +22,11 @@ interface Attachment {
   windowSum: number;
 }
 
-const MAX_PER_MESSAGE = 100; // images in one batch message
+const MAX_PER_MESSAGE = 500; // images in one batch message (the site allows 500 files at a time)
 const MAX_PER_HOUR_PER_CONNECTION = 2000;
-const MIN_GAP_MS = 1000; // between resize messages on one connection
+const MIN_GAP_MS = 500; // between resize messages on one connection
+const MAX_SOCKETS = 2000; // open connections accepted in total; beyond this new visitors simply see no counter
+const MAX_PER_MINUTE_GLOBAL = 5000; // images counted per minute across all visitors (limits abuse by many connections)
 
 function originAllowed(request: Request, env: Env): boolean {
   const allowed = env.ALLOWED_ORIGINS.split(',').map((s) => s.trim()).filter(Boolean);
@@ -54,10 +56,17 @@ export default {
     }
 
     if (url.pathname === '/stats') {
-      const stats = await stub.getStats();
-      return Response.json(stats, {
-        headers: { ...corsHeaders(request, env), 'Cache-Control': 'public, max-age=15' },
-      });
+      // Answered from the edge cache for 15 s, so a burst of readers costs one Durable Object call, not thousands.
+      const cache = (caches as unknown as { default: Cache }).default;
+      const cacheKey = new Request(new URL('/stats', url.origin).href);
+      const cached = await cache.match(cacheKey);
+      const base =
+        cached ??
+        Response.json(await stub.getStats(), { headers: { 'Cache-Control': 'public, max-age=15' } });
+      if (!cached) await cache.put(cacheKey, base.clone());
+      const response = new Response(base.body, base);
+      for (const [k, v] of Object.entries(corsHeaders(request, env))) response.headers.set(k, v);
+      return response;
     }
 
     return new Response('FreeResizeImageOnline counters', { status: 200 });
@@ -67,6 +76,8 @@ export default {
 export class Counter extends DurableObject<Env> {
   private total = 0;
   private broadcastScheduled = false;
+  private minuteStart = 0;
+  private minuteSum = 0;
 
   constructor(ctx: DurableObjectState, env: Env) {
     super(ctx, env);
@@ -86,6 +97,7 @@ export class Counter extends DurableObject<Env> {
   }
 
   async fetch(_request: Request): Promise<Response> {
+    if (this.ctx.getWebSockets().length >= MAX_SOCKETS) return new Response('Busy', { status: 503 });
     const pair = new WebSocketPair();
     const [client, server] = Object.values(pair) as [WebSocket, WebSocket];
     this.ctx.acceptWebSocket(server);
@@ -116,8 +128,13 @@ export class Counter extends DurableObject<Env> {
       a.windowStart = now;
       a.windowSum = 0;
     }
-    const allowed = Math.min(n, MAX_PER_MESSAGE, MAX_PER_HOUR_PER_CONNECTION - a.windowSum);
+    if (now - this.minuteStart > 60_000) {
+      this.minuteStart = now;
+      this.minuteSum = 0;
+    }
+    const allowed = Math.min(n, MAX_PER_MESSAGE, MAX_PER_HOUR_PER_CONNECTION - a.windowSum, MAX_PER_MINUTE_GLOBAL - this.minuteSum);
     if (allowed < 1) return;
+    this.minuteSum += allowed;
 
     a.lastResizeAt = now;
     a.windowSum += allowed;

@@ -9,6 +9,7 @@ interface Props {
 const { lang } = Astro.props;
 const year = new Date().getFullYear();
 const links = [
+  { href: localizedPath(lang, '/guides/'), label: t(lang, 'guides.nav') },
   { href: localizedPath(lang, '/about/'), label: t(lang, 'footer.about') },
   { href: localizedPath(lang, '/contact/'), label: t(lang, 'footer.contact') },
   { href: localizedPath(lang, '/privacy/'), label: t(lang, 'footer.privacy') },
@@ -23,7 +24,7 @@ const links = [
       <nav class="site-footer__nav" aria-label={t(lang, 'footer.label')}>
         {links.map((l) => <a href={l.href}>{l.label}</a>)}
         {
-          ADSENSE.client && (
+          ADSENSE.client && ADSENSE.consentMessage && (
             <button type="button" class="site-footer__cookies" data-cookie-settings>
               {t(lang, 'footer.cookies')}
             </button>
@@ -72,6 +73,9 @@ const links = [
   }
   .site-footer__nav a,
   .site-footer__cookies {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem; /* touch target of at least 44 px */
     color: var(--text);
     font-weight: 600;
     font-size: inherit;

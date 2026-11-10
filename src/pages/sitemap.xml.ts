@@ -8,7 +8,8 @@ import { LANGUAGES, localizedPath } from '../i18n';
  */
 export const GET: APIRoute = () => {
   const abs = (path: string) => new URL(path, SITE.url).href;
-  const lastmod = SITE.legalUpdated;
+  // The date of this build: every deploy regenerates the pages, so this is when they last changed.
+  const lastmod = new Date().toISOString().slice(0, 10);
 
   const urls = ALL_PATHS.flatMap((path) =>
     LANGUAGES.map((lang) => {

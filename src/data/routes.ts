@@ -25,4 +25,19 @@ export const LEGAL_ROUTES = [
   { key: 'terms', path: '/terms/' },
 ] as const;
 
-export const ALL_PATHS: string[] = [...TOOL_ROUTES.map((r) => r.path), ...LEGAL_ROUTES.map((r) => r.path)];
+/** Written guides (articles). Text lives under "guides.<key>" in the locale files. */
+export const GUIDES_INDEX_PATH = '/guides/';
+export const GUIDE_ROUTES = [
+  { key: 'reduce', path: '/guides/reduce-image-size/' },
+  { key: 'formats', path: '/guides/jpg-vs-png-vs-webp/' },
+  { key: 'forms', path: '/guides/photo-size-for-online-forms/' },
+] as const;
+/** Date the guides were published / last reviewed (shown to search engines as structured data). */
+export const GUIDES_DATE = '2026-11-11';
+
+export const ALL_PATHS: string[] = [
+  ...TOOL_ROUTES.map((r) => r.path),
+  GUIDES_INDEX_PATH,
+  ...GUIDE_ROUTES.map((r) => r.path),
+  ...LEGAL_ROUTES.map((r) => r.path),
+];

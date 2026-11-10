@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { PRESET_GROUPS, findPreset, presetLabel } from '../src/data/presets';
-import { ALL_PATHS, LEGAL_ROUTES, TOOL_ROUTES } from '../src/data/routes';
+import { ALL_PATHS, GUIDE_ROUTES, LEGAL_ROUTES, TOOL_ROUTES } from '../src/data/routes';
 import { toPixels } from '../src/engine/units';
 import { getMessages, subtree, t } from '../src/i18n';
+import { safeJson } from '../src/i18n/safe-json';
 
 const allPresets = PRESET_GROUPS.flatMap((g) => g.presets);
 
@@ -60,5 +61,32 @@ describe('routes', () => {
     const en = getMessages('en') as unknown as Record<string, Record<string, unknown>>;
     for (const r of TOOL_ROUTES) expect(en.nav![r.key], r.key).toBeTruthy();
     for (const r of LEGAL_ROUTES) expect((en.legal as Record<string, unknown>)[r.key], r.key).toBeTruthy();
+  });
+
+  it('every guide has a title, intro, sections and FAQ, and the index lists each guide in route order', () => {
+    const guides = (getMessages('en') as unknown as { guides: Record<string, Record<string, unknown>> }).guides;
+    for (const r of GUIDE_ROUTES) {
+      const g = guides[r.key]!;
+      expect(g.title, r.key).toBeTruthy();
+      expect(g.h1, r.key).toBeTruthy();
+      expect(g.intro, r.key).toBeTruthy();
+      expect((g.sections as unknown[]).length, r.key).toBeGreaterThan(2);
+      expect(((g.faq as { items: unknown[] }).items).length, r.key).toBeGreaterThan(0);
+    }
+    const items = (guides.index as { items: { title: string }[] }).items;
+    expect(items.length).toBe(GUIDE_ROUTES.length);
+    // The index page pairs item N with route N; the titles must agree with the guides' own headings.
+    GUIDE_ROUTES.forEach((r, i) => expect(items[i]!.title.toLowerCase(), r.key).toContain(String(guides[r.key]!.h1).toLowerCase().slice(0, 12)));
+  });
+});
+
+describe('structured data helper', () => {
+  it('never lets text end a <script> block', () => {
+    const text = `</script><script>alert(1)</script>${String.fromCharCode(0x2028)}${String.fromCharCode(0x2029)}`;
+    const json = safeJson({ text });
+    expect(json).not.toContain('<');
+    expect(json).not.toContain(String.fromCharCode(0x2028));
+    expect(json).not.toContain(String.fromCharCode(0x2029));
+    expect(JSON.parse(json).text).toBe(text); // the escapes decode back to the original text
   });
 });

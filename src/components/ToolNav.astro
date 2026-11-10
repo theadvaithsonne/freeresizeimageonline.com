@@ -3,7 +3,7 @@
  * Strip of links to every tool page, under the header. Helps people find the right tool quickly
  * (and search engines find every page). The current page is highlighted.
  */
-import { TOOL_ROUTES } from '../data/routes';
+import { GUIDES_INDEX_PATH, TOOL_ROUTES } from '../data/routes';
 import { localizedPath, t } from '../i18n';
 
 interface Props {
@@ -12,17 +12,22 @@ interface Props {
   path: string;
 }
 const { lang, path } = Astro.props;
+// The tool links plus one link to the written guides (highlighted on the guides index and on every guide).
+const links = [
+  ...TOOL_ROUTES.map((r) => ({ href: r.path, label: t(lang, `nav.${r.key}` as 'nav.home'), current: r.path === path })),
+  { href: GUIDES_INDEX_PATH, label: t(lang, 'guides.nav'), current: path.startsWith(GUIDES_INDEX_PATH) },
+];
 ---
 <nav class="toolnav" aria-label={t(lang, 'common.related')}>
   <div class="container toolnav__inner">
     {
-      TOOL_ROUTES.map((r) => (
+      links.map((l) => (
         <a
-          href={localizedPath(lang, r.path)}
-          aria-current={r.path === path ? 'page' : undefined}
-          class:list={{ 'is-current': r.path === path }}
+          href={localizedPath(lang, l.href)}
+          aria-current={l.current ? 'page' : undefined}
+          class:list={{ 'is-current': l.current }}
         >
-          {t(lang, `nav.${r.key}` as 'nav.home')}
+          {l.label}
         </a>
       ))
     }

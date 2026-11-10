@@ -1,4 +1,4 @@
-# Cloudflare Pages response headers.
+# Response headers for the static assets (Cloudflare Workers static assets read this file).
 # Note: no strict Content-Security-Policy on purpose. Google AdSense loads scripts, frames and images from
 # many changing domains, and a strict policy would silently break ads. The resizer needs blob: workers
 # (used by Pica and our encoder), which a CSP would also have to allow.

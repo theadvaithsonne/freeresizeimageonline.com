@@ -72,9 +72,11 @@ class WorkerEncoder implements Encoder {
   }
 
   dispose(): void {
-    void this.request({ id: this.nextId++, type: 'clear' }).catch(() => {});
-    this.worker.terminate();
+    // Anything still waiting (for example a long encode when the visitor presses Cancel) must not hang forever.
+    const cancelled = new Error('cancelled');
+    for (const p of this.pending.values()) p.reject(cancelled);
     this.pending.clear();
+    this.worker.terminate();
   }
 }
 
@@ -130,6 +132,7 @@ export function createEncoder(): Encoder {
   let active: Encoder;
   let lastImage: { image: ImageData; flattenOn: string | null } | null = null;
   let usingFallback = false;
+  let disposed = false;
 
   try {
     active = typeof Worker === 'undefined' ? new CanvasEncoder() : new WorkerEncoder();
@@ -151,24 +154,31 @@ export function createEncoder(): Encoder {
       return usingFallback ? ('canvas' as const) : ('wasm' as const);
     },
     async setImage(image, flattenOn) {
+      if (disposed) throw new EngineError('cancelled', 'Cancelled');
       lastImage = { image, flattenOn };
       try {
         await active.setImage(image, flattenOn);
       } catch (err) {
+        if (disposed) throw new EngineError('cancelled', 'Cancelled');
         if (usingFallback) throw err;
         await switchToFallback();
       }
     },
     async encode(format, quality, optimize) {
+      if (disposed) throw new EngineError('cancelled', 'Cancelled');
       try {
         return await active.encode(format, quality, optimize);
       } catch (err) {
+        // Cancel (or leaving the page) disposes the encoder while work is running: that is not a codec failure,
+        // so do not switch to the slower fallback encoder.
+        if (disposed) throw new EngineError('cancelled', 'Cancelled');
         if (usingFallback) throw err;
         await switchToFallback();
         return active.encode(format, quality, optimize);
       }
     },
     dispose() {
+      disposed = true;
       active.dispose();
       lastImage = null;
     },

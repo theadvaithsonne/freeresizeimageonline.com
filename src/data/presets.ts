@@ -24,7 +24,7 @@ export type PresetWord =
 export type PresetGroupId = 'social' | 'documents' | 'forms' | 'marketplaces' | 'web';
 
 interface Base {
-  /** Stable id, also usable in URLs (?preset=ig-post). */
+  /** Stable id, used by the landing pages to preselect a preset (e.g. "ig-post"). */
   id: string;
   /** Proper noun shown first (platform or country). */
   name?: string;

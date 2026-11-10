@@ -1,7 +1,7 @@
 ---
 /** Legal / info pages: About, Contact, Privacy, Terms. Text comes from the "legal.*" locale entries. */
 import Layout from '../../layouts/Layout.astro';
-import { SITE } from '../../config/site';
+import { COUNTERS, SITE } from '../../config/site';
 import { fill, list, localizedPath, t, type MessageKey } from '../../i18n';
 import { formatDate } from '../../i18n/format';
 
@@ -18,11 +18,14 @@ const vars = {
   place: SITE.jurisdiction.place,
 };
 const paragraphs = list<string>(lang, `legal.${pageKey}.paragraphs`).map((s) => fill(s, vars));
-const sections = list<{ title: string; text: string }>(lang, `legal.${pageKey}.sections`).map((s) => ({
-  title: s.title,
-  text: fill(s.text, vars),
-}));
+// Privacy section 3 ("Live statistics") describes the visitor counters; it only appears while the counters exist.
+const LIVE_STATS_SECTION = 2;
+const sections = list<{ title: string; text: string }>(lang, `legal.${pageKey}.sections`)
+  .filter((_, i) => !(pageKey === 'privacy' && i === LIVE_STATS_SECTION && !COUNTERS.endpoint))
+  .map((s) => ({ title: s.title, text: fill(s.text, vars) }));
 const showDate = pageKey === 'privacy' || pageKey === 'terms';
+// Legal documents are numbered so they can be cited; About and Contact read as ordinary pages.
+const numbered = showDate;
 ---
 <Layout title={p('title')} description={p('description')} lang={lang} path={`/${pageKey}/`} ads={false} toolNav={false}>
   <article class="legal">
@@ -60,7 +63,7 @@ const showDate = pageKey === 'privacy' || pageKey === 'terms';
     {
       sections.map((s, i) => (
         <section>
-          <h2>{i + 1}. {s.title}</h2>
+          <h2>{numbered ? `${i + 1}. ${s.title}` : s.title}</h2>
           <p>{s.text}</p>
         </section>
       ))
@@ -134,7 +137,13 @@ const showDate = pageKey === 'privacy' || pageKey === 'terms';
   .legal__links {
     padding-inline-start: 1.25rem;
     display: grid;
-    gap: var(--space-2);
+    gap: var(--space-1);
+  }
+  .legal__links a,
+  .legal__back a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem; /* touch target of at least 44 px */
   }
   .legal__back {
     margin-top: var(--space-7);
