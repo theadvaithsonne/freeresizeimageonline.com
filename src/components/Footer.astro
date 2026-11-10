@@ -61,7 +61,7 @@ const links = [
         {links.map((l) => <a href={l.href}>{l.label}</a>)}
         {
           cookieLink && (
-            <button type="button" class="site-footer__cookies" data-cookie-settings>
+            <button type="button" class="site-footer__cookies" data-cookie-settings hidden>
               {t(lang, 'footer.cookies')}
             </button>
           )
@@ -72,15 +72,26 @@ const links = [
 </footer>
 
 <script>
-  // Re-opens Google's consent message (set up inside AdSense > Privacy & messaging) so visitors can change their choice.
-  document.querySelectorAll<HTMLElement>('[data-cookie-settings]').forEach((button) => {
+  // "Cookie settings" re-opens Google's consent message (AdSense > Privacy & messaging) so visitors can change their
+  // choice. Google only loads that message for visitors in the EEA, UK and Switzerland, so the button stays hidden
+  // until Google's code is really there; for everyone else it would do nothing.
+  type Fc = { callbackQueue?: unknown[]; showRevocationMessage?: () => void };
+  const fc = () => (window as unknown as { googlefc?: Fc }).googlefc;
+  const buttons = document.querySelectorAll<HTMLElement>('[data-cookie-settings]');
+  buttons.forEach((button) => {
     button.addEventListener('click', () => {
-      const w = window as unknown as { googlefc?: { callbackQueue?: unknown[]; showRevocationMessage?: () => void } };
-      if (w.googlefc?.callbackQueue && w.googlefc.showRevocationMessage) {
-        w.googlefc.callbackQueue.push(w.googlefc.showRevocationMessage);
-      }
+      const f = fc();
+      if (f?.callbackQueue && f.showRevocationMessage) f.callbackQueue.push(f.showRevocationMessage);
     });
   });
+  if (buttons.length > 0) {
+    let tries = 0;
+    const reveal = () => {
+      if (fc()?.showRevocationMessage) buttons.forEach((b) => (b.hidden = false));
+      else if (++tries < 40) setTimeout(reveal, 500); // look for up to 20 seconds
+    };
+    reveal();
+  }
 </script>
 
 <style>
