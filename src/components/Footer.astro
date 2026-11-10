@@ -1,13 +1,15 @@
 ---
-import { ADSENSE, SITE } from '../config/site';
+import { SITE } from '../config/site';
 import { FAQ_PATH, GUIDES_INDEX_PATH, GUIDE_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
 import { list, localizedPath, t, type MessageKey } from '../i18n';
 import Counters from './Counters.astro';
 
 interface Props {
   lang: string;
+  /** Show "Cookie settings": only on pages where Google's script is loaded (it re-opens Google's consent message) and once that message exists. */
+  cookieLink?: boolean;
 }
-const { lang } = Astro.props;
+const { lang, cookieLink = false } = Astro.props;
 const year = new Date().getFullYear();
 
 // Site map columns: every tool page and guide is linked from every page (good for visitors and for search engines).
@@ -58,7 +60,7 @@ const links = [
       <nav class="site-footer__nav" aria-label={t(lang, 'footer.label')}>
         {links.map((l) => <a href={l.href}>{l.label}</a>)}
         {
-          ADSENSE.client && ADSENSE.consentMessage && (
+          cookieLink && (
             <button type="button" class="site-footer__cookies" data-cookie-settings>
               {t(lang, 'footer.cookies')}
             </button>

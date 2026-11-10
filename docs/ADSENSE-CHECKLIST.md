@@ -41,7 +41,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | No ads in modals, loading or empty states | Done |
 | No incentives to click, no asking for clicks | Done: the only text is "Ads keep FreeResizeImageOnline free. Everything works without them." |
 | Layout does not jump when ads load (Better Ads / user experience) | Done: fixed reserved heights; measured layout shift ~0 |
-| Auto ads | **You**: set **OFF** now. The live site shows Google injecting its own "auto" ad container (empty for now), so Auto ads is ON in your account (AdSense -> Sites -> freeresizeimageonline.com -> Auto ads). With the snippet on the page, Auto ads would otherwise place ads anywhere. Manual placement is built in |
+| Auto ads | Done: shown as OFF for freeresizeimageonline.com (Ads > By site, checked by the owner on 2026-11-11). Google's script still adds one empty, zero-height element (`adsbygoogle-noablate`); it has no visible effect Manual placement is built in |
 | Ad units | **You** (after approval): create 1 vertical unit (right column) and 1 responsive unit (phones), paste the slot ids in `src/config/site.ts`, redeploy |
 
 ## 5. Content policies

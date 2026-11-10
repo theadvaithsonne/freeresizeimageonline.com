@@ -134,7 +134,7 @@ const loadAdScript = Boolean(ADSENSE.client) && ads && (ADS_LIVE || path === '/'
       }
     </div>
 
-    <Footer lang={lang} />
+    <Footer lang={lang} cookieLink={loadAdScript && ADSENSE.consentMessage} />
 
     {
       loadAdScript && (
