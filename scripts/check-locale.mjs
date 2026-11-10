@@ -7,7 +7,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'i18n', 'locales');
-const FILES = ['core.json', 'tool.json', 'pages.json', 'legal.json'];
+const FILES = ['core.json', 'tool.json', 'pages.json', 'legal.json', 'guides.json'];
 const PROTECTED = ['FreeResizeImageOnline', 'Google AdSense', 'Cloudflare', 'WebAssembly', 'JavaScript'];
 // Keys whose value may legitimately equal English (brand strings, units, formats, URLs, etc.)
 const SAME_OK = /(^|\.)(locationValue)$/;

@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Poradniki",
+    "common": {
+      "openTool": "Otwórz darmowe narzędzie do zmiany rozmiaru obrazów",
+      "toolHint": "Wypróbuj sam: Twoje obrazy zostają na Twoim urządzeniu.",
+      "moreGuides": "Więcej poradników",
+      "readGuide": "Przeczytaj poradnik"
+    },
+    "index": {
+      "title": "Poradniki o zdjęciach: zmniejszanie, formaty i konwersja",
+      "description": "Proste poradniki: jak zmniejszyć zdjęcia, wybrać między JPG, PNG i WebP oraz spełnić limity rozmiaru zdjęć w formularzach online.",
+      "h1": "Poradniki o rozmiarze obrazów",
+      "intro": "Krótkie, praktyczne poradniki na najczęstsze pytania: jak zmniejszyć zdjęcie tak, aby nie wyglądało gorzej, jaki format pliku wybrać i jak wysłać zdjęcie przez formularz online, który ma surowy limit rozmiaru.",
+      "items": [
+        { "title": "Jak zmniejszyć rozmiar zdjęcia bez utraty jakości", "text": "Cztery kroki, które mają znaczenie, w odpowiedniej kolejności, oraz błędy, przez które pliki stają się większe lub bardziej rozmyte." },
+        { "title": "JPG, PNG czy WebP: którego formatu użyć?", "text": "W czym każdy format jest dobry, gdzie zawodzi i jak prosto wybrać odpowiedni." },
+        { "title": "Rozmiar zdjęcia do formularzy online: limity KB, piksele i formaty", "text": "Jak odczytać wymagania dotyczące rozmiaru i jak zmniejszyć zdjęcie poniżej 20 KB, 50 KB lub 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "Jak zmniejszyć rozmiar zdjęcia bez utraty jakości - 4 kroki",
+      "description": "Cztery kroki, by zmniejszyć zdjęcia bez widocznej straty: zmień rozmiar, wybierz właściwy format, lekko obniż jakość i usuń ukryte dane.",
+      "h1": "Jak zmniejszyć rozmiar obrazu bez utraty jakości",
+      "intro": "Zdjęcie z nowoczesnego telefonu może mieć od 3 do 8 MB. To znacznie więcej, niż potrzebuje strona internetowa, e-mail czy formularz online. Dobra wiadomość jest taka, że większość obrazów można zmniejszyć o 70-95 procent, a na ekranie nadal będą wyglądać prawie tak samo. Ten poradnik wyjaśnia, od czego zależy rozmiar pliku i jak go odchudzić w czterech krokach.",
+      "sections": [
+        {
+          "title": "Od czego zależy rozmiar pliku obrazu?",
+          "paragraphs": [
+            "O rozmiarze pliku obrazu decydują dwie rzeczy: liczba pikseli i to, jak mocno te piksele są skompresowane. Zdjęcie o rozdzielczości 12 megapikseli (4000 na 3000 pikseli) zawiera dwanaście milionów kolorowych punktów. Nawet przy dobrej kompresji to mnóstwo danych.",
+            "Liczba pikseli rośnie z kwadratem szerokości. Jeśli zmniejszysz o połowę i szerokość, i wysokość, obraz będzie miał tylko jedną czwartą pikseli, więc plik może być mniej więcej cztery razy mniejszy. Dlatego zmiana rozmiaru to najskuteczniejszy krok i dlatego zawsze warto zacząć właśnie od niego."
+          ]
+        },
+        {
+          "title": "Krok 1: Zmień rozmiar na taki, jaki naprawdę jest potrzebny",
+          "paragraphs": [
+            "Ekrany są mniejsze, niż się wydaje. Obraz na pełnym ekranie laptopa potrzebuje około 1920 pikseli szerokości, obraz w środku strony internetowej często potrzebuje 800-1200, a miniatura 150-300. Wysyłanie zdjęcia o szerokości 4000 pikseli, które i tak zostanie wyświetlone w 800, marnuje większość pliku."
+          ],
+          "bullets": [
+            "Strony internetowe i blogi: 1200-2000 pikseli szerokości.",
+            "E-mail i komunikatory: 1024-1600 pikseli dłuższego boku.",
+            "Posty na Instagramie i Facebooku: 1080 pikseli szerokości.",
+            "Formularze online i zdjęcia do dokumentów: tyle, ile podaje formularz, często 200-600 pikseli."
+          ]
+        },
+        {
+          "title": "Krok 2: Wybierz odpowiedni format",
+          "paragraphs": [
+            "Zdjęcia najlepiej zapisywać jako JPG lub WebP. Logo, zrzuty ekranu i rysunki z ostrymi krawędziami lepiej sprawdzają się w PNG, a w WebP, jeśli dana strona go obsługuje. Zapisanie zdjęcia jako PNG może dać plik pięć do dziesięciu razy większy niż to samo zdjęcie w JPG, bez żadnej widocznej korzyści. Różnice dokładnie opisuje nasz poradnik o formatach JPG, PNG i WebP."
+          ]
+        },
+        {
+          "title": "Krok 3: Trochę obniż jakość",
+          "paragraphs": [
+            "JPG i WebP pozwalają wymienić jakość na rozmiar. Ta zależność nie jest linią prostą: przejście ze 100 na 85 zwykle odejmuje ponad połowę rozmiaru pliku i jest prawie niezauważalne, a przejście z 85 na 40 oszczędza już mniej, za to zaczyna być widać blokowe krawędzie i rozmazane szczegóły.",
+            "Dla zdjęć dobrym punktem wyjścia jest jakość od 70 do 85. Jeśli plik ma się zmieścić w stałym limicie, na przykład 100 KB, użyj opcji Ogranicz rozmiar pliku: narzędzie wypróbuje różne poziomy jakości i zostawi najwyższy, który się zmieści."
+          ]
+        },
+        {
+          "title": "Krok 4: Usuń ukryte dane",
+          "paragraphs": [
+            "Zdjęcia z telefonów i aparatów zawierają ukryte informacje zwane metadanymi: model aparatu, datę, a czasem dokładną lokalizację GPS. Nieco zwiększają one rozmiar pliku, a co ważniejsze, mogą zdradzić, gdzie zdjęcie zostało zrobione. Zapisanie obrazu ponownie za pomocą narzędzia, które nie kopiuje metadanych, je usuwa. Pliki tworzone na tej stronie ich nie zawierają."
+          ]
+        },
+        {
+          "title": "Błędy, które pogarszają obrazy",
+          "bullets": [
+            "Powiększanie małego obrazu. Większe płótno nie doda szczegółów, których nigdy nie zarejestrowano. Efekt jest miękki, a plik rośnie.",
+            "Wielokrotne zapisywanie JPG. Każdy zapis odbiera trochę jakości. Zachowaj oryginał i za każdym razem rób nową kopię.",
+            "Robienie zrzutu ekranu zamiast zapisania zdjęcia. Zrzuty ekranu są często większe i mniej ostre.",
+            "Używanie PNG do zdjęć. To format bezstratny, więc plik pozostaje duży."
+          ]
+        },
+        {
+          "title": "Szybki przepis",
+          "paragraphs": [
+            "Dla większości zdjęć: zmień rozmiar na potrzebną szerokość, zapisz jako JPG lub WebP z jakością około 80 i sprawdź wynik w powiększeniu 100 procent. Jeśli nadal wygląda dobrze, gotowe. Jeśli jest nieostry, trochę podnieś jakość albo zrób obraz nieco większy."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Czy zmniejszenie obrazu obniża jego jakość?", "a": "Zmniejszenie liczby pikseli dobrą metodą zachowuje ostrość obrazu, bo szczegóły są po prostu pokazane w mniejszym rozmiarze. Obniżenie jakości kompresji powoduje utratę szczegółów, ale niewielki spadek trudno zauważyć." },
+          { "q": "Jak bardzo mogę zmniejszyć zdjęcie?", "a": "To zależy od zawartości. Portret na jednolitym tle może wyglądać dobrze przy 30-50 KB, jeśli jest mały. Zatłoczony pejzaż potrzebuje znacznie więcej. Wypróbuj opcję Ogranicz rozmiar pliku i sprawdź wynik." },
+          { "q": "Czy bezpiecznie jest zmniejszać prywatne zdjęcia online?", "a": "Tutaj obraz jest przetwarzany w Twojej przeglądarce i nigdy nie jest wysyłany, więc nie opuszcza Twojego urządzenia. W przypadku innych stron sprawdź, czy wysyłają Twoje pliki na serwer." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG, PNG czy WebP - który format zdjęć wybrać? Porównanie",
+      "description": "Jasne porównanie JPG, PNG i WebP: rozmiar pliku, jakość, przezroczystość i zgodność oraz wskazówki, jak wybrać odpowiedni format zdjęcia.",
+      "h1": "JPG, PNG czy WebP: którego formatu użyć?",
+      "intro": "To samo zdjęcie może mieć 200 KB jako JPG, 1,5 MB jako PNG i 140 KB jako WebP. Format zmienia rozmiar, wygląd i miejsca, w których można użyć pliku. Ten poradnik wyjaśnia, w czym każdy format jest najlepszy, więc właściwy wybierzesz w kilka sekund.",
+      "sections": [
+        {
+          "title": "JPG: standard dla zdjęć",
+          "paragraphs": [
+            "JPG (zapisywany też jako JPEG) kompresuje zdjęcia, odrzucając szczegóły, których oko prawie nie zauważa. Rozumie go każdy program, telefon, strona internetowa i drukarka, dlatego jest najbezpieczniejszym wyborem, gdy nie wiesz, co akceptuje druga strona."
+          ],
+          "bullets": [
+            "Najlepszy do: zdjęć i wszystkiego z płynnymi przejściami kolorów.",
+            "Słabe strony: brak przezroczystości, a tekst i cienkie linie mogą być rozmyte przy niskiej jakości.",
+            "Jakość: stratny. Każdy kolejny zapis odbiera trochę więcej."
+          ]
+        },
+        {
+          "title": "PNG: ostra grafika i przezroczystość",
+          "paragraphs": [
+            "PNG kompresuje bez utraty jakichkolwiek szczegółów i może mieć przezroczyste obszary. Dlatego to właściwy format dla logo, ikon, zrzutów ekranu, wykresów i rysunków. Dla zdjęć tworzy bardzo duże pliki, bo zdjęcia mają zbyt wiele drobnych zmian kolorów, by dało się je dobrze skompresować bez strat."
+          ],
+          "bullets": [
+            "Najlepszy do: logo, zrzutów ekranu interfejsu, tekstu i obrazów, które potrzebują przezroczystego tła.",
+            "Słabe strony: duże pliki w przypadku zdjęć.",
+            "Jakość: bezstratny. Ponowny zapis go nie psuje."
+          ]
+        },
+        {
+          "title": "WebP: mniejsze pliki dla internetu",
+          "paragraphs": [
+            "WebP zaprojektowano z myślą o stronach internetowych. Może działać w trybie stratnym jak JPG albo bezstratnym jak PNG i obsługuje przezroczystość. Przy podobnej jakości obrazu zdjęcia w WebP są często o jedną czwartą do jednej trzeciej mniejsze niż w JPG. Wszystkie obecne przeglądarki potrafią wyświetlać WebP, ale niektóre starsze programy, punkty wydruku i formularze wysyłania wciąż go nie akceptują."
+          ],
+          "bullets": [
+            "Najlepszy do: stron i aplikacji, w których to Ty decydujesz, z czego korzysta odbiorca.",
+            "Słabe strony: nie jest akceptowany wszędzie, zwłaszcza przez starsze programy i niektóre oficjalne portale.",
+            "Jakość: stratna lub bezstratna, do wyboru."
+          ]
+        },
+        {
+          "title": "Jak wybrać",
+          "bullets": [
+            "Wysyłanie na stronę urzędu, do portalu egzaminacyjnego lub w podaniu o pracę: JPG, chyba że napisano inaczej.",
+            "Zdjęcia na stronę lub bloga: WebP, a JPG jako zapasowy.",
+            "Logo, ikona, zrzut ekranu lub cokolwiek z przezroczystym tłem: PNG.",
+            "Wysyłanie zdjęcia e-mailem lub komunikatorem osobom, których nie znasz: JPG.",
+            "Drukowanie: JPG lub PNG w najwyższej jakości, w rozmiarze, w jakim będziesz drukować."
+          ]
+        },
+        {
+          "title": "Co konwersja może, a czego nie",
+          "paragraphs": [
+            "Zmiana formatu nie poprawia obrazu. Zamiana małego JPG na PNG daje większy plik z tymi samymi szczegółami. Zamiana PNG z przezroczystym tłem na JPG wypełnia przezroczyste obszary, a to narzędzie robi to kolorem białym. Zamiana JPG na WebP może zmniejszyć plik, ale pierwsza kompresja JPG usunęła już szczegóły, których nie da się odzyskać."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Czy WebP jest lepszy niż JPG?", "a": "Pod względem rozmiaru pliku na stronach internetowych zwykle tak. Pod względem zgodności nie: JPG działa wszędzie. Używaj WebP, gdy wiesz, że jest akceptowany, a JPG, gdy nie masz pewności." },
+          { "q": "Dlaczego mój PNG jest o wiele większy niż JPG?", "a": "PNG zachowuje każdy szczegół. Zdjęcie ma miliony drobnych różnic kolorów, więc plik bezstratny jest duży. Dla zdjęć właściwymi formatami są JPG lub WebP." },
+          { "q": "Czy mogę zamienić WebP na JPG?", "a": "Tak. Dodaj plik WebP, wybierz JPG jako format i pobierz wynik. Przezroczyste obszary staną się białe." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Rozmiar zdjęcia do formularzy online: limity KB i piksele",
+      "description": "Jak spełnić wymagania dotyczące zdjęcia i podpisu: odczytanie limitów KB i pikseli, zmniejszenie zdjęcia poniżej 20, 50 lub 200 KB i typowe błędy.",
+      "h1": "Rozmiar zdjęcia do formularzy online: limity KB, piksele i formaty",
+      "intro": "Rejestracje na egzaminy, portale z ofertami pracy, wnioski wizowe i formularze urzędowe często odrzucają zdjęcie z jednego z trzech powodów: plik jest za duży, wymiary są nieprawidłowe albo format nie jest akceptowany. Każde z tych wymagań można spełnić w minutę, gdy wiesz, jak je odczytać. Ten poradnik pokazuje, jak to zrobić.",
+      "sections": [
+        {
+          "title": "Przeczytaj wymagania uważnie",
+          "paragraphs": [
+            "Wymagania mają zwykle do czterech części. Sprawdź je po kolei, zanim cokolwiek zmienisz."
+          ],
+          "bullets": [
+            "Rozmiar pliku, na przykład od 20 KB do 50 KB. To liczba kilobajtów pliku, a nie rozmiar na ekranie.",
+            "Wymiary, na przykład 200 na 230 pikseli albo 3,5 na 4,5 cm. Określają kształt obrazu.",
+            "Format: prawie zawsze JPG lub JPEG. Kilka portali akceptuje też PNG.",
+            "Tło i wygląd: na przykład jednolite białe tło, widoczna twarz, brak okularów. Narzędzie do zmiany rozmiaru nie może tego zmienić."
+          ]
+        },
+        {
+          "title": "KB, MB i pytanie: 1000 czy 1024",
+          "paragraphs": [
+            "Jeden MB to 1000 KB, więc 50 KB to zaledwie 0,05 MB. Niektóre systemy liczą 1 KB jako 1000 bajtów, a inne jako 1024. Dla pewności to narzędzie mieści wynik w mniejszej liczbie, więc plik przygotowany na limit 50 KB ma poniżej 50 000 bajtów i przejdzie w obu przypadkach."
+          ]
+        },
+        {
+          "title": "Jak zmniejszyć zdjęcie poniżej 20, 50 lub 200 KB",
+          "paragraphs": [
+            "Otwórz darmowe narzędzie do zmiany rozmiaru obrazów, dodaj zdjęcie i wybierz z listy Gotowy rozmiar limit rozmiaru pliku (20, 50, 100 lub 200 KB). Jeśli formularz podaje też wymiary w pikselach, najpierw ustaw je: wybierz Zmień rozmiar według: Wymiarów i wpisz szerokość oraz wysokość. Kliknij Zmień rozmiar i sprawdź podgląd. Narzędzie najpierw obniża jakość krok po kroku, a dopiero gdy to nie wystarczy, zmniejsza także wymiary obrazu."
+          ],
+          "bullets": [
+            "Przed rozpoczęciem przytnij zdjęcie ciasno wokół twarzy lub podpisu. Mniej pustego obszaru oznacza mniejszy plik przy tej samej ostrości.",
+            "Jednolite, równe tło kompresuje się znacznie lepiej niż pstrokate.",
+            "Używaj JPG. PNG nie da się w ten sposób zmniejszyć.",
+            "Jeśli wynik jest zbyt miękki, trochę podnieś limit albo użyj mniejszych wymiarów w pikselach z wyższą jakością."
+          ]
+        },
+        {
+          "title": "Dokładne rozmiary w pikselach i centymetrach",
+          "paragraphs": [
+            "Jeśli formularz wymaga pikseli, wybierz px jako jednostkę i wpisz szerokość oraz wysokość. Jeśli wymaga centymetrów lub milimetrów, wybierz cm lub mm i ustaw DPI na 300; narzędzie samo przeliczy piksele. Wyłącz Zablokuj proporcje i wybierz Przytnij, aby wypełnić ramkę, gdy formularz wymaga dokładnego kształtu, który różni się od kształtu Twojego zdjęcia."
+          ]
+        },
+        {
+          "title": "Podpisy",
+          "paragraphs": [
+            "Wysyłany podpis to zwykle mały obraz atramentu na białym papierze. Podpisz się ciemnym długopisem na gładkim białym papierze, zrób zdjęcie przy dobrym świetle, przytnij je tuż przy podpisie, a potem zmień rozmiar na podane wymiary. Podpisy kompresują się do bardzo małych plików, więc limit rzadko sprawia kłopot."
+          ]
+        },
+        {
+          "title": "Gdy wysyłanie nadal się nie udaje",
+          "bullets": [
+            "Plik za duży: trochę obniż limit, na przykład do 45 KB, gdy wymagane jest 50 KB.",
+            "Złe wymiary: sprawdź, czy szerokość i wysokość nie są zamienione i czy jednostka jest prawidłowa.",
+            "Nieobsługiwany format: zapisz jako JPG, a nie WebP czy PNG.",
+            "Obraz wygląda na rozciągnięty: przytnij, aby wypełnić ramkę, zamiast rozciągać.",
+            "Zdjęcia do dokumentów i wiz mają dodatkowe zasady dotyczące wielkości głowy i tła, ustalone przez urząd. Zawsze czytaj jego oficjalne instrukcje."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Ile KB ma 1 MB?", "a": "Jeden MB to około 1000 KB (niektóre systemy używają 1024). Limit 200 KB to więc jedna piąta megabajta." },
+          { "q": "Czy mogę użyć zdjęcia zrobionego telefonem?", "a": "Tak. Zdjęcia z telefonu są duże, ale narzędzie zmniejszy je do wymaganego rozmiaru. Zrób zdjęcie przy dobrym świetle na gładkim tle." },
+          { "q": "Czy moje zdjęcie zostanie wysłane na serwer?", "a": "Nie. Narzędzie działa w Twojej przeglądarce, więc zdjęcie zostaje na Twoim urządzeniu, dopóki sam nie wyślesz go do formularza." }
+        ]
+      }
+    }
+  }
+}

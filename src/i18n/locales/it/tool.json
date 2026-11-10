@@ -6,11 +6,11 @@
       "or": "oppure",
       "choose": "Scegli le immagini",
       "paste": "Puoi anche incollare le immagini con Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Nessun limite di peso o quantità.",
+      "formats": "JPG, PNG, WebP, GIF (primo fotogramma) e BMP. Nessuna registrazione e nessun limite giornaliero.",
       "privacy": "Le tue immagini non lasciano mai il tuo dispositivo.",
-      "addMore": "Aggiungi altre immagini",
-      "overlay": "Rilascia le immagini per aggiungerle",
-      "none": "Nessuna immagine utilizzabile. Scegli file JPG, PNG, WebP, GIF o BMP."
+      "none": "Nessuna immagine utilizzabile. Scegli file JPG, PNG, WebP, GIF o BMP.",
+      "tooMany": "Sono state aggiunte solo le prime {max} immagini.",
+      "skipped": "{count} file sono stati ignorati perché non sono immagini."
     },
     "files": {
       "title": "Le tue immagini ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} più grande",
       "targetMissed": "Impossibile arrivare a {target}. Il minimo possibile è {size}.",
       "summary": "{done} di {total} completate",
-      "finished": "Tutto fatto. {count} immagini sono pronte."
+      "finished": "Tutto fatto. Le tue immagini sono pronte."
     },
     "errors": {
       "decode-failed": "Non è stato possibile leggere questo file come immagine.",
@@ -74,7 +74,8 @@
       "invalid-size": "Inserisci una larghezza, un'altezza o una percentuale valida.",
       "too-large": "Questa dimensione è troppo grande per il tuo dispositivo. Prova con una dimensione più piccola.",
       "encode-failed": "Salvataggio dell'immagine non riuscito. Prova con un altro formato.",
-      "cancelled": "Annullato."
+      "cancelled": "Annullato.",
+      "invalid-limit": "Inserisci un peso massimo del file oppure disattiva il limite di peso."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "larghezza email",
         "screen": "schermo"
       }
-    }
+    },
+    "results": {
+      "title": "Le tue immagini ridimensionate",
+      "total": "Totale: {before} → {after}",
+      "back": "Cambia impostazioni",
+      "startOver": "Ricomincia",
+      "original": "Originale",
+      "resized": "Ridimensionata",
+      "allFailed": "Nessuna immagine è stata ridimensionata. Leggi i messaggi sulle schede oppure cambia le impostazioni e riprova.",
+      "limitNote": "Il PNG non può essere rimpicciolito per rientrare nel limite di peso del file. Scegli JPG o WebP per rispettarlo.",
+      "progress": "Avanzamento del ridimensionamento"
+    },
+    "noscript": "Per ridimensionare le immagini nel tuo browser serve JavaScript. Attivalo, per favore."
   }
 }

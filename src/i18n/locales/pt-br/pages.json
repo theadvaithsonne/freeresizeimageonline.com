@@ -43,8 +43,8 @@
     },
     "faq": {
       "items": [
-        { "q": "É realmente grátis?", "a": "Sim. Não há cadastro, período de teste nem limite para a quantidade ou o tamanho das suas imagens. O site é mantido por um único anúncio ao lado da ferramenta." },
-        { "q": "Minhas imagens são enviadas para algum servidor?", "a": "Não. O redimensionamento acontece no seu próprio dispositivo, dentro do navegador. Suas imagens nunca são enviadas aos nossos servidores. A única coisa que contamos é quantas imagens foram redimensionadas, como um simples número." },
+        { "q": "É realmente grátis?", "a": "Sim. Não há cadastro, período de teste nem limite diário. O site é mantido por um único anúncio ao lado da ferramenta. Imagens muito grandes podem ser demais para um celular ou um computador antigo, e você verá uma mensagem se isso acontecer." },
+        { "q": "Minhas imagens são enviadas para algum servidor?", "a": "Não. O redimensionamento acontece no seu próprio dispositivo, dentro do navegador. Suas imagens nunca são enviadas aos nossos servidores." },
         { "q": "Quais formatos são compatíveis?", "a": "Você pode abrir arquivos JPG, PNG, WebP, GIF e BMP, e também AVIF onde o seu navegador oferecer suporte. Você pode salvar em JPG, PNG ou WebP." },
         { "q": "Redimensionar reduz a qualidade?", "a": "Diminuir uma imagem a mantém nítida, porque a ferramenta usa um filtro de alta qualidade. Aumentar não cria detalhes que não existem, então imagens ampliadas ficam mais suaves. Em JPG e WebP, você mesmo pode escolher a qualidade." },
         { "q": "Como deixo uma imagem abaixo de um tamanho, como 50 KB?", "a": "Ative Limitar o tamanho do arquivo, digite o número e clique em Redimensionar imagens. A ferramenta reduz a qualidade e, se for preciso, as dimensões, até o arquivo caber no limite. Escolha JPG ou WebP para os melhores resultados, porque o PNG não pode ser reduzido assim." },
@@ -66,7 +66,7 @@
     "tips": [
       "Use JPG. Ele comprime fotos muito melhor que o PNG nas mesmas dimensões.",
       "Se o resultado ficar borrado, aumente um pouco o limite ou corte as bordas vazias antes de redimensionar.",
-      "A maioria dos formulários mede o tamanho em KB, em que 1 KB equivale a 1.024 bytes. Esta ferramenta usa a mesma regra.",
+      "Alguns portais contam 1 KB como 1.000 bytes e outros como 1.024. Esta ferramenta fica abaixo do número menor, então seu arquivo passa nos dois casos.",
       "Confira também as dimensões exigidas. Alguns portais pedem um tamanho em pixels e um limite em KB."
     ],
     "faq": {

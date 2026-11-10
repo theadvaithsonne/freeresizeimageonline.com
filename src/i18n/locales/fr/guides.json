@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Guides",
+    "common": {
+      "openTool": "Ouvrir l'outil gratuit de redimensionnement d'images",
+      "toolHint": "Essayez par vous-même : vos images restent sur votre appareil.",
+      "moreGuides": "Autres guides",
+      "readGuide": "Lire le guide"
+    },
+    "index": {
+      "title": "Guides pour réduire, convertir et redimensionner vos images",
+      "description": "Des guides simples pour alléger vos images, choisir entre JPG, PNG et WebP et respecter les limites de taille des photos sur les formulaires en ligne.",
+      "h1": "Guides sur la taille des images",
+      "intro": "Des guides courts et pratiques pour les questions les plus fréquentes : comment alléger une image sans la dégrader, quel format de fichier choisir, et comment faire passer une photo dans un formulaire en ligne qui impose une taille stricte.",
+      "items": [
+        { "title": "Comment réduire le poids d'une image sans perdre en qualité", "text": "Les quatre étapes qui comptent, dans le bon ordre, et les erreurs qui rendent les fichiers plus lourds ou plus flous." },
+        { "title": "JPG, PNG ou WebP : quel format choisir ?", "text": "Les points forts et les limites de chaque format, et une méthode simple pour choisir." },
+        { "title": "Taille de photo pour les formulaires en ligne : limites en KB, pixels et formats", "text": "Comment lire une exigence de taille et comment obtenir une photo de moins de 20 KB, 50 KB ou 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "Comment réduire le poids d'une image sans perdre en qualité",
+      "description": "Quatre étapes pour alléger vos photos sans perte visible : redimensionner, choisir le bon format, baisser un peu la qualité, supprimer les données cachées.",
+      "h1": "Comment réduire le poids d'une image sans perdre en qualité",
+      "intro": "Une photo prise avec un téléphone récent peut peser de 3 à 8 MB. C'est bien plus que ce dont une page web, un e-mail ou un formulaire en ligne a besoin. Bonne nouvelle : la plupart des images peuvent perdre de 70 à 95 % de leur poids tout en restant presque identiques à l'écran. Ce guide explique ce qui alourdit un fichier et comment l'alléger en quatre étapes.",
+      "sections": [
+        {
+          "title": "Qu'est-ce qui alourdit un fichier image ?",
+          "paragraphs": [
+            "Deux choses déterminent le poids d'un fichier image : le nombre de pixels qu'il contient et le niveau de compression appliqué à ces pixels. Une photo de 12 mégapixels (4000 x 3000 pixels) contient douze millions de points de couleur. Même bien compressée, cela représente beaucoup de données.",
+            "Le nombre de pixels augmente avec le carré de la largeur. Si vous divisez par deux la largeur et la hauteur, l'image n'a plus qu'un quart des pixels : le fichier peut donc être environ quatre fois plus léger. C'est pourquoi le redimensionnement est l'étape la plus efficace, et pourquoi il faut toujours la faire en premier."
+          ]
+        },
+        {
+          "title": "Étape 1 : redimensionnez à la taille dont vous avez vraiment besoin",
+          "paragraphs": [
+            "Les écrans sont plus petits qu'on ne le pense. Une image en plein écran sur un ordinateur portable demande environ 1920 pixels de large, une image au milieu d'une page web en demande souvent de 800 à 1200, et une miniature de 150 à 300. Envoyer une photo de 4000 pixels pour l'afficher sur 800 pixels, c'est gaspiller l'essentiel du fichier."
+          ],
+          "bullets": [
+            "Sites web et blogs : 1200 à 2000 pixels de large.",
+            "E-mail et messagerie : 1024 à 1600 pixels sur le grand côté.",
+            "Publications Instagram et Facebook : 1080 pixels de large.",
+            "Formulaires en ligne et pièces d'identité : la taille indiquée par le formulaire, souvent de 200 à 600 pixels."
+          ]
+        },
+        {
+          "title": "Étape 2 : choisissez le bon format",
+          "paragraphs": [
+            "Les photos vont en JPG ou en WebP. Les logos, les captures d'écran et les dessins aux bords nets vont en PNG, ou en WebP si le site le permet. Enregistrer une photo en PNG peut la rendre de cinq à dix fois plus lourde qu'en JPG, sans bénéfice visible. Notre guide sur le JPG, le PNG et le WebP explique les différences en détail."
+          ]
+        },
+        {
+          "title": "Étape 3 : baissez un peu la qualité",
+          "paragraphs": [
+            "Le JPG et le WebP permettent d'échanger un peu de qualité contre du poids. La relation n'est pas linéaire : passer de 100 à 85 retire généralement plus de la moitié du poids du fichier et se remarque à peine, alors que passer de 85 à 40 fait gagner moins et commence à faire apparaître des bords en blocs et des détails brouillés.",
+            "Une qualité entre 70 et 85 est un bon point de départ pour les photos. Si vous avez besoin d'un fichier sous une taille fixe, par exemple 100 KB, utilisez Limiter la taille du fichier : l'outil essaie plusieurs niveaux de qualité et garde le plus élevé qui respecte la limite."
+          ]
+        },
+        {
+          "title": "Étape 4 : supprimez les données cachées",
+          "paragraphs": [
+            "Les photos prises avec un téléphone ou un appareil photo contiennent des informations cachées appelées métadonnées : le modèle de l'appareil, la date, parfois la position GPS exacte. Elles alourdissent un peu le fichier et, surtout, peuvent révéler où une photo a été prise. Réenregistrer l'image avec un outil qui ne copie pas les métadonnées les supprime. Les fichiers créés par ce site n'en contiennent pas."
+          ]
+        },
+        {
+          "title": "Les erreurs qui dégradent les images",
+          "bullets": [
+            "Agrandir une petite image. Une image plus grande ne peut pas ajouter des détails qui n'ont jamais été capturés : le résultat est flou et le fichier grossit.",
+            "Réenregistrer un JPG encore et encore. Chaque enregistrement fait perdre un peu de qualité. Gardez votre original et faites une nouvelle copie à chaque fois.",
+            "Faire une capture d'écran d'une photo au lieu de l'enregistrer. Les captures sont souvent plus lourdes et moins nettes.",
+            "Utiliser le PNG pour des photographies. Il est sans perte : le fichier reste donc lourd."
+          ]
+        },
+        {
+          "title": "Une recette rapide",
+          "paragraphs": [
+            "Pour la plupart des photos : redimensionnez à la largeur dont vous avez besoin, enregistrez en JPG ou en WebP avec une qualité d'environ 80, puis vérifiez le résultat avec un zoom à 100 %. S'il reste beau, c'est terminé. S'il paraît flou, augmentez un peu la qualité ou agrandissez légèrement l'image."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Rendre une image plus petite réduit-il sa qualité ?", "a": "Réduire le nombre de pixels garde une image nette quand on utilise une bonne méthode de redimensionnement, car les détails sont simplement affichés plus petits. Baisser la qualité de compression fait perdre des détails, mais une petite baisse se remarque à peine." },
+          { "q": "Jusqu'où puis-je réduire une photo ?", "a": "Cela dépend du contenu. Un portrait sur fond uni peut rester correct à 30 ou 50 KB quand il est petit. Un paysage chargé en demande bien plus. Essayez la limite de taille du fichier et regardez le résultat." },
+          { "q": "Est-il sûr de réduire des photos privées en ligne ?", "a": "Ici, l'image est traitée dans votre propre navigateur et n'est jamais envoyée : elle ne quitte pas votre appareil. Avec d'autres sites, vérifiez s'ils envoient vos fichiers sur leurs serveurs." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG, PNG ou WebP : quel format d'image choisir ? Comparatif",
+      "description": "Comparaison claire du JPG, du PNG et du WebP : poids du fichier, qualité, transparence et compatibilité, pour choisir le bon format d'image.",
+      "h1": "JPG, PNG ou WebP : quel format choisir ?",
+      "intro": "La même image peut peser 200 KB en JPG, 1,5 MB en PNG et 140 KB en WebP. Le format change le poids, l'aspect et les endroits où vous pouvez utiliser le fichier. Ce guide explique ce que chaque format fait de mieux, pour que vous choisissiez le bon en quelques secondes.",
+      "sections": [
+        {
+          "title": "JPG : la référence pour les photos",
+          "paragraphs": [
+            "Le JPG (aussi écrit JPEG) compresse les photos en supprimant les détails que l'œil remarque à peine. Tous les logiciels, téléphones, sites web et imprimantes le comprennent : c'est le choix le plus sûr quand vous ne savez pas ce que l'autre côté accepte."
+          ],
+          "bullets": [
+            "Idéal pour : les photos et tout ce qui comporte des dégradés de couleurs.",
+            "Points faibles : pas de transparence, et le texte ou les traits fins peuvent paraître flous à basse qualité.",
+            "Qualité : avec perte. Chaque nouvel enregistrement en fait perdre un peu plus."
+          ]
+        },
+        {
+          "title": "PNG : graphismes nets et transparence",
+          "paragraphs": [
+            "Le PNG compresse sans perdre aucun détail et peut avoir des zones transparentes. C'est le bon format pour les logos, les icônes, les captures d'écran, les graphiques et les dessins. Pour les photographies, il donne des fichiers très lourds, car une photo contient trop de minuscules variations de couleur pour être bien compressée sans perte."
+          ],
+          "bullets": [
+            "Idéal pour : logos, captures d'interface, texte, images qui ont besoin d'un fond transparent.",
+            "Points faibles : fichiers lourds pour les photos.",
+            "Qualité : sans perte. Réenregistrer ne l'abîme pas."
+          ]
+        },
+        {
+          "title": "WebP : des fichiers plus légers pour le web",
+          "paragraphs": [
+            "Le WebP a été conçu pour les sites web. Il peut fonctionner avec perte comme le JPG ou sans perte comme le PNG, et il gère la transparence. À qualité visuelle comparable, les photos en WebP sont souvent d'un quart à un tiers plus légères que le JPG. Tous les navigateurs actuels savent l'afficher, mais certains logiciels anciens, imprimeurs et formulaires d'envoi ne l'acceptent pas encore."
+          ],
+          "bullets": [
+            "Idéal pour : les sites web et les applications où vous maîtrisez ce qu'utilise le visiteur.",
+            "Points faibles : pas accepté partout, surtout par les logiciels anciens et certains portails officiels.",
+            "Qualité : avec ou sans perte, à votre choix."
+          ]
+        },
+        {
+          "title": "Comment choisir",
+          "bullets": [
+            "Envoi sur un site administratif, un portail d'examen ou une candidature : JPG, sauf indication contraire.",
+            "Photos pour un site web ou un blog : WebP, avec le JPG en solution de secours.",
+            "Logo, icône, capture d'écran ou tout ce qui a un fond transparent : PNG.",
+            "Envoi d'une photo par e-mail ou messagerie à des personnes que vous ne connaissez pas : JPG.",
+            "Impression : JPG ou PNG à la qualité maximale, à la taille d'impression prévue."
+          ]
+        },
+        {
+          "title": "Ce que la conversion peut et ne peut pas faire",
+          "paragraphs": [
+            "Changer de format n'améliore pas l'image. Transformer un petit JPG en PNG donne un fichier plus gros avec les mêmes détails. Transformer un PNG à fond transparent en JPG remplit les zones transparentes, ce que cet outil fait avec du blanc. Transformer un JPG en WebP peut alléger le fichier, mais la première compression JPG a déjà supprimé des détails qui ne reviendront pas."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Le WebP est-il meilleur que le JPG ?", "a": "Pour le poids des fichiers sur le web, en général oui. Pour la compatibilité, non : le JPG fonctionne partout. Utilisez le WebP quand vous savez qu'il est accepté, et le JPG quand vous avez un doute." },
+          { "q": "Pourquoi mon PNG est-il bien plus lourd que le JPG ?", "a": "Le PNG garde chaque détail. Une photo contient des millions de petites différences de couleur : un fichier sans perte est donc volumineux. Pour les photos, le JPG ou le WebP sont les bons formats." },
+          { "q": "Puis-je transformer un WebP en JPG ?", "a": "Oui. Ajoutez le fichier WebP, choisissez JPG comme format et téléchargez le résultat. Les zones transparentes deviennent blanches." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Taille photo pour formulaire en ligne : KB, pixels, format",
+      "description": "Respectez les exigences de photo et de signature : lire les limites en KB et en pixels, passer sous 20, 50 ou 200 KB et corriger les erreurs d'envoi.",
+      "h1": "Taille de photo pour les formulaires en ligne : limites en KB, pixels et formats",
+      "intro": "Les inscriptions aux examens, les portails d'emploi, les demandes de visa et les formulaires administratifs refusent souvent une photo pour l'une de ces trois raisons : le fichier est trop lourd, les dimensions sont incorrectes ou le format n'est pas accepté. Chaque exigence se règle en une minute dès que l'on sait la lire. Ce guide vous montre comment.",
+      "sections": [
+        {
+          "title": "Lisez bien l'exigence",
+          "paragraphs": [
+            "Une exigence comporte généralement jusqu'à quatre éléments. Vérifiez-les un par un avant de redimensionner quoi que ce soit."
+          ],
+          "bullets": [
+            "Poids du fichier, par exemple 20 KB à 50 KB. C'est le nombre de kilo-octets du fichier, pas sa taille à l'écran.",
+            "Dimensions, par exemple 200 x 230 pixels, ou 3,5 x 4,5 cm. Elles déterminent la forme de l'image.",
+            "Format : presque toujours JPG ou JPEG. Quelques portails acceptent aussi le PNG.",
+            "Fond et aspect : par exemple un fond blanc uni, le visage visible, pas de lunettes. Un outil de redimensionnement ne peut pas les modifier."
+          ]
+        },
+        {
+          "title": "KB, MB et la question 1 000 contre 1 024",
+          "paragraphs": [
+            "Un MB vaut 1 000 KB : 50 KB ne font donc que 0,05 MB. Certains systèmes comptent 1 KB pour 1 000 octets et d'autres pour 1 024 octets. Par prudence, cet outil garde le résultat sous le plus petit chiffre : un fichier créé pour une limite de 50 KB fait moins de 50 000 octets et passe dans les deux cas."
+          ]
+        },
+        {
+          "title": "Passer sous 20, 50 ou 200 KB",
+          "paragraphs": [
+            "Ouvrez l'outil gratuit de redimensionnement d'images, ajoutez votre photo et choisissez un préréglage de taille de fichier (20, 50, 100 ou 200 KB). Si le formulaire indique aussi des dimensions en pixels, saisissez-les d'abord sous Taille. Cliquez sur Redimensionner les images et vérifiez l'aperçu. L'outil baisse d'abord la qualité par paliers, et ne réduit aussi les dimensions de l'image que si cela ne suffit pas."
+          ],
+          "bullets": [
+            "Recadrez au plus près du visage ou de la signature avant de commencer. Moins de zone vide donne un fichier plus léger à netteté égale.",
+            "Un fond uni et régulier se compresse bien mieux qu'un fond chargé.",
+            "Utilisez le JPG. Le PNG ne peut pas être réduit de cette façon.",
+            "Si le résultat paraît trop flou, augmentez légèrement la limite ou utilisez des dimensions plus petites avec une qualité plus élevée."
+          ]
+        },
+        {
+          "title": "Tailles exactes en pixels et en centimètres",
+          "paragraphs": [
+            "Si un formulaire demande des pixels, choisissez px comme unité et saisissez la largeur et la hauteur. S'il demande des centimètres ou des millimètres, choisissez cm ou mm et réglez le DPI sur 300 : l'outil calcule alors les pixels pour vous. Désactivez Verrouiller les proportions et choisissez Recadrer pour remplir le cadre quand le formulaire exige une forme précise, différente de celle de votre photo."
+          ]
+        },
+        {
+          "title": "Signatures",
+          "paragraphs": [
+            "L'envoi d'une signature consiste généralement à fournir une petite image d'encre sur du papier blanc. Signez avec un stylo foncé sur une feuille blanche unie, prenez la photo en bonne lumière, recadrez au plus près de la signature, puis redimensionnez-la aux dimensions indiquées. Les signatures se compressent en fichiers très légers : la limite pose donc rarement problème."
+          ]
+        },
+        {
+          "title": "Quand l'envoi échoue encore",
+          "bullets": [
+            "Fichier trop lourd : baissez un peu la limite, par exemple à 45 KB quand 50 KB sont exigés.",
+            "Mauvaises dimensions : vérifiez que la largeur et la hauteur ne sont pas inversées et que l'unité est correcte.",
+            "Format non pris en charge : enregistrez en JPG, pas en WebP ni en PNG.",
+            "L'image paraît étirée : utilisez Recadrer pour remplir le cadre au lieu de l'étirer.",
+            "Les photos d'identité et de visa ont des règles supplémentaires sur la taille de la tête et le fond, fixées par l'administration concernée. Lisez toujours ses consignes officielles."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Combien de KB font 1 MB ?", "a": "1 MB fait environ 1 000 KB (certains systèmes utilisent 1 024). Une limite de 200 KB correspond donc à un cinquième de MB." },
+          { "q": "Puis-je utiliser une photo prise avec mon téléphone ?", "a": "Oui. Les photos de téléphone sont lourdes, mais l'outil les réduit à la taille demandée. Prenez la photo en bonne lumière, sur un fond uni." },
+          { "q": "Ma photo sera-t-elle envoyée sur votre serveur ?", "a": "Non. L'outil fonctionne dans votre navigateur : la photo reste sur votre appareil jusqu'à ce que vous l'envoyiez vous-même au formulaire." }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Hướng dẫn",
+    "common": {
+      "openTool": "Mở công cụ đổi kích thước ảnh miễn phí",
+      "toolHint": "Thử ngay: ảnh của bạn vẫn nằm trên thiết bị của bạn.",
+      "moreGuides": "Hướng dẫn khác",
+      "readGuide": "Đọc hướng dẫn"
+    },
+    "index": {
+      "title": "Hướng dẫn giảm dung lượng, đổi định dạng và kích thước ảnh",
+      "description": "Hướng dẫn dễ hiểu để làm ảnh nhẹ hơn, chọn giữa JPG, PNG và WebP, và đưa ảnh vừa giới hạn dung lượng khi nộp biểu mẫu online.",
+      "h1": "Hướng dẫn về kích thước ảnh",
+      "intro": "Những hướng dẫn ngắn gọn, thực tế cho các câu hỏi được hỏi nhiều nhất: làm sao để ảnh nhẹ hơn mà không xấu đi, nên chọn định dạng tệp nào, và làm sao để một bức ảnh vượt qua biểu mẫu online có giới hạn dung lượng nghiêm ngặt.",
+      "items": [
+        { "title": "Cách giảm dung lượng ảnh mà không mất chất lượng", "text": "Bốn bước quan trọng theo đúng thứ tự, và những sai lầm khiến tệp nặng hơn hoặc ảnh bị mờ." },
+        { "title": "JPG, PNG hay WebP: nên dùng định dạng nào?", "text": "Mỗi định dạng mạnh ở đâu, yếu ở đâu, và một cách đơn giản để chọn." },
+        { "title": "Kích thước ảnh khi nộp biểu mẫu online: giới hạn KB, pixel và định dạng", "text": "Cách đọc yêu cầu về kích thước và cách đưa ảnh xuống dưới 20 KB, 50 KB hoặc 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "Cách giảm dung lượng ảnh mà không mất chất lượng - 4 bước",
+      "description": "4 bước giảm dung lượng ảnh mà mắt khó nhận ra khác biệt: đổi kích thước, chọn đúng định dạng, hạ chất lượng nhẹ và xóa dữ liệu ẩn.",
+      "h1": "Cách giảm dung lượng ảnh mà không mất chất lượng",
+      "intro": "Một bức ảnh chụp bằng điện thoại đời mới có thể nặng 3 đến 8 MB. Con số đó lớn hơn nhiều so với nhu cầu của một trang web, một email hay một biểu mẫu online. Tin vui là phần lớn ảnh có thể nhẹ đi 70 đến 95% mà trên màn hình vẫn gần như giữ nguyên. Hướng dẫn này giải thích điều gì làm tệp ảnh nặng và cách thu gọn nó trong bốn bước.",
+      "sections": [
+        {
+          "title": "Điều gì làm tệp ảnh nặng?",
+          "paragraphs": [
+            "Có hai yếu tố quyết định dung lượng của một tệp ảnh: số lượng pixel và mức độ nén các pixel đó. Một bức ảnh 12 megapixel (4000 x 3000 pixel) chứa mười hai triệu chấm màu. Dù nén tốt thì đó vẫn là một lượng dữ liệu rất lớn.",
+            "Số pixel tăng theo bình phương chiều rộng. Nếu bạn giảm một nửa cả chiều rộng lẫn chiều cao, ảnh chỉ còn một phần tư số pixel, nên tệp có thể nhẹ hơn khoảng bốn lần. Đó là lý do đổi kích thước là bước hiệu quả nhất, và bạn nên luôn làm bước này trước tiên."
+          ]
+        },
+        {
+          "title": "Bước 1: Đổi về kích thước bạn thật sự cần",
+          "paragraphs": [
+            "Màn hình nhỏ hơn nhiều người nghĩ. Một ảnh hiển thị toàn màn hình trên laptop chỉ cần rộng khoảng 1920 pixel, ảnh nằm giữa một trang web thường chỉ cần 800 đến 1200, còn ảnh thu nhỏ cần 150 đến 300. Gửi ảnh 4000 pixel để hiển thị ở 800 pixel là lãng phí phần lớn dung lượng tệp."
+          ],
+          "bullets": [
+            "Website và blog: rộng 1200 đến 2000 pixel.",
+            "Email và tin nhắn: 1024 đến 1600 pixel ở cạnh dài.",
+            "Bài đăng Instagram và Facebook: rộng 1080 pixel.",
+            "Biểu mẫu online và tải lên giấy tờ tùy thân: theo đúng yêu cầu của biểu mẫu, thường là 200 đến 600 pixel."
+          ]
+        },
+        {
+          "title": "Bước 2: Chọn đúng định dạng",
+          "paragraphs": [
+            "Ảnh chụp nên lưu ở JPG hoặc WebP. Logo, ảnh chụp màn hình và hình vẽ có cạnh sắc nét nên lưu ở PNG, hoặc WebP nếu trang web hỗ trợ. Lưu ảnh chụp dưới dạng PNG có thể khiến tệp nặng gấp năm đến mười lần so với JPG mà không đem lại lợi ích nào nhìn thấy được. Hướng dẫn về JPG, PNG và WebP của chúng tôi giải thích chi tiết sự khác nhau giữa các định dạng."
+          ]
+        },
+        {
+          "title": "Bước 3: Hạ chất lượng một chút",
+          "paragraphs": [
+            "JPG và WebP cho phép bạn đánh đổi chất lượng lấy dung lượng. Mối quan hệ này không phải đường thẳng: giảm từ 100 xuống 85 thường cắt đi hơn một nửa dung lượng mà gần như không thể nhận ra, còn giảm từ 85 xuống 40 tiết kiệm được ít hơn và bắt đầu lộ ra các cạnh vỡ khối cùng chi tiết nhòe.",
+            "Chất lượng từ 70 đến 85 là điểm khởi đầu tốt cho ảnh chụp. Nếu bạn cần tệp nằm dưới một dung lượng cố định, chẳng hạn 100 KB, hãy dùng Giới hạn dung lượng tệp: công cụ sẽ thử nhiều mức chất lượng khác nhau và giữ lại mức cao nhất vẫn vừa giới hạn."
+          ]
+        },
+        {
+          "title": "Bước 4: Xóa dữ liệu ẩn",
+          "paragraphs": [
+            "Ảnh từ điện thoại và máy ảnh mang theo thông tin ẩn gọi là siêu dữ liệu (metadata): kiểu máy ảnh, ngày chụp, đôi khi cả vị trí GPS chính xác. Nó làm tệp nặng thêm một chút và quan trọng hơn, có thể tiết lộ nơi bức ảnh được chụp. Lưu lại ảnh bằng một công cụ không sao chép metadata sẽ xóa được nó. Các tệp do trang web này tạo ra không chứa metadata."
+          ]
+        },
+        {
+          "title": "Những sai lầm làm ảnh xấu đi",
+          "bullets": [
+            "Phóng to một ảnh nhỏ. Khung ảnh lớn hơn không thể thêm chi tiết chưa từng được ghi lại; kết quả bị mềm và tệp lại nặng hơn.",
+            "Lưu đi lưu lại một ảnh JPG. Mỗi lần lưu lại mất thêm một chút chất lượng. Hãy giữ bản gốc và tạo một bản sao mới mỗi lần.",
+            "Chụp màn hình một bức ảnh thay vì lưu ảnh về. Ảnh chụp màn hình thường nặng hơn và kém sắc nét hơn.",
+            "Dùng PNG cho ảnh chụp. PNG không làm mất chất lượng nên tệp vẫn rất nặng."
+          ]
+        },
+        {
+          "title": "Công thức nhanh",
+          "paragraphs": [
+            "Với đa số ảnh: đổi về chiều rộng bạn cần, lưu dưới dạng JPG hoặc WebP với chất lượng khoảng 80, rồi xem kết quả ở mức phóng to 100%. Nếu ảnh vẫn đẹp thì bạn đã xong. Nếu ảnh bị mềm, hãy nâng chất lượng lên một chút hoặc làm ảnh lớn hơn đôi chút."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Làm ảnh nhỏ đi có làm giảm chất lượng không?", "a": "Giảm số pixel vẫn giữ được độ nét nếu dùng phương pháp đổi kích thước tốt, vì chi tiết chỉ đơn giản được hiển thị ở kích thước nhỏ hơn. Hạ chất lượng nén thì làm mất chi tiết, nhưng một mức giảm nhỏ rất khó nhận ra." },
+          { "q": "Tôi có thể làm ảnh nhỏ đến mức nào?", "a": "Tùy vào nội dung ảnh. Một ảnh chân dung trên nền đơn sắc có thể vẫn đẹp ở 30 đến 50 KB khi ảnh nhỏ. Một ảnh phong cảnh nhiều chi tiết cần nhiều hơn rất nhiều. Hãy thử Giới hạn dung lượng tệp và xem kết quả." },
+          { "q": "Giảm dung lượng ảnh riêng tư online có an toàn không?", "a": "Ở đây ảnh được xử lý ngay trong trình duyệt của bạn và không bao giờ được tải lên, nên ảnh không rời khỏi thiết bị. Với các trang web khác, hãy kiểm tra xem họ có tải tệp của bạn lên hay không." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "So sánh JPG, PNG và WebP: chọn định dạng ảnh nào cho đúng?",
+      "description": "So sánh rõ ràng JPG, PNG và WebP về dung lượng tệp, chất lượng, nền trong suốt và khả năng tương thích, cùng cách chọn định dạng phù hợp.",
+      "h1": "JPG, PNG hay WebP: nên dùng định dạng nào?",
+      "intro": "Cùng một bức ảnh có thể nặng 200 KB khi lưu JPG, 1,5 MB khi lưu PNG và 140 KB khi lưu WebP. Định dạng thay đổi dung lượng, hình thức và nơi bạn có thể dùng tệp. Hướng dẫn này giải thích mỗi định dạng mạnh nhất ở điểm nào để bạn chọn đúng chỉ trong vài giây.",
+      "sections": [
+        {
+          "title": "JPG: tiêu chuẩn cho ảnh chụp",
+          "paragraphs": [
+            "JPG (còn viết là JPEG) nén ảnh bằng cách bỏ đi những chi tiết mà mắt gần như không nhận ra. Mọi phần mềm, điện thoại, trang web và máy in đều hiểu JPG, vì vậy đây là lựa chọn an toàn nhất khi bạn không chắc bên kia chấp nhận định dạng nào."
+          ],
+          "bullets": [
+            "Phù hợp nhất với: ảnh chụp và mọi thứ có màu chuyển sắc mượt.",
+            "Điểm yếu: không có nền trong suốt, và chữ hoặc nét mảnh có thể bị nhòe khi chất lượng thấp.",
+            "Chất lượng: nén có mất dữ liệu. Mỗi lần lưu lại lại mất thêm một chút."
+          ]
+        },
+        {
+          "title": "PNG: đồ họa sắc nét và nền trong suốt",
+          "paragraphs": [
+            "PNG nén mà không làm mất bất kỳ chi tiết nào, và có thể có vùng trong suốt. Vì vậy PNG là định dạng phù hợp cho logo, biểu tượng, ảnh chụp màn hình, biểu đồ và hình vẽ. Với ảnh chụp, PNG tạo ra tệp rất nặng, vì ảnh chụp có quá nhiều thay đổi màu nhỏ li ti nên khó nén tốt khi không được phép mất dữ liệu."
+          ],
+          "bullets": [
+            "Phù hợp nhất với: logo, ảnh chụp giao diện, chữ, ảnh cần nền trong suốt.",
+            "Điểm yếu: tệp nặng với ảnh chụp.",
+            "Chất lượng: không mất dữ liệu. Lưu lại nhiều lần cũng không làm hỏng ảnh."
+          ]
+        },
+        {
+          "title": "WebP: tệp nhẹ hơn cho web",
+          "paragraphs": [
+            "WebP được thiết kế cho các trang web. Nó có thể hoạt động ở chế độ có mất dữ liệu như JPG hoặc không mất dữ liệu như PNG, và hỗ trợ nền trong suốt. Ở mức chất lượng nhìn tương đương, ảnh WebP thường nhẹ hơn JPG khoảng một phần tư đến một phần ba. Tất cả trình duyệt hiện nay đều hiển thị được WebP, nhưng một số phần mềm cũ, tiệm in và biểu mẫu tải lên vẫn chưa chấp nhận."
+          ],
+          "bullets": [
+            "Phù hợp nhất với: website và ứng dụng mà bạn kiểm soát được thiết bị người xem dùng.",
+            "Điểm yếu: không được chấp nhận ở mọi nơi, nhất là với phần mềm cũ và một số cổng thông tin chính thức.",
+            "Chất lượng: có mất dữ liệu hoặc không mất dữ liệu, tùy bạn chọn."
+          ]
+        },
+        {
+          "title": "Cách chọn",
+          "bullets": [
+            "Tải lên trang của cơ quan nhà nước, cổng thi hoặc hồ sơ xin việc: chọn JPG, trừ khi có yêu cầu khác.",
+            "Ảnh cho website hoặc blog: WebP, và JPG làm phương án dự phòng.",
+            "Logo, biểu tượng, ảnh chụp màn hình hoặc bất cứ thứ gì cần nền trong suốt: PNG.",
+            "Gửi ảnh qua email hoặc tin nhắn cho người bạn không quen biết: JPG.",
+            "In ấn: JPG hoặc PNG ở chất lượng cao nhất, đúng với kích thước bạn sẽ in."
+          ]
+        },
+        {
+          "title": "Chuyển đổi định dạng làm được gì và không làm được gì",
+          "paragraphs": [
+            "Đổi định dạng không làm ảnh đẹp hơn. Chuyển một ảnh JPG nhỏ sang PNG chỉ cho bạn một tệp nặng hơn với cùng lượng chi tiết. Chuyển ảnh PNG có nền trong suốt sang JPG sẽ tô kín các vùng trong suốt, và công cụ này tô bằng màu trắng. Chuyển JPG sang WebP có thể làm tệp nhẹ hơn, nhưng lần nén JPG đầu tiên đã loại bỏ những chi tiết không thể lấy lại."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "WebP có tốt hơn JPG không?", "a": "Về dung lượng tệp trên website thì thường là có. Về khả năng tương thích thì không: JPG chạy ở mọi nơi. Hãy dùng WebP khi bạn biết nó được chấp nhận, và dùng JPG khi bạn không chắc." },
+          { "q": "Vì sao tệp PNG của tôi nặng hơn JPG nhiều như vậy?", "a": "PNG giữ lại mọi chi tiết. Một bức ảnh có hàng triệu khác biệt màu nhỏ, nên tệp không mất dữ liệu sẽ nặng. Với ảnh chụp, JPG hoặc WebP mới là định dạng phù hợp." },
+          { "q": "Tôi có thể chuyển WebP sang JPG không?", "a": "Có. Thêm tệp WebP, chọn JPG ở mục Định dạng rồi tải kết quả về. Mọi vùng trong suốt sẽ trở thành màu trắng." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Kích thước ảnh khi nộp biểu mẫu online: giới hạn KB, pixel",
+      "description": "Cách đáp ứng yêu cầu tải ảnh và chữ ký: đọc giới hạn KB và pixel, đưa ảnh xuống dưới 20, 50 hoặc 200 KB, và sửa các lỗi tải lên thường gặp.",
+      "h1": "Kích thước ảnh khi nộp biểu mẫu online: giới hạn KB, pixel và định dạng",
+      "intro": "Đăng ký thi, cổng tuyển dụng, hồ sơ visa và biểu mẫu của cơ quan nhà nước thường từ chối ảnh vì một trong ba lý do: tệp quá nặng, kích thước sai, hoặc định dạng không được chấp nhận. Mỗi yêu cầu đều có thể đáp ứng trong một phút khi bạn biết cách đọc nó. Hướng dẫn này chỉ cách làm.",
+      "sections": [
+        {
+          "title": "Đọc kỹ yêu cầu",
+          "paragraphs": [
+            "Một yêu cầu thường có tối đa bốn phần. Hãy kiểm tra từng phần một trước khi đổi kích thước bất cứ thứ gì."
+          ],
+          "bullets": [
+            "Dung lượng tệp, ví dụ 20 KB đến 50 KB. Đây là số kilobyte của tệp, không phải kích thước trên màn hình.",
+            "Kích thước ảnh, ví dụ 200 x 230 pixel, hoặc 3,5 x 4,5 cm. Phần này quyết định hình dạng của ảnh.",
+            "Định dạng: hầu như luôn là JPG hoặc JPEG. Một số cổng cũng chấp nhận PNG.",
+            "Nền và hình thức: ví dụ nền trắng trơn, thấy rõ khuôn mặt, không đeo kính. Công cụ đổi kích thước không thể thay đổi những điều này."
+          ]
+        },
+        {
+          "title": "KB, MB và chuyện 1.000 hay 1.024",
+          "paragraphs": [
+            "Một MB là 1.000 KB, nên 50 KB chỉ bằng 0,05 MB. Một số hệ thống tính 1 KB là 1.000 byte, một số khác tính là 1.024 byte. Để an toàn, công cụ này giữ kết quả dưới con số nhỏ hơn, nên một tệp được tạo cho giới hạn 50 KB sẽ nhỏ hơn 50.000 byte và đạt yêu cầu ở cả hai cách tính."
+          ]
+        },
+        {
+          "title": "Đưa ảnh xuống dưới 20, 50 hoặc 200 KB",
+          "paragraphs": [
+            "Mở công cụ đổi kích thước ảnh miễn phí, thêm ảnh của bạn và chọn một mẫu dung lượng tệp (20, 50, 100 hoặc 200 KB) trong danh sách Mẫu có sẵn. Nếu biểu mẫu cũng nêu kích thước pixel, hãy nhập chúng ở mục Kích thước trước. Nhấn Đổi kích thước ảnh và kiểm tra bản xem trước. Công cụ trước tiên hạ chất lượng từng bước, và chỉ khi như vậy chưa đủ mới thu nhỏ cả kích thước ảnh."
+          ],
+          "bullets": [
+            "Hãy cắt sát quanh khuôn mặt hoặc chữ ký trước khi bắt đầu. Ít vùng trống hơn nghĩa là tệp nhẹ hơn ở cùng độ nét.",
+            "Nền trơn, đều nén tốt hơn nhiều so với nền nhiều chi tiết.",
+            "Hãy dùng JPG. PNG không thể giảm dung lượng theo cách này.",
+            "Nếu kết quả trông quá mềm, hãy nâng giới hạn lên một chút hoặc dùng kích thước pixel nhỏ hơn với chất lượng cao hơn."
+          ]
+        },
+        {
+          "title": "Kích thước pixel chính xác và centimet",
+          "paragraphs": [
+            "Nếu biểu mẫu yêu cầu theo pixel, hãy chọn px làm đơn vị và nhập chiều rộng, chiều cao. Nếu biểu mẫu yêu cầu theo centimet hoặc milimet, hãy chọn cm hoặc mm và đặt DPI là 300; công cụ sẽ tự tính số pixel cho bạn. Hãy tắt Khóa tỷ lệ khung hình và chọn Cắt để lấp đầy khung khi biểu mẫu cần một hình dạng chính xác khác với ảnh của bạn."
+          ]
+        },
+        {
+          "title": "Chữ ký",
+          "paragraphs": [
+            "Ảnh chữ ký thường là một bức ảnh nhỏ của nét mực trên giấy trắng. Hãy ký bằng bút đậm màu trên giấy trắng trơn, chụp ảnh ở nơi đủ sáng, cắt sát quanh chữ ký, rồi đổi về đúng kích thước được nêu. Chữ ký nén được thành tệp rất nhỏ, nên giới hạn dung lượng hiếm khi là vấn đề."
+          ]
+        },
+        {
+          "title": "Khi tải lên vẫn bị lỗi",
+          "bullets": [
+            "Tệp quá nặng: hạ giới hạn xuống một chút, ví dụ 45 KB khi yêu cầu là 50 KB.",
+            "Sai kích thước: kiểm tra xem chiều rộng và chiều cao có bị đảo không, và đơn vị có đúng không.",
+            "Định dạng không được hỗ trợ: hãy lưu dưới dạng JPG, không dùng WebP hay PNG.",
+            "Ảnh trông bị kéo giãn: hãy cắt để lấp đầy khung thay vì kéo giãn.",
+            "Ảnh thẻ và ảnh visa còn có thêm quy định về kích thước đầu và nền do cơ quan có thẩm quyền đặt ra. Hãy luôn đọc hướng dẫn chính thức của họ."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "1 MB là bao nhiêu KB?", "a": "Một MB là khoảng 1.000 KB (một số hệ thống dùng 1.024). Vì vậy giới hạn 200 KB là một phần năm megabyte." },
+          { "q": "Tôi có thể dùng ảnh chụp bằng điện thoại không?", "a": "Có. Ảnh điện thoại thường nặng, nhưng công cụ sẽ thu nhỏ chúng về đúng dung lượng yêu cầu. Hãy chụp ở nơi đủ sáng và có nền trơn." },
+          { "q": "Ảnh của tôi có bị tải lên máy chủ của các bạn không?", "a": "Không. Công cụ chạy ngay trong trình duyệt của bạn, nên ảnh vẫn nằm trên thiết bị cho đến khi chính bạn tải nó lên biểu mẫu." }
+        ]
+      }
+    }
+  }
+}

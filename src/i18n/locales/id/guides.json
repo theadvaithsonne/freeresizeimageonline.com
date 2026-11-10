@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Panduan",
+    "common": {
+      "openTool": "Buka pengubah ukuran gambar gratis",
+      "toolHint": "Coba sendiri: gambar Anda tetap berada di perangkat Anda.",
+      "moreGuides": "Panduan lainnya",
+      "readGuide": "Baca panduan"
+    },
+    "index": {
+      "title": "Panduan Ukuran Gambar: Kecilkan, Konversi, Ubah Ukuran Foto",
+      "description": "Panduan bahasa sederhana untuk memperkecil ukuran gambar, memilih antara JPG, PNG, dan WebP, serta memenuhi batas ukuran foto pada formulir online.",
+      "h1": "Panduan ukuran gambar",
+      "intro": "Panduan singkat dan praktis untuk pertanyaan yang paling sering diajukan: cara memperkecil gambar tanpa membuatnya terlihat lebih buruk, format file mana yang sebaiknya dipilih, dan cara meloloskan foto pada formulir online yang punya batas ukuran ketat.",
+      "items": [
+        { "title": "Cara memperkecil ukuran gambar tanpa mengurangi kualitas", "text": "Empat langkah yang penting, dalam urutan yang tepat, beserta kesalahan yang justru membuat file lebih besar atau lebih buram." },
+        { "title": "JPG, PNG, atau WebP: format mana yang sebaiknya dipakai?", "text": "Keunggulan masing-masing format, kelemahannya, dan cara sederhana untuk memilih." },
+        { "title": "Ukuran foto untuk formulir online: batas KB, piksel, dan format", "text": "Cara membaca persyaratan ukuran dan cara membuat foto di bawah 20 KB, 50 KB, atau 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "Cara Mengecilkan Ukuran Gambar Tanpa Mengurangi Kualitas",
+      "description": "Empat langkah memperkecil foto tanpa kehilangan kualitas yang terlihat: ubah ukuran, pilih format, turunkan kualitas sedikit, hapus data tersembunyi.",
+      "h1": "Cara memperkecil ukuran gambar tanpa mengurangi kualitas",
+      "intro": "Foto dari ponsel modern bisa berukuran 3 sampai 8 MB. Itu jauh lebih besar daripada yang dibutuhkan halaman web, email, atau formulir online. Kabar baiknya, sebagian besar gambar bisa menyusut 70 sampai 95 persen dan tetap terlihat hampir sama di layar. Panduan ini menjelaskan apa yang membuat file menjadi besar dan cara memangkasnya dalam empat langkah.",
+      "sections": [
+        {
+          "title": "Apa yang membuat file gambar besar?",
+          "paragraphs": [
+            "Ada dua hal yang menentukan ukuran file gambar: jumlah pikselnya, dan seberapa kuat piksel itu dikompresi. Foto 12 megapiksel (4000 x 3000 piksel) berisi dua belas juta titik berwarna. Bahkan dengan kompresi yang baik, itu tetap data yang sangat banyak.",
+            "Jumlah piksel bertambah menurut kuadrat lebarnya. Jika lebar dan tinggi sama-sama dibagi dua, gambar hanya punya seperempat dari jumlah pikselnya, sehingga file bisa menjadi sekitar empat kali lebih kecil. Karena itu mengubah ukuran adalah langkah yang paling berpengaruh, dan sebaiknya selalu dilakukan lebih dulu."
+          ]
+        },
+        {
+          "title": "Langkah 1: Ubah ke ukuran yang benar-benar Anda butuhkan",
+          "paragraphs": [
+            "Layar lebih kecil daripada yang dikira banyak orang. Gambar layar penuh di laptop butuh lebar sekitar 1920 piksel, gambar di tengah halaman web sering cukup 800 sampai 1200 piksel, dan thumbnail hanya butuh 150 sampai 300 piksel. Mengirim foto 4000 piksel yang hanya ditampilkan selebar 800 piksel berarti membuang sebagian besar isi file."
+          ],
+          "bullets": [
+            "Situs web dan blog: lebar 1200 sampai 2000 piksel.",
+            "Email dan chat: 1024 sampai 1600 piksel pada sisi terpanjang.",
+            "Postingan Instagram dan Facebook: lebar 1080 piksel.",
+            "Formulir online dan unggahan KTP atau pas foto: sesuai yang tertulis di formulir, sering kali 200 sampai 600 piksel."
+          ]
+        },
+        {
+          "title": "Langkah 2: Pilih format yang tepat",
+          "paragraphs": [
+            "Foto cocok disimpan sebagai JPG atau WebP. Logo, tangkapan layar, dan gambar dengan tepi tajam cocok disimpan sebagai PNG, atau WebP jika situsnya mendukung. Menyimpan foto sebagai PNG bisa membuatnya lima sampai sepuluh kali lebih besar daripada JPG, tanpa manfaat yang terlihat. Panduan kami tentang JPG, PNG, dan WebP menjelaskan perbedaannya secara rinci."
+          ]
+        },
+        {
+          "title": "Langkah 3: Turunkan kualitas sedikit",
+          "paragraphs": [
+            "JPG dan WebP memungkinkan Anda menukar kualitas dengan ukuran. Hubungannya bukan garis lurus: menurunkan dari 100 ke 85 biasanya menghilangkan lebih dari separuh ukuran file dan hampir tidak terlihat, sedangkan menurunkan dari 85 ke 40 menghemat lebih sedikit dan mulai memunculkan tepi berkotak-kotak serta detail yang kabur.",
+            "Kualitas antara 70 dan 85 adalah titik awal yang bagus untuk foto. Jika Anda perlu file di bawah ukuran tertentu, misalnya 100 KB, gunakan Batasi ukuran file: alat ini mencoba berbagai tingkat kualitas dan memilih yang tertinggi yang masih muat."
+          ]
+        },
+        {
+          "title": "Langkah 4: Hapus data tersembunyi",
+          "paragraphs": [
+            "Foto dari ponsel dan kamera membawa informasi tersembunyi yang disebut metadata: model kamera, tanggal, dan kadang lokasi GPS yang persis. Data ini menambah sedikit ukuran file dan, yang lebih penting, bisa mengungkap di mana foto diambil. Menyimpan ulang gambar dengan alat yang tidak menyalin metadata akan menghapusnya. File yang dibuat oleh situs ini tidak mengandungnya."
+          ]
+        },
+        {
+          "title": "Kesalahan yang membuat gambar lebih buruk",
+          "bullets": [
+            "Memperbesar gambar yang kecil. Kanvas yang lebih besar tidak bisa menambah detail yang memang tidak pernah terekam; hasilnya buram dan filenya malah membesar.",
+            "Menyimpan JPG berulang-ulang. Setiap penyimpanan mengurangi sedikit kualitas. Simpan file asli Anda dan buat salinan baru setiap kali.",
+            "Mengambil tangkapan layar dari sebuah foto alih-alih menyimpannya. Tangkapan layar sering lebih besar dan kurang tajam.",
+            "Memakai PNG untuk foto. Format ini lossless, jadi ukuran filenya tetap besar."
+          ]
+        },
+        {
+          "title": "Resep singkat",
+          "paragraphs": [
+            "Untuk sebagian besar foto: ubah ke lebar yang Anda butuhkan, simpan sebagai JPG atau WebP dengan kualitas sekitar 80, lalu periksa hasilnya pada zoom 100 persen. Jika masih terlihat bagus, Anda selesai. Jika terlihat buram, naikkan kualitas sedikit atau buat gambar sedikit lebih besar."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Apakah memperkecil gambar menurunkan kualitasnya?", "a": "Mengurangi jumlah piksel tetap menjaga gambar tajam jika dilakukan dengan metode pengubahan ukuran yang baik, karena detailnya hanya ditampilkan dalam ukuran yang lebih kecil. Menurunkan kualitas kompresi memang mengurangi detail, tetapi penurunan yang kecil sulit terlihat." },
+          { "q": "Seberapa kecil foto bisa diperkecil?", "a": "Tergantung isinya. Potret dengan latar polos bisa terlihat bagus pada 30 sampai 50 KB jika ukurannya kecil. Pemandangan yang ramai membutuhkan jauh lebih banyak. Coba Batasi ukuran file dan lihat hasilnya." },
+          { "q": "Apakah aman memperkecil foto pribadi secara online?", "a": "Di sini gambar diproses di dalam browser Anda sendiri dan tidak pernah diunggah, jadi tidak keluar dari perangkat Anda. Pada situs lain, periksa dulu apakah file Anda diunggah." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG vs PNG vs WebP: Format Gambar Mana yang Harus Dipakai?",
+      "description": "Perbandingan JPG, PNG, dan WebP yang jelas: ukuran file, kualitas, transparansi, dan kompatibilitas, serta cara memilih format yang tepat.",
+      "h1": "JPG, PNG, atau WebP: format mana yang sebaiknya dipakai?",
+      "intro": "Gambar yang sama bisa berukuran 200 KB sebagai JPG, 1,5 MB sebagai PNG, dan 140 KB sebagai WebP. Format memengaruhi ukuran, tampilan, dan tempat file bisa dipakai. Panduan ini menjelaskan keunggulan terbaik tiap format, sehingga Anda bisa memilih yang tepat dalam hitungan detik.",
+      "sections": [
+        {
+          "title": "JPG: standar untuk foto",
+          "paragraphs": [
+            "JPG (juga ditulis JPEG) mengompresi foto dengan membuang detail yang nyaris tidak disadari mata. Semua program, ponsel, situs web, dan printer memahaminya, sehingga ini adalah pilihan paling aman saat Anda tidak yakin apa yang diterima pihak lain."
+          ],
+          "bullets": [
+            "Terbaik untuk: foto dan apa pun dengan perubahan warna yang halus.",
+            "Kelemahan: tidak mendukung transparansi, dan teks atau garis tipis bisa terlihat kabur pada kualitas rendah.",
+            "Kualitas: lossy. Setiap penyimpanan ulang mengurangi sedikit lagi."
+          ]
+        },
+        {
+          "title": "PNG: grafis tajam dan transparansi",
+          "paragraphs": [
+            "PNG mengompresi tanpa kehilangan detail sedikit pun, dan bisa memiliki area transparan. Itu menjadikannya format yang tepat untuk logo, ikon, tangkapan layar, bagan, dan gambar. Untuk foto, hasilnya berupa file yang sangat besar, karena foto memiliki terlalu banyak perubahan warna kecil untuk dikompresi dengan baik tanpa kehilangan detail."
+          ],
+          "bullets": [
+            "Terbaik untuk: logo, tangkapan layar antarmuka, teks, dan gambar yang butuh latar belakang transparan.",
+            "Kelemahan: file besar untuk foto.",
+            "Kualitas: lossless. Menyimpan ulang tidak merusaknya."
+          ]
+        },
+        {
+          "title": "WebP: file lebih kecil untuk web",
+          "paragraphs": [
+            "WebP dirancang untuk situs web. Format ini bisa bekerja dalam mode lossy seperti JPG atau mode lossless seperti PNG, dan mendukung transparansi. Pada kualitas visual yang serupa, foto WebP sering kali sekitar seperempat sampai sepertiga lebih kecil daripada JPG. Semua browser terkini bisa menampilkan WebP, tetapi sebagian program lama, tempat cetak, dan formulir unggahan masih belum menerimanya."
+          ],
+          "bullets": [
+            "Terbaik untuk: situs web dan aplikasi yang Anda kendalikan sendiri perangkat penontonnya.",
+            "Kelemahan: tidak diterima di mana-mana, terutama oleh perangkat lunak lama dan sebagian portal resmi.",
+            "Kualitas: lossy atau lossless, Anda yang memilih."
+          ]
+        },
+        {
+          "title": "Cara memilih",
+          "bullets": [
+            "Mengunggah ke situs pemerintah, portal ujian, atau lamaran kerja: JPG, kecuali ada ketentuan lain.",
+            "Foto untuk situs web atau blog: WebP, dengan JPG sebagai cadangan.",
+            "Logo, ikon, tangkapan layar, atau apa pun dengan latar belakang transparan: PNG.",
+            "Mengirim foto lewat email atau chat kepada orang yang tidak Anda kenal: JPG.",
+            "Mencetak: JPG atau PNG pada kualitas tertinggi, dengan ukuran sesuai yang akan dicetak."
+          ]
+        },
+        {
+          "title": "Apa yang bisa dan tidak bisa dilakukan konversi",
+          "paragraphs": [
+            "Mengganti format tidak memperbaiki gambar. Mengubah JPG kecil menjadi PNG hanya memberi Anda file yang lebih besar dengan detail yang sama. Mengubah PNG berlatar transparan menjadi JPG akan mengisi area transparan, yang oleh alat ini diisi warna putih. Mengubah JPG menjadi WebP bisa membuat file lebih kecil, tetapi kompresi JPG yang pertama sudah menghilangkan detail yang tidak bisa kembali."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Apakah WebP lebih baik daripada JPG?", "a": "Untuk ukuran file di situs web, biasanya ya. Untuk kompatibilitas, tidak: JPG berfungsi di mana-mana. Pakai WebP jika Anda tahu format itu diterima, dan JPG jika Anda tidak yakin." },
+          { "q": "Mengapa PNG saya jauh lebih besar daripada JPG?", "a": "PNG menyimpan setiap detail. Sebuah foto memiliki jutaan perbedaan warna kecil, sehingga file lossless menjadi besar. Untuk foto, format yang tepat adalah JPG atau WebP." },
+          { "q": "Bisakah saya mengubah WebP menjadi JPG?", "a": "Bisa. Tambahkan file WebP, pilih JPG sebagai formatnya, lalu unduh hasilnya. Area transparan akan menjadi putih." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Ukuran Foto untuk Formulir Online: Batas KB, Piksel, Format",
+      "description": "Cara memenuhi syarat unggah foto dan tanda tangan: membaca batas KB dan piksel, membuat foto di bawah 20, 50, atau 200 KB, dan mengatasi error umum.",
+      "h1": "Ukuran foto untuk formulir online: batas KB, piksel, dan format",
+      "intro": "Pendaftaran ujian, portal lowongan kerja, pengajuan visa, dan formulir pemerintah sering menolak foto karena salah satu dari tiga alasan: file terlalu besar, dimensi salah, atau format tidak diterima. Setiap syarat bisa dipenuhi dalam satu menit setelah Anda tahu cara membacanya. Panduan ini menunjukkan caranya.",
+      "sections": [
+        {
+          "title": "Baca persyaratannya dengan teliti",
+          "paragraphs": [
+            "Sebuah persyaratan biasanya terdiri dari hingga empat bagian. Periksa satu per satu sebelum Anda mengubah ukuran apa pun."
+          ],
+          "bullets": [
+            "Ukuran file, misalnya 20 KB sampai 50 KB. Ini adalah jumlah kilobyte pada file, bukan ukuran di layar.",
+            "Dimensi, misalnya 200 x 230 piksel, atau 3,5 x 4,5 cm. Ini menentukan bentuk gambar.",
+            "Format: hampir selalu JPG atau JPEG. Beberapa portal juga menerima PNG.",
+            "Latar belakang dan penampilan: misalnya latar putih polos, wajah terlihat jelas, tanpa kacamata. Alat pengubah ukuran tidak bisa mengubah hal-hal ini."
+          ]
+        },
+        {
+          "title": "KB, MB, dan soal 1.000 atau 1.024",
+          "paragraphs": [
+            "Satu MB adalah 1.000 KB, jadi 50 KB hanyalah 0,05 MB. Sebagian sistem menghitung 1 KB sebagai 1.000 byte dan sebagian lagi sebagai 1.024 byte. Agar aman, alat ini menjaga hasilnya di bawah angka yang lebih kecil, sehingga file yang dibuat untuk batas 50 KB berukuran di bawah 50.000 byte dan lolos dalam kedua kasus."
+          ]
+        },
+        {
+          "title": "Membuat foto di bawah 20, 50, atau 200 KB",
+          "paragraphs": [
+            "Buka pengubah ukuran gambar gratis, tambahkan foto Anda, lalu pilih preset ukuran file (20, 50, 100, atau 200 KB). Jika formulir juga menyebutkan dimensi dalam piksel, masukkan dulu di bagian Ukuran. Tekan Ubah ukuran gambar dan periksa pratinjaunya. Alat ini mula-mula menurunkan kualitas selangkah demi selangkah, dan hanya jika itu belum cukup, alat ini juga memperkecil gambar."
+          ],
+          "bullets": [
+            "Pangkas rapat di sekitar wajah atau tanda tangan sebelum mulai. Area kosong yang lebih sedikit berarti file lebih kecil pada ketajaman yang sama.",
+            "Latar belakang yang polos dan rata terkompresi jauh lebih baik daripada yang ramai.",
+            "Gunakan JPG. PNG tidak bisa diperkecil dengan cara ini.",
+            "Jika hasilnya terlihat terlalu buram, naikkan batasnya sedikit atau pakai ukuran piksel yang lebih kecil dengan kualitas lebih tinggi."
+          ]
+        },
+        {
+          "title": "Ukuran piksel yang tepat dan sentimeter",
+          "paragraphs": [
+            "Jika formulir meminta piksel, pilih px sebagai satuan dan masukkan lebar serta tingginya. Jika formulir meminta sentimeter atau milimeter, pilih cm atau mm dan atur DPI ke 300; alat ini lalu menghitung pikselnya untuk Anda. Matikan Kunci rasio aspek dan pilih Pangkas untuk mengisi kotak saat formulir membutuhkan bentuk persis yang berbeda dari foto Anda."
+          ]
+        },
+        {
+          "title": "Tanda tangan",
+          "paragraphs": [
+            "Unggahan tanda tangan biasanya berupa gambar kecil tinta di atas kertas putih. Tanda tanganlah dengan pulpen gelap di atas kertas putih polos, ambil foto dengan cahaya yang baik, pangkas rapat di sekitar tanda tangan, lalu ubah ke dimensi yang tertera. Tanda tangan terkompresi menjadi file yang sangat kecil, jadi batasnya jarang menjadi masalah."
+          ]
+        },
+        {
+          "title": "Jika unggahan tetap gagal",
+          "bullets": [
+            "File terlalu besar: turunkan batas sedikit, misalnya ke 45 KB jika yang disyaratkan 50 KB.",
+            "Dimensi salah: periksa apakah lebar dan tinggi tidak tertukar, dan satuannya sudah benar.",
+            "Format tidak didukung: simpan sebagai JPG, bukan WebP atau PNG.",
+            "Gambar terlihat melar: pangkas untuk mengisi kotak, jangan diregangkan.",
+            "Foto KTP dan visa punya aturan tambahan tentang ukuran kepala dan latar belakang yang ditetapkan oleh instansi terkait. Selalu baca petunjuk resmi mereka."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Berapa KB dalam 1 MB?", "a": "Satu MB sekitar 1.000 KB (sebagian sistem memakai 1.024). Jadi batas 200 KB adalah seperlima megabyte." },
+          { "q": "Bisakah saya memakai foto dari ponsel?", "a": "Bisa. Foto dari ponsel berukuran besar, tetapi alat ini memperkecilnya sesuai ukuran yang diminta. Ambil foto dengan cahaya yang baik dan latar belakang polos." },
+          { "q": "Apakah foto saya akan diunggah ke server Anda?", "a": "Tidak. Alat ini berjalan di browser Anda, jadi foto tetap berada di perangkat Anda sampai Anda sendiri mengunggahnya ke formulir." }
+        ]
+      }
+    }
+  }
+}

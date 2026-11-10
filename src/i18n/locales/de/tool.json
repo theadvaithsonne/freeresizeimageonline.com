@@ -6,11 +6,11 @@
       "or": "oder",
       "choose": "Bilder auswählen",
       "paste": "Sie können Bilder auch mit Strg+V einfügen.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Keine Begrenzung bei Größe oder Anzahl.",
+      "formats": "JPG, PNG, WebP, GIF (erstes Bild) und BMP. Keine Anmeldung und kein Tageslimit.",
       "privacy": "Ihre Bilder verlassen nie Ihr Gerät.",
-      "addMore": "Weitere Bilder hinzufügen",
-      "overlay": "Bilder ablegen, um sie hinzuzufügen",
-      "none": "Keine verwendbaren Bilder gefunden. Bitte wählen Sie JPG-, PNG-, WebP-, GIF- oder BMP-Dateien."
+      "none": "Keine verwendbaren Bilder gefunden. Bitte wählen Sie JPG-, PNG-, WebP-, GIF- oder BMP-Dateien.",
+      "tooMany": "Es wurden nur die ersten {max} Bilder hinzugefügt.",
+      "skipped": "{count} Dateien wurden übersprungen, weil sie keine Bilder sind."
     },
     "files": {
       "title": "Ihre Bilder ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} größer",
       "targetMissed": "{target} konnte nicht erreicht werden. Kleinstmöglich: {size}.",
       "summary": "{done} von {total} fertig",
-      "finished": "Alles fertig. {count} Bilder sind bereit."
+      "finished": "Alles fertig. Ihre Bilder sind bereit."
     },
     "errors": {
       "decode-failed": "Diese Datei konnte nicht als Bild gelesen werden.",
@@ -74,7 +74,8 @@
       "invalid-size": "Bitte geben Sie eine gültige Breite, Höhe oder einen gültigen Prozentwert ein.",
       "too-large": "Diese Größe ist für Ihr Gerät zu groß. Versuchen Sie eine kleinere Größe.",
       "encode-failed": "Das Bild konnte nicht gespeichert werden. Bitte versuchen Sie ein anderes Format.",
-      "cancelled": "Abgebrochen."
+      "cancelled": "Abgebrochen.",
+      "invalid-limit": "Bitte geben Sie eine maximale Dateigröße ein oder schalten Sie „Dateigröße begrenzen“ aus."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "E-Mail-Breite",
         "screen": "Bildschirm"
       }
-    }
+    },
+    "results": {
+      "title": "Ihre Bilder in neuer Größe",
+      "total": "Gesamt: {before} → {after}",
+      "back": "Einstellungen ändern",
+      "startOver": "Neu beginnen",
+      "original": "Original",
+      "resized": "Neue Größe",
+      "allFailed": "Kein Bild konnte bearbeitet werden. Lesen Sie die Hinweise auf den Karten oder ändern Sie die Einstellungen und versuchen Sie es erneut.",
+      "limitNote": "Bei PNG lässt sich die Datei nicht auf Ihre Größenbegrenzung verkleinern. Wählen Sie JPG oder WebP, um sie einzuhalten.",
+      "progress": "Fortschritt der Größenänderung"
+    },
+    "noscript": "Für die Größenänderung in Ihrem Browser wird JavaScript benötigt. Bitte schalten Sie es ein."
   }
 }

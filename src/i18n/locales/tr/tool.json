@@ -6,11 +6,11 @@
       "or": "veya",
       "choose": "Resim seçin",
       "paste": "Ctrl+V ile resim yapıştırabilirsiniz.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Boyut ve adet sınırı yok.",
+      "formats": "JPG, PNG, WebP, GIF (ilk kare) ve BMP. Kayıt gerekmez, günlük sınır yok.",
       "privacy": "Resimleriniz cihazınızdan asla çıkmaz.",
-      "addMore": "Daha fazla resim ekle",
-      "overlay": "Eklemek için resimleri bırakın",
-      "none": "Kullanılabilir resim bulunamadı. Lütfen JPG, PNG, WebP, GIF veya BMP dosyaları seçin."
+      "none": "Kullanılabilir resim bulunamadı. Lütfen JPG, PNG, WebP, GIF veya BMP dosyaları seçin.",
+      "tooMany": "Yalnızca ilk {max} resim eklendi.",
+      "skipped": "{count} dosya resim olmadığı için atlandı."
     },
     "files": {
       "title": "Resimleriniz ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} daha büyük",
       "targetMissed": "{target} sınırına ulaşılamadı. Elde edilen en küçük boyut: {size}.",
       "summary": "{total} dosyadan {done} tanesi tamamlandı",
-      "finished": "Hepsi tamam. {count} resim hazır."
+      "finished": "Hepsi tamam. Resimleriniz hazır."
     },
     "errors": {
       "decode-failed": "Bu dosya resim olarak okunamadı.",
@@ -74,7 +74,8 @@
       "invalid-size": "Lütfen geçerli bir genişlik, yükseklik veya yüzde girin.",
       "too-large": "Bu boyut cihazınız için çok büyük. Daha küçük bir boyut deneyin.",
       "encode-failed": "Resim kaydedilemedi. Lütfen başka bir biçim deneyin.",
-      "cancelled": "İptal edildi."
+      "cancelled": "İptal edildi.",
+      "invalid-limit": "Lütfen en büyük dosya boyutunu girin veya dosya boyutu sınırını kapatın."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "e-posta genişliği",
         "screen": "ekran"
       }
-    }
+    },
+    "results": {
+      "title": "Yeniden boyutlandırılan resimleriniz",
+      "total": "Toplam: {before} → {after}",
+      "back": "Ayarları değiştir",
+      "startOver": "Baştan başla",
+      "original": "Orijinal",
+      "resized": "Yeni boyut",
+      "allFailed": "Hiçbir resim boyutlandırılamadı. Kartlardaki iletileri okuyun veya ayarları değiştirip tekrar deneyin.",
+      "limitNote": "PNG, dosya boyutu sınırınıza sığacak kadar küçültülemez. Sınıra uymak için JPG veya WebP seçin.",
+      "progress": "Boyutlandırma ilerlemesi"
+    },
+    "noscript": "Resimleri tarayıcınızda boyutlandırmak için JavaScript gerekir. Lütfen JavaScript'i açın."
   }
 }

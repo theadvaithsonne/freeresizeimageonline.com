@@ -7,9 +7,29 @@
       "h1": "Über FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline ist ein kostenloses Tool zum Ändern der Größe, Komprimieren und Konvertieren von Bildern. Es wird von {owner} in Bengaluru, Indien, entwickelt und betrieben.",
-        "Das Ziel ist Einfachheit: kein Konto, kein Wasserzeichen und keine Limits. Ihre Bilder werden in Ihrem eigenen Browser verarbeitet und nie auf unsere Server hochgeladen.",
-        "Die Seite wird durch Werbung von Google AdSense unterstützt, die die Domain und die Entwicklung finanziert. Die Werbung beschränkt sich auf ein klar gekennzeichnetes Feld, damit sie Ihnen nicht im Weg steht.",
-        "Fragen oder Feedback? Schreiben Sie an {email}."
+        "Das Ziel ist einfach: ein schnelles, ehrliches Bildtool ohne Konto, ohne Wasserzeichen und ohne Tageslimit. Ihre Bilder werden in Ihrem eigenen Browser verarbeitet und nie auf unsere Server hochgeladen."
+      ],
+      "sections": [
+        {
+          "title": "Was Sie hier tun können",
+          "text": "Ändern Sie die Größe eines Bildes in Pixeln, Zentimetern, Millimetern, Zoll oder Prozent. Bringen Sie ein Foto unter eine Größenbegrenzung wie 50 KB. Konvertieren Sie zwischen JPG, PNG und WebP. Bearbeiten Sie viele Bilder auf einmal und laden Sie sie als eine einzige ZIP-Datei herunter. Fertige Größen für soziale Medien, Passfotos und Visumfotos, Online-Shops und gängige Upload-Formulare sind bereits enthalten."
+        },
+        {
+          "title": "So funktioniert es",
+          "text": "Wenn Sie ein Bild hinzufügen, liest Ihr Browser es ein, und die Seite erledigt die Arbeit auf Ihrem eigenen Computer oder Smartphone, mit moderner Webtechnik (JavaScript und WebAssembly). Das Ergebnis entsteht im Arbeitsspeicher und steht dann zum Herunterladen bereit. Nichts wird an uns gesendet. Deshalb ist das Tool schnell und kommt auch mit großen Mengen zurecht."
+        },
+        {
+          "title": "Warum es kostenlos ist",
+          "text": "Die Seite finanziert sich durch eine einzelne, klar gekennzeichnete Anzeige von Google AdSense. Sie bezahlt die Domain und die Zeit, die in die Verbesserung des Tools fließt. Die Anzeige hält Abstand zu den Schaltflächen, und alles funktioniert auch ohne sie."
+        },
+        {
+          "title": "Größen und Genauigkeit",
+          "text": "Die Größen für soziale Medien, Ausweisfotos und Online-Shops entsprechen üblicherweise veröffentlichten Vorgaben. Diese können sich ändern, und jeder Antrag kann eigene Regeln haben. Prüfen Sie deshalb vor dem Einreichen die offiziellen Hinweise. Wenn Sie einen Fehler finden, sagen Sie uns bitte Bescheid."
+        },
+        {
+          "title": "Wer dahintersteht",
+          "text": "{owner} ist der unabhängige Herausgeber dieser Seite und liest die Nachrichten, die an {email} geschickt werden."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "E-Mail",
       "ownerLabel": "Betreiber der Seite",
       "locationLabel": "Standort",
-      "locationValue": "Bengaluru, Indien"
+      "locationValue": "Bengaluru, Indien",
+      "sections": [
+        {
+          "title": "Worüber Sie schreiben können",
+          "text": "Fragen zur Funktionsweise des Tools, ein Fehler, eine veraltete Größe, eine Übersetzung, die besser sein könnte, oder eine Idee für eine neue Vorlage."
+        },
+        {
+          "title": "Was uns bei der Fehlersuche hilft",
+          "text": "Nennen Sie uns die Seitenadresse, Ihren Browser und Ihr Gerät, Dateityp und Dateigröße (nicht die Datei selbst) und was Sie erwartet hätten."
+        },
+        {
+          "title": "Antworten",
+          "text": "Wir lesen jede Nachricht. Antworten können einige Tage dauern, weil die Seite von einer einzelnen Person betrieben wird."
+        }
+      ]
     },
     "privacy": {
       "title": "Datenschutzerklärung - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookies und lokaler Speicher",
-          "text": "Wir speichern Ihre Einstellungen, etwa Farbdesign und Sprache, im lokalen Speicher Ihres Browsers. Diese bleiben auf Ihrem Gerät. Werbepartner können Cookies setzen, wie im nächsten Abschnitt beschrieben."
+          "text": "Wir speichern Ihre Einstellungen, etwa Farbdesign und Sprache, im lokalen Speicher Ihres Browsers und die Entscheidung, den Sprachvorschlag auszublenden, in dessen Sitzungsspeicher. Diese Daten bleiben auf Ihrem Gerät. Werbepartner können Cookies setzen, wie im nächsten Abschnitt beschrieben."
         },
         {
           "title": "Werbung",

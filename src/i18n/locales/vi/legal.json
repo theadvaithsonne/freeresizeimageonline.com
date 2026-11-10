@@ -7,9 +7,29 @@
       "h1": "Giới thiệu về FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline là công cụ miễn phí để đổi kích thước, nén và chuyển đổi ảnh. Công cụ do {owner} xây dựng và vận hành tại Bengaluru, Ấn Độ.",
-        "Mục tiêu là giữ cho mọi thứ đơn giản: không tài khoản, không watermark và không giới hạn. Ảnh của bạn được xử lý ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ của chúng tôi.",
-        "Trang web được hỗ trợ bằng quảng cáo từ Google AdSense, khoản thu này chi trả cho tên miền và việc phát triển. Quảng cáo chỉ nằm trong một khung được đánh dấu rõ ràng để không làm phiền bạn.",
-        "Có câu hỏi hoặc góp ý? Hãy viết cho chúng tôi qua {email}."
+        "Mục tiêu rất đơn giản: một công cụ xử lý ảnh nhanh và trung thực, không cần tài khoản, không watermark và không giới hạn mỗi ngày. Ảnh của bạn được xử lý ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ của chúng tôi."
+      ],
+      "sections": [
+        {
+          "title": "Bạn có thể làm gì ở đây",
+          "text": "Đổi kích thước ảnh theo pixel, centimet, milimet, inch hoặc phần trăm. Làm cho ảnh vừa một giới hạn dung lượng như 50 KB. Chuyển đổi giữa JPG, PNG và WebP. Xử lý nhiều ảnh cùng lúc rồi tải về trong một tệp ZIP. Công cụ có sẵn các kích thước dành cho mạng xã hội, ảnh hộ chiếu và visa, cửa hàng online và các biểu mẫu tải lên phổ biến."
+        },
+        {
+          "title": "Công cụ hoạt động như thế nào",
+          "text": "Khi bạn thêm một ảnh, trình duyệt sẽ đọc ảnh đó và trang web thực hiện công việc ngay trên máy tính hoặc điện thoại của bạn, bằng công nghệ web hiện đại (JavaScript và WebAssembly). Kết quả được tạo trong bộ nhớ và sẵn sàng để tải về. Không có gì được gửi đến chúng tôi, nhờ vậy công cụ chạy nhanh và xử lý được cả lượng ảnh lớn."
+        },
+        {
+          "title": "Vì sao công cụ miễn phí",
+          "text": "Trang web được hỗ trợ bằng một quảng cáo có nhãn rõ ràng từ Google AdSense. Khoản thu này chi trả cho tên miền và thời gian dành để cải thiện công cụ. Quảng cáo được đặt tránh xa các nút bấm, và mọi chức năng vẫn hoạt động bình thường khi không có quảng cáo."
+        },
+        {
+          "title": "Kích thước và độ chính xác",
+          "text": "Các kích thước dành cho mạng xã hội, ảnh thẻ và cửa hàng online là những yêu cầu thường được công bố. Chúng có thể thay đổi, và mỗi hồ sơ có thể có thêm quy định riêng, vì vậy hãy kiểm tra hướng dẫn chính thức trước khi nộp. Nếu bạn phát hiện sai sót, xin hãy báo cho chúng tôi."
+        },
+        {
+          "title": "Ai đứng sau trang web",
+          "text": "{owner} là nhà xuất bản độc lập của trang web này và đọc các thư gửi đến {email}."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "Email",
       "ownerLabel": "Chủ sở hữu trang web",
       "locationLabel": "Địa điểm",
-      "locationValue": "Bengaluru, Ấn Độ"
+      "locationValue": "Bengaluru, Ấn Độ",
+      "sections": [
+        {
+          "title": "Bạn có thể viết thư về chuyện gì",
+          "text": "Câu hỏi về cách công cụ hoạt động, một lỗi, một kích thước đã lỗi thời, một bản dịch có thể tốt hơn, hoặc ý tưởng cho một mẫu kích thước mới."
+        },
+        {
+          "title": "Điều gì giúp chúng tôi sửa lỗi nhanh hơn",
+          "text": "Hãy cho chúng tôi biết địa chỉ trang, trình duyệt và thiết bị của bạn, loại và dung lượng của tệp (không cần gửi tệp) và điều bạn mong đợi sẽ xảy ra."
+        },
+        {
+          "title": "Phản hồi",
+          "text": "Chúng tôi đọc mọi thư. Việc phản hồi có thể mất vài ngày vì trang web chỉ do một người vận hành."
+        }
+      ]
     },
     "privacy": {
       "title": "Chính sách quyền riêng tư - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookie và bộ nhớ cục bộ",
-          "text": "Chúng tôi lưu các lựa chọn của bạn, chẳng hạn như giao diện và ngôn ngữ, trong bộ nhớ cục bộ của trình duyệt. Dữ liệu này ở lại trên thiết bị của bạn. Các đối tác quảng cáo có thể đặt cookie như được mô tả trong phần tiếp theo."
+          "text": "Chúng tôi lưu các lựa chọn của bạn, chẳng hạn như giao diện và ngôn ngữ, trong bộ nhớ cục bộ của trình duyệt, còn lựa chọn ẩn gợi ý ngôn ngữ thì được lưu trong bộ nhớ phiên của trình duyệt. Dữ liệu này ở lại trên thiết bị của bạn. Các đối tác quảng cáo có thể đặt cookie như được mô tả trong phần tiếp theo."
         },
         {
           "title": "Quảng cáo",

@@ -6,11 +6,11 @@
       "or": "ou",
       "choose": "Escolher imagens",
       "paste": "Você também pode colar imagens com Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Sem limite de tamanho ou quantidade.",
+      "formats": "JPG, PNG, WebP, GIF (primeiro quadro) e BMP. Sem cadastro e sem limite diário.",
       "privacy": "Suas imagens nunca saem do seu dispositivo.",
-      "addMore": "Adicionar mais imagens",
-      "overlay": "Solte as imagens para adicioná-las",
-      "none": "Nenhuma imagem utilizável encontrada. Escolha arquivos JPG, PNG, WebP, GIF ou BMP."
+      "none": "Nenhuma imagem utilizável encontrada. Escolha arquivos JPG, PNG, WebP, GIF ou BMP.",
+      "tooMany": "Apenas as primeiras {max} imagens foram adicionadas.",
+      "skipped": "{count} arquivos foram ignorados porque não são imagens."
     },
     "files": {
       "title": "Suas imagens ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} maior",
       "targetMissed": "Não foi possível chegar a {target}. Menor tamanho possível: {size}.",
       "summary": "{done} de {total} concluídas",
-      "finished": "Tudo pronto. {count} imagens estão prontas."
+      "finished": "Tudo pronto. Suas imagens estão prontas."
     },
     "errors": {
       "decode-failed": "Não foi possível ler este arquivo como imagem.",
@@ -74,7 +74,8 @@
       "invalid-size": "Digite uma largura, altura ou porcentagem válida.",
       "too-large": "Este tamanho é grande demais para o seu dispositivo. Tente um tamanho menor.",
       "encode-failed": "Não foi possível salvar a imagem. Tente outro formato.",
-      "cancelled": "Cancelado."
+      "cancelled": "Cancelado.",
+      "invalid-limit": "Digite um tamanho máximo de arquivo ou desative o limite de tamanho do arquivo."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "largura para e-mail",
         "screen": "tela"
       }
-    }
+    },
+    "results": {
+      "title": "Suas imagens redimensionadas",
+      "total": "Total: {before} → {after}",
+      "back": "Alterar configurações",
+      "startOver": "Recomeçar",
+      "original": "Original",
+      "resized": "Redimensionada",
+      "allFailed": "Não foi possível redimensionar nenhuma imagem. Leia as mensagens nos cartões ou altere as configurações e tente novamente.",
+      "limitNote": "Não é possível reduzir um PNG para caber no seu limite de tamanho. Escolha JPG ou WebP para manter o limite.",
+      "progress": "Progresso do redimensionamento"
+    },
+    "noscript": "É preciso ativar o JavaScript para redimensionar imagens no navegador. Ative-o e tente de novo."
   }
 }

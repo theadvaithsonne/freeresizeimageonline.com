@@ -6,11 +6,11 @@
       "or": "or",
       "choose": "Choose images",
       "paste": "You can also paste images with Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. No limit on size or number.",
+      "formats": "JPG, PNG, WebP, GIF (first frame) and BMP. No sign-up and no daily limit.",
       "privacy": "Your images never leave your device.",
-      "addMore": "Add more images",
-      "overlay": "Drop images to add them",
-      "none": "No usable images found. Please choose JPG, PNG, WebP, GIF or BMP files."
+      "none": "No usable images found. Please choose JPG, PNG, WebP, GIF or BMP files.",
+      "tooMany": "Only the first {max} images were added.",
+      "skipped": "{count} files were skipped because they are not images."
     },
     "files": {
       "title": "Your images ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} larger",
       "targetMissed": "Could not reach {target}. Smallest possible: {size}.",
       "summary": "{done} of {total} done",
-      "finished": "All done. {count} images are ready."
+      "finished": "All done. Your images are ready."
     },
     "errors": {
       "decode-failed": "This file could not be read as an image.",
@@ -74,7 +74,8 @@
       "invalid-size": "Please enter a valid width, height or percentage.",
       "too-large": "This size is too large for your device. Try a smaller size.",
       "encode-failed": "Saving the image failed. Please try another format.",
-      "cancelled": "Cancelled."
+      "cancelled": "Cancelled.",
+      "invalid-limit": "Please enter a maximum file size, or turn off the file size limit."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "email width",
         "screen": "screen"
       }
-    }
+    },
+    "results": {
+      "title": "Your resized images",
+      "total": "Total: {before} → {after}",
+      "back": "Change settings",
+      "startOver": "Start over",
+      "original": "Original",
+      "resized": "Resized",
+      "allFailed": "No image could be resized. Read the messages on the cards, or change the settings and try again.",
+      "limitNote": "PNG cannot be made smaller to fit your file size limit. Choose JPG or WebP to keep it.",
+      "progress": "Resizing progress"
+    },
+    "noscript": "JavaScript is needed to resize images in your browser. Please turn it on."
   }
 }

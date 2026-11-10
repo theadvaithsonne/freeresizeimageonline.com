@@ -43,8 +43,8 @@
     },
     "faq": {
       "items": [
-        { "q": "Is het echt gratis?", "a": "Ja. Je hoeft je niet aan te melden, er is geen proefperiode en er geldt geen limiet op het aantal of de grootte van je afbeeldingen. De site wordt betaald door één advertentie naast de tool." },
-        { "q": "Worden mijn afbeeldingen geüpload?", "a": "Nee. Het formaat wijzigen gebeurt op je eigen apparaat, in je browser. Je afbeeldingen worden nooit naar onze servers gestuurd. Het enige wat we tellen is hoeveel afbeeldingen zijn aangepast, als simpel getal." },
+        { "q": "Is het echt gratis?", "a": "Ja. Je hoeft je niet aan te melden, er is geen proefperiode en er geldt geen dagelijkse limiet. De site wordt betaald door één advertentie naast de tool. Heel grote afbeeldingen kunnen te zwaar zijn voor een telefoon of een oude computer. Als dat gebeurt, zie je een melding." },
+        { "q": "Worden mijn afbeeldingen geüpload?", "a": "Nee. Het formaat wijzigen gebeurt op je eigen apparaat, in je browser. Je afbeeldingen worden nooit naar onze servers gestuurd." },
         { "q": "Welke bestandsindelingen worden ondersteund?", "a": "Je kunt JPG-, PNG-, WebP-, GIF- en BMP-bestanden openen, en AVIF als je browser dat ondersteunt. Opslaan kan als JPG, PNG of WebP." },
         { "q": "Gaat de kwaliteit achteruit als ik het formaat wijzig?", "a": "Een afbeelding kleiner maken houdt hem scherp, omdat de tool een hoogwaardig filter gebruikt. Een afbeelding groter maken kan geen details toevoegen die er niet zijn, dus vergrote afbeeldingen zien er zachter uit. Bij JPG en WebP kies je zelf de kwaliteit." },
         { "q": "Hoe krijg ik een afbeelding onder een grootte zoals 50 KB?", "a": "Zet Bestandsgrootte beperken aan, typ het getal en druk op Formaat wijzigen. De tool verlaagt de kwaliteit en zo nodig de afmetingen totdat het bestand past. Kies JPG of WebP voor het beste resultaat, want PNG kan op deze manier niet kleiner worden gemaakt." },
@@ -66,7 +66,7 @@
     "tips": [
       "Gebruik JPG. Het comprimeert foto’s veel beter dan PNG bij dezelfde afmetingen.",
       "Ziet het resultaat er wazig uit? Verhoog de limiet een beetje of snijd lege randen weg voordat je het formaat wijzigt.",
-      "De meeste formulieren meten de grootte in KB, waarbij 1 KB 1.024 bytes is. Deze tool hanteert dezelfde regel.",
+      "Sommige portalen rekenen 1 KB als 1.000 bytes en andere als 1.024. Deze tool blijft onder het kleinere getal, zodat je bestand in beide gevallen wordt geaccepteerd.",
       "Controleer ook de vereiste afmetingen. Sommige portalen willen zowel een formaat in pixels als een limiet in KB."
     ],
     "faq": {
@@ -130,7 +130,7 @@
     }
   },
   "social": {
-    "title": "Afbeeldingsformaten voor sociale media - Instagram, YouTube, Facebook",
+    "title": "Afbeeldingsformaten voor sociale media - Instagram, YouTube",
     "description": "Veelgebruikte afbeeldingsformaten voor Instagram, Facebook, YouTube, X, LinkedIn en Pinterest, plus een gratis tool om je afbeelding op maat te maken.",
     "h1": "Afbeeldingsformaten voor sociale media",
     "intro": "Berichten zien er het best uit als de afbeelding al de juiste vorm heeft. Kies een platform in de lijst Voorinstelling en de tool snijdt je afbeelding bij en past het formaat aan.",

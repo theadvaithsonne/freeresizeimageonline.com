@@ -1,7 +1,6 @@
 {
   "a11y": {
     "skipToContent": "Aller au contenu",
-    "home": "Free Resize Image Online - accueil",
     "toggleTheme": "Changer le thème de couleur",
     "openLanguages": "Choisir la langue",
     "themeDark": "Sombre",
@@ -24,7 +23,7 @@
     "private": "Privé : reste sur votre appareil"
   },
   "home": {
-    "title": "Redimensionner une image en ligne - gratuit, sans inscription",
+    "title": "Redimensionner une image en ligne gratuit, sans inscription",
     "description": "Redimensionnez, compressez et convertissez vos images gratuitement. Sans connexion, sans limite, et vos photos ne quittent jamais votre appareil.",
     "h1": "Redimensionnez vos images en ligne, gratuitement"
   },

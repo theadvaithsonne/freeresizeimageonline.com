@@ -7,9 +7,29 @@
       "h1": "Over FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline is een gratis tool om het formaat van afbeeldingen te wijzigen, ze te comprimeren en te converteren. Het wordt gebouwd en beheerd door {owner} in Bengaluru, India.",
-        "Het doel is om het simpel te houden: geen account, geen watermerk en geen limieten. Je afbeeldingen worden verwerkt in je eigen browser en nooit naar onze servers geüpload.",
-        "De site wordt ondersteund door advertenties van Google AdSense, waarmee het domein en de ontwikkeling worden betaald. Advertenties blijven beperkt tot één duidelijk gemarkeerd vak, zodat ze je niet in de weg zitten.",
-        "Vragen of feedback? Schrijf naar {email}."
+        "Het doel is simpel: een snelle, eerlijke afbeeldingstool zonder account, zonder watermerk en zonder dagelijkse limiet. Je afbeeldingen worden verwerkt in je eigen browser en nooit naar onze servers geüpload."
+      ],
+      "sections": [
+        {
+          "title": "Wat je hier kunt doen",
+          "text": "Verander het formaat van een afbeelding in pixels, centimeters, millimeters, inches of procenten. Zorg dat een foto binnen een bestandsgrootte blijft, zoals 50 KB. Zet afbeeldingen om tussen JPG, PNG en WebP. Verwerk veel afbeeldingen tegelijk en download ze als één ZIP-bestand. Kant-en-klare formaten zijn beschikbaar voor sociale media, pasfoto’s en visumfoto’s, webwinkels en veelgebruikte uploadformulieren."
+        },
+        {
+          "title": "Hoe het werkt",
+          "text": "Wanneer je een afbeelding toevoegt, leest je browser die in en doet de pagina het werk op je eigen computer of telefoon, met moderne webtechnologie (JavaScript en WebAssembly). Het resultaat wordt in het geheugen gemaakt en aangeboden als download. Er wordt niets naar ons verstuurd. Daarom is de tool snel en kan hij grote hoeveelheden tegelijk aan."
+        },
+        {
+          "title": "Waarom het gratis is",
+          "text": "De site wordt ondersteund door één duidelijk gemarkeerde advertentie van Google AdSense. Daarmee worden het domein en de tijd die in verbeteringen van de tool gaat betaald. De advertentie staat uit de buurt van de knoppen en alles werkt ook zonder."
+        },
+        {
+          "title": "Formaten en nauwkeurigheid",
+          "text": "De formaten voor sociale media, pasfoto’s en webwinkels zijn algemeen bekende eisen. Ze kunnen veranderen en elke aanvraag kan eigen regels hebben. Controleer dus de officiële instructies voordat je indient. Zie je een fout? Laat het ons weten."
+        },
+        {
+          "title": "Wie erachter zit",
+          "text": "{owner} is de onafhankelijke uitgever van deze site en leest de berichten die naar {email} worden gestuurd."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "E-mail",
       "ownerLabel": "Eigenaar van de site",
       "locationLabel": "Locatie",
-      "locationValue": "Bengaluru, India"
+      "locationValue": "Bengaluru, India",
+      "sections": [
+        {
+          "title": "Waarover je kunt schrijven",
+          "text": "Vragen over hoe de tool werkt, een fout, een formaat dat niet meer klopt, een vertaling die beter kan of een idee voor een nieuwe voorinstelling."
+        },
+        {
+          "title": "Wat ons helpt een probleem op te lossen",
+          "text": "Vermeld het adres van de pagina, je browser en apparaat, het type en de grootte van het bestand (niet het bestand zelf) en wat je verwachtte dat er zou gebeuren."
+        },
+        {
+          "title": "Antwoorden",
+          "text": "We lezen elk bericht. Een antwoord kan een paar dagen duren, omdat de site door één persoon wordt beheerd."
+        }
+      ]
     },
     "privacy": {
       "title": "Privacybeleid - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookies en lokale opslag",
-          "text": "We bewaren je keuzes, zoals thema en taal, in de lokale opslag van je browser. Die blijft op je apparaat. Advertentiepartners kunnen cookies plaatsen zoals beschreven in de volgende sectie."
+          "text": "We bewaren je keuzes, zoals thema en taal, in de lokale opslag van je browser, en de keuze om de taalsuggestie te verbergen in de sessieopslag ervan. Dit blijft op je apparaat. Advertentiepartners kunnen cookies plaatsen zoals beschreven in de volgende sectie."
         },
         {
           "title": "Advertenties",

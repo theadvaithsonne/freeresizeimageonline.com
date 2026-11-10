@@ -6,11 +6,11 @@
       "or": "ou",
       "choose": "Choisir des images",
       "paste": "Vous pouvez aussi coller des images avec Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Aucune limite de taille ni de nombre.",
+      "formats": "JPG, PNG, WebP, GIF (première image) et BMP. Sans inscription et sans limite quotidienne.",
       "privacy": "Vos images ne quittent jamais votre appareil.",
-      "addMore": "Ajouter d'autres images",
-      "overlay": "Déposez les images pour les ajouter",
-      "none": "Aucune image utilisable trouvée. Veuillez choisir des fichiers JPG, PNG, WebP, GIF ou BMP."
+      "none": "Aucune image utilisable trouvée. Veuillez choisir des fichiers JPG, PNG, WebP, GIF ou BMP.",
+      "tooMany": "Seules les {max} premières images ont été ajoutées.",
+      "skipped": "{count} fichiers ont été ignorés, car ce ne sont pas des images."
     },
     "files": {
       "title": "Vos images ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} plus lourd",
       "targetMissed": "Impossible d'atteindre {target}. Taille minimale possible : {size}.",
       "summary": "{done} sur {total} terminées",
-      "finished": "Tout est terminé. {count} images sont prêtes."
+      "finished": "Tout est terminé. Vos images sont prêtes."
     },
     "errors": {
       "decode-failed": "Ce fichier n'a pas pu être lu comme une image.",
@@ -74,7 +74,8 @@
       "invalid-size": "Veuillez saisir une largeur, une hauteur ou un pourcentage valide.",
       "too-large": "Cette taille est trop grande pour votre appareil. Essayez une taille plus petite.",
       "encode-failed": "L'enregistrement de l'image a échoué. Essayez un autre format.",
-      "cancelled": "Annulé."
+      "cancelled": "Annulé.",
+      "invalid-limit": "Veuillez saisir une taille maximale de fichier, ou désactivez la limite de taille du fichier."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "largeur e-mail",
         "screen": "écran"
       }
-    }
+    },
+    "results": {
+      "title": "Vos images redimensionnées",
+      "total": "Total : {before} → {after}",
+      "back": "Modifier les réglages",
+      "startOver": "Recommencer",
+      "original": "Original",
+      "resized": "Redimensionnée",
+      "allFailed": "Aucune image n’a pu être redimensionnée. Lisez les messages sur les cartes ou modifiez les réglages, puis réessayez.",
+      "limitNote": "Le PNG ne peut pas être allégé pour respecter votre limite de taille. Choisissez JPG ou WebP pour la conserver.",
+      "progress": "Progression du redimensionnement"
+    },
+    "noscript": "JavaScript est nécessaire pour redimensionner les images dans votre navigateur. Veuillez l'activer."
   }
 }

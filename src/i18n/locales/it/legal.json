@@ -7,9 +7,29 @@
       "h1": "Informazioni su FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline è uno strumento gratuito per ridimensionare, comprimere e convertire immagini. È creato e gestito da {owner} a Bengaluru, in India.",
-        "L'obiettivo è mantenerlo semplice: nessun account, nessuna filigrana e nessun limite. Le tue immagini vengono elaborate dentro il tuo browser e non vengono mai caricate sui nostri server.",
-        "Il sito è sostenuto dalla pubblicità di Google AdSense, che paga il dominio e lo sviluppo. Gli annunci sono limitati a un solo riquadro ben segnalato, così non ti danno fastidio.",
-        "Domande o suggerimenti? Scrivi a {email}."
+        "L'obiettivo è semplice: uno strumento per le immagini veloce e onesto, senza account, senza filigrana e senza limite giornaliero. Le tue immagini vengono elaborate dentro il tuo browser e non vengono mai caricate sui nostri server."
+      ],
+      "sections": [
+        {
+          "title": "Cosa puoi fare qui",
+          "text": "Puoi cambiare le dimensioni di un'immagine in pixel, centimetri, millimetri, pollici o percentuale. Puoi far rientrare una foto in un limite di peso, per esempio 50 KB. Puoi convertire tra JPG, PNG e WebP. Puoi elaborare tante immagini insieme e scaricarle in un unico file ZIP. Sono già pronte le dimensioni per i social media, le foto per passaporto e visto, i negozi online e i moduli di caricamento più comuni."
+        },
+        {
+          "title": "Come funziona",
+          "text": "Quando aggiungi un'immagine, il tuo browser la legge e la pagina fa tutto il lavoro sul tuo computer o sul tuo telefono, con tecnologie web moderne (JavaScript e WebAssembly). Il risultato viene creato in memoria e messo a disposizione per il download. Non ci arriva nulla: per questo lo strumento è veloce e riesce a gestire anche molte immagini in una volta."
+        },
+        {
+          "title": "Perché è gratuito",
+          "text": "Il sito è sostenuto da un solo annuncio ben segnalato di Google AdSense. Paga il dominio e il tempo dedicato a migliorare lo strumento. L'annuncio sta lontano dai pulsanti e tutto funziona anche senza."
+        },
+        {
+          "title": "Dimensioni e precisione",
+          "text": "Le dimensioni per i social media, le foto tessera e i negozi online sono requisiti di uso comune e pubblicati. Possono cambiare e ogni richiesta può aggiungere regole proprie, quindi controlla le istruzioni ufficiali prima di inviare. Se trovi un errore, ti preghiamo di segnalarcelo."
+        },
+        {
+          "title": "Chi c'è dietro",
+          "text": "{owner} è l'editore indipendente di questo sito e legge i messaggi inviati a {email}."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "Email",
       "ownerLabel": "Titolare del sito",
       "locationLabel": "Sede",
-      "locationValue": "Bengaluru, India"
+      "locationValue": "Bengaluru, India",
+      "sections": [
+        {
+          "title": "Di cosa puoi scriverci",
+          "text": "Domande su come funziona lo strumento, un errore, una dimensione non più aggiornata, una traduzione che si potrebbe migliorare o l'idea per un nuovo preset."
+        },
+        {
+          "title": "Cosa ci aiuta a risolvere un problema",
+          "text": "Indicaci l'indirizzo della pagina, il tuo browser e il tuo dispositivo, il tipo e il peso del file (non il file stesso) e cosa ti aspettavi che succedesse."
+        },
+        {
+          "title": "Risposte",
+          "text": "Leggiamo ogni messaggio. Le risposte possono richiedere qualche giorno, perché il sito è gestito da una sola persona."
+        }
+      ]
     },
     "privacy": {
       "title": "Informativa sulla privacy - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookie e archiviazione locale",
-          "text": "Salviamo le tue scelte, come tema e lingua, nell'archiviazione locale del tuo browser. Restano sul tuo dispositivo. I partner pubblicitari possono impostare cookie come descritto nella sezione successiva."
+          "text": "Salviamo le tue scelte, come tema e lingua, nell'archiviazione locale del tuo browser, e la scelta di nascondere il suggerimento della lingua nella sua archiviazione di sessione. Restano sul tuo dispositivo. I partner pubblicitari possono impostare cookie come descritto nella sezione successiva."
         },
         {
           "title": "Pubblicità",

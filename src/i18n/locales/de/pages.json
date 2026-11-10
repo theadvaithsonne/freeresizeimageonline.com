@@ -43,8 +43,8 @@
     },
     "faq": {
       "items": [
-        { "q": "Ist es wirklich kostenlos?", "a": "Ja. Es gibt keine Anmeldung, keine Testphase und keine Begrenzung für Anzahl oder Größe Ihrer Bilder. Die Seite wird durch eine einzelne Werbeanzeige neben dem Tool finanziert." },
-        { "q": "Werden meine Bilder hochgeladen?", "a": "Nein. Die Größenänderung findet auf Ihrem eigenen Gerät in Ihrem Browser statt. Ihre Bilder werden nie an unsere Server gesendet. Wir zählen nur, wie viele Bilder verkleinert wurden, als einfache Zahl." },
+        { "q": "Ist es wirklich kostenlos?", "a": "Ja. Es gibt keine Anmeldung, keine Testphase und kein Tageslimit. Die Seite wird durch eine einzelne Werbeanzeige neben dem Tool finanziert. Sehr große Bilder können für ein Smartphone oder einen alten Computer zu viel sein. Dann sehen Sie eine Meldung." },
+        { "q": "Werden meine Bilder hochgeladen?", "a": "Nein. Die Größenänderung findet auf Ihrem eigenen Gerät in Ihrem Browser statt. Ihre Bilder werden nie an unsere Server gesendet." },
         { "q": "Welche Formate werden unterstützt?", "a": "Sie können JPG-, PNG-, WebP-, GIF- und BMP-Dateien öffnen, und AVIF, sofern Ihr Browser es unterstützt. Gespeichert werden kann als JPG, PNG oder WebP." },
         { "q": "Verringert die Größenänderung die Qualität?", "a": "Ein verkleinertes Bild bleibt scharf, weil das Tool einen hochwertigen Filter verwendet. Beim Vergrößern können keine Details entstehen, die nicht vorhanden sind, daher wirken vergrößerte Bilder weicher. Bei JPG und WebP können Sie die Qualität selbst wählen." },
         { "q": "Wie bekomme ich ein Bild unter eine Größe wie 50 KB?", "a": "Aktivieren Sie „Dateigröße begrenzen“, geben Sie die Zahl ein und klicken Sie auf „Größe ändern“. Das Tool senkt die Qualität und bei Bedarf die Abmessungen, bis die Datei passt. Wählen Sie JPG oder WebP für die besten Ergebnisse, denn PNG lässt sich so nicht verkleinern." },
@@ -66,7 +66,7 @@
     "tips": [
       "Verwenden Sie JPG. Es komprimiert Fotos bei gleichen Abmessungen viel besser als PNG.",
       "Wirkt das Ergebnis unscharf, erhöhen Sie das Limit etwas oder schneiden Sie leere Ränder vor dem Verkleinern ab.",
-      "Die meisten Formulare messen die Größe in KB, wobei 1 KB 1.024 Byte entspricht. Dieses Tool verwendet dieselbe Regel.",
+      "Manche Portale zählen 1 KB als 1.000 Byte, andere als 1.024. Dieses Tool bleibt unter dem kleineren Wert, sodass Ihre Datei in beiden Fällen angenommen wird.",
       "Prüfen Sie auch die geforderten Abmessungen. Manche Portale verlangen sowohl eine Größe in Pixeln als auch ein Limit in KB."
     ],
     "faq": {

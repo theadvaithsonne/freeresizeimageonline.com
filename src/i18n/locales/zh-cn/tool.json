@@ -6,11 +6,11 @@
       "or": "或",
       "choose": "选择图片",
       "paste": "您也可以按 Ctrl+V 粘贴图片。",
-      "formats": "支持 JPG、PNG、WebP、GIF、BMP。图片大小和数量不限。",
+      "formats": "支持 JPG、PNG、WebP、GIF（第一帧）和 BMP。无需注册，每天不限次数。",
       "privacy": "您的图片不会离开您的设备。",
-      "addMore": "添加更多图片",
-      "overlay": "松开鼠标即可添加图片",
-      "none": "没有找到可用的图片。请选择 JPG、PNG、WebP、GIF 或 BMP 文件。"
+      "none": "没有找到可用的图片。请选择 JPG、PNG、WebP、GIF 或 BMP 文件。",
+      "tooMany": "只添加了前 {max} 张图片。",
+      "skipped": "有 {count} 个文件不是图片，已被跳过。"
     },
     "files": {
       "title": "您的图片（{count}）",
@@ -66,7 +66,7 @@
       "larger": "增大 {percent}",
       "targetMissed": "无法达到 {target}。最小可达 {size}。",
       "summary": "已完成 {done}/{total}",
-      "finished": "全部完成。{count} 张图片已准备好。"
+      "finished": "全部完成，您的图片已准备好。"
     },
     "errors": {
       "decode-failed": "无法将此文件作为图片读取。",
@@ -74,7 +74,8 @@
       "invalid-size": "请输入有效的宽度、高度或百分比。",
       "too-large": "此尺寸对您的设备来说太大了。请尝试更小的尺寸。",
       "encode-failed": "保存图片失败。请尝试其他格式。",
-      "cancelled": "已取消。"
+      "cancelled": "已取消。",
+      "invalid-limit": "请输入文件大小上限，或关闭“限制文件大小”。"
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "邮件宽度",
         "screen": "屏幕"
       }
-    }
+    },
+    "results": {
+      "title": "已调整大小的图片",
+      "total": "总计：{before} → {after}",
+      "back": "更改设置",
+      "startOver": "重新开始",
+      "original": "原图",
+      "resized": "调整后",
+      "allFailed": "没有图片能够调整大小。请查看卡片上的提示，或更改设置后重试。",
+      "limitNote": "PNG 无法缩小到符合您的文件大小限制。请改选 JPG 或 WebP，以保留该限制。",
+      "progress": "调整进度"
+    },
+    "noscript": "需要启用 JavaScript，才能在浏览器中调整图片大小。请开启 JavaScript。"
   }
 }

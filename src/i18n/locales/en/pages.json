@@ -27,28 +27,67 @@
     "how": {
       "title": "How to resize an image online",
       "steps": [
-        { "title": "Add your images", "text": "Drag photos onto the page, choose them from your device or paste them. You can add as many as you like at once." },
-        { "title": "Choose a size", "text": "Pick a preset such as Instagram or passport photo, or enter your own width and height in pixels, centimeters, millimeters or inches. You can also set a maximum file size, for example 50 KB." },
-        { "title": "Resize and download", "text": "Press Resize images. Download each picture on its own or get everything in a single ZIP file." }
+        {
+          "title": "Add your images",
+          "text": "Drag photos onto the page, choose them from your device or paste them. You can add as many as you like at once."
+        },
+        {
+          "title": "Choose a size",
+          "text": "Pick a preset such as Instagram or passport photo, or enter your own width and height in pixels, centimeters, millimeters or inches. You can also set a maximum file size, for example 50 KB."
+        },
+        {
+          "title": "Resize and download",
+          "text": "Press Resize images. Download each picture on its own or get everything in a single ZIP file."
+        }
       ]
     },
     "why": {
       "title": "Why people use FreeResizeImageOnline",
       "items": [
-        { "title": "Private by design", "text": "Your pictures are processed inside your browser. They are never uploaded to a server, so nobody else can see them." },
-        { "title": "Free and unlimited", "text": "No account, no watermark, no daily limit and no waiting. Resize one picture or hundreds." },
-        { "title": "Sharp results", "text": "A high-quality resizing filter and modern compressors keep small pictures clear and files small." },
-        { "title": "Exact file sizes", "text": "Need a photo under 50 KB for a form? Set the limit and the tool finds the best quality that fits." }
+        {
+          "title": "Private by design",
+          "text": "Your pictures are processed inside your browser. They are never uploaded to a server, so nobody else can see them."
+        },
+        {
+          "title": "Free and unlimited",
+          "text": "No account, no watermark, no daily limit and no waiting. Resize one picture or hundreds."
+        },
+        {
+          "title": "Sharp results",
+          "text": "A high-quality resizing filter and modern compressors keep small pictures clear and files small."
+        },
+        {
+          "title": "Exact file sizes",
+          "text": "Need a photo under 50 KB for a form? Set the limit and the tool finds the best quality that fits."
+        }
       ]
     },
     "faq": {
       "items": [
-        { "q": "Is it really free?", "a": "Yes. There is no sign-up, no trial and no limit on the number or size of your images. The site is paid for by a single advertisement next to the tool." },
-        { "q": "Are my images uploaded?", "a": "No. Resizing happens on your own device, inside your browser. Your images are never sent to our servers. The only thing we count is how many images were resized, as a plain number." },
-        { "q": "Which formats are supported?", "a": "You can open JPG, PNG, WebP, GIF and BMP files, and AVIF where your browser supports it. You can save as JPG, PNG or WebP." },
-        { "q": "Will resizing reduce the quality?", "a": "Making a picture smaller keeps it sharp because the tool uses a high-quality filter. Making it larger cannot add detail that is not there, so enlarged pictures look softer. For JPG and WebP you can choose the quality yourself." },
-        { "q": "How do I get an image under a size such as 50 KB?", "a": "Turn on Limit the file size, type the number and press Resize images. The tool lowers the quality and, if needed, the dimensions until the file fits. Choose JPG or WebP for the best results, because PNG cannot be reduced that way." },
-        { "q": "Does it work on my phone?", "a": "Yes. The page works in current versions of Chrome, Safari, Firefox and Edge on phones, tablets and computers. Very large photos can be limited on older phones." }
+        {
+          "q": "Is it really free?",
+          "a": "Yes. There is no sign-up, no trial and no daily limit. The site is paid for by a single advertisement next to the tool. Very large pictures can be too much for a phone or an old computer, and you will see a message if that happens."
+        },
+        {
+          "q": "Are my images uploaded?",
+          "a": "No. Resizing happens on your own device, inside your browser. Your images are never sent to our servers."
+        },
+        {
+          "q": "Which formats are supported?",
+          "a": "You can open JPG, PNG, WebP, GIF and BMP files, and AVIF where your browser supports it. You can save as JPG, PNG or WebP."
+        },
+        {
+          "q": "Will resizing reduce the quality?",
+          "a": "Making a picture smaller keeps it sharp because the tool uses a high-quality filter. Making it larger cannot add detail that is not there, so enlarged pictures look softer. For JPG and WebP you can choose the quality yourself."
+        },
+        {
+          "q": "How do I get an image under a size such as 50 KB?",
+          "a": "Turn on Limit the file size, type the number and press Resize images. The tool lowers the quality and, if needed, the dimensions until the file fits. Choose JPG or WebP for the best results, because PNG cannot be reduced that way."
+        },
+        {
+          "q": "Does it work on my phone?",
+          "a": "Yes. The page works in current versions of Chrome, Safari, Firefox and Edge on phones, tablets and computers. Very large photos can be limited on older phones."
+        }
       ]
     }
   },
@@ -58,22 +97,40 @@
     "h1": "Resize image to KB (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Many online forms, exam portals and job sites reject photos above a size limit such as 50 KB or 200 KB. This tool shrinks your image to fit the limit you choose while keeping as much quality as possible.",
     "steps": [
-      { "title": "Add your photo", "text": "Drag it onto the page or choose it from your device." },
-      { "title": "Set the size limit", "text": "Pick a limit from the Preset list, or turn on Limit the file size and type your own number." },
-      { "title": "Resize and download", "text": "Press Resize images and download the result." }
+      {
+        "title": "Add your photo",
+        "text": "Drag it onto the page or choose it from your device."
+      },
+      {
+        "title": "Set the size limit",
+        "text": "Pick a limit from the Preset list, or turn on Limit the file size and type your own number."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the result."
+      }
     ],
     "tipsTitle": "Tips for small file sizes",
     "tips": [
       "Use JPG. It compresses photos much better than PNG at the same dimensions.",
       "If the result looks blurry, raise the limit a little or crop away empty edges before resizing.",
-      "Most forms measure size in KB where 1 KB is 1,024 bytes. This tool uses the same rule.",
+      "Some portals count 1 KB as 1,000 bytes and some as 1,024. This tool stays under the smaller number, so your file passes either way.",
       "Check the required dimensions as well. Some portals need both a size in pixels and a limit in KB."
     ],
     "faq": {
       "items": [
-        { "q": "Why is my file still bigger than the limit?", "a": "Very detailed photos need more data. If the limit cannot be met even at the lowest quality, the tool also makes the picture smaller. If it still cannot reach the target, it tells you the smallest size it could make." },
-        { "q": "Can I resize many photos to the same limit?", "a": "Yes. Add all of them, set the limit once and download them together as a ZIP file." },
-        { "q": "Is my photo uploaded to a server?", "a": "No. Everything happens in your browser, so your photo never leaves your device." }
+        {
+          "q": "Why is my file still bigger than the limit?",
+          "a": "Very detailed photos need more data. If the limit cannot be met even at the lowest quality, the tool also makes the picture smaller. If it still cannot reach the target, it tells you the smallest size it could make."
+        },
+        {
+          "q": "Can I resize many photos to the same limit?",
+          "a": "Yes. Add all of them, set the limit once and download them together as a ZIP file."
+        },
+        {
+          "q": "Is my photo uploaded to a server?",
+          "a": "No. Everything happens in your browser, so your photo never leaves your device."
+        }
       ]
     }
   },
@@ -83,9 +140,18 @@
     "h1": "Resize image in cm, mm or inches",
     "intro": "Printing and official forms often ask for a size in centimeters or inches instead of pixels. Enter the size and the DPI, and the tool works out the pixels for you.",
     "steps": [
-      { "title": "Add your photo", "text": "Drag it onto the page or choose it from your device." },
-      { "title": "Enter the size", "text": "Choose cm, mm or in, then type the width and height. Use 300 DPI for good print quality." },
-      { "title": "Resize and download", "text": "Press Resize images and download the result." }
+      {
+        "title": "Add your photo",
+        "text": "Drag it onto the page or choose it from your device."
+      },
+      {
+        "title": "Enter the size",
+        "text": "Choose cm, mm or in, then type the width and height. Use 300 DPI for good print quality."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the result."
+      }
     ],
     "tipsTitle": "Good to know about DPI",
     "tips": [
@@ -96,9 +162,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "How many pixels is one inch?", "a": "It depends on the DPI. At 300 DPI one inch is 300 pixels. At 96 DPI it is 96 pixels." },
-        { "q": "Will it print at exactly this size?", "a": "The tool sets the pixel size that matches your size at the DPI you choose. Print the picture at its actual size, or at that DPI, to get the size you asked for." },
-        { "q": "What size is a 4 x 6 inch photo?", "a": "At 300 DPI, 4 x 6 inches is 1,200 x 1,800 pixels." }
+        {
+          "q": "How many pixels is one inch?",
+          "a": "It depends on the DPI. At 300 DPI one inch is 300 pixels. At 96 DPI it is 96 pixels."
+        },
+        {
+          "q": "Will it print at exactly this size?",
+          "a": "The tool sets the pixel size that matches your size at the DPI you choose. Print the picture at its actual size, or at that DPI, to get the size you asked for."
+        },
+        {
+          "q": "What size is a 4 x 6 inch photo?",
+          "a": "At 300 DPI, 4 x 6 inches is 1,200 x 1,800 pixels."
+        }
       ]
     }
   },
@@ -110,9 +185,18 @@
     "note": "Rules change, and every application can add its own requirements such as background color, head size or no glasses. Always check the official instructions before you submit. This tool only sets the size; it does not check head size or background.",
     "tableTitle": "Common photo sizes",
     "steps": [
-      { "title": "Choose your size", "text": "Open the Preset list, go to Photo ID and visa and pick your country." },
-      { "title": "Add a photo", "text": "Use a picture where your face is centered and clearly visible, because the tool crops from the middle." },
-      { "title": "Resize and download", "text": "Press Resize images. The picture is cropped to the required shape and saved as a JPG." }
+      {
+        "title": "Choose your size",
+        "text": "Open the Preset list, go to Photo ID and visa and pick your country."
+      },
+      {
+        "title": "Add a photo",
+        "text": "Use a picture where your face is centered and clearly visible, because the tool crops from the middle."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images. The picture is cropped to the required shape and saved as a JPG."
+      }
     ],
     "tipsTitle": "Tips for a good photo",
     "tips": [
@@ -123,9 +207,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "What is the standard passport photo size?", "a": "It varies. The United States uses 2 x 2 inches (51 x 51 mm). The United Kingdom, the European Union and Australia use 35 x 45 mm. Canada uses 50 x 70 mm." },
-        { "q": "Can I use this for a visa photo?", "a": "Yes, if the visa requirement matches one of the sizes. Many visas use the same size as the passport, but some countries have their own, so always check the official rules." },
-        { "q": "How many pixels is a passport photo?", "a": "At 300 DPI, 35 x 45 mm is 413 x 531 pixels and 2 x 2 inches is 600 x 600 pixels." }
+        {
+          "q": "What is the standard passport photo size?",
+          "a": "It varies. The United States uses 2 x 2 inches (51 x 51 mm). The United Kingdom, the European Union and Australia use 35 x 45 mm. Canada uses 50 x 70 mm."
+        },
+        {
+          "q": "Can I use this for a visa photo?",
+          "a": "Yes, if the visa requirement matches one of the sizes. Many visas use the same size as the passport, but some countries have their own, so always check the official rules."
+        },
+        {
+          "q": "How many pixels is a passport photo?",
+          "a": "At 300 DPI, 35 x 45 mm is 413 x 531 pixels and 2 x 2 inches is 600 x 600 pixels."
+        }
       ]
     }
   },
@@ -137,9 +230,18 @@
     "note": "Platforms update their recommendations from time to time. These are widely used sizes that work well with the current formats.",
     "tableTitle": "Sizes by platform",
     "steps": [
-      { "title": "Add your picture", "text": "Drag it onto the page or choose it from your device." },
-      { "title": "Choose a platform size", "text": "Open the Preset list, go to Social media and pick the platform and format." },
-      { "title": "Resize and download", "text": "Press Resize images. Crop to fill is selected, so nothing is stretched." }
+      {
+        "title": "Add your picture",
+        "text": "Drag it onto the page or choose it from your device."
+      },
+      {
+        "title": "Choose a platform size",
+        "text": "Open the Preset list, go to Social media and pick the platform and format."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images. Crop to fill is selected, so nothing is stretched."
+      }
     ],
     "tipsTitle": "Tips for sharp posts",
     "tips": [
@@ -149,9 +251,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "What is the best size for an Instagram post?", "a": "Use 1080 x 1080 pixels for a square post and 1080 x 1350 pixels for a portrait post." },
-        { "q": "What size should a YouTube thumbnail be?", "a": "1280 x 720 pixels, with a file size below 2 MB." },
-        { "q": "Will my picture be cropped?", "a": "With Crop to fill the middle of the picture is kept and the edges that do not fit are trimmed. Choose Fit inside the box if you prefer to keep everything." }
+        {
+          "q": "What is the best size for an Instagram post?",
+          "a": "Use 1080 x 1080 pixels for a square post and 1080 x 1350 pixels for a portrait post."
+        },
+        {
+          "q": "What size should a YouTube thumbnail be?",
+          "a": "1280 x 720 pixels, with a file size below 2 MB."
+        },
+        {
+          "q": "Will my picture be cropped?",
+          "a": "With Crop to fill the middle of the picture is kept and the edges that do not fit are trimmed. Choose Fit inside the box if you prefer to keep everything."
+        }
       ]
     }
   },
@@ -161,9 +272,18 @@
     "h1": "Convert images between JPG, PNG and WebP",
     "intro": "Choose the format you need and the tool converts every image you add. Nothing is uploaded.",
     "steps": [
-      { "title": "Add your images", "text": "Add one or many pictures." },
-      { "title": "Choose the format", "text": "Select JPG, PNG or WebP under Format. Keep Keep size selected if you only want to change the format." },
-      { "title": "Convert and download", "text": "Press Resize images and download the results." }
+      {
+        "title": "Add your images",
+        "text": "Add one or many pictures."
+      },
+      {
+        "title": "Choose the format",
+        "text": "Select JPG, PNG or WebP under Format. Keep Keep size selected if you only want to change the format."
+      },
+      {
+        "title": "Convert and download",
+        "text": "Press Resize images and download the results."
+      }
     ],
     "tipsTitle": "Which format should I choose?",
     "tips": [
@@ -174,8 +294,14 @@
     ],
     "faq": {
       "items": [
-        { "q": "Does converting reduce the quality?", "a": "PNG output is lossless. JPG and WebP are lossy, but at high quality the difference is hard to see. You can set the quality yourself." },
-        { "q": "Can I convert HEIC photos from my iPhone?", "a": "Not yet, because most browsers cannot open HEIC files. On your iPhone you can set Camera formats to Most Compatible, or share the photo as a JPG." }
+        {
+          "q": "Does converting reduce the quality?",
+          "a": "PNG output is lossless. JPG and WebP are lossy, but at high quality the difference is hard to see. You can set the quality yourself."
+        },
+        {
+          "q": "Can I convert HEIC photos from my iPhone?",
+          "a": "Not yet, because most browsers cannot open HEIC files. On your iPhone you can set Camera formats to Most Compatible, or share the photo as a JPG."
+        }
       ]
     }
   },
@@ -185,9 +311,18 @@
     "h1": "Compress images online",
     "intro": "Smaller images load faster, fit in emails and save storage. The tool re-encodes your pictures with modern compressors and lets you set a quality level or a maximum file size.",
     "steps": [
-      { "title": "Add your images", "text": "Drag them onto the page or choose them from your device." },
-      { "title": "Choose how to compress", "text": "Keep Keep size to compress without changing the dimensions and use the Quality slider, or turn on Limit the file size." },
-      { "title": "Compress and download", "text": "Press Resize images and download the results." }
+      {
+        "title": "Add your images",
+        "text": "Drag them onto the page or choose them from your device."
+      },
+      {
+        "title": "Choose how to compress",
+        "text": "Keep Keep size to compress without changing the dimensions and use the Quality slider, or turn on Limit the file size."
+      },
+      {
+        "title": "Compress and download",
+        "text": "Press Resize images and download the results."
+      }
     ],
     "tipsTitle": "Tips for smaller files",
     "tips": [
@@ -198,8 +333,14 @@
     ],
     "faq": {
       "items": [
-        { "q": "How much smaller will my file be?", "a": "Photos straight from a phone often shrink by 60 to 90 percent. Pictures that are already compressed shrink less." },
-        { "q": "Can I compress many images at once?", "a": "Yes. Add them all and download a single ZIP file." }
+        {
+          "q": "How much smaller will my file be?",
+          "a": "Photos straight from a phone often shrink by 60 to 90 percent. Pictures that are already compressed shrink less."
+        },
+        {
+          "q": "Can I compress many images at once?",
+          "a": "Yes. Add them all and download a single ZIP file."
+        }
       ]
     }
   }

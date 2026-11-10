@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Guides",
+    "common": {
+      "openTool": "Open the free image resizer",
+      "toolHint": "Try it yourself: your pictures stay on your device.",
+      "moreGuides": "More guides",
+      "readGuide": "Read the guide"
+    },
+    "index": {
+      "title": "Image Size Guides - Reduce, Convert and Resize Photos",
+      "description": "Plain-language guides on making images smaller, choosing between JPG, PNG and WebP, and meeting photo size limits on online forms.",
+      "h1": "Image size guides",
+      "intro": "Short, practical guides for the questions people ask most: how to make a picture smaller without making it look worse, which file format to choose, and how to get a photo through an online form that has a strict size limit.",
+      "items": [
+        { "title": "How to reduce image size without losing quality", "text": "The four steps that matter, in the right order, and the mistakes that make files bigger or blurrier." },
+        { "title": "JPG, PNG or WebP: which format should you use?", "text": "What each format is good at, where each one fails, and a simple way to choose." },
+        { "title": "Photo size for online forms: KB limits, pixels and formats", "text": "How to read a size requirement and how to get a photo under 20 KB, 50 KB or 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "How to Reduce Image Size Without Losing Quality",
+      "description": "Four steps to make photos smaller without visible loss: resize, choose the right format, lower quality a little, and remove hidden data.",
+      "h1": "How to reduce image size without losing quality",
+      "intro": "A photo from a modern phone can be 3 to 8 MB. That is far more than a web page, an email or an online form needs. The good news is that most pictures can shrink by 70 to 95 percent while looking almost the same on a screen. This guide explains what makes a file big and how to cut it down in four steps.",
+      "sections": [
+        {
+          "title": "What makes an image file big?",
+          "paragraphs": [
+            "Two things decide the size of an image file: how many pixels it has, and how hard those pixels are compressed. A 12 megapixel photo (4000 by 3000 pixels) holds twelve million colored dots. Even with good compression that is a lot of data.",
+            "Pixels grow with the square of the width. If you halve both the width and the height, the picture has only a quarter of the pixels, so the file can be roughly four times smaller. That is why resizing is the most powerful step, and why you should always do it first."
+          ]
+        },
+        {
+          "title": "Step 1: Resize to the size you really need",
+          "paragraphs": [
+            "Screens are smaller than most people think. A full-screen picture on a laptop needs about 1920 pixels across, a picture in the middle of a web page often needs 800 to 1200, and a thumbnail needs 150 to 300. Sending a 4000 pixel photo to be shown at 800 pixels wastes most of the file."
+          ],
+          "bullets": [
+            "Websites and blogs: 1200 to 2000 pixels wide.",
+            "Email and chat: 1024 to 1600 pixels on the long side.",
+            "Instagram and Facebook posts: 1080 pixels wide.",
+            "Online forms and ID uploads: whatever the form states, often 200 to 600 pixels."
+          ]
+        },
+        {
+          "title": "Step 2: Choose the right format",
+          "paragraphs": [
+            "Photos belong in JPG or WebP. Logos, screenshots and drawings with sharp edges belong in PNG, or WebP when the site supports it. Saving a photo as PNG can make it five to ten times larger than the same photo as JPG, with no visible benefit. Our guide on JPG, PNG and WebP explains the differences in detail."
+          ]
+        },
+        {
+          "title": "Step 3: Lower the quality a little",
+          "paragraphs": [
+            "JPG and WebP let you trade quality for size. The relationship is not a straight line: going from 100 to 85 usually removes more than half of the file size and is almost impossible to see, while going from 85 to 40 saves less and starts to show blocky edges and smudged detail.",
+            "A quality between 70 and 85 is a good starting point for photos. If you need a file under a fixed size, such as 100 KB, use the file size limit: the tool tries different quality levels and keeps the highest one that fits."
+          ]
+        },
+        {
+          "title": "Step 4: Remove hidden data",
+          "paragraphs": [
+            "Photos from phones and cameras carry hidden information called metadata: the camera model, the date, sometimes the exact GPS location. It adds a little to the file size and, more importantly, can reveal where a photo was taken. Saving the picture again with a tool that does not copy metadata removes it. The files made by this site do not contain it."
+          ]
+        },
+        {
+          "title": "Mistakes that make pictures worse",
+          "bullets": [
+            "Enlarging a small picture. A bigger canvas cannot add detail that was never captured; the result is soft and the file grows.",
+            "Saving a JPG again and again. Every save loses a little quality. Keep your original and make a fresh copy each time.",
+            "Taking a screenshot of a photo instead of saving it. Screenshots are often larger and less sharp.",
+            "Using PNG for photographs. It is lossless, so the file stays large."
+          ]
+        },
+        {
+          "title": "A quick recipe",
+          "paragraphs": [
+            "For most photos: resize to the width you need, save as JPG or WebP at a quality of about 80, and check the result at 100 percent zoom. If it still looks good, you are done. If it looks soft, raise the quality a little or make the picture slightly larger."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Does making an image smaller reduce its quality?", "a": "Reducing the number of pixels keeps a picture sharp when it is done with a good resizing method, because the detail is simply shown at a smaller size. Lowering the compression quality loses detail, but a small drop is hard to see." },
+          { "q": "How small can I make a photo?", "a": "It depends on the content. A portrait against a plain background can look fine at 30 to 50 KB when it is small. A busy landscape needs far more. Try the file size limit and look at the result." },
+          { "q": "Is it safe to shrink private photos online?", "a": "Here the picture is processed inside your own browser and never uploaded, so it does not leave your device. With other websites, check whether they upload your files." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG vs PNG vs WebP: Which Image Format Should You Use?",
+      "description": "A clear comparison of JPG, PNG and WebP: file size, quality, transparency and compatibility, and how to choose the right one.",
+      "h1": "JPG, PNG or WebP: which format should you use?",
+      "intro": "The same picture can be 200 KB as a JPG, 1.5 MB as a PNG and 140 KB as a WebP. The format changes the size, the look and where you can use the file. This guide explains what each format does best, so you can pick the right one in a few seconds.",
+      "sections": [
+        {
+          "title": "JPG: the standard for photographs",
+          "paragraphs": [
+            "JPG (also written JPEG) compresses photos by throwing away detail that the eye barely notices. Every program, phone, website and printer understands it, which is why it is the safest choice when you are not sure what the other side accepts."
+          ],
+          "bullets": [
+            "Best for: photos and anything with smooth color changes.",
+            "Weak points: no transparency, and text or thin lines can look fuzzy at low quality.",
+            "Quality: lossy. Each re-save loses a little more."
+          ]
+        },
+        {
+          "title": "PNG: sharp graphics and transparency",
+          "paragraphs": [
+            "PNG compresses without losing any detail, and it can have transparent areas. That makes it the right format for logos, icons, screenshots, charts and drawings. For photographs it produces very large files, because photos have too many tiny color changes to compress well without loss."
+          ],
+          "bullets": [
+            "Best for: logos, interface screenshots, text, pictures that need a transparent background.",
+            "Weak points: large files for photos.",
+            "Quality: lossless. Re-saving does not damage it."
+          ]
+        },
+        {
+          "title": "WebP: smaller files for the web",
+          "paragraphs": [
+            "WebP was designed for websites. It can work in lossy mode like JPG or in lossless mode like PNG, and it supports transparency. At similar visual quality, WebP photos are often about a quarter to a third smaller than JPG. All current browsers can show WebP, but some older programs, print shops and upload forms still do not accept it."
+          ],
+          "bullets": [
+            "Best for: websites and apps where you control what the viewer uses.",
+            "Weak points: not accepted everywhere, especially by older software and some official portals.",
+            "Quality: lossy or lossless, your choice."
+          ]
+        },
+        {
+          "title": "How to choose",
+          "bullets": [
+            "Uploading to a government site, exam portal or job application: JPG, unless it says otherwise.",
+            "Photos for a website or blog: WebP, with JPG as the fallback.",
+            "Logo, icon, screenshot or anything with a transparent background: PNG.",
+            "Sending a photo by email or chat to people you do not know: JPG.",
+            "Printing: JPG or PNG at the highest quality, at the size you will print."
+          ]
+        },
+        {
+          "title": "What converting can and cannot do",
+          "paragraphs": [
+            "Changing the format does not improve the picture. Turning a small JPG into a PNG gives you a bigger file with the same detail. Turning a PNG with a transparent background into a JPG fills the transparent areas, which this tool does with white. Turning a JPG into a WebP can make the file smaller, but the first JPG compression has already removed detail that cannot come back."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Is WebP better than JPG?", "a": "For file size on websites, usually yes. For compatibility, no: JPG works everywhere. Use WebP when you know it is accepted, and JPG when you are not sure." },
+          { "q": "Why is my PNG so much bigger than the JPG?", "a": "PNG keeps every detail. A photo has millions of small color differences, so a lossless file is large. For photos, JPG or WebP are the right formats." },
+          { "q": "Can I turn a WebP into a JPG?", "a": "Yes. Add the WebP file, choose JPG as the format and download the result. Any transparent areas become white." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Photo Size for Online Forms: KB Limits, Pixels and Formats",
+      "description": "How to meet photo and signature upload requirements: reading KB and pixel limits, getting a picture under 20, 50 or 200 KB, and fixing common upload errors.",
+      "h1": "Photo size for online forms: KB limits, pixels and formats",
+      "intro": "Exam registrations, job portals, visa applications and government forms often reject a photo for one of three reasons: the file is too big, the dimensions are wrong, or the format is not accepted. Each requirement can be met in a minute once you know how to read it. This guide shows how.",
+      "sections": [
+        {
+          "title": "Read the requirement carefully",
+          "paragraphs": [
+            "A requirement usually has up to four parts. Check them one by one before you resize anything."
+          ],
+          "bullets": [
+            "File size, for example 20 KB to 50 KB. This is the number of kilobytes of the file, not the size on the screen.",
+            "Dimensions, for example 200 by 230 pixels, or 3.5 by 4.5 cm. These control the shape of the picture.",
+            "Format: almost always JPG or JPEG. A few portals also accept PNG.",
+            "Background and appearance: for example a plain white background, face visible, no glasses. A resizing tool cannot change these."
+          ]
+        },
+        {
+          "title": "KB, MB and the 1,000 versus 1,024 question",
+          "paragraphs": [
+            "One MB is 1,000 KB, so 50 KB is only 0.05 MB. Some systems count 1 KB as 1,000 bytes and some as 1,024 bytes. To be safe, this tool keeps the result under the smaller figure, so a file made for a limit of 50 KB is under 50,000 bytes and passes either way."
+          ]
+        },
+        {
+          "title": "Getting a photo under 20, 50 or 200 KB",
+          "paragraphs": [
+            "Open the free image resizer, add your photo and pick a file size preset (20, 50, 100 or 200 KB). If the form also states pixel dimensions, enter them under Size first. Press Resize and check the preview. The tool first lowers the quality step by step, and only if that is not enough does it also make the picture smaller."
+          ],
+          "bullets": [
+            "Crop tightly around the face or the signature before you start. Less empty area means a smaller file at the same sharpness.",
+            "A plain, even background compresses far better than a busy one.",
+            "Use JPG. PNG cannot be reduced this way.",
+            "If the result looks too soft, raise the limit slightly or use a smaller pixel size with higher quality."
+          ]
+        },
+        {
+          "title": "Exact pixel sizes and centimeters",
+          "paragraphs": [
+            "If a form asks for pixels, choose px as the unit and enter the width and height. If it asks for centimeters or millimeters, choose cm or mm and set the DPI to 300; the tool then calculates the pixels for you. Turn Lock aspect ratio off and choose Crop to fill the box when the form needs an exact shape that is different from your photo."
+          ]
+        },
+        {
+          "title": "Signatures",
+          "paragraphs": [
+            "A signature upload is usually a small picture of ink on white paper. Sign with a dark pen on plain white paper, take the photo in good light, crop close to the signature, and then resize it to the stated dimensions. Signatures compress to very small files, so the limit is rarely a problem."
+          ]
+        },
+        {
+          "title": "When the upload still fails",
+          "bullets": [
+            "File too large: lower the limit a little, for example to 45 KB when 50 KB is required.",
+            "Wrong dimensions: check that width and height are not swapped, and that the unit is correct.",
+            "Format not supported: save as JPG, not WebP or PNG.",
+            "The picture looks stretched: crop to fill the box instead of stretching.",
+            "Photo ID and visa photos have extra rules about head size and background that are set by the authority. Always read their official instructions."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "How many KB is 1 MB?", "a": "One MB is about 1,000 KB (some systems use 1,024). So a limit of 200 KB is a fifth of a megabyte." },
+          { "q": "Can I use a photo taken with my phone?", "a": "Yes. Phone photos are large, but the tool shrinks them to the required size. Take the picture in good light with a plain background." },
+          { "q": "Will my photo be uploaded to your server?", "a": "No. The tool runs in your browser, so the photo stays on your device until you upload it to the form yourself." }
+        ]
+      }
+    }
+  }
+}

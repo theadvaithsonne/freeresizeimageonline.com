@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Guide",
+    "common": {
+      "openTool": "Apri il ridimensionatore di immagini gratuito",
+      "toolHint": "Provalo tu stesso: le tue immagini restano sul tuo dispositivo.",
+      "moreGuides": "Altre guide",
+      "readGuide": "Leggi la guida"
+    },
+    "index": {
+      "title": "Guide sulle immagini: ridurre, convertire, ridimensionare",
+      "description": "Guide semplici per rimpicciolire le immagini, scegliere tra JPG, PNG e WebP e rispettare i limiti di peso delle foto nei moduli online.",
+      "h1": "Guide sulle dimensioni delle immagini",
+      "intro": "Guide brevi e pratiche per le domande più frequenti: come rimpicciolire un'immagine senza peggiorarne l'aspetto, quale formato di file scegliere e come far accettare una foto da un modulo online con un limite di peso rigido.",
+      "items": [
+        { "title": "Come ridurre il peso di un'immagine senza perdere qualità", "text": "I quattro passaggi che contano, nell'ordine giusto, e gli errori che rendono i file più pesanti o più sfocati." },
+        { "title": "JPG, PNG o WebP: quale formato usare?", "text": "Cosa sa fare bene ogni formato, dove sbaglia e un modo semplice per scegliere." },
+        { "title": "Foto per moduli online: peso in KB, dimensioni e formati", "text": "Come leggere un requisito di dimensione e come portare una foto sotto 20 KB, 50 KB o 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "Come ridurre il peso di un'immagine senza perdere qualità",
+      "description": "Quattro passaggi per rimpicciolire le foto senza perdita visibile: ridimensiona, scegli il formato, abbassa un po' la qualità e togli i dati nascosti.",
+      "h1": "Come ridurre il peso di un'immagine senza perdere qualità",
+      "intro": "Una foto scattata con un telefono recente può pesare da 3 a 8 MB. È molto più di quanto serva a una pagina web, a un'email o a un modulo online. La buona notizia è che la maggior parte delle immagini si può ridurre dal 70 al 95 percento restando quasi identica su uno schermo. Questa guida spiega cosa rende pesante un file e come ridurlo in quattro passaggi.",
+      "sections": [
+        {
+          "title": "Cosa rende pesante un file immagine?",
+          "paragraphs": [
+            "Due cose decidono il peso di un file immagine: quanti pixel ha e quanto vengono compressi. Una foto da 12 megapixel (4000 per 3000 pixel) contiene dodici milioni di puntini colorati. Anche con una buona compressione sono parecchi dati.",
+            "I pixel crescono con il quadrato della larghezza. Se dimezzi sia la larghezza sia l'altezza, l'immagine ha solo un quarto dei pixel, quindi il file può diventare circa quattro volte più piccolo. Per questo ridimensionare è il passaggio più efficace e va sempre fatto per primo."
+          ]
+        },
+        {
+          "title": "Passaggio 1: ridimensiona alla misura che ti serve davvero",
+          "paragraphs": [
+            "Gli schermi sono più piccoli di quanto si pensi. Un'immagine a schermo intero su un portatile richiede circa 1920 pixel di larghezza, un'immagine al centro di una pagina web ne richiede spesso da 800 a 1200 e una miniatura da 150 a 300. Inviare una foto di 4000 pixel per mostrarla a 800 pixel di larghezza spreca gran parte del file."
+          ],
+          "bullets": [
+            "Siti web e blog: da 1200 a 2000 pixel di larghezza.",
+            "Email e chat: da 1024 a 1600 pixel sul lato lungo.",
+            "Post su Instagram e Facebook: 1080 pixel di larghezza.",
+            "Moduli online e caricamento di documenti: quello che indica il modulo, spesso da 200 a 600 pixel."
+          ]
+        },
+        {
+          "title": "Passaggio 2: scegli il formato giusto",
+          "paragraphs": [
+            "Le foto vanno in JPG o WebP. Loghi, schermate e disegni con bordi netti vanno in PNG, o in WebP se il sito lo supporta. Salvare una foto come PNG può renderla da cinque a dieci volte più pesante della stessa foto in JPG, senza alcun vantaggio visibile. La nostra guida su JPG, PNG e WebP spiega le differenze nel dettaglio."
+          ]
+        },
+        {
+          "title": "Passaggio 3: abbassa un po' la qualità",
+          "paragraphs": [
+            "JPG e WebP permettono di scambiare qualità e peso. Il rapporto non è una retta: passare da 100 a 85 di solito elimina più della metà del peso del file ed è quasi impossibile da notare, mentre passare da 85 a 40 fa risparmiare meno e comincia a mostrare bordi a blocchi e dettagli sbavati.",
+            "Una qualità tra 70 e 85 è un buon punto di partenza per le foto. Se ti serve un file sotto un peso fissato, per esempio 100 KB, usa Limita il peso del file: lo strumento prova diversi livelli di qualità e tiene il più alto che rientra nel limite."
+          ]
+        },
+        {
+          "title": "Passaggio 4: elimina i dati nascosti",
+          "paragraphs": [
+            "Le foto di telefoni e fotocamere contengono informazioni nascoste chiamate metadati: il modello della fotocamera, la data, a volte la posizione GPS esatta. Aumentano un po' il peso del file e, soprattutto, possono rivelare dove è stata scattata una foto. Salvare di nuovo l'immagine con uno strumento che non copia i metadati li elimina. I file creati da questo sito non li contengono."
+          ]
+        },
+        {
+          "title": "Errori che peggiorano le immagini",
+          "bullets": [
+            "Ingrandire un'immagine piccola. Una tela più grande non può aggiungere dettagli che non sono mai stati catturati: il risultato è sfocato e il file cresce.",
+            "Salvare un JPG più volte. A ogni salvataggio si perde un po' di qualità. Conserva l'originale e crea ogni volta una copia nuova.",
+            "Fare una schermata di una foto invece di salvarla. Le schermate sono spesso più pesanti e meno nitide.",
+            "Usare il PNG per le fotografie. È senza perdita di qualità, quindi il file resta pesante."
+          ]
+        },
+        {
+          "title": "Una ricetta veloce",
+          "paragraphs": [
+            "Per la maggior parte delle foto: ridimensiona alla larghezza che ti serve, salva in JPG o WebP con una qualità di circa 80 e controlla il risultato con lo zoom al 100 percento. Se è ancora bello, hai finito. Se è sfocato, alza un po' la qualità o ingrandisci leggermente l'immagine."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Rimpicciolire un'immagine ne riduce la qualità?", "a": "Ridurre il numero di pixel mantiene nitida un'immagine se si usa un buon metodo di ridimensionamento, perché i dettagli vengono semplicemente mostrati più piccoli. Abbassare la qualità di compressione fa perdere dettagli, ma un piccolo calo è difficile da notare." },
+          { "q": "Quanto posso rimpicciolire una foto?", "a": "Dipende dal contenuto. Un ritratto su sfondo uniforme può andare bene anche a 30-50 KB se è piccolo. Un paesaggio ricco di dettagli ne richiede molti di più. Prova Limita il peso del file e guarda il risultato." },
+          { "q": "È sicuro rimpicciolire online foto private?", "a": "Qui l'immagine viene elaborata dentro il tuo browser e non viene mai caricata, quindi non lascia il tuo dispositivo. Con altri siti, controlla se caricano i tuoi file." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG, PNG o WebP: le differenze e quale formato scegliere",
+      "description": "Confronto chiaro tra JPG, PNG e WebP: peso del file, qualità, trasparenza e compatibilità, e come scegliere il formato giusto per le tue immagini.",
+      "h1": "JPG, PNG o WebP: quale formato usare?",
+      "intro": "La stessa immagine può pesare 200 KB in JPG, 1,5 MB in PNG e 140 KB in WebP. Il formato cambia il peso, l'aspetto e i posti in cui puoi usare il file. Questa guida spiega cosa sa fare meglio ogni formato, così puoi scegliere quello giusto in pochi secondi.",
+      "sections": [
+        {
+          "title": "JPG: lo standard per le fotografie",
+          "paragraphs": [
+            "Il JPG (scritto anche JPEG) comprime le foto scartando i dettagli che l'occhio nota appena. Lo capiscono tutti i programmi, i telefoni, i siti web e le stampanti, ed è per questo che è la scelta più sicura quando non sai cosa accetta l'altra parte."
+          ],
+          "bullets": [
+            "Ideale per: foto e tutto ciò che ha sfumature di colore morbide.",
+            "Punti deboli: nessuna trasparenza, e testo o linee sottili possono apparire sfocati a bassa qualità.",
+            "Qualità: con perdita. A ogni nuovo salvataggio se ne perde un po' di più."
+          ]
+        },
+        {
+          "title": "PNG: grafica nitida e trasparenza",
+          "paragraphs": [
+            "Il PNG comprime senza perdere alcun dettaglio e può avere aree trasparenti. Per questo è il formato giusto per loghi, icone, schermate, grafici e disegni. Per le fotografie produce file molto pesanti, perché le foto hanno troppi piccoli cambi di colore per essere compresse bene senza perdita."
+          ],
+          "bullets": [
+            "Ideale per: loghi, schermate di interfacce, testo, immagini che richiedono lo sfondo trasparente.",
+            "Punti deboli: file pesanti per le foto.",
+            "Qualità: senza perdita. Salvare di nuovo non la danneggia."
+          ]
+        },
+        {
+          "title": "WebP: file più leggeri per il web",
+          "paragraphs": [
+            "Il WebP è stato pensato per i siti web. Può funzionare con perdita come il JPG o senza perdita come il PNG, e supporta la trasparenza. A parità di qualità visiva, le foto in WebP sono spesso più leggere del JPG di circa un quarto o un terzo. Tutti i browser attuali sanno mostrare il WebP, ma alcuni programmi più vecchi, centri stampa e moduli di caricamento ancora non lo accettano."
+          ],
+          "bullets": [
+            "Ideale per: siti web e app in cui controlli cosa usa chi guarda.",
+            "Punti deboli: non è accettato ovunque, soprattutto da software più vecchi e da alcuni portali ufficiali.",
+            "Qualità: con o senza perdita, a tua scelta."
+          ]
+        },
+        {
+          "title": "Come scegliere",
+          "bullets": [
+            "Caricamento su un sito della pubblica amministrazione, un portale per esami o una candidatura di lavoro: JPG, salvo diversa indicazione.",
+            "Foto per un sito web o un blog: WebP, con il JPG come alternativa.",
+            "Logo, icona, schermata o qualsiasi cosa con sfondo trasparente: PNG.",
+            "Invio di una foto per email o chat a persone che non conosci: JPG.",
+            "Stampa: JPG o PNG alla qualità massima, alla dimensione in cui stamperai."
+          ]
+        },
+        {
+          "title": "Cosa può e non può fare la conversione",
+          "paragraphs": [
+            "Cambiare formato non migliora l'immagine. Trasformare un piccolo JPG in PNG dà un file più pesante con gli stessi dettagli. Trasformare un PNG con sfondo trasparente in JPG riempie le aree trasparenti, cosa che questo strumento fa con il bianco. Trasformare un JPG in WebP può rendere il file più leggero, ma la prima compressione JPG ha già eliminato dettagli che non possono tornare."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Il WebP è meglio del JPG?", "a": "Per il peso dei file sui siti web, di solito sì. Per la compatibilità no: il JPG funziona ovunque. Usa il WebP quando sai che viene accettato e il JPG quando non sei sicuro." },
+          { "q": "Perché il mio PNG pesa molto più del JPG?", "a": "Il PNG conserva ogni dettaglio. Una foto ha milioni di piccole differenze di colore, quindi un file senza perdita è pesante. Per le foto, i formati giusti sono JPG o WebP." },
+          { "q": "Posso trasformare un WebP in JPG?", "a": "Sì. Aggiungi il file WebP, scegli JPG come formato e scarica il risultato. Le eventuali aree trasparenti diventano bianche." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Foto per moduli online: peso in KB, dimensioni e formati",
+      "description": "Come rispettare i requisiti di foto e firma nei moduli online: limiti in KB e pixel, foto sotto 20, 50 o 200 KB e come risolvere gli errori.",
+      "h1": "Foto per moduli online: peso in KB, dimensioni e formati",
+      "intro": "Iscrizioni a esami, portali di lavoro, richieste di visto e moduli della pubblica amministrazione rifiutano spesso una foto per uno di tre motivi: il file è troppo pesante, le dimensioni sono sbagliate o il formato non è accettato. Ogni requisito si può rispettare in un minuto, una volta che sai come leggerlo. Questa guida ti mostra come.",
+      "sections": [
+        {
+          "title": "Leggi con attenzione il requisito",
+          "paragraphs": [
+            "Un requisito ha di solito fino a quattro parti. Controllale una per una prima di ridimensionare qualsiasi cosa."
+          ],
+          "bullets": [
+            "Peso del file, per esempio da 20 KB a 50 KB. È il numero di kilobyte del file, non la dimensione sullo schermo.",
+            "Dimensioni, per esempio 200 per 230 pixel, oppure 3,5 per 4,5 cm. Controllano la forma dell'immagine.",
+            "Formato: quasi sempre JPG o JPEG. Alcuni portali accettano anche il PNG.",
+            "Sfondo e aspetto: per esempio sfondo bianco uniforme, volto ben visibile, niente occhiali. Uno strumento di ridimensionamento non può cambiare queste cose."
+          ]
+        },
+        {
+          "title": "KB, MB e la questione 1.000 contro 1.024",
+          "paragraphs": [
+            "Un MB sono 1.000 KB, quindi 50 KB sono appena 0,05 MB. Alcuni sistemi contano 1 KB come 1.000 byte e altri come 1.024 byte. Per stare tranquilli, questo strumento resta sotto la cifra più piccola: un file creato per un limite di 50 KB pesa meno di 50.000 byte e va bene in entrambi i casi."
+          ]
+        },
+        {
+          "title": "Portare una foto sotto 20, 50 o 200 KB",
+          "paragraphs": [
+            "Apri il ridimensionatore di immagini gratuito, aggiungi la tua foto e scegli un preset di peso del file (20, 50, 100 o 200 KB). Se il modulo indica anche le dimensioni in pixel, inseriscile prima in Dimensioni. Premi Ridimensiona immagini e controlla l'anteprima. Lo strumento abbassa prima la qualità a piccoli passi e solo se non basta rimpicciolisce anche l'immagine."
+          ],
+          "bullets": [
+            "Ritaglia stretto attorno al volto o alla firma prima di cominciare. Meno spazio vuoto significa un file più leggero a parità di nitidezza.",
+            "Uno sfondo uniforme e omogeneo si comprime molto meglio di uno affollato.",
+            "Usa il JPG. Il PNG non si può ridurre in questo modo.",
+            "Se il risultato è troppo sfocato, alza un po' il limite oppure usa una dimensione in pixel più piccola con una qualità più alta."
+          ]
+        },
+        {
+          "title": "Dimensioni esatte in pixel e in centimetri",
+          "paragraphs": [
+            "Se un modulo chiede i pixel, scegli px come unità e inserisci larghezza e altezza. Se chiede centimetri o millimetri, scegli cm o mm e imposta i DPI a 300: lo strumento calcola i pixel per te. Disattiva Blocca le proporzioni e scegli Ritaglia per riempire il riquadro quando il modulo richiede una forma precisa diversa da quella della tua foto."
+          ]
+        },
+        {
+          "title": "Firme",
+          "paragraphs": [
+            "Il caricamento di una firma è di solito una piccola immagine di inchiostro su carta bianca. Firma con una penna scura su carta bianca e liscia, scatta la foto con buona luce, ritaglia vicino alla firma e poi ridimensiona alle dimensioni indicate. Le firme si comprimono in file molto piccoli, quindi il limite raramente è un problema."
+          ]
+        },
+        {
+          "title": "Se il caricamento fallisce ancora",
+          "bullets": [
+            "File troppo pesante: abbassa un po' il limite, per esempio a 45 KB quando ne sono richiesti 50.",
+            "Dimensioni sbagliate: controlla che larghezza e altezza non siano scambiate e che l'unità sia corretta.",
+            "Formato non supportato: salva in JPG, non in WebP o PNG.",
+            "L'immagine appare allungata: ritaglia per riempire il riquadro invece di allungarla.",
+            "Le foto tessera e per il visto hanno regole aggiuntive su dimensione della testa e sfondo, stabilite dall'autorità. Leggi sempre le loro istruzioni ufficiali."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Quanti KB sono 1 MB?", "a": "Un MB sono circa 1.000 KB (alcuni sistemi usano 1.024). Quindi un limite di 200 KB è un quinto di megabyte." },
+          { "q": "Posso usare una foto scattata con il telefono?", "a": "Sì. Le foto del telefono sono pesanti, ma lo strumento le riduce alla dimensione richiesta. Scatta la foto con buona luce e uno sfondo uniforme." },
+          { "q": "La mia foto viene caricata sul server del sito?", "a": "No. Lo strumento funziona nel tuo browser, quindi la foto resta sul tuo dispositivo finché non la carichi tu stesso nel modulo." }
+        ]
+      }
+    }
+  }
+}

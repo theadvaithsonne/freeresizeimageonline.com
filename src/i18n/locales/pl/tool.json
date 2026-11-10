@@ -6,11 +6,11 @@
       "or": "lub",
       "choose": "Wybierz obrazy",
       "paste": "Możesz też wkleić obrazy skrótem Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Bez limitu rozmiaru i liczby plików.",
+      "formats": "JPG, PNG, WebP, GIF (pierwsza klatka) i BMP. Bez rejestracji i bez dziennego limitu.",
       "privacy": "Twoje obrazy nigdy nie opuszczają urządzenia.",
-      "addMore": "Dodaj więcej obrazów",
-      "overlay": "Upuść obrazy, aby je dodać",
-      "none": "Nie znaleziono obrazów, których można użyć. Wybierz pliki JPG, PNG, WebP, GIF lub BMP."
+      "none": "Nie znaleziono obrazów, których można użyć. Wybierz pliki JPG, PNG, WebP, GIF lub BMP.",
+      "tooMany": "Dodano tylko pierwsze obrazy. Maksymalnie naraz: {max}.",
+      "skipped": "Pominięto pliki, które nie są obrazami: {count}."
     },
     "files": {
       "title": "Twoje obrazy ({count})",
@@ -66,7 +66,7 @@
       "larger": "Większy o {percent}",
       "targetMissed": "Nie udało się osiągnąć {target}. Najmniejszy możliwy rozmiar: {size}.",
       "summary": "Gotowe: {done} z {total}",
-      "finished": "Wszystko gotowe. Liczba gotowych obrazów: {count}."
+      "finished": "Wszystko gotowe. Obrazy czekają na pobranie."
     },
     "errors": {
       "decode-failed": "Nie udało się odczytać tego pliku jako obrazu.",
@@ -74,7 +74,8 @@
       "invalid-size": "Wpisz poprawną szerokość, wysokość lub wartość procentową.",
       "too-large": "Ten rozmiar jest zbyt duży dla Twojego urządzenia. Spróbuj mniejszego.",
       "encode-failed": "Nie udało się zapisać obrazu. Spróbuj innego formatu.",
-      "cancelled": "Anulowano."
+      "cancelled": "Anulowano.",
+      "invalid-limit": "Wpisz maksymalny rozmiar pliku albo wyłącz opcję Ogranicz rozmiar pliku."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "szerokość w e-mailu",
         "screen": "ekran"
       }
-    }
+    },
+    "results": {
+      "title": "Twoje obrazy ze zmienionym rozmiarem",
+      "total": "Razem: {before} → {after}",
+      "back": "Zmień ustawienia",
+      "startOver": "Zacznij od nowa",
+      "original": "Oryginał",
+      "resized": "Po zmianie",
+      "allFailed": "Nie udało się zmienić rozmiaru żadnego obrazu. Przeczytaj komunikaty na kartach albo zmień ustawienia i spróbuj ponownie.",
+      "limitNote": "PNG nie da się zmniejszyć tak, aby mieścił się w limicie rozmiaru pliku. Aby zachować limit, wybierz JPG lub WebP.",
+      "progress": "Postęp zmiany rozmiaru"
+    },
+    "noscript": "Do zmiany rozmiaru obrazów w przeglądarce potrzebny jest JavaScript. Włącz go."
   }
 }

@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Rehberler",
+    "common": {
+      "openTool": "Ücretsiz resim boyutlandırıcıyı açın",
+      "toolHint": "Kendiniz deneyin: resimleriniz cihazınızda kalır.",
+      "moreGuides": "Diğer rehberler",
+      "readGuide": "Rehberi okuyun"
+    },
+    "index": {
+      "title": "Resim Boyutu Rehberleri - Fotoğraf Küçültme ve Dönüştürme",
+      "description": "Resim boyutunu küçültme, JPG, PNG ve WebP arasında seçim yapma ve online formlardaki fotoğraf boyutu sınırlarını aşma konusunda sade rehberler.",
+      "h1": "Resim boyutu rehberleri",
+      "intro": "En sık sorulan sorulara kısa ve pratik rehberler: bir resmi daha kötü göstermeden nasıl küçültürsünüz, hangi dosya biçimini seçmelisiniz ve katı bir boyut sınırı olan online forma fotoğrafı nasıl yüklersiniz.",
+      "items": [
+        { "title": "Kaliteyi kaybetmeden resim boyutu nasıl küçültülür?", "text": "Önemli olan dört adım, doğru sırayla ve dosyayı daha büyük ya da bulanık yapan hatalar." },
+        { "title": "JPG, PNG veya WebP: hangi biçimi kullanmalısınız?", "text": "Her biçimin neyde iyi olduğu, nerede yetersiz kaldığı ve seçmenin basit bir yolu." },
+        { "title": "Online formlar için fotoğraf boyutu: KB sınırı, piksel ve biçim", "text": "Boyut şartı nasıl okunur ve bir fotoğraf 20 KB, 50 KB veya 200 KB'ın altına nasıl indirilir." }
+      ]
+    },
+    "reduce": {
+      "title": "Kalite Kaybı Olmadan Resim Boyutu Küçültme: 4 Kolay Adım",
+      "description": "Fotoğrafları gözle görülür kayıp olmadan küçültmenin dört adımı: yeniden boyutlandırın, doğru biçimi seçin, kaliteyi biraz düşürün, gizli verileri silin.",
+      "h1": "Kaliteyi kaybetmeden resim boyutu nasıl küçültülür?",
+      "intro": "Modern bir telefonla çekilen fotoğraf 3 ila 8 MB olabilir. Bu, bir web sayfasının, e-postanın veya online formun ihtiyacından çok daha fazladır. İyi haber şu: çoğu resim, ekranda neredeyse aynı görünürken yüzde 70 ila 95 oranında küçültülebilir. Bu rehber, bir dosyanın neden büyük olduğunu ve onu dört adımda nasıl küçülteceğinizi anlatıyor.",
+      "sections": [
+        {
+          "title": "Resim dosyasını ne büyük yapar?",
+          "paragraphs": [
+            "Bir resim dosyasının boyutunu iki şey belirler: kaç piksel içerdiği ve bu piksellerin ne kadar sıkıştırıldığı. 12 megapiksellik bir fotoğraf (4000 x 3000 piksel) on iki milyon renkli nokta içerir. İyi sıkıştırmayla bile bu çok fazla veridir.",
+            "Piksel sayısı genişliğin karesiyle artar. Genişliği ve yüksekliği yarıya indirirseniz resim piksellerin yalnızca dörtte birine sahip olur ve dosya kabaca dört kat küçülebilir. Bu yüzden yeniden boyutlandırma en güçlü adımdır ve her zaman ilk bunu yapmalısınız."
+          ]
+        },
+        {
+          "title": "1. Adım: Gerçekten ihtiyacınız olan boyuta küçültün",
+          "paragraphs": [
+            "Ekranlar çoğu kişinin sandığından küçüktür. Dizüstü bilgisayarda tam ekran bir resim yaklaşık 1920 piksel genişlik ister, web sayfasının ortasındaki bir resim için çoğu zaman 800 ila 1200 piksel yeterlidir, küçük resim ise 150 ila 300 piksel ister. 800 piksel genişlikte gösterilecek bir fotoğrafı 4000 piksel olarak göndermek dosyanın büyük kısmını boşa harcar."
+          ],
+          "bullets": [
+            "Web siteleri ve bloglar: 1200 ila 2000 piksel genişlik.",
+            "E-posta ve mesajlaşma: uzun kenarda 1024 ila 1600 piksel.",
+            "Instagram ve Facebook gönderileri: 1080 piksel genişlik.",
+            "Online formlar ve kimlik yüklemeleri: form ne belirtiyorsa o, çoğu zaman 200 ila 600 piksel."
+          ]
+        },
+        {
+          "title": "2. Adım: Doğru biçimi seçin",
+          "paragraphs": [
+            "Fotoğraflar JPG veya WebP biçimine aittir. Logolar, ekran görüntüleri ve keskin kenarlı çizimler PNG'ye, site destekliyorsa WebP'ye uygundur. Bir fotoğrafı PNG olarak kaydetmek, dosyayı aynı fotoğrafın JPG hâline göre beş ila on kat büyütebilir ve gözle görülür bir fayda sağlamaz. JPG, PNG ve WebP rehberimiz farkları ayrıntılı olarak anlatıyor."
+          ]
+        },
+        {
+          "title": "3. Adım: Kaliteyi biraz düşürün",
+          "paragraphs": [
+            "JPG ve WebP, kaliteden verip dosya boyutundan kazanmanıza izin verir. İlişki düz bir çizgi değildir: 100'den 85'e inmek genellikle dosya boyutunun yarısından fazlasını siler ve neredeyse fark edilmez. 85'ten 40'a inmek ise daha az kazandırır ve bloklu kenarlar ile bulanık ayrıntılar görünmeye başlar.",
+            "Fotoğraflar için 70 ile 85 arası bir kalite iyi bir başlangıç noktasıdır. Dosyanın 100 KB gibi sabit bir boyutun altında olması gerekiyorsa Dosya boyutunu sınırla seçeneğini kullanın: araç farklı kalite düzeylerini dener ve sığan en yüksek olanı tutar."
+          ]
+        },
+        {
+          "title": "4. Adım: Gizli verileri silin",
+          "paragraphs": [
+            "Telefon ve kameralarla çekilen fotoğraflar, üst veri (metadata) denen gizli bilgiler taşır: kamera modeli, tarih ve bazen tam GPS konumu. Bu bilgi dosya boyutuna biraz ekler, daha önemlisi fotoğrafın nerede çekildiğini ele verebilir. Resmi, üst veriyi kopyalamayan bir araçla yeniden kaydetmek bunu siler. Bu sitenin oluşturduğu dosyalarda üst veri bulunmaz."
+          ]
+        },
+        {
+          "title": "Resmi kötüleştiren hatalar",
+          "bullets": [
+            "Küçük bir resmi büyütmek. Daha büyük bir tuval hiç yakalanmamış ayrıntıyı ekleyemez; sonuç yumuşak görünür ve dosya büyür.",
+            "Bir JPG'yi tekrar tekrar kaydetmek. Her kayıtta biraz kalite kaybolur. Orijinali saklayın ve her seferinde yeni bir kopya oluşturun.",
+            "Fotoğrafı kaydetmek yerine ekran görüntüsünü almak. Ekran görüntüleri çoğu zaman daha büyük ve daha az nettir.",
+            "Fotoğraflar için PNG kullanmak. PNG kayıpsızdır, bu yüzden dosya büyük kalır."
+          ]
+        },
+        {
+          "title": "Hızlı bir tarif",
+          "paragraphs": [
+            "Çoğu fotoğraf için: ihtiyacınız olan genişliğe küçültün, yaklaşık 80 kalitede JPG veya WebP olarak kaydedin ve sonucu yüzde 100 yakınlaştırmada kontrol edin. Hâlâ iyi görünüyorsa işiniz bitti. Yumuşak görünüyorsa kaliteyi biraz yükseltin veya resmi biraz daha büyük yapın."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Resmi küçültmek kalitesini düşürür mü?", "a": "İyi bir yeniden boyutlandırma yöntemiyle piksel sayısını azaltmak resmi net tutar, çünkü ayrıntı yalnızca daha küçük gösterilir. Sıkıştırma kalitesini düşürmek ayrıntı kaybettirir, ancak küçük bir düşüş zor fark edilir." },
+          { "q": "Bir fotoğrafı ne kadar küçültebilirim?", "a": "İçeriğe bağlıdır. Düz bir arka plan önündeki küçük bir portre 30 ila 50 KB'de bile iyi görünebilir. Kalabalık bir manzara çok daha fazlasını ister. Dosya boyutu sınırını deneyin ve sonuca bakın." },
+          { "q": "Özel fotoğrafları online küçültmek güvenli mi?", "a": "Burada resim kendi tarayıcınızın içinde işlenir ve hiçbir zaman yüklenmez, yani cihazınızdan çıkmaz. Başka sitelerde dosyalarınızı yükleyip yüklemediklerini kontrol edin." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG, PNG ve WebP Farkı: Hangi Resim Biçimini Seçmelisiniz?",
+      "description": "JPG, PNG ve WebP karşılaştırması: dosya boyutu, kalite, saydamlık ve uyumluluk. Doğru resim biçimini nasıl seçeceğinizi açık bir dille öğrenin.",
+      "h1": "JPG, PNG veya WebP: hangi biçimi kullanmalısınız?",
+      "intro": "Aynı resim JPG olarak 200 KB, PNG olarak 1,5 MB, WebP olarak 140 KB olabilir. Biçim; boyutu, görünümü ve dosyayı nerede kullanabileceğinizi değiştirir. Bu rehber her biçimin en iyi neyi yaptığını anlatıyor, böylece birkaç saniyede doğru olanı seçebilirsiniz.",
+      "sections": [
+        {
+          "title": "JPG: fotoğraflar için standart",
+          "paragraphs": [
+            "JPG (JPEG olarak da yazılır), gözün pek fark etmediği ayrıntıları atarak fotoğrafları sıkıştırır. Her program, telefon, web sitesi ve yazıcı bunu tanır; bu yüzden karşı tarafın neyi kabul ettiğinden emin değilseniz en güvenli seçimdir."
+          ],
+          "bullets": [
+            "En uygun olduğu yer: fotoğraflar ve yumuşak renk geçişleri olan her şey.",
+            "Zayıf yönleri: saydamlık yok; düşük kalitede yazı veya ince çizgiler bulanık görünebilir.",
+            "Kalite: kayıplı. Her yeniden kayıtta biraz daha kaybolur."
+          ]
+        },
+        {
+          "title": "PNG: keskin grafikler ve saydamlık",
+          "paragraphs": [
+            "PNG, hiçbir ayrıntıyı kaybetmeden sıkıştırır ve saydam alanlara sahip olabilir. Bu da onu logolar, simgeler, ekran görüntüleri, grafikler ve çizimler için doğru biçim yapar. Fotoğraflarda çok büyük dosyalar üretir, çünkü fotoğraflarda kayıpsız iyi sıkıştırılamayacak kadar çok küçük renk değişimi vardır."
+          ],
+          "bullets": [
+            "En uygun olduğu yer: logolar, arayüz ekran görüntüleri, yazılar, saydam arka plan gereken resimler.",
+            "Zayıf yönleri: fotoğraflarda büyük dosyalar.",
+            "Kalite: kayıpsız. Yeniden kaydetmek zarar vermez."
+          ]
+        },
+        {
+          "title": "WebP: web için daha küçük dosyalar",
+          "paragraphs": [
+            "WebP, web siteleri için tasarlandı. JPG gibi kayıplı veya PNG gibi kayıpsız modda çalışabilir ve saydamlığı destekler. Benzer görsel kalitede WebP fotoğrafları çoğu zaman JPG'den dörtte bir ila üçte bir kadar daha küçüktür. Güncel tüm tarayıcılar WebP'yi gösterebilir, ancak bazı eski programlar, baskı merkezleri ve yükleme formları hâlâ kabul etmez."
+          ],
+          "bullets": [
+            "En uygun olduğu yer: izleyicinin ne kullandığını sizin belirlediğiniz web siteleri ve uygulamalar.",
+            "Zayıf yönleri: her yerde kabul edilmez, özellikle eski yazılımlarda ve bazı resmî portallarda.",
+            "Kalite: kayıplı veya kayıpsız, seçim sizin."
+          ]
+        },
+        {
+          "title": "Nasıl seçmeli?",
+          "bullets": [
+            "Devlet sitesine, sınav portalına veya iş başvurusuna yükleme: aksi belirtilmedikçe JPG.",
+            "Web sitesi veya blog için fotoğraflar: WebP, yedek olarak JPG.",
+            "Logo, simge, ekran görüntüsü veya saydam arka planlı her şey: PNG.",
+            "Tanımadığınız kişilere e-posta veya mesajla fotoğraf göndermek: JPG.",
+            "Baskı: yazdıracağınız boyutta, en yüksek kalitede JPG veya PNG."
+          ]
+        },
+        {
+          "title": "Dönüştürme neleri yapabilir, neleri yapamaz?",
+          "paragraphs": [
+            "Biçimi değiştirmek resmi iyileştirmez. Küçük bir JPG'yi PNG'ye çevirmek, aynı ayrıntıya sahip daha büyük bir dosya verir. Saydam arka planlı bir PNG'yi JPG'ye çevirmek saydam alanları doldurur; bu araç bunları beyazla doldurur. JPG'yi WebP'ye çevirmek dosyayı küçültebilir, ancak ilk JPG sıkıştırması geri gelmeyecek ayrıntıları zaten silmiştir."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "WebP, JPG'den daha mı iyi?", "a": "Web sitelerinde dosya boyutu açısından genellikle evet. Uyumluluk açısından hayır: JPG her yerde çalışır. Kabul edildiğini biliyorsanız WebP, emin değilseniz JPG kullanın." },
+          { "q": "PNG'm neden JPG'den çok daha büyük?", "a": "PNG her ayrıntıyı korur. Bir fotoğrafta milyonlarca küçük renk farkı vardır, bu yüzden kayıpsız dosya büyük olur. Fotoğraflar için doğru biçimler JPG veya WebP'dir." },
+          { "q": "WebP'yi JPG'ye çevirebilir miyim?", "a": "Evet. WebP dosyasını ekleyin, biçim olarak JPG'yi seçin ve sonucu indirin. Saydam alanlar beyaz olur." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Form İçin Fotoğraf Boyutu: KB Sınırı, Piksel ve Dosya Biçimi",
+      "description": "Fotoğraf ve imza yükleme şartlarını karşılayın: KB ve piksel sınırlarını okuma, resmi 20, 50 veya 200 KB'ın altına indirme ve yükleme hatalarını giderme.",
+      "h1": "Online formlar için fotoğraf boyutu: KB sınırı, piksel ve biçim",
+      "intro": "Sınav kayıtları, iş portalları, vize başvuruları ve resmî formlar fotoğrafı çoğu zaman üç nedenden biriyle reddeder: dosya çok büyüktür, ölçüler yanlıştır veya biçim kabul edilmez. Her şart, nasıl okunacağını bildiğinizde bir dakikada karşılanabilir. Bu rehber nasıl yapılacağını gösteriyor.",
+      "sections": [
+        {
+          "title": "Şartı dikkatle okuyun",
+          "paragraphs": [
+            "Bir şart genellikle en fazla dört bölümden oluşur. Herhangi bir şeyi yeniden boyutlandırmadan önce bunları tek tek kontrol edin."
+          ],
+          "bullets": [
+            "Dosya boyutu, örneğin 20 KB ile 50 KB arası. Bu, dosyanın kilobayt sayısıdır; ekrandaki boyut değildir.",
+            "Ölçüler, örneğin 200 x 230 piksel veya 3,5 x 4,5 cm. Bunlar resmin biçimini, yani en-boy şeklini belirler.",
+            "Biçim: neredeyse her zaman JPG veya JPEG. Birkaç portal PNG'yi de kabul eder.",
+            "Arka plan ve görünüm: örneğin düz beyaz arka plan, yüzün görünmesi, gözlük olmaması. Bir boyutlandırma aracı bunları değiştiremez."
+          ]
+        },
+        {
+          "title": "KB, MB ve 1.000 ile 1.024 meselesi",
+          "paragraphs": [
+            "1 MB, 1.000 KB'tır; yani 50 KB yalnızca 0,05 MB eder. Bazı sistemler 1 KB'ı 1.000 bayt, bazıları 1.024 bayt sayar. Güvenli tarafta kalmak için bu araç sonucu küçük olan sayının altında tutar; böylece 50 KB sınırı için hazırlanan dosya 50.000 bayttan küçüktür ve her iki durumda da kabul edilir."
+          ]
+        },
+        {
+          "title": "Fotoğrafı 20, 50 veya 200 KB'ın altına indirmek",
+          "paragraphs": [
+            "Ücretsiz resim boyutlandırıcıyı açın, fotoğrafınızı ekleyin ve Hazır ayar listesinden bir dosya boyutu ayarı seçin (20, 50, 100 veya 200 KB). Form piksel ölçüleri de belirtiyorsa önce bunları Boyut seçeneğine girin. Resimleri boyutlandır düğmesine basın ve önizlemeyi kontrol edin. Araç önce kaliteyi adım adım düşürür; bu yetmezse resmi de küçültür."
+          ],
+          "bullets": [
+            "Başlamadan önce yüzün veya imzanın çevresini sıkıca kırpın. Daha az boş alan, aynı netlikte daha küçük bir dosya demektir.",
+            "Düz ve eşit bir arka plan, kalabalık bir arka plandan çok daha iyi sıkışır.",
+            "JPG kullanın. PNG bu şekilde küçültülemez.",
+            "Sonuç çok yumuşak görünüyorsa sınırı biraz yükseltin veya daha küçük bir piksel boyutunu daha yüksek kaliteyle kullanın."
+          ]
+        },
+        {
+          "title": "Tam piksel ölçüleri ve santimetre",
+          "paragraphs": [
+            "Form piksel istiyorsa birim olarak px'i seçin ve genişlik ile yüksekliği girin. Santimetre veya milimetre istiyorsa cm ya da mm'yi seçin ve DPI değerini 300 yapın; araç pikselleri sizin için hesaplar. Form, fotoğrafınızdan farklı, tam bir şekil gerektiriyorsa En-boy oranını kilitle seçeneğini kapatın ve Kutuyu dolduracak şekilde kırp seçeneğini seçin."
+          ]
+        },
+        {
+          "title": "İmzalar",
+          "paragraphs": [
+            "İmza yüklemesi genellikle beyaz kâğıt üzerindeki mürekkebin küçük bir resmidir. Düz beyaz kâğıda koyu renkli bir kalemle imzalayın, fotoğrafı iyi ışıkta çekin, imzanın yakınından kırpın ve sonra belirtilen ölçülere göre boyutlandırın. İmzalar çok küçük dosyalara sıkışır, bu yüzden sınır nadiren sorun olur."
+          ]
+        },
+        {
+          "title": "Yükleme yine de başarısız olursa",
+          "bullets": [
+            "Dosya çok büyük: sınırı biraz düşürün, örneğin 50 KB gerekiyorsa 45 KB yapın.",
+            "Yanlış ölçüler: genişlik ile yüksekliğin yer değiştirmediğini ve birimin doğru olduğunu kontrol edin.",
+            "Biçim desteklenmiyor: WebP veya PNG değil, JPG olarak kaydedin.",
+            "Resim gerilmiş görünüyor: germek yerine kutuyu dolduracak şekilde kırpın.",
+            "Vesikalık ve vize fotoğraflarında baş boyutu ve arka plan konusunda ilgili kurumun belirlediği ek kurallar vardır. Her zaman resmî yönergelerini okuyun."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "1 MB kaç KB eder?", "a": "1 MB yaklaşık 1.000 KB'tır (bazı sistemler 1.024 kullanır). Yani 200 KB'lık bir sınır, bir megabaytın beşte biridir." },
+          { "q": "Telefonumla çektiğim fotoğrafı kullanabilir miyim?", "a": "Evet. Telefon fotoğrafları büyüktür ama araç onları istenen boyuta küçültür. Fotoğrafı iyi ışıkta ve düz bir arka planla çekin." },
+          { "q": "Fotoğrafım sunucunuza yüklenecek mi?", "a": "Hayır. Araç tarayıcınızda çalışır, bu yüzden fotoğraf siz kendiniz forma yükleyene kadar cihazınızda kalır." }
+        ]
+      }
+    }
+  }
+}

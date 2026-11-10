@@ -43,8 +43,8 @@
     },
     "faq": {
       "items": [
-        { "q": "È davvero gratis?", "a": "Sì. Non serve registrarsi, non c'è nessuna prova e non ci sono limiti al numero o al peso delle tue immagini. Il sito si sostiene con un solo annuncio pubblicitario accanto allo strumento." },
-        { "q": "Le mie immagini vengono caricate online?", "a": "No. Il ridimensionamento avviene sul tuo dispositivo, dentro il tuo browser. Le tue immagini non vengono mai inviate ai nostri server. L'unica cosa che contiamo è quante immagini sono state ridimensionate, come semplice numero." },
+        { "q": "È davvero gratis?", "a": "Sì. Non serve registrarsi, non c'è nessuna prova e non c'è nessun limite giornaliero. Il sito si sostiene con un solo annuncio pubblicitario accanto allo strumento. Le immagini molto grandi possono essere troppo pesanti per un telefono o un computer vecchio, e in quel caso vedrai un messaggio." },
+        { "q": "Le mie immagini vengono caricate online?", "a": "No. Il ridimensionamento avviene sul tuo dispositivo, dentro il tuo browser. Le tue immagini non vengono mai inviate ai nostri server." },
         { "q": "Quali formati sono supportati?", "a": "Puoi aprire file JPG, PNG, WebP, GIF e BMP, e AVIF dove il tuo browser lo supporta. Puoi salvare in JPG, PNG o WebP." },
         { "q": "Ridimensionare riduce la qualità?", "a": "Rimpicciolire un'immagine la mantiene nitida perché lo strumento usa un filtro di alta qualità. Ingrandirla non può aggiungere dettagli che non ci sono, quindi le immagini ingrandite risultano più morbide. Per JPG e WebP puoi scegliere tu la qualità." },
         { "q": "Come porto un'immagine sotto un peso come 50 KB?", "a": "Attiva Limita il peso del file, scrivi il numero e premi Ridimensiona immagini. Lo strumento abbassa la qualità e, se serve, le dimensioni finché il file rientra nel limite. Scegli JPG o WebP per i risultati migliori, perché il PNG non si può ridurre in questo modo." },
@@ -66,7 +66,7 @@
     "tips": [
       "Usa il JPG. Comprime le foto molto meglio del PNG a parità di dimensioni.",
       "Se il risultato è sfocato, alza un po' il limite oppure ritaglia i bordi vuoti prima di ridimensionare.",
-      "La maggior parte dei moduli misura il peso in KB, dove 1 KB sono 1.024 byte. Questo strumento usa la stessa regola.",
+      "Alcuni portali contano 1 KB come 1.000 byte e altri come 1.024. Questo strumento resta sotto il numero più piccolo, così il tuo file va bene in entrambi i casi.",
       "Controlla anche le dimensioni richieste. Alcuni portali chiedono sia una misura in pixel sia un limite in KB."
     ],
     "faq": {
@@ -130,7 +130,7 @@
     }
   },
   "social": {
-    "title": "Dimensioni immagini per i social - Instagram, YouTube, Facebook",
+    "title": "Dimensioni immagini social: Instagram, YouTube, Facebook",
     "description": "Dimensioni molto usate per Instagram, Facebook, YouTube, X, LinkedIn e Pinterest, più uno strumento gratuito per adattare la tua immagine.",
     "h1": "Dimensioni delle immagini per i social",
     "intro": "I post rendono meglio quando l'immagine ha già la forma giusta. Scegli una piattaforma nell'elenco Preset e lo strumento ritaglia e ridimensiona la tua immagine di conseguenza.",
@@ -156,7 +156,7 @@
     }
   },
   "convert": {
-    "title": "Converti immagini JPG, PNG e WebP - Convertitore online gratis",
+    "title": "Convertitore immagini online gratis: JPG, PNG e WebP",
     "description": "Converti immagini tra JPG, PNG e WebP nel tuo browser. Gratis, senza registrazione e privato.",
     "h1": "Converti immagini tra JPG, PNG e WebP",
     "intro": "Scegli il formato che ti serve e lo strumento converte ogni immagine che aggiungi. Non viene caricato nulla.",

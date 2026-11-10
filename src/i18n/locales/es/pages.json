@@ -43,8 +43,8 @@
     },
     "faq": {
       "items": [
-        { "q": "¿De verdad es gratis?", "a": "Sí. No hay registro, ni prueba, ni límite en la cantidad o el tamaño de tus imágenes. El sitio se financia con un único anuncio junto a la herramienta." },
-        { "q": "¿Se suben mis imágenes?", "a": "No. El redimensionado se hace en tu propio dispositivo, dentro del navegador. Tus imágenes nunca se envían a nuestros servidores. Lo único que contamos es cuántas imágenes se han redimensionado, como un simple número." },
+        { "q": "¿De verdad es gratis?", "a": "Sí. No hay registro, ni prueba, ni límite diario. El sitio se financia con un único anuncio junto a la herramienta. Las imágenes muy grandes pueden ser demasiado para un móvil o una computadora antigua, y si eso pasa verás un mensaje." },
+        { "q": "¿Se suben mis imágenes?", "a": "No. El redimensionado se hace en tu propio dispositivo, dentro del navegador. Tus imágenes nunca se envían a nuestros servidores." },
         { "q": "¿Qué formatos son compatibles?", "a": "Puedes abrir archivos JPG, PNG, WebP, GIF y BMP, y AVIF si tu navegador lo admite. Puedes guardar en JPG, PNG o WebP." },
         { "q": "¿Se pierde calidad al redimensionar?", "a": "Al hacer una imagen más pequeña se mantiene nítida, porque la herramienta usa un filtro de alta calidad. Al agrandarla no se puede añadir detalle que no existe, así que las imágenes ampliadas se ven más suaves. En JPG y WebP puedes elegir tú la calidad." },
         { "q": "¿Cómo consigo que una imagen pese menos de 50 KB?", "a": "Activa Limitar el tamaño del archivo, escribe el número y pulsa Redimensionar imágenes. La herramienta baja la calidad y, si hace falta, las dimensiones hasta que el archivo quepa. Elige JPG o WebP para obtener los mejores resultados, porque PNG no se puede reducir de esa manera." },
@@ -66,7 +66,7 @@
     "tips": [
       "Usa JPG. Comprime las fotos mucho mejor que PNG con las mismas dimensiones.",
       "Si el resultado se ve borroso, sube un poco el límite o recorta los bordes vacíos antes de redimensionar.",
-      "La mayoría de los formularios miden el tamaño en KB, donde 1 KB son 1024 bytes. Esta herramienta usa la misma regla.",
+      "Algunos portales cuentan 1 KB como 1000 bytes y otros como 1024. Esta herramienta se queda por debajo del número menor, así que tu archivo pasa en ambos casos.",
       "Revisa también las dimensiones requeridas. Algunos portales piden un tamaño en píxeles y además un límite en KB."
     ],
     "faq": {
@@ -130,7 +130,7 @@
     }
   },
   "social": {
-    "title": "Tamaños de imagen para redes sociales - Instagram, YouTube, Facebook",
+    "title": "Tamaños de imagen para redes sociales - Instagram, YouTube",
     "description": "Tamaños de imagen muy usados en Instagram, Facebook, YouTube, X, LinkedIn y Pinterest, y una herramienta gratis para ajustar tu imagen.",
     "h1": "Tamaños de imagen para redes sociales",
     "intro": "Las publicaciones se ven mejor cuando la imagen ya tiene la forma correcta. Elige una plataforma en la lista de ajustes predefinidos y la herramienta recorta y redimensiona tu imagen para que encaje.",

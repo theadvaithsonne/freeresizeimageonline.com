@@ -7,9 +7,29 @@
       "h1": "Sobre o FreeResizeImageOnline",
       "paragraphs": [
         "O FreeResizeImageOnline é uma ferramenta grátis para redimensionar, comprimir e converter imagens. Ele é criado e mantido por {owner}, em Bengaluru, na Índia.",
-        "O objetivo é manter tudo simples: sem conta, sem marca d'água e sem limites. Suas imagens são processadas dentro do seu próprio navegador e nunca são enviadas aos nossos servidores.",
-        "O site é sustentado por publicidade do Google AdSense, que paga o domínio e o desenvolvimento. Os anúncios ficam em uma única caixa claramente identificada, para não atrapalhar você.",
-        "Dúvidas ou sugestões? Escreva para {email}."
+        "O objetivo é simples: uma ferramenta de imagens rápida e honesta, sem conta, sem marca d'água e sem limite diário. Suas imagens são processadas dentro do seu próprio navegador e nunca são enviadas aos nossos servidores."
+      ],
+      "sections": [
+        {
+          "title": "O que você pode fazer aqui",
+          "text": "Mude o tamanho de uma imagem em pixels, centímetros, milímetros, polegadas ou porcentagem. Faça uma foto caber em um limite de tamanho, como 50 KB. Converta entre JPG, PNG e WebP. Processe várias imagens de uma só vez e baixe tudo em um único arquivo ZIP. Há tamanhos prontos para redes sociais, fotos de passaporte e visto, lojas online e formulários de envio comuns."
+        },
+        {
+          "title": "Como funciona",
+          "text": "Quando você adiciona uma imagem, o navegador a lê e a página faz o trabalho no seu próprio computador ou celular, usando tecnologia web moderna (JavaScript e WebAssembly). O resultado é criado na memória e oferecido para download. Nada é enviado para nós, por isso a ferramenta é rápida e consegue lidar com muitas imagens de uma vez."
+        },
+        {
+          "title": "Por que é grátis",
+          "text": "O site é mantido por um único anúncio do Google AdSense, claramente identificado. Ele paga o domínio e o tempo dedicado a melhorar a ferramenta. O anúncio fica longe dos botões, e tudo funciona sem ele."
+        },
+        {
+          "title": "Tamanhos e precisão",
+          "text": "Os tamanhos para redes sociais, fotos de documentos e lojas online são requisitos divulgados com frequência. Eles podem mudar, e cada pedido pode ter suas próprias regras, por isso confira as instruções oficiais antes de enviar. Se encontrar algum erro, avise-nos."
+        },
+        {
+          "title": "Quem está por trás",
+          "text": "{owner} é o editor independente deste site e lê as mensagens enviadas para {email}."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "E-mail",
       "ownerLabel": "Responsável pelo site",
       "locationLabel": "Localização",
-      "locationValue": "Bengaluru, Índia"
+      "locationValue": "Bengaluru, Índia",
+      "sections": [
+        {
+          "title": "Sobre o que você pode escrever",
+          "text": "Dúvidas sobre o funcionamento da ferramenta, um erro, um tamanho desatualizado, uma tradução que poderia ser melhor ou uma ideia de nova predefinição."
+        },
+        {
+          "title": "O que nos ajuda a corrigir um problema",
+          "text": "Informe o endereço da página, o navegador e o dispositivo, o tipo e o tamanho do arquivo (não o arquivo em si) e o que você esperava que acontecesse."
+        },
+        {
+          "title": "Respostas",
+          "text": "Lemos todas as mensagens. As respostas podem levar alguns dias, porque o site é mantido por uma só pessoa."
+        }
+      ]
     },
     "privacy": {
       "title": "Política de Privacidade - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookies e armazenamento local",
-          "text": "Salvamos suas escolhas, como tema e idioma, no armazenamento local do seu navegador. Isso fica no seu dispositivo. Parceiros de publicidade podem definir cookies, conforme descrito na próxima seção."
+          "text": "Salvamos suas escolhas, como tema e idioma, no armazenamento local do seu navegador, e a escolha de ocultar a sugestão de idioma no armazenamento de sessão. Isso fica no seu dispositivo. Parceiros de publicidade podem definir cookies, conforme descrito na próxima seção."
         },
         {
           "title": "Publicidade",

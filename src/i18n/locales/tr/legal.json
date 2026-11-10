@@ -7,9 +7,29 @@
       "h1": "FreeResizeImageOnline Hakkında",
       "paragraphs": [
         "FreeResizeImageOnline; resimleri boyutlandırmak, sıkıştırmak ve dönüştürmek için ücretsiz bir araçtır. Hindistan'ın Bengaluru kentinde {owner} tarafından geliştirilmiş ve işletilmektedir.",
-        "Amaç işi basit tutmaktır: hesap yok, filigran yok, sınır yok. Resimleriniz kendi tarayıcınızın içinde işlenir ve sunucularımıza asla yüklenmez.",
-        "Site, alan adının ve geliştirmenin maliyetini karşılayan Google AdSense reklamlarıyla desteklenmektedir. Reklamlar, yolunuza çıkmamaları için açıkça işaretlenmiş tek bir kutuyla sınırlı tutulur.",
-        "Sorularınız veya geri bildirimleriniz mi var? {email} adresine yazın."
+        "Amaç basit: hesap, filigran ve günlük sınır olmadan çalışan hızlı ve dürüst bir resim aracı. Resimleriniz kendi tarayıcınızın içinde işlenir ve sunucularımıza asla yüklenmez."
+      ],
+      "sections": [
+        {
+          "title": "Burada neler yapabilirsiniz?",
+          "text": "Bir resmin boyutunu piksel, santimetre, milimetre, inç veya yüzde olarak değiştirebilirsiniz. Bir fotoğrafı 50 KB gibi bir dosya boyutu sınırına sığdırabilirsiniz. JPG, PNG ve WebP arasında dönüştürme yapabilirsiniz. Birçok resmi aynı anda işleyip tek bir ZIP dosyası olarak indirebilirsiniz. Sosyal medya, pasaport ve vize fotoğrafları, online mağazalar ve yaygın yükleme formları için hazır boyutlar da var."
+        },
+        {
+          "title": "Nasıl çalışır?",
+          "text": "Bir resim eklediğinizde tarayıcınız onu okur ve sayfa işi kendi bilgisayarınızda veya telefonunuzda yapar. Bunun için modern web teknolojisi (JavaScript ve WebAssembly) kullanılır. Sonuç bellekte oluşturulur ve indirmeniz için sunulur. Bize hiçbir şey gönderilmez. Araç bu yüzden hızlıdır ve büyük toplu işlerle de başa çıkabilir."
+        },
+        {
+          "title": "Neden ücretsiz?",
+          "text": "Site, Google AdSense'in açıkça işaretlenmiş tek bir reklamıyla desteklenmektedir. Bu reklam alan adının ve aracı geliştirmeye harcanan zamanın masrafını karşılar. Reklam düğmelerden uzak tutulur ve her şey o olmadan da çalışır."
+        },
+        {
+          "title": "Boyutlar ve doğruluk",
+          "text": "Sosyal medya, vesikalık fotoğraf ve online mağazalar için kullanılan boyutlar, yaygın olarak yayımlanan gereksinimlerdir. Bunlar değişebilir ve her başvuru kendi kurallarını ekleyebilir. Bu yüzden göndermeden önce resmî yönergelere bakın. Bir hata bulursanız lütfen bize bildirin."
+        },
+        {
+          "title": "Arkasında kim var?",
+          "text": "{owner}, bu sitenin bağımsız yayıncısıdır ve {email} adresine gönderilen iletileri okur."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "E-posta",
       "ownerLabel": "Site sahibi",
       "locationLabel": "Konum",
-      "locationValue": "Bengaluru, Hindistan"
+      "locationValue": "Bengaluru, Hindistan",
+      "sections": [
+        {
+          "title": "Ne hakkında yazabilirsiniz?",
+          "text": "Aracın nasıl çalıştığı hakkındaki sorular, bir hata, güncelliğini yitirmiş bir boyut, daha iyi olabilecek bir çeviri veya yeni bir hazır ayar fikri."
+        },
+        {
+          "title": "Sorunu çözmemize ne yardımcı olur?",
+          "text": "Bize sayfa adresini, tarayıcınızı ve cihazınızı, dosyanın türünü ve boyutunu (dosyanın kendisini değil) ve ne olmasını beklediğinizi yazın."
+        },
+        {
+          "title": "Yanıtlar",
+          "text": "Her iletiyi okuyoruz. Site tek bir kişi tarafından işletildiği için yanıt birkaç gün sürebilir."
+        }
+      ]
     },
     "privacy": {
       "title": "Gizlilik Politikası - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Çerezler ve yerel depolama",
-          "text": "Tema ve dil gibi tercihlerinizi tarayıcınızın yerel depolama alanına kaydediyoruz. Bu veriler cihazınızda kalır. Reklam ortakları, bir sonraki bölümde açıklandığı gibi çerez yerleştirebilir."
+          "text": "Tema ve dil gibi tercihlerinizi tarayıcınızın yerel depolama alanına, dil önerisini gizleme tercihinizi ise oturum depolama alanına kaydediyoruz. Bu veriler cihazınızda kalır. Reklam ortakları, bir sonraki bölümde açıklandığı gibi çerez yerleştirebilir."
         },
         {
           "title": "Reklamlar",

@@ -6,11 +6,11 @@
       "or": "atau",
       "choose": "Pilih gambar",
       "paste": "Anda juga bisa menempel gambar dengan Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Tanpa batas ukuran maupun jumlah.",
+      "formats": "JPG, PNG, WebP, GIF (frame pertama), dan BMP. Tanpa pendaftaran dan tanpa batas harian.",
       "privacy": "Gambar Anda tidak pernah meninggalkan perangkat.",
-      "addMore": "Tambah gambar",
-      "overlay": "Lepas gambar untuk menambahkannya",
-      "none": "Tidak ada gambar yang bisa digunakan. Pilih file JPG, PNG, WebP, GIF, atau BMP."
+      "none": "Tidak ada gambar yang bisa digunakan. Pilih file JPG, PNG, WebP, GIF, atau BMP.",
+      "tooMany": "Hanya {max} gambar pertama yang ditambahkan.",
+      "skipped": "{count} file dilewati karena bukan gambar."
     },
     "files": {
       "title": "Gambar Anda ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} lebih besar",
       "targetMissed": "Tidak bisa mencapai {target}. Ukuran terkecil yang mungkin: {size}.",
       "summary": "{done} dari {total} selesai",
-      "finished": "Semua selesai. {count} gambar siap."
+      "finished": "Semua selesai. Gambar Anda siap."
     },
     "errors": {
       "decode-failed": "File ini tidak bisa dibaca sebagai gambar.",
@@ -74,7 +74,8 @@
       "invalid-size": "Masukkan lebar, tinggi, atau persentase yang valid.",
       "too-large": "Ukuran ini terlalu besar untuk perangkat Anda. Coba ukuran yang lebih kecil.",
       "encode-failed": "Gagal menyimpan gambar. Coba format lain.",
-      "cancelled": "Dibatalkan."
+      "cancelled": "Dibatalkan.",
+      "invalid-limit": "Masukkan ukuran file maksimum, atau matikan Batasi ukuran file."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "lebar email",
         "screen": "layar"
       }
-    }
+    },
+    "results": {
+      "title": "Gambar Anda yang sudah diubah ukurannya",
+      "total": "Total: {before} → {after}",
+      "back": "Ubah pengaturan",
+      "startOver": "Mulai ulang",
+      "original": "Asli",
+      "resized": "Hasil",
+      "allFailed": "Tidak ada gambar yang dapat diubah ukurannya. Baca pesan pada kartu, atau ubah pengaturan lalu coba lagi.",
+      "limitNote": "PNG tidak bisa diperkecil agar muat dalam batas ukuran file Anda. Pilih JPG atau WebP agar batas tersebut terpenuhi.",
+      "progress": "Kemajuan pengubahan ukuran"
+    },
+    "noscript": "JavaScript diperlukan untuk mengubah ukuran gambar di browser Anda. Silakan aktifkan."
   }
 }

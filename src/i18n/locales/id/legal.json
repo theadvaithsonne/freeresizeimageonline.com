@@ -7,9 +7,29 @@
       "h1": "Tentang FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline adalah alat gratis untuk mengubah ukuran, mengompres, dan mengonversi gambar. Alat ini dibuat dan dikelola oleh {owner} di Bengaluru, India.",
-        "Tujuannya agar tetap sederhana: tanpa akun, tanpa watermark, dan tanpa batas. Gambar Anda diproses di dalam browser Anda sendiri dan tidak pernah diunggah ke server kami.",
-        "Situs ini didukung oleh iklan dari Google AdSense, yang membiayai domain dan pengembangan. Iklan dibatasi pada satu kotak yang ditandai dengan jelas agar tidak mengganggu Anda.",
-        "Ada pertanyaan atau masukan? Tulis ke {email}."
+        "Tujuannya sederhana: alat gambar yang cepat dan jujur, tanpa akun, tanpa watermark, dan tanpa batas harian. Gambar Anda diproses di dalam browser Anda sendiri dan tidak pernah diunggah ke server kami."
+      ],
+      "sections": [
+        {
+          "title": "Apa yang bisa Anda lakukan di sini",
+          "text": "Ubah ukuran gambar dalam piksel, sentimeter, milimeter, inci, atau persen. Buat foto muat dalam batas ukuran seperti 50 KB. Konversi antara JPG, PNG, dan WebP. Proses banyak gambar sekaligus dan unduh sebagai satu file ZIP. Tersedia juga ukuran siap pakai untuk media sosial, pas foto paspor dan visa, toko online, dan formulir unggahan yang umum."
+        },
+        {
+          "title": "Cara kerjanya",
+          "text": "Saat Anda menambahkan gambar, browser Anda membacanya dan halaman ini mengerjakan semuanya di komputer atau ponsel Anda sendiri, dengan teknologi web modern (JavaScript dan WebAssembly). Hasilnya dibuat di memori lalu ditawarkan untuk diunduh. Tidak ada yang dikirim ke kami, itulah sebabnya alat ini cepat dan mampu menangani banyak gambar sekaligus."
+        },
+        {
+          "title": "Mengapa gratis",
+          "text": "Situs ini didukung oleh satu iklan yang diberi label jelas dari Google AdSense. Iklan itu membiayai domain dan waktu yang dipakai untuk menyempurnakan alat ini. Iklan dijauhkan dari tombol-tombol, dan semuanya tetap berfungsi tanpa iklan."
+        },
+        {
+          "title": "Ukuran dan akurasi",
+          "text": "Ukuran untuk media sosial, pas foto, dan toko online adalah persyaratan yang umum dipublikasikan. Persyaratan itu bisa berubah, dan setiap pengajuan bisa punya aturannya sendiri, jadi periksa petunjuk resminya sebelum Anda mengirim. Jika Anda menemukan kesalahan, mohon beri tahu kami."
+        },
+        {
+          "title": "Siapa di balik situs ini",
+          "text": "{owner} adalah penerbit independen situs ini dan membaca pesan yang dikirim ke {email}."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "Email",
       "ownerLabel": "Pemilik situs",
       "locationLabel": "Lokasi",
-      "locationValue": "Bengaluru, India"
+      "locationValue": "Bengaluru, India",
+      "sections": [
+        {
+          "title": "Apa yang bisa Anda tulis",
+          "text": "Pertanyaan tentang cara kerja alat ini, bug, ukuran yang sudah usang, terjemahan yang bisa lebih baik, atau ide untuk preset baru."
+        },
+        {
+          "title": "Yang membantu kami memperbaiki masalah",
+          "text": "Beri tahu kami alamat halamannya, browser dan perangkat Anda, jenis dan ukuran file (bukan filenya), serta apa yang Anda harapkan terjadi."
+        },
+        {
+          "title": "Balasan",
+          "text": "Kami membaca setiap pesan. Balasan bisa memakan waktu beberapa hari karena situs ini dikelola oleh satu orang."
+        }
+      ]
     },
     "privacy": {
       "title": "Kebijakan Privasi - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookie dan penyimpanan lokal",
-          "text": "Kami menyimpan pilihan Anda, seperti tema dan bahasa, di penyimpanan lokal browser Anda. Data ini tetap berada di perangkat Anda. Mitra periklanan dapat menetapkan cookie seperti yang dijelaskan di bagian berikutnya."
+          "text": "Kami menyimpan pilihan Anda, seperti tema dan bahasa, di penyimpanan lokal (local storage) browser Anda, dan pilihan untuk menyembunyikan saran bahasa di penyimpanan sesi (session storage). Data ini tetap berada di perangkat Anda. Mitra periklanan dapat menetapkan cookie seperti yang dijelaskan di bagian berikutnya."
         },
         {
           "title": "Periklanan",

@@ -6,11 +6,11 @@
       "or": "of",
       "choose": "Kies afbeeldingen",
       "paste": "Je kunt afbeeldingen ook plakken met Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Geen limiet op grootte of aantal.",
+      "formats": "JPG, PNG, WebP, GIF (eerste frame) en BMP. Geen account nodig en geen dagelijkse limiet.",
       "privacy": "Je afbeeldingen verlaten je apparaat nooit.",
-      "addMore": "Meer afbeeldingen toevoegen",
-      "overlay": "Zet afbeeldingen hier neer om ze toe te voegen",
-      "none": "Geen bruikbare afbeeldingen gevonden. Kies JPG-, PNG-, WebP-, GIF- of BMP-bestanden."
+      "none": "Geen bruikbare afbeeldingen gevonden. Kies JPG-, PNG-, WebP-, GIF- of BMP-bestanden.",
+      "tooMany": "Alleen de eerste {max} afbeeldingen zijn toegevoegd.",
+      "skipped": "{count} bestanden zijn overgeslagen omdat het geen afbeeldingen zijn."
     },
     "files": {
       "title": "Je afbeeldingen ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} groter",
       "targetMissed": "{target} is niet gehaald. Kleinst mogelijke grootte: {size}.",
       "summary": "{done} van {total} klaar",
-      "finished": "Klaar. {count} afbeeldingen staan klaar."
+      "finished": "Klaar. Je afbeeldingen staan klaar."
     },
     "errors": {
       "decode-failed": "Dit bestand kon niet als afbeelding worden gelezen.",
@@ -74,7 +74,8 @@
       "invalid-size": "Voer een geldige breedte, hoogte of percentage in.",
       "too-large": "Dit formaat is te groot voor je apparaat. Probeer een kleiner formaat.",
       "encode-failed": "De afbeelding opslaan is mislukt. Probeer een andere indeling.",
-      "cancelled": "Geannuleerd."
+      "cancelled": "Geannuleerd.",
+      "invalid-limit": "Voer een maximale bestandsgrootte in of schakel de limiet voor de bestandsgrootte uit."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "e-mailbreedte",
         "screen": "scherm"
       }
-    }
+    },
+    "results": {
+      "title": "Je afbeeldingen met nieuw formaat",
+      "total": "Totaal: {before} → {after}",
+      "back": "Instellingen wijzigen",
+      "startOver": "Opnieuw beginnen",
+      "original": "Origineel",
+      "resized": "Nieuw formaat",
+      "allFailed": "Er kon geen enkele afbeelding worden aangepast. Lees de berichten op de kaarten of wijzig de instellingen en probeer het opnieuw.",
+      "limitNote": "Een PNG kan niet kleiner worden gemaakt om binnen je limiet voor de bestandsgrootte te blijven. Kies JPG of WebP om de limiet te halen.",
+      "progress": "Voortgang van het formaat wijzigen"
+    },
+    "noscript": "JavaScript is nodig om afbeeldingen in je browser te verkleinen. Schakel het in."
   }
 }

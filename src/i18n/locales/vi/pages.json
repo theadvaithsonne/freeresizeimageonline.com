@@ -43,8 +43,8 @@
     },
     "faq": {
       "items": [
-        { "q": "Có thật sự miễn phí không?", "a": "Có. Không cần đăng ký, không dùng thử và không giới hạn số lượng hay dung lượng ảnh. Trang web được duy trì nhờ một quảng cáo duy nhất đặt cạnh công cụ." },
-        { "q": "Ảnh của tôi có bị tải lên không?", "a": "Không. Việc đổi kích thước diễn ra ngay trên thiết bị của bạn, trong trình duyệt. Ảnh không bao giờ được gửi đến máy chủ của chúng tôi. Thứ duy nhất chúng tôi đếm là số ảnh đã được đổi kích thước, dưới dạng một con số đơn thuần." },
+        { "q": "Có thật sự miễn phí không?", "a": "Có. Không cần đăng ký, không dùng thử và không giới hạn mỗi ngày. Trang web được duy trì nhờ một quảng cáo duy nhất đặt cạnh công cụ. Những ảnh quá lớn có thể vượt quá sức của điện thoại hoặc máy tính cũ, và bạn sẽ thấy một thông báo nếu điều đó xảy ra." },
+        { "q": "Ảnh của tôi có bị tải lên không?", "a": "Không. Việc đổi kích thước diễn ra ngay trên thiết bị của bạn, trong trình duyệt. Ảnh của bạn không bao giờ được gửi đến máy chủ của chúng tôi." },
         { "q": "Hỗ trợ những định dạng nào?", "a": "Bạn có thể mở tệp JPG, PNG, WebP, GIF và BMP, cùng AVIF nếu trình duyệt của bạn hỗ trợ. Bạn có thể lưu dưới dạng JPG, PNG hoặc WebP." },
         { "q": "Đổi kích thước có làm giảm chất lượng không?", "a": "Thu nhỏ ảnh vẫn giữ được độ nét vì công cụ dùng bộ lọc chất lượng cao. Phóng to ảnh thì không thể thêm chi tiết vốn không có, nên ảnh phóng to trông sẽ mềm hơn. Với JPG và WebP, bạn có thể tự chọn chất lượng." },
         { "q": "Làm sao để ảnh nhẹ hơn một mức như 50 KB?", "a": "Bật Giới hạn dung lượng tệp, nhập con số rồi nhấn Đổi kích thước ảnh. Công cụ sẽ giảm chất lượng và nếu cần, giảm cả kích thước ảnh cho đến khi tệp vừa giới hạn. Hãy chọn JPG hoặc WebP để có kết quả tốt nhất, vì PNG không thể giảm theo cách này." },
@@ -66,7 +66,7 @@
     "tips": [
       "Hãy dùng JPG. Với cùng kích thước, JPG nén ảnh chụp tốt hơn PNG rất nhiều.",
       "Nếu kết quả bị mờ, hãy nâng giới hạn lên một chút hoặc cắt bỏ phần viền trống trước khi đổi kích thước.",
-      "Hầu hết biểu mẫu tính dung lượng theo KB, trong đó 1 KB là 1.024 byte. Công cụ này dùng cùng quy tắc đó.",
+      "Một số cổng tính 1 KB là 1.000 byte, một số khác tính là 1.024 byte. Công cụ này giữ tệp dưới con số nhỏ hơn, nên tệp của bạn đạt yêu cầu ở cả hai cách tính.",
       "Hãy kiểm tra cả kích thước yêu cầu. Một số cổng yêu cầu vừa kích thước pixel vừa giới hạn KB."
     ],
     "faq": {

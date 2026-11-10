@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Guias",
+    "common": {
+      "openTool": "Abrir o redimensionador de imagens grátis",
+      "toolHint": "Experimente agora: suas fotos ficam no seu dispositivo.",
+      "moreGuides": "Mais guias",
+      "readGuide": "Ler o guia"
+    },
+    "index": {
+      "title": "Guias de Imagem: Reduzir, Converter e Redimensionar Fotos",
+      "description": "Guias em linguagem simples para diminuir o tamanho de imagens, escolher entre JPG, PNG e WebP e cumprir limites de tamanho de foto em formulários online.",
+      "h1": "Guias de tamanho de imagem",
+      "intro": "Guias curtos e práticos para as dúvidas mais comuns: como diminuir uma imagem sem piorar a aparência, qual formato de arquivo escolher e como enviar uma foto em um formulário online com limite de tamanho rígido.",
+      "items": [
+        { "title": "Como reduzir o tamanho de uma imagem sem perder qualidade", "text": "Os quatro passos que importam, na ordem certa, e os erros que deixam o arquivo maior ou mais borrado." },
+        { "title": "JPG, PNG ou WebP: qual formato você deve usar?", "text": "No que cada formato é bom, onde cada um falha e um jeito simples de escolher." },
+        { "title": "Tamanho de foto para formulários online: limite em KB, pixels e formatos", "text": "Como ler uma exigência de tamanho e como deixar uma foto com menos de 20 KB, 50 KB ou 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "Como Reduzir o Tamanho de uma Imagem Sem Perder Qualidade",
+      "description": "Quatro passos para diminuir fotos sem perda visível: redimensione, escolha o formato certo, baixe um pouco a qualidade e remova dados ocultos.",
+      "h1": "Como reduzir o tamanho de uma imagem sem perder qualidade",
+      "intro": "Uma foto de um celular moderno pode ter de 3 a 8 MB. É muito mais do que uma página da web, um e-mail ou um formulário online precisa. A boa notícia é que a maioria das imagens pode encolher de 70 a 95 por cento e continuar quase igual na tela. Este guia explica o que deixa um arquivo grande e como diminuí-lo em quatro passos.",
+      "sections": [
+        {
+          "title": "O que deixa um arquivo de imagem grande?",
+          "paragraphs": [
+            "Duas coisas decidem o tamanho de um arquivo de imagem: quantos pixels ele tem e o quanto esses pixels são comprimidos. Uma foto de 12 megapixels (4000 por 3000 pixels) guarda doze milhões de pontos coloridos. Mesmo com uma boa compressão, é muita informação.",
+            "Os pixels crescem com o quadrado da largura. Se você reduz a largura e a altura pela metade, a imagem fica com apenas um quarto dos pixels, e o arquivo pode ficar cerca de quatro vezes menor. Por isso redimensionar é o passo mais poderoso e deve ser sempre o primeiro."
+          ]
+        },
+        {
+          "title": "Passo 1: redimensione para o tamanho de que você realmente precisa",
+          "paragraphs": [
+            "As telas são menores do que a maioria das pessoas imagina. Uma imagem em tela cheia em um notebook precisa de cerca de 1920 pixels de largura, uma imagem no meio de uma página da web costuma precisar de 800 a 1200, e uma miniatura precisa de 150 a 300. Enviar uma foto de 4000 pixels para ser exibida com 800 pixels desperdiça quase todo o arquivo."
+          ],
+          "bullets": [
+            "Sites e blogs: de 1200 a 2000 pixels de largura.",
+            "E-mail e chat: de 1024 a 1600 pixels no lado maior.",
+            "Posts no Instagram e no Facebook: 1080 pixels de largura.",
+            "Formulários online e envio de documentos: o que o formulário pedir, em geral de 200 a 600 pixels."
+          ]
+        },
+        {
+          "title": "Passo 2: escolha o formato certo",
+          "paragraphs": [
+            "Fotos combinam com JPG ou WebP. Logotipos, capturas de tela e desenhos com bordas nítidas combinam com PNG, ou com WebP quando o site aceita. Salvar uma foto como PNG pode deixá-la de cinco a dez vezes maior do que a mesma foto em JPG, sem nenhuma vantagem visível. Nosso guia sobre JPG, PNG e WebP explica as diferenças em detalhes."
+          ]
+        },
+        {
+          "title": "Passo 3: baixe um pouco a qualidade",
+          "paragraphs": [
+            "JPG e WebP permitem trocar qualidade por tamanho. A relação não é uma linha reta: ir de 100 para 85 costuma tirar mais da metade do tamanho do arquivo e quase não dá para notar, enquanto ir de 85 para 40 economiza menos e começa a mostrar bordas quadriculadas e detalhes borrados.",
+            "Uma qualidade entre 70 e 85 é um bom ponto de partida para fotos. Se você precisa de um arquivo abaixo de um tamanho fixo, como 100 KB, use a opção Limitar o tamanho do arquivo: a ferramenta testa vários níveis de qualidade e mantém o mais alto que couber no limite."
+          ]
+        },
+        {
+          "title": "Passo 4: remova os dados ocultos",
+          "paragraphs": [
+            "Fotos de celulares e câmeras trazem informações ocultas chamadas metadados: o modelo da câmera, a data e, às vezes, a localização exata por GPS. Isso aumenta um pouco o tamanho do arquivo e, mais importante, pode revelar onde a foto foi tirada. Salvar a imagem de novo com uma ferramenta que não copia os metadados remove essas informações. Os arquivos criados por este site não as contêm."
+          ]
+        },
+        {
+          "title": "Erros que deixam as imagens piores",
+          "bullets": [
+            "Ampliar uma imagem pequena. Uma área maior não cria detalhes que nunca foram captados; o resultado fica embaçado e o arquivo cresce.",
+            "Salvar um JPG várias vezes seguidas. Cada vez que você salva, perde um pouco de qualidade. Guarde o original e faça uma cópia nova a cada vez.",
+            "Tirar uma captura de tela de uma foto em vez de salvá-la. As capturas costumam ser maiores e menos nítidas.",
+            "Usar PNG para fotografias. Ele não tem perdas, por isso o arquivo continua grande."
+          ]
+        },
+        {
+          "title": "Uma receita rápida",
+          "paragraphs": [
+            "Para a maioria das fotos: redimensione para a largura de que você precisa, salve como JPG ou WebP com qualidade de cerca de 80 e confira o resultado com zoom de 100 por cento. Se ainda estiver bom, pronto. Se parecer embaçado, aumente um pouco a qualidade ou deixe a imagem um pouco maior."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Diminuir uma imagem reduz a qualidade?", "a": "Reduzir o número de pixels mantém a imagem nítida quando isso é feito com um bom método de redimensionamento, porque os detalhes apenas passam a ser exibidos em um tamanho menor. Baixar a qualidade da compressão faz perder detalhes, mas uma queda pequena é difícil de notar." },
+          { "q": "Quão pequena posso deixar uma foto?", "a": "Depende do conteúdo. Um retrato com fundo liso pode ficar bom com 30 a 50 KB quando é pequeno. Uma paisagem cheia de detalhes precisa de muito mais. Teste a opção Limitar o tamanho do arquivo e veja o resultado." },
+          { "q": "É seguro reduzir fotos particulares online?", "a": "Aqui a imagem é processada dentro do seu próprio navegador e nunca é enviada, então ela não sai do seu dispositivo. Em outros sites, confira se eles enviam os seus arquivos para um servidor." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG x PNG x WebP: Qual Formato de Imagem Você Deve Usar?",
+      "description": "Comparação clara entre JPG, PNG e WebP: tamanho do arquivo, qualidade, transparência e compatibilidade, e como escolher o formato certo.",
+      "h1": "JPG, PNG ou WebP: qual formato você deve usar?",
+      "intro": "A mesma imagem pode ter 200 KB em JPG, 1,5 MB em PNG e 140 KB em WebP. O formato muda o tamanho, a aparência e os lugares onde você pode usar o arquivo. Este guia explica no que cada formato é melhor, para você escolher o certo em poucos segundos.",
+      "sections": [
+        {
+          "title": "JPG: o padrão para fotografias",
+          "paragraphs": [
+            "O JPG (também escrito JPEG) comprime fotos descartando detalhes que o olho quase não percebe. Todo programa, celular, site e impressora o entende, e por isso ele é a escolha mais segura quando você não sabe o que o outro lado aceita."
+          ],
+          "bullets": [
+            "Ideal para: fotos e tudo que tenha transições suaves de cor.",
+            "Pontos fracos: não tem transparência, e textos ou linhas finas podem ficar borrados em qualidade baixa.",
+            "Qualidade: com perdas. Cada novo salvamento perde um pouco mais."
+          ]
+        },
+        {
+          "title": "PNG: gráficos nítidos e transparência",
+          "paragraphs": [
+            "O PNG comprime sem perder nenhum detalhe e pode ter áreas transparentes. Isso o torna o formato certo para logotipos, ícones, capturas de tela, gráficos e desenhos. Para fotografias, ele gera arquivos muito grandes, porque as fotos têm variações de cor pequenas demais para serem bem comprimidas sem perdas."
+          ],
+          "bullets": [
+            "Ideal para: logotipos, capturas de tela de interfaces, textos e imagens que precisam de fundo transparente.",
+            "Pontos fracos: arquivos grandes para fotos.",
+            "Qualidade: sem perdas. Salvar de novo não a prejudica."
+          ]
+        },
+        {
+          "title": "WebP: arquivos menores para a web",
+          "paragraphs": [
+            "O WebP foi criado para sites. Ele pode funcionar no modo com perdas, como o JPG, ou no modo sem perdas, como o PNG, e aceita transparência. Com qualidade visual parecida, as fotos em WebP costumam ser de um quarto a um terço menores do que em JPG. Todos os navegadores atuais conseguem exibir WebP, mas alguns programas antigos, gráficas e formulários de envio ainda não o aceitam."
+          ],
+          "bullets": [
+            "Ideal para: sites e aplicativos em que você controla o que quem vê está usando.",
+            "Pontos fracos: não é aceito em todo lugar, principalmente em programas antigos e em alguns portais oficiais.",
+            "Qualidade: com ou sem perdas, você escolhe."
+          ]
+        },
+        {
+          "title": "Como escolher",
+          "bullets": [
+            "Envio para um site do governo, portal de concurso ou candidatura a uma vaga: JPG, a menos que indiquem outra coisa.",
+            "Fotos para um site ou blog: WebP, com JPG como alternativa.",
+            "Logotipo, ícone, captura de tela ou qualquer imagem com fundo transparente: PNG.",
+            "Enviar uma foto por e-mail ou chat para pessoas que você não conhece: JPG.",
+            "Impressão: JPG ou PNG na qualidade máxima, no tamanho em que será impressa."
+          ]
+        },
+        {
+          "title": "O que converter pode e não pode fazer",
+          "paragraphs": [
+            "Mudar o formato não melhora a imagem. Transformar um JPG pequeno em PNG dá um arquivo maior com os mesmos detalhes. Transformar um PNG com fundo transparente em JPG preenche as áreas transparentes, o que esta ferramenta faz com branco. Transformar um JPG em WebP pode deixar o arquivo menor, mas a primeira compressão do JPG já removeu detalhes que não voltam mais."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "O WebP é melhor que o JPG?", "a": "Em tamanho de arquivo para sites, em geral sim. Em compatibilidade, não: o JPG funciona em qualquer lugar. Use WebP quando souber que ele é aceito e JPG quando não tiver certeza." },
+          { "q": "Por que meu PNG é tão maior que o JPG?", "a": "O PNG guarda todos os detalhes. Uma foto tem milhões de pequenas diferenças de cor, então um arquivo sem perdas fica grande. Para fotos, JPG ou WebP são os formatos certos." },
+          { "q": "Posso transformar um WebP em JPG?", "a": "Sim. Adicione o arquivo WebP, escolha JPG como formato e baixe o resultado. As áreas transparentes ficam brancas." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Tamanho de Foto em Formulários Online: Limite em KB e Pixels",
+      "description": "Como cumprir as exigências de envio de foto e assinatura: ler limites em KB e pixels, deixar a imagem abaixo de 20, 50 ou 200 KB e corrigir erros comuns.",
+      "h1": "Tamanho de foto para formulários online: limite em KB, pixels e formatos",
+      "intro": "Inscrições em concursos, portais de emprego, pedidos de visto e formulários do governo costumam recusar uma foto por um destes três motivos: o arquivo é grande demais, as dimensões estão erradas ou o formato não é aceito. Cada exigência pode ser cumprida em um minuto quando você sabe como interpretá-la. Este guia mostra como.",
+      "sections": [
+        {
+          "title": "Leia a exigência com atenção",
+          "paragraphs": [
+            "Uma exigência costuma ter até quatro partes. Confira uma por uma antes de redimensionar qualquer coisa."
+          ],
+          "bullets": [
+            "Tamanho do arquivo, por exemplo de 20 KB a 50 KB. É a quantidade de quilobytes do arquivo, não o tamanho na tela.",
+            "Dimensões, por exemplo 200 por 230 pixels, ou 3,5 por 4,5 cm. Elas definem o formato da imagem.",
+            "Formato: quase sempre JPG ou JPEG. Alguns portais também aceitam PNG.",
+            "Fundo e aparência: por exemplo, fundo branco liso, rosto visível, sem óculos. Uma ferramenta de redimensionamento não muda isso."
+          ]
+        },
+        {
+          "title": "KB, MB e a dúvida entre 1.000 e 1.024",
+          "paragraphs": [
+            "Um MB tem 1.000 KB, então 50 KB são apenas 0,05 MB. Alguns sistemas contam 1 KB como 1.000 bytes e outros como 1.024 bytes. Para garantir, esta ferramenta mantém o resultado abaixo do número menor: um arquivo feito para um limite de 50 KB fica com menos de 50.000 bytes e passa nos dois casos."
+          ]
+        },
+        {
+          "title": "Como deixar uma foto abaixo de 20, 50 ou 200 KB",
+          "paragraphs": [
+            "Abra o redimensionador de imagens grátis, adicione sua foto e escolha uma predefinição de tamanho de arquivo (20, 50, 100 ou 200 KB). Se o formulário também pedir dimensões em pixels, digite-as primeiro em Tamanho. Clique em Redimensionar imagens e confira a prévia. A ferramenta primeiro baixa a qualidade aos poucos e, só se isso não bastar, também diminui a imagem."
+          ],
+          "bullets": [
+            "Corte bem rente ao rosto ou à assinatura antes de começar. Menos área vazia significa um arquivo menor com a mesma nitidez.",
+            "Um fundo liso e uniforme comprime muito melhor do que um fundo cheio de detalhes.",
+            "Use JPG. O PNG não pode ser reduzido desse jeito.",
+            "Se o resultado ficar borrado demais, aumente um pouco o limite ou use um tamanho menor em pixels com qualidade mais alta."
+          ]
+        },
+        {
+          "title": "Tamanhos exatos em pixels e centímetros",
+          "paragraphs": [
+            "Se o formulário pedir pixels, escolha px como unidade e digite a largura e a altura. Se pedir centímetros ou milímetros, escolha cm ou mm e defina o DPI como 300; a ferramenta calcula os pixels para você. Desative Travar proporção e escolha Cortar para preencher a caixa quando o formulário exigir um formato exato diferente do da sua foto."
+          ]
+        },
+        {
+          "title": "Assinaturas",
+          "paragraphs": [
+            "O envio de uma assinatura costuma ser uma pequena imagem de tinta em papel branco. Assine com caneta escura em papel branco liso, tire a foto com boa iluminação, corte rente à assinatura e depois redimensione para as dimensões pedidas. Assinaturas comprimem em arquivos muito pequenos, então o limite raramente é um problema."
+          ]
+        },
+        {
+          "title": "Quando o envio ainda falha",
+          "bullets": [
+            "Arquivo grande demais: baixe um pouco o limite, por exemplo para 45 KB quando o exigido são 50 KB.",
+            "Dimensões erradas: confira se a largura e a altura não estão trocadas e se a unidade está correta.",
+            "Formato não aceito: salve como JPG, não como WebP ou PNG.",
+            "A imagem parece esticada: corte para preencher a caixa em vez de esticar.",
+            "Fotos de documentos e de visto têm regras extras sobre o tamanho da cabeça e o fundo, definidas pelo órgão responsável. Leia sempre as instruções oficiais."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Quantos KB tem 1 MB?", "a": "Um MB tem cerca de 1.000 KB (alguns sistemas usam 1.024). Então um limite de 200 KB equivale a um quinto de megabyte." },
+          { "q": "Posso usar uma foto tirada com o celular?", "a": "Sim. As fotos de celular são grandes, mas a ferramenta as reduz até o tamanho exigido. Tire a foto com boa iluminação e fundo liso." },
+          { "q": "Minha foto será enviada para o seu servidor?", "a": "Não. A ferramenta funciona no seu navegador, então a foto fica no seu dispositivo até você mesmo enviá-la ao formulário." }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "guides": {
+    "nav": "Handleidingen",
+    "common": {
+      "openTool": "Open de gratis tool om het formaat van afbeeldingen te wijzigen",
+      "toolHint": "Probeer het zelf: je foto’s blijven op je apparaat.",
+      "moreGuides": "Meer handleidingen",
+      "readGuide": "Lees de handleiding"
+    },
+    "index": {
+      "title": "Handleidingen: foto’s verkleinen, converteren en aanpassen",
+      "description": "Duidelijke handleidingen over foto’s kleiner maken, kiezen tussen JPG, PNG en WebP en voldoen aan de groottelimieten van online formulieren.",
+      "h1": "Handleidingen voor afbeeldingsformaat",
+      "intro": "Korte, praktische handleidingen voor de vragen die mensen het vaakst stellen: hoe maak je een afbeelding kleiner zonder dat hij er slechter uitziet, welke bestandsindeling kies je en hoe krijg je een foto door een online formulier met een strenge groottelimiet.",
+      "items": [
+        { "title": "Afbeelding verkleinen zonder kwaliteitsverlies", "text": "De vier stappen die ertoe doen, in de juiste volgorde, en de fouten waardoor bestanden groter of waziger worden." },
+        { "title": "JPG, PNG of WebP: welke indeling kies je?", "text": "Waar elke indeling goed in is, waar hij tekortschiet en een eenvoudige manier om te kiezen." },
+        { "title": "Fotoformaat voor online formulieren: KB, pixels en indeling", "text": "Zo lees je een eis voor de grootte en zo krijg je een foto onder 20 KB, 50 KB of 200 KB." }
+      ]
+    },
+    "reduce": {
+      "title": "Afbeelding verkleinen zonder kwaliteitsverlies in 4 stappen",
+      "description": "Vier stappen om foto’s kleiner te maken zonder zichtbaar verlies: formaat wijzigen, juiste indeling kiezen, iets minder kwaliteit en metadata wissen.",
+      "h1": "Afbeelding verkleinen zonder kwaliteitsverlies",
+      "intro": "Een foto van een moderne telefoon is al snel 3 tot 8 MB. Dat is veel meer dan een webpagina, een e-mail of een online formulier nodig heeft. Het goede nieuws: de meeste afbeeldingen kunnen 70 tot 95 procent kleiner worden en zien er op een scherm bijna hetzelfde uit. Deze handleiding legt uit wat een bestand groot maakt en hoe je het in vier stappen verkleint.",
+      "sections": [
+        {
+          "title": "Wat maakt een afbeeldingsbestand groot?",
+          "paragraphs": [
+            "Twee dingen bepalen de grootte van een afbeeldingsbestand: hoeveel pixels het heeft en hoe sterk die pixels worden gecomprimeerd. Een foto van 12 megapixel (4000 bij 3000 pixels) bevat twaalf miljoen gekleurde puntjes. Zelfs met goede compressie zijn dat veel gegevens.",
+            "Het aantal pixels groeit met het kwadraat van de breedte. Halveer je zowel de breedte als de hoogte, dan heeft de afbeelding nog maar een kwart van de pixels en kan het bestand ongeveer vier keer kleiner worden. Daarom is het wijzigen van het formaat de krachtigste stap, en daarom doe je die altijd als eerste."
+          ]
+        },
+        {
+          "title": "Stap 1: Wijzig het formaat naar wat je echt nodig hebt",
+          "paragraphs": [
+            "Schermen zijn kleiner dan de meeste mensen denken. Een afbeelding op volledig scherm op een laptop heeft ongeveer 1920 pixels breedte nodig, een afbeelding midden op een webpagina vaak 800 tot 1200 en een thumbnail 150 tot 300. Een foto van 4000 pixels versturen om hem op 800 pixels breed te tonen, is zonde van het grootste deel van het bestand."
+          ],
+          "bullets": [
+            "Websites en blogs: 1200 tot 2000 pixels breed.",
+            "E-mail en chat: 1024 tot 1600 pixels aan de lange kant.",
+            "Posts op Instagram en Facebook: 1080 pixels breed.",
+            "Online formulieren en uploads van identiteitsbewijzen: wat het formulier aangeeft, vaak 200 tot 600 pixels."
+          ]
+        },
+        {
+          "title": "Stap 2: Kies de juiste indeling",
+          "paragraphs": [
+            "Foto’s horen in JPG of WebP. Logo’s, schermafbeeldingen en tekeningen met scherpe randen horen in PNG, of in WebP als de site dat ondersteunt. Een foto opslaan als PNG kan het bestand vijf tot tien keer zo groot maken als dezelfde foto als JPG, zonder zichtbaar voordeel. In onze handleiding over JPG, PNG en WebP lees je de verschillen in detail."
+          ]
+        },
+        {
+          "title": "Stap 3: Verlaag de kwaliteit een beetje",
+          "paragraphs": [
+            "Bij JPG en WebP kun je kwaliteit inruilen voor bestandsgrootte. Dat verband is geen rechte lijn: van 100 naar 85 gaan haalt meestal meer dan de helft van het bestand weg en is bijna niet te zien, terwijl van 85 naar 40 gaan minder oplevert en blokkerige randen en uitgesmeerde details begint te laten zien.",
+            "Een kwaliteit tussen 70 en 85 is een goed beginpunt voor foto’s. Heb je een bestand nodig onder een vaste grootte, zoals 100 KB, gebruik dan Bestandsgrootte beperken: de tool probeert verschillende kwaliteitsniveaus en houdt het hoogste niveau dat past."
+          ]
+        },
+        {
+          "title": "Stap 4: Verwijder verborgen gegevens",
+          "paragraphs": [
+            "Foto’s van telefoons en camera’s bevatten verborgen informatie, metadata genoemd: het cameramodel, de datum en soms de exacte GPS-locatie. Dat maakt het bestand iets groter en, belangrijker, kan verraden waar een foto is genomen. Sla je de afbeelding opnieuw op met een tool die geen metadata kopieert, dan verdwijnt die informatie. De bestanden die deze site maakt, bevatten ze niet."
+          ]
+        },
+        {
+          "title": "Fouten die afbeeldingen slechter maken",
+          "bullets": [
+            "Een kleine afbeelding vergroten. Een groter vlak kan geen details toevoegen die nooit zijn vastgelegd; het resultaat is zacht en het bestand wordt groter.",
+            "Een JPG steeds opnieuw opslaan. Elke keer opslaan gaat er wat kwaliteit verloren. Bewaar je origineel en maak elke keer een nieuwe kopie.",
+            "Een schermafbeelding van een foto maken in plaats van de foto op te slaan. Schermafbeeldingen zijn vaak groter en minder scherp.",
+            "PNG gebruiken voor foto’s. PNG is verliesvrij, dus het bestand blijft groot."
+          ]
+        },
+        {
+          "title": "Een snel recept",
+          "paragraphs": [
+            "Voor de meeste foto’s: wijzig het formaat naar de breedte die je nodig hebt, sla op als JPG of WebP met een kwaliteit van ongeveer 80 en bekijk het resultaat op 100 procent zoom. Ziet het er nog goed uit, dan ben je klaar. Ziet het er zacht uit, verhoog dan de kwaliteit een beetje of maak de afbeelding iets groter."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Wordt de kwaliteit slechter als ik een afbeelding kleiner maak?", "a": "Minder pixels houdt een afbeelding scherp als het met een goede methode gebeurt, omdat de details gewoon kleiner worden getoond. Een lagere compressiekwaliteit kost wel details, maar een kleine daling is moeilijk te zien." },
+          { "q": "Hoe klein kan ik een foto maken?", "a": "Dat hangt van de inhoud af. Een portret voor een effen achtergrond kan er in een kleine afmeting prima uitzien met 30 tot 50 KB. Een drukke landschapsfoto heeft veel meer nodig. Probeer Bestandsgrootte beperken en bekijk het resultaat." },
+          { "q": "Is het veilig om privéfoto’s online te verkleinen?", "a": "Hier wordt de afbeelding in je eigen browser verwerkt en nooit geüpload, dus hij verlaat je apparaat niet. Controleer bij andere websites of ze je bestanden uploaden." }
+        ]
+      }
+    },
+    "formats": {
+      "title": "JPG, PNG of WebP: welk afbeeldingsformaat kies je het best?",
+      "description": "Een duidelijke vergelijking van JPG, PNG en WebP: bestandsgrootte, kwaliteit, transparantie en compatibiliteit, en hoe je de juiste indeling kiest.",
+      "h1": "JPG, PNG of WebP: welke indeling kies je?",
+      "intro": "Dezelfde afbeelding kan als JPG 200 KB zijn, als PNG 1,5 MB en als WebP 140 KB. De indeling bepaalt de grootte, het uiterlijk en waar je het bestand kunt gebruiken. Deze handleiding legt uit waar elke indeling het best in is, zodat je in een paar seconden de juiste kiest.",
+      "sections": [
+        {
+          "title": "JPG: de standaard voor foto’s",
+          "paragraphs": [
+            "JPG (ook geschreven als JPEG) comprimeert foto’s door details weg te laten die het oog nauwelijks opmerkt. Elk programma, elke telefoon, website en printer begrijpt het, en daarom is het de veiligste keuze als je niet zeker weet wat de ontvanger accepteert."
+          ],
+          "bullets": [
+            "Het best voor: foto’s en alles met vloeiende kleurovergangen.",
+            "Zwakke punten: geen transparantie, en tekst of dunne lijnen kunnen er bij lage kwaliteit wazig uitzien.",
+            "Kwaliteit: verliesgevend. Elke keer opnieuw opslaan kost wat extra."
+          ]
+        },
+        {
+          "title": "PNG: scherpe graphics en transparantie",
+          "paragraphs": [
+            "PNG comprimeert zonder details te verliezen en kan transparante gebieden bevatten. Daardoor is het de juiste indeling voor logo’s, pictogrammen, schermafbeeldingen, grafieken en tekeningen. Voor foto’s levert het zeer grote bestanden op, omdat foto’s te veel kleine kleurverschillen hebben om zonder verlies goed te comprimeren."
+          ],
+          "bullets": [
+            "Het best voor: logo’s, schermafbeeldingen van interfaces, tekst en afbeeldingen die een transparante achtergrond nodig hebben.",
+            "Zwakke punten: grote bestanden voor foto’s.",
+            "Kwaliteit: verliesvrij. Opnieuw opslaan beschadigt niets."
+          ]
+        },
+        {
+          "title": "WebP: kleinere bestanden voor het web",
+          "paragraphs": [
+            "WebP is ontworpen voor websites. Het kan verliesgevend werken zoals JPG of verliesvrij zoals PNG, en het ondersteunt transparantie. Bij een vergelijkbare beeldkwaliteit zijn WebP-foto’s vaak een kwart tot een derde kleiner dan JPG. Alle actuele browsers kunnen WebP tonen, maar sommige oudere programma’s, drukkerijen en uploadformulieren accepteren het nog steeds niet."
+          ],
+          "bullets": [
+            "Het best voor: websites en apps waar je zelf bepaalt wat de bezoeker gebruikt.",
+            "Zwakke punten: wordt niet overal geaccepteerd, vooral niet door oudere software en sommige officiële portalen.",
+            "Kwaliteit: verliesgevend of verliesvrij, naar keuze."
+          ]
+        },
+        {
+          "title": "Zo kies je",
+          "bullets": [
+            "Uploaden naar een overheidssite, examenportaal of sollicitatie: JPG, tenzij er iets anders staat.",
+            "Foto’s voor een website of blog: WebP, met JPG als reserve.",
+            "Logo, pictogram, schermafbeelding of alles met een transparante achtergrond: PNG.",
+            "Een foto per e-mail of chat sturen naar mensen die je niet kent: JPG.",
+            "Afdrukken: JPG of PNG op de hoogste kwaliteit, op het formaat waarop je gaat afdrukken."
+          ]
+        },
+        {
+          "title": "Wat converteren wel en niet kan",
+          "paragraphs": [
+            "De indeling wijzigen maakt de afbeelding niet beter. Een kleine JPG omzetten naar PNG geeft je een groter bestand met dezelfde details. Een PNG met een transparante achtergrond omzetten naar JPG vult de transparante gebieden, en deze tool doet dat met wit. Een JPG omzetten naar WebP kan het bestand kleiner maken, maar de eerste JPG-compressie heeft al details weggehaald die niet terugkomen."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Is WebP beter dan JPG?", "a": "Voor de bestandsgrootte op websites meestal wel. Voor compatibiliteit niet: JPG werkt overal. Gebruik WebP als je weet dat het wordt geaccepteerd en JPG als je het niet zeker weet." },
+          { "q": "Waarom is mijn PNG zoveel groter dan de JPG?", "a": "PNG bewaart elk detail. Een foto heeft miljoenen kleine kleurverschillen, dus een verliesvrij bestand is groot. Voor foto’s zijn JPG of WebP de juiste indelingen." },
+          { "q": "Kan ik een WebP omzetten naar JPG?", "a": "Ja. Voeg het WebP-bestand toe, kies JPG als indeling en download het resultaat. Transparante gebieden worden wit." }
+        ]
+      }
+    },
+    "forms": {
+      "title": "Fotoformaat voor online formulieren: KB, pixels en indeling",
+      "description": "Zo voldoe je aan de eisen voor foto’s en handtekeningen: KB- en pixelgrenzen lezen, een foto onder 20, 50 of 200 KB krijgen en uploadfouten oplossen.",
+      "h1": "Fotoformaat voor online formulieren: KB, pixels en indeling",
+      "intro": "Aanmeldingen voor examens, vacatureportalen, visumaanvragen en overheidsformulieren weigeren een foto vaak om een van drie redenen: het bestand is te groot, de afmetingen kloppen niet of de indeling wordt niet geaccepteerd. Elke eis is in een minuut te halen als je weet hoe je hem moet lezen. Deze handleiding laat zien hoe.",
+      "sections": [
+        {
+          "title": "Lees de eis zorgvuldig",
+          "paragraphs": [
+            "Een eis bestaat meestal uit maximaal vier onderdelen. Controleer ze een voor een voordat je iets aanpast."
+          ],
+          "bullets": [
+            "Bestandsgrootte, bijvoorbeeld 20 KB tot 50 KB. Dit is het aantal kilobytes van het bestand, niet de grootte op het scherm.",
+            "Afmetingen, bijvoorbeeld 200 bij 230 pixels, of 3,5 bij 4,5 cm. Die bepalen de vorm van de afbeelding.",
+            "Indeling: bijna altijd JPG of JPEG. Een paar portalen accepteren ook PNG.",
+            "Achtergrond en uiterlijk: bijvoorbeeld een effen witte achtergrond, gezicht zichtbaar, geen bril. Een tool voor het wijzigen van het formaat kan dit niet veranderen."
+          ]
+        },
+        {
+          "title": "KB, MB en de vraag 1.000 of 1.024",
+          "paragraphs": [
+            "Eén MB is 1.000 KB, dus 50 KB is slechts 0,05 MB. Sommige systemen rekenen 1 KB als 1.000 bytes en andere als 1.024 bytes. Voor de zekerheid houdt deze tool het resultaat onder het kleinere getal, zodat een bestand dat voor een limiet van 50 KB is gemaakt onder 50.000 bytes blijft en in beide gevallen wordt geaccepteerd."
+          ]
+        },
+        {
+          "title": "Een foto onder 20, 50 of 200 KB krijgen",
+          "paragraphs": [
+            "Open de gratis tool om het formaat van afbeeldingen te wijzigen, voeg je foto toe en kies in de lijst Voorinstelling een bestandsgrootte (20, 50, 100 of 200 KB). Staan er in het formulier ook afmetingen in pixels, voer die dan eerst in bij Afmetingen. Druk op Formaat wijzigen en bekijk het voorbeeld. De tool verlaagt eerst stap voor stap de kwaliteit en maakt de afbeelding pas ook kleiner als dat niet genoeg is."
+          ],
+          "bullets": [
+            "Snijd strak bij rond het gezicht of de handtekening voordat je begint. Minder lege ruimte betekent een kleiner bestand bij dezelfde scherpte.",
+            "Een effen, gelijkmatige achtergrond comprimeert veel beter dan een drukke.",
+            "Gebruik JPG. PNG kan op deze manier niet kleiner worden gemaakt.",
+            "Ziet het resultaat er te zacht uit, verhoog dan de limiet iets of gebruik minder pixels met een hogere kwaliteit."
+          ]
+        },
+        {
+          "title": "Exacte pixelformaten en centimeters",
+          "paragraphs": [
+            "Vraagt een formulier om pixels, kies dan px als eenheid en voer de breedte en hoogte in. Vraagt het om centimeters of millimeters, kies dan cm of mm en stel de DPI in op 300. De tool rekent de pixels dan voor je uit. Zet Verhouding vergrendelen uit en kies Bijsnijden om het vak te vullen als het formulier een exacte vorm vraagt die afwijkt van je foto."
+          ]
+        },
+        {
+          "title": "Handtekeningen",
+          "paragraphs": [
+            "Een upload van een handtekening is meestal een kleine afbeelding van inkt op wit papier. Zet je handtekening met een donkere pen op effen wit papier, maak de foto bij goed licht, snijd dicht rond de handtekening bij en wijzig dan het formaat naar de opgegeven afmetingen. Handtekeningen worden zeer kleine bestanden, dus de limiet is zelden een probleem."
+          ]
+        },
+        {
+          "title": "Als de upload toch mislukt",
+          "bullets": [
+            "Bestand te groot: verlaag de limiet een beetje, bijvoorbeeld naar 45 KB als 50 KB is vereist.",
+            "Verkeerde afmetingen: controleer of breedte en hoogte niet zijn omgewisseld en of de eenheid klopt.",
+            "Indeling niet ondersteund: sla op als JPG, niet als WebP of PNG.",
+            "De afbeelding lijkt uitgerekt: gebruik Bijsnijden om het vak te vullen in plaats van uitrekken.",
+            "Voor pasfoto’s en visumfoto’s gelden extra regels over de grootte van het hoofd en de achtergrond, die door de instantie zijn vastgesteld. Lees altijd hun officiële instructies."
+          ]
+        }
+      ],
+      "faq": {
+        "items": [
+          { "q": "Hoeveel KB is 1 MB?", "a": "Eén MB is ongeveer 1.000 KB (sommige systemen gebruiken 1.024). Een limiet van 200 KB is dus een vijfde van een megabyte." },
+          { "q": "Kan ik een foto gebruiken die ik met mijn telefoon heb gemaakt?", "a": "Ja. Foto’s van een telefoon zijn groot, maar de tool verkleint ze tot de gevraagde grootte. Maak de foto bij goed licht met een effen achtergrond." },
+          { "q": "Wordt mijn foto naar jullie server geüpload?", "a": "Nee. De tool draait in je browser, dus de foto blijft op je apparaat totdat je hem zelf in het formulier uploadt." }
+        ]
+      }
+    }
+  }
+}

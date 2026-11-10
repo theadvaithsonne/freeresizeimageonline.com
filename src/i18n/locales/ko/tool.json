@@ -6,11 +6,11 @@
       "or": "또는",
       "choose": "이미지 선택",
       "paste": "Ctrl+V로 이미지를 붙여넣을 수도 있어요.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. 용량과 개수 제한이 없습니다.",
+      "formats": "JPG, PNG, WebP, GIF(첫 프레임), BMP를 지원합니다. 가입도, 하루 사용 제한도 없습니다.",
       "privacy": "이미지는 내 기기 밖으로 나가지 않습니다.",
-      "addMore": "이미지 더 추가",
-      "overlay": "이미지를 놓으면 추가됩니다",
-      "none": "사용할 수 있는 이미지가 없습니다. JPG, PNG, WebP, GIF, BMP 파일을 선택해 주세요."
+      "none": "사용할 수 있는 이미지가 없습니다. JPG, PNG, WebP, GIF, BMP 파일을 선택해 주세요.",
+      "tooMany": "처음 {max}장만 추가되었습니다.",
+      "skipped": "이미지가 아닌 파일 {count}개는 건너뛰었습니다."
     },
     "files": {
       "title": "내 이미지 ({count})",
@@ -66,7 +66,7 @@
       "larger": "{percent} 커짐",
       "targetMissed": "{target}에 맞추지 못했어요. 만들 수 있는 최소 용량: {size}.",
       "summary": "{total}개 중 {done}개 완료",
-      "finished": "모두 완료되었습니다. 이미지 {count}장이 준비됐어요."
+      "finished": "모두 완료되었습니다. 이미지가 준비됐어요."
     },
     "errors": {
       "decode-failed": "이 파일을 이미지로 읽을 수 없습니다.",
@@ -74,7 +74,8 @@
       "invalid-size": "올바른 가로, 세로 또는 비율 값을 입력해 주세요.",
       "too-large": "이 크기는 내 기기에서 처리하기에 너무 큽니다. 더 작은 크기를 시도해 보세요.",
       "encode-failed": "이미지를 저장하지 못했습니다. 다른 형식을 선택해 보세요.",
-      "cancelled": "취소되었습니다."
+      "cancelled": "취소되었습니다.",
+      "invalid-limit": "최대 파일 용량을 입력하거나 파일 용량 제한을 꺼 주세요."
     },
     "presets": {
       "groups": {
@@ -100,6 +101,18 @@
         "email": "이메일 가로 크기",
         "screen": "화면"
       }
-    }
+    },
+    "results": {
+      "title": "리사이즈된 이미지",
+      "total": "합계: {before} → {after}",
+      "back": "설정 변경",
+      "startOver": "처음부터 다시",
+      "original": "원본",
+      "resized": "리사이즈 후",
+      "allFailed": "리사이즈된 이미지가 없습니다. 카드의 메시지를 확인하거나 설정을 바꿔 다시 시도하세요.",
+      "limitNote": "PNG는 파일 용량 제한에 맞게 줄일 수 없습니다. 제한을 지키려면 JPG나 WebP를 선택하세요.",
+      "progress": "크기 조절 진행 상황"
+    },
+    "noscript": "브라우저에서 이미지 크기를 조절하려면 JavaScript가 필요합니다. JavaScript를 켜 주세요."
   }
 }

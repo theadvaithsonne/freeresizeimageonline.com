@@ -66,11 +66,11 @@
       "items": [
         {
           "q": "Gerçekten ücretsiz mi?",
-          "a": "Evet. Kayıt yok, deneme süresi yok, resimlerinizin sayısı veya boyutu için sınır yok. Siteyi aracın yanındaki tek bir reklam finanse ediyor."
+          "a": "Evet. Kayıt yok, deneme süresi yok, günlük sınır yok. Siteyi aracın yanındaki tek bir reklam finanse ediyor. Çok büyük resimler telefon veya eski bir bilgisayar için fazla gelebilir. Böyle bir durumda bir ileti görürsünüz."
         },
         {
           "q": "Resimlerim yükleniyor mu?",
-          "a": "Hayır. Boyutlandırma kendi cihazınızda, tarayıcınızın içinde yapılır. Resimleriniz sunucularımıza hiçbir zaman gönderilmez. Saydığımız tek şey, düz bir sayı olarak kaç resmin boyutlandırıldığıdır."
+          "a": "Hayır. Boyutlandırma kendi cihazınızda, tarayıcınızın içinde yapılır. Resimleriniz sunucularımıza hiçbir zaman gönderilmez."
         },
         {
           "q": "Hangi biçimler destekleniyor?",
@@ -114,7 +114,7 @@
     "tips": [
       "JPG kullanın. Aynı ölçülerde fotoğrafları PNG'den çok daha iyi sıkıştırır.",
       "Sonuç bulanık görünüyorsa sınırı biraz yükseltin veya boyutlandırmadan önce boş kenarları kırpın.",
-      "Çoğu form boyutu KB olarak ölçer ve 1 KB, 1.024 bayttır. Bu araç da aynı kuralı kullanır.",
+      "Bazı siteler 1 KB'ı 1.000 bayt, bazıları 1.024 bayt sayar. Bu araç küçük olan sayının altında kalır, böylece dosyanız her iki durumda da kabul edilir.",
       "İstenen ölçülere de bakın. Bazı sitelerde hem piksel cinsinden bir boyut hem de KB cinsinden bir sınır gerekir."
     ],
     "faq": {

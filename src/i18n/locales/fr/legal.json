@@ -7,9 +7,29 @@
       "h1": "À propos de FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline est un outil gratuit pour redimensionner, compresser et convertir des images. Il est conçu et géré par {owner} à Bangalore, en Inde.",
-        "L'objectif est de rester simple : pas de compte, pas de filigrane et pas de limites. Vos images sont traitées dans votre propre navigateur et ne sont jamais envoyées à nos serveurs.",
-        "Le site est financé par la publicité de Google AdSense, qui paie le nom de domaine et le développement. Les publicités sont limitées à un seul encadré clairement identifié, pour ne pas vous gêner.",
-        "Des questions ou des commentaires ? Écrivez à {email}."
+        "L'objectif est simple : un outil d'image rapide et honnête, sans compte, sans filigrane et sans limite quotidienne. Vos images sont traitées dans votre propre navigateur et ne sont jamais envoyées à nos serveurs."
+      ],
+      "sections": [
+        {
+          "title": "Ce que vous pouvez faire ici",
+          "text": "Changez la taille d'une image en pixels, centimètres, millimètres, pouces ou pourcentage. Adaptez une photo à une limite de taille comme 50 KB. Convertissez entre JPG, PNG et WebP. Traitez plusieurs images à la fois et téléchargez-les dans un seul fichier ZIP. Des tailles prêtes à l'emploi sont incluses pour les réseaux sociaux, les photos de passeport et de visa, les boutiques en ligne et les formulaires d'envoi courants."
+        },
+        {
+          "title": "Comment ça marche",
+          "text": "Quand vous ajoutez une image, votre navigateur la lit et la page fait le travail sur votre propre ordinateur ou téléphone, grâce aux technologies web modernes (JavaScript et WebAssembly). Le résultat est créé en mémoire et proposé au téléchargement. Rien ne nous est envoyé : c'est pourquoi l'outil est rapide et peut traiter de gros lots."
+        },
+        {
+          "title": "Pourquoi c'est gratuit",
+          "text": "Le site est financé par une seule publicité, clairement identifiée, de Google AdSense. Elle paie le nom de domaine et le temps passé à améliorer l'outil. La publicité est tenue à l'écart des boutons, et tout fonctionne sans elle."
+        },
+        {
+          "title": "Tailles et précision",
+          "text": "Les tailles pour les réseaux sociaux, les photos d'identité et les boutiques en ligne sont des exigences couramment publiées. Elles peuvent changer, et chaque démarche peut ajouter ses propres règles : vérifiez donc les consignes officielles avant d'envoyer votre dossier. Si vous trouvez une erreur, merci de nous la signaler."
+        },
+        {
+          "title": "Qui est derrière le site",
+          "text": "{owner} est l'éditeur indépendant de ce site et lit les messages envoyés à {email}."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "E-mail",
       "ownerLabel": "Propriétaire du site",
       "locationLabel": "Lieu",
-      "locationValue": "Bangalore, Inde"
+      "locationValue": "Bangalore, Inde",
+      "sections": [
+        {
+          "title": "Sujets pour lesquels vous pouvez nous écrire",
+          "text": "Une question sur le fonctionnement de l'outil, un bug, une taille qui n'est plus à jour, une traduction à améliorer ou une idée de nouveau préréglage."
+        },
+        {
+          "title": "Ce qui nous aide à résoudre un problème",
+          "text": "Indiquez-nous l'adresse de la page, votre navigateur et votre appareil, le type et la taille du fichier (pas le fichier lui-même) et ce que vous attendiez."
+        },
+        {
+          "title": "Réponses",
+          "text": "Nous lisons tous les messages. Les réponses peuvent prendre quelques jours, car le site est géré par une seule personne."
+        }
+      ]
     },
     "privacy": {
       "title": "Politique de confidentialité - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookies et stockage local",
-          "text": "Nous enregistrons vos choix, comme le thème et la langue, dans le stockage local de votre navigateur. Ces données restent sur votre appareil. Nos partenaires publicitaires peuvent déposer des cookies, comme décrit dans la section suivante."
+          "text": "Nous enregistrons vos choix, comme le thème et la langue, dans le stockage local de votre navigateur, et le choix de masquer la suggestion de langue dans son stockage de session. Ces données restent sur votre appareil. Nos partenaires publicitaires peuvent déposer des cookies, comme décrit dans la section suivante."
         },
         {
           "title": "Publicité",

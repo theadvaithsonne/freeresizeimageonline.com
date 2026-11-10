@@ -6,11 +6,11 @@
       "or": "hoặc",
       "choose": "Chọn ảnh",
       "paste": "Bạn cũng có thể dán ảnh bằng Ctrl+V.",
-      "formats": "JPG, PNG, WebP, GIF, BMP. Không giới hạn dung lượng hay số lượng.",
+      "formats": "JPG, PNG, WebP, GIF (khung hình đầu tiên) và BMP. Không cần đăng ký, không giới hạn mỗi ngày.",
       "privacy": "Ảnh của bạn không bao giờ rời khỏi thiết bị.",
-      "addMore": "Thêm ảnh",
-      "overlay": "Thả ảnh vào đây để thêm",
-      "none": "Không tìm thấy ảnh hợp lệ. Hãy chọn tệp JPG, PNG, WebP, GIF hoặc BMP."
+      "none": "Không tìm thấy ảnh hợp lệ. Hãy chọn tệp JPG, PNG, WebP, GIF hoặc BMP.",
+      "tooMany": "Chỉ {max} ảnh đầu tiên được thêm vào.",
+      "skipped": "Đã bỏ qua {count} tệp vì không phải là ảnh."
     },
     "files": {
       "title": "Ảnh của bạn ({count})",
@@ -66,12 +66,13 @@
       "larger": "Nặng hơn {percent}",
       "targetMissed": "Không đạt được {target}. Dung lượng nhỏ nhất có thể: {size}.",
       "summary": "Đã xong {done}/{total}",
-      "finished": "Hoàn tất. {count} ảnh đã sẵn sàng."
+      "finished": "Xong tất cả. Ảnh của bạn đã sẵn sàng."
     },
     "errors": {
       "decode-failed": "Không thể đọc tệp này như một ảnh.",
       "unsupported-type": "Loại tệp này không được hỗ trợ.",
       "invalid-size": "Vui lòng nhập chiều rộng, chiều cao hoặc phần trăm hợp lệ.",
+      "invalid-limit": "Vui lòng nhập dung lượng tệp tối đa, hoặc tắt giới hạn dung lượng tệp.",
       "too-large": "Kích thước này quá lớn so với thiết bị của bạn. Hãy thử kích thước nhỏ hơn.",
       "encode-failed": "Không lưu được ảnh. Vui lòng thử định dạng khác.",
       "cancelled": "Đã hủy."
@@ -100,6 +101,18 @@
         "email": "chiều rộng email",
         "screen": "màn hình"
       }
-    }
+    },
+    "results": {
+      "title": "Ảnh đã đổi kích thước",
+      "total": "Tổng: {before} → {after}",
+      "back": "Đổi cài đặt",
+      "startOver": "Làm lại từ đầu",
+      "original": "Gốc",
+      "resized": "Sau khi đổi",
+      "allFailed": "Không đổi được kích thước ảnh nào. Hãy đọc thông báo trên các thẻ, hoặc đổi cài đặt rồi thử lại.",
+      "limitNote": "Không thể làm PNG nhẹ hơn để vừa giới hạn dung lượng tệp của bạn. Hãy chọn JPG hoặc WebP để giữ giới hạn đó.",
+      "progress": "Tiến độ đổi kích thước"
+    },
+    "noscript": "Cần bật JavaScript để đổi kích thước ảnh ngay trong trình duyệt. Vui lòng bật JavaScript."
   }
 }

@@ -7,9 +7,29 @@
       "h1": "About FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline is a free tool for resizing, compressing and converting pictures. It is built and run by {owner} in Bengaluru, India.",
-        "The goal is to keep it simple: no account, no watermark and no limits. Your pictures are processed inside your own browser and are never uploaded to our servers.",
-        "The site is supported by advertising from Google AdSense, which pays for the domain and for development. Ads are kept to one clearly marked box so they stay out of your way.",
-        "Questions or feedback? Write to {email}."
+        "The goal is simple: a fast, honest image tool with no account, no watermark and no daily limit. Your pictures are processed inside your own browser and are never uploaded to our servers."
+      ],
+      "sections": [
+        {
+          "title": "What you can do here",
+          "text": "Change the size of a picture in pixels, centimeters, millimeters, inches or percent. Make a photo fit a size limit such as 50 KB. Convert between JPG, PNG and WebP. Process many pictures at once and download them as one ZIP file. Ready-made sizes are included for social media, passport and visa photos, online stores and common upload forms."
+        },
+        {
+          "title": "How it works",
+          "text": "When you add a picture, your browser reads it and the page does the work on your own computer or phone, using modern web technology (JavaScript and WebAssembly). The result is made in memory and offered for download. Nothing is sent to us, which is why the tool is fast and why it can handle large batches."
+        },
+        {
+          "title": "Why it is free",
+          "text": "The site is supported by one clearly labelled advertisement from Google AdSense. It pays for the domain and for the time spent improving the tool. The advertisement is kept away from the buttons, and everything works without it."
+        },
+        {
+          "title": "Sizes and accuracy",
+          "text": "Sizes for social media, photo IDs and online stores are commonly published requirements. They can change, and every application can add its own rules, so check the official instructions before you submit. If you find a mistake, please tell us."
+        },
+        {
+          "title": "Who is behind it",
+          "text": "{owner} is the independent publisher of this site and reads the messages sent to {email}."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "Email",
       "ownerLabel": "Site owner",
       "locationLabel": "Location",
-      "locationValue": "Bengaluru, India"
+      "locationValue": "Bengaluru, India",
+      "sections": [
+        {
+          "title": "What you can write about",
+          "text": "Questions about how the tool works, a bug, a size that is out of date, a translation that could be better, or an idea for a new preset."
+        },
+        {
+          "title": "What helps us fix a problem",
+          "text": "Tell us the page address, your browser and device, the type and size of the file (not the file itself) and what you expected to happen."
+        },
+        {
+          "title": "Replies",
+          "text": "We read every message. Replies can take a few days because the site is run by one person."
+        }
+      ]
     },
     "privacy": {
       "title": "Privacy Policy - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Cookies and local storage",
-          "text": "We save your choices, such as theme and language, in your browser's local storage. This stays on your device. Advertising partners may set cookies as described in the next section."
+          "text": "We save your choices, such as theme and language, in your browser's local storage, and the choice to hide the language suggestion in its session storage. This stays on your device. Advertising partners may set cookies as described in the next section."
         },
         {
           "title": "Advertising",

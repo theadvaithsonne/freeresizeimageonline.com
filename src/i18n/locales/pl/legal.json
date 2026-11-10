@@ -7,9 +7,29 @@
       "h1": "O serwisie FreeResizeImageOnline",
       "paragraphs": [
         "FreeResizeImageOnline to darmowe narzędzie do zmiany rozmiaru, kompresji i konwersji obrazów. Stworzył je i prowadzi {owner} w Bengaluru w Indiach.",
-        "Celem jest prostota: bez konta, bez znaku wodnego i bez limitów. Twoje obrazy są przetwarzane w Twojej przeglądarce i nigdy nie trafiają na nasze serwery.",
-        "Serwis jest utrzymywany z reklam Google AdSense, które pokrywają koszt domeny i rozwoju. Reklamy mieszczą się w jednym wyraźnie oznaczonym polu, aby nie przeszkadzały.",
-        "Masz pytania lub uwagi? Napisz na adres {email}."
+        "Cel jest prosty: szybkie, uczciwe narzędzie do obrazów bez konta, bez znaku wodnego i bez dziennego limitu. Twoje obrazy są przetwarzane w Twojej przeglądarce i nigdy nie trafiają na nasze serwery."
+      ],
+      "sections": [
+        {
+          "title": "Co możesz tu zrobić",
+          "text": "Zmienisz rozmiar obrazu w pikselach, centymetrach, milimetrach, calach lub procentach. Dopasujesz zdjęcie do limitu rozmiaru, na przykład 50 KB. Skonwertujesz obrazy między JPG, PNG i WebP. Przetworzysz wiele obrazów naraz i pobierzesz je jako jeden plik ZIP. Są też gotowe rozmiary dla mediów społecznościowych, zdjęć do paszportu i wiz, sklepów internetowych oraz popularnych formularzy online."
+        },
+        {
+          "title": "Jak to działa",
+          "text": "Gdy dodajesz obraz, Twoja przeglądarka go odczytuje, a strona wykonuje całą pracę na Twoim komputerze lub telefonie, korzystając z nowoczesnych technologii internetowych (JavaScript i WebAssembly). Wynik powstaje w pamięci i jest udostępniany do pobrania. Nic nie jest do nas wysyłane, dlatego narzędzie działa szybko i radzi sobie z dużą liczbą obrazów naraz."
+        },
+        {
+          "title": "Dlaczego jest za darmo",
+          "text": "Serwis jest utrzymywany z jednej wyraźnie oznaczonej reklamy Google AdSense. Reklama pokrywa ona koszt domeny i czas poświęcony na ulepszanie narzędzia. Reklama jest umieszczona z dala od przycisków, a wszystko działa także bez niej."
+        },
+        {
+          "title": "Rozmiary i dokładność",
+          "text": "Rozmiary dla mediów społecznościowych, zdjęć do dokumentów i sklepów internetowych to powszechnie publikowane wymagania. Mogą się zmieniać, a każdy wniosek może mieć własne zasady, więc przed wysłaniem sprawdź oficjalne instrukcje. Jeśli zauważysz błąd, daj nam znać."
+        },
+        {
+          "title": "Kto za tym stoi",
+          "text": "{owner} jest niezależnym wydawcą tego serwisu i czyta wiadomości wysyłane na adres {email}."
+        }
       ]
     },
     "contact": {
@@ -23,7 +43,21 @@
       "emailLabel": "E-mail",
       "ownerLabel": "Właściciel serwisu",
       "locationLabel": "Lokalizacja",
-      "locationValue": "Bengaluru, Indie"
+      "locationValue": "Bengaluru, Indie",
+      "sections": [
+        {
+          "title": "O czym możesz napisać",
+          "text": "Pytania o działanie narzędzia, błąd, nieaktualny rozmiar, tłumaczenie, które można poprawić, albo pomysł na nowy gotowy rozmiar."
+        },
+        {
+          "title": "Co pomaga nam naprawić problem",
+          "text": "Podaj adres strony, przeglądarkę i urządzenie, typ i rozmiar pliku (nie sam plik) oraz to, co powinno się wydarzyć."
+        },
+        {
+          "title": "Odpowiedzi",
+          "text": "Czytamy każdą wiadomość. Odpowiedź może zająć kilka dni, ponieważ serwis prowadzi jedna osoba."
+        }
+      ]
     },
     "privacy": {
       "title": "Polityka prywatności - FreeResizeImageOnline",
@@ -48,7 +82,7 @@
         },
         {
           "title": "Pliki cookie i pamięć lokalna",
-          "text": "Twoje wybory, takie jak motyw i język, zapisujemy w pamięci lokalnej Twojej przeglądarki. Pozostają one na Twoim urządzeniu. Partnerzy reklamowi mogą ustawiać pliki cookie zgodnie z opisem w następnej sekcji."
+          "text": "Twoje wybory, takie jak motyw i język, zapisujemy w pamięci lokalnej Twojej przeglądarki, a wybór ukrycia podpowiedzi zmiany języka w jej pamięci sesji. Dane te pozostają na Twoim urządzeniu. Partnerzy reklamowi mogą ustawiać pliki cookie zgodnie z opisem w następnej sekcji."
         },
         {
           "title": "Reklamy",

@@ -5,7 +5,7 @@ import { LANGUAGES } from '../src/i18n/languages';
 import { alternates, fill, list, localizedPath, stripLocale, subtree, t } from '../src/i18n';
 
 const root = join(__dirname, '..', 'src', 'i18n', 'locales');
-const FILES = ['core.json', 'tool.json', 'pages.json', 'legal.json'];
+const FILES = ['core.json', 'tool.json', 'pages.json', 'legal.json', 'guides.json'];
 
 function flatten(value: unknown, prefix = '', out: Record<string, string> = {}): Record<string, string> {
   if (typeof value === 'string') out[prefix] = value;
@@ -34,7 +34,7 @@ describe('locale files', () => {
 
   for (const { code } of LANGUAGES) {
     describe(code, () => {
-      it('has all four files', () => {
+      it('has all five files', () => {
         for (const f of FILES) expect(existsSync(join(root, code, f)), `${code}/${f}`).toBe(true);
       });
 
