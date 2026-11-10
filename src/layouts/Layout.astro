@@ -5,6 +5,7 @@ import '../styles/layout.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import ToolNav from '../components/ToolNav.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
 import LanguageSuggest from '../components/LanguageSuggest.astro';
 import { FONT_STYLESHEETS } from '../i18n/languages';
@@ -105,6 +106,7 @@ const versions = alternates(path);
 
     <div class="page container">
       <main id="main" class="page__main">
+        <Breadcrumbs lang={lang} path={path} />
         <slot />
         {ads && inlineAd === 'end' && (
           <div class="page__inline-ad">

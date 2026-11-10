@@ -29,6 +29,16 @@ const { lang, path } = Astro.props;
   </div>
 </nav>
 
+<script>
+  // On phones the strip scrolls sideways: bring the page you are on into the middle so it is always visible.
+  const current = document.querySelector<HTMLElement>('.toolnav a.is-current');
+  const strip = current?.parentElement;
+  if (current && strip && strip.scrollWidth > strip.clientWidth) {
+    // block: 'nearest' keeps the page from scrolling vertically; the browser handles left-to-right and right-to-left
+    current.scrollIntoView({ inline: 'center', block: 'nearest' });
+  }
+</script>
+
 <style>
   .toolnav {
     background: var(--surface);
@@ -40,6 +50,18 @@ const { lang, path } = Astro.props;
     padding-block: var(--space-2);
     overflow-x: auto; /* scrolls sideways on phones instead of wrapping into many rows */
     scrollbar-width: thin;
+  }
+  /* Phones/tablets: faded edges show that the strip scrolls sideways */
+  @media (max-width: 59.99rem) {
+    .toolnav__inner {
+      -webkit-mask-image: linear-gradient(to right, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
+      mask-image: linear-gradient(to right, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
+      scroll-padding-inline: 2rem;
+    }
+    :global([dir='rtl']) .toolnav__inner {
+      -webkit-mask-image: linear-gradient(to left, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
+      mask-image: linear-gradient(to left, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
+    }
   }
   @media (min-width: 60rem) {
     .toolnav__inner {

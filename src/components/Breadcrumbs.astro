@@ -1,0 +1,83 @@
+---
+/**
+ * Visible breadcrumb trail ("Image resizer > Resize in cm, mm or inches") shown above the page title on every
+ * inner page. Search engines also get the same trail as structured data (BreadcrumbList on tool pages).
+ */
+import { LEGAL_ROUTES, TOOL_ROUTES } from '../data/routes';
+import { localizedPath, t } from '../i18n';
+
+interface Props {
+  lang: string;
+  /** Current page path without language prefix. */
+  path: string;
+}
+const { lang, path } = Astro.props;
+
+const tool = TOOL_ROUTES.find((r) => r.path === path);
+const legal = LEGAL_ROUTES.find((r) => r.path === path);
+const label = tool
+  ? t(lang, `nav.${tool.key}` as 'nav.home')
+  : legal
+    ? t(lang, `footer.${legal.key}` as 'footer.about')
+    : null;
+const show = label !== null && path !== '/';
+---
+{
+  show && (
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li>
+          <a href={localizedPath(lang, '/')}>{t(lang, 'nav.home')}</a>
+        </li>
+        <li aria-current="page">{label}</li>
+      </ol>
+    </nav>
+  )
+}
+
+<style>
+  .breadcrumbs {
+    margin: 0 0 var(--space-4);
+    font-size: var(--step-0);
+  }
+  ol {
+    display: flex;
+    flex-wrap: nowrap; /* keep "Home > Page" on one line; a long page name wraps inside its own box */
+    align-items: center;
+    gap: var(--space-2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-width: 0;
+  }
+  li:first-child {
+    flex: none;
+  }
+  li:last-child {
+    flex: 1 1 0;
+  }
+  li + li::before {
+    content: '›';
+    color: var(--text-muted);
+    font-weight: 700;
+  }
+  :global([dir='rtl']) li + li::before {
+    content: '‹';
+  }
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem; /* easy to tap */
+    font-weight: 650;
+  }
+  li[aria-current='page'] {
+    font-weight: 700;
+    color: var(--text);
+    overflow-wrap: anywhere;
+  }
+</style>
