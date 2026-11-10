@@ -30,6 +30,8 @@ earn links from other sites. Both lists are below.
 2. **Bing Webmaster Tools** - https://www.bing.com/webmasters : choose **Import from Google Search Console**. Bing also
    feeds DuckDuckGo, Ecosia and Yahoo.
 3. After each deploy run `npm run build` and then `node scripts/indexnow.mjs` (sends the page list to Bing and others).
+   The first time, the answer may be `403 SiteVerificationNotCompleted`: Bing is still verifying the key file. Wait an
+   hour or two and run it again (on 2026-11-11 the home page was accepted, the full list was still waiting).
 4. **Cloudflare**: turn on Always Use HTTPS and redirect `www` to the main domain (see `docs/DEPLOY.md`), so there is
    only one version of each page.
 

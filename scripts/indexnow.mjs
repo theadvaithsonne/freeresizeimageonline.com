@@ -23,4 +23,5 @@ const response = await fetch('https://api.indexnow.org/indexnow', {
   body: JSON.stringify({ host, key, keyLocation: `https://${host}/${keyFile}`, urlList: urls }),
 });
 console.log(`IndexNow: sent ${urls.length} URLs, answer ${response.status} ${response.statusText}`);
-// 200/202 = accepted. 403 = the key file is not reachable yet (deploy first). 422 = a URL is not on this host.
+// 200/202 = accepted. 403 right after the first deploy = the search engine has not finished verifying the key file
+// yet ("SiteVerificationNotCompleted"): wait an hour or two and run it again. 422 = a URL is not on this host.
