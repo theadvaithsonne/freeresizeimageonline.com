@@ -28,7 +28,7 @@ export const ADSENSE = {
    * It shows the "Cookie settings" link in the footer (the link re-opens that message). Until then the link is hidden,
    * because it would do nothing.
    */
-  consentMessage: false as boolean,
+  consentMessage: true as boolean,
 };
 
 /** True once at least one ad unit id is filled in above (ads can actually appear). */

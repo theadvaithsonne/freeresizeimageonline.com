@@ -27,7 +27,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Requirement | Status |
 |---|---|
 | Consent through a Google-certified consent platform before personalised ads | **You**: AdSense -> **Privacy & messaging** -> create the EEA/UK/Switzerland consent message (free). Takes 2 minutes; the code needs no change |
-| Visitors can change their choice later | Link is built but hidden until you create the message: then set `consentMessage: true` in `src/config/site.ts` (footer link "Cookie settings" re-opens Google's message) |
+| Visitors can change their choice later | Done: the EEA/UK/Switzerland message "FreeResizeImageOnline EU" was published on 2026-11-11 (English + 7 languages) and `consentMessage` is `true` in `src/config/site.ts`. The footer link "Cookie settings" re-opens Google's message, on pages where Google's script is loaded |
 | Own analytics/cookies | Done: no analytics cookies; only theme/language choices are saved in the browser; Cloudflare Web Analytics is cookie-free |
 
 ## 4. Ad placement
@@ -41,7 +41,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | No ads in modals, loading or empty states | Done |
 | No incentives to click, no asking for clicks | Done: the only text is "Ads keep FreeResizeImageOnline free. Everything works without them." |
 | Layout does not jump when ads load (Better Ads / user experience) | Done: fixed reserved heights; measured layout shift ~0 |
-| Auto ads | Done: shown as OFF for freeresizeimageonline.com (Ads > By site, checked by the owner on 2026-11-11). Google's script still adds one empty, zero-height element (`adsbygoogle-noablate`); it has no visible effect Manual placement is built in |
+| Auto ads | Done: shown as OFF for freeresizeimageonline.com (Ads > By site, checked by the owner on 2026-11-11). Google's script still adds one empty, zero-height element (`adsbygoogle-noablate`); it has no visible effect. Manual placement is built in |
 | Ad units | **You** (after approval): create 1 vertical unit (right column) and 1 responsive unit (phones), paste the slot ids in `src/config/site.ts`, redeploy |
 
 ## 5. Content policies
