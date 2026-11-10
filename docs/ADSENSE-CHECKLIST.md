@@ -27,7 +27,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Requirement | Status |
 |---|---|
 | Consent through a Google-certified consent platform before personalised ads | **You**: AdSense -> **Privacy & messaging** -> create the EEA/UK/Switzerland consent message (free). Takes 2 minutes; the code needs no change |
-| Visitors can change their choice later | Done: the EEA/UK/Switzerland message "FreeResizeImageOnline EU" was published on 2026-11-11 (English + 7 languages) and `consentMessage` is `true` in `src/config/site.ts`. The footer link "Cookie settings" re-opens Google's message, on pages where Google's script is loaded |
+| Visitors can change their choice later | Done: the EEA/UK/Switzerland message "FreeResizeImageOnline EU" was published on 2026-11-11 (English + 7 languages) and `consentMessage` is `true` in `src/config/site.ts`. The footer link "Cookie settings" re-opens Google's message, on pages where Google's script is loaded and only for visitors who get that message. The US message "FreeResizeImageOnline US" (all supported US states, with Google's own opt-out link) was published the same day |
 | Own analytics/cookies | Done: no analytics cookies; only theme/language choices are saved in the browser; Cloudflare Web Analytics is cookie-free |
 
 ## 4. Ad placement
