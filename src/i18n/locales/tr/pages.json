@@ -6,7 +6,15 @@
     "passport": "Pasaport fotoğrafı boyutu",
     "social": "Sosyal medya boyutları",
     "convert": "Resim dönüştür",
-    "compress": "Resim sıkıştır"
+    "compress": "Resim sıkıştır",
+    "kb20": "20 KB'a küçült",
+    "kb50": "50 KB'a küçült",
+    "kb100": "100 KB'a küçült",
+    "kb200": "200 KB'a küçült",
+    "signature": "İmza boyutlandır",
+    "pngToJpg": "PNG'den JPG'ye",
+    "jpgToPng": "JPG'den PNG'ye",
+    "webpToJpg": "WebP'den JPG'ye"
   },
   "common": {
     "howTo": "Nasıl kullanılır?",
@@ -89,6 +97,9 @@
           "a": "Evet. Sayfa; telefonlarda, tabletlerde ve bilgisayarlarda Chrome, Safari, Firefox ve Edge'in güncel sürümleriyle çalışır. Çok büyük fotoğraflar eski telefonlarda sınırlı olabilir."
         }
       ]
+    },
+    "popular": {
+      "title": "Popüler işlemler"
     }
   },
   "kb": {
@@ -132,7 +143,13 @@
           "a": "Hayır. Her şey tarayıcınızda olur, bu yüzden fotoğrafınız cihazınızdan çıkmaz."
         }
       ]
-    }
+    },
+    "blurb": "Fotoğrafı tam istenen KB boyutuna küçültün.",
+    "detailsTitle": "Dosya boyutu sınırı nasıl çalışır?",
+    "details": [
+      "Bir sınır belirlediğinizde araç, dosyayı sınırın altında tutan en yüksek JPG veya WebP kalitesini dener. Sınır çok küçükse sığana kadar küçük adımlarla resmi de küçültür. İndirmeden önce son boyutu KB olarak görürsünüz.",
+      "Yaygın sınırlar şunlardır: imzalar ve küçük fotoğraflar için 20 KB, vesikalık fotoğraflar ve başvuru formları için 50 KB ile 100 KB, vize ve kimlik doğrulama yüklemeleri için 200 KB ile 500 KB. 20 KB, 50 KB, 100 KB ve 200 KB için ayrı sayfalar var."
+    ]
   },
   "cm": {
     "title": "Resmi cm, mm veya İnç Olarak Boyutlandır - Ücretsiz",
@@ -175,7 +192,13 @@
           "a": "300 DPI'da 4 x 6 inç, 1.200 x 1.800 pikseldir."
         }
       ]
-    }
+    },
+    "blurb": "Resmi tam olarak cm, mm veya inç boyutuna getirin.",
+    "detailsTitle": "Santimetre neden DPI ister?",
+    "details": [
+      "Bir resim pikselden oluşur; santimetre veya inç ise fiziksel bir uzunluktur. DPI (inç başına nokta) ikisini birbirine bağlar: 300 DPI'da bir inç 300 pikseldir, yani 3,5 x 4,5 cm'lik bir fotoğraf yaklaşık 413 x 531 pikseldir. Yazıcılar ve birçok form 300 DPI kullanır.",
+      "cm, mm veya inç seçin, formunuzdaki boyutu girin ve talimatlar aksini söylemedikçe DPI değerini 300'de bırakın. Araç pikselleri sizin için hesaplar ve resmi tam şekle uyacak biçimde kırpabilir."
+    ]
   },
   "passport": {
     "title": "Ülkelere Göre Pasaport ve Vize Fotoğrafı Boyutu - Ücretsiz",
@@ -220,7 +243,13 @@
           "a": "300 DPI'da 35 x 45 mm, 413 x 531 piksel; 2 x 2 inç ise 600 x 600 pikseldir."
         }
       ]
-    }
+    },
+    "blurb": "Fotoğrafları yaygın pasaport ve vize boyutlarına getirin.",
+    "detailsTitle": "Resmî kuralları kontrol edin",
+    "details": [
+      "Pasaport, vize ve kimlik fotoğrafı kurallarını her ülke belirler ve zaman zaman değişir. Bu sayfadaki boyutlar yaygın değerlerdir ve bir başlangıç noktasıdır; fotoğrafın kabul edileceğinin garantisi değildir.",
+      "Milimetre veya piksel cinsinden boyutun yanı sıra makamlar çoğu zaman baş boyutunu, arka plan rengini, aydınlatmayı ve dosya boyutunu da belirtir. Bu araç fotoğrafınızı boyutlandırır ve kırpar; bu kuralları denetlemez, bu yüzden göndermeden önce resmî talimatları okuyun."
+    ]
   },
   "social": {
     "title": "Sosyal Medya Resim Boyutları - Instagram, YouTube, Facebook",
@@ -264,7 +293,13 @@
           "a": "Kutuyu dolduracak şekilde kırp seçeneğinde resmin ortası korunur, sığmayan kenarlar kesilir. Her şeyi korumak istiyorsanız Kutuya sığdır'ı seçin."
         }
       ]
-    }
+    },
+    "blurb": "Resimleri Instagram, YouTube, Facebook ve daha fazlasına uydurun.",
+    "detailsTitle": "Boyutlar değişir, oranlar kalır",
+    "details": [
+      "Platformlar önerdikleri boyutları zaman zaman günceller ama en-boy oranları neredeyse aynı kalır: akış gönderileri için 1:1 ve 4:5, hikaye ve reel için 9:16, video küçük resimleri ve kapakları için 16:9.",
+      "Önerilen piksel boyutunda veya daha büyük yükleyin. Platformlar her resmi yeniden sıkıştırır; bu yüzden temiz ve net bir resimle başlamak en iyi sonucu verir. Siyah çubukları önlemek için Kutuyu dolduracak şekilde kırp seçeneğini seçin."
+    ]
   },
   "convert": {
     "title": "JPG, PNG ve WebP Resim Dönüştürücü - Ücretsiz Online",
@@ -303,7 +338,13 @@
           "a": "Henüz hayır, çünkü çoğu tarayıcı HEIC dosyalarını açamaz. iPhone'unuzda Kamera biçimlerini En Uyumlu olarak ayarlayabilir veya fotoğrafı JPG olarak paylaşabilirsiniz."
         }
       ]
-    }
+    },
+    "blurb": "Resimleri JPG, PNG ve WebP arasında dönüştürün.",
+    "detailsTitle": "Hangi biçimi seçmelisiniz?",
+    "details": [
+      "Fotoğraflar ve JPG isteyen formlar için JPG, logolar, ekran görüntüleri ve saydam alanlı resimler için PNG, bir web sitesi için en küçük dosyayı istediğinizde WebP seçin.",
+      "Dönüştürmek ayrıntı eklemez. Küçük bir JPG'yi PNG'ye çevirmek aynı resimle daha büyük bir dosya verir; PNG'yi JPG'ye çevirmek ise saydam alanları beyazla doldurur. PNG'den JPG'ye, JPG'den PNG'ye ve WebP'den JPG'ye dönüştürme için ayrı sayfalar var."
+    ]
   },
   "compress": {
     "title": "Resim Sıkıştırma Online - Fotoğraf Boyutunu Küçült Ücretsiz",
@@ -340,6 +381,441 @@
         {
           "q": "Birçok resmi aynı anda sıkıştırabilir miyim?",
           "a": "Evet. Hepsini ekleyin ve tek bir ZIP dosyası indirin."
+        }
+      ]
+    },
+    "blurb": "Fotoğrafları gözle görülür kayıp olmadan küçültün.",
+    "detailsTitle": "Sıkıştırma nasıl çalışır?",
+    "details": [
+      "JPG ve WebP, gözün pek fark etmediği ayrıntıyı atarak sıkıştırır. Kaliteyi 100'den 80'e düşürmek, görünürde neredeyse hiçbir değişiklik olmadan dosyayı çoğu zaman yarıdan fazla küçültür; 60'ın çok altına inmek ise bloklar ve lekeler göstermeye başlar.",
+      "En büyük kazanç genellikle piksel sayısını azaltmaktan gelir. 4000 piksel genişliğinde olup 1000 pikselde gösterilen bir fotoğraf verisinin çoğunu boşa harcar; bu yüzden önce boyutlandırın, sonra sıkıştırın."
+    ]
+  },
+  "navGroups": {
+    "tools": "Araçlar",
+    "sizes": "Dosya boyutu sınırları",
+    "convert": "Dönüştürücüler"
+  },
+  "kb20": {
+    "title": "Resmi 20 KB'a Küçült - Ücretsiz Fotoğraf Küçültme",
+    "description": "Fotoğraf veya imzayı tarayıcınızda 20 KB veya altına küçültün. Ücretsiz, kayıtsız; resminiz cihazınızdan asla çıkmaz.",
+    "h1": "Resmi 20 KB'a küçült",
+    "intro": "20 KB sınırı; sınav, iş ve devlet formlarında küçük vesikalık fotoğraflar ve imzalar için yaygındır. Resminizi ekleyin; araç, dosya 20 KB'ın (20.000 bayt) altına inene kadar kaliteyi adım adım düşürür, resmi de yalnızca zorunluysa küçültür.",
+    "blurb": "Fotoğraf veya imzayı 20 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya telefonunuzdan ya da bilgisayarınızdan seçin. JPG, PNG ve WebP dosyalarının hepsi olur."
+      },
+      {
+        "title": "20 KB sınırını kontrol edin",
+        "text": "20 KB sınırı zaten seçili. Formunuz başka bir boyut istiyorsa Hazır ayar listesinden değiştirin."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın, sonucu kontrol edin ve JPG dosyasını indirin."
+      }
+    ],
+    "tipsTitle": "20 KB'lık fotoğraf için ipuçları",
+    "tips": [
+      "Önce yüzün veya imzanın çevresinden yakın kırpın. Boş alan azaldıkça aynı netlikte daha küçük bir dosya elde edersiniz.",
+      "Düz beyaz ya da açık renkli bir arka plan, karmaşık bir arka plandan çok daha iyi sıkışır.",
+      "Formda kesin piksel de isteniyorsa bunları Boyut bölümüne girin ve Dosya boyutunu sınırla seçeneğini açık tutun.",
+      "Her zaman formunuzun resmî talimatlarını kontrol edin. Fotoğraf ve imza sınırları sınavlara ve sitelere göre değişir."
+    ],
+    "detailsTitle": "20 KB'lık bir resim nasıl görünür?",
+    "details": [
+      "20 KB çok küçüktür; kısa bir metin dosyasının boyutu kadar. 200 x 230 piksellik bir fotoğraf genellikle JPG olarak 20 KB'a sığabilir, 4000 x 3000 piksellik büyük bir telefon fotoğrafının ise önce epey küçülmesi gerekir. Araç iki adımı da sizin için yapar: JPG kalitesini düşürür ve yalnızca gerektiğinde piksel sayısını azaltır.",
+      "İmzalar ve basit taramalar büyük ölçüde beyaz kâğıttan oluştuğu için çok iyi sıkışır. Saçı ayrıntılı veya arka planı desenli yüz fotoğrafları daha fazla veri gerektirir; bunlar için bunun yerine 50 KB sınırı gerekebilir."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir fotoğrafı 20 KB'a nasıl düşürürüm?",
+          "a": "Fotoğrafı ekleyin, 20 KB sınırı seçili kalsın ve Resimleri boyutlandır düğmesine basın. Araç, 20 KB'ın altına sığan en yüksek JPG kalitesini arar ve bu yetmezse resmi yalnızca o zaman küçültür."
+        },
+        {
+          "q": "20 KB, 20.000 bayt demek midir?",
+          "a": "Burada evet. Bazı sistemler 1 KB'ı 1.024 bayt sayar; 20.000 baytın altındaki bir dosya her iki durumda da sınırın altındadır."
+        },
+        {
+          "q": "Bunu imza için kullanabilir miyim?",
+          "a": "Evet. Beyaz kâğıda koyu renkli bir kalemle imza atın, iyi ışıkta fotoğrafını çekin, imzaya yakın kırpın ve 20 KB'a küçültün. İmza boyutlandırma için ayrı bir sayfa da var."
+        },
+        {
+          "q": "Fotoğrafım yükleniyor mu?",
+          "a": "Hayır. Her şey tarayıcınızda olur, bu yüzden resim cihazınızda kalır."
+        }
+      ]
+    }
+  },
+  "kb50": {
+    "title": "Resmi 50 KB'a Küçült - Ücretsiz Fotoğraf Küçültme",
+    "description": "Sınav formları, iş siteleri ve kimlik yüklemeleri için fotoğrafı 50 KB veya altına sıkıştırın. Ücretsiz, gizli, tarayıcıda çalışır.",
+    "h1": "Resmi 50 KB'a küçült",
+    "intro": "50 KB, online başvuru formlarında vesikalık boyutundaki fotoğraflar için en çok istenen sınırlardan biridir. Bu sayfa sınırı sizin için ayarlar: fotoğrafınızı ekleyin, yine de net görünen, 50 KB'ın (50.000 bayt) altında bir JPG indirin.",
+    "blurb": "Formlar ve siteler için fotoğrafı 50 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Fotoğrafınızı ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Birkaç MB'lık telefon fotoğrafları sorun değil."
+      },
+      {
+        "title": "50 KB sınırını koruyun",
+        "text": "50 KB önceden seçili. Formda 200 x 230 gibi piksel de belirtiliyorsa önce bunları Boyut bölümüne girin."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve JPG dosyasını indirin. Sonuç, tam boyutunu KB olarak gösterir."
+      }
+    ],
+    "tipsTitle": "50 KB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Düz arka planlı fotoğraflar, karmaşık olanlara göre 50 KB'a çok daha yüksek kaliteyle ulaşır.",
+      "Önce formdaki piksel boyutunu girin, sonra 50 KB sınırını kullanın. Küçük bir resmi sığdırmak kolaydır.",
+      "Site dosyanın çok büyük olduğunu söylüyorsa 45 KB deneyin. Bazı sistemler farklı sayar.",
+      "Küçük bir fotoğrafı büyütmeyin. Ayrıntı eklemeden dosyayı büyütür."
+    ],
+    "detailsTitle": "50 KB fotoğraflar için neden iyi bir sınır?",
+    "details": [
+      "50 KB'ta yaklaşık 200 x 230 piksellik vesikalık tarzı bir fotoğraf, net bir yüzü ve temiz kenarları korur. 600 x 800 piksel gibi daha büyük resimler de arka plan düzse 50 KB'ın altına sığabilir, ancak daha yumuşak görünebilir.",
+      "Araç, sığan en yüksek kaliteyi dener. İndirmeden önce sonucun boyutunu görürsünüz; sınırı değiştirip fotoğrafı iki kez eklemeden yeniden çalıştırabilirsiniz."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir fotoğrafı kalite kaybetmeden 50 KB'a nasıl sıkıştırırım?",
+          "a": "Her ayrıntıyı koruyamazsınız ama görünür kaliteyi koruyabilirsiniz. Araç önce JPG kalitesini yavaş yavaş düşürür, ancak sonra resim boyutunu küçültür; böylece sığan en net sonucu alırsınız."
+        },
+        {
+          "q": "50 KB'lık fotoğraf için hangi biçimi kullanmalıyım?",
+          "a": "JPG. Fotoğraflar için en küçük dosyaları verir ve neredeyse her site tarafından kabul edilir."
+        },
+        {
+          "q": "Fotoğraf tam olarak 50 KB mı olacak?",
+          "a": "50 KB veya daha küçük olacak. Araç, dosya her sistemden geçsin diye sınırın hemen altını hedefler."
+        },
+        {
+          "q": "Fotoğrafımı saklıyor musunuz?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "kb100": {
+    "title": "Resmi 100 KB'a Küçült - Ücretsiz Resim Sıkıştırma",
+    "description": "İş başvuruları, kimlik doğrulama ve belge yüklemeleri için resmi 100 KB veya altına sıkıştırın. Ücretsiz, gizli, kayıt gerekmez.",
+    "h1": "Resmi 100 KB'a küçült",
+    "intro": "100 KB; başvuru fotoğrafları, taranmış kimlikler ve profil resimleri için yaygın bir sınırdır. Resminizi ekleyin, sığan en yüksek kaliteyle 100 KB'ın (100.000 bayt) altında bir JPG alın.",
+    "blurb": "Başvurular ve kimlik doğrulama için resmi 100 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Hem fotoğraflar hem taramalar olur."
+      },
+      {
+        "title": "100 KB sınırını koruyun",
+        "text": "100 KB önceden seçili. Formunuz tam piksel veya santimetre istiyorsa önce bunları ayarlayın."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve sonucu indirin. Sınırı değiştirip yeniden çalıştırabilirsiniz."
+      }
+    ],
+    "tipsTitle": "100 KB'lık resim için ipuçları",
+    "tips": [
+      "Taranmış belgeleri 150 ile 200 DPI'da tarayın. Daha yüksek çözünürlükler dosyayı yalnızca büyütür.",
+      "Fotoğraflar ve taramalar için JPG seçin. PNG'yi yalnızca logolar ve düz grafikler için kullanın.",
+      "Taranmış belgedeki yazı bulanık görünüyorsa kaliteyi daha da düşürmek yerine sınırı 200 KB'a çıkarın.",
+      "Boyutlandırmadan önce boş kenar boşluklarını kırpın."
+    ],
+    "detailsTitle": "100 KB'ta fotoğraflar ve belgeler",
+    "details": [
+      "100 KB, yaklaşık 400 x 500 piksellik net bir fotoğrafa ya da bir belge sayfasının okunaklı bir taramasına yer bırakır. 50 KB sınırının iki katı yer demektir; bu yüzden yüzler ve basılı yazı belirgin biçimde daha net kalır.",
+      "Sıkıştırmadan ilk etkilenen şey yazı kenarlarıdır. Sonucu yüzde 100 yakınlaştırmada kontrol edin; bir belgeyi okumak zorsa 200 KB sınırını deneyin."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 100 KB'a nasıl sıkıştırırım?",
+          "a": "Resmi ekleyin, 100 KB sınırı seçili kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en iyi JPG kalitesini bulur."
+        },
+        {
+          "q": "Burada bir PDF'yi 100 KB'a sıkıştırabilir miyim?",
+          "a": "Hayır. Bu araç resimlerle çalışır (JPG, PNG, WebP, GIF ve BMP). Önce sayfayı resim olarak kaydedin veya fotoğrafını çekin."
+        },
+        {
+          "q": "100 KB'ta kalite iyi mi?",
+          "a": "Yüz fotoğrafları ve belgeler için genellikle evet. Büyük manzaralar gibi çok ayrıntılı resimler daha yumuşak görünebilir."
+        },
+        {
+          "q": "Ücretsiz ve gizli mi?",
+          "a": "Evet. Kayıt yok, filigran yok ve dosyalarınız cihazınızdan asla çıkmaz."
+        }
+      ]
+    }
+  },
+  "kb200": {
+    "title": "Resmi 200 KB'a Küçült - Ücretsiz Resim Sıkıştırma",
+    "description": "Vize, kimlik doğrulama ve resmî kurum yüklemeleri için resmi 200 KB veya altına sıkıştırın. Ücretsiz, gizli, tarayıcıda çalışır.",
+    "h1": "Resmi 200 KB'a küçült",
+    "intro": "200 KB; vize fotoğrafları, kimlik doğrulama belgeleri ve resmî kurum yüklemeleri için tipik bir üst sınırdır. Resminizi ekleyin, olabildiğince çok ayrıntıyı koruyan, 200 KB'ın (200.000 bayt) altında bir JPG indirin.",
+    "blurb": "Vize ve resmî yüklemeler için resmi 200 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Büyük telefon fotoğrafları sorun değil."
+      },
+      {
+        "title": "200 KB sınırını koruyun",
+        "text": "200 KB önceden seçili. Başka bir sınır mı lazım? Hazır ayar listesinden başka birini seçin."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve JPG dosyasını indirin. Sonuç, tam boyutunu gösterir."
+      }
+    ],
+    "tipsTitle": "200 KB'lık resim için ipuçları",
+    "tips": [
+      "Pek çok site en küçük boyut da belirler. Çok küçük bir dosya reddedilirse sınırı yükseltip yeniden deneyin.",
+      "200 KB sınırını uygulamadan önce sitenin istediği ölçüleri piksel olarak girin.",
+      "Orijinali saklayın, boyutlandırılmış kopyayı yeni bir adla kaydedin.",
+      "Kimlik kartları gibi keskin yazılı fotoğraflar, yüksek kaliteli JPG olarak en iyi görünür."
+    ],
+    "detailsTitle": "200 KB ne zaman yeterli?",
+    "details": [
+      "200 KB bir fotoğraf için cömert bir sınırdır: yaklaşık 800 x 1000 piksellik bir resim genellikle gözle görülür az kayıpla sığar. Kimlik kartı ve sertifika taramaları da orta çözünürlükte tarandıysa bu boyutta okunaklı kalır.",
+      "Telefon fotoğrafınız birkaç MB ise küçültmeyi araç sizin yerinize yapar. Sınırın altına sığan en yüksek kaliteyi seçer; yani bir ayarı tahmin etmeniz gerekmez."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 200 KB'a nasıl düşürürüm?",
+          "a": "Resmi ekleyin, 200 KB sınırı seçili kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en iyi JPG kalitesini seçer."
+        },
+        {
+          "q": "200 KB ile 2 MB arasındaki fark nedir?",
+          "a": "2 MB yaklaşık on kat büyüktür. 200 KB yalnızca 0,2 MB'tır. Formunuzdaki birimin MB değil KB olduğundan emin olun."
+        },
+        {
+          "q": "200 KB sınırı için PNG kullanabilir miyim?",
+          "a": "PNG dosyaları kayıpsızdır; bu yüzden araç sınıra ulaşmak için yalnızca resmi küçültebilir. JPG, aynı dosya boyutunda daha fazla ayrıntıyı korur."
+        },
+        {
+          "q": "Belgelerim güvende mi?",
+          "a": "Evet. Tarayıcınızda işlenir ve hiçbir zaman yüklenmez; bu, kimlik belgeleri için önemlidir."
+        }
+      ]
+    }
+  },
+  "signature": {
+    "title": "İmza Boyutlandırma Online - 10-20 KB'a Küçült Ücretsiz",
+    "description": "İmza resmini online formun istediği boyuta getirin: 10 KB veya 20 KB ve belirli bir piksel boyutu. Ücretsiz ve gizli.",
+    "h1": "İmza resmini boyutlandır",
+    "intro": "Online formlar genellikle imzanızın küçük ve net bir resmini ister: birkaç KB ve çoğu zaman sabit bir genişlik ile yükseklik. İmzanızın fotoğrafını veya taramasını ekleyin; hem dosya boyutuna hem piksel boyutuna uyan bir dosya alın.",
+    "blurb": "İmzayı formun istediği dosya boyutuna getirin.",
+    "steps": [
+      {
+        "title": "İmzanızı ekleyin",
+        "text": "İmzanızı düz beyaz kâğıtta fotoğraflayın veya tarayın, sonra resmi buraya ekleyin."
+      },
+      {
+        "title": "Boyutu ve sınırı belirleyin",
+        "text": "Formdaki genişlik ve yüksekliği piksel olarak girin, sonra Hazır ayar listesinden 10 KB veya 20 KB seçin."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Sonucu kontrol edin: imza koyu görünmeli, kenarlar temiz olmalı."
+      }
+    ],
+    "tipsTitle": "Net bir imza için ipuçları",
+    "tips": [
+      "Düz beyaz kâğıda koyu mavi veya siyah kalemle imza atın.",
+      "Fotoğrafı gölgesiz gün ışığında çekin ve imzaya yakın kırpın.",
+      "Form tam bir genişlik ve yükseklik istiyorsa imza uzamasın diye resmi önce bu şekle kırpın.",
+      "Form PNG kabul etmedikçe JPG olarak kaydedin."
+    ],
+    "detailsTitle": "İmza dosyası ne kadar küçük olabilir?",
+    "details": [
+      "İmza büyük ölçüde beyaz kâğıttan oluşur; bu yüzden bir fotoğraftan çok daha iyi sıkışır. Tipik formlar 10 ile 20 KB ve yalnızca birkaç yüz piksel genişliğinde bir resim ister. Araç bu sınırlara kolayca ulaşır ve çizgiler okunaklı kalır.",
+      "Sınır 10 KB gibi çok küçükse kalın uçlu bir kalem işe yarar: ince kalem çizgileri resim küçültülürken silikleşebilir."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Online form için imza boyutu ne olmalı?",
+          "a": "Forma göre değişir. Birçoğu yaklaşık 10 ile 20 KB ve piksel cinsinden küçük bir genişlik ile yükseklik ister. Her zaman resmî duyurudaki tam rakamlara uyun."
+        },
+        {
+          "q": "İmzamı nasıl 10 KB yaparım?",
+          "a": "İmzayı ekleyin, Hazır ayar listesinden 10 KB sınırını seçin ve Resimleri boyutlandır düğmesine basın."
+        },
+        {
+          "q": "Kâğıt arka planını kaldırabilir miyim?",
+          "a": "Bu araç boyutlandırır ve sıkıştırır; arka planı kaldırmaz. Sonuç temiz görünsün diye düz beyaz kâğıt kullanın."
+        },
+        {
+          "q": "İmzamı burada kullanmak güvenli mi?",
+          "a": "Hiçbir şey yüklenmez. İmza tarayıcınızın içinde işlenir ve cihazınızda kalır."
+        }
+      ]
+    }
+  },
+  "pngToJpg": {
+    "title": "PNG'den JPG'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
+    "description": "PNG resimlerini tarayıcınızda JPG'ye çevirin. Ücretsiz, kayıt ve yükleme yok; kaliteyi kendiniz seçebilirsiniz.",
+    "h1": "PNG'yi JPG'ye dönüştür",
+    "intro": "PNG resimlerini tek adımda daha küçük JPG dosyalarına çevirin. JPG hemen her yerde kabul edilir ve fotoğraflarda çok daha küçüktür. PNG dosyalarınızı ekleyin, düğmeye basın ve JPG dosyalarını ya da hepsini içeren bir ZIP'i indirin.",
+    "blurb": "PNG dosyalarını daha küçük JPG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "PNG dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok PNG resmini sayfaya sürükleyin ya da cihazınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak JPG zaten seçili. Daha küçük bir dosya için kaliteyi düşürün."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her JPG'yi ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "PNG'yi JPG'ye dönüştürme ipuçları",
+    "tips": [
+      "PNG saydam alanlar içerebilir. JPG içeremez; bu yüzden saydam alanlar beyaz olur.",
+      "İleride saydamlığa ihtiyacınız olabilirse orijinal PNG'yi saklayın.",
+      "Fotoğraflarda 80 ile 90 arası kalite, çok daha küçük bir dosyayla orijinaline neredeyse aynı görünür.",
+      "Keskin yazılı ekran görüntüleri JPG olarak hafif bulanık görünebilir. Bunlar için yüksek kalite kullanın."
+    ],
+    "detailsTitle": "PNG mi JPG mi: ne değişir?",
+    "details": [
+      "PNG her pikseli olduğu gibi korur; bu yüzden PNG olarak kaydedilmiş fotoğraflar, aynı fotoğrafın JPG hâlinden beş ila on kat büyük olabilir. JPG'ye dönüştürmek gözün pek fark etmediği ayrıntıyı atar ve dosyayı küçültür.",
+      "Dönüştürme cihazınızda yapılır. Hiçbir şey yüklenmez; bu yüzden özel resimler için güvenlidir ve kaç dosya dönüştüreceğinizin sınırı yoktur."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "PNG'yi JPG'ye nasıl dönüştürürüm?",
+          "a": "PNG'nizi ekleyin, çıktı biçiminin JPG olduğundan emin olun ve Resimleri boyutlandır düğmesine basın. Hazır olunca JPG'yi indirin."
+        },
+        {
+          "q": "PNG'yi JPG'ye dönüştürmek kaliteyi düşürür mü?",
+          "a": "Biraz. JPG kayıplıdır. 85 ve üzeri kalitede fark, fotoğraflarda nadiren görülür."
+        },
+        {
+          "q": "Saydam alanlara ne olur?",
+          "a": "JPG saydam olamayacağı için beyazla doldurulurlar."
+        },
+        {
+          "q": "Birçok PNG dosyasını aynı anda dönüştürebilir miyim?",
+          "a": "Evet. Tek seferde 500'e kadar istediğiniz kadar ekleyin ve tek tek ya da ZIP olarak indirin."
+        }
+      ]
+    }
+  },
+  "jpgToPng": {
+    "title": "JPG'den PNG'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
+    "description": "JPG resimlerini tarayıcınızda PNG'ye çevirin. Ücretsiz; kayıt, yükleme ve filigran yok, dosyalar cihazınızda kalır.",
+    "h1": "JPG'yi PNG'ye dönüştür",
+    "intro": "Logo, tasarım aracı ya da JPG kabul etmeyen bir form için PNG mi lazım? JPG dosyalarınızı ekleyin ve tek adımda kayıpsız PNG dosyaları indirin. Her şey tarayıcınızda çalışır.",
+    "blurb": "JPG dosyalarını kayıpsız PNG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "JPG dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok JPG resmini sayfaya sürükleyin ya da cihazınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak PNG zaten seçili."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her PNG'yi ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "JPG'yi PNG'ye dönüştürme ipuçları",
+    "tips": [
+      "PNG'ye dönüştürmek ayrıntı eklemez. Bulanık bir JPG bulanık kalır.",
+      "Fotoğrafların PNG dosyaları büyüktür. Yalnızca daha küçük bir dosya istiyorsanız bunun yerine JPG veya WebP seçin.",
+      "JPG'de saydamlık yoktur, bu yüzden PNG de saydam olmaz. Saydam bir logo için arka planı bir resim düzenleyicide kaldırıp PNG olarak kaydedin.",
+      "Ekran görüntüleri, logolar ve keskin kenarlı ya da yazılı grafikler için PNG daha iyi bir seçimdir."
+    ],
+    "detailsTitle": "JPG'yi neden PNG'ye dönüştürmeli?",
+    "details": [
+      "PNG kayıpsızdır: resminiz bir kez PNG olduktan sonra yeniden kaydetmek kaliteyi düşürmez; oysa JPG'de her kayıtta biraz kayıp olur. Bu, PNG'yi düzenlemeler için güvenli bir çalışma biçimi yapar.",
+      "Bazı web siteleri, tasarım araçları ve baskı merkezleri PNG ister. Dönüştürücü, her yerde çalışan standart PNG dosyaları oluşturur; filigran ya da kayıt gerekmez."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "JPG'yi PNG'ye nasıl dönüştürürüm?",
+          "a": "JPG'nizi ekleyin, çıktı biçiminin PNG olduğundan emin olun ve Resimleri boyutlandır düğmesine basın. Hazır olunca PNG'yi indirin."
+        },
+        {
+          "q": "PNG, JPG'den büyük mü olur?",
+          "a": "Genellikle evet; PNG her ayrıntıyı koruduğu için fotoğraflarda çoğu zaman birkaç kat büyük olur."
+        },
+        {
+          "q": "JPG'yi PNG'ye dönüştürmek kaliteyi artırır mı?",
+          "a": "Hayır. Daha fazla kalite kaybını önler ama JPG sıkıştırmasının zaten attığı ayrıntıyı geri getiremez."
+        },
+        {
+          "q": "Dosyalarım yükleniyor mu?",
+          "a": "Hayır. Dönüştürme tarayıcınızda çalışır ve resimleriniz cihazınızdan asla çıkmaz."
+        }
+      ]
+    }
+  },
+  "webpToJpg": {
+    "title": "WebP'den JPG'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
+    "description": "WebP resimlerini tarayıcınızda JPG'ye çevirin. Ücretsiz, kayıt ve yükleme yok; telefonda ve bilgisayarda çalışır.",
+    "h1": "WebP'yi JPG'ye dönüştür",
+    "intro": "Web siteleri resimleri sık sık WebP olarak kaydeder ama birçok program, yazıcı ve yükleme formu yalnızca JPG kabul eder. WebP resimlerinizi ekleyin ve her yerde açılan JPG dosyaları indirin.",
+    "blurb": "WebP resimlerini her yerde açılan JPG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "WebP dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok WebP resmini sayfaya sürükleyin ya da telefonunuzdan veya bilgisayarınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak JPG zaten seçili. Daha küçük bir dosya istiyorsanız bir kalite seçin."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her JPG'yi ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "WebP'yi JPG'ye dönüştürme ipuçları",
+    "tips": [
+      "Saydam WebP resimleri JPG olarak beyaz arka plan alır.",
+      "Boyut ile netlik arasında iyi bir denge için 85 ile 92 arası kalite kullanın.",
+      "Hareketli bir WebP için ilk kare dönüştürülür.",
+      "Bir web sitesi resminizi zaten WebP olarak sıkıştırdıysa onu yeniden dönüştürmek kaybolan kaliteyi geri getirmez."
+    ],
+    "detailsTitle": "WebP'yi neden JPG'ye dönüştürmeli?",
+    "details": [
+      "WebP daha küçük dosyalar üreten modern bir biçimdir ama her yerde kabul edilmez. Eski fotoğraf düzenleyiciler, bazı yazıcılar, e-posta programları ve birçok resmî kurum ile iş sitesi yalnızca JPG kabul eder.",
+      "Dönüştürmek hızlı ve gizlidir: resim cihazınızda işlenir ve sunucuya hiçbir şey gönderilmez."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "WebP'yi telefonumda JPG'ye dönüştürebilir miyim?",
+          "a": "Evet. Güncel her telefonun tarayıcısında çalışır; yüklenecek uygulama yok."
+        },
+        {
+          "q": "Web siteleri resimleri neden WebP olarak kaydeder?",
+          "a": "WebP dosyaları benzer kalitede JPG dosyalarından küçüktür; bu da sayfaların daha hızlı yüklenmesini sağlar."
+        },
+        {
+          "q": "Dönüştürdükten sonra kalite aynı mı?",
+          "a": "Neredeyse. İki biçim de kayıplıdır, bu yüzden yüksek bir JPG kalitesi resmin aynı görünmesini sağlar."
+        },
+        {
+          "q": "Ücretsiz mi?",
+          "a": "Evet. Kayıt yok, filigran yok ve resim sayısında sınır yok."
         }
       ]
     }

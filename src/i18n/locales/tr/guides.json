@@ -16,7 +16,31 @@
         { "title": "Kaliteyi kaybetmeden resim boyutu nasıl küçültülür?", "text": "Önemli olan dört adım, doğru sırayla ve dosyayı daha büyük ya da bulanık yapan hatalar." },
         { "title": "JPG, PNG veya WebP: hangi biçimi kullanmalısınız?", "text": "Her biçimin neyde iyi olduğu, nerede yetersiz kaldığı ve seçmenin basit bir yolu." },
         { "title": "Online formlar için fotoğraf boyutu: KB sınırı, piksel ve biçim", "text": "Boyut şartı nasıl okunur ve bir fotoğraf 20 KB, 50 KB veya 200 KB'ın altına nasıl indirilir." }
-      ]
+      ],
+      "paragraphs": [
+        "Her rehber, tek bir pratik soruyu sade bir dille ve birkaç dakikada izleyebileceğiniz adımlarla yanıtlar. Fotoğraf uzmanları için değil, yalnızca bir resmin bir forma, bir web sitesine ya da bir iletiye kabul edilmesini isteyenler için yazıldılar.",
+        "Acelenizin varsa ücretsiz resim boyutlandırıcıyı açın; bir dosyanın neden büyük olduğunu ya da hangi biçimi seçmeniz gerektiğini anlamak istediğinizde rehbere dönün. Araca eklediğiniz hiçbir şey yüklenmez: resimleriniz cihazınızda kalır."
+      ],
+      "faq": {
+        "items": [
+          {
+            "q": "Önce hangi rehberi okumalıyım?",
+            "a": "Kaliteyi kaybetmeden resim boyutunu küçültme rehberiyle başlayın. En önemli dört adımı anlatır. Sonra amacınıza göre biçimler rehberini ya da online formlar rehberini okuyun."
+          },
+          {
+            "q": "Rehberler ücretsiz mi?",
+            "a": "Evet. Tüm rehberler ve araçlar ücretsizdir; hesap ve kayıt gerekmez."
+          },
+          {
+            "q": "Rehberler ne sıklıkla güncelleniyor?",
+            "a": "Form kuralları, tarayıcılar veya dosya biçimleri değiştiğinde güncelliyoruz. Fotoğrafınızı yüklediğiniz sitenin resmî talimatlarına her zaman uyun."
+          },
+          {
+            "q": "Okurken aracı kullanabilir miyim?",
+            "a": "Evet. Resim boyutlandırıcıyı başka bir sekmede açın ya da her rehberin altındaki bağlantıyı kullanın."
+          }
+        ]
+      }
     },
     "reduce": {
       "title": "Kalite Kaybı Olmadan Resim Boyutu Küçültme: 4 Kolay Adım",

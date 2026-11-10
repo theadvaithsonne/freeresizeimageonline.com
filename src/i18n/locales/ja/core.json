@@ -4,7 +4,8 @@
     "toggleTheme": "カラーテーマを切り替える",
     "openLanguages": "言語を選択",
     "themeDark": "ダーク",
-    "themeLight": "ライト"
+    "themeLight": "ライト",
+    "menu": "メニュー"
   },
   "language": {
     "label": "言語",

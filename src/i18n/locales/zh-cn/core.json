@@ -4,7 +4,8 @@
     "toggleTheme": "切换颜色主题",
     "openLanguages": "选择语言",
     "themeDark": "深色",
-    "themeLight": "浅色"
+    "themeLight": "浅色",
+    "menu": "菜单"
   },
   "language": {
     "label": "语言",

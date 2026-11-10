@@ -16,7 +16,19 @@
         { "title": "Bildgröße reduzieren ohne Qualitätsverlust", "text": "Die vier wichtigen Schritte in der richtigen Reihenfolge und die Fehler, die Dateien größer oder unschärfer machen." },
         { "title": "JPG, PNG oder WebP: Welches Format ist das richtige?", "text": "Was jedes Format gut kann, wo es an Grenzen stößt und wie Sie einfach das passende wählen." },
         { "title": "Fotogröße für Online-Formulare: KB-Limit, Pixel und Formate", "text": "So lesen Sie eine Größenvorgabe und bringen ein Foto unter 20 KB, 50 KB oder 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Jeder Ratgeber beantwortet eine praktische Frage in verständlicher Sprache, mit Schritten, die Sie in wenigen Minuten umsetzen können. Sie sind für Menschen geschrieben, die einfach wollen, dass ein Bild von einem Formular, einer Website oder einer Nachricht akzeptiert wird, nicht für Foto-Profis.",
+        "Haben Sie es eilig, öffnen Sie das kostenlose Bildgrößen-Tool und kommen Sie zu einem Ratgeber zurück, wenn Sie verstehen möchten, warum eine Datei zu groß ist oder welches Format Sie wählen sollten. Nichts, was Sie im Tool hinzufügen, wird hochgeladen: Ihre Bilder bleiben auf Ihrem Gerät."
+      ],
+      "faq": {
+        "items": [
+          { "q": "Welchen Ratgeber sollte ich zuerst lesen?", "a": "Beginnen Sie mit dem Ratgeber zum Reduzieren der Bildgröße ohne Qualitätsverlust. Er erklärt die vier wichtigsten Schritte. Lesen Sie danach den Ratgeber zu den Formaten oder den zu Online-Formularen, je nach Ziel." },
+          { "q": "Sind die Ratgeber kostenlos?", "a": "Ja. Alle Ratgeber und Tools sind kostenlos, ohne Konto und ohne Anmeldung." },
+          { "q": "Wie oft werden die Ratgeber aktualisiert?", "a": "Wir aktualisieren sie, wenn sich Formularregeln, Browser oder Dateiformate ändern. Befolgen Sie immer die offiziellen Hinweise der Website, auf der Sie Ihr Foto hochladen." },
+          { "q": "Kann ich das Tool nutzen, während ich lese?", "a": "Ja. Öffnen Sie das Bildgrößen-Tool in einem anderen Tab oder nutzen Sie den Link am Ende jedes Ratgebers." }
+        ]
+      }
     },
     "reduce": {
       "title": "Bildgröße reduzieren ohne Qualitätsverlust - 4 Schritte",

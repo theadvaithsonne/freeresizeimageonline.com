@@ -4,7 +4,8 @@
     "toggleTheme": "Alternar tema de cores",
     "openLanguages": "Escolher idioma",
     "themeDark": "Escuro",
-    "themeLight": "Claro"
+    "themeLight": "Claro",
+    "menu": "Menu"
   },
   "language": {
     "label": "Idioma",

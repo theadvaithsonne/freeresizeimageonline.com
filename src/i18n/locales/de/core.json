@@ -4,7 +4,8 @@
     "toggleTheme": "Farbdesign wechseln",
     "openLanguages": "Sprache wählen",
     "themeDark": "Dunkel",
-    "themeLight": "Hell"
+    "themeLight": "Hell",
+    "menu": "Menü"
   },
   "language": {
     "label": "Sprache",

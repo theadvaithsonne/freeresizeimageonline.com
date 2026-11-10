@@ -6,7 +6,15 @@
     "passport": "Tamaño de foto de pasaporte",
     "social": "Tamaños para redes sociales",
     "convert": "Convertir imágenes",
-    "compress": "Comprimir imágenes"
+    "compress": "Comprimir imágenes",
+    "kb20": "Reducir a 20 KB",
+    "kb50": "Reducir a 50 KB",
+    "kb100": "Reducir a 100 KB",
+    "kb200": "Reducir a 200 KB",
+    "signature": "Redimensionar firma",
+    "pngToJpg": "PNG a JPG",
+    "jpgToPng": "JPG a PNG",
+    "webpToJpg": "WebP a JPG"
   },
   "common": {
     "howTo": "Cómo usarlo",
@@ -50,7 +58,8 @@
         { "q": "¿Cómo consigo que una imagen pese menos de 50 KB?", "a": "Activa Limitar el tamaño del archivo, escribe el número y pulsa Redimensionar imágenes. La herramienta baja la calidad y, si hace falta, las dimensiones hasta que el archivo quepa. Elige JPG o WebP para obtener los mejores resultados, porque PNG no se puede reducir de esa manera." },
         { "q": "¿Funciona en mi móvil?", "a": "Sí. La página funciona en las versiones actuales de Chrome, Safari, Firefox y Edge en móviles, tabletas y computadoras. Las fotos muy grandes pueden dar problemas en móviles antiguos." }
       ]
-    }
+    },
+    "popular": { "title": "Tareas populares" }
   },
   "kb": {
     "title": "Reducir imagen a 20KB, 50KB, 100KB o 200KB - Gratis",
@@ -75,7 +84,13 @@
         { "q": "¿Puedo reducir muchas fotos al mismo límite?", "a": "Sí. Añádelas todas, fija el límite una sola vez y descárgalas juntas en un archivo ZIP." },
         { "q": "¿Mi foto se sube a un servidor?", "a": "No. Todo ocurre en tu navegador, así que tu foto nunca sale de tu dispositivo." }
       ]
-    }
+    },
+    "blurb": "Reduce una foto a un tamaño exacto en KB.",
+    "detailsTitle": "Cómo funciona el límite de tamaño de archivo",
+    "details": [
+      "Al fijar un límite, la herramienta busca la mayor calidad de JPG o WebP que deja el archivo por debajo de ese número. Si el límite es muy pequeño, también reduce la imagen, en pasos pequeños, hasta que cabe. Ves el tamaño final en KB antes de descargar.",
+      "Los límites más habituales son 20 KB para firmas y fotos pequeñas, 50 KB y 100 KB para fotos de pasaporte y formularios de solicitud, y de 200 KB a 500 KB para cargas de visa y KYC. Hay páginas dedicadas a 20 KB, 50 KB, 100 KB y 200 KB."
+    ]
   },
   "cm": {
     "title": "Redimensionar imagen en cm, mm o pulgadas - Gratis",
@@ -100,7 +115,13 @@
         { "q": "¿Se imprimirá exactamente con este tamaño?", "a": "La herramienta fija el tamaño en píxeles que corresponde a tu medida con los DPI que elijas. Imprime la imagen a su tamaño real, o con esos DPI, para obtener la medida que pediste." },
         { "q": "¿Qué tamaño tiene una foto de 4 x 6 pulgadas?", "a": "A 300 DPI, 4 x 6 pulgadas son 1200 x 1800 píxeles." }
       ]
-    }
+    },
+    "blurb": "Fija una imagen a un tamaño exacto en cm, mm o pulgadas.",
+    "detailsTitle": "Por qué los centímetros necesitan DPI",
+    "details": [
+      "Una imagen está hecha de píxeles, y un centímetro o una pulgada es una longitud física. Los DPI (puntos por pulgada) unen las dos cosas: a 300 DPI una pulgada son 300 píxeles, así que una foto de 3,5 por 4,5 cm mide unos 413 por 531 píxeles. Las impresoras y muchos formularios usan 300 DPI.",
+      "Elige cm, mm o pulgadas, escribe el tamaño que pide tu formulario y deja los DPI en 300 salvo que las instrucciones digan otra cosa. La herramienta calcula los píxeles por ti y puede recortar la imagen para llenar la forma exacta."
+    ]
   },
   "passport": {
     "title": "Tamaño de foto de pasaporte y visa por país - Gratis",
@@ -127,7 +148,13 @@
         { "q": "¿Puedo usarlo para una foto de visa?", "a": "Sí, si el requisito de la visa coincide con alguno de los tamaños. Muchas visas usan el mismo tamaño que el pasaporte, pero algunos países tienen el suyo, así que revisa siempre las normas oficiales." },
         { "q": "¿Cuántos píxeles tiene una foto de pasaporte?", "a": "A 300 DPI, 35 x 45 mm son 413 x 531 píxeles y 2 x 2 pulgadas son 600 x 600 píxeles." }
       ]
-    }
+    },
+    "blurb": "Ajusta fotos a los tamaños habituales de pasaporte y visa.",
+    "detailsTitle": "Revisa las normas oficiales",
+    "details": [
+      "Las normas de las fotos de pasaporte, visa y documento las fija cada país y cambian de vez en cuando. Los tamaños de esta página son valores habituales y un punto de partida, no una garantía de que la foto sea aceptada.",
+      "Además del tamaño en milímetros o píxeles, las autoridades suelen especificar la altura de la cabeza, el color del fondo, la iluminación y el tamaño del archivo. Esta herramienta redimensiona y recorta tu foto; no comprueba esas normas, así que lee las instrucciones oficiales antes de enviarla."
+    ]
   },
   "social": {
     "title": "Tamaños de imagen para redes sociales - Instagram, YouTube",
@@ -153,7 +180,13 @@
         { "q": "¿Qué tamaño debe tener una miniatura de YouTube?", "a": "1280 x 720 píxeles, con un archivo de menos de 2 MB." },
         { "q": "¿Se recortará mi imagen?", "a": "Con Recortar para llenar se conserva el centro de la imagen y se recortan los bordes que no caben. Elige Ajustar dentro del cuadro si prefieres conservarlo todo." }
       ]
-    }
+    },
+    "blurb": "Ajusta imágenes a Instagram, YouTube, Facebook y más.",
+    "detailsTitle": "Los tamaños cambian, las proporciones duran",
+    "details": [
+      "Las plataformas actualizan sus tamaños recomendados de vez en cuando, pero las proporciones casi no cambian: 1:1 y 4:5 para publicaciones del feed, 9:16 para historias y reels, y 16:9 para miniaturas y portadas de video.",
+      "Sube la imagen con el tamaño en píxeles recomendado o mayor. Las plataformas vuelven a comprimir cada imagen, así que partir de una imagen limpia y nítida da el mejor resultado final. Elige Recortar para llenar el cuadro para evitar las barras negras."
+    ]
   },
   "convert": {
     "title": "Convertir imágenes JPG, PNG y WebP - Convertidor gratis",
@@ -177,7 +210,13 @@
         { "q": "¿Se pierde calidad al convertir?", "a": "La salida en PNG no pierde calidad. JPG y WebP sí comprimen con pérdida, pero con calidad alta la diferencia casi no se nota. Puedes elegir tú la calidad." },
         { "q": "¿Puedo convertir fotos HEIC de mi iPhone?", "a": "Todavía no, porque la mayoría de los navegadores no pueden abrir archivos HEIC. En tu iPhone puedes poner Formatos de cámara en Más compatible, o compartir la foto como JPG." }
       ]
-    }
+    },
+    "blurb": "Cambia imágenes entre JPG, PNG y WebP.",
+    "detailsTitle": "¿Qué formato conviene elegir?",
+    "details": [
+      "Elige JPG para fotos y para formularios que piden JPG, PNG para logotipos, capturas de pantalla e imágenes con zonas transparentes, y WebP cuando quieras el archivo más pequeño para un sitio web.",
+      "Convertir no añade detalle. Pasar un JPG pequeño a PNG da un archivo más grande con la misma imagen, y pasar un PNG a JPG rellena de blanco las zonas transparentes. Hay páginas dedicadas a convertir PNG a JPG, JPG a PNG y WebP a JPG."
+    ]
   },
   "compress": {
     "title": "Comprimir imagen online - Reducir peso de fotos gratis",
@@ -200,6 +239,273 @@
       "items": [
         { "q": "¿Cuánto pesará menos mi archivo?", "a": "Las fotos recién sacadas con el móvil suelen reducirse entre un 60 y un 90 por ciento. Las imágenes que ya están comprimidas se reducen menos." },
         { "q": "¿Puedo comprimir muchas imágenes a la vez?", "a": "Sí. Añádelas todas y descarga un único archivo ZIP." }
+      ]
+    },
+    "blurb": "Haz tus fotos más ligeras sin pérdida visible.",
+    "detailsTitle": "Cómo funciona la compresión",
+    "details": [
+      "JPG y WebP comprimen quitando detalles que el ojo apenas nota. Bajar la calidad de 100 a 80 suele reducir el archivo en más de la mitad casi sin cambio visible, mientras que bajar mucho de 60 empieza a mostrar bloques y manchas.",
+      "El mayor ahorro suele venir de reducir el número de píxeles. Una foto de 4000 píxeles de ancho que se muestra a 1000 píxeles desperdicia la mayor parte de sus datos, así que primero redimensiona y después comprime."
+    ]
+  },
+  "navGroups": {
+    "tools": "Herramientas",
+    "sizes": "Límites de tamaño",
+    "convert": "Convertidores"
+  },
+  "kb20": {
+    "title": "Reducir imagen a 20KB online - Redimensionar foto gratis",
+    "description": "Reduce una foto o una firma a 20 KB o menos en tu navegador. Gratis, sin registro y tu imagen nunca sale de tu dispositivo.",
+    "h1": "Reducir imagen a 20 KB",
+    "intro": "Un límite de 20 KB es habitual para fotos de pasaporte pequeñas y firmas en formularios de exámenes, empleo y trámites oficiales. Añade tu imagen y la herramienta baja la calidad paso a paso, y reduce las dimensiones solo si hace falta, hasta que el archivo pese menos de 20 KB (20 000 bytes).",
+    "blurb": "Foto o firma de menos de 20 KB.",
+    "steps": [
+      { "title": "Añade tu imagen", "text": "Arrástrala aquí o elígela desde tu móvil o computadora. Funcionan JPG, PNG y WebP." },
+      { "title": "Revisa el límite de 20 KB", "text": "El límite de 20 KB ya viene seleccionado. Si tu formulario pide otro tamaño, cámbialo en la lista Ajuste predefinido." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes, revisa el resultado y descarga el JPG." }
+    ],
+    "tipsTitle": "Consejos para una foto de 20 KB",
+    "tips": [
+      "Recorta primero muy ajustado alrededor de la cara o de la firma. Menos espacio vacío significa un archivo más pequeño con la misma nitidez.",
+      "Un fondo liso, blanco o claro, comprime mucho mejor que uno con muchos detalles.",
+      "Si el formulario también pide píxeles exactos, escríbelos en Tamaño y deja activado el límite de tamaño de archivo.",
+      "Revisa siempre las instrucciones oficiales de tu formulario. Los límites para fotos y firmas cambian según el examen o el portal."
+    ],
+    "detailsTitle": "Cómo se ve una imagen de 20 KB",
+    "details": [
+      "20 KB es muy poco, más o menos lo que pesa un archivo de texto corto. Una foto de 200 por 230 píxeles suele caber en 20 KB como JPG, mientras que una foto grande de móvil de 4000 por 3000 píxeles tiene que reducirse mucho antes. La herramienta hace los dos pasos por ti: baja la calidad del JPG y, solo cuando hace falta, reduce el número de píxeles.",
+      "Las firmas y los escaneos sencillos comprimen muy bien porque casi todo es papel blanco. Las fotos de caras con pelo muy detallado o con un fondo con dibujos necesitan más datos, así que para esas quizá te convenga un límite de 50 KB."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cómo reduzco una foto a 20 KB?", "a": "Añade la foto, deja seleccionado el límite de 20 KB y pulsa Redimensionar imágenes. La herramienta busca la mayor calidad de JPG que cabe en 20 KB y reduce las dimensiones solo si eso no basta." },
+        { "q": "¿20 KB son lo mismo que 20 000 bytes?", "a": "Aquí sí. Algunos sistemas cuentan 1 KB como 1024 bytes, así que un archivo de menos de 20 000 bytes queda por debajo del límite de las dos formas." },
+        { "q": "¿Puedo usarlo para una firma?", "a": "Sí. Firma con un bolígrafo oscuro sobre papel blanco, fotografíala con buena luz, recorta ajustado a la firma y redimensiónala a 20 KB. También hay una página aparte para redimensionar firmas." },
+        { "q": "¿Se sube mi foto?", "a": "No. Todo ocurre en tu navegador, así que la imagen se queda en tu dispositivo." }
+      ]
+    }
+  },
+  "kb50": {
+    "title": "Reducir imagen a 50KB online - Redimensionar foto gratis",
+    "description": "Comprime una foto a 50 KB o menos para formularios de exámenes, portales de empleo y carga de documentos. Gratis, privado y en tu navegador.",
+    "h1": "Reducir imagen a 50 KB",
+    "intro": "50 KB es uno de los límites más pedidos para fotos tamaño pasaporte en formularios de solicitud en línea. Esta página fija el límite por ti: añade tu foto y descarga un JPG de menos de 50 KB (50 000 bytes) que se sigue viendo nítido.",
+    "blurb": "Foto de menos de 50 KB para formularios y portales.",
+    "steps": [
+      { "title": "Añade tu foto", "text": "Arrástrala aquí o elígela desde tu dispositivo. Las fotos de móvil de varios MB no son problema." },
+      { "title": "Mantén el límite de 50 KB", "text": "50 KB ya viene seleccionado. Si el formulario también indica píxeles, por ejemplo 200 por 230, escríbelos primero en Tamaño." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes y descarga el JPG. El resultado muestra su tamaño exacto en KB." }
+    ],
+    "tipsTitle": "Consejos para quedarte por debajo de 50 KB",
+    "tips": [
+      "Las fotos con fondo liso llegan a 50 KB con mucha más calidad que las de fondo recargado.",
+      "Escribe primero el tamaño en píxeles que pide el formulario y después usa el límite de 50 KB. Una imagen pequeña es fácil de ajustar.",
+      "Si el portal dice que el archivo es demasiado grande, prueba con 45 KB. Algunos sistemas cuentan de otra manera.",
+      "No agrandes una foto pequeña. El archivo pesa más sin ganar detalle."
+    ],
+    "detailsTitle": "Por qué 50 KB funciona bien para fotos",
+    "details": [
+      "Con 50 KB, una foto estilo pasaporte de unos 200 por 230 píxeles conserva una cara clara y bordes limpios. Las imágenes más grandes, como de 600 por 800 píxeles, también pueden caber en 50 KB si el fondo es liso, pero pueden verse más suaves.",
+      "La herramienta prueba la mayor calidad que cabe. Ves el tamaño del resultado antes de descargar, y puedes cambiar el límite y repetirlo sin añadir la foto dos veces."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cómo comprimir una foto a 50 KB sin perder calidad?", "a": "No se pueden conservar todos los detalles, pero sí la calidad visible. La herramienta primero baja poco a poco la calidad del JPG y solo después reduce el tamaño de la imagen, así que obtienes el resultado más nítido que cabe." },
+        { "q": "¿Qué formato uso para una foto de 50 KB?", "a": "JPG. Da los archivos más pequeños para fotos y lo aceptan casi todos los portales." },
+        { "q": "¿La foto pesará exactamente 50 KB?", "a": "Pesará 50 KB o menos. La herramienta apunta justo por debajo del límite para que el archivo pase en cualquier sistema." },
+        { "q": "¿Guardan mi foto?", "a": "No. La imagen se procesa en tu dispositivo y nunca se sube." }
+      ]
+    }
+  },
+  "kb100": {
+    "title": "Reducir imagen a 100KB online - Comprimir foto gratis",
+    "description": "Reduce una imagen a 100 KB o menos para solicitudes de empleo, KYC y carga de documentos. Gratis, privado y sin registro.",
+    "h1": "Reducir imagen a 100 KB",
+    "intro": "100 KB es un límite habitual para fotos de solicitudes, documentos de identidad escaneados y fotos de perfil. Añade tu imagen y obtén un JPG de menos de 100 KB (100 000 bytes) con la mayor calidad que cabe.",
+    "blurb": "Imagen de menos de 100 KB para solicitudes y KYC.",
+    "steps": [
+      { "title": "Añade tu imagen", "text": "Arrástrala aquí o elígela desde tu dispositivo. Sirven tanto fotos como escaneos." },
+      { "title": "Mantén el límite de 100 KB", "text": "100 KB ya viene seleccionado. Si tu formulario pide píxeles o centímetros exactos, fíjalos primero." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes y descarga el resultado. Puedes cambiar el límite y repetirlo." }
+    ],
+    "tipsTitle": "Consejos para una imagen de 100 KB",
+    "tips": [
+      "En documentos escaneados, escanea a 150 o 200 DPI. Una resolución mayor solo aumenta el tamaño del archivo.",
+      "Elige JPG para fotos y escaneos. Usa PNG solo para logotipos y gráficos planos.",
+      "Si el texto de un documento escaneado se ve borroso, sube el límite a 200 KB en lugar de bajar más la calidad.",
+      "Recorta los márgenes vacíos antes de redimensionar."
+    ],
+    "detailsTitle": "Fotos y documentos con 100 KB",
+    "details": [
+      "100 KB deja espacio para una foto nítida de unos 400 por 500 píxeles, o para un escaneo legible de una página de documento. Es el doble de espacio que un límite de 50 KB, así que las caras y el texto impreso se ven claramente más nítidos.",
+      "Los bordes del texto son lo primero que sufre con la compresión. Revisa el resultado al 100 por ciento de zoom y, si un documento cuesta leer, prueba con el límite de 200 KB."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cómo comprimo una imagen a 100 KB?", "a": "Añade la imagen, deja el límite de 100 KB y pulsa Redimensionar imágenes. La herramienta encuentra la mejor calidad de JPG que cabe." },
+        { "q": "¿Puedo comprimir un PDF a 100 KB aquí?", "a": "No. Esta herramienta trabaja con imágenes (JPG, PNG, WebP, GIF y BMP). Guarda o fotografía antes la página como imagen." },
+        { "q": "¿Se ve bien con 100 KB?", "a": "Para fotos de caras y documentos, normalmente sí. Las imágenes con mucho detalle, como paisajes grandes, pueden verse más suaves." },
+        { "q": "¿Es gratis y privado?", "a": "Sí. No hay registro ni marca de agua, y tus archivos nunca salen de tu dispositivo." }
+      ]
+    }
+  },
+  "kb200": {
+    "title": "Reducir imagen a 200KB online - Comprimir foto gratis",
+    "description": "Comprime una imagen a 200 KB o menos para visa, KYC y portales del gobierno. Gratis, privado y funciona en tu navegador.",
+    "h1": "Reducir imagen a 200 KB",
+    "intro": "200 KB es un límite máximo típico para fotos de visa, documentos KYC y cargas en portales del gobierno. Añade tu imagen y descarga un JPG de menos de 200 KB (200 000 bytes) que conserva el mayor detalle posible.",
+    "blurb": "Imagen de menos de 200 KB para visa y portales del gobierno.",
+    "steps": [
+      { "title": "Añade tu imagen", "text": "Arrástrala aquí o elígela desde tu dispositivo. Las fotos grandes de móvil no son problema." },
+      { "title": "Mantén el límite de 200 KB", "text": "200 KB ya viene seleccionado. ¿Necesitas otro límite? Elige uno distinto en la lista Ajuste predefinido." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes y descarga el JPG. El resultado muestra su tamaño exacto." }
+    ],
+    "tipsTitle": "Consejos para una imagen de 200 KB",
+    "tips": [
+      "Muchos portales también fijan un tamaño mínimo. Si rechazan un archivo muy pequeño, sube el límite e inténtalo de nuevo.",
+      "Escribe las dimensiones que pide el portal, en píxeles, antes de aplicar el límite de 200 KB.",
+      "Conserva el original y guarda la copia redimensionada con otro nombre.",
+      "Las fotos con texto nítido, como los documentos de identidad, se ven mejor en JPG con calidad alta."
+    ],
+    "detailsTitle": "Cuándo bastan 200 KB",
+    "details": [
+      "200 KB es mucho para una foto: una imagen de unos 800 por 1000 píxeles suele caber con poca pérdida visible. Los escaneos de documentos de identidad y certificados también se siguen leyendo bien con este tamaño si se escanearon con una resolución moderada.",
+      "Si la foto de tu móvil pesa varios MB, la herramienta la reduce por ti. Elige la mayor calidad que cabe dentro del límite, así que no tienes que adivinar ningún ajuste."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cómo reduzco una imagen a 200 KB?", "a": "Añade la imagen, deja el límite de 200 KB y pulsa Redimensionar imágenes. La herramienta elige la mejor calidad de JPG que cabe." },
+        { "q": "¿Qué diferencia hay entre 200 KB y 2 MB?", "a": "2 MB es unas diez veces más. 200 KB son solo 0,2 MB. Comprueba que la unidad de tu formulario sea KB y no MB." },
+        { "q": "¿Puedo usar PNG con un límite de 200 KB?", "a": "Los archivos PNG no pierden calidad, así que la herramienta solo puede reducir las dimensiones de la imagen para llegar al límite. JPG conserva más detalle con el mismo tamaño de archivo." },
+        { "q": "¿Mis documentos están seguros?", "a": "Sí. Se procesan en tu navegador y nunca se suben, algo importante con documentos de identidad." }
+      ]
+    }
+  },
+  "signature": {
+    "title": "Redimensionar firma online - Foto a 10-20KB gratis",
+    "description": "Redimensiona la imagen de tu firma al tamaño que pide un formulario en línea, como 10 KB o 20 KB y unos píxeles concretos. Gratis y privado.",
+    "h1": "Redimensionar imagen de firma",
+    "intro": "Los formularios en línea suelen pedir una imagen pequeña y clara de tu firma: unos pocos KB y, a menudo, un ancho y un alto fijos. Añade una foto o un escaneo de tu firma y obtén un archivo que cumple tanto el tamaño de archivo como el tamaño en píxeles.",
+    "blurb": "Redimensiona una firma al tamaño de archivo que pide un formulario.",
+    "steps": [
+      { "title": "Añade tu firma", "text": "Fotografía o escanea tu firma sobre papel blanco liso y añade aquí la imagen." },
+      { "title": "Fija el tamaño y el límite", "text": "Escribe el ancho y el alto en píxeles que indica el formulario y elige 10 KB o 20 KB en la lista Ajuste predefinido." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes. Revisa el resultado: la firma debe verse oscura y con los bordes limpios." }
+    ],
+    "tipsTitle": "Consejos para una firma clara",
+    "tips": [
+      "Firma con un bolígrafo azul oscuro o negro sobre papel blanco liso.",
+      "Haz la foto con luz natural y sin sombras, y recorta ajustado a la firma.",
+      "Si el formulario pide un ancho y un alto exactos, recorta primero la imagen a esa forma para que la firma no se estire.",
+      "Guarda como JPG, salvo que el formulario permita PNG."
+    ],
+    "detailsTitle": "¿Cuánto puede reducirse el archivo de una firma?",
+    "details": [
+      "Una firma es casi toda papel blanco, así que comprime mucho mejor que una foto. Los formularios típicos piden de 10 a 20 KB y una imagen de solo unos cientos de píxeles de ancho. La herramienta llega a esos límites sin problema y los trazos siguen siendo legibles.",
+      "Cuando el límite es muy pequeño, como 10 KB, ayuda usar un bolígrafo de trazo grueso: las líneas finas pueden desvanecerse al reducir la imagen."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Qué tamaño debe tener una firma para un formulario en línea?", "a": "Depende del formulario. Muchos piden unos 10 a 20 KB y un ancho y un alto pequeños en píxeles. Sigue siempre los números exactos del aviso oficial." },
+        { "q": "¿Cómo dejo mi firma en 10 KB?", "a": "Añade la firma, elige el límite de 10 KB en la lista Ajuste predefinido y pulsa Redimensionar imágenes." },
+        { "q": "¿Puedo quitar el fondo de papel?", "a": "Esta herramienta redimensiona y comprime; no quita fondos. Usa papel blanco liso para que el resultado se vea limpio." },
+        { "q": "¿Es seguro usar aquí mi firma?", "a": "No se sube nada. La firma se procesa dentro de tu navegador y se queda en tu dispositivo." }
+      ]
+    }
+  },
+  "pngToJpg": {
+    "title": "Convertir PNG a JPG online gratis - Sin subir archivos",
+    "description": "Convierte imágenes PNG a JPG en tu navegador. Gratis, sin registro, sin subir archivos y con la calidad que tú elijas.",
+    "h1": "Convertir PNG a JPG",
+    "intro": "Convierte imágenes PNG en archivos JPG más pequeños en un solo paso. JPG lo aceptan casi en todas partes y pesa mucho menos en las fotos. Añade tus archivos PNG, pulsa el botón y descarga los JPG, o un ZIP con todos.",
+    "blurb": "Convierte archivos PNG en archivos JPG más pequeños.",
+    "steps": [
+      { "title": "Añade tus archivos PNG", "text": "Arrastra una o varias imágenes PNG a la página, o elígelas desde tu dispositivo." },
+      { "title": "Revisa el formato", "text": "JPG ya está seleccionado como formato de salida. Baja la calidad para obtener un archivo más pequeño." },
+      { "title": "Convierte y descarga", "text": "Pulsa Redimensionar imágenes y descarga cada JPG, o todos juntos en un ZIP." }
+    ],
+    "tipsTitle": "Consejos para convertir PNG a JPG",
+    "tips": [
+      "Un PNG puede tener zonas transparentes. JPG no puede, así que las zonas transparentes se vuelven blancas.",
+      "Conserva el PNG original por si más adelante necesitas la transparencia.",
+      "Una calidad de 80 a 90 se ve casi igual que el original en fotos, con un archivo mucho más pequeño.",
+      "Las capturas de pantalla con texto nítido pueden verse un poco borrosas en JPG. Usa una calidad alta con ellas."
+    ],
+    "detailsTitle": "PNG o JPG: ¿qué cambia?",
+    "details": [
+      "PNG conserva cada píxel tal cual, por eso las fotos guardadas como PNG pueden pesar de cinco a diez veces más que la misma foto en JPG. Al convertir a JPG se elimina detalle que el ojo casi no nota y el archivo se reduce.",
+      "La conversión ocurre en tu dispositivo. No se sube nada, así que es seguro para imágenes privadas, y no hay límite en el número de archivos que conviertes."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cómo convierto PNG a JPG?", "a": "Añade tu PNG, comprueba que JPG sea el formato de salida y pulsa Redimensionar imágenes. Descarga el JPG cuando esté listo." },
+        { "q": "¿Se pierde calidad al convertir PNG a JPG?", "a": "Un poco. JPG comprime con pérdida. Con una calidad de 85 o más, la diferencia casi no se nota en las fotos." },
+        { "q": "¿Qué pasa con las zonas transparentes?", "a": "Se rellenan de blanco, porque JPG no admite transparencia." },
+        { "q": "¿Puedo convertir muchos archivos PNG a la vez?", "a": "Sí. Añade los que quieras, hasta 500 a la vez, y descárgalos uno a uno o en un ZIP." }
+      ]
+    }
+  },
+  "jpgToPng": {
+    "title": "Convertir JPG a PNG online gratis - Sin subir archivos",
+    "description": "Convierte imágenes JPG a PNG en tu navegador. Gratis, sin registro, sin subir archivos y sin marcas de agua, en un solo paso.",
+    "h1": "Convertir JPG a PNG",
+    "intro": "¿Necesitas un PNG para un logotipo, una herramienta de diseño o un formulario que no acepta JPG? Añade tus archivos JPG y descarga archivos PNG sin pérdida en un solo paso. Todo se hace en tu navegador.",
+    "blurb": "Convierte archivos JPG en archivos PNG sin pérdida.",
+    "steps": [
+      { "title": "Añade tus archivos JPG", "text": "Arrastra una o varias imágenes JPG a la página, o elígelas desde tu dispositivo." },
+      { "title": "Revisa el formato", "text": "PNG ya está seleccionado como formato de salida." },
+      { "title": "Convierte y descarga", "text": "Pulsa Redimensionar imágenes y descarga cada PNG, o todos juntos en un ZIP." }
+    ],
+    "tipsTitle": "Consejos para convertir JPG a PNG",
+    "tips": [
+      "Convertir a PNG no añade detalle. Un JPG borroso sigue borroso.",
+      "Los PNG de fotos son grandes. Si solo necesitas un archivo más pequeño, elige JPG o WebP.",
+      "Un JPG no tiene transparencia, así que el PNG tampoco será transparente. Para conseguir un logotipo transparente, quita el fondo en un editor de imágenes y guárdalo como PNG.",
+      "PNG es la mejor opción para capturas de pantalla, logotipos y gráficos con bordes nítidos o texto."
+    ],
+    "detailsTitle": "¿Por qué convertir JPG a PNG?",
+    "details": [
+      "PNG no pierde calidad: una vez que tu imagen es un PNG, volver a guardarla no la empeora, a diferencia de un JPG, que pierde un poco en cada guardado. Eso hace de PNG un formato de trabajo seguro para editar.",
+      "Algunos sitios web, herramientas de diseño e imprentas piden PNG. El convertidor crea archivos PNG estándar que funcionan en todas partes, sin marcas de agua ni registro."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cómo convierto JPG a PNG?", "a": "Añade tu JPG, comprueba que PNG sea el formato de salida y pulsa Redimensionar imágenes. Descarga el PNG cuando esté listo." },
+        { "q": "¿El PNG pesará más que el JPG?", "a": "Normalmente sí, a menudo varias veces más en las fotos, porque PNG conserva todos los detalles." },
+        { "q": "¿Mejora la calidad al convertir JPG a PNG?", "a": "No. Evita que se pierda más calidad, pero no puede recuperar el detalle que la compresión del JPG ya eliminó." },
+        { "q": "¿Se suben mis archivos?", "a": "No. La conversión se hace en tu navegador y tus imágenes nunca salen de tu dispositivo." }
+      ]
+    }
+  },
+  "webpToJpg": {
+    "title": "Convertir WebP a JPG online gratis - Sin subir archivos",
+    "description": "Convierte imágenes WebP a JPG en tu navegador. Gratis, sin registro, sin subir archivos y funciona en móviles y computadoras.",
+    "h1": "Convertir WebP a JPG",
+    "intro": "Muchos sitios web guardan las imágenes en WebP, pero numerosos programas, impresoras y formularios de carga solo aceptan JPG. Añade tus imágenes WebP y descarga archivos JPG que se abren en cualquier parte.",
+    "blurb": "Convierte imágenes WebP en JPG que se abren en cualquier parte.",
+    "steps": [
+      { "title": "Añade tus archivos WebP", "text": "Arrastra una o varias imágenes WebP a la página, o elígelas desde tu móvil o computadora." },
+      { "title": "Revisa el formato", "text": "JPG ya está seleccionado como formato de salida. Elige una calidad si quieres un archivo más pequeño." },
+      { "title": "Convierte y descarga", "text": "Pulsa Redimensionar imágenes y descarga cada JPG, o todos juntos en un ZIP." }
+    ],
+    "tipsTitle": "Consejos para convertir WebP a JPG",
+    "tips": [
+      "Las imágenes WebP transparentes reciben un fondo blanco al pasar a JPG.",
+      "Usa una calidad de 85 a 92 para un buen equilibrio entre tamaño y nitidez.",
+      "Si el WebP es animado, se convierte el primer fotograma.",
+      "Si un sitio web ya comprimió tu imagen como WebP, volver a convertirla no recupera la calidad perdida."
+    ],
+    "detailsTitle": "¿Por qué convertir WebP a JPG?",
+    "details": [
+      "WebP es un formato moderno que crea archivos más pequeños, pero no lo aceptan en todas partes. Los editores de fotos antiguos, algunas impresoras, los programas de correo y muchos portales de empleo y de gobierno solo aceptan JPG.",
+      "Convertir es rápido y privado: la imagen se procesa en tu dispositivo y no se envía nada a un servidor."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Puedo convertir WebP a JPG en el móvil?", "a": "Sí. Funciona en el navegador de cualquier móvil moderno, sin instalar ninguna app." },
+        { "q": "¿Por qué los sitios web guardan las imágenes como WebP?", "a": "Los archivos WebP pesan menos que los JPG con una calidad parecida, y así las páginas cargan más rápido." },
+        { "q": "¿La calidad es la misma después de convertir?", "a": "Casi. Los dos formatos comprimen con pérdida, así que con una calidad JPG alta la imagen se ve igual." },
+        { "q": "¿Es gratis?", "a": "Sí. No hay registro ni marca de agua, y no hay límite en el número de imágenes." }
       ]
     }
   }

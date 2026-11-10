@@ -16,7 +16,19 @@
         { "title": "Comment réduire le poids d'une image sans perdre en qualité", "text": "Les quatre étapes qui comptent, dans le bon ordre, et les erreurs qui rendent les fichiers plus lourds ou plus flous." },
         { "title": "JPG, PNG ou WebP : quel format choisir ?", "text": "Les points forts et les limites de chaque format, et une méthode simple pour choisir." },
         { "title": "Taille de photo pour les formulaires en ligne : limites en KB, pixels et formats", "text": "Comment lire une exigence de taille et comment obtenir une photo de moins de 20 KB, 50 KB ou 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Chaque guide répond à une question pratique, en langage simple, avec des étapes que vous pouvez suivre en quelques minutes. Ils s'adressent à celles et ceux qui veulent simplement qu'une image soit acceptée par un formulaire, un site web ou une messagerie, pas aux experts de la photo.",
+        "Si vous êtes pressé, ouvrez l'outil gratuit de redimensionnement d'images et revenez à un guide quand vous voudrez comprendre pourquoi un fichier est trop lourd ou quel format choisir. Rien de ce que vous ajoutez à l'outil n'est envoyé : vos images restent sur votre appareil."
+      ],
+      "faq": {
+        "items": [
+          { "q": "Quel guide dois-je lire en premier ?", "a": "Commencez par le guide sur la réduction du poids d'une image sans perdre en qualité. Il explique les quatre étapes les plus importantes. Lisez ensuite le guide sur les formats ou celui sur les formulaires en ligne, selon votre objectif." },
+          { "q": "Les guides sont-ils gratuits ?", "a": "Oui. Tous les guides et tous les outils sont gratuits, sans compte et sans inscription." },
+          { "q": "À quelle fréquence les guides sont-ils mis à jour ?", "a": "Nous les mettons à jour quand les règles des formulaires, les navigateurs ou les formats de fichier changent. Suivez toujours les consignes officielles du site où vous envoyez votre photo." },
+          { "q": "Puis-je utiliser l'outil pendant que je lis ?", "a": "Oui. Ouvrez l'outil de redimensionnement dans un autre onglet, ou utilisez le lien en bas de chaque guide." }
+        ]
+      }
     },
     "reduce": {
       "title": "Comment réduire le poids d'une image sans perdre en qualité",

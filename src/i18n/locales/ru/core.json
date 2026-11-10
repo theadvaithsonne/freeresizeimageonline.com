@@ -4,7 +4,8 @@
     "toggleTheme": "Сменить цветовую тему",
     "openLanguages": "Выбрать язык",
     "themeDark": "Тёмная",
-    "themeLight": "Светлая"
+    "themeLight": "Светлая",
+    "menu": "Меню"
   },
   "language": {
     "label": "Язык",

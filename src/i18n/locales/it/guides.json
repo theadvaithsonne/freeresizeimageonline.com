@@ -16,7 +16,19 @@
         { "title": "Come ridurre il peso di un'immagine senza perdere qualità", "text": "I quattro passaggi che contano, nell'ordine giusto, e gli errori che rendono i file più pesanti o più sfocati." },
         { "title": "JPG, PNG o WebP: quale formato usare?", "text": "Cosa sa fare bene ogni formato, dove sbaglia e un modo semplice per scegliere." },
         { "title": "Foto per moduli online: peso in KB, dimensioni e formati", "text": "Come leggere un requisito di dimensione e come portare una foto sotto 20 KB, 50 KB o 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Ogni guida risponde a una domanda pratica in modo semplice, con passaggi che puoi seguire in pochi minuti. Sono scritte per chi vuole solo che un'immagine venga accettata da un modulo, da un sito o da un messaggio, non per esperti di fotografia.",
+        "Se hai fretta, apri il ridimensionatore di immagini gratuito e torna a una guida quando vuoi capire perché un file è troppo pesante o quale formato scegliere. Nulla di ciò che aggiungi allo strumento viene caricato: le tue immagini restano sul tuo dispositivo."
+      ],
+      "faq": {
+        "items": [
+          { "q": "Quale guida devo leggere per prima?", "a": "Parti dalla guida su come ridurre il peso di un'immagine senza perdere qualità. Spiega i quattro passaggi che contano di più. Poi leggi la guida sui formati o quella sui moduli online, a seconda del tuo obiettivo." },
+          { "q": "Le guide sono gratuite?", "a": "Sì. Tutte le guide e gli strumenti sono gratuiti, senza account e senza registrazione." },
+          { "q": "Ogni quanto vengono aggiornate le guide?", "a": "Le aggiorniamo quando cambiano le regole dei moduli, i browser o i formati di file. Segui sempre le istruzioni ufficiali del sito dove carichi la tua foto." },
+          { "q": "Posso usare lo strumento mentre leggo?", "a": "Sì. Apri il ridimensionatore di immagini in un'altra scheda, oppure usa il link in fondo a ogni guida." }
+        ]
+      }
     },
     "reduce": {
       "title": "Come ridurre il peso di un'immagine senza perdere qualità",

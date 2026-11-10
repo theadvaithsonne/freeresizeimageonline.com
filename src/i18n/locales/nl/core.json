@@ -4,7 +4,8 @@
     "toggleTheme": "Kleurthema wisselen",
     "openLanguages": "Taal kiezen",
     "themeDark": "Donker",
-    "themeLight": "Licht"
+    "themeLight": "Licht",
+    "menu": "Menu"
   },
   "language": {
     "label": "Taal",

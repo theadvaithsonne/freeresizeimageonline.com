@@ -13,10 +13,43 @@
       "h1": "Handleidingen voor afbeeldingsformaat",
       "intro": "Korte, praktische handleidingen voor de vragen die mensen het vaakst stellen: hoe maak je een afbeelding kleiner zonder dat hij er slechter uitziet, welke bestandsindeling kies je en hoe krijg je een foto door een online formulier met een strenge groottelimiet.",
       "items": [
-        { "title": "Afbeelding verkleinen zonder kwaliteitsverlies", "text": "De vier stappen die ertoe doen, in de juiste volgorde, en de fouten waardoor bestanden groter of waziger worden." },
-        { "title": "JPG, PNG of WebP: welke indeling kies je?", "text": "Waar elke indeling goed in is, waar hij tekortschiet en een eenvoudige manier om te kiezen." },
-        { "title": "Fotoformaat voor online formulieren: KB, pixels en indeling", "text": "Zo lees je een eis voor de grootte en zo krijg je een foto onder 20 KB, 50 KB of 200 KB." }
-      ]
+        {
+          "title": "Afbeelding verkleinen zonder kwaliteitsverlies",
+          "text": "De vier stappen die ertoe doen, in de juiste volgorde, en de fouten waardoor bestanden groter of waziger worden."
+        },
+        {
+          "title": "JPG, PNG of WebP: welke indeling kies je?",
+          "text": "Waar elke indeling goed in is, waar hij tekortschiet en een eenvoudige manier om te kiezen."
+        },
+        {
+          "title": "Fotoformaat voor online formulieren: KB, pixels en indeling",
+          "text": "Zo lees je een eis voor de grootte en zo krijg je een foto onder 20 KB, 50 KB of 200 KB."
+        }
+      ],
+      "paragraphs": [
+        "Elke handleiding beantwoordt één praktische vraag in gewone taal, met stappen die je in een paar minuten kunt volgen. Ze zijn geschreven voor mensen die gewoon willen dat een afbeelding door een formulier, een website of een bericht wordt geaccepteerd, niet voor fotoprofessionals.",
+        "Heb je haast, open dan de gratis tool om het formaat van afbeeldingen te wijzigen en kom terug naar een handleiding als je wilt begrijpen waarom een bestand te groot is of welke indeling je moet kiezen. Wat je aan de tool toevoegt, wordt niet geüpload: je afbeeldingen blijven op je apparaat."
+      ],
+      "faq": {
+        "items": [
+          {
+            "q": "Welke handleiding moet ik eerst lezen?",
+            "a": "Begin met de handleiding over afbeeldingen verkleinen zonder kwaliteitsverlies. Die legt de vier stappen uit die het meest uitmaken. Lees daarna de handleiding over indelingen of die over online formulieren, afhankelijk van je doel."
+          },
+          {
+            "q": "Zijn de handleidingen gratis?",
+            "a": "Ja. Alle handleidingen en tools zijn gratis, zonder account en zonder aanmelding."
+          },
+          {
+            "q": "Hoe vaak worden de handleidingen bijgewerkt?",
+            "a": "We werken ze bij als de regels van formulieren, browsers of bestandsindelingen veranderen. Volg altijd de officiële instructies van de site waar je je foto uploadt."
+          },
+          {
+            "q": "Kan ik de tool gebruiken terwijl ik lees?",
+            "a": "Ja. Open de tool in een ander tabblad, of gebruik de link onder aan elke handleiding."
+          }
+        ]
+      }
     },
     "reduce": {
       "title": "Afbeelding verkleinen zonder kwaliteitsverlies in 4 stappen",
@@ -80,9 +113,18 @@
       ],
       "faq": {
         "items": [
-          { "q": "Wordt de kwaliteit slechter als ik een afbeelding kleiner maak?", "a": "Minder pixels houdt een afbeelding scherp als het met een goede methode gebeurt, omdat de details gewoon kleiner worden getoond. Een lagere compressiekwaliteit kost wel details, maar een kleine daling is moeilijk te zien." },
-          { "q": "Hoe klein kan ik een foto maken?", "a": "Dat hangt van de inhoud af. Een portret voor een effen achtergrond kan er in een kleine afmeting prima uitzien met 30 tot 50 KB. Een drukke landschapsfoto heeft veel meer nodig. Probeer Bestandsgrootte beperken en bekijk het resultaat." },
-          { "q": "Is het veilig om privéfoto’s online te verkleinen?", "a": "Hier wordt de afbeelding in je eigen browser verwerkt en nooit geüpload, dus hij verlaat je apparaat niet. Controleer bij andere websites of ze je bestanden uploaden." }
+          {
+            "q": "Wordt de kwaliteit slechter als ik een afbeelding kleiner maak?",
+            "a": "Minder pixels houdt een afbeelding scherp als het met een goede methode gebeurt, omdat de details gewoon kleiner worden getoond. Een lagere compressiekwaliteit kost wel details, maar een kleine daling is moeilijk te zien."
+          },
+          {
+            "q": "Hoe klein kan ik een foto maken?",
+            "a": "Dat hangt van de inhoud af. Een portret voor een effen achtergrond kan er in een kleine afmeting prima uitzien met 30 tot 50 KB. Een drukke landschapsfoto heeft veel meer nodig. Probeer Bestandsgrootte beperken en bekijk het resultaat."
+          },
+          {
+            "q": "Is het veilig om privéfoto’s online te verkleinen?",
+            "a": "Hier wordt de afbeelding in je eigen browser verwerkt en nooit geüpload, dus hij verlaat je apparaat niet. Controleer bij andere websites of ze je bestanden uploaden."
+          }
         ]
       }
     },
@@ -144,9 +186,18 @@
       ],
       "faq": {
         "items": [
-          { "q": "Is WebP beter dan JPG?", "a": "Voor de bestandsgrootte op websites meestal wel. Voor compatibiliteit niet: JPG werkt overal. Gebruik WebP als je weet dat het wordt geaccepteerd en JPG als je het niet zeker weet." },
-          { "q": "Waarom is mijn PNG zoveel groter dan de JPG?", "a": "PNG bewaart elk detail. Een foto heeft miljoenen kleine kleurverschillen, dus een verliesvrij bestand is groot. Voor foto’s zijn JPG of WebP de juiste indelingen." },
-          { "q": "Kan ik een WebP omzetten naar JPG?", "a": "Ja. Voeg het WebP-bestand toe, kies JPG als indeling en download het resultaat. Transparante gebieden worden wit." }
+          {
+            "q": "Is WebP beter dan JPG?",
+            "a": "Voor de bestandsgrootte op websites meestal wel. Voor compatibiliteit niet: JPG werkt overal. Gebruik WebP als je weet dat het wordt geaccepteerd en JPG als je het niet zeker weet."
+          },
+          {
+            "q": "Waarom is mijn PNG zoveel groter dan de JPG?",
+            "a": "PNG bewaart elk detail. Een foto heeft miljoenen kleine kleurverschillen, dus een verliesvrij bestand is groot. Voor foto’s zijn JPG of WebP de juiste indelingen."
+          },
+          {
+            "q": "Kan ik een WebP omzetten naar JPG?",
+            "a": "Ja. Voeg het WebP-bestand toe, kies JPG als indeling en download het resultaat. Transparante gebieden worden wit."
+          }
         ]
       }
     },
@@ -211,9 +262,18 @@
       ],
       "faq": {
         "items": [
-          { "q": "Hoeveel KB is 1 MB?", "a": "Eén MB is ongeveer 1.000 KB (sommige systemen gebruiken 1.024). Een limiet van 200 KB is dus een vijfde van een megabyte." },
-          { "q": "Kan ik een foto gebruiken die ik met mijn telefoon heb gemaakt?", "a": "Ja. Foto’s van een telefoon zijn groot, maar de tool verkleint ze tot de gevraagde grootte. Maak de foto bij goed licht met een effen achtergrond." },
-          { "q": "Wordt mijn foto naar jullie server geüpload?", "a": "Nee. De tool draait in je browser, dus de foto blijft op je apparaat totdat je hem zelf in het formulier uploadt." }
+          {
+            "q": "Hoeveel KB is 1 MB?",
+            "a": "Eén MB is ongeveer 1.000 KB (sommige systemen gebruiken 1.024). Een limiet van 200 KB is dus een vijfde van een megabyte."
+          },
+          {
+            "q": "Kan ik een foto gebruiken die ik met mijn telefoon heb gemaakt?",
+            "a": "Ja. Foto’s van een telefoon zijn groot, maar de tool verkleint ze tot de gevraagde grootte. Maak de foto bij goed licht met een effen achtergrond."
+          },
+          {
+            "q": "Wordt mijn foto naar jullie server geüpload?",
+            "a": "Nee. De tool draait in je browser, dus de foto blijft op je apparaat totdat je hem zelf in het formulier uploadt."
+          }
         ]
       }
     }

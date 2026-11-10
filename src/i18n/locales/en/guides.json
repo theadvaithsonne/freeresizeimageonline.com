@@ -13,10 +13,43 @@
       "h1": "Image size guides",
       "intro": "Short, practical guides for the questions people ask most: how to make a picture smaller without making it look worse, which file format to choose, and how to get a photo through an online form that has a strict size limit.",
       "items": [
-        { "title": "How to reduce image size without losing quality", "text": "The four steps that matter, in the right order, and the mistakes that make files bigger or blurrier." },
-        { "title": "JPG, PNG or WebP: which format should you use?", "text": "What each format is good at, where each one fails, and a simple way to choose." },
-        { "title": "Photo size for online forms: KB limits, pixels and formats", "text": "How to read a size requirement and how to get a photo under 20 KB, 50 KB or 200 KB." }
-      ]
+        {
+          "title": "How to reduce image size without losing quality",
+          "text": "The four steps that matter, in the right order, and the mistakes that make files bigger or blurrier."
+        },
+        {
+          "title": "JPG, PNG or WebP: which format should you use?",
+          "text": "What each format is good at, where each one fails, and a simple way to choose."
+        },
+        {
+          "title": "Photo size for online forms: KB limits, pixels and formats",
+          "text": "How to read a size requirement and how to get a photo under 20 KB, 50 KB or 200 KB."
+        }
+      ],
+      "paragraphs": [
+        "Each guide answers one practical question in plain language, with steps you can follow in a few minutes. They are written for people who just want a picture to be accepted by a form, a website or a message, not for photo experts.",
+        "If you are in a hurry, open the free image resizer and come back to a guide when you want to understand why a file is too big or which format to choose. Nothing you add to the tool is uploaded: your pictures stay on your device."
+      ],
+      "faq": {
+        "items": [
+          {
+            "q": "Which guide should I read first?",
+            "a": "Start with the guide on reducing image size without losing quality. It explains the four steps that matter most. Then read the guide on formats or the one on online forms, depending on your goal."
+          },
+          {
+            "q": "Are the guides free?",
+            "a": "Yes. All guides and tools are free, with no account and no signup."
+          },
+          {
+            "q": "How often are the guides updated?",
+            "a": "We update them when form rules, browsers or file formats change. Always follow the official instructions of the site where you upload your photo."
+          },
+          {
+            "q": "Can I use the tool while I read?",
+            "a": "Yes. Open the image resizer in another tab, or use the link at the bottom of each guide."
+          }
+        ]
+      }
     },
     "reduce": {
       "title": "How to Reduce Image Size Without Losing Quality",
@@ -80,9 +113,18 @@
       ],
       "faq": {
         "items": [
-          { "q": "Does making an image smaller reduce its quality?", "a": "Reducing the number of pixels keeps a picture sharp when it is done with a good resizing method, because the detail is simply shown at a smaller size. Lowering the compression quality loses detail, but a small drop is hard to see." },
-          { "q": "How small can I make a photo?", "a": "It depends on the content. A portrait against a plain background can look fine at 30 to 50 KB when it is small. A busy landscape needs far more. Try the file size limit and look at the result." },
-          { "q": "Is it safe to shrink private photos online?", "a": "Here the picture is processed inside your own browser and never uploaded, so it does not leave your device. With other websites, check whether they upload your files." }
+          {
+            "q": "Does making an image smaller reduce its quality?",
+            "a": "Reducing the number of pixels keeps a picture sharp when it is done with a good resizing method, because the detail is simply shown at a smaller size. Lowering the compression quality loses detail, but a small drop is hard to see."
+          },
+          {
+            "q": "How small can I make a photo?",
+            "a": "It depends on the content. A portrait against a plain background can look fine at 30 to 50 KB when it is small. A busy landscape needs far more. Try the file size limit and look at the result."
+          },
+          {
+            "q": "Is it safe to shrink private photos online?",
+            "a": "Here the picture is processed inside your own browser and never uploaded, so it does not leave your device. With other websites, check whether they upload your files."
+          }
         ]
       }
     },
@@ -144,9 +186,18 @@
       ],
       "faq": {
         "items": [
-          { "q": "Is WebP better than JPG?", "a": "For file size on websites, usually yes. For compatibility, no: JPG works everywhere. Use WebP when you know it is accepted, and JPG when you are not sure." },
-          { "q": "Why is my PNG so much bigger than the JPG?", "a": "PNG keeps every detail. A photo has millions of small color differences, so a lossless file is large. For photos, JPG or WebP are the right formats." },
-          { "q": "Can I turn a WebP into a JPG?", "a": "Yes. Add the WebP file, choose JPG as the format and download the result. Any transparent areas become white." }
+          {
+            "q": "Is WebP better than JPG?",
+            "a": "For file size on websites, usually yes. For compatibility, no: JPG works everywhere. Use WebP when you know it is accepted, and JPG when you are not sure."
+          },
+          {
+            "q": "Why is my PNG so much bigger than the JPG?",
+            "a": "PNG keeps every detail. A photo has millions of small color differences, so a lossless file is large. For photos, JPG or WebP are the right formats."
+          },
+          {
+            "q": "Can I turn a WebP into a JPG?",
+            "a": "Yes. Add the WebP file, choose JPG as the format and download the result. Any transparent areas become white."
+          }
         ]
       }
     },
@@ -211,9 +262,18 @@
       ],
       "faq": {
         "items": [
-          { "q": "How many KB is 1 MB?", "a": "One MB is about 1,000 KB (some systems use 1,024). So a limit of 200 KB is a fifth of a megabyte." },
-          { "q": "Can I use a photo taken with my phone?", "a": "Yes. Phone photos are large, but the tool shrinks them to the required size. Take the picture in good light with a plain background." },
-          { "q": "Will my photo be uploaded to your server?", "a": "No. The tool runs in your browser, so the photo stays on your device until you upload it to the form yourself." }
+          {
+            "q": "How many KB is 1 MB?",
+            "a": "One MB is about 1,000 KB (some systems use 1,024). So a limit of 200 KB is a fifth of a megabyte."
+          },
+          {
+            "q": "Can I use a photo taken with my phone?",
+            "a": "Yes. Phone photos are large, but the tool shrinks them to the required size. Take the picture in good light with a plain background."
+          },
+          {
+            "q": "Will my photo be uploaded to your server?",
+            "a": "No. The tool runs in your browser, so the photo stays on your device until you upload it to the form yourself."
+          }
         ]
       }
     }

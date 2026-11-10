@@ -16,7 +16,19 @@
         { "title": "Como reduzir o tamanho de uma imagem sem perder qualidade", "text": "Os quatro passos que importam, na ordem certa, e os erros que deixam o arquivo maior ou mais borrado." },
         { "title": "JPG, PNG ou WebP: qual formato você deve usar?", "text": "No que cada formato é bom, onde cada um falha e um jeito simples de escolher." },
         { "title": "Tamanho de foto para formulários online: limite em KB, pixels e formatos", "text": "Como ler uma exigência de tamanho e como deixar uma foto com menos de 20 KB, 50 KB ou 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Cada guia responde a uma dúvida prática em linguagem simples, com passos que você pode seguir em poucos minutos. Eles foram escritos para quem só quer que uma imagem seja aceita por um formulário, um site ou uma mensagem, não para especialistas em fotografia.",
+        "Se estiver com pressa, abra o redimensionador de imagens grátis e volte a um guia quando quiser entender por que um arquivo está grande demais ou qual formato escolher. Nada do que você adiciona à ferramenta é enviado: suas imagens ficam no seu dispositivo."
+      ],
+      "faq": {
+        "items": [
+          { "q": "Qual guia devo ler primeiro?", "a": "Comece pelo guia sobre como reduzir o tamanho da imagem sem perder qualidade. Ele explica os quatro passos mais importantes. Depois leia o guia sobre formatos ou o de formulários online, conforme o seu objetivo." },
+          { "q": "Os guias são grátis?", "a": "Sim. Todos os guias e ferramentas são grátis, sem conta e sem cadastro." },
+          { "q": "Com que frequência os guias são atualizados?", "a": "Atualizamos quando mudam as regras dos formulários, os navegadores ou os formatos de arquivo. Siga sempre as instruções oficiais do site onde você envia sua foto." },
+          { "q": "Posso usar a ferramenta enquanto leio?", "a": "Sim. Abra o redimensionador de imagens em outra aba ou use o link no fim de cada guia." }
+        ]
+      }
     },
     "reduce": {
       "title": "Como Reduzir o Tamanho de uma Imagem Sem Perder Qualidade",

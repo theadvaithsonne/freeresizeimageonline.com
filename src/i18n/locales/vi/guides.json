@@ -16,7 +16,31 @@
         { "title": "Cách giảm dung lượng ảnh mà không mất chất lượng", "text": "Bốn bước quan trọng theo đúng thứ tự, và những sai lầm khiến tệp nặng hơn hoặc ảnh bị mờ." },
         { "title": "JPG, PNG hay WebP: nên dùng định dạng nào?", "text": "Mỗi định dạng mạnh ở đâu, yếu ở đâu, và một cách đơn giản để chọn." },
         { "title": "Kích thước ảnh khi nộp biểu mẫu online: giới hạn KB, pixel và định dạng", "text": "Cách đọc yêu cầu về kích thước và cách đưa ảnh xuống dưới 20 KB, 50 KB hoặc 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Mỗi hướng dẫn trả lời một câu hỏi thực tế bằng ngôn ngữ dễ hiểu, kèm các bước bạn có thể làm theo trong vài phút. Hướng dẫn được viết cho những người chỉ muốn ảnh của mình được biểu mẫu, website hay tin nhắn chấp nhận, không phải cho dân chuyên về ảnh.",
+        "Nếu đang vội, hãy mở công cụ đổi kích thước ảnh miễn phí và quay lại hướng dẫn khi bạn muốn hiểu vì sao tệp quá nặng hoặc nên chọn định dạng nào. Không có gì bạn thêm vào công cụ bị tải lên: ảnh luôn nằm trên thiết bị của bạn."
+      ],
+      "faq": {
+        "items": [
+          {
+            "q": "Tôi nên đọc hướng dẫn nào trước?",
+            "a": "Hãy bắt đầu với hướng dẫn giảm dung lượng ảnh mà không mất chất lượng. Hướng dẫn này giải thích bốn bước quan trọng nhất. Sau đó đọc hướng dẫn về định dạng hoặc hướng dẫn về biểu mẫu online, tùy mục tiêu của bạn."
+          },
+          {
+            "q": "Các hướng dẫn có miễn phí không?",
+            "a": "Có. Tất cả hướng dẫn và công cụ đều miễn phí, không cần tài khoản và không cần đăng ký."
+          },
+          {
+            "q": "Các hướng dẫn được cập nhật thường xuyên không?",
+            "a": "Chúng tôi cập nhật khi quy định biểu mẫu, trình duyệt hoặc định dạng tệp thay đổi. Hãy luôn làm theo hướng dẫn chính thức của trang web nơi bạn tải ảnh lên."
+          },
+          {
+            "q": "Tôi có thể dùng công cụ trong lúc đọc không?",
+            "a": "Có. Hãy mở công cụ đổi kích thước ảnh ở một tab khác, hoặc dùng liên kết ở cuối mỗi hướng dẫn."
+          }
+        ]
+      }
     },
     "reduce": {
       "title": "Cách giảm dung lượng ảnh mà không mất chất lượng - 4 bước",

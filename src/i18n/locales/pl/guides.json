@@ -16,7 +16,19 @@
         { "title": "Jak zmniejszyć rozmiar zdjęcia bez utraty jakości", "text": "Cztery kroki, które mają znaczenie, w odpowiedniej kolejności, oraz błędy, przez które pliki stają się większe lub bardziej rozmyte." },
         { "title": "JPG, PNG czy WebP: którego formatu użyć?", "text": "W czym każdy format jest dobry, gdzie zawodzi i jak prosto wybrać odpowiedni." },
         { "title": "Rozmiar zdjęcia do formularzy online: limity KB, piksele i formaty", "text": "Jak odczytać wymagania dotyczące rozmiaru i jak zmniejszyć zdjęcie poniżej 20 KB, 50 KB lub 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Każdy poradnik odpowiada na jedno praktyczne pytanie prostym językiem, z krokami, które wykonasz w kilka minut. Napisaliśmy je dla osób, które chcą po prostu, żeby zdjęcie zostało przyjęte przez formularz, stronę lub w wiadomości, a nie dla ekspertów od fotografii.",
+        "Jeśli się spieszysz, otwórz darmowe narzędzie do zmiany rozmiaru obrazów i wróć do poradnika, gdy zechcesz zrozumieć, dlaczego plik jest za duży albo jaki format wybrać. Nic, co dodasz do narzędzia, nie jest wysyłane: Twoje obrazy zostają na Twoim urządzeniu."
+      ],
+      "faq": {
+        "items": [
+          { "q": "Który poradnik przeczytać najpierw?", "a": "Zacznij od poradnika o zmniejszaniu rozmiaru obrazu bez utraty jakości. Wyjaśnia cztery najważniejsze kroki. Potem przeczytaj poradnik o formatach lub o formularzach online, zależnie od celu." },
+          { "q": "Czy poradniki są darmowe?", "a": "Tak. Wszystkie poradniki i narzędzia są darmowe, bez konta i bez rejestracji." },
+          { "q": "Jak często poradniki są aktualizowane?", "a": "Aktualizujemy je, gdy zmieniają się zasady formularzy, przeglądarki lub formaty plików. Zawsze stosuj się do oficjalnych instrukcji strony, na którą wysyłasz zdjęcie." },
+          { "q": "Czy mogę korzystać z narzędzia podczas czytania?", "a": "Tak. Otwórz narzędzie do zmiany rozmiaru obrazów w innej karcie albo skorzystaj z linku na dole każdego poradnika." }
+        ]
+      }
     },
     "reduce": {
       "title": "Jak zmniejszyć rozmiar zdjęcia bez utraty jakości - 4 kroki",

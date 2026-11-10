@@ -4,7 +4,8 @@
     "toggleTheme": "Switch color theme",
     "openLanguages": "Choose language",
     "themeDark": "Dark",
-    "themeLight": "Light"
+    "themeLight": "Light",
+    "menu": "Menu"
   },
   "language": {
     "label": "Language",

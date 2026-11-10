@@ -16,7 +16,31 @@
         { "title": "Cara memperkecil ukuran gambar tanpa mengurangi kualitas", "text": "Empat langkah yang penting, dalam urutan yang tepat, beserta kesalahan yang justru membuat file lebih besar atau lebih buram." },
         { "title": "JPG, PNG, atau WebP: format mana yang sebaiknya dipakai?", "text": "Keunggulan masing-masing format, kelemahannya, dan cara sederhana untuk memilih." },
         { "title": "Ukuran foto untuk formulir online: batas KB, piksel, dan format", "text": "Cara membaca persyaratan ukuran dan cara membuat foto di bawah 20 KB, 50 KB, atau 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Setiap panduan menjawab satu pertanyaan praktis dengan bahasa sederhana, lengkap dengan langkah yang bisa Anda ikuti dalam beberapa menit. Panduan ini ditulis untuk orang yang hanya ingin gambarnya diterima oleh formulir, situs web, atau pesan, bukan untuk ahli foto.",
+        "Jika sedang terburu-buru, buka pengubah ukuran gambar gratis dan kembali ke panduan saat Anda ingin tahu mengapa file terlalu besar atau format mana yang harus dipilih. Tidak ada yang Anda tambahkan ke alat ini yang diunggah: gambar Anda tetap berada di perangkat Anda."
+      ],
+      "faq": {
+        "items": [
+          {
+            "q": "Panduan mana yang sebaiknya dibaca lebih dulu?",
+            "a": "Mulailah dengan panduan memperkecil ukuran gambar tanpa mengurangi kualitas. Panduan itu menjelaskan empat langkah yang paling penting. Setelah itu baca panduan tentang format atau panduan tentang formulir online, sesuai tujuan Anda."
+          },
+          {
+            "q": "Apakah panduannya gratis?",
+            "a": "Ya. Semua panduan dan alat gratis, tanpa akun dan tanpa pendaftaran."
+          },
+          {
+            "q": "Seberapa sering panduan diperbarui?",
+            "a": "Kami memperbaruinya saat aturan formulir, browser, atau format file berubah. Selalu ikuti petunjuk resmi dari situs tempat Anda mengunggah foto."
+          },
+          {
+            "q": "Bisakah saya memakai alatnya sambil membaca?",
+            "a": "Bisa. Buka pengubah ukuran gambar di tab lain, atau gunakan tautan di bagian bawah setiap panduan."
+          }
+        ]
+      }
     },
     "reduce": {
       "title": "Cara Mengecilkan Ukuran Gambar Tanpa Mengurangi Kualitas",

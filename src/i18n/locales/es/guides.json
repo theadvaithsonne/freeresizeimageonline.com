@@ -16,7 +16,19 @@
         { "title": "Cómo reducir el tamaño de una imagen sin perder calidad", "text": "Los cuatro pasos que importan, en el orden correcto, y los errores que hacen los archivos más pesados o más borrosos." },
         { "title": "JPG, PNG o WebP: ¿qué formato debes usar?", "text": "En qué destaca cada formato, dónde falla y una forma sencilla de elegir." },
         { "title": "Tamaño de foto para formularios en línea: límites en KB, píxeles y formatos", "text": "Cómo leer un requisito de tamaño y cómo dejar una foto por debajo de 20 KB, 50 KB o 200 KB." }
-      ]
+      ],
+      "paragraphs": [
+        "Cada guía responde a una pregunta práctica en lenguaje sencillo, con pasos que puedes seguir en unos minutos. Están escritas para quien solo quiere que un formulario, un sitio web o un mensaje acepte su imagen, no para expertos en fotografía.",
+        "Si tienes prisa, abre el redimensionador de imágenes gratis y vuelve a una guía cuando quieras entender por qué un archivo es demasiado grande o qué formato elegir. Nada de lo que añadas a la herramienta se sube: tus imágenes se quedan en tu dispositivo."
+      ],
+      "faq": {
+        "items": [
+          { "q": "¿Qué guía debo leer primero?", "a": "Empieza por la guía sobre cómo reducir el tamaño de una imagen sin perder calidad. Explica los cuatro pasos que más importan. Después lee la guía sobre formatos o la de formularios en línea, según tu objetivo." },
+          { "q": "¿Las guías son gratis?", "a": "Sí. Todas las guías y herramientas son gratis, sin cuenta y sin registro." },
+          { "q": "¿Cada cuánto se actualizan las guías?", "a": "Las actualizamos cuando cambian las normas de los formularios, los navegadores o los formatos de archivo. Sigue siempre las instrucciones oficiales del sitio donde subas tu foto." },
+          { "q": "¿Puedo usar la herramienta mientras leo?", "a": "Sí. Abre el redimensionador de imágenes en otra pestaña o usa el enlace que hay al final de cada guía." }
+        ]
+      }
     },
     "reduce": {
       "title": "Cómo reducir el tamaño de una imagen sin perder calidad",

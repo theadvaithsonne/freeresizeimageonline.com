@@ -6,7 +6,15 @@
     "passport": "Kích thước ảnh hộ chiếu",
     "social": "Kích thước ảnh mạng xã hội",
     "convert": "Chuyển đổi ảnh",
-    "compress": "Nén ảnh"
+    "compress": "Nén ảnh",
+    "kb20": "Giảm ảnh xuống 20 KB",
+    "kb50": "Giảm ảnh xuống 50 KB",
+    "kb100": "Giảm ảnh xuống 100 KB",
+    "kb200": "Giảm ảnh xuống 200 KB",
+    "signature": "Đổi kích thước chữ ký",
+    "pngToJpg": "PNG sang JPG",
+    "jpgToPng": "JPG sang PNG",
+    "webpToJpg": "WebP sang JPG"
   },
   "common": {
     "howTo": "Cách sử dụng",
@@ -50,6 +58,9 @@
         { "q": "Làm sao để ảnh nhẹ hơn một mức như 50 KB?", "a": "Bật Giới hạn dung lượng tệp, nhập con số rồi nhấn Đổi kích thước ảnh. Công cụ sẽ giảm chất lượng và nếu cần, giảm cả kích thước ảnh cho đến khi tệp vừa giới hạn. Hãy chọn JPG hoặc WebP để có kết quả tốt nhất, vì PNG không thể giảm theo cách này." },
         { "q": "Có dùng được trên điện thoại không?", "a": "Có. Trang hoạt động trên các phiên bản hiện tại của Chrome, Safari, Firefox và Edge, trên điện thoại, máy tính bảng và máy tính. Với điện thoại đời cũ, những ảnh rất lớn có thể bị hạn chế." }
       ]
+    },
+    "popular": {
+      "title": "Tác vụ phổ biến"
     }
   },
   "kb": {
@@ -75,7 +86,13 @@
         { "q": "Tôi có thể đổi nhiều ảnh về cùng một giới hạn không?", "a": "Có. Thêm tất cả ảnh, đặt giới hạn một lần rồi tải về cùng lúc dưới dạng tệp ZIP." },
         { "q": "Ảnh của tôi có bị tải lên máy chủ không?", "a": "Không. Mọi thứ diễn ra trong trình duyệt của bạn, nên ảnh không bao giờ rời khỏi thiết bị." }
       ]
-    }
+    },
+    "blurb": "Giảm ảnh xuống đúng dung lượng KB bạn cần.",
+    "detailsTitle": "Giới hạn dung lượng hoạt động thế nào",
+    "details": [
+      "Khi bạn đặt giới hạn, công cụ thử mức chất lượng JPG hoặc WebP cao nhất mà tệp vẫn nằm dưới giới hạn đó. Nếu giới hạn rất nhỏ, công cụ còn thu nhỏ ảnh theo từng bước nhỏ cho đến khi vừa. Bạn sẽ thấy dung lượng cuối cùng tính bằng KB trước khi tải xuống.",
+      "Các giới hạn thường gặp là 20 KB cho chữ ký và ảnh nhỏ, 50 KB và 100 KB cho ảnh hộ chiếu và biểu mẫu đăng ký, còn 200 KB đến 500 KB cho hồ sơ visa và KYC. Có các trang riêng cho 20 KB, 50 KB, 100 KB và 200 KB."
+    ]
   },
   "cm": {
     "title": "Đổi kích thước ảnh theo cm, mm, inch - Miễn phí online",
@@ -100,7 +117,13 @@
         { "q": "Ảnh có được in đúng kích thước này không?", "a": "Công cụ đặt số pixel khớp với kích thước của bạn ở mức DPI bạn chọn. Hãy in ảnh ở kích thước thực, hoặc ở mức DPI đó, để có đúng kích thước bạn cần." },
         { "q": "Ảnh 4 x 6 inch có kích thước bao nhiêu?", "a": "Ở 300 DPI, 4 x 6 inch là 1.200 x 1.800 pixel." }
       ]
-    }
+    },
+    "blurb": "Đặt ảnh về đúng kích thước theo cm, mm hoặc inch.",
+    "detailsTitle": "Vì sao centimet cần có DPI",
+    "details": [
+      "Một bức ảnh được tạo thành từ các pixel, còn centimet hay inch là độ dài vật lý. DPI (số điểm trên mỗi inch) nối hai thứ này lại với nhau: ở 300 DPI, một inch là 300 pixel, nên ảnh 3,5 x 4,5 cm có khoảng 413 x 531 pixel. Máy in và nhiều biểu mẫu dùng 300 DPI.",
+      "Hãy chọn cm, mm hoặc inch, nhập kích thước từ biểu mẫu của bạn và giữ DPI ở mức 300 trừ khi hướng dẫn nói khác. Công cụ tự tính số pixel cho bạn và có thể cắt ảnh để lấp đầy đúng khung hình."
+    ]
   },
   "passport": {
     "title": "Kích thước ảnh hộ chiếu, visa theo quốc gia - Đổi miễn phí",
@@ -127,7 +150,13 @@
         { "q": "Tôi có dùng được cho ảnh visa không?", "a": "Có, nếu yêu cầu của visa khớp với một trong các kích thước này. Nhiều loại visa dùng cùng kích thước với hộ chiếu, nhưng một số quốc gia có quy định riêng, nên hãy luôn kiểm tra quy định chính thức." },
         { "q": "Ảnh hộ chiếu có bao nhiêu pixel?", "a": "Ở 300 DPI, 35 x 45 mm là 413 x 531 pixel và 2 x 2 inch là 600 x 600 pixel." }
       ]
-    }
+    },
+    "blurb": "Đổi ảnh về các kích thước hộ chiếu và visa phổ biến.",
+    "detailsTitle": "Hãy kiểm tra quy định chính thức",
+    "details": [
+      "Quy định về ảnh hộ chiếu, visa và giấy tờ tùy thân do mỗi quốc gia đặt ra và thay đổi theo thời gian. Các kích thước trên trang này là giá trị phổ biến và chỉ là điểm xuất phát, không đảm bảo ảnh sẽ được chấp nhận.",
+      "Ngoài kích thước tính bằng milimet hoặc pixel, cơ quan chức năng thường quy định thêm chiều cao đầu, màu nền, ánh sáng và dung lượng tệp. Công cụ này chỉ đổi kích thước và cắt ảnh; nó không kiểm tra các quy định đó, vì vậy hãy đọc hướng dẫn chính thức trước khi nộp."
+    ]
   },
   "social": {
     "title": "Kích thước ảnh mạng xã hội - Instagram, YouTube, Facebook",
@@ -153,7 +182,13 @@
         { "q": "Ảnh thu nhỏ YouTube nên có kích thước bao nhiêu?", "a": "1280 x 720 pixel, dung lượng tệp dưới 2 MB." },
         { "q": "Ảnh của tôi có bị cắt không?", "a": "Với Cắt để lấp đầy khung, phần giữa của ảnh được giữ lại và các mép không vừa sẽ bị cắt bỏ. Hãy chọn Vừa trong khung nếu bạn muốn giữ nguyên toàn bộ ảnh." }
       ]
-    }
+    },
+    "blurb": "Đưa ảnh vừa khung Instagram, YouTube, Facebook và hơn thế nữa.",
+    "detailsTitle": "Kích thước đổi, tỷ lệ thì bền",
+    "details": [
+      "Các nền tảng thỉnh thoảng cập nhật kích thước khuyến nghị, nhưng tỷ lệ khung hình hầu như giữ nguyên: 1:1 và 4:5 cho bài đăng trên bảng tin, 9:16 cho story và reel, còn 16:9 cho ảnh thu nhỏ và ảnh bìa video.",
+      "Hãy tải lên đúng kích thước pixel khuyến nghị hoặc lớn hơn. Các nền tảng nén lại mọi ảnh, nên bắt đầu từ ảnh sạch và sắc nét sẽ cho kết quả cuối cùng tốt nhất. Hãy chọn Cắt để lấp đầy khung để tránh bị viền đen."
+    ]
   },
   "convert": {
     "title": "Chuyển đổi ảnh JPG, PNG, WebP - Miễn phí online",
@@ -177,7 +212,13 @@
         { "q": "Chuyển đổi có làm giảm chất lượng không?", "a": "Đầu ra PNG không làm giảm chất lượng. JPG và WebP có nén mất dữ liệu, nhưng ở chất lượng cao thì khó nhận ra sự khác biệt. Bạn có thể tự chọn chất lượng." },
         { "q": "Tôi có thể chuyển ảnh HEIC từ iPhone không?", "a": "Chưa được, vì hầu hết trình duyệt không mở được tệp HEIC. Trên iPhone, bạn có thể đặt Định dạng camera thành Tương thích nhất, hoặc chia sẻ ảnh dưới dạng JPG." }
       ]
-    }
+    },
+    "blurb": "Chuyển ảnh qua lại giữa JPG, PNG và WebP.",
+    "detailsTitle": "Nên chọn định dạng nào?",
+    "details": [
+      "Hãy chọn JPG cho ảnh chụp và cho các biểu mẫu yêu cầu JPG, PNG cho logo, ảnh chụp màn hình và ảnh có vùng trong suốt, còn WebP khi bạn muốn tệp nhỏ nhất cho website.",
+      "Chuyển đổi không làm tăng thêm chi tiết. Đổi một ảnh JPG nhỏ sang PNG cho ra tệp nặng hơn mà bức ảnh vẫn như cũ, còn đổi PNG sang JPG sẽ lấp các vùng trong suốt bằng màu trắng. Có các trang riêng cho PNG sang JPG, JPG sang PNG và WebP sang JPG."
+    ]
   },
   "compress": {
     "title": "Nén ảnh online - Giảm dung lượng ảnh miễn phí",
@@ -200,6 +241,441 @@
       "items": [
         { "q": "Tệp của tôi sẽ nhẹ đi bao nhiêu?", "a": "Ảnh vừa chụp từ điện thoại thường giảm từ 60 đến 90 phần trăm. Những ảnh đã được nén rồi sẽ giảm ít hơn." },
         { "q": "Tôi có thể nén nhiều ảnh cùng lúc không?", "a": "Có. Thêm tất cả ảnh rồi tải về một tệp ZIP duy nhất." }
+      ]
+    },
+    "blurb": "Làm ảnh nhẹ hơn mà không mất chất lượng nhìn thấy được.",
+    "detailsTitle": "Nén ảnh hoạt động thế nào",
+    "details": [
+      "JPG và WebP nén bằng cách bỏ đi những chi tiết mà mắt khó nhận ra. Hạ chất lượng từ 100 xuống 80 thường cắt giảm hơn một nửa dung lượng tệp mà gần như không thấy khác biệt, còn xuống thấp hơn nhiều so với 60 thì bắt đầu lộ các khối vỡ và vết nhòe.",
+      "Mức tiết kiệm lớn nhất thường đến từ việc giảm số pixel. Một ảnh rộng 4000 pixel nhưng chỉ hiển thị ở 1000 pixel là lãng phí phần lớn dữ liệu, vì vậy hãy đổi kích thước trước rồi mới nén."
+    ]
+  },
+  "navGroups": {
+    "tools": "Công cụ",
+    "sizes": "Giới hạn dung lượng",
+    "convert": "Chuyển đổi định dạng"
+  },
+  "kb20": {
+    "title": "Giảm dung lượng ảnh xuống 20KB online - Miễn phí",
+    "description": "Giảm ảnh hoặc chữ ký xuống dưới 20 KB ngay trong trình duyệt. Miễn phí, không cần đăng ký, ảnh không bao giờ rời khỏi thiết bị của bạn.",
+    "h1": "Giảm dung lượng ảnh xuống 20 KB",
+    "intro": "Giới hạn 20 KB thường gặp với ảnh thẻ cỡ nhỏ và chữ ký trong biểu mẫu thi tuyển, tuyển dụng và hồ sơ hành chính. Bạn chỉ cần thêm ảnh, công cụ sẽ hạ chất lượng từng bước và chỉ thu nhỏ ảnh khi thật sự cần, cho đến khi tệp nhỏ hơn 20 KB (20.000 byte).",
+    "blurb": "Đưa ảnh hoặc chữ ký xuống dưới 20 KB.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ điện thoại hay máy tính. JPG, PNG và WebP đều dùng được."
+      },
+      {
+        "title": "Kiểm tra giới hạn 20 KB",
+        "text": "Mức 20 KB đã được chọn sẵn. Nếu biểu mẫu yêu cầu dung lượng khác, hãy đổi trong danh sách Mẫu có sẵn."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh, xem kết quả rồi tải ảnh JPG về."
+      }
+    ],
+    "tipsTitle": "Mẹo để có ảnh 20 KB",
+    "tips": [
+      "Hãy cắt sát khuôn mặt hoặc chữ ký trước. Ít khoảng trống hơn nghĩa là tệp nhẹ hơn mà độ nét vẫn như cũ.",
+      "Nền trắng hoặc sáng màu, trơn, nén tốt hơn rất nhiều so với nền nhiều chi tiết.",
+      "Nếu biểu mẫu còn yêu cầu số pixel cụ thể, hãy nhập ở mục Kích thước và giữ nguyên Giới hạn dung lượng tệp.",
+      "Luôn kiểm tra hướng dẫn chính thức của biểu mẫu. Giới hạn cho ảnh và chữ ký khác nhau giữa các kỳ thi và cổng thông tin."
+    ],
+    "detailsTitle": "Ảnh 20 KB trông như thế nào",
+    "details": [
+      "20 KB rất nhỏ, chỉ cỡ một tệp văn bản ngắn. Ảnh JPG 200 x 230 pixel thường nén vừa trong 20 KB, còn ảnh điện thoại lớn 4000 x 3000 pixel phải thu nhỏ rất nhiều trước. Công cụ làm cả hai bước cho bạn: hạ chất lượng JPG và chỉ khi cần mới giảm số pixel.",
+      "Chữ ký và bản quét đơn giản nén rất tốt vì phần lớn là giấy trắng. Ảnh chân dung có tóc nhiều chi tiết hoặc nền họa tiết cần nhiều dữ liệu hơn, nên với các ảnh này bạn có thể cần giới hạn 50 KB."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 20 KB?",
+          "a": "Thêm ảnh, giữ nguyên giới hạn 20 KB đã chọn rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng JPG cao nhất mà tệp vẫn nhỏ hơn 20 KB, và chỉ thu nhỏ ảnh nếu vậy vẫn chưa đủ."
+        },
+        {
+          "q": "20 KB có bằng 20.000 byte không?",
+          "a": "Ở đây thì có. Một số hệ thống tính 1 KB là 1.024 byte, nên tệp nhỏ hơn 20.000 byte sẽ đạt giới hạn theo cả hai cách tính."
+        },
+        {
+          "q": "Tôi có dùng được cho chữ ký không?",
+          "a": "Được. Hãy ký bằng bút đậm màu trên giấy trắng, chụp ở nơi đủ sáng, cắt sát chữ ký rồi đổi xuống 20 KB. Ngoài ra còn có một trang riêng để đổi kích thước chữ ký."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Mọi thứ diễn ra trong trình duyệt nên ảnh vẫn nằm trên thiết bị của bạn."
+        }
+      ]
+    }
+  },
+  "kb50": {
+    "title": "Giảm dung lượng ảnh xuống 50KB online - Miễn phí",
+    "description": "Nén ảnh xuống dưới 50 KB cho biểu mẫu thi, cổng tuyển dụng và tải lên giấy tờ. Miễn phí, riêng tư, chạy ngay trong trình duyệt.",
+    "h1": "Giảm dung lượng ảnh xuống 50 KB",
+    "intro": "50 KB là một trong những giới hạn được yêu cầu nhiều nhất cho ảnh thẻ cỡ hộ chiếu trên các biểu mẫu đăng ký online. Trang này đặt sẵn giới hạn cho bạn: thêm ảnh rồi tải về tệp JPG dưới 50 KB (50.000 byte) mà vẫn rõ nét.",
+    "blurb": "Đưa ảnh xuống dưới 50 KB cho biểu mẫu và cổng thông tin.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh điện thoại nặng vài MB vẫn xử lý được."
+      },
+      {
+        "title": "Giữ giới hạn 50 KB",
+        "text": "Mức 50 KB đã được chọn sẵn. Nếu biểu mẫu còn nêu cả số pixel, chẳng hạn 200 x 230, hãy nhập ở mục Kích thước trước."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải ảnh JPG về. Kết quả hiển thị dung lượng chính xác tính bằng KB."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh luôn dưới 50 KB",
+    "tips": [
+      "Ảnh có nền trơn đạt 50 KB với chất lượng cao hơn nhiều so với ảnh nền nhiều chi tiết.",
+      "Hãy nhập kích thước pixel theo biểu mẫu trước, rồi mới dùng giới hạn 50 KB. Ảnh nhỏ thì rất dễ vừa giới hạn.",
+      "Nếu cổng thông tin báo tệp quá lớn, hãy thử 45 KB. Một số hệ thống tính dung lượng theo cách khác.",
+      "Đừng phóng to ảnh nhỏ. Việc đó làm tệp nặng hơn mà không thêm chi tiết nào."
+    ],
+    "detailsTitle": "Vì sao 50 KB là mức phù hợp cho ảnh",
+    "details": [
+      "Ở mức 50 KB, một ảnh kiểu hộ chiếu cỡ khoảng 200 x 230 pixel vẫn giữ được khuôn mặt rõ và đường viền sạch. Ảnh lớn hơn, chẳng hạn 600 x 800 pixel, cũng có thể vừa dưới 50 KB khi nền trơn, nhưng có thể trông mềm hơn.",
+      "Công cụ thử mức chất lượng cao nhất vẫn vừa giới hạn. Bạn thấy dung lượng kết quả trước khi tải về, và có thể đổi giới hạn rồi chạy lại mà không phải thêm ảnh lần nữa."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao nén ảnh xuống 50 KB mà không mất chất lượng?",
+          "a": "Bạn không thể giữ lại mọi chi tiết, nhưng có thể giữ chất lượng nhìn thấy được. Công cụ hạ dần chất lượng JPG trước, rồi mới giảm kích thước ảnh, nên bạn có được kết quả sắc nét nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "Nên dùng định dạng nào cho ảnh 50 KB?",
+          "a": "JPG. Định dạng này cho tệp nhẹ nhất với ảnh chụp và hầu như cổng thông tin nào cũng chấp nhận."
+        },
+        {
+          "q": "Ảnh có đúng 50 KB không?",
+          "a": "Ảnh sẽ có dung lượng 50 KB hoặc nhỏ hơn. Công cụ nhắm đến mức vừa dưới giới hạn để tệp đạt yêu cầu trên mọi hệ thống."
+        },
+        {
+          "q": "Các bạn có lưu ảnh của tôi không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "kb100": {
+    "title": "Giảm dung lượng ảnh xuống 100KB - Nén ảnh online",
+    "description": "Giảm ảnh xuống dưới 100 KB để nộp hồ sơ xin việc, KYC và tải tài liệu lên. Miễn phí, riêng tư, không cần đăng ký.",
+    "h1": "Giảm dung lượng ảnh xuống 100 KB",
+    "intro": "100 KB là giới hạn thường gặp với ảnh hồ sơ, bản quét giấy tờ tùy thân và ảnh đại diện. Thêm ảnh của bạn để nhận tệp JPG dưới 100 KB (100.000 byte) với chất lượng cao nhất vẫn vừa giới hạn.",
+    "blurb": "Đưa ảnh xuống dưới 100 KB cho hồ sơ và KYC.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Cả ảnh chụp lẫn bản quét đều dùng được."
+      },
+      {
+        "title": "Giữ giới hạn 100 KB",
+        "text": "Mức 100 KB đã được chọn sẵn. Nếu biểu mẫu yêu cầu số pixel hoặc centimet cụ thể, hãy đặt chúng trước."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải kết quả về. Bạn có thể đổi giới hạn và chạy lại."
+      }
+    ],
+    "tipsTitle": "Mẹo để có ảnh 100 KB",
+    "tips": [
+      "Với tài liệu quét, hãy quét ở 150 đến 200 DPI. Độ phân giải cao hơn chỉ làm tệp nặng thêm.",
+      "Chọn JPG cho ảnh chụp và bản quét. Chỉ dùng PNG cho logo và đồ họa phẳng.",
+      "Nếu chữ trong tài liệu quét bị mờ, hãy nâng giới hạn lên 200 KB thay vì hạ chất lượng thêm.",
+      "Hãy cắt bỏ phần lề trống trước khi đổi kích thước."
+    ],
+    "detailsTitle": "Ảnh và tài liệu ở mức 100 KB",
+    "details": [
+      "100 KB đủ chỗ cho một ảnh rõ nét cỡ khoảng 400 x 500 pixel, hoặc một bản quét dễ đọc của một trang tài liệu. Dung lượng này gấp đôi giới hạn 50 KB, nên khuôn mặt và chữ in rõ nét hơn hẳn.",
+      "Cạnh của chữ là thứ chịu ảnh hưởng đầu tiên khi nén. Hãy xem kết quả ở mức phóng to 100%, và nếu tài liệu khó đọc, hãy thử giới hạn 200 KB."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao nén ảnh xuống 100 KB?",
+          "a": "Thêm ảnh, giữ giới hạn 100 KB rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng JPG tốt nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "Tôi có nén PDF xuống 100 KB ở đây được không?",
+          "a": "Không. Công cụ này xử lý ảnh (JPG, PNG, WebP, GIF và BMP). Hãy lưu hoặc chụp trang đó thành ảnh trước."
+        },
+        {
+          "q": "Ở mức 100 KB chất lượng có tốt không?",
+          "a": "Với ảnh chân dung và tài liệu thì thường là tốt. Những ảnh quá nhiều chi tiết, như phong cảnh lớn, có thể trông mềm hơn."
+        },
+        {
+          "q": "Có miễn phí và riêng tư không?",
+          "a": "Có. Không cần đăng ký, không có watermark, và tệp của bạn không bao giờ rời khỏi thiết bị."
+        }
+      ]
+    }
+  },
+  "kb200": {
+    "title": "Giảm dung lượng ảnh xuống 200KB - Nén ảnh online",
+    "description": "Nén ảnh xuống dưới 200 KB để nộp hồ sơ visa, KYC và cổng dịch vụ công. Miễn phí, riêng tư, chạy ngay trong trình duyệt.",
+    "h1": "Giảm dung lượng ảnh xuống 200 KB",
+    "intro": "200 KB là giới hạn trên thường gặp với ảnh visa, giấy tờ KYC và hồ sơ gửi cơ quan nhà nước. Thêm ảnh của bạn và tải về tệp JPG dưới 200 KB (200.000 byte) giữ được nhiều chi tiết nhất có thể.",
+    "blurb": "Đưa ảnh xuống dưới 200 KB cho visa và hồ sơ hành chính.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh điện thoại lớn vẫn xử lý được."
+      },
+      {
+        "title": "Giữ giới hạn 200 KB",
+        "text": "Mức 200 KB đã được chọn sẵn. Cần giới hạn khác? Hãy chọn mức khác trong danh sách Mẫu có sẵn."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải ảnh JPG về. Kết quả hiển thị dung lượng chính xác."
+      }
+    ],
+    "tipsTitle": "Mẹo để có ảnh 200 KB",
+    "tips": [
+      "Nhiều cổng thông tin còn đặt cả dung lượng tối thiểu. Nếu một tệp quá nhỏ bị từ chối, hãy nâng giới hạn lên rồi thử lại.",
+      "Hãy nhập kích thước mà cổng thông tin yêu cầu, tính bằng pixel, trước khi áp dụng giới hạn 200 KB.",
+      "Hãy giữ bản gốc và lưu bản đã đổi kích thước dưới một tên mới.",
+      "Ảnh có chữ sắc nét, như giấy tờ tùy thân, đẹp nhất khi lưu thành JPG chất lượng cao."
+    ],
+    "detailsTitle": "Khi nào 200 KB là đủ",
+    "details": [
+      "200 KB là khá rộng rãi cho một bức ảnh: ảnh cỡ khoảng 800 x 1000 pixel thường vừa mà ít mất chi tiết nhìn thấy được. Bản quét giấy tờ tùy thân và giấy chứng nhận cũng vẫn đọc được ở mức này nếu được quét ở độ phân giải vừa phải.",
+      "Nếu ảnh điện thoại của bạn nặng vài MB, công cụ sẽ thu nhỏ giúp bạn. Công cụ chọn chất lượng cao nhất vẫn vừa dưới giới hạn nên bạn không phải đoán thiết lập nào."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 200 KB?",
+          "a": "Thêm ảnh, giữ giới hạn 200 KB rồi nhấn Đổi kích thước ảnh. Công cụ chọn chất lượng JPG tốt nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "200 KB và 2 MB khác nhau thế nào?",
+          "a": "2 MB lớn hơn khoảng mười lần. 200 KB chỉ bằng 0,2 MB. Hãy kiểm tra đơn vị trên biểu mẫu là KB chứ không phải MB."
+        },
+        {
+          "q": "Tôi có dùng PNG cho giới hạn 200 KB được không?",
+          "a": "PNG là định dạng không làm giảm chất lượng, nên công cụ chỉ có thể thu nhỏ kích thước ảnh để đạt giới hạn. JPG giữ được nhiều chi tiết hơn ở cùng dung lượng."
+        },
+        {
+          "q": "Giấy tờ của tôi có an toàn không?",
+          "a": "Có. Giấy tờ được xử lý trong trình duyệt và không bao giờ được tải lên, điều này đặc biệt quan trọng với giấy tờ tùy thân."
+        }
+      ]
+    }
+  },
+  "signature": {
+    "title": "Đổi kích thước chữ ký online - Ảnh chữ ký 10-20KB",
+    "description": "Đổi kích thước ảnh chữ ký theo yêu cầu của biểu mẫu online, như 10 KB hoặc 20 KB và số pixel cụ thể. Miễn phí và riêng tư.",
+    "h1": "Đổi kích thước ảnh chữ ký",
+    "intro": "Biểu mẫu online thường cần một ảnh chữ ký nhỏ và rõ: vài KB, và thường có chiều rộng và chiều cao cố định. Hãy thêm ảnh chụp hoặc bản quét chữ ký của bạn để nhận tệp đạt cả dung lượng lẫn kích thước pixel.",
+    "blurb": "Đổi kích thước chữ ký theo dung lượng biểu mẫu yêu cầu.",
+    "steps": [
+      {
+        "title": "Thêm chữ ký của bạn",
+        "text": "Chụp hoặc quét chữ ký trên giấy trắng trơn, rồi thêm ảnh vào đây."
+      },
+      {
+        "title": "Đặt kích thước và giới hạn",
+        "text": "Nhập chiều rộng và chiều cao theo pixel từ biểu mẫu, rồi chọn 10 KB hoặc 20 KB trong danh sách Mẫu có sẵn."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh. Kiểm tra kết quả: chữ ký phải đậm và các nét phải sạch."
+      }
+    ],
+    "tipsTitle": "Mẹo để chữ ký rõ nét",
+    "tips": [
+      "Hãy ký bằng bút xanh đậm hoặc bút đen trên giấy trắng trơn.",
+      "Chụp ảnh dưới ánh sáng ban ngày, không có bóng đổ, và cắt sát chữ ký.",
+      "Nếu biểu mẫu yêu cầu đúng chiều rộng và chiều cao, hãy cắt ảnh theo tỷ lệ đó trước để chữ ký không bị kéo giãn.",
+      "Lưu dưới dạng JPG trừ khi biểu mẫu cho phép PNG."
+    ],
+    "detailsTitle": "Tệp chữ ký có thể nhỏ đến mức nào?",
+    "details": [
+      "Chữ ký phần lớn là giấy trắng nên nén tốt hơn ảnh chụp rất nhiều. Các biểu mẫu thường yêu cầu 10 đến 20 KB và một ảnh chỉ rộng vài trăm pixel. Công cụ đạt các giới hạn này dễ dàng, và các nét chữ vẫn đọc được.",
+      "Khi giới hạn rất nhỏ, chẳng hạn 10 KB, dùng bút nét đậm sẽ có lợi: các nét bút mảnh có thể bị mờ đi khi ảnh bị thu nhỏ."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Chữ ký nên có kích thước bao nhiêu cho biểu mẫu online?",
+          "a": "Tùy từng biểu mẫu. Nhiều nơi yêu cầu khoảng 10 đến 20 KB và chiều rộng, chiều cao nhỏ tính bằng pixel. Hãy luôn làm đúng các con số trong thông báo chính thức."
+        },
+        {
+          "q": "Làm sao để chữ ký có dung lượng 10 KB?",
+          "a": "Thêm chữ ký, chọn giới hạn 10 KB trong danh sách Mẫu có sẵn rồi nhấn Đổi kích thước ảnh."
+        },
+        {
+          "q": "Tôi có xóa được nền giấy không?",
+          "a": "Công cụ này đổi kích thước và nén ảnh; nó không xóa nền. Hãy dùng giấy trắng trơn để kết quả trông sạch."
+        },
+        {
+          "q": "Dùng chữ ký ở đây có an toàn không?",
+          "a": "Không có gì được tải lên. Chữ ký được xử lý ngay trong trình duyệt và vẫn nằm trên thiết bị của bạn."
+        }
+      ]
+    }
+  },
+  "pngToJpg": {
+    "title": "Chuyển PNG sang JPG online - Miễn phí, không tải lên",
+    "description": "Chuyển ảnh PNG sang JPG ngay trong trình duyệt. Miễn phí, không cần đăng ký, không tải lên và bạn tự chọn chất lượng.",
+    "h1": "Chuyển PNG sang JPG",
+    "intro": "Biến ảnh PNG thành tệp JPG nhẹ hơn chỉ trong một bước. JPG được chấp nhận hầu như ở mọi nơi và nhẹ hơn nhiều với ảnh chụp. Thêm các tệp PNG, nhấn nút rồi tải về các tệp JPG, hoặc một tệp ZIP chứa tất cả.",
+    "blurb": "Biến ảnh PNG thành tệp JPG nhẹ hơn.",
+    "steps": [
+      {
+        "title": "Thêm ảnh PNG của bạn",
+        "text": "Kéo một hoặc nhiều ảnh PNG vào trang, hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "JPG đã được chọn sẵn làm định dạng đầu ra. Hạ chất lượng nếu muốn tệp nhẹ hơn."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh JPG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển PNG sang JPG",
+    "tips": [
+      "PNG có thể có vùng trong suốt. JPG thì không, nên các vùng trong suốt sẽ chuyển thành màu trắng.",
+      "Hãy giữ lại ảnh PNG gốc nếu sau này bạn có thể cần phần nền trong suốt.",
+      "Chất lượng từ 80 đến 90 nhìn gần như giống ảnh gốc với ảnh chụp, mà tệp nhẹ hơn nhiều.",
+      "Ảnh chụp màn hình có chữ sắc nét có thể hơi nhòe khi lưu thành JPG. Hãy dùng chất lượng cao cho những ảnh này."
+    ],
+    "detailsTitle": "PNG hay JPG: có gì khác?",
+    "details": [
+      "PNG giữ nguyên từng pixel, vì vậy ảnh chụp lưu dưới dạng PNG có thể nặng gấp năm đến mười lần cùng bức ảnh đó ở dạng JPG. Chuyển sang JPG sẽ loại bỏ phần chi tiết mà mắt khó nhận ra và làm tệp nhẹ đi.",
+      "Việc chuyển đổi diễn ra ngay trên thiết bị của bạn. Không có gì được tải lên nên bạn có thể yên tâm với ảnh riêng tư, và số tệp bạn chuyển đổi không bị giới hạn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển PNG sang JPG?",
+          "a": "Thêm ảnh PNG, đảm bảo JPG là định dạng đầu ra rồi nhấn Đổi kích thước ảnh. Tải ảnh JPG về khi đã xong."
+        },
+        {
+          "q": "Chuyển PNG sang JPG có làm giảm chất lượng không?",
+          "a": "Giảm một chút. JPG nén có mất dữ liệu. Ở chất lượng từ 85 trở lên, sự khác biệt với ảnh chụp hiếm khi nhìn thấy được."
+        },
+        {
+          "q": "Vùng trong suốt sẽ ra sao?",
+          "a": "Chúng được lấp bằng màu trắng, vì JPG không thể trong suốt."
+        },
+        {
+          "q": "Tôi có chuyển nhiều ảnh PNG cùng lúc được không?",
+          "a": "Được. Bạn thêm bao nhiêu tùy ý, tối đa 500 ảnh mỗi lần, rồi tải về từng ảnh hoặc một tệp ZIP."
+        }
+      ]
+    }
+  },
+  "jpgToPng": {
+    "title": "Chuyển JPG sang PNG online - Miễn phí, không tải lên",
+    "description": "Chuyển ảnh JPG sang PNG ngay trong trình duyệt. Miễn phí, không cần đăng ký, không tải lên và không có watermark.",
+    "h1": "Chuyển JPG sang PNG",
+    "intro": "Cần PNG cho logo, công cụ thiết kế hoặc biểu mẫu không nhận JPG? Hãy thêm các tệp JPG và tải về tệp PNG không làm giảm chất lượng chỉ trong một bước. Mọi thứ chạy ngay trong trình duyệt.",
+    "blurb": "Biến ảnh JPG thành tệp PNG không làm giảm chất lượng.",
+    "steps": [
+      {
+        "title": "Thêm ảnh JPG của bạn",
+        "text": "Kéo một hoặc nhiều ảnh JPG vào trang, hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "PNG đã được chọn sẵn làm định dạng đầu ra."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh PNG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển JPG sang PNG",
+    "tips": [
+      "Chuyển sang PNG không thêm được chi tiết. Ảnh JPG mờ vẫn sẽ mờ.",
+      "Tệp PNG của ảnh chụp rất nặng. Nếu bạn chỉ cần tệp nhỏ hơn, hãy chọn JPG hoặc WebP.",
+      "JPG không có nền trong suốt nên PNG tạo ra cũng không trong suốt. Muốn có logo nền trong suốt, hãy xóa nền trong một trình chỉnh sửa ảnh rồi lưu thành PNG.",
+      "PNG là lựa chọn tốt hơn cho ảnh chụp màn hình, logo và đồ họa có cạnh hoặc chữ sắc nét."
+    ],
+    "detailsTitle": "Vì sao nên chuyển JPG sang PNG?",
+    "details": [
+      "PNG không làm mất chất lượng: khi ảnh đã là PNG, lưu lại sẽ không làm giảm chất lượng, không như JPG vốn mất thêm một chút sau mỗi lần lưu. Điều đó khiến PNG thành định dạng làm việc an toàn khi chỉnh sửa.",
+      "Một số website, công cụ thiết kế và tiệm in yêu cầu PNG. Công cụ tạo ra tệp PNG chuẩn dùng được ở mọi nơi, không có watermark và không cần đăng ký."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển JPG sang PNG?",
+          "a": "Thêm ảnh JPG, đảm bảo PNG là định dạng đầu ra rồi nhấn Đổi kích thước ảnh. Tải ảnh PNG về khi đã xong."
+        },
+        {
+          "q": "Tệp PNG có nặng hơn JPG không?",
+          "a": "Thường là có, với ảnh chụp thì hay nặng gấp nhiều lần, vì PNG giữ lại mọi chi tiết."
+        },
+        {
+          "q": "Chuyển JPG sang PNG có làm ảnh đẹp hơn không?",
+          "a": "Không. Việc này ngăn ảnh mất thêm chất lượng, nhưng không thể khôi phục chi tiết mà nén JPG đã loại bỏ."
+        },
+        {
+          "q": "Tệp của tôi có bị tải lên không?",
+          "a": "Không. Việc chuyển đổi chạy trong trình duyệt và ảnh của bạn không bao giờ rời khỏi thiết bị."
+        }
+      ]
+    }
+  },
+  "webpToJpg": {
+    "title": "Chuyển WebP sang JPG online - Miễn phí, không tải lên",
+    "description": "Chuyển ảnh WebP sang JPG ngay trong trình duyệt. Miễn phí, không cần đăng ký, không tải lên, dùng được trên điện thoại và máy tính.",
+    "h1": "Chuyển WebP sang JPG",
+    "intro": "Các website thường lưu ảnh dưới dạng WebP, nhưng nhiều phần mềm, máy in và biểu mẫu tải lên chỉ nhận JPG. Hãy thêm ảnh WebP và tải về các tệp JPG mở được ở mọi nơi.",
+    "blurb": "Biến ảnh WebP thành tệp JPG mở được ở mọi nơi.",
+    "steps": [
+      {
+        "title": "Thêm ảnh WebP của bạn",
+        "text": "Kéo một hoặc nhiều ảnh WebP vào trang, hoặc chọn từ điện thoại hay máy tính."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "JPG đã được chọn sẵn làm định dạng đầu ra. Hãy chọn chất lượng nếu muốn tệp nhẹ hơn."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh JPG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển WebP sang JPG",
+    "tips": [
+      "Ảnh WebP trong suốt sẽ có nền trắng khi chuyển sang JPG.",
+      "Dùng chất lượng từ 85 đến 92 để cân bằng tốt giữa dung lượng và độ nét.",
+      "Với WebP động, khung hình đầu tiên sẽ được chuyển đổi.",
+      "Nếu website đã nén ảnh của bạn thành WebP, chuyển đổi lại cũng không lấy lại được chất lượng đã mất."
+    ],
+    "detailsTitle": "Vì sao nên chuyển WebP sang JPG?",
+    "details": [
+      "WebP là định dạng hiện đại cho tệp nhẹ hơn, nhưng không phải nơi nào cũng chấp nhận. Các phần mềm chỉnh sửa ảnh cũ, một số máy in, chương trình email và nhiều cổng thông tin của cơ quan nhà nước hay tuyển dụng chỉ nhận JPG.",
+      "Chuyển đổi nhanh và riêng tư: ảnh được xử lý trên thiết bị của bạn và không có gì được gửi đến máy chủ."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Tôi có chuyển WebP sang JPG trên điện thoại được không?",
+          "a": "Được. Công cụ chạy trong trình duyệt của mọi điện thoại đời mới, không cần cài ứng dụng."
+        },
+        {
+          "q": "Vì sao các website lưu ảnh dưới dạng WebP?",
+          "a": "Tệp WebP nhẹ hơn tệp JPG ở chất lượng tương đương, giúp trang tải nhanh hơn."
+        },
+        {
+          "q": "Chất lượng có giữ nguyên sau khi chuyển đổi không?",
+          "a": "Gần như vậy. Cả hai định dạng đều nén có mất dữ liệu, nên chất lượng JPG cao sẽ giữ ảnh trông như cũ."
+        },
+        {
+          "q": "Có miễn phí không?",
+          "a": "Có. Không cần đăng ký, không có watermark và không giới hạn số lượng ảnh."
+        }
       ]
     }
   }
