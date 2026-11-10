@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "이미지 크기 조절 도구",
+    "drop": {
+      "title": "이미지를 여기로 끌어다 놓으세요",
+      "or": "또는",
+      "choose": "이미지 선택",
+      "paste": "Ctrl+V로 이미지를 붙여넣을 수도 있어요.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. 용량과 개수 제한이 없습니다.",
+      "privacy": "이미지는 내 기기 밖으로 나가지 않습니다.",
+      "addMore": "이미지 더 추가",
+      "overlay": "이미지를 놓으면 추가됩니다",
+      "none": "사용할 수 있는 이미지가 없습니다. JPG, PNG, WebP, GIF, BMP 파일을 선택해 주세요."
+    },
+    "files": {
+      "title": "내 이미지 ({count})",
+      "clear": "모두 지우기",
+      "remove": "{name} 삭제"
+    },
+    "options": {
+      "title": "옵션",
+      "preset": "프리셋",
+      "presetNone": "직접 입력",
+      "presetHint": "사진 규격은 바뀔 수 있어요. 제출하기 전에 해당 기관의 공식 규정을 꼭 확인하세요.",
+      "resizeBy": "조절 방식",
+      "modeDimensions": "크기",
+      "modePercent": "비율",
+      "modeKeep": "크기 유지",
+      "width": "가로",
+      "height": "세로",
+      "unit": "단위",
+      "dpi": "DPI",
+      "lock": "가로세로 비율 고정",
+      "fit": "가로와 세로를 모두 지정할 때",
+      "fitFit": "상자 안에 맞추기",
+      "fitCrop": "상자를 채우도록 자르기",
+      "fitStretch": "정확한 크기로 늘리기",
+      "percent": "배율 (%)",
+      "format": "형식",
+      "formatOriginal": "원본과 동일",
+      "quality": "품질",
+      "qualityNote": "품질이 높을수록 사진은 선명해지고 파일은 커집니다.",
+      "target": "파일 용량 제한",
+      "targetValue": "최대 파일 용량",
+      "targetNote": "용량에 맞는 가장 좋은 품질이 자동으로 선택됩니다.",
+      "pngNote": "PNG는 무손실 형식입니다. 파일을 훨씬 작게 만들려면 JPG나 WebP를 선택하세요."
+    },
+    "actions": {
+      "resize": "크기 조절",
+      "cancel": "취소",
+      "downloadAll": "모두 다운로드 (ZIP)",
+      "download": "다운로드",
+      "working": "처리 중..."
+    },
+    "status": {
+      "queued": "대기 중",
+      "processing": "처리 중...",
+      "done": "완료",
+      "error": "실패",
+      "cancelled": "취소됨"
+    },
+    "result": {
+      "smaller": "{percent} 작아짐",
+      "larger": "{percent} 커짐",
+      "targetMissed": "{target}에 맞추지 못했어요. 만들 수 있는 최소 용량: {size}.",
+      "summary": "{total}개 중 {done}개 완료",
+      "finished": "모두 완료되었습니다. 이미지 {count}장이 준비됐어요."
+    },
+    "errors": {
+      "decode-failed": "이 파일을 이미지로 읽을 수 없습니다.",
+      "unsupported-type": "지원하지 않는 파일 형식입니다.",
+      "invalid-size": "올바른 가로, 세로 또는 비율 값을 입력해 주세요.",
+      "too-large": "이 크기는 내 기기에서 처리하기에 너무 큽니다. 더 작은 크기를 시도해 보세요.",
+      "encode-failed": "이미지를 저장하지 못했습니다. 다른 형식을 선택해 보세요.",
+      "cancelled": "취소되었습니다."
+    },
+    "presets": {
+      "groups": {
+        "social": "소셜 미디어",
+        "documents": "증명사진 및 비자",
+        "forms": "온라인 양식 (파일 용량)",
+        "marketplaces": "온라인 쇼핑몰",
+        "web": "웹 및 이메일"
+      },
+      "words": {
+        "post": "게시물",
+        "story": "스토리 / 릴스",
+        "cover": "커버",
+        "banner": "배너",
+        "thumbnail": "썸네일",
+        "profile": "프로필 사진",
+        "passport": "여권 사진",
+        "visa": "비자 사진",
+        "idPhoto": "증명사진",
+        "maxSize": "최대 파일 용량",
+        "product": "상품 이미지",
+        "favicon": "아이콘",
+        "email": "이메일 가로 크기",
+        "screen": "화면"
+      }
+    }
+  }
+}

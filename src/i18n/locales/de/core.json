@@ -1,0 +1,42 @@
+{
+  "a11y": {
+    "skipToContent": "Zum Inhalt springen",
+    "home": "Free Resize Image Online - Startseite",
+    "toggleTheme": "Farbdesign wechseln",
+    "openLanguages": "Sprache wählen"
+  },
+  "language": {
+    "label": "Sprache",
+    "suggestText": "Diese Website auf {language} anzeigen?",
+    "suggestSwitch": "Wechseln",
+    "suggestDismiss": "Nein, danke"
+  },
+  "ads": {
+    "label": "Werbung",
+    "note": "Werbung hält FreeResizeImageOnline kostenlos. Alles funktioniert auch ohne sie."
+  },
+  "badges": {
+    "free": "Kostenlos",
+    "unlimited": "Unbegrenzt",
+    "noLogin": "Ohne Anmeldung",
+    "private": "Privat: bleibt auf Ihrem Gerät"
+  },
+  "home": {
+    "title": "Bildgröße online ändern - kostenlos, ohne Anmeldung",
+    "description": "Bilder kostenlos skalieren, komprimieren und konvertieren. Ohne Anmeldung, ohne Limits – Ihre Fotos verlassen nie Ihr Gerät.",
+    "h1": "Bildgröße online ändern – kostenlos"
+  },
+  "counters": {
+    "label": "Live-Statistik",
+    "resized": "{count} Bilder verkleinert",
+    "online": "{count} jetzt online"
+  },
+  "footer": {
+    "label": "Fußzeile",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Datenschutz- und Cookie-Einstellungen"
+  }
+}

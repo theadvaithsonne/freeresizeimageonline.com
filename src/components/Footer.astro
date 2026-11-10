@@ -1,16 +1,50 @@
 ---
-// Legal/info links (About, Contact, Privacy, Terms) are added in Step 9 with the pages themselves.
+import { ADSENSE, SITE } from '../config/site';
+import { localizedPath, t } from '../i18n';
+import Counters from './Counters.astro';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
 const year = new Date().getFullYear();
+const links = [
+  { href: localizedPath(lang, '/about/'), label: t(lang, 'footer.about') },
+  { href: localizedPath(lang, '/contact/'), label: t(lang, 'footer.contact') },
+  { href: localizedPath(lang, '/privacy/'), label: t(lang, 'footer.privacy') },
+  { href: localizedPath(lang, '/terms/'), label: t(lang, 'footer.terms') },
+];
 ---
 <footer class="site-footer">
-  <div class="container site-footer__inner">
-    <p class="site-footer__copy">&copy; {year} FreeResizeImageOnline</p>
-    <nav class="site-footer__nav" aria-label="Footer">
-      <slot name="links" />
-      <a href="mailto:theadvaithsonne@gmail.com">theadvaithsonne@gmail.com</a>
-    </nav>
+  <div class="container">
+    <Counters lang={lang} variant="footer" />
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">&copy; {year} {SITE.name}</p>
+      <nav class="site-footer__nav" aria-label={t(lang, 'footer.label')}>
+        {links.map((l) => <a href={l.href}>{l.label}</a>)}
+        {
+          ADSENSE.client && (
+            <button type="button" class="site-footer__cookies" data-cookie-settings>
+              {t(lang, 'footer.cookies')}
+            </button>
+          )
+        }
+      </nav>
+    </div>
   </div>
 </footer>
+
+<script>
+  // Re-opens Google's consent message (set up inside AdSense > Privacy & messaging) so visitors can change their choice.
+  document.querySelectorAll<HTMLElement>('[data-cookie-settings]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const w = window as unknown as { googlefc?: { callbackQueue?: unknown[]; showRevocationMessage?: () => void } };
+      if (w.googlefc?.callbackQueue && w.googlefc.showRevocationMessage) {
+        w.googlefc.callbackQueue.push(w.googlefc.showRevocationMessage);
+      }
+    });
+  });
+</script>
 
 <style>
   .site-footer {
@@ -36,8 +70,18 @@ const year = new Date().getFullYear();
     flex-wrap: wrap;
     gap: var(--space-2) var(--space-5);
   }
-  .site-footer__nav :global(a) {
+  .site-footer__nav a,
+  .site-footer__cookies {
     color: var(--text);
     font-weight: 600;
+    font-size: inherit;
+  }
+  .site-footer__cookies {
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
   }
 </style>

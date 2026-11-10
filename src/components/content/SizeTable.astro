@@ -1,0 +1,76 @@
+---
+/** Data-driven tables of presets (passport sizes, social media sizes). */
+import { PRESET_GROUPS, type SizePreset } from '../../data/presets';
+import { subtree, t } from '../../i18n';
+import { formatNumber } from '../../i18n/format';
+import { toPixels } from '../../engine/units';
+
+interface Props {
+  lang: string;
+  kind: 'documents' | 'social';
+}
+const { lang, kind } = Astro.props;
+const words = subtree(lang, 'tool.presets.words') as Record<string, string>;
+const group = PRESET_GROUPS.find((g) => g.id === kind)!;
+const rows = group.presets.filter((p): p is SizePreset => p.kind === 'size');
+
+function pixels(p: SizePreset): string {
+  const w = toPixels(p.width, p.unit, p.dpi);
+  const h = p.height ? toPixels(p.height, p.unit, p.dpi) : undefined;
+  return h ? `${formatNumber(lang, w, 0)} × ${formatNumber(lang, h, 0)}` : formatNumber(lang, w, 0);
+}
+---
+<div class="table-wrap" role="region" tabindex="0" aria-label={kind === 'documents' ? t(lang, 'common.table.country') : t(lang, 'common.table.platform')}>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">{kind === 'documents' ? t(lang, 'common.table.country') : t(lang, 'common.table.platform')}</th>
+        <th scope="col">{kind === 'documents' ? t(lang, 'common.table.size') : t(lang, 'common.table.use')}</th>
+        <th scope="col">{kind === 'documents' ? t(lang, 'common.table.pixels') : t(lang, 'common.table.pixelsPlain')}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        rows.map((p) => (
+          <tr>
+            <th scope="row">{kind === 'documents' ? [p.name, p.word ? words[p.word] : ''].filter(Boolean).join(' · ') : p.name}</th>
+            <td>{kind === 'documents' ? p.detail.replace('x', ' × ') : p.word ? words[p.word] : ''}</td>
+            <td dir="ltr">{pixels(p)}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .table-wrap {
+    overflow-x: auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--step--1);
+  }
+  th,
+  td {
+    padding: var(--space-3) var(--space-4);
+    text-align: start;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  thead th {
+    background: var(--surface-2);
+    font-weight: 700;
+  }
+  tbody tr:last-child th,
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+  tbody th {
+    font-weight: 650;
+  }
+</style>

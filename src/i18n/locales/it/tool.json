@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Ridimensionatore di immagini",
+    "drop": {
+      "title": "Trascina qui le immagini",
+      "or": "oppure",
+      "choose": "Scegli le immagini",
+      "paste": "Puoi anche incollare le immagini con Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Nessun limite di peso o quantità.",
+      "privacy": "Le tue immagini non lasciano mai il tuo dispositivo.",
+      "addMore": "Aggiungi altre immagini",
+      "overlay": "Rilascia le immagini per aggiungerle",
+      "none": "Nessuna immagine utilizzabile. Scegli file JPG, PNG, WebP, GIF o BMP."
+    },
+    "files": {
+      "title": "Le tue immagini ({count})",
+      "clear": "Rimuovi tutto",
+      "remove": "Rimuovi {name}"
+    },
+    "options": {
+      "title": "Opzioni",
+      "preset": "Preset",
+      "presetNone": "Dimensione personalizzata",
+      "presetHint": "I requisiti per le foto cambiano. Controlla le regole ufficiali della tua richiesta prima di inviarla.",
+      "resizeBy": "Ridimensiona in base a",
+      "modeDimensions": "Dimensioni",
+      "modePercent": "Percentuale",
+      "modeKeep": "Mantieni dimensioni",
+      "width": "Larghezza",
+      "height": "Altezza",
+      "unit": "Unità",
+      "dpi": "DPI",
+      "lock": "Blocca le proporzioni",
+      "fit": "Quando larghezza e altezza sono entrambe impostate",
+      "fitFit": "Adatta dentro il riquadro",
+      "fitCrop": "Ritaglia per riempire il riquadro",
+      "fitStretch": "Allunga alla dimensione esatta",
+      "percent": "Scala (%)",
+      "format": "Formato",
+      "formatOriginal": "Come l'originale",
+      "quality": "Qualità",
+      "qualityNote": "Una qualità più alta dà un'immagine più nitida e un file più pesante.",
+      "target": "Limita il peso del file",
+      "targetValue": "Peso massimo del file",
+      "targetNote": "Viene scelta per te la migliore qualità possibile entro il limite.",
+      "pngNote": "Il PNG è senza perdita di qualità. Per ridurre molto il file, scegli JPG o WebP."
+    },
+    "actions": {
+      "resize": "Ridimensiona immagini",
+      "cancel": "Annulla",
+      "downloadAll": "Scarica tutto (ZIP)",
+      "download": "Scarica",
+      "working": "Elaborazione..."
+    },
+    "status": {
+      "queued": "In attesa",
+      "processing": "Elaborazione...",
+      "done": "Fatto",
+      "error": "Non riuscito",
+      "cancelled": "Annullato"
+    },
+    "result": {
+      "smaller": "{percent} più piccolo",
+      "larger": "{percent} più grande",
+      "targetMissed": "Impossibile arrivare a {target}. Il minimo possibile è {size}.",
+      "summary": "{done} di {total} completate",
+      "finished": "Tutto fatto. {count} immagini sono pronte."
+    },
+    "errors": {
+      "decode-failed": "Non è stato possibile leggere questo file come immagine.",
+      "unsupported-type": "Questo tipo di file non è supportato.",
+      "invalid-size": "Inserisci una larghezza, un'altezza o una percentuale valida.",
+      "too-large": "Questa dimensione è troppo grande per il tuo dispositivo. Prova con una dimensione più piccola.",
+      "encode-failed": "Salvataggio dell'immagine non riuscito. Prova con un altro formato.",
+      "cancelled": "Annullato."
+    },
+    "presets": {
+      "groups": {
+        "social": "Social media",
+        "documents": "Foto tessera e visto",
+        "forms": "Moduli online (peso del file)",
+        "marketplaces": "Negozi online",
+        "web": "Web ed email"
+      },
+      "words": {
+        "post": "post",
+        "story": "storia / reel",
+        "cover": "copertina",
+        "banner": "banner",
+        "thumbnail": "miniatura",
+        "profile": "foto profilo",
+        "passport": "foto passaporto",
+        "visa": "foto visto",
+        "idPhoto": "foto tessera",
+        "maxSize": "peso max",
+        "product": "immagine prodotto",
+        "favicon": "icona",
+        "email": "larghezza email",
+        "screen": "schermo"
+      }
+    }
+  }
+}

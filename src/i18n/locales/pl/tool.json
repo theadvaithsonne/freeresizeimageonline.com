@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Narzędzie do zmiany rozmiaru obrazów",
+    "drop": {
+      "title": "Przeciągnij i upuść obrazy tutaj",
+      "or": "lub",
+      "choose": "Wybierz obrazy",
+      "paste": "Możesz też wkleić obrazy skrótem Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Bez limitu rozmiaru i liczby plików.",
+      "privacy": "Twoje obrazy nigdy nie opuszczają urządzenia.",
+      "addMore": "Dodaj więcej obrazów",
+      "overlay": "Upuść obrazy, aby je dodać",
+      "none": "Nie znaleziono obrazów, których można użyć. Wybierz pliki JPG, PNG, WebP, GIF lub BMP."
+    },
+    "files": {
+      "title": "Twoje obrazy ({count})",
+      "clear": "Wyczyść wszystko",
+      "remove": "Usuń: {name}"
+    },
+    "options": {
+      "title": "Opcje",
+      "preset": "Gotowy rozmiar",
+      "presetNone": "Własny rozmiar",
+      "presetHint": "Wymagania dotyczące zdjęć się zmieniają. Przed wysłaniem sprawdź oficjalne zasady swojego wniosku.",
+      "resizeBy": "Zmień rozmiar według",
+      "modeDimensions": "Wymiarów",
+      "modePercent": "Procentów",
+      "modeKeep": "Bez zmiany rozmiaru",
+      "width": "Szerokość",
+      "height": "Wysokość",
+      "unit": "Jednostka",
+      "dpi": "DPI",
+      "lock": "Zablokuj proporcje",
+      "fit": "Gdy podano szerokość i wysokość",
+      "fitFit": "Dopasuj do ramki",
+      "fitCrop": "Przytnij, aby wypełnić ramkę",
+      "fitStretch": "Rozciągnij do dokładnego rozmiaru",
+      "percent": "Skala (%)",
+      "format": "Format",
+      "formatOriginal": "Taki sam jak oryginał",
+      "quality": "Jakość",
+      "qualityNote": "Wyższa jakość daje ostrzejszy obraz i większy plik.",
+      "target": "Ogranicz rozmiar pliku",
+      "targetValue": "Maksymalny rozmiar pliku",
+      "targetNote": "Wybierzemy najlepszą jakość, która się zmieści.",
+      "pngNote": "PNG jest bezstratny. Aby plik był znacznie mniejszy, wybierz JPG lub WebP."
+    },
+    "actions": {
+      "resize": "Zmień rozmiar",
+      "cancel": "Anuluj",
+      "downloadAll": "Pobierz wszystko (ZIP)",
+      "download": "Pobierz",
+      "working": "Trwa praca..."
+    },
+    "status": {
+      "queued": "Oczekuje",
+      "processing": "Przetwarzanie...",
+      "done": "Gotowe",
+      "error": "Błąd",
+      "cancelled": "Anulowano"
+    },
+    "result": {
+      "smaller": "Mniejszy o {percent}",
+      "larger": "Większy o {percent}",
+      "targetMissed": "Nie udało się osiągnąć {target}. Najmniejszy możliwy rozmiar: {size}.",
+      "summary": "Gotowe: {done} z {total}",
+      "finished": "Wszystko gotowe. Liczba gotowych obrazów: {count}."
+    },
+    "errors": {
+      "decode-failed": "Nie udało się odczytać tego pliku jako obrazu.",
+      "unsupported-type": "Ten typ pliku nie jest obsługiwany.",
+      "invalid-size": "Wpisz poprawną szerokość, wysokość lub wartość procentową.",
+      "too-large": "Ten rozmiar jest zbyt duży dla Twojego urządzenia. Spróbuj mniejszego.",
+      "encode-failed": "Nie udało się zapisać obrazu. Spróbuj innego formatu.",
+      "cancelled": "Anulowano."
+    },
+    "presets": {
+      "groups": {
+        "social": "Media społecznościowe",
+        "documents": "Zdjęcia do dokumentów i wiz",
+        "forms": "Formularze online (rozmiar pliku)",
+        "marketplaces": "Sklepy internetowe",
+        "web": "Strony WWW i e-mail"
+      },
+      "words": {
+        "post": "post",
+        "story": "relacja / reel",
+        "cover": "okładka",
+        "banner": "baner",
+        "thumbnail": "miniatura",
+        "profile": "zdjęcie profilowe",
+        "passport": "zdjęcie do paszportu",
+        "visa": "zdjęcie do wizy",
+        "idPhoto": "zdjęcie do dowodu",
+        "maxSize": "maks. rozmiar pliku",
+        "product": "zdjęcie produktu",
+        "favicon": "ikona",
+        "email": "szerokość w e-mailu",
+        "screen": "ekran"
+      }
+    }
+  }
+}

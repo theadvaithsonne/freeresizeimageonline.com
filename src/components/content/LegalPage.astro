@@ -1,0 +1,112 @@
+---
+/** Legal / info pages: About, Contact, Privacy, Terms. Text comes from the "legal.*" locale entries. */
+import Layout from '../../layouts/Layout.astro';
+import { SITE } from '../../config/site';
+import { fill, list, localizedPath, t, type MessageKey } from '../../i18n';
+import { formatDate } from '../../i18n/format';
+
+interface Props {
+  lang: string;
+  pageKey: 'about' | 'contact' | 'privacy' | 'terms';
+}
+const { lang, pageKey } = Astro.props;
+const p = (suffix: string) => t(lang, `legal.${pageKey}.${suffix}` as MessageKey);
+const vars = {
+  owner: SITE.owner,
+  email: SITE.contactEmail,
+  country: SITE.jurisdiction.country,
+  place: SITE.jurisdiction.place,
+};
+const paragraphs = list<string>(lang, `legal.${pageKey}.paragraphs`).map((s) => fill(s, vars));
+const sections = list<{ title: string; text: string }>(lang, `legal.${pageKey}.sections`).map((s) => ({
+  title: s.title,
+  text: fill(s.text, vars),
+}));
+const showDate = pageKey === 'privacy' || pageKey === 'terms';
+---
+<Layout title={p('title')} description={p('description')} lang={lang} path={`/${pageKey}/`} ads={false}>
+  <article class="legal">
+    <h1>{p('h1')}</h1>
+    {showDate && <p class="legal__date">{t(lang, 'legal.updated', { date: formatDate(lang, SITE.legalUpdated) })}</p>}
+    {
+      lang !== 'en' && (
+        <p class="legal__translation card">
+          {t(lang, 'legal.englishNote')} <a href={localizedPath('en', `/${pageKey}/`)} hreflang="en" lang="en">{t(lang, 'legal.englishVersion')}</a>
+        </p>
+      )
+    }
+
+    {paragraphs.map((text) => <p>{text}</p>)}
+
+    {
+      pageKey === 'contact' && (
+        <dl class="contact card">
+          <div>
+            <dt>{p('emailLabel')}</dt>
+            <dd><a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a></dd>
+          </div>
+          <div>
+            <dt>{p('ownerLabel')}</dt>
+            <dd>{SITE.owner}</dd>
+          </div>
+          <div>
+            <dt>{p('locationLabel')}</dt>
+            <dd>{p('locationValue')}</dd>
+          </div>
+        </dl>
+      )
+    }
+
+    {
+      sections.map((s, i) => (
+        <section>
+          <h2>{i + 1}. {s.title}</h2>
+          <p>{s.text}</p>
+        </section>
+      ))
+    }
+
+    <p class="legal__back"><a href={localizedPath(lang, '/')}>{t(lang, 'nav.home')}</a></p>
+  </article>
+</Layout>
+
+<style>
+  .legal {
+    max-width: 48rem;
+  }
+  .legal h2 {
+    font-size: var(--step-1);
+    margin-top: var(--space-6);
+  }
+  .legal__date {
+    color: var(--text-muted);
+  }
+  .legal__translation {
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--step--1);
+    background: var(--brand-soft);
+  }
+  .contact {
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-5);
+    margin: var(--space-5) 0;
+  }
+  .contact div {
+    display: grid;
+    gap: var(--space-1);
+  }
+  .contact dt {
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--text-muted);
+  }
+  .contact dd {
+    margin: 0;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+  }
+  .legal__back {
+    margin-top: var(--space-7);
+  }
+</style>

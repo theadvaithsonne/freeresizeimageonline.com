@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Última actualización: {date}",
+    "about": {
+      "title": "Acerca de FreeResizeImageOnline",
+      "description": "Quién crea FreeResizeImageOnline, por qué es gratis y cómo se mantienen privadas tus imágenes.",
+      "h1": "Acerca de FreeResizeImageOnline",
+      "paragraphs": [
+        "FreeResizeImageOnline es una herramienta gratuita para redimensionar, comprimir y convertir imágenes. Está creada y mantenida por {owner} en Bangalore, India.",
+        "El objetivo es que sea sencilla: sin cuenta, sin marca de agua y sin límites. Tus imágenes se procesan dentro de tu propio navegador y nunca se suben a nuestros servidores.",
+        "El sitio se financia con publicidad de Google AdSense, que paga el dominio y el desarrollo. Los anuncios se limitan a un único recuadro claramente marcado para que no te estorben.",
+        "¿Preguntas o comentarios? Escribe a {email}."
+      ]
+    },
+    "contact": {
+      "title": "Contacto de FreeResizeImageOnline",
+      "description": "Contacta con el propietario de FreeResizeImageOnline para hacer preguntas, informar de errores o proponer ideas.",
+      "h1": "Contacto",
+      "paragraphs": [
+        "¿Preguntas, errores o ideas? Envía un correo y recibirás una respuesta lo antes posible.",
+        "Por favor, no adjuntes fotos privadas a tu mensaje. Describe el problema e indícanos tu navegador y tu dispositivo."
+      ],
+      "emailLabel": "Correo electrónico",
+      "ownerLabel": "Propietario del sitio",
+      "locationLabel": "Ubicación",
+      "locationValue": "Bangalore, India"
+    },
+    "privacy": {
+      "title": "Política de privacidad - FreeResizeImageOnline",
+      "description": "Cómo trata los datos FreeResizeImageOnline: las imágenes se quedan en tu dispositivo y cómo funcionan las cookies publicitarias.",
+      "h1": "Política de privacidad",
+      "sections": [
+        {
+          "title": "Resumen",
+          "text": "Este sitio se creó para que tus imágenes se queden en tu dispositivo. Esta política explica qué información se recopila y cuál no."
+        },
+        {
+          "title": "Tus imágenes",
+          "text": "Las imágenes que añades se procesan localmente en tu navegador mediante JavaScript y WebAssembly. Ni nosotros ni ningún tercero las subimos, almacenamos ni vemos. Los datos ocultos dentro de tus imágenes, como la ubicación, no se copian en los archivos que crea esta herramienta."
+        },
+        {
+          "title": "Estadísticas en vivo",
+          "text": "Para mostrar cuántas imágenes se han redimensionado y cuántas personas están en línea, tu navegador abre una conexión anónima con nuestro servicio de contador en Cloudflare. Solo envía un número: la cantidad de imágenes que redimensionaste. No almacenamos tu dirección IP, tu nombre, los nombres de tus archivos ni ningún identificador para estas estadísticas."
+        },
+        {
+          "title": "Información recopilada automáticamente",
+          "text": "Como la mayoría de los sitios web, nuestro proveedor de alojamiento, Cloudflare, procesa datos técnicos como tu dirección IP y el tipo de navegador para entregar el sitio y protegerlo contra abusos. Usamos Cloudflare Web Analytics, un servicio centrado en la privacidad que no utiliza cookies y no te rastrea entre sitios web, para contar las visitas a las páginas."
+        },
+        {
+          "title": "Cookies y almacenamiento local",
+          "text": "Guardamos tus preferencias, como el tema y el idioma, en el almacenamiento local de tu navegador. Esta información se queda en tu dispositivo. Los socios publicitarios pueden instalar cookies, tal como se describe en la sección siguiente."
+        },
+        {
+          "title": "Publicidad",
+          "text": "Usamos Google AdSense para mostrar anuncios. Los proveedores externos, incluido Google, utilizan cookies para mostrar anuncios basados en tus visitas anteriores a este sitio web o a otros. El uso de cookies publicitarias por parte de Google permite que Google y sus socios te muestren anuncios basados en tu visita a este sitio y a otros sitios de Internet. Puedes desactivar la publicidad personalizada en Google Ads Settings, y puedes desactivar el uso de cookies de algunos proveedores externos para publicidad personalizada en www.aboutads.info. En el Espacio Económico Europeo, el Reino Unido y Suiza, los anuncios solo se personalizan después de que des tu consentimiento en el mensaje que muestra una plataforma de gestión del consentimiento certificada por Google. Puedes cambiar tu elección en cualquier momento con el enlace Privacidad y configuración de cookies del pie de página."
+        },
+        {
+          "title": "Menores",
+          "text": "Este sitio no está dirigido a menores de 13 años (o a la edad aplicable en tu país) y no recopilamos a sabiendas información personal de menores."
+        },
+        {
+          "title": "Tus derechos",
+          "text": "Según el lugar donde vivas, por ejemplo en virtud del GDPR o de la Digital Personal Data Protection Act de la India, puedes tener derecho a acceder a tus datos personales, corregirlos o eliminarlos. Como no almacenamos datos personales tuyos, normalmente no hay nada que eliminar, pero puedes escribir a {email} para hacer cualquier solicitud."
+        },
+        {
+          "title": "Cambios en esta política",
+          "text": "Podemos actualizar esta política de vez en cuando. La fecha que aparece al principio indica la versión más reciente."
+        },
+        {
+          "title": "Contacto",
+          "text": "{owner}, Bangalore, India. Correo electrónico: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Términos del servicio - FreeResizeImageOnline",
+      "description": "Los términos para usar FreeResizeImageOnline.",
+      "h1": "Términos del servicio",
+      "sections": [
+        {
+          "title": "Aceptación",
+          "text": "Al usar FreeResizeImageOnline aceptas estos términos. Si no estás de acuerdo, por favor no uses el sitio."
+        },
+        {
+          "title": "El servicio",
+          "text": "El sitio ofrece herramientas gratuitas para redimensionar, comprimir y convertir imágenes. Podemos cambiar, pausar o detener cualquier parte del servicio en cualquier momento y sin previo aviso."
+        },
+        {
+          "title": "Tu contenido",
+          "text": "Conservas todos los derechos sobre tus imágenes. Eres responsable de tener derecho a usarlas y editarlas, y no debes usar la herramienta con contenido ilegal. Como las imágenes se procesan en tu dispositivo, nosotros no las recibimos."
+        },
+        {
+          "title": "Uso aceptable",
+          "text": "No hagas un mal uso del sitio. Esto incluye intentar interrumpirlo, enviar solicitudes automatizadas a gran escala, manipular el servicio de contador o interferir con los anuncios."
+        },
+        {
+          "title": "Sin garantía",
+          "text": "El servicio se ofrece tal cual, sin garantías de ningún tipo. No garantizamos la calidad ni el tamaño de archivo de los resultados. Comprueba que tus imágenes cumplan los requisitos de cualquier trámite oficial, porque no podemos garantizar que una autoridad o un sitio web concretos las acepten."
+        },
+        {
+          "title": "Limitación de responsabilidad",
+          "text": "En la medida en que lo permita la ley, no somos responsables de ninguna pérdida o daño que resulte del uso del sitio."
+        },
+        {
+          "title": "Anuncios y terceros",
+          "text": "Los anuncios y los enlaces a otros sitios web pertenecen a terceros. No somos responsables de su contenido ni de sus prácticas."
+        },
+        {
+          "title": "Ley aplicable",
+          "text": "Estos términos se rigen por las leyes de {country}. Los tribunales de {place} tienen jurisdicción."
+        },
+        {
+          "title": "Contacto",
+          "text": "Las preguntas sobre estos términos pueden enviarse a {email}."
+        }
+      ]
+    },
+    "englishNote": "Esta página es una traducción para tu comodidad. Si difiere de la versión en inglés, prevalece la versión en inglés.",
+    "englishVersion": "Leer la versión en inglés"
+  }
+}

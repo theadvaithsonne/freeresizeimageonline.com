@@ -1,0 +1,42 @@
+{
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "home": "Free Resize Image Online - home",
+    "toggleTheme": "Switch color theme",
+    "openLanguages": "Choose language"
+  },
+  "language": {
+    "label": "Language",
+    "suggestText": "View this site in {language}?",
+    "suggestSwitch": "Switch",
+    "suggestDismiss": "No thanks"
+  },
+  "ads": {
+    "label": "Advertisement",
+    "note": "Ads keep FreeResizeImageOnline free. Everything works without them."
+  },
+  "badges": {
+    "free": "Free",
+    "unlimited": "Unlimited",
+    "noLogin": "No login",
+    "private": "Private: stays on your device"
+  },
+  "home": {
+    "title": "Free Resize Image Online - Resize Photos, No Signup",
+    "description": "Resize, compress and convert images free. No login, no limits, and your photos never leave your device.",
+    "h1": "Resize images online, free"
+  },
+  "counters": {
+    "label": "Live statistics",
+    "resized": "{count} images resized",
+    "online": "{count} online now"
+  },
+  "footer": {
+    "label": "Footer",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Privacy and cookie settings"
+  }
+}

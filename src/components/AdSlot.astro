@@ -1,34 +1,43 @@
 ---
 /**
- * Reserved ad space. Real AdSense code is added in Step 14, after approval.
+ * Ad space.
  *
  * - variant="rail":   right-hand column on wide screens (>= 64rem). Sticky, 300x600 reserve.
  * - variant="inline": single slot in the content flow on phones/tablets (< 64rem), placed
  *                     below the result and away from action buttons (Google ad placement policy).
  *
- * Only one of the two is visible at any width. Step 14 must initialise ONLY the visible slot
- * (AdSense can't size an ad inside a display:none container).
+ * Only one of the two is visible at any width. The loader (src/scripts/ads.ts) initialises ONLY the
+ * visible slot, because AdSense can't size an ad inside a display:none container.
  *
- * Space is reserved with fixed heights so the page never jumps when an ad loads (no layout shift).
+ * Until ADSENSE.client is set in src/config/site.ts (after AdSense approval) no Google code is loaded
+ * and a friendly placeholder is shown. Space is reserved with fixed heights, so the page never jumps.
  * Label wording is restricted by Google to "Advertisement" or "Sponsored Links".
  */
+import { ADSENSE } from '../config/site';
 import { t } from '../i18n';
 
 interface Props {
   variant: 'rail' | 'inline';
   lang: string;
-  /** Set to true once AdSense is approved and the slot is wired to real ad code. */
-  live?: boolean;
 }
-const { variant, lang, live = false } = Astro.props;
+const { variant, lang } = Astro.props;
 const label = t(lang, 'ads.label');
+const slotId = ADSENSE.slots[variant];
+const live = Boolean(ADSENSE.client && slotId);
 ---
 <aside class:list={['ad-slot', `ad-slot--${variant}`]} aria-label={label} data-ad-slot={variant}>
   <p class="ad-slot__label">{label}</p>
   <div class="ad-slot__box">
     {
       live ? (
-        <slot />
+        <ins
+          class="adsbygoogle"
+          style="display:block;width:100%"
+          data-ad-client={ADSENSE.client}
+          data-ad-slot={slotId}
+          data-ad-format={variant === 'rail' ? 'vertical' : 'auto'}
+          data-full-width-responsive={variant === 'rail' ? 'false' : 'true'}
+        />
       ) : (
         <p class="ad-slot__note">{t(lang, 'ads.note')}</p>
       )
@@ -53,7 +62,7 @@ const label = t(lang, 'ads.label');
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: var(--space-4);
+    padding: var(--space-2);
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);

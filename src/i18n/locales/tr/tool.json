@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Resim boyutlandırıcı",
+    "drop": {
+      "title": "Resimleri buraya sürükleyip bırakın",
+      "or": "veya",
+      "choose": "Resim seçin",
+      "paste": "Ctrl+V ile resim yapıştırabilirsiniz.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Boyut ve adet sınırı yok.",
+      "privacy": "Resimleriniz cihazınızdan asla çıkmaz.",
+      "addMore": "Daha fazla resim ekle",
+      "overlay": "Eklemek için resimleri bırakın",
+      "none": "Kullanılabilir resim bulunamadı. Lütfen JPG, PNG, WebP, GIF veya BMP dosyaları seçin."
+    },
+    "files": {
+      "title": "Resimleriniz ({count})",
+      "clear": "Tümünü temizle",
+      "remove": "{name} dosyasını kaldır"
+    },
+    "options": {
+      "title": "Seçenekler",
+      "preset": "Hazır ayar",
+      "presetNone": "Özel boyut",
+      "presetHint": "Fotoğraf şartları değişebilir. Göndermeden önce başvurunuzun resmî kurallarını kontrol edin.",
+      "resizeBy": "Boyutlandırma türü",
+      "modeDimensions": "Boyut",
+      "modePercent": "Yüzde",
+      "modeKeep": "Boyutu koru",
+      "width": "Genişlik",
+      "height": "Yükseklik",
+      "unit": "Birim",
+      "dpi": "DPI",
+      "lock": "En-boy oranını kilitle",
+      "fit": "Genişlik ve yükseklik birlikte girildiğinde",
+      "fitFit": "Kutuya sığdır",
+      "fitCrop": "Kutuyu dolduracak şekilde kırp",
+      "fitStretch": "Tam boyuta uzat",
+      "percent": "Ölçek (%)",
+      "format": "Biçim",
+      "formatOriginal": "Orijinaliyle aynı",
+      "quality": "Kalite",
+      "qualityNote": "Daha yüksek kalite daha net bir resim ve daha büyük bir dosya demektir.",
+      "target": "Dosya boyutunu sınırla",
+      "targetValue": "En büyük dosya boyutu",
+      "targetNote": "Sınıra sığan en iyi kalite sizin için seçilir.",
+      "pngNote": "PNG kayıpsızdır. Dosyayı belirgin biçimde küçültmek için JPG veya WebP seçin."
+    },
+    "actions": {
+      "resize": "Resimleri boyutlandır",
+      "cancel": "İptal",
+      "downloadAll": "Tümünü indir (ZIP)",
+      "download": "İndir",
+      "working": "Çalışıyor..."
+    },
+    "status": {
+      "queued": "Bekliyor",
+      "processing": "İşleniyor...",
+      "done": "Bitti",
+      "error": "Başarısız",
+      "cancelled": "İptal edildi"
+    },
+    "result": {
+      "smaller": "{percent} daha küçük",
+      "larger": "{percent} daha büyük",
+      "targetMissed": "{target} sınırına ulaşılamadı. Elde edilen en küçük boyut: {size}.",
+      "summary": "{total} dosyadan {done} tanesi tamamlandı",
+      "finished": "Hepsi tamam. {count} resim hazır."
+    },
+    "errors": {
+      "decode-failed": "Bu dosya resim olarak okunamadı.",
+      "unsupported-type": "Bu dosya türü desteklenmiyor.",
+      "invalid-size": "Lütfen geçerli bir genişlik, yükseklik veya yüzde girin.",
+      "too-large": "Bu boyut cihazınız için çok büyük. Daha küçük bir boyut deneyin.",
+      "encode-failed": "Resim kaydedilemedi. Lütfen başka bir biçim deneyin.",
+      "cancelled": "İptal edildi."
+    },
+    "presets": {
+      "groups": {
+        "social": "Sosyal medya",
+        "documents": "Vesikalık ve vize",
+        "forms": "Online formlar (dosya boyutu)",
+        "marketplaces": "Online mağazalar",
+        "web": "Web ve e-posta"
+      },
+      "words": {
+        "post": "gönderi",
+        "story": "hikaye / reel",
+        "cover": "kapak",
+        "banner": "afiş",
+        "thumbnail": "küçük resim",
+        "profile": "profil fotoğrafı",
+        "passport": "pasaport fotoğrafı",
+        "visa": "vize fotoğrafı",
+        "idPhoto": "vesikalık",
+        "maxSize": "en büyük dosya boyutu",
+        "product": "ürün resmi",
+        "favicon": "simge",
+        "email": "e-posta genişliği",
+        "screen": "ekran"
+      }
+    }
+  }
+}

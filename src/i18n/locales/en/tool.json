@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Image resizer",
+    "drop": {
+      "title": "Drag and drop images here",
+      "or": "or",
+      "choose": "Choose images",
+      "paste": "You can also paste images with Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. No limit on size or number.",
+      "privacy": "Your images never leave your device.",
+      "addMore": "Add more images",
+      "overlay": "Drop images to add them",
+      "none": "No usable images found. Please choose JPG, PNG, WebP, GIF or BMP files."
+    },
+    "files": {
+      "title": "Your images ({count})",
+      "clear": "Clear all",
+      "remove": "Remove {name}"
+    },
+    "options": {
+      "title": "Options",
+      "preset": "Preset",
+      "presetNone": "Custom size",
+      "presetHint": "Photo requirements change. Check your application's official rules before you submit.",
+      "resizeBy": "Resize by",
+      "modeDimensions": "Size",
+      "modePercent": "Percent",
+      "modeKeep": "Keep size",
+      "width": "Width",
+      "height": "Height",
+      "unit": "Unit",
+      "dpi": "DPI",
+      "lock": "Lock aspect ratio",
+      "fit": "When both width and height are set",
+      "fitFit": "Fit inside the box",
+      "fitCrop": "Crop to fill the box",
+      "fitStretch": "Stretch to the exact size",
+      "percent": "Scale (%)",
+      "format": "Format",
+      "formatOriginal": "Same as original",
+      "quality": "Quality",
+      "qualityNote": "Higher quality gives a sharper picture and a bigger file.",
+      "target": "Limit the file size",
+      "targetValue": "Maximum file size",
+      "targetNote": "The best quality that fits is chosen for you.",
+      "pngNote": "PNG is lossless. To make a file much smaller, choose JPG or WebP."
+    },
+    "actions": {
+      "resize": "Resize images",
+      "cancel": "Cancel",
+      "downloadAll": "Download all (ZIP)",
+      "download": "Download",
+      "working": "Working..."
+    },
+    "status": {
+      "queued": "Waiting",
+      "processing": "Processing...",
+      "done": "Done",
+      "error": "Failed",
+      "cancelled": "Cancelled"
+    },
+    "result": {
+      "smaller": "{percent} smaller",
+      "larger": "{percent} larger",
+      "targetMissed": "Could not reach {target}. Smallest possible: {size}.",
+      "summary": "{done} of {total} done",
+      "finished": "All done. {count} images are ready."
+    },
+    "errors": {
+      "decode-failed": "This file could not be read as an image.",
+      "unsupported-type": "This file type is not supported.",
+      "invalid-size": "Please enter a valid width, height or percentage.",
+      "too-large": "This size is too large for your device. Try a smaller size.",
+      "encode-failed": "Saving the image failed. Please try another format.",
+      "cancelled": "Cancelled."
+    },
+    "presets": {
+      "groups": {
+        "social": "Social media",
+        "documents": "Photo ID and visa",
+        "forms": "Online forms (file size)",
+        "marketplaces": "Online stores",
+        "web": "Web and email"
+      },
+      "words": {
+        "post": "post",
+        "story": "story / reel",
+        "cover": "cover",
+        "banner": "banner",
+        "thumbnail": "thumbnail",
+        "profile": "profile photo",
+        "passport": "passport photo",
+        "visa": "visa photo",
+        "idPhoto": "ID photo",
+        "maxSize": "max file size",
+        "product": "product image",
+        "favicon": "icon",
+        "email": "email width",
+        "screen": "screen"
+      }
+    }
+  }
+}

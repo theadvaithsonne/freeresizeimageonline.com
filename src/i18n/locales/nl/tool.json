@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Afbeeldingen verkleinen",
+    "drop": {
+      "title": "Sleep afbeeldingen hierheen",
+      "or": "of",
+      "choose": "Kies afbeeldingen",
+      "paste": "Je kunt afbeeldingen ook plakken met Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Geen limiet op grootte of aantal.",
+      "privacy": "Je afbeeldingen verlaten je apparaat nooit.",
+      "addMore": "Meer afbeeldingen toevoegen",
+      "overlay": "Zet afbeeldingen hier neer om ze toe te voegen",
+      "none": "Geen bruikbare afbeeldingen gevonden. Kies JPG-, PNG-, WebP-, GIF- of BMP-bestanden."
+    },
+    "files": {
+      "title": "Je afbeeldingen ({count})",
+      "clear": "Alles wissen",
+      "remove": "{name} verwijderen"
+    },
+    "options": {
+      "title": "Opties",
+      "preset": "Voorinstelling",
+      "presetNone": "Eigen formaat",
+      "presetHint": "Eisen voor foto’s kunnen veranderen. Controleer de officiële regels van je aanvraag voordat je indient.",
+      "resizeBy": "Formaat wijzigen op basis van",
+      "modeDimensions": "Afmetingen",
+      "modePercent": "Procent",
+      "modeKeep": "Formaat behouden",
+      "width": "Breedte",
+      "height": "Hoogte",
+      "unit": "Eenheid",
+      "dpi": "DPI",
+      "lock": "Verhouding vergrendelen",
+      "fit": "Als breedte en hoogte beide zijn ingesteld",
+      "fitFit": "Binnen het vak passen",
+      "fitCrop": "Bijsnijden om het vak te vullen",
+      "fitStretch": "Uitrekken tot het exacte formaat",
+      "percent": "Schaal (%)",
+      "format": "Indeling",
+      "formatOriginal": "Zoals het origineel",
+      "quality": "Kwaliteit",
+      "qualityNote": "Hogere kwaliteit geeft een scherpere afbeelding en een groter bestand.",
+      "target": "Bestandsgrootte beperken",
+      "targetValue": "Maximale bestandsgrootte",
+      "targetNote": "We kiezen automatisch de beste kwaliteit die past.",
+      "pngNote": "PNG is verliesvrij. Kies JPG of WebP om een bestand veel kleiner te maken."
+    },
+    "actions": {
+      "resize": "Formaat wijzigen",
+      "cancel": "Annuleren",
+      "downloadAll": "Alles downloaden (ZIP)",
+      "download": "Downloaden",
+      "working": "Bezig..."
+    },
+    "status": {
+      "queued": "Wachten",
+      "processing": "Verwerken...",
+      "done": "Klaar",
+      "error": "Mislukt",
+      "cancelled": "Geannuleerd"
+    },
+    "result": {
+      "smaller": "{percent} kleiner",
+      "larger": "{percent} groter",
+      "targetMissed": "{target} is niet gehaald. Kleinst mogelijke grootte: {size}.",
+      "summary": "{done} van {total} klaar",
+      "finished": "Klaar. {count} afbeeldingen staan klaar."
+    },
+    "errors": {
+      "decode-failed": "Dit bestand kon niet als afbeelding worden gelezen.",
+      "unsupported-type": "Dit bestandstype wordt niet ondersteund.",
+      "invalid-size": "Voer een geldige breedte, hoogte of percentage in.",
+      "too-large": "Dit formaat is te groot voor je apparaat. Probeer een kleiner formaat.",
+      "encode-failed": "De afbeelding opslaan is mislukt. Probeer een andere indeling.",
+      "cancelled": "Geannuleerd."
+    },
+    "presets": {
+      "groups": {
+        "social": "Sociale media",
+        "documents": "Pasfoto en visum",
+        "forms": "Online formulieren (bestandsgrootte)",
+        "marketplaces": "Webwinkels",
+        "web": "Web en e-mail"
+      },
+      "words": {
+        "post": "post",
+        "story": "story / reel",
+        "cover": "omslag",
+        "banner": "banner",
+        "thumbnail": "thumbnail",
+        "profile": "profielfoto",
+        "passport": "paspoortfoto",
+        "visa": "visumfoto",
+        "idPhoto": "pasfoto",
+        "maxSize": "max. bestandsgrootte",
+        "product": "productafbeelding",
+        "favicon": "icoon",
+        "email": "e-mailbreedte",
+        "screen": "scherm"
+      }
+    }
+  }
+}

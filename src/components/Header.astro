@@ -2,6 +2,7 @@
 import Logo from './Logo.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
+import Counters from './Counters.astro';
 import { localizedPath, t } from '../i18n';
 
 interface Props {
@@ -17,8 +18,7 @@ const { lang, path } = Astro.props;
       <Logo />
     </a>
     <div class="site-header__actions">
-      <!-- Step 7: live counters go in this slot -->
-      <slot name="counters" />
+      <Counters lang={lang} variant="header" />
       <LanguageSwitcher lang={lang} path={path} />
       <ThemeToggle label={t(lang, 'a11y.toggleTheme')} />
     </div>

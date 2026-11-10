@@ -1,0 +1,21 @@
+name = "frio-counters"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+# Only these sites may open the live-counter connection.
+[vars]
+ALLOWED_ORIGINS = "https://freeresizeimageonline.com,https://www.freeresizeimageonline.com"
+
+[[durable_objects.bindings]]
+name = "COUNTER"
+class_name = "Counter"
+
+# SQLite-backed Durable Objects are the ones available on the free plan.
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Counter"]
+
+# Optional: serve the Worker on your own subdomain (needs the domain active in Cloudflare).
+# [[routes]]
+# pattern = "counters.freeresizeimageonline.com"
+# custom_domain = true

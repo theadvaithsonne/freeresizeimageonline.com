@@ -1,14 +1,50 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { languageStaticPaths, t } from '../../i18n';
+import ResizerTool from '../../components/tool/ResizerTool.astro';
+import Sections from '../../components/content/Sections.astro';
+import { languageStaticPaths, list, localizedPath, t } from '../../i18n';
+import { SITE } from '../../config/site';
 
 export function getStaticPaths() {
   return languageStaticPaths();
 }
 
 const { lang } = Astro.props;
+const steps = list<{ title: string; text: string }>(lang, 'home.how.steps');
+const features = list<{ title: string; text: string }>(lang, 'home.why.items');
+const faq = list<{ q: string; a: string }>(lang, 'home.faq.items');
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+const howToLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: t(lang, 'home.how.title'),
+  step: steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.title, text: s.text })),
+};
+const appLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: SITE.name,
+  url: new URL(localizedPath(lang, '/'), SITE.url).href,
+  applicationCategory: 'MultimediaApplication',
+  operatingSystem: 'Any',
+  browserRequirements: 'Requires a modern web browser',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  description: t(lang, 'home.description'),
+  inLanguage: lang,
+};
 ---
 <Layout title={t(lang, 'home.title')} description={t(lang, 'home.description')} lang={lang} path="/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(appLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(howToLd)} />
+  </Fragment>
+
   <h1>{t(lang, 'home.h1')}</h1>
   <ul class="badges">
     <li class="badge">{t(lang, 'badges.free')}</li>
@@ -17,24 +53,50 @@ const { lang } = Astro.props;
     <li class="badge">{t(lang, 'badges.private')}</li>
   </ul>
 
-  <!-- Dev placeholder only (English on purpose): the real tool replaces this in Steps 4-5. -->
-  <section class="card layout-preview" lang="en" dir="ltr" aria-hidden="true">
-    <p>Tool placeholder: the resizer arrives in Steps 4-5.</p>
-  </section>
+  <ResizerTool lang={lang} />
+
+  <Sections
+    lang={lang}
+    stepsTitle={t(lang, 'home.how.title')}
+    steps={steps}
+    faqTitle={t(lang, 'common.faqTitle')}
+    faq={faq}
+    currentKey="home"
+  >
+    <section class="block" aria-labelledby="why-title">
+      <h2 id="why-title">{t(lang, 'home.why.title')}</h2>
+      <div class="features">
+        {
+          features.map((f) => (
+            <div class="feature card">
+              <h3>{f.title}</h3>
+              <p>{f.text}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+  </Sections>
 </Layout>
 
 <style>
-  .layout-preview {
-    display: grid;
-    min-height: 22rem;
-    place-content: center;
-    padding: var(--space-6);
-    border-style: dashed;
-    border-width: 2px;
-    color: var(--text-muted);
-    text-align: center;
+  .block h2 {
+    font-size: var(--step-2);
   }
-  .layout-preview p {
+  .features {
+    display: grid;
+    gap: var(--space-4);
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+  .feature {
+    padding: var(--space-5);
+  }
+  .feature h3 {
+    font-size: var(--step-1);
+    margin-bottom: var(--space-2);
+  }
+  .feature p {
     margin: 0;
+    color: var(--text-muted);
   }
 </style>

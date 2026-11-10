@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Zuletzt aktualisiert: {date}",
+    "about": {
+      "title": "Über FreeResizeImageOnline",
+      "description": "Wer hinter FreeResizeImageOnline steht, warum es kostenlos ist und wie Ihre Bilder privat bleiben.",
+      "h1": "Über FreeResizeImageOnline",
+      "paragraphs": [
+        "FreeResizeImageOnline ist ein kostenloses Tool zum Ändern der Größe, Komprimieren und Konvertieren von Bildern. Es wird von {owner} in Bengaluru, Indien, entwickelt und betrieben.",
+        "Das Ziel ist Einfachheit: kein Konto, kein Wasserzeichen und keine Limits. Ihre Bilder werden in Ihrem eigenen Browser verarbeitet und nie auf unsere Server hochgeladen.",
+        "Die Seite wird durch Werbung von Google AdSense unterstützt, die die Domain und die Entwicklung finanziert. Die Werbung beschränkt sich auf ein klar gekennzeichnetes Feld, damit sie Ihnen nicht im Weg steht.",
+        "Fragen oder Feedback? Schreiben Sie an {email}."
+      ]
+    },
+    "contact": {
+      "title": "Kontakt zu FreeResizeImageOnline",
+      "description": "Kontaktieren Sie den Betreiber von FreeResizeImageOnline bei Fragen, Fehlermeldungen oder Ideen.",
+      "h1": "Kontakt",
+      "paragraphs": [
+        "Fragen, Fehlermeldungen oder Ideen? Senden Sie eine E-Mail, und Sie erhalten so bald wie möglich eine Antwort.",
+        "Bitte hängen Sie keine privaten Fotos an Ihre Nachricht an. Beschreiben Sie stattdessen das Problem und nennen Sie uns Ihren Browser und Ihr Gerät."
+      ],
+      "emailLabel": "E-Mail",
+      "ownerLabel": "Betreiber der Seite",
+      "locationLabel": "Standort",
+      "locationValue": "Bengaluru, Indien"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung - FreeResizeImageOnline",
+      "description": "Wie FreeResizeImageOnline mit Daten umgeht: Bilder bleiben auf Ihrem Gerät, und wie Werbe-Cookies funktionieren.",
+      "h1": "Datenschutzerklärung",
+      "sections": [
+        {
+          "title": "Zusammenfassung",
+          "text": "Diese Seite wurde so gebaut, dass Ihre Bilder auf Ihrem Gerät bleiben. Diese Erklärung beschreibt, welche Informationen erfasst werden und welche nicht."
+        },
+        {
+          "title": "Ihre Bilder",
+          "text": "Bilder, die Sie hinzufügen, werden lokal in Ihrem Browser mit JavaScript und WebAssembly verarbeitet. Sie werden weder hochgeladen noch gespeichert, und weder wir noch Dritte sehen sie. Versteckte Daten in Ihren Bildern, etwa der Standort, werden nicht in die von diesem Tool erstellten Dateien übernommen."
+        },
+        {
+          "title": "Live-Statistik",
+          "text": "Um anzuzeigen, wie viele Bilder verkleinert wurden und wie viele Personen online sind, öffnet Ihr Browser eine anonyme Verbindung zu unserem Zählerdienst bei Cloudflare. Dabei wird nur eine Zahl gesendet, nämlich die Anzahl der von Ihnen verkleinerten Bilder. Für diese Statistik speichern wir weder Ihre IP-Adresse noch Ihren Namen, Dateinamen oder eine Kennung."
+        },
+        {
+          "title": "Automatisch erfasste Informationen",
+          "text": "Wie die meisten Websites verarbeitet unser Hosting-Anbieter Cloudflare technische Daten wie Ihre IP-Adresse und Ihren Browsertyp, um die Seite auszuliefern und vor Missbrauch zu schützen. Wir nutzen Cloudflare Web Analytics, einen datenschutzorientierten Dienst, der keine Cookies verwendet und Sie nicht über Websites hinweg verfolgt, um Seitenaufrufe zu zählen."
+        },
+        {
+          "title": "Cookies und lokaler Speicher",
+          "text": "Wir speichern Ihre Einstellungen, etwa Farbdesign und Sprache, im lokalen Speicher Ihres Browsers. Diese bleiben auf Ihrem Gerät. Werbepartner können Cookies setzen, wie im nächsten Abschnitt beschrieben."
+        },
+        {
+          "title": "Werbung",
+          "text": "Wir verwenden Google AdSense, um Werbung anzuzeigen. Drittanbieter, einschließlich Google, verwenden Cookies, um Werbung auf Grundlage Ihrer früheren Besuche auf dieser Website oder anderen Websites auszuliefern. Durch die Verwendung von Werbe-Cookies kann Google mit seinen Partnern Ihnen Werbung auf Grundlage Ihres Besuchs dieser und anderer Seiten im Internet anzeigen. Sie können personalisierte Werbung deaktivieren, indem Sie Google Ads Settings aufrufen, und Sie können der Verwendung von Cookies für personalisierte Werbung durch einige Drittanbieter unter www.aboutads.info widersprechen. Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz wird Werbung nur personalisiert, nachdem Sie in der Meldung einer von Google zertifizierten Consent-Management-Plattform eingewilligt haben. Sie können Ihre Auswahl jederzeit über den Link „Datenschutz- und Cookie-Einstellungen“ in der Fußzeile ändern."
+        },
+        {
+          "title": "Kinder",
+          "text": "Diese Seite richtet sich nicht an Kinder unter 13 Jahren (oder das in Ihrem Land geltende Alter), und wir erfassen wissentlich keine personenbezogenen Daten von Kindern."
+        },
+        {
+          "title": "Ihre Rechte",
+          "text": "Je nachdem, wo Sie leben, zum Beispiel nach der DSGVO (GDPR) oder dem indischen Digital Personal Data Protection Act, haben Sie möglicherweise das Recht auf Auskunft, Berichtigung oder Löschung personenbezogener Daten. Da wir keine personenbezogenen Daten über Sie speichern, gibt es in der Regel nichts zu löschen, aber Sie können jederzeit mit einem Anliegen an {email} schreiben."
+        },
+        {
+          "title": "Änderungen dieser Erklärung",
+          "text": "Wir können diese Erklärung von Zeit zu Zeit aktualisieren. Das Datum oben zeigt die neueste Version."
+        },
+        {
+          "title": "Kontakt",
+          "text": "{owner}, Bengaluru, Indien. E-Mail: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen - FreeResizeImageOnline",
+      "description": "Die Bedingungen für die Nutzung von FreeResizeImageOnline.",
+      "h1": "Nutzungsbedingungen",
+      "sections": [
+        {
+          "title": "Zustimmung",
+          "text": "Mit der Nutzung von FreeResizeImageOnline stimmen Sie diesen Bedingungen zu. Wenn Sie nicht zustimmen, nutzen Sie die Seite bitte nicht."
+        },
+        {
+          "title": "Der Dienst",
+          "text": "Die Seite bietet kostenlose Tools zum Ändern der Größe, Komprimieren und Konvertieren von Bildern. Wir können jeden Teil des Dienstes jederzeit und ohne Vorankündigung ändern, pausieren oder einstellen."
+        },
+        {
+          "title": "Ihre Inhalte",
+          "text": "Sie behalten alle Rechte an Ihren Bildern. Sie sind dafür verantwortlich, dass Sie berechtigt sind, sie zu verwenden und zu bearbeiten, und Sie dürfen das Tool nicht für illegale Inhalte nutzen. Da Bilder auf Ihrem Gerät verarbeitet werden, erhalten wir sie nicht."
+        },
+        {
+          "title": "Zulässige Nutzung",
+          "text": "Missbrauchen Sie die Seite nicht. Dazu gehören der Versuch, sie zu stören, das massenhafte Senden automatisierter Anfragen, das Manipulieren des Zählerdienstes oder das Beeinträchtigen von Werbeanzeigen."
+        },
+        {
+          "title": "Keine Gewährleistung",
+          "text": "Der Dienst wird „wie besehen“ und ohne Gewährleistung jeglicher Art bereitgestellt. Wir garantieren weder die Qualität noch die Dateigröße der Ergebnisse. Prüfen Sie, ob Ihre Bilder die Anforderungen eines offiziellen Antrags erfüllen, denn wir können nicht garantieren, dass eine bestimmte Behörde oder Website sie akzeptiert."
+        },
+        {
+          "title": "Haftungsbeschränkung",
+          "text": "Soweit gesetzlich zulässig, haften wir nicht für Verluste oder Schäden, die sich aus der Nutzung der Seite ergeben."
+        },
+        {
+          "title": "Werbung und Dritte",
+          "text": "Werbung und Links zu anderen Websites gehören Dritten. Wir sind für deren Inhalte oder Praktiken nicht verantwortlich."
+        },
+        {
+          "title": "Anwendbares Recht",
+          "text": "Für diese Bedingungen gilt das Recht von {country}. Die Gerichte in {place} sind zuständig."
+        },
+        {
+          "title": "Kontakt",
+          "text": "Fragen zu diesen Bedingungen können an {email} gesendet werden."
+        }
+      ]
+    },
+    "englishNote": "Diese Seite ist eine Übersetzung zu Ihrer Information. Weicht sie von der englischen Version ab, gilt die englische Version.",
+    "englishVersion": "Englische Version lesen"
+  }
+}

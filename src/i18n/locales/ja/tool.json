@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "画像リサイズツール",
+    "drop": {
+      "title": "ここに画像をドラッグ＆ドロップ",
+      "or": "または",
+      "choose": "画像を選択",
+      "paste": "Ctrl+Vで画像を貼り付けることもできます。",
+      "formats": "JPG、PNG、WebP、GIF、BMPに対応。サイズや枚数の制限はありません。",
+      "privacy": "画像が端末の外に出ることはありません。",
+      "addMore": "画像を追加",
+      "overlay": "ドロップして画像を追加",
+      "none": "使用できる画像が見つかりません。JPG、PNG、WebP、GIF、BMPのファイルを選んでください。"
+    },
+    "files": {
+      "title": "選択した画像（{count}）",
+      "clear": "すべて削除",
+      "remove": "{name}を削除"
+    },
+    "options": {
+      "title": "オプション",
+      "preset": "プリセット",
+      "presetNone": "サイズを指定",
+      "presetHint": "写真の規定は変更されることがあります。申請の前に、公式の規定をご確認ください。",
+      "resizeBy": "リサイズ方法",
+      "modeDimensions": "サイズ",
+      "modePercent": "割合",
+      "modeKeep": "サイズ維持",
+      "width": "幅",
+      "height": "高さ",
+      "unit": "単位",
+      "dpi": "DPI",
+      "lock": "縦横比を固定",
+      "fit": "幅と高さの両方を指定したとき",
+      "fitFit": "枠に収める",
+      "fitCrop": "枠いっぱいに切り抜く",
+      "fitStretch": "指定サイズに引き伸ばす",
+      "percent": "拡大・縮小率（%）",
+      "format": "形式",
+      "formatOriginal": "元の形式のまま",
+      "quality": "画質",
+      "qualityNote": "画質を上げると、より鮮明になりますが、ファイルは大きくなります。",
+      "target": "ファイルサイズを制限",
+      "targetValue": "最大ファイルサイズ",
+      "targetNote": "制限内で最も高い画質が自動で選ばれます。",
+      "pngNote": "PNGは可逆圧縮です。ファイルを大きく小さくしたいときは、JPGまたはWebPを選んでください。"
+    },
+    "actions": {
+      "resize": "リサイズ",
+      "cancel": "キャンセル",
+      "downloadAll": "すべてダウンロード（ZIP）",
+      "download": "ダウンロード",
+      "working": "処理中..."
+    },
+    "status": {
+      "queued": "待機中",
+      "processing": "処理中...",
+      "done": "完了",
+      "error": "失敗",
+      "cancelled": "キャンセル済み"
+    },
+    "result": {
+      "smaller": "{percent}小さくなりました",
+      "larger": "{percent}大きくなりました",
+      "targetMissed": "{target}に収められませんでした。最小で{size}です。",
+      "summary": "{total}件中{done}件完了",
+      "finished": "すべて完了しました。{count}枚の画像の準備ができました。"
+    },
+    "errors": {
+      "decode-failed": "このファイルを画像として読み込めませんでした。",
+      "unsupported-type": "このファイル形式には対応していません。",
+      "invalid-size": "幅、高さ、または割合を正しく入力してください。",
+      "too-large": "このサイズはお使いの端末には大きすぎます。もっと小さいサイズをお試しください。",
+      "encode-failed": "画像の保存に失敗しました。別の形式をお試しください。",
+      "cancelled": "キャンセルしました。"
+    },
+    "presets": {
+      "groups": {
+        "social": "SNS",
+        "documents": "証明写真・ビザ",
+        "forms": "オンラインフォーム（ファイルサイズ）",
+        "marketplaces": "ネットショップ",
+        "web": "ウェブ・メール"
+      },
+      "words": {
+        "post": "投稿",
+        "story": "ストーリーズ／リール",
+        "cover": "カバー",
+        "banner": "バナー",
+        "thumbnail": "サムネイル",
+        "profile": "プロフィール写真",
+        "passport": "パスポート写真",
+        "visa": "ビザ写真",
+        "idPhoto": "証明写真",
+        "maxSize": "最大ファイルサイズ",
+        "product": "商品画像",
+        "favicon": "アイコン",
+        "email": "メールの幅",
+        "screen": "画面"
+      }
+    }
+  }
+}

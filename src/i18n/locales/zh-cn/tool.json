@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "图片尺寸调整工具",
+    "drop": {
+      "title": "将图片拖放到这里",
+      "or": "或",
+      "choose": "选择图片",
+      "paste": "您也可以按 Ctrl+V 粘贴图片。",
+      "formats": "支持 JPG、PNG、WebP、GIF、BMP。图片大小和数量不限。",
+      "privacy": "您的图片不会离开您的设备。",
+      "addMore": "添加更多图片",
+      "overlay": "松开鼠标即可添加图片",
+      "none": "没有找到可用的图片。请选择 JPG、PNG、WebP、GIF 或 BMP 文件。"
+    },
+    "files": {
+      "title": "您的图片（{count}）",
+      "clear": "全部清除",
+      "remove": "移除 {name}"
+    },
+    "options": {
+      "title": "选项",
+      "preset": "预设",
+      "presetNone": "自定义尺寸",
+      "presetHint": "照片要求可能会变化。提交前请核对您所申请项目的官方规定。",
+      "resizeBy": "调整方式",
+      "modeDimensions": "尺寸",
+      "modePercent": "百分比",
+      "modeKeep": "保持尺寸",
+      "width": "宽度",
+      "height": "高度",
+      "unit": "单位",
+      "dpi": "DPI",
+      "lock": "锁定宽高比",
+      "fit": "同时设置宽度和高度时",
+      "fitFit": "完整放入框内",
+      "fitCrop": "裁剪以填满框",
+      "fitStretch": "拉伸到精确尺寸",
+      "percent": "缩放比例（%）",
+      "format": "格式",
+      "formatOriginal": "与原图相同",
+      "quality": "质量",
+      "qualityNote": "质量越高，画面越清晰，文件也越大。",
+      "target": "限制文件大小",
+      "targetValue": "文件大小上限",
+      "targetNote": "会自动为您选择符合限制的最佳质量。",
+      "pngNote": "PNG 是无损格式。想让文件明显变小，请选择 JPG 或 WebP。"
+    },
+    "actions": {
+      "resize": "调整图片大小",
+      "cancel": "取消",
+      "downloadAll": "全部下载（ZIP）",
+      "download": "下载",
+      "working": "处理中..."
+    },
+    "status": {
+      "queued": "等待中",
+      "processing": "处理中...",
+      "done": "完成",
+      "error": "失败",
+      "cancelled": "已取消"
+    },
+    "result": {
+      "smaller": "缩小 {percent}",
+      "larger": "增大 {percent}",
+      "targetMissed": "无法达到 {target}。最小可达 {size}。",
+      "summary": "已完成 {done}/{total}",
+      "finished": "全部完成。{count} 张图片已准备好。"
+    },
+    "errors": {
+      "decode-failed": "无法将此文件作为图片读取。",
+      "unsupported-type": "不支持此文件类型。",
+      "invalid-size": "请输入有效的宽度、高度或百分比。",
+      "too-large": "此尺寸对您的设备来说太大了。请尝试更小的尺寸。",
+      "encode-failed": "保存图片失败。请尝试其他格式。",
+      "cancelled": "已取消。"
+    },
+    "presets": {
+      "groups": {
+        "social": "社交媒体",
+        "documents": "证件照和签证",
+        "forms": "在线表格（文件大小）",
+        "marketplaces": "网店",
+        "web": "网页和邮件"
+      },
+      "words": {
+        "post": "帖子",
+        "story": "快拍 / 短视频",
+        "cover": "封面",
+        "banner": "横幅",
+        "thumbnail": "缩略图",
+        "profile": "头像",
+        "passport": "护照照片",
+        "visa": "签证照片",
+        "idPhoto": "证件照",
+        "maxSize": "文件大小上限",
+        "product": "商品图",
+        "favicon": "图标",
+        "email": "邮件宽度",
+        "screen": "屏幕"
+      }
+    }
+  }
+}

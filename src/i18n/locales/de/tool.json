@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Bildgrößen-Tool",
+    "drop": {
+      "title": "Bilder hierher ziehen und ablegen",
+      "or": "oder",
+      "choose": "Bilder auswählen",
+      "paste": "Sie können Bilder auch mit Strg+V einfügen.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Keine Begrenzung bei Größe oder Anzahl.",
+      "privacy": "Ihre Bilder verlassen nie Ihr Gerät.",
+      "addMore": "Weitere Bilder hinzufügen",
+      "overlay": "Bilder ablegen, um sie hinzuzufügen",
+      "none": "Keine verwendbaren Bilder gefunden. Bitte wählen Sie JPG-, PNG-, WebP-, GIF- oder BMP-Dateien."
+    },
+    "files": {
+      "title": "Ihre Bilder ({count})",
+      "clear": "Alle entfernen",
+      "remove": "{name} entfernen"
+    },
+    "options": {
+      "title": "Optionen",
+      "preset": "Vorlage",
+      "presetNone": "Eigene Größe",
+      "presetHint": "Die Anforderungen an Fotos ändern sich. Prüfen Sie vor dem Einreichen die offiziellen Vorgaben Ihres Antrags.",
+      "resizeBy": "Ändern nach",
+      "modeDimensions": "Größe",
+      "modePercent": "Prozent",
+      "modeKeep": "Größe beibehalten",
+      "width": "Breite",
+      "height": "Höhe",
+      "unit": "Einheit",
+      "dpi": "DPI",
+      "lock": "Seitenverhältnis sperren",
+      "fit": "Wenn Breite und Höhe angegeben sind",
+      "fitFit": "In den Rahmen einpassen",
+      "fitCrop": "Rahmen füllen und zuschneiden",
+      "fitStretch": "Auf exakte Größe strecken",
+      "percent": "Skalierung (%)",
+      "format": "Format",
+      "formatOriginal": "Wie das Original",
+      "quality": "Qualität",
+      "qualityNote": "Höhere Qualität ergibt ein schärferes Bild und eine größere Datei.",
+      "target": "Dateigröße begrenzen",
+      "targetValue": "Maximale Dateigröße",
+      "targetNote": "Es wird automatisch die beste Qualität gewählt, die passt.",
+      "pngNote": "PNG ist verlustfrei. Für deutlich kleinere Dateien wählen Sie JPG oder WebP."
+    },
+    "actions": {
+      "resize": "Größe ändern",
+      "cancel": "Abbrechen",
+      "downloadAll": "Alle laden (ZIP)",
+      "download": "Herunterladen",
+      "working": "Wird bearbeitet..."
+    },
+    "status": {
+      "queued": "Wartet",
+      "processing": "Wird verarbeitet...",
+      "done": "Fertig",
+      "error": "Fehlgeschlagen",
+      "cancelled": "Abgebrochen"
+    },
+    "result": {
+      "smaller": "{percent} kleiner",
+      "larger": "{percent} größer",
+      "targetMissed": "{target} konnte nicht erreicht werden. Kleinstmöglich: {size}.",
+      "summary": "{done} von {total} fertig",
+      "finished": "Alles fertig. {count} Bilder sind bereit."
+    },
+    "errors": {
+      "decode-failed": "Diese Datei konnte nicht als Bild gelesen werden.",
+      "unsupported-type": "Dieser Dateityp wird nicht unterstützt.",
+      "invalid-size": "Bitte geben Sie eine gültige Breite, Höhe oder einen gültigen Prozentwert ein.",
+      "too-large": "Diese Größe ist für Ihr Gerät zu groß. Versuchen Sie eine kleinere Größe.",
+      "encode-failed": "Das Bild konnte nicht gespeichert werden. Bitte versuchen Sie ein anderes Format.",
+      "cancelled": "Abgebrochen."
+    },
+    "presets": {
+      "groups": {
+        "social": "Soziale Medien",
+        "documents": "Passfoto und Visum",
+        "forms": "Online-Formulare (Dateigröße)",
+        "marketplaces": "Online-Shops",
+        "web": "Web und E-Mail"
+      },
+      "words": {
+        "post": "Beitrag",
+        "story": "Story / Reel",
+        "cover": "Titelbild",
+        "banner": "Banner",
+        "thumbnail": "Vorschaubild",
+        "profile": "Profilbild",
+        "passport": "Passfoto",
+        "visa": "Visumfoto",
+        "idPhoto": "Ausweisfoto",
+        "maxSize": "max. Dateigröße",
+        "product": "Produktbild",
+        "favicon": "Symbol",
+        "email": "E-Mail-Breite",
+        "screen": "Bildschirm"
+      }
+    }
+  }
+}

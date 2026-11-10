@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Cập nhật lần cuối: {date}",
+    "about": {
+      "title": "Giới thiệu về FreeResizeImageOnline",
+      "description": "Ai tạo ra FreeResizeImageOnline, vì sao công cụ miễn phí và cách ảnh của bạn được giữ riêng tư.",
+      "h1": "Giới thiệu về FreeResizeImageOnline",
+      "paragraphs": [
+        "FreeResizeImageOnline là công cụ miễn phí để đổi kích thước, nén và chuyển đổi ảnh. Công cụ do {owner} xây dựng và vận hành tại Bengaluru, Ấn Độ.",
+        "Mục tiêu là giữ cho mọi thứ đơn giản: không tài khoản, không watermark và không giới hạn. Ảnh của bạn được xử lý ngay trong trình duyệt của bạn và không bao giờ được tải lên máy chủ của chúng tôi.",
+        "Trang web được hỗ trợ bằng quảng cáo từ Google AdSense, khoản thu này chi trả cho tên miền và việc phát triển. Quảng cáo chỉ nằm trong một khung được đánh dấu rõ ràng để không làm phiền bạn.",
+        "Có câu hỏi hoặc góp ý? Hãy viết cho chúng tôi qua {email}."
+      ]
+    },
+    "contact": {
+      "title": "Liên hệ FreeResizeImageOnline",
+      "description": "Liên hệ chủ sở hữu FreeResizeImageOnline để đặt câu hỏi, báo lỗi hoặc đóng góp ý tưởng.",
+      "h1": "Liên hệ với chúng tôi",
+      "paragraphs": [
+        "Có câu hỏi, báo lỗi hoặc ý tưởng? Hãy gửi email và bạn sẽ nhận được phản hồi sớm nhất có thể.",
+        "Vui lòng không đính kèm ảnh riêng tư vào thư. Thay vào đó, hãy mô tả vấn đề và cho chúng tôi biết trình duyệt cùng thiết bị bạn đang dùng."
+      ],
+      "emailLabel": "Email",
+      "ownerLabel": "Chủ sở hữu trang web",
+      "locationLabel": "Địa điểm",
+      "locationValue": "Bengaluru, Ấn Độ"
+    },
+    "privacy": {
+      "title": "Chính sách quyền riêng tư - FreeResizeImageOnline",
+      "description": "Cách FreeResizeImageOnline xử lý dữ liệu: ảnh ở lại trên thiết bị của bạn, và cách cookie quảng cáo hoạt động.",
+      "h1": "Chính sách quyền riêng tư",
+      "sections": [
+        {
+          "title": "Tóm tắt",
+          "text": "Trang web này được xây dựng để ảnh của bạn ở lại trên thiết bị của bạn. Chính sách này giải thích thông tin nào được thu thập và thông tin nào không."
+        },
+        {
+          "title": "Ảnh của bạn",
+          "text": "Ảnh bạn thêm vào được xử lý ngay trên trình duyệt của bạn bằng JavaScript và WebAssembly. Chúng tôi hay bất kỳ bên thứ ba nào đều không tải lên, lưu trữ hay xem những ảnh này. Dữ liệu ẩn bên trong ảnh của bạn, chẳng hạn như vị trí, không được sao chép vào các tệp mà công cụ này tạo ra."
+        },
+        {
+          "title": "Thống kê trực tiếp",
+          "text": "Để hiển thị số ảnh đã được đổi kích thước và số người đang online, trình duyệt của bạn mở một kết nối ẩn danh đến dịch vụ bộ đếm của chúng tôi trên Cloudflare. Kết nối này chỉ gửi một con số, là số ảnh bạn đã đổi kích thước. Chúng tôi không lưu địa chỉ IP, tên, tên tệp hay bất kỳ mã định danh nào của bạn cho các thống kê này."
+        },
+        {
+          "title": "Thông tin được thu thập tự động",
+          "text": "Giống như hầu hết các trang web, nhà cung cấp dịch vụ lưu trữ của chúng tôi là Cloudflare xử lý các dữ liệu kỹ thuật như địa chỉ IP và loại trình duyệt của bạn để cung cấp trang web và bảo vệ trang khỏi bị lạm dụng. Chúng tôi dùng Cloudflare Web Analytics, một dịch vụ chú trọng quyền riêng tư, không dùng cookie và không theo dõi bạn trên các trang web khác, để đếm lượt xem trang."
+        },
+        {
+          "title": "Cookie và bộ nhớ cục bộ",
+          "text": "Chúng tôi lưu các lựa chọn của bạn, chẳng hạn như giao diện và ngôn ngữ, trong bộ nhớ cục bộ của trình duyệt. Dữ liệu này ở lại trên thiết bị của bạn. Các đối tác quảng cáo có thể đặt cookie như được mô tả trong phần tiếp theo."
+        },
+        {
+          "title": "Quảng cáo",
+          "text": "Chúng tôi dùng Google AdSense để hiển thị quảng cáo. Các nhà cung cấp bên thứ ba, bao gồm Google, sử dụng cookie để phân phối quảng cáo dựa trên những lần bạn truy cập trước đây vào trang web này hoặc các trang web khác. Việc Google sử dụng cookie quảng cáo cho phép Google và các đối tác của Google phân phối quảng cáo cho bạn dựa trên việc bạn truy cập trang web này và các trang web khác trên Internet. Bạn có thể từ chối quảng cáo được cá nhân hóa bằng cách truy cập Google Ads Settings, và bạn có thể từ chối việc một số nhà cung cấp bên thứ ba sử dụng cookie cho quảng cáo được cá nhân hóa tại www.aboutads.info. Tại Khu vực Kinh tế Châu Âu, Vương quốc Anh và Thụy Sĩ, quảng cáo chỉ được cá nhân hóa sau khi bạn đồng ý trong thông báo do một nền tảng quản lý sự đồng ý được Google chứng nhận hiển thị. Bạn có thể thay đổi lựa chọn của mình bất cứ lúc nào bằng liên kết Cài đặt quyền riêng tư và cookie ở chân trang."
+        },
+        {
+          "title": "Trẻ em",
+          "text": "Trang web này không nhắm đến trẻ em dưới 13 tuổi (hoặc độ tuổi áp dụng tại quốc gia của bạn) và chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em."
+        },
+        {
+          "title": "Quyền của bạn",
+          "text": "Tùy theo nơi bạn sinh sống, chẳng hạn theo GDPR hoặc Đạo luật Bảo vệ Dữ liệu Cá nhân Kỹ thuật số của Ấn Độ, bạn có thể có quyền truy cập, chỉnh sửa hoặc xóa dữ liệu cá nhân. Vì chúng tôi không lưu dữ liệu cá nhân nào về bạn, thường sẽ không có gì để xóa, nhưng bạn vẫn có thể gửi yêu cầu đến {email}."
+        },
+        {
+          "title": "Thay đổi chính sách này",
+          "text": "Chúng tôi có thể cập nhật chính sách này theo thời gian. Ngày ở đầu trang cho biết phiên bản mới nhất."
+        },
+        {
+          "title": "Liên hệ",
+          "text": "{owner}, Bengaluru, Ấn Độ. Email: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Điều khoản dịch vụ - FreeResizeImageOnline",
+      "description": "Các điều khoản khi sử dụng FreeResizeImageOnline.",
+      "h1": "Điều khoản dịch vụ",
+      "sections": [
+        {
+          "title": "Chấp nhận điều khoản",
+          "text": "Khi sử dụng FreeResizeImageOnline, bạn đồng ý với các điều khoản này. Nếu bạn không đồng ý, vui lòng không sử dụng trang web."
+        },
+        {
+          "title": "Dịch vụ",
+          "text": "Trang web cung cấp các công cụ miễn phí để đổi kích thước, nén và chuyển đổi ảnh. Chúng tôi có thể thay đổi, tạm dừng hoặc ngừng bất kỳ phần nào của dịch vụ vào bất cứ lúc nào mà không cần báo trước."
+        },
+        {
+          "title": "Nội dung của bạn",
+          "text": "Bạn giữ mọi quyền đối với ảnh của mình. Bạn chịu trách nhiệm đảm bảo mình có quyền sử dụng và chỉnh sửa ảnh, và bạn không được dùng công cụ này cho nội dung bất hợp pháp. Vì ảnh được xử lý trên thiết bị của bạn nên chúng tôi không nhận được ảnh."
+        },
+        {
+          "title": "Sử dụng được chấp nhận",
+          "text": "Không lạm dụng trang web. Điều này bao gồm việc cố gắng làm gián đoạn trang, gửi các yêu cầu tự động với quy mô lớn, can thiệp vào dịch vụ bộ đếm hoặc cản trở quảng cáo."
+        },
+        {
+          "title": "Không bảo hành",
+          "text": "Dịch vụ được cung cấp theo nguyên trạng, không có bất kỳ loại bảo hành nào. Chúng tôi không đảm bảo chất lượng hay dung lượng tệp của kết quả. Hãy kiểm tra xem ảnh của bạn có đáp ứng yêu cầu của hồ sơ chính thức nào không, vì chúng tôi không thể đảm bảo rằng một cơ quan hay trang web cụ thể sẽ chấp nhận chúng."
+        },
+        {
+          "title": "Giới hạn trách nhiệm",
+          "text": "Trong phạm vi pháp luật cho phép, chúng tôi không chịu trách nhiệm về bất kỳ tổn thất hay thiệt hại nào phát sinh từ việc sử dụng trang web."
+        },
+        {
+          "title": "Quảng cáo và bên thứ ba",
+          "text": "Quảng cáo và liên kết đến các trang web khác thuộc về bên thứ ba. Chúng tôi không chịu trách nhiệm về nội dung hay hoạt động của họ."
+        },
+        {
+          "title": "Luật điều chỉnh",
+          "text": "Các điều khoản này được điều chỉnh bởi luật pháp của {country}. Tòa án của {place} có thẩm quyền giải quyết."
+        },
+        {
+          "title": "Liên hệ",
+          "text": "Mọi câu hỏi về các điều khoản này có thể gửi đến {email}."
+        }
+      ]
+    },
+    "englishNote": "Trang này là bản dịch để thuận tiện cho bạn. Nếu có điểm khác biệt so với bản tiếng Anh, bản tiếng Anh sẽ được áp dụng.",
+    "englishVersion": "Đọc bản tiếng Anh"
+  }
+}

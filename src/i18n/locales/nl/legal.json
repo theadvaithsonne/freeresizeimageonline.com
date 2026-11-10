@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Laatst bijgewerkt: {date}",
+    "about": {
+      "title": "Over FreeResizeImageOnline",
+      "description": "Wie FreeResizeImageOnline maakt, waarom het gratis is en hoe je afbeeldingen privé blijven.",
+      "h1": "Over FreeResizeImageOnline",
+      "paragraphs": [
+        "FreeResizeImageOnline is een gratis tool om het formaat van afbeeldingen te wijzigen, ze te comprimeren en te converteren. Het wordt gebouwd en beheerd door {owner} in Bengaluru, India.",
+        "Het doel is om het simpel te houden: geen account, geen watermerk en geen limieten. Je afbeeldingen worden verwerkt in je eigen browser en nooit naar onze servers geüpload.",
+        "De site wordt ondersteund door advertenties van Google AdSense, waarmee het domein en de ontwikkeling worden betaald. Advertenties blijven beperkt tot één duidelijk gemarkeerd vak, zodat ze je niet in de weg zitten.",
+        "Vragen of feedback? Schrijf naar {email}."
+      ]
+    },
+    "contact": {
+      "title": "Contact met FreeResizeImageOnline",
+      "description": "Neem contact op met de eigenaar van FreeResizeImageOnline met vragen, foutmeldingen of ideeën.",
+      "h1": "Contact",
+      "paragraphs": [
+        "Vragen, foutmeldingen of ideeën? Stuur een e-mail en je krijgt zo snel mogelijk antwoord.",
+        "Voeg geen privéfoto’s toe aan je bericht. Beschrijf in plaats daarvan het probleem en vermeld je browser en apparaat."
+      ],
+      "emailLabel": "E-mail",
+      "ownerLabel": "Eigenaar van de site",
+      "locationLabel": "Locatie",
+      "locationValue": "Bengaluru, India"
+    },
+    "privacy": {
+      "title": "Privacybeleid - FreeResizeImageOnline",
+      "description": "Hoe FreeResizeImageOnline met gegevens omgaat: afbeeldingen blijven op je apparaat, en hoe advertentiecookies werken.",
+      "h1": "Privacybeleid",
+      "sections": [
+        {
+          "title": "Samenvatting",
+          "text": "Deze site is gebouwd zodat je afbeeldingen op je apparaat blijven. Dit beleid legt uit welke informatie wel en niet wordt verzameld."
+        },
+        {
+          "title": "Je afbeeldingen",
+          "text": "Afbeeldingen die je toevoegt, worden lokaal in je browser verwerkt met JavaScript en WebAssembly. Ze worden niet geüpload, opgeslagen of ingezien door ons of door een derde partij. Verborgen gegevens in je afbeeldingen, zoals de locatie, worden niet gekopieerd naar de bestanden die deze tool maakt."
+        },
+        {
+          "title": "Live statistieken",
+          "text": "Om te laten zien hoeveel afbeeldingen zijn aangepast en hoeveel mensen er online zijn, maakt je browser een anonieme verbinding met onze tellerdienst op Cloudflare. Daarbij wordt alleen een getal verstuurd: het aantal afbeeldingen waarvan je het formaat hebt gewijzigd. We slaan voor deze statistieken je IP-adres, naam, bestandsnamen of enige identificatie niet op."
+        },
+        {
+          "title": "Automatisch verzamelde informatie",
+          "text": "Net als de meeste websites verwerkt onze hostingprovider Cloudflare technische gegevens, zoals je IP-adres en browsertype, om de site te leveren en te beschermen tegen misbruik. We gebruiken Cloudflare Web Analytics, een op privacy gerichte dienst die geen cookies gebruikt en je niet volgt over websites heen, om paginaweergaven te tellen."
+        },
+        {
+          "title": "Cookies en lokale opslag",
+          "text": "We bewaren je keuzes, zoals thema en taal, in de lokale opslag van je browser. Die blijft op je apparaat. Advertentiepartners kunnen cookies plaatsen zoals beschreven in de volgende sectie."
+        },
+        {
+          "title": "Advertenties",
+          "text": "We gebruiken Google AdSense om advertenties te tonen. Externe leveranciers, waaronder Google, gebruiken cookies om advertenties te tonen op basis van je eerdere bezoeken aan deze website of andere websites. Door het gebruik van advertentiecookies door Google kunnen Google en zijn partners je advertenties tonen op basis van je bezoek aan deze site en aan andere sites op internet. Je kunt je afmelden voor gepersonaliseerde advertenties via Google Ads Settings, en je kunt je voor het gebruik van cookies voor gepersonaliseerde advertenties door sommige externe leveranciers afmelden op www.aboutads.info. In de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland worden advertenties pas gepersonaliseerd nadat je toestemming hebt gegeven in het bericht van een door Google gecertificeerd platform voor toestemmingsbeheer. Je kunt je keuze op elk moment wijzigen via de link Privacy- en cookie-instellingen in de voettekst."
+        },
+        {
+          "title": "Kinderen",
+          "text": "Deze site is niet gericht op kinderen jonger dan 13 jaar (of de toepasselijke leeftijd in jouw land) en we verzamelen niet bewust persoonsgegevens van kinderen."
+        },
+        {
+          "title": "Je rechten",
+          "text": "Afhankelijk van waar je woont, bijvoorbeeld op grond van de AVG (GDPR) of de Digital Personal Data Protection Act van India, heb je mogelijk het recht om persoonsgegevens in te zien, te corrigeren of te laten verwijderen. Omdat we geen persoonsgegevens over je opslaan, valt er meestal niets te verwijderen, maar je kunt met elk verzoek schrijven naar {email}."
+        },
+        {
+          "title": "Wijzigingen in dit beleid",
+          "text": "We kunnen dit beleid van tijd tot tijd bijwerken. De datum bovenaan geeft de meest recente versie aan."
+        },
+        {
+          "title": "Contact",
+          "text": "{owner}, Bengaluru, India. E-mail: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Gebruiksvoorwaarden - FreeResizeImageOnline",
+      "description": "De voorwaarden voor het gebruik van FreeResizeImageOnline.",
+      "h1": "Gebruiksvoorwaarden",
+      "sections": [
+        {
+          "title": "Aanvaarding",
+          "text": "Door FreeResizeImageOnline te gebruiken, ga je akkoord met deze voorwaarden. Als je niet akkoord gaat, gebruik de site dan niet."
+        },
+        {
+          "title": "De dienst",
+          "text": "De site biedt gratis tools om het formaat van afbeeldingen te wijzigen, ze te comprimeren en te converteren. We kunnen elk onderdeel van de dienst op elk moment en zonder voorafgaande kennisgeving wijzigen, onderbreken of stopzetten."
+        },
+        {
+          "title": "Jouw inhoud",
+          "text": "Je behoudt alle rechten op je afbeeldingen. Je bent zelf verantwoordelijk voor het recht om ze te gebruiken en te bewerken, en je mag de tool niet gebruiken voor illegale inhoud. Omdat afbeeldingen op je apparaat worden verwerkt, ontvangen wij ze niet."
+        },
+        {
+          "title": "Toegestaan gebruik",
+          "text": "Maak geen misbruik van de site. Dat omvat pogingen om de site te verstoren, het op grote schaal versturen van geautomatiseerde verzoeken, het knoeien met de tellerdienst of het verstoren van advertenties."
+        },
+        {
+          "title": "Geen garantie",
+          "text": "De dienst wordt geleverd zoals hij is, zonder enige vorm van garantie. We garanderen de kwaliteit of bestandsgrootte van de resultaten niet. Controleer zelf of je afbeeldingen voldoen aan de eisen van een officiële aanvraag, want we kunnen niet garanderen dat een bepaalde instantie of website ze accepteert."
+        },
+        {
+          "title": "Beperking van aansprakelijkheid",
+          "text": "Voor zover wettelijk toegestaan zijn wij niet aansprakelijk voor enig verlies of enige schade die voortvloeit uit het gebruik van de site."
+        },
+        {
+          "title": "Advertenties en derden",
+          "text": "Advertenties en links naar andere websites zijn eigendom van derden. We zijn niet verantwoordelijk voor hun inhoud of werkwijze."
+        },
+        {
+          "title": "Toepasselijk recht",
+          "text": "Op deze voorwaarden is het recht van {country} van toepassing. De rechtbanken van {place} zijn bevoegd."
+        },
+        {
+          "title": "Contact",
+          "text": "Vragen over deze voorwaarden kunnen worden gestuurd naar {email}."
+        }
+      ]
+    },
+    "englishNote": "Deze pagina is een vertaling ter informatie. Als er verschillen zijn met de Engelse versie, geldt de Engelse versie.",
+    "englishVersion": "Lees de Engelse versie"
+  }
+}

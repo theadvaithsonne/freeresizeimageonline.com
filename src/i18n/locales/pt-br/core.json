@@ -1,0 +1,42 @@
+{
+  "a11y": {
+    "skipToContent": "Pular para o conteúdo",
+    "home": "Free Resize Image Online - início",
+    "toggleTheme": "Alternar tema de cores",
+    "openLanguages": "Escolher idioma"
+  },
+  "language": {
+    "label": "Idioma",
+    "suggestText": "Ver este site em {language}?",
+    "suggestSwitch": "Trocar",
+    "suggestDismiss": "Não, obrigado"
+  },
+  "ads": {
+    "label": "Publicidade",
+    "note": "Os anúncios mantêm o FreeResizeImageOnline gratuito. Tudo funciona sem eles."
+  },
+  "badges": {
+    "free": "Grátis",
+    "unlimited": "Ilimitado",
+    "noLogin": "Sem login",
+    "private": "Privado: fica no seu dispositivo"
+  },
+  "home": {
+    "title": "Redimensionar imagens online grátis - sem cadastro",
+    "description": "Redimensione, comprima e converta imagens grátis. Sem login, sem limites, e suas fotos nunca saem do seu dispositivo.",
+    "h1": "Redimensione imagens online, grátis"
+  },
+  "counters": {
+    "label": "Estatísticas ao vivo",
+    "resized": "{count} imagens redimensionadas",
+    "online": "{count} online agora"
+  },
+  "footer": {
+    "label": "Rodapé",
+    "about": "Sobre",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Configurações de privacidade e cookies"
+  }
+}

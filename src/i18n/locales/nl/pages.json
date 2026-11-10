@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Formaat wijzigen",
+    "kb": "Verkleinen naar KB",
+    "cm": "Formaat in cm, mm of inch",
+    "passport": "Pasfotoformaat",
+    "social": "Formaten voor sociale media",
+    "convert": "Afbeeldingen converteren",
+    "compress": "Afbeeldingen comprimeren"
+  },
+  "common": {
+    "howTo": "Zo werkt het",
+    "tipsTitle": "Tips",
+    "faqTitle": "Veelgestelde vragen",
+    "related": "Meer gratis tools",
+    "goodToKnow": "Goed om te weten",
+    "table": {
+      "country": "Land",
+      "platform": "Platform",
+      "use": "Gebruik",
+      "size": "Formaat",
+      "pixels": "Pixels (300 DPI)",
+      "pixelsPlain": "Pixels"
+    }
+  },
+  "home": {
+    "how": {
+      "title": "Zo wijzig je online het formaat van een afbeelding",
+      "steps": [
+        { "title": "Voeg je afbeeldingen toe", "text": "Sleep foto’s naar de pagina, kies ze op je apparaat of plak ze. Je kunt in één keer zoveel afbeeldingen toevoegen als je wilt." },
+        { "title": "Kies een formaat", "text": "Kies een voorinstelling, zoals Instagram of pasfoto, of voer zelf een breedte en hoogte in pixels, centimeters, millimeters of inches in. Je kunt ook een maximale bestandsgrootte instellen, bijvoorbeeld 50 KB." },
+        { "title": "Formaat wijzigen en downloaden", "text": "Druk op Formaat wijzigen. Download elke afbeelding afzonderlijk of haal alles op in één ZIP-bestand." }
+      ]
+    },
+    "why": {
+      "title": "Waarom mensen FreeResizeImageOnline gebruiken",
+      "items": [
+        { "title": "Privé door ontwerp", "text": "Je afbeeldingen worden verwerkt in je eigen browser. Ze worden nooit naar een server geüpload, dus niemand anders kan ze zien." },
+        { "title": "Gratis en onbeperkt", "text": "Geen account, geen watermerk, geen daglimiet en geen wachttijd. Pas één afbeelding aan of honderden." },
+        { "title": "Scherpe resultaten", "text": "Een hoogwaardig verkleiningsfilter en moderne compressie houden kleine afbeeldingen helder en bestanden klein." },
+        { "title": "Exacte bestandsgroottes", "text": "Heb je een foto onder 50 KB nodig voor een formulier? Stel de limiet in en de tool zoekt de beste kwaliteit die past." }
+      ]
+    },
+    "faq": {
+      "items": [
+        { "q": "Is het echt gratis?", "a": "Ja. Je hoeft je niet aan te melden, er is geen proefperiode en er geldt geen limiet op het aantal of de grootte van je afbeeldingen. De site wordt betaald door één advertentie naast de tool." },
+        { "q": "Worden mijn afbeeldingen geüpload?", "a": "Nee. Het formaat wijzigen gebeurt op je eigen apparaat, in je browser. Je afbeeldingen worden nooit naar onze servers gestuurd. Het enige wat we tellen is hoeveel afbeeldingen zijn aangepast, als simpel getal." },
+        { "q": "Welke bestandsindelingen worden ondersteund?", "a": "Je kunt JPG-, PNG-, WebP-, GIF- en BMP-bestanden openen, en AVIF als je browser dat ondersteunt. Opslaan kan als JPG, PNG of WebP." },
+        { "q": "Gaat de kwaliteit achteruit als ik het formaat wijzig?", "a": "Een afbeelding kleiner maken houdt hem scherp, omdat de tool een hoogwaardig filter gebruikt. Een afbeelding groter maken kan geen details toevoegen die er niet zijn, dus vergrote afbeeldingen zien er zachter uit. Bij JPG en WebP kies je zelf de kwaliteit." },
+        { "q": "Hoe krijg ik een afbeelding onder een grootte zoals 50 KB?", "a": "Zet Bestandsgrootte beperken aan, typ het getal en druk op Formaat wijzigen. De tool verlaagt de kwaliteit en zo nodig de afmetingen totdat het bestand past. Kies JPG of WebP voor het beste resultaat, want PNG kan op deze manier niet kleiner worden gemaakt." },
+        { "q": "Werkt het op mijn telefoon?", "a": "Ja. De pagina werkt in actuele versies van Chrome, Safari, Firefox en Edge op telefoons, tablets en computers. Op oudere telefoons kunnen zeer grote foto’s beperkt zijn." }
+      ]
+    }
+  },
+  "kb": {
+    "title": "Afbeelding verkleinen naar 20KB, 50KB, 100KB of 200KB",
+    "description": "Verklein een foto tot een exacte bestandsgrootte in KB voor formulieren en uploads. Gratis, zonder account, en je afbeelding blijft op je apparaat.",
+    "h1": "Afbeelding verkleinen naar KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "intro": "Veel online formulieren, examenportalen en vacaturesites weigeren foto’s boven een limiet zoals 50 KB of 200 KB. Deze tool verkleint je afbeelding zodat hij binnen de gekozen limiet past en zoveel mogelijk kwaliteit behoudt.",
+    "steps": [
+      { "title": "Voeg je foto toe", "text": "Sleep hem naar de pagina of kies hem op je apparaat." },
+      { "title": "Stel de limiet in", "text": "Kies een limiet in de lijst Voorinstelling, of zet Bestandsgrootte beperken aan en typ je eigen getal." },
+      { "title": "Formaat wijzigen en downloaden", "text": "Druk op Formaat wijzigen en download het resultaat." }
+    ],
+    "tipsTitle": "Tips voor kleine bestanden",
+    "tips": [
+      "Gebruik JPG. Het comprimeert foto’s veel beter dan PNG bij dezelfde afmetingen.",
+      "Ziet het resultaat er wazig uit? Verhoog de limiet een beetje of snijd lege randen weg voordat je het formaat wijzigt.",
+      "De meeste formulieren meten de grootte in KB, waarbij 1 KB 1.024 bytes is. Deze tool hanteert dezelfde regel.",
+      "Controleer ook de vereiste afmetingen. Sommige portalen willen zowel een formaat in pixels als een limiet in KB."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Waarom is mijn bestand nog steeds groter dan de limiet?", "a": "Zeer gedetailleerde foto’s hebben meer gegevens nodig. Als de limiet zelfs bij de laagste kwaliteit niet haalbaar is, maakt de tool de afbeelding ook kleiner. Lukt het dan nog steeds niet, dan laat de tool weten wat de kleinst mogelijke grootte is." },
+        { "q": "Kan ik van veel foto’s tegelijk het formaat naar dezelfde limiet wijzigen?", "a": "Ja. Voeg ze allemaal toe, stel de limiet één keer in en download ze samen als ZIP-bestand." },
+        { "q": "Wordt mijn foto naar een server geüpload?", "a": "Nee. Alles gebeurt in je browser, dus je foto verlaat je apparaat nooit." }
+      ]
+    }
+  },
+  "cm": {
+    "title": "Afbeeldingsformaat wijzigen in cm, mm of inch - Gratis",
+    "description": "Stel het exacte formaat van een foto in centimeters, millimeters of inches in met de juiste DPI. Gratis en privé.",
+    "h1": "Formaat van afbeelding wijzigen in cm, mm of inch",
+    "intro": "Voor afdrukken en officiële formulieren is vaak een formaat in centimeters of inches nodig in plaats van pixels. Voer het formaat en de DPI in, en de tool rekent de pixels voor je uit.",
+    "steps": [
+      { "title": "Voeg je foto toe", "text": "Sleep hem naar de pagina of kies hem op je apparaat." },
+      { "title": "Voer het formaat in", "text": "Kies cm, mm of in en typ de breedte en hoogte. Gebruik 300 DPI voor een goede afdrukkwaliteit." },
+      { "title": "Formaat wijzigen en downloaden", "text": "Druk op Formaat wijzigen en download het resultaat." }
+    ],
+    "tipsTitle": "Goed om te weten over DPI",
+    "tips": [
+      "DPI betekent dots per inch (stippen per inch). Bij 300 DPI is een afbeelding van 10 cm breed ongeveer 1.181 pixels breed.",
+      "Gebruik 300 DPI voor afdrukken en 72 tot 96 DPI voor schermen.",
+      "Laat Verhouding vergrendelen aan staan om uitrekken te voorkomen. Zet het uit en kies Bijsnijden om het vak te vullen als je een exacte vorm nodig hebt.",
+      "Op een website telt alleen het formaat in pixels. DPI is van belang wanneer een afbeelding wordt afgedrukt."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Hoeveel pixels is één inch?", "a": "Dat hangt af van de DPI. Bij 300 DPI is één inch 300 pixels. Bij 96 DPI is het 96 pixels." },
+        { "q": "Wordt het precies op dit formaat afgedrukt?", "a": "De tool stelt het formaat in pixels in dat past bij jouw formaat en de gekozen DPI. Druk de afbeelding af op ware grootte, of met die DPI, om het gevraagde formaat te krijgen." },
+        { "q": "Welk formaat heeft een foto van 4 x 6 inch?", "a": "Bij 300 DPI is 4 x 6 inch gelijk aan 1.200 x 1.800 pixels." }
+      ]
+    }
+  },
+  "passport": {
+    "title": "Pasfoto- en visumfotoformaat per land - Gratis aanpassen",
+    "description": "Gangbare formaten voor pasfoto’s en visumfoto’s in mm, inches en pixels, met een gratis tool om je foto op het juiste formaat te brengen.",
+    "h1": "Formaat van pasfoto en visumfoto",
+    "intro": "Elk land vraagt om een ander fotoformaat. Kies je land in de lijst Voorinstelling om je foto op 300 DPI bij te snijden en te verkleinen naar de exacte afmetingen.",
+    "note": "Regels veranderen en elke aanvraag kan eigen eisen stellen, zoals achtergrondkleur, hoofdgrootte of geen bril. Controleer altijd de officiële instructies voordat je indient. Deze tool stelt alleen het formaat in; hij controleert de hoofdgrootte of achtergrond niet.",
+    "tableTitle": "Gangbare fotoformaten",
+    "steps": [
+      { "title": "Kies je formaat", "text": "Open de lijst Voorinstelling, ga naar Pasfoto en visum en kies je land." },
+      { "title": "Voeg een foto toe", "text": "Gebruik een foto waarop je gezicht in het midden staat en goed zichtbaar is, want de tool snijdt vanuit het midden bij." },
+      { "title": "Formaat wijzigen en downloaden", "text": "Druk op Formaat wijzigen. De afbeelding wordt bijgesneden tot de vereiste vorm en opgeslagen als JPG." }
+    ],
+    "tipsTitle": "Tips voor een goede foto",
+    "tips": [
+      "Gebruik een effen, lichte achtergrond en gelijkmatige verlichting zonder schaduwen.",
+      "Kijk recht in de camera en zorg dat je gezicht in het midden staat voordat je het formaat wijzigt.",
+      "Controleer voor uploads online ook de limiet voor de bestandsgrootte en gebruik Bestandsgrootte beperken.",
+      "Druk af op ware grootte (100 procent), zodat het papierformaat overeenkomt met de eis."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Wat is het standaardformaat van een pasfoto?", "a": "Dat verschilt. De Verenigde Staten gebruiken 2 x 2 inch (51 x 51 mm). Het Verenigd Koninkrijk, de Europese Unie en Australië gebruiken 35 x 45 mm. Canada gebruikt 50 x 70 mm." },
+        { "q": "Kan ik dit gebruiken voor een visumfoto?", "a": "Ja, als de visumeis overeenkomt met een van de formaten. Veel visa gebruiken hetzelfde formaat als het paspoort, maar sommige landen hebben een eigen formaat. Controleer dus altijd de officiële regels." },
+        { "q": "Hoeveel pixels is een pasfoto?", "a": "Bij 300 DPI is 35 x 45 mm gelijk aan 413 x 531 pixels en 2 x 2 inch gelijk aan 600 x 600 pixels." }
+      ]
+    }
+  },
+  "social": {
+    "title": "Afbeeldingsformaten voor sociale media - Instagram, YouTube, Facebook",
+    "description": "Veelgebruikte afbeeldingsformaten voor Instagram, Facebook, YouTube, X, LinkedIn en Pinterest, plus een gratis tool om je afbeelding op maat te maken.",
+    "h1": "Afbeeldingsformaten voor sociale media",
+    "intro": "Berichten zien er het best uit als de afbeelding al de juiste vorm heeft. Kies een platform in de lijst Voorinstelling en de tool snijdt je afbeelding bij en past het formaat aan.",
+    "note": "Platforms passen hun aanbevelingen van tijd tot tijd aan. Dit zijn veelgebruikte formaten die goed werken met de huidige indelingen.",
+    "tableTitle": "Formaten per platform",
+    "steps": [
+      { "title": "Voeg je afbeelding toe", "text": "Sleep hem naar de pagina of kies hem op je apparaat." },
+      { "title": "Kies een platformformaat", "text": "Open de lijst Voorinstelling, ga naar Sociale media en kies het platform en de indeling." },
+      { "title": "Formaat wijzigen en downloaden", "text": "Druk op Formaat wijzigen. Bijsnijden om het vak te vullen is geselecteerd, dus er wordt niets uitgerekt." }
+    ],
+    "tipsTitle": "Tips voor scherpe berichten",
+    "tips": [
+      "Houd belangrijke inhoud uit de buurt van de randen, want sommige apps knippen de randen af.",
+      "Gebruik JPG of WebP voor foto’s en PNG voor graphics met scherpe tekst.",
+      "Begin met een afbeelding die groter is dan het doelformaat voor de beste scherpte."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Wat is het beste formaat voor een Instagram-post?", "a": "Gebruik 1080 x 1080 pixels voor een vierkante post en 1080 x 1350 pixels voor een staande post." },
+        { "q": "Welk formaat moet een YouTube-thumbnail hebben?", "a": "1280 x 720 pixels, met een bestandsgrootte onder 2 MB." },
+        { "q": "Wordt mijn afbeelding bijgesneden?", "a": "Bij Bijsnijden om het vak te vullen blijft het midden van de afbeelding behouden en worden de randen die niet passen weggesneden. Kies Binnen het vak passen als je liever alles behoudt." }
+      ]
+    }
+  },
+  "convert": {
+    "title": "JPG, PNG en WebP converteren - Gratis online converter",
+    "description": "Converteer afbeeldingen tussen JPG, PNG en WebP in je browser. Gratis, zonder account en privé.",
+    "h1": "Afbeeldingen converteren tussen JPG, PNG en WebP",
+    "intro": "Kies de gewenste indeling en de tool converteert elke afbeelding die je toevoegt. Er wordt niets geüpload.",
+    "steps": [
+      { "title": "Voeg je afbeeldingen toe", "text": "Voeg één of meerdere afbeeldingen toe." },
+      { "title": "Kies de indeling", "text": "Selecteer JPG, PNG of WebP onder Indeling. Laat Formaat behouden geselecteerd als je alleen de indeling wilt wijzigen." },
+      { "title": "Converteren en downloaden", "text": "Druk op Formaat wijzigen en download de resultaten." }
+    ],
+    "tipsTitle": "Welke indeling kan ik het best kiezen?",
+    "tips": [
+      "JPG is het best voor foto’s. Bestanden zijn klein, maar er is geen transparantie.",
+      "PNG is het best voor logo’s, schermafbeeldingen en graphics met scherpe randen of transparantie. Bestanden zijn groter.",
+      "WebP is een moderne indeling die meestal kleiner is dan JPG of PNG en werkt in alle actuele browsers.",
+      "Als je een transparante PNG naar JPG converteert, worden de doorzichtige delen wit."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Gaat de kwaliteit achteruit bij het converteren?", "a": "PNG-uitvoer is verliesvrij. JPG en WebP zijn verliesgevend, maar bij hoge kwaliteit is het verschil moeilijk te zien. Je kunt de kwaliteit zelf instellen." },
+        { "q": "Kan ik HEIC-foto’s van mijn iPhone converteren?", "a": "Nog niet, omdat de meeste browsers HEIC-bestanden niet kunnen openen. Op je iPhone kun je Camera-indelingen instellen op Meest compatibel, of de foto als JPG delen." }
+      ]
+    }
+  },
+  "compress": {
+    "title": "Afbeelding comprimeren online - Foto verkleinen gratis",
+    "description": "Maak foto’s kleiner zonder zichtbaar kwaliteitsverlies. Gratis, zonder account, en je afbeeldingen verlaten je apparaat nooit.",
+    "h1": "Afbeeldingen online comprimeren",
+    "intro": "Kleinere afbeeldingen laden sneller, passen in e-mails en besparen opslagruimte. De tool codeert je afbeeldingen opnieuw met moderne compressie en laat je een kwaliteitsniveau of een maximale bestandsgrootte instellen.",
+    "steps": [
+      { "title": "Voeg je afbeeldingen toe", "text": "Sleep ze naar de pagina of kies ze op je apparaat." },
+      { "title": "Kies hoe je wilt comprimeren", "text": "Laat Formaat behouden staan om te comprimeren zonder de afmetingen te wijzigen en gebruik de schuifregelaar Kwaliteit, of zet Bestandsgrootte beperken aan." },
+      { "title": "Comprimeren en downloaden", "text": "Druk op Formaat wijzigen en download de resultaten." }
+    ],
+    "tipsTitle": "Tips voor kleinere bestanden",
+    "tips": [
+      "Een kwaliteit van 70 tot 85 is voor foto’s meestal genoeg en verkleint het bestand flink.",
+      "Het verkleinen van de afmetingen maakt een bestand veel kleiner dan alleen de kwaliteit verlagen.",
+      "WebP-bestanden zijn bij hetzelfde uiterlijk meestal kleiner dan JPG.",
+      "Foto’s van telefoons bevatten verborgen gegevens, zoals de locatie. Bestanden die hier worden gemaakt, bevatten die niet."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Hoeveel kleiner wordt mijn bestand?", "a": "Foto’s rechtstreeks van een telefoon worden vaak 60 tot 90 procent kleiner. Afbeeldingen die al gecomprimeerd zijn, worden minder klein." },
+        { "q": "Kan ik veel afbeeldingen tegelijk comprimeren?", "a": "Ja. Voeg ze allemaal toe en download één ZIP-bestand." }
+      ]
+    }
+  }
+}

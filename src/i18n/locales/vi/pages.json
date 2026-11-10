@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Đổi kích thước ảnh",
+    "kb": "Giảm ảnh xuống KB",
+    "cm": "Đổi kích thước ảnh theo cm, mm, inch",
+    "passport": "Kích thước ảnh hộ chiếu",
+    "social": "Kích thước ảnh mạng xã hội",
+    "convert": "Chuyển đổi ảnh",
+    "compress": "Nén ảnh"
+  },
+  "common": {
+    "howTo": "Cách sử dụng",
+    "tipsTitle": "Mẹo hay",
+    "faqTitle": "Câu hỏi thường gặp",
+    "related": "Thêm công cụ miễn phí",
+    "goodToKnow": "Nên biết",
+    "table": {
+      "country": "Quốc gia",
+      "platform": "Nền tảng",
+      "use": "Mục đích",
+      "size": "Kích thước",
+      "pixels": "Pixel (300 DPI)",
+      "pixelsPlain": "Pixel"
+    }
+  },
+  "home": {
+    "how": {
+      "title": "Cách đổi kích thước ảnh online",
+      "steps": [
+        { "title": "Thêm ảnh của bạn", "text": "Kéo ảnh vào trang, chọn ảnh từ thiết bị hoặc dán ảnh vào. Bạn có thể thêm nhiều ảnh cùng lúc tùy ý." },
+        { "title": "Chọn kích thước", "text": "Chọn mẫu có sẵn như Instagram hoặc ảnh hộ chiếu, hoặc tự nhập chiều rộng và chiều cao theo pixel, centimet, milimet hay inch. Bạn cũng có thể đặt dung lượng tệp tối đa, ví dụ 50 KB." },
+        { "title": "Đổi kích thước và tải xuống", "text": "Nhấn Đổi kích thước ảnh. Tải từng ảnh riêng lẻ hoặc tải tất cả trong một tệp ZIP." }
+      ]
+    },
+    "why": {
+      "title": "Vì sao mọi người dùng FreeResizeImageOnline",
+      "items": [
+        { "title": "Riêng tư ngay từ thiết kế", "text": "Ảnh của bạn được xử lý ngay trong trình duyệt. Ảnh không bao giờ được tải lên máy chủ nên không ai khác có thể xem được." },
+        { "title": "Miễn phí, không giới hạn", "text": "Không cần tài khoản, không có watermark, không giới hạn mỗi ngày và không phải chờ đợi. Đổi kích thước một ảnh hay hàng trăm ảnh đều được." },
+        { "title": "Kết quả sắc nét", "text": "Bộ lọc đổi kích thước chất lượng cao cùng các bộ nén hiện đại giúp ảnh nhỏ vẫn rõ nét và tệp vẫn nhẹ." },
+        { "title": "Dung lượng chính xác", "text": "Cần ảnh dưới 50 KB để nộp biểu mẫu? Chỉ cần đặt giới hạn, công cụ sẽ tìm chất lượng tốt nhất vẫn vừa giới hạn đó." }
+      ]
+    },
+    "faq": {
+      "items": [
+        { "q": "Có thật sự miễn phí không?", "a": "Có. Không cần đăng ký, không dùng thử và không giới hạn số lượng hay dung lượng ảnh. Trang web được duy trì nhờ một quảng cáo duy nhất đặt cạnh công cụ." },
+        { "q": "Ảnh của tôi có bị tải lên không?", "a": "Không. Việc đổi kích thước diễn ra ngay trên thiết bị của bạn, trong trình duyệt. Ảnh không bao giờ được gửi đến máy chủ của chúng tôi. Thứ duy nhất chúng tôi đếm là số ảnh đã được đổi kích thước, dưới dạng một con số đơn thuần." },
+        { "q": "Hỗ trợ những định dạng nào?", "a": "Bạn có thể mở tệp JPG, PNG, WebP, GIF và BMP, cùng AVIF nếu trình duyệt của bạn hỗ trợ. Bạn có thể lưu dưới dạng JPG, PNG hoặc WebP." },
+        { "q": "Đổi kích thước có làm giảm chất lượng không?", "a": "Thu nhỏ ảnh vẫn giữ được độ nét vì công cụ dùng bộ lọc chất lượng cao. Phóng to ảnh thì không thể thêm chi tiết vốn không có, nên ảnh phóng to trông sẽ mềm hơn. Với JPG và WebP, bạn có thể tự chọn chất lượng." },
+        { "q": "Làm sao để ảnh nhẹ hơn một mức như 50 KB?", "a": "Bật Giới hạn dung lượng tệp, nhập con số rồi nhấn Đổi kích thước ảnh. Công cụ sẽ giảm chất lượng và nếu cần, giảm cả kích thước ảnh cho đến khi tệp vừa giới hạn. Hãy chọn JPG hoặc WebP để có kết quả tốt nhất, vì PNG không thể giảm theo cách này." },
+        { "q": "Có dùng được trên điện thoại không?", "a": "Có. Trang hoạt động trên các phiên bản hiện tại của Chrome, Safari, Firefox và Edge, trên điện thoại, máy tính bảng và máy tính. Với điện thoại đời cũ, những ảnh rất lớn có thể bị hạn chế." }
+      ]
+    }
+  },
+  "kb": {
+    "title": "Giảm dung lượng ảnh xuống 20KB, 50KB, 100KB, 200KB",
+    "description": "Giảm ảnh về đúng dung lượng KB để nộp biểu mẫu và tải lên. Miễn phí, không cần đăng ký, ảnh luôn nằm trên thiết bị của bạn.",
+    "h1": "Giảm dung lượng ảnh xuống KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "intro": "Nhiều biểu mẫu online, cổng thi và trang tuyển dụng từ chối ảnh vượt quá giới hạn dung lượng như 50 KB hoặc 200 KB. Công cụ này thu nhỏ ảnh của bạn cho vừa giới hạn đã chọn, đồng thời giữ chất lượng tốt nhất có thể.",
+    "steps": [
+      { "title": "Thêm ảnh của bạn", "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị." },
+      { "title": "Đặt giới hạn dung lượng", "text": "Chọn một mức trong danh sách Mẫu có sẵn, hoặc bật Giới hạn dung lượng tệp và nhập con số của riêng bạn." },
+      { "title": "Đổi kích thước và tải xuống", "text": "Nhấn Đổi kích thước ảnh rồi tải kết quả về." }
+    ],
+    "tipsTitle": "Mẹo để có tệp nhẹ",
+    "tips": [
+      "Hãy dùng JPG. Với cùng kích thước, JPG nén ảnh chụp tốt hơn PNG rất nhiều.",
+      "Nếu kết quả bị mờ, hãy nâng giới hạn lên một chút hoặc cắt bỏ phần viền trống trước khi đổi kích thước.",
+      "Hầu hết biểu mẫu tính dung lượng theo KB, trong đó 1 KB là 1.024 byte. Công cụ này dùng cùng quy tắc đó.",
+      "Hãy kiểm tra cả kích thước yêu cầu. Một số cổng yêu cầu vừa kích thước pixel vừa giới hạn KB."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Vì sao tệp của tôi vẫn nặng hơn giới hạn?", "a": "Ảnh có nhiều chi tiết cần nhiều dữ liệu hơn. Nếu dù ở chất lượng thấp nhất vẫn không đạt giới hạn, công cụ sẽ thu nhỏ cả kích thước ảnh. Nếu vẫn chưa đạt, công cụ sẽ cho bạn biết dung lượng nhỏ nhất mà nó làm được." },
+        { "q": "Tôi có thể đổi nhiều ảnh về cùng một giới hạn không?", "a": "Có. Thêm tất cả ảnh, đặt giới hạn một lần rồi tải về cùng lúc dưới dạng tệp ZIP." },
+        { "q": "Ảnh của tôi có bị tải lên máy chủ không?", "a": "Không. Mọi thứ diễn ra trong trình duyệt của bạn, nên ảnh không bao giờ rời khỏi thiết bị." }
+      ]
+    }
+  },
+  "cm": {
+    "title": "Đổi kích thước ảnh theo cm, mm, inch - Miễn phí online",
+    "description": "Đặt chính xác kích thước ảnh theo centimet, milimet hoặc inch với DPI phù hợp. Miễn phí và riêng tư.",
+    "h1": "Đổi kích thước ảnh theo cm, mm hoặc inch",
+    "intro": "In ảnh và các biểu mẫu chính thức thường yêu cầu kích thước theo centimet hoặc inch thay vì pixel. Bạn chỉ cần nhập kích thước và DPI, công cụ sẽ tự tính ra số pixel.",
+    "steps": [
+      { "title": "Thêm ảnh của bạn", "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị." },
+      { "title": "Nhập kích thước", "text": "Chọn cm, mm hoặc in, rồi nhập chiều rộng và chiều cao. Dùng 300 DPI để in đẹp." },
+      { "title": "Đổi kích thước và tải xuống", "text": "Nhấn Đổi kích thước ảnh rồi tải kết quả về." }
+    ],
+    "tipsTitle": "Nên biết về DPI",
+    "tips": [
+      "DPI là số điểm ảnh trên mỗi inch. Ở 300 DPI, một ảnh rộng 10 cm có chiều rộng khoảng 1.181 pixel.",
+      "Dùng 300 DPI để in và 72 đến 96 DPI cho màn hình.",
+      "Hãy bật Khóa tỷ lệ khung hình để ảnh không bị méo. Nếu cần đúng tỷ lệ khung, hãy tắt nó và chọn Cắt để lấp đầy khung.",
+      "Trên website, chỉ kích thước pixel là quan trọng. DPI chỉ quan trọng khi in ảnh."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Một inch bằng bao nhiêu pixel?", "a": "Tùy vào DPI. Ở 300 DPI, một inch là 300 pixel. Ở 96 DPI, một inch là 96 pixel." },
+        { "q": "Ảnh có được in đúng kích thước này không?", "a": "Công cụ đặt số pixel khớp với kích thước của bạn ở mức DPI bạn chọn. Hãy in ảnh ở kích thước thực, hoặc ở mức DPI đó, để có đúng kích thước bạn cần." },
+        { "q": "Ảnh 4 x 6 inch có kích thước bao nhiêu?", "a": "Ở 300 DPI, 4 x 6 inch là 1.200 x 1.800 pixel." }
+      ]
+    }
+  },
+  "passport": {
+    "title": "Kích thước ảnh hộ chiếu, visa theo quốc gia - Đổi miễn phí",
+    "description": "Kích thước ảnh hộ chiếu và visa phổ biến theo mm, inch và pixel, kèm công cụ miễn phí để đổi kích thước ảnh cho khớp.",
+    "h1": "Kích thước ảnh hộ chiếu và visa",
+    "intro": "Mỗi quốc gia yêu cầu một kích thước ảnh khác nhau. Hãy chọn quốc gia của bạn trong danh sách Mẫu có sẵn để cắt và đổi kích thước ảnh đúng số đo ở mức 300 DPI.",
+    "note": "Quy định có thể thay đổi, và mỗi hồ sơ có thể có thêm yêu cầu riêng như màu nền, kích thước đầu hoặc không đeo kính. Hãy luôn kiểm tra hướng dẫn chính thức trước khi nộp. Công cụ này chỉ đặt kích thước; nó không kiểm tra kích thước đầu hay màu nền.",
+    "tableTitle": "Kích thước ảnh phổ biến",
+    "steps": [
+      { "title": "Chọn kích thước", "text": "Mở danh sách Mẫu có sẵn, vào mục Ảnh thẻ và visa rồi chọn quốc gia của bạn." },
+      { "title": "Thêm ảnh", "text": "Hãy dùng ảnh có khuôn mặt nằm giữa và nhìn rõ, vì công cụ sẽ cắt từ phần giữa ảnh." },
+      { "title": "Đổi kích thước và tải xuống", "text": "Nhấn Đổi kích thước ảnh. Ảnh sẽ được cắt theo đúng tỷ lệ yêu cầu và lưu dưới dạng JPG." }
+    ],
+    "tipsTitle": "Mẹo để có ảnh đẹp",
+    "tips": [
+      "Dùng nền trơn, sáng màu và ánh sáng đều, không có bóng đổ.",
+      "Nhìn thẳng vào máy ảnh và để khuôn mặt nằm giữa khung trước khi đổi kích thước.",
+      "Với ảnh tải lên online, hãy kiểm tra cả giới hạn dung lượng tệp và dùng Giới hạn dung lượng tệp.",
+      "In ở kích thước thực (100 phần trăm) để khổ giấy khớp với yêu cầu."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Kích thước ảnh hộ chiếu tiêu chuẩn là bao nhiêu?", "a": "Mỗi nơi một khác. Hoa Kỳ dùng 2 x 2 inch (51 x 51 mm). Vương quốc Anh, Liên minh châu Âu và Úc dùng 35 x 45 mm. Canada dùng 50 x 70 mm." },
+        { "q": "Tôi có dùng được cho ảnh visa không?", "a": "Có, nếu yêu cầu của visa khớp với một trong các kích thước này. Nhiều loại visa dùng cùng kích thước với hộ chiếu, nhưng một số quốc gia có quy định riêng, nên hãy luôn kiểm tra quy định chính thức." },
+        { "q": "Ảnh hộ chiếu có bao nhiêu pixel?", "a": "Ở 300 DPI, 35 x 45 mm là 413 x 531 pixel và 2 x 2 inch là 600 x 600 pixel." }
+      ]
+    }
+  },
+  "social": {
+    "title": "Kích thước ảnh mạng xã hội - Instagram, YouTube, Facebook",
+    "description": "Kích thước ảnh phổ biến cho Instagram, Facebook, YouTube, X, LinkedIn và Pinterest, kèm công cụ miễn phí để đổi kích thước ảnh cho vừa.",
+    "h1": "Kích thước ảnh mạng xã hội",
+    "intro": "Bài đăng đẹp nhất khi ảnh đã có đúng tỷ lệ. Hãy chọn một nền tảng trong danh sách Mẫu có sẵn, công cụ sẽ cắt và đổi kích thước ảnh cho khớp.",
+    "note": "Các nền tảng thỉnh thoảng cập nhật khuyến nghị của họ. Đây là những kích thước được dùng rộng rãi và phù hợp với các định dạng hiện nay.",
+    "tableTitle": "Kích thước theo nền tảng",
+    "steps": [
+      { "title": "Thêm ảnh của bạn", "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị." },
+      { "title": "Chọn kích thước theo nền tảng", "text": "Mở danh sách Mẫu có sẵn, vào mục Mạng xã hội rồi chọn nền tảng và định dạng." },
+      { "title": "Đổi kích thước và tải xuống", "text": "Nhấn Đổi kích thước ảnh. Chế độ Cắt để lấp đầy khung được chọn sẵn nên ảnh không bị kéo giãn." }
+    ],
+    "tipsTitle": "Mẹo để bài đăng sắc nét",
+    "tips": [
+      "Đặt nội dung quan trọng cách xa mép ảnh, vì một số ứng dụng sẽ cắt bớt phần viền.",
+      "Dùng JPG hoặc WebP cho ảnh chụp và PNG cho đồ họa có chữ sắc nét.",
+      "Hãy bắt đầu từ ảnh lớn hơn kích thước đích để có độ nét tốt nhất."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Kích thước tốt nhất cho bài đăng Instagram là bao nhiêu?", "a": "Dùng 1080 x 1080 pixel cho bài đăng vuông và 1080 x 1350 pixel cho bài đăng dọc." },
+        { "q": "Ảnh thu nhỏ YouTube nên có kích thước bao nhiêu?", "a": "1280 x 720 pixel, dung lượng tệp dưới 2 MB." },
+        { "q": "Ảnh của tôi có bị cắt không?", "a": "Với Cắt để lấp đầy khung, phần giữa của ảnh được giữ lại và các mép không vừa sẽ bị cắt bỏ. Hãy chọn Vừa trong khung nếu bạn muốn giữ nguyên toàn bộ ảnh." }
+      ]
+    }
+  },
+  "convert": {
+    "title": "Chuyển đổi ảnh JPG, PNG, WebP - Miễn phí online",
+    "description": "Chuyển đổi ảnh giữa JPG, PNG và WebP ngay trong trình duyệt. Miễn phí, không cần đăng ký và riêng tư.",
+    "h1": "Chuyển đổi ảnh giữa JPG, PNG và WebP",
+    "intro": "Chọn định dạng bạn cần, công cụ sẽ chuyển đổi mọi ảnh bạn thêm vào. Không có gì được tải lên.",
+    "steps": [
+      { "title": "Thêm ảnh của bạn", "text": "Thêm một hoặc nhiều ảnh." },
+      { "title": "Chọn định dạng", "text": "Chọn JPG, PNG hoặc WebP ở mục Định dạng. Giữ nguyên lựa chọn Giữ nguyên kích thước nếu bạn chỉ muốn đổi định dạng." },
+      { "title": "Chuyển đổi và tải xuống", "text": "Nhấn Đổi kích thước ảnh rồi tải kết quả về." }
+    ],
+    "tipsTitle": "Nên chọn định dạng nào?",
+    "tips": [
+      "JPG phù hợp nhất cho ảnh chụp. Tệp nhẹ, nhưng không có nền trong suốt.",
+      "PNG phù hợp nhất cho logo, ảnh chụp màn hình và đồ họa có cạnh sắc nét hoặc nền trong suốt. Tệp nặng hơn.",
+      "WebP là định dạng hiện đại, thường nhẹ hơn JPG hoặc PNG và chạy được trên mọi trình duyệt hiện nay.",
+      "Khi chuyển PNG trong suốt sang JPG, các vùng trong suốt sẽ được lấp bằng màu trắng."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Chuyển đổi có làm giảm chất lượng không?", "a": "Đầu ra PNG không làm giảm chất lượng. JPG và WebP có nén mất dữ liệu, nhưng ở chất lượng cao thì khó nhận ra sự khác biệt. Bạn có thể tự chọn chất lượng." },
+        { "q": "Tôi có thể chuyển ảnh HEIC từ iPhone không?", "a": "Chưa được, vì hầu hết trình duyệt không mở được tệp HEIC. Trên iPhone, bạn có thể đặt Định dạng camera thành Tương thích nhất, hoặc chia sẻ ảnh dưới dạng JPG." }
+      ]
+    }
+  },
+  "compress": {
+    "title": "Nén ảnh online - Giảm dung lượng ảnh miễn phí",
+    "description": "Làm ảnh nhẹ hơn mà không mất chất lượng nhìn thấy được. Miễn phí, không cần đăng ký, ảnh không bao giờ rời khỏi thiết bị.",
+    "h1": "Nén ảnh online",
+    "intro": "Ảnh nhẹ hơn thì tải nhanh hơn, gửi email dễ hơn và tiết kiệm bộ nhớ. Công cụ mã hóa lại ảnh của bạn bằng các bộ nén hiện đại và cho phép bạn đặt mức chất lượng hoặc dung lượng tệp tối đa.",
+    "steps": [
+      { "title": "Thêm ảnh của bạn", "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị." },
+      { "title": "Chọn cách nén", "text": "Giữ nguyên Giữ nguyên kích thước để nén mà không đổi kích thước ảnh và dùng thanh trượt Chất lượng, hoặc bật Giới hạn dung lượng tệp." },
+      { "title": "Nén và tải xuống", "text": "Nhấn Đổi kích thước ảnh rồi tải kết quả về." }
+    ],
+    "tipsTitle": "Mẹo để có tệp nhẹ hơn",
+    "tips": [
+      "Chất lượng từ 70 đến 85 thường là đủ cho ảnh chụp và giảm dung lượng đáng kể.",
+      "Giảm kích thước ảnh làm tệp nhẹ đi nhiều hơn hẳn so với chỉ giảm chất lượng.",
+      "Tệp WebP thường nhẹ hơn JPG với vẻ ngoài tương đương.",
+      "Ảnh chụp từ điện thoại chứa dữ liệu ẩn như vị trí. Tệp tạo ra tại đây thì không."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Tệp của tôi sẽ nhẹ đi bao nhiêu?", "a": "Ảnh vừa chụp từ điện thoại thường giảm từ 60 đến 90 phần trăm. Những ảnh đã được nén rồi sẽ giảm ít hơn." },
+        { "q": "Tôi có thể nén nhiều ảnh cùng lúc không?", "a": "Có. Thêm tất cả ảnh rồi tải về một tệp ZIP duy nhất." }
+      ]
+    }
+  }
+}

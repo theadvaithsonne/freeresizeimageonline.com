@@ -1,0 +1,42 @@
+{
+  "a11y": {
+    "skipToContent": "Chuyển đến nội dung",
+    "home": "Free Resize Image Online - trang chủ",
+    "toggleTheme": "Đổi giao diện màu",
+    "openLanguages": "Chọn ngôn ngữ"
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "suggestText": "Xem trang này bằng {language}?",
+    "suggestSwitch": "Chuyển",
+    "suggestDismiss": "Không, cảm ơn"
+  },
+  "ads": {
+    "label": "Quảng cáo",
+    "note": "Quảng cáo giúp FreeResizeImageOnline luôn miễn phí. Mọi thứ vẫn hoạt động khi không có quảng cáo."
+  },
+  "badges": {
+    "free": "Miễn phí",
+    "unlimited": "Không giới hạn",
+    "noLogin": "Không cần đăng nhập",
+    "private": "Riêng tư: ở lại trên thiết bị của bạn"
+  },
+  "home": {
+    "title": "Đổi kích thước ảnh online miễn phí - không cần đăng ký",
+    "description": "Đổi kích thước, nén và chuyển đổi ảnh miễn phí. Không cần đăng nhập, không giới hạn, ảnh của bạn không bao giờ rời khỏi thiết bị.",
+    "h1": "Đổi kích thước ảnh online, miễn phí"
+  },
+  "counters": {
+    "label": "Thống kê trực tiếp",
+    "resized": "{count} ảnh đã được đổi kích thước",
+    "online": "{count} người đang online"
+  },
+  "footer": {
+    "label": "Chân trang",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản dịch vụ",
+    "cookies": "Cài đặt quyền riêng tư và cookie"
+  }
+}

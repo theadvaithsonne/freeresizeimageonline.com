@@ -1,0 +1,97 @@
+---
+/**
+ * Live "images resized" and "online now" numbers (real values from the counter Worker, never faked).
+ * Renders nothing until COUNTERS.endpoint is set (after the Worker is deployed). The pills stay hidden
+ * until the real numbers pass the thresholds in src/config/site.ts, and hide again if the Worker is
+ * unreachable - the resizer never depends on it.
+ */
+import { COUNTERS } from '../config/site';
+import { t } from '../i18n';
+
+interface Props {
+  lang: string;
+  variant: 'header' | 'footer';
+}
+const { lang, variant } = Astro.props;
+const config = {
+  endpoint: COUNTERS.endpoint,
+  lang,
+  minTotal: COUNTERS.minTotalToShow,
+  minOnline: COUNTERS.minOnlineToShow,
+  resized: t(lang, 'counters.resized'),
+  online: t(lang, 'counters.online'),
+};
+---
+{
+  COUNTERS.endpoint && (
+    <div class:list={['counters', `counters--${variant}`]} data-counters role="group" aria-label={t(lang, 'counters.label')}>
+      <span class="pill pill--total" data-counter-total hidden>
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="2" /><path d="M5 17l5-5 4 4 2-2 3 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        <span data-counter-total-text />
+      </span>
+      <span class="pill pill--online" data-counter-online hidden>
+        <span class="dot" aria-hidden="true" />
+        <span data-counter-online-text />
+      </span>
+      <script type="application/json" data-counters-config set:html={JSON.stringify(config)} />
+    </div>
+  )
+}
+
+<script>
+  import { initCounters } from './counters-client';
+  initCounters();
+</script>
+
+<style>
+  .counters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  .counters--header {
+    display: none;
+  }
+  .counters--footer {
+    justify-content: center;
+    padding-block: var(--space-3) 0;
+  }
+  @media (min-width: 56rem) {
+    .counters--header {
+      display: flex;
+    }
+    .counters--footer {
+      display: none;
+    }
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: var(--radius-full);
+    background: var(--surface-2);
+    color: var(--text);
+    font-size: var(--step--1);
+    font-weight: 650;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .dot {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: var(--success);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--success) 60%, transparent);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    70% {
+      box-shadow: 0 0 0 0.45rem transparent;
+    }
+    100% {
+      box-shadow: 0 0 0 0 transparent;
+    }
+  }
+</style>

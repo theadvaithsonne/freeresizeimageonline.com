@@ -1,0 +1,42 @@
+{
+  "a11y": {
+    "skipToContent": "Aller au contenu",
+    "home": "Free Resize Image Online - accueil",
+    "toggleTheme": "Changer le thème de couleur",
+    "openLanguages": "Choisir la langue"
+  },
+  "language": {
+    "label": "Langue",
+    "suggestText": "Voir ce site en {language} ?",
+    "suggestSwitch": "Changer",
+    "suggestDismiss": "Non merci"
+  },
+  "ads": {
+    "label": "Publicité",
+    "note": "Les publicités permettent à FreeResizeImageOnline de rester gratuit. Tout fonctionne sans elles."
+  },
+  "badges": {
+    "free": "Gratuit",
+    "unlimited": "Illimité",
+    "noLogin": "Sans inscription",
+    "private": "Privé : reste sur votre appareil"
+  },
+  "home": {
+    "title": "Redimensionner une image en ligne - gratuit, sans inscription",
+    "description": "Redimensionnez, compressez et convertissez vos images gratuitement. Sans connexion, sans limite, et vos photos ne quittent jamais votre appareil.",
+    "h1": "Redimensionnez vos images en ligne, gratuitement"
+  },
+  "counters": {
+    "label": "Statistiques en direct",
+    "resized": "{count} images redimensionnées",
+    "online": "{count} en ligne actuellement"
+  },
+  "footer": {
+    "label": "Pied de page",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Paramètres de confidentialité et de cookies"
+  }
+}

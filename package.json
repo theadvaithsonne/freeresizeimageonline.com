@@ -9,12 +9,15 @@
     "icons": "node scripts/make-icons.mjs",
     "predev": "npm run fonts",
     "dev": "astro dev",
-    "prebuild": "npm test && npm run fonts",
+    "prebuild": "npm test && npm run fonts && npm run ads-txt",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "ads-txt": "node scripts/gen-ads-txt.mjs",
+    "worker:dev": "wrangler dev --config worker/wrangler.toml",
+    "worker:deploy": "wrangler deploy --config worker/wrangler.toml"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.12",
@@ -37,7 +40,12 @@
     "vitest": "^5.1.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261110.1",
     "@types/node": "^26.6.6",
-    "@types/pica": "^9.0.5"
+    "@types/pica": "^9.0.5",
+    "wrangler": "^4.160.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

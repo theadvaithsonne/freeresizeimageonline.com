@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Terakhir diperbarui: {date}",
+    "about": {
+      "title": "Tentang FreeResizeImageOnline",
+      "description": "Siapa yang membuat FreeResizeImageOnline, mengapa gratis, dan bagaimana gambar Anda tetap privat.",
+      "h1": "Tentang FreeResizeImageOnline",
+      "paragraphs": [
+        "FreeResizeImageOnline adalah alat gratis untuk mengubah ukuran, mengompres, dan mengonversi gambar. Alat ini dibuat dan dikelola oleh {owner} di Bengaluru, India.",
+        "Tujuannya agar tetap sederhana: tanpa akun, tanpa watermark, dan tanpa batas. Gambar Anda diproses di dalam browser Anda sendiri dan tidak pernah diunggah ke server kami.",
+        "Situs ini didukung oleh iklan dari Google AdSense, yang membiayai domain dan pengembangan. Iklan dibatasi pada satu kotak yang ditandai dengan jelas agar tidak mengganggu Anda.",
+        "Ada pertanyaan atau masukan? Tulis ke {email}."
+      ]
+    },
+    "contact": {
+      "title": "Hubungi FreeResizeImageOnline",
+      "description": "Hubungi pemilik FreeResizeImageOnline untuk pertanyaan, laporan bug, atau ide.",
+      "h1": "Hubungi kami",
+      "paragraphs": [
+        "Ada pertanyaan, laporan bug, atau ide? Kirim email dan Anda akan mendapat balasan secepat mungkin.",
+        "Mohon jangan melampirkan foto pribadi pada pesan Anda. Jelaskan saja masalahnya, dan beri tahu kami browser serta perangkat Anda."
+      ],
+      "emailLabel": "Email",
+      "ownerLabel": "Pemilik situs",
+      "locationLabel": "Lokasi",
+      "locationValue": "Bengaluru, India"
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi - FreeResizeImageOnline",
+      "description": "Bagaimana FreeResizeImageOnline menangani data: gambar tetap di perangkat Anda, dan cara kerja cookie iklan.",
+      "h1": "Kebijakan Privasi",
+      "sections": [
+        {
+          "title": "Ringkasan",
+          "text": "Situs ini dibuat agar gambar Anda tetap berada di perangkat Anda. Kebijakan ini menjelaskan informasi apa yang dikumpulkan dan tidak dikumpulkan."
+        },
+        {
+          "title": "Gambar Anda",
+          "text": "Gambar yang Anda tambahkan diproses secara lokal di browser Anda menggunakan JavaScript dan WebAssembly. Gambar tersebut tidak diunggah, disimpan, atau dilihat oleh kami maupun pihak ketiga mana pun. Data tersembunyi di dalam gambar Anda, seperti lokasi, tidak disalin ke file yang dibuat oleh alat ini."
+        },
+        {
+          "title": "Statistik langsung",
+          "text": "Untuk menampilkan berapa banyak gambar yang telah diubah ukurannya dan berapa orang yang sedang online, browser Anda membuka koneksi anonim ke layanan penghitung kami di Cloudflare. Koneksi ini hanya mengirim satu angka, yaitu jumlah gambar yang Anda ubah ukurannya. Kami tidak menyimpan alamat IP, nama, nama file, atau pengenal apa pun untuk statistik ini."
+        },
+        {
+          "title": "Informasi yang dikumpulkan secara otomatis",
+          "text": "Seperti kebanyakan situs web, penyedia hosting kami, Cloudflare, memproses data teknis seperti alamat IP dan jenis browser Anda untuk menyajikan situs dan melindunginya dari penyalahgunaan. Kami menggunakan Cloudflare Web Analytics, layanan yang berfokus pada privasi, tidak memakai cookie, dan tidak melacak Anda di berbagai situs web, untuk menghitung jumlah tampilan halaman."
+        },
+        {
+          "title": "Cookie dan penyimpanan lokal",
+          "text": "Kami menyimpan pilihan Anda, seperti tema dan bahasa, di penyimpanan lokal browser Anda. Data ini tetap berada di perangkat Anda. Mitra periklanan dapat menetapkan cookie seperti yang dijelaskan di bagian berikutnya."
+        },
+        {
+          "title": "Periklanan",
+          "text": "Kami menggunakan Google AdSense untuk menampilkan iklan. Vendor pihak ketiga, termasuk Google, menggunakan cookie untuk menayangkan iklan berdasarkan kunjungan Anda sebelumnya ke situs web ini atau situs web lain. Penggunaan cookie iklan oleh Google memungkinkan Google dan mitranya menayangkan iklan kepada Anda berdasarkan kunjungan Anda ke situs ini dan situs lain di Internet. Anda dapat menolak iklan yang dipersonalisasi dengan mengunjungi Google Ads Settings, dan Anda dapat menolak penggunaan cookie oleh beberapa vendor pihak ketiga untuk iklan yang dipersonalisasi di www.aboutads.info. Di Wilayah Ekonomi Eropa, Inggris, dan Swiss, iklan hanya dipersonalisasi setelah Anda memberikan persetujuan melalui pesan yang ditampilkan oleh platform manajemen persetujuan yang bersertifikasi Google. Anda dapat mengubah pilihan Anda kapan saja melalui tautan Pengaturan privasi dan cookie di footer."
+        },
+        {
+          "title": "Anak-anak",
+          "text": "Situs ini tidak ditujukan untuk anak di bawah usia 13 tahun (atau usia yang berlaku di negara Anda) dan kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak."
+        },
+        {
+          "title": "Hak Anda",
+          "text": "Tergantung tempat tinggal Anda, misalnya berdasarkan GDPR atau Digital Personal Data Protection Act India, Anda mungkin berhak untuk mengakses, memperbaiki, atau menghapus data pribadi. Karena kami tidak menyimpan data pribadi tentang Anda, biasanya tidak ada yang perlu dihapus, tetapi Anda dapat menulis ke {email} untuk permintaan apa pun."
+        },
+        {
+          "title": "Perubahan pada kebijakan ini",
+          "text": "Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Tanggal di bagian atas menunjukkan versi terbaru."
+        },
+        {
+          "title": "Kontak",
+          "text": "{owner}, Bengaluru, India. Email: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Ketentuan Layanan - FreeResizeImageOnline",
+      "description": "Ketentuan penggunaan FreeResizeImageOnline.",
+      "h1": "Ketentuan Layanan",
+      "sections": [
+        {
+          "title": "Penerimaan",
+          "text": "Dengan menggunakan FreeResizeImageOnline, Anda menyetujui ketentuan ini. Jika Anda tidak setuju, mohon jangan gunakan situs ini."
+        },
+        {
+          "title": "Layanan",
+          "text": "Situs ini menyediakan alat gratis untuk mengubah ukuran, mengompres, dan mengonversi gambar. Kami dapat mengubah, menjeda, atau menghentikan bagian mana pun dari layanan kapan saja tanpa pemberitahuan."
+        },
+        {
+          "title": "Konten Anda",
+          "text": "Anda tetap memegang semua hak atas gambar Anda. Anda bertanggung jawab untuk memiliki hak menggunakan dan menyunting gambar tersebut, dan Anda tidak boleh menggunakan alat ini untuk konten ilegal. Karena gambar diproses di perangkat Anda, kami tidak menerimanya."
+        },
+        {
+          "title": "Penggunaan yang dapat diterima",
+          "text": "Jangan menyalahgunakan situs ini. Hal ini mencakup mencoba mengganggunya, mengirim permintaan otomatis dalam skala besar, mengutak-atik layanan penghitung, atau mengganggu iklan."
+        },
+        {
+          "title": "Tanpa jaminan",
+          "text": "Layanan disediakan apa adanya, tanpa jaminan dalam bentuk apa pun. Kami tidak menjamin kualitas atau ukuran file dari hasilnya. Pastikan gambar Anda memenuhi persyaratan pengajuan resmi apa pun, karena kami tidak dapat menjamin bahwa suatu instansi atau situs web tertentu akan menerimanya."
+        },
+        {
+          "title": "Batasan tanggung jawab",
+          "text": "Sejauh diizinkan oleh hukum, kami tidak bertanggung jawab atas kerugian atau kerusakan apa pun yang timbul dari penggunaan situs ini."
+        },
+        {
+          "title": "Iklan dan pihak ketiga",
+          "text": "Iklan dan tautan ke situs web lain adalah milik pihak ketiga. Kami tidak bertanggung jawab atas konten atau praktik mereka."
+        },
+        {
+          "title": "Hukum yang berlaku",
+          "text": "Ketentuan ini diatur oleh hukum {country}. Pengadilan di {place} memiliki yurisdiksi."
+        },
+        {
+          "title": "Kontak",
+          "text": "Pertanyaan tentang ketentuan ini dapat dikirim ke {email}."
+        }
+      ]
+    },
+    "englishNote": "Halaman ini adalah terjemahan untuk kemudahan Anda. Jika ada perbedaan dengan versi bahasa Inggris, versi bahasa Inggris yang berlaku.",
+    "englishVersion": "Baca versi bahasa Inggris"
+  }
+}

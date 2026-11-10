@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Pengubah ukuran gambar",
+    "kb": "Ubah ukuran ke KB",
+    "cm": "Ubah ukuran dalam cm, mm, atau inci",
+    "passport": "Ukuran foto paspor",
+    "social": "Ukuran media sosial",
+    "convert": "Konversi gambar",
+    "compress": "Kompres gambar"
+  },
+  "common": {
+    "howTo": "Cara menggunakan",
+    "tipsTitle": "Tips",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "related": "Alat gratis lainnya",
+    "goodToKnow": "Perlu diketahui",
+    "table": {
+      "country": "Negara",
+      "platform": "Platform",
+      "use": "Kegunaan",
+      "size": "Ukuran",
+      "pixels": "Piksel (300 DPI)",
+      "pixelsPlain": "Piksel"
+    }
+  },
+  "home": {
+    "how": {
+      "title": "Cara mengubah ukuran gambar online",
+      "steps": [
+        { "title": "Tambahkan gambar Anda", "text": "Seret foto ke halaman ini, pilih dari perangkat Anda, atau tempel. Anda bisa menambahkan sebanyak apa pun sekaligus." },
+        { "title": "Pilih ukuran", "text": "Pilih preset seperti Instagram atau pas foto paspor, atau masukkan lebar dan tinggi sendiri dalam piksel, sentimeter, milimeter, atau inci. Anda juga bisa menetapkan ukuran file maksimum, misalnya 50 KB." },
+        { "title": "Ubah ukuran dan unduh", "text": "Tekan Ubah ukuran gambar. Unduh tiap gambar satu per satu atau ambil semuanya dalam satu file ZIP." }
+      ]
+    },
+    "why": {
+      "title": "Mengapa orang memakai FreeResizeImageOnline",
+      "items": [
+        { "title": "Privat sejak awal", "text": "Gambar Anda diproses di dalam browser. Gambar tidak pernah diunggah ke server, jadi tidak ada orang lain yang bisa melihatnya." },
+        { "title": "Gratis dan tanpa batas", "text": "Tanpa akun, tanpa watermark, tanpa batas harian, dan tanpa menunggu. Ubah ukuran satu gambar atau ratusan." },
+        { "title": "Hasil tajam", "text": "Filter pengubah ukuran berkualitas tinggi dan kompresor modern menjaga gambar kecil tetap jernih dan file tetap kecil." },
+        { "title": "Ukuran file yang pas", "text": "Perlu foto di bawah 50 KB untuk sebuah formulir? Tetapkan batasnya, dan alat ini mencari kualitas terbaik yang masih muat." }
+      ]
+    },
+    "faq": {
+      "items": [
+        { "q": "Apakah benar-benar gratis?", "a": "Ya. Tanpa pendaftaran, tanpa uji coba, dan tanpa batas jumlah maupun ukuran gambar Anda. Situs ini dibiayai oleh satu iklan di samping alat." },
+        { "q": "Apakah gambar saya diunggah?", "a": "Tidak. Pengubahan ukuran terjadi di perangkat Anda sendiri, di dalam browser. Gambar Anda tidak pernah dikirim ke server kami. Satu-satunya yang kami hitung adalah jumlah gambar yang diubah ukurannya, berupa angka biasa." },
+        { "q": "Format apa saja yang didukung?", "a": "Anda bisa membuka file JPG, PNG, WebP, GIF, dan BMP, serta AVIF jika browser Anda mendukungnya. Anda bisa menyimpan sebagai JPG, PNG, atau WebP." },
+        { "q": "Apakah mengubah ukuran menurunkan kualitas?", "a": "Memperkecil gambar tetap menjaganya tajam karena alat ini memakai filter berkualitas tinggi. Memperbesar tidak bisa menambah detail yang memang tidak ada, jadi gambar yang diperbesar terlihat lebih lembut. Untuk JPG dan WebP, Anda bisa memilih kualitasnya sendiri." },
+        { "q": "Bagaimana cara membuat gambar di bawah ukuran tertentu, misalnya 50 KB?", "a": "Aktifkan Batasi ukuran file, ketik angkanya, lalu tekan Ubah ukuran gambar. Alat ini menurunkan kualitas dan, jika perlu, dimensi sampai file muat. Pilih JPG atau WebP untuk hasil terbaik, karena PNG tidak bisa diperkecil dengan cara ini." },
+        { "q": "Apakah bisa dipakai di ponsel saya?", "a": "Ya. Halaman ini berfungsi di Chrome, Safari, Firefox, dan Edge versi terbaru pada ponsel, tablet, dan komputer. Foto yang sangat besar bisa terbatas di ponsel lama." }
+      ]
+    }
+  },
+  "kb": {
+    "title": "Kecilkan Foto ke 20KB, 50KB, 100KB, 200KB - Gratis",
+    "description": "Perkecil foto ke ukuran file KB yang pas untuk formulir dan unggahan. Gratis, tanpa daftar, dan gambar Anda tetap di perangkat.",
+    "h1": "Ubah ukuran gambar ke KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "intro": "Banyak formulir online, portal ujian, dan situs lowongan kerja menolak foto di atas batas ukuran tertentu, seperti 50 KB atau 200 KB. Alat ini memperkecil gambar Anda sesuai batas yang dipilih sambil menjaga kualitas sebaik mungkin.",
+    "steps": [
+      { "title": "Tambahkan foto Anda", "text": "Seret ke halaman ini atau pilih dari perangkat Anda." },
+      { "title": "Tetapkan batas ukuran", "text": "Pilih batas dari daftar Preset, atau aktifkan Batasi ukuran file dan ketik angka Anda sendiri." },
+      { "title": "Ubah ukuran dan unduh", "text": "Tekan Ubah ukuran gambar lalu unduh hasilnya." }
+    ],
+    "tipsTitle": "Tips untuk ukuran file kecil",
+    "tips": [
+      "Gunakan JPG. Format ini mengompresi foto jauh lebih baik daripada PNG pada dimensi yang sama.",
+      "Jika hasilnya buram, naikkan batasnya sedikit atau pangkas tepi yang kosong sebelum mengubah ukuran.",
+      "Kebanyakan formulir mengukur ukuran dalam KB, di mana 1 KB adalah 1.024 byte. Alat ini memakai aturan yang sama.",
+      "Periksa juga dimensi yang diminta. Beberapa portal membutuhkan ukuran dalam piksel sekaligus batas dalam KB."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Mengapa file saya masih lebih besar dari batas?", "a": "Foto yang sangat detail membutuhkan lebih banyak data. Jika batas tidak tercapai bahkan pada kualitas terendah, alat ini juga memperkecil dimensi gambar. Jika target masih belum tercapai, alat ini memberi tahu ukuran terkecil yang bisa dibuat." },
+        { "q": "Bisakah saya mengubah banyak foto ke batas yang sama?", "a": "Ya. Tambahkan semuanya, tetapkan batas sekali, lalu unduh bersama dalam satu file ZIP." },
+        { "q": "Apakah foto saya diunggah ke server?", "a": "Tidak. Semuanya terjadi di browser Anda, jadi foto Anda tidak pernah meninggalkan perangkat." }
+      ]
+    }
+  },
+  "cm": {
+    "title": "Ubah Ukuran Foto dalam cm, mm, atau Inci - Gratis",
+    "description": "Atur ukuran pasti foto dalam sentimeter, milimeter, atau inci dengan DPI yang tepat. Gratis dan privat.",
+    "h1": "Ubah ukuran gambar dalam cm, mm, atau inci",
+    "intro": "Pencetakan dan formulir resmi sering meminta ukuran dalam sentimeter atau inci, bukan piksel. Masukkan ukuran dan DPI, lalu alat ini menghitung pikselnya untuk Anda.",
+    "steps": [
+      { "title": "Tambahkan foto Anda", "text": "Seret ke halaman ini atau pilih dari perangkat Anda." },
+      { "title": "Masukkan ukuran", "text": "Pilih cm, mm, atau in, lalu ketik lebar dan tinggi. Gunakan 300 DPI untuk kualitas cetak yang bagus." },
+      { "title": "Ubah ukuran dan unduh", "text": "Tekan Ubah ukuran gambar lalu unduh hasilnya." }
+    ],
+    "tipsTitle": "Yang perlu diketahui tentang DPI",
+    "tips": [
+      "DPI berarti dots per inch (titik per inci). Pada 300 DPI, gambar selebar 10 cm memiliki lebar sekitar 1.181 piksel.",
+      "Gunakan 300 DPI untuk cetakan dan 72 sampai 96 DPI untuk layar.",
+      "Biarkan Kunci rasio aspek menyala agar gambar tidak melar. Matikan dan pilih Pangkas untuk mengisi jika Anda butuh bentuk yang persis.",
+      "Di situs web, hanya ukuran piksel yang penting. DPI penting saat gambar dicetak."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Satu inci berapa piksel?", "a": "Tergantung DPI. Pada 300 DPI, satu inci adalah 300 piksel. Pada 96 DPI, satu inci adalah 96 piksel." },
+        { "q": "Apakah hasil cetaknya akan persis seukuran ini?", "a": "Alat ini mengatur ukuran piksel yang sesuai dengan ukuran Anda pada DPI yang dipilih. Cetak gambar pada ukuran sebenarnya, atau pada DPI tersebut, untuk mendapatkan ukuran yang Anda minta." },
+        { "q": "Berapa ukuran foto 4 x 6 inci?", "a": "Pada 300 DPI, 4 x 6 inci adalah 1.200 x 1.800 piksel." }
+      ]
+    }
+  },
+  "passport": {
+    "title": "Ukuran Foto Paspor dan Visa per Negara - Resize Gratis",
+    "description": "Ukuran foto paspor dan visa yang umum dalam mm, inci, dan piksel, plus alat gratis untuk menyesuaikan ukuran foto Anda.",
+    "h1": "Ukuran foto paspor dan visa",
+    "intro": "Setiap negara meminta ukuran foto yang berbeda. Pilih negara Anda di daftar Preset untuk memangkas dan mengubah ukuran foto Anda ke dimensi yang persis pada 300 DPI.",
+    "note": "Aturan bisa berubah, dan setiap pengajuan bisa menambahkan persyaratan sendiri seperti warna latar, ukuran kepala, atau tanpa kacamata. Selalu periksa petunjuk resmi sebelum mengirim. Alat ini hanya mengatur ukuran; alat ini tidak memeriksa ukuran kepala atau latar belakang.",
+    "tableTitle": "Ukuran foto yang umum",
+    "steps": [
+      { "title": "Pilih ukuran Anda", "text": "Buka daftar Preset, masuk ke Pas foto dan visa, lalu pilih negara Anda." },
+      { "title": "Tambahkan foto", "text": "Gunakan gambar dengan wajah di tengah dan terlihat jelas, karena alat ini memangkas dari bagian tengah." },
+      { "title": "Ubah ukuran dan unduh", "text": "Tekan Ubah ukuran gambar. Gambar dipangkas ke bentuk yang diperlukan dan disimpan sebagai JPG." }
+    ],
+    "tipsTitle": "Tips untuk foto yang bagus",
+    "tips": [
+      "Gunakan latar belakang polos berwarna terang dan pencahayaan merata tanpa bayangan.",
+      "Hadap lurus ke kamera dan posisikan wajah di tengah sebelum mengubah ukuran.",
+      "Untuk unggahan online, periksa juga batas ukuran file dan gunakan Batasi ukuran file.",
+      "Cetak pada ukuran sebenarnya (100 persen) agar ukuran kertas sesuai dengan persyaratan."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Berapa ukuran standar foto paspor?", "a": "Berbeda-beda. Amerika Serikat memakai 2 x 2 inci (51 x 51 mm). Inggris, Uni Eropa, dan Australia memakai 35 x 45 mm. Kanada memakai 50 x 70 mm." },
+        { "q": "Bisakah saya memakainya untuk foto visa?", "a": "Bisa, jika persyaratan visa sesuai dengan salah satu ukuran tersebut. Banyak visa memakai ukuran yang sama dengan paspor, tetapi beberapa negara punya ukuran sendiri, jadi selalu periksa aturan resminya." },
+        { "q": "Foto paspor berapa piksel?", "a": "Pada 300 DPI, 35 x 45 mm adalah 413 x 531 piksel dan 2 x 2 inci adalah 600 x 600 piksel." }
+      ]
+    }
+  },
+  "social": {
+    "title": "Ukuran Gambar Media Sosial - Resize untuk Instagram, YouTube",
+    "description": "Ukuran gambar yang banyak dipakai untuk Instagram, Facebook, YouTube, X, LinkedIn, dan Pinterest, plus alat gratis untuk menyesuaikan gambar Anda.",
+    "h1": "Ukuran gambar media sosial",
+    "intro": "Postingan terlihat paling bagus jika gambarnya sudah berbentuk tepat. Pilih platform di daftar Preset, dan alat ini memangkas serta mengubah ukuran gambar Anda agar sesuai.",
+    "note": "Platform memperbarui rekomendasinya dari waktu ke waktu. Ini adalah ukuran yang banyak dipakai dan cocok dengan format saat ini.",
+    "tableTitle": "Ukuran menurut platform",
+    "steps": [
+      { "title": "Tambahkan gambar Anda", "text": "Seret ke halaman ini atau pilih dari perangkat Anda." },
+      { "title": "Pilih ukuran platform", "text": "Buka daftar Preset, masuk ke Media sosial, lalu pilih platform dan formatnya." },
+      { "title": "Ubah ukuran dan unduh", "text": "Tekan Ubah ukuran gambar. Pangkas untuk mengisi sudah terpilih, jadi tidak ada yang melar." }
+    ],
+    "tipsTitle": "Tips untuk postingan yang tajam",
+    "tips": [
+      "Jauhkan konten penting dari tepi, karena beberapa aplikasi memotong pinggiran gambar.",
+      "Gunakan JPG atau WebP untuk foto dan PNG untuk grafis dengan teks yang tajam.",
+      "Mulailah dari gambar yang lebih besar dari ukuran target untuk ketajaman terbaik."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Berapa ukuran terbaik untuk postingan Instagram?", "a": "Gunakan 1080 x 1080 piksel untuk postingan persegi dan 1080 x 1350 piksel untuk postingan potret." },
+        { "q": "Berapa ukuran thumbnail YouTube?", "a": "1280 x 720 piksel, dengan ukuran file di bawah 2 MB." },
+        { "q": "Apakah gambar saya akan terpangkas?", "a": "Dengan Pangkas untuk mengisi, bagian tengah gambar dipertahankan dan tepi yang tidak muat dipotong. Pilih Muat di dalam kotak jika Anda ingin mempertahankan semuanya." }
+      ]
+    }
+  },
+  "convert": {
+    "title": "Konversi Gambar JPG, PNG, WebP - Konverter Online Gratis",
+    "description": "Konversi gambar antara JPG, PNG, dan WebP di browser Anda. Gratis, tanpa daftar, dan privat.",
+    "h1": "Konversi gambar antara JPG, PNG, dan WebP",
+    "intro": "Pilih format yang Anda butuhkan, dan alat ini mengonversi setiap gambar yang Anda tambahkan. Tidak ada yang diunggah.",
+    "steps": [
+      { "title": "Tambahkan gambar Anda", "text": "Tambahkan satu atau banyak gambar." },
+      { "title": "Pilih format", "text": "Pilih JPG, PNG, atau WebP di bawah Format. Biarkan Pertahankan ukuran terpilih jika Anda hanya ingin mengubah format." },
+      { "title": "Konversi dan unduh", "text": "Tekan Ubah ukuran gambar lalu unduh hasilnya." }
+    ],
+    "tipsTitle": "Format mana yang sebaiknya saya pilih?",
+    "tips": [
+      "JPG terbaik untuk foto. Filenya kecil, tetapi tidak mendukung transparansi.",
+      "PNG terbaik untuk logo, tangkapan layar, dan grafis dengan tepi tajam atau transparansi. Filenya lebih besar.",
+      "WebP adalah format modern yang biasanya lebih kecil dari JPG atau PNG dan berfungsi di semua browser terbaru.",
+      "Mengonversi PNG transparan ke JPG akan mengisi area yang tembus pandang dengan warna putih."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Apakah konversi menurunkan kualitas?", "a": "Hasil PNG bersifat lossless. JPG dan WebP bersifat lossy, tetapi pada kualitas tinggi perbedaannya sulit terlihat. Anda bisa mengatur kualitasnya sendiri." },
+        { "q": "Bisakah saya mengonversi foto HEIC dari iPhone?", "a": "Belum, karena sebagian besar browser tidak bisa membuka file HEIC. Di iPhone, Anda bisa mengatur Format Kamera ke Paling Kompatibel, atau membagikan foto sebagai JPG." }
+      ]
+    }
+  },
+  "compress": {
+    "title": "Kompres Gambar Online - Perkecil Ukuran Foto Gratis",
+    "description": "Perkecil foto tanpa kehilangan kualitas yang terlihat. Gratis, tanpa daftar, dan gambar Anda tidak pernah meninggalkan perangkat.",
+    "h1": "Kompres gambar online",
+    "intro": "Gambar yang lebih kecil dimuat lebih cepat, muat di email, dan menghemat penyimpanan. Alat ini mengenkode ulang gambar Anda dengan kompresor modern dan memungkinkan Anda menetapkan tingkat kualitas atau ukuran file maksimum.",
+    "steps": [
+      { "title": "Tambahkan gambar Anda", "text": "Seret ke halaman ini atau pilih dari perangkat Anda." },
+      { "title": "Pilih cara mengompres", "text": "Biarkan Pertahankan ukuran terpilih untuk mengompres tanpa mengubah dimensi dan gunakan penggeser Kualitas, atau aktifkan Batasi ukuran file." },
+      { "title": "Kompres dan unduh", "text": "Tekan Ubah ukuran gambar lalu unduh hasilnya." }
+    ],
+    "tipsTitle": "Tips untuk file lebih kecil",
+    "tips": [
+      "Kualitas 70 sampai 85 biasanya cukup untuk foto dan memangkas ukuran dengan banyak.",
+      "Mengurangi dimensi memperkecil file jauh lebih banyak daripada hanya menurunkan kualitas.",
+      "File WebP biasanya lebih kecil dari JPG dengan tampilan yang sama.",
+      "Foto dari ponsel berisi data tersembunyi seperti lokasi. File yang dibuat di sini tidak."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Seberapa kecil file saya nantinya?", "a": "Foto langsung dari ponsel sering menyusut 60 sampai 90 persen. Gambar yang sudah terkompresi menyusut lebih sedikit." },
+        { "q": "Bisakah saya mengompres banyak gambar sekaligus?", "a": "Ya. Tambahkan semuanya dan unduh dalam satu file ZIP." }
+      ]
+    }
+  }
+}

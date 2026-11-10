@@ -114,49 +114,49 @@ Browser (visitor)
 **Done when:** engine passes tests and handles 50-image batches and 30MP photos without freezing.
 
 ## STEP 5 — Tool UI & presets
-- [ ] 5.1 (C) Main tool page: big drop zone, options panel, result list with before/after and per-file download
-- [ ] 5.2 (C) Presets as **data files** (easy to extend): social (Instagram, YouTube, Facebook, X, WhatsApp, Pinterest…), documents (US 2×2 in, UK 35×45 mm, India, Schengen, DS-160…), India forms (20/50/100 KB, signature), marketplaces (Amazon, Etsy, Shopify…)
-- [ ] 5.3 (C) "Free · Unlimited · No login" badges (like transcribevid.com), privacy note: "Your images never leave your device"
-- [ ] 5.4 (C) Friendly empty/error/loading states, undo/reset
-- [ ] 5.5 (C) Mobile UX: thumb-friendly controls, sticky download bar, no horizontal scroll
+- [x] 5.1 (C) Main tool page: big drop zone, options panel, result list with before/after and per-file download - **Done:** Drop zone, options panel, per-file rows with thumbnail, status and before/after size, download; ZIP for batches (src/components/tool/). Tested with real files in Chrome.
+- [x] 5.2 (C) Presets as **data files** (easy to extend): social (Instagram, YouTube, Facebook, X, WhatsApp, Pinterest…), documents (US 2×2 in, UK 35×45 mm, India, Schengen, DS-160…), India forms (20/50/100 KB, signature), marketplaces (Amazon, Etsy, Shopify…) - **Done:** Presets are data in src/data/presets.ts (12 social, 9 photo ID/visa, 6 file-size limits, 3 online stores, 5 web). Etsy and India passport sizes left out because I could not verify them.
+- [x] 5.3 (C) "Free · Unlimited · No login" badges (like transcribevid.com), privacy note: "Your images never leave your device" - **Done:** Badges and the privacy note appear on every page.
+- [x] 5.4 (C) Friendly empty/error/loading states, undo/reset - **Done:** Error message per failure code, notice for unusable files, cancel, remove, clear all.
+- [x] 5.5 (C) Mobile UX: thumb-friendly controls, sticky download bar, no horizontal scroll - **Done:** Sticky action bar on phones, 44px touch targets, no horizontal overflow at 375px (checked).
 
 **Done when:** a first-time user can resize an image in under 10 seconds on a phone and a desktop.
 
 ## STEP 6 — Ad layout system (right-side box)
-- [ ] 6.1 (C) Right-column ad box: sticky, fixed reserved height (no layout shift), clearly labelled "Advertisement", shown on ≥1024px
-- [ ] 6.2 (C) Phone/tablet-portrait: single in-content slot placed in the content area *below* the result, **separated from Download/Reset buttons by real content and spacing** (Google warns about ads near download/navigation buttons causing accidental clicks). Never inside modals, loading or empty screens.
-- [ ] 6.3 (C) Placeholder state before AdSense approval: friendly note "Ads keep FreeResizeImageOnline free" (no click-begging, no incentives to click)
-- [ ] 6.4 (C) Ad component driven by config (slot IDs, on/off per page) — real AdSense code switched on in Step 14
-- [ ] 6.5 (C) Lazy-load ads so they never slow the tool
+- [x] 6.1 (C) Right-column ad box: sticky, fixed reserved height (no layout shift), clearly labelled "Advertisement", shown on ≥1024px - **Done:** Sticky right box from 1024px with reserved height.
+- [x] 6.2 (C) Phone/tablet-portrait: single in-content slot placed in the content area *below* the result, **separated from Download/Reset buttons by real content and spacing** (Google warns about ads near download/navigation buttons causing accidental clicks). Never inside modals, loading or empty screens. - **Done:** One inline slot below the content on phones/tablets; none on legal pages and none inside the tool.
+- [x] 6.3 (C) Placeholder state before AdSense approval: friendly note "Ads keep FreeResizeImageOnline free" (no click-begging, no incentives to click) - **Done:** Friendly placeholder until ad units exist.
+- [x] 6.4 (C) Ad component driven by config (slot IDs, on/off per page) — real AdSense code switched on in Step 14 - **Done:** ADSENSE config in src/config/site.ts; ad code renders only when slot ids are set.
+- [x] 6.5 (C) Lazy-load ads so they never slow the tool - **Done:** Only the visible box is filled; no auto-refresh. The AdSense snippet sits in the page head, which Google needs for ownership verification.
 
 **Done when:** layout is stable (CLS ≈ 0) with and without ads, on all breakpoints.
 
 ## STEP 7 — Live counters (images resized + online now)
-- [ ] 7.1 (C) Re-check Cloudflare free-tier limits (Workers, Durable Objects, WebSocket billing) from official docs
-- [ ] 7.2 (C) Worker + Durable Object (SQLite): WebSocket presence, running total, batched flush
-- [ ] 7.3 (C) Client widget: animated counters in header (like transcribevid.com), formatted per locale
-- [ ] 7.4 (C) Send increment once per completed batch; cap + rate-limit
-- [ ] 7.5 (C) Reconnect with back-off; pause when tab hidden; hide widgets on failure/quota
-- [ ] 7.6 (C) Thresholds + config (hide until real counts are meaningful)
-- [ ] 7.7 (C) Local testing with `wrangler` (no deploy yet)
+- [x] 7.1 (C) Re-check Cloudflare free-tier limits (Workers, Durable Objects, WebSocket billing) from official docs - **Done:** Official docs: free plan = 100,000 requests/day and SQLite-backed Durable Objects only; D1 write limits were unclear so D1 is not used. The quota is per account (shared with other Workers).
+- [x] 7.2 (C) Worker + Durable Object (SQLite): WebSocket presence, running total, batched flush - **Done:** worker/src/index.ts: Durable Object with WebSocket hibernation.
+- [x] 7.3 (C) Client widget: animated counters in header (like transcribevid.com), formatted per locale - **Done:** Counters.astro + counters-client.ts; in the header on wide screens, in the footer on phones.
+- [x] 7.4 (C) Send increment once per completed batch; cap + rate-limit - **Done:** One message per batch; server caps 100 per message, 1 per second and 2000 per hour per connection.
+- [x] 7.5 (C) Reconnect with back-off; pause when tab hidden; hide widgets on failure/quota - **Done:** Back-off reconnect, pauses when the tab is hidden, pills hide on failure.
+- [x] 7.6 (C) Thresholds + config (hide until real counts are meaningful) - **Done:** Thresholds in the COUNTERS config; real numbers only.
+- [x] 7.7 (C) Local testing with `wrangler` (no deploy yet) - **Done:** Tested locally with wrangler dev: presence, total, rate limit, junk input, ping, stats endpoint. The widget stays hidden until the Worker is deployed and COUNTERS.endpoint is set (docs/DEPLOY.md).
 
 **Done when:** two browser tabs show "2 online" and the counter rises after a resize; killing the Worker doesn't break the tool.
 
 ## STEP 8 — Content pages (English first)
-- [ ] 8.1 (C) Home/tool page with how-it-works, features, FAQ (structured data)
-- [ ] 8.2 (C) Intent pages (unique, useful content each — no duplicates): resize to KB (20/50/100/200), resize in cm / mm / inch, passport & visa photo, social-media sizes, convert JPG/PNG/WebP, compress image
-- [ ] 8.3 (C) Guides: "photo size for X form", "how to reduce image size without losing quality" (original, helpful)
-- [ ] 8.4 (C) Internal linking, breadcrumbs, related tools
-- [ ] 8.5 (C) Localised variants of examples per audience (US/UK passport, India forms)
+- [x] 8.1 (C) Home/tool page with how-it-works, features, FAQ (structured data) - **Done:** Home page: how it works, why, FAQ, plus FAQPage / HowTo / SoftwareApplication data.
+- [x] 8.2 (C) Intent pages (unique, useful content each — no duplicates): resize to KB (20/50/100/200), resize in cm / mm / inch, passport & visa photo, social-media sizes, convert JPG/PNG/WebP, compress image - **Done:** Six landing pages: resize to KB, cm/mm/in, passport photo size (data-driven table), social media sizes, convert, compress.
+- [x] 8.3 (C) Guides: "photo size for X form", "how to reduce image size without losing quality" (original, helpful) - **Done:** Folded into the landing pages (tips + FAQ) instead of separate thin articles.
+- [x] 8.4 (C) Internal linking, breadcrumbs, related tools - **Done:** Related-tools links and BreadcrumbList data.
+- [x] 8.5 (C) Localised variants of examples per audience (US/UK passport, India forms) - **Done:** Examples for US/UK/EU passport sizes and India form limits (KB presets, PAN photo).
 
 **Done when:** ~12 high-quality pages exist in English.
 
 ## STEP 9 — Legal, trust & AdSense compliance
-- [ ] 9.1 (C) About, Contact, Privacy Policy, Terms of Service, Cookie policy (needs info from Section 2)
-- [ ] 9.2 (C) Privacy Policy covers: no image uploads, anonymous counter connection, Cloudflare analytics, Google AdSense cookies/ad personalisation, user choices
-- [ ] 9.3 (C) "Privacy and cookie settings" link in footer (as on transcribevid.com) wired to Google's consent message (EEA/UK/CH) — set up inside AdSense → Privacy & messaging
+- [x] 9.1 (C) About, Contact, Privacy Policy, Terms of Service, Cookie policy (needs info from Section 2) - **Done:** About, Contact, Privacy, Terms (no separate cookie page: covered in Privacy).
+- [x] 9.2 (C) Privacy Policy covers: no image uploads, anonymous counter connection, Cloudflare analytics, Google AdSense cookies/ad personalisation, user choices - **Done:** Privacy covers local processing, the anonymous counter, Cloudflare analytics, Google ad cookies and opt-out, EEA/UK/CH consent, and rights.
+- [x] 9.3 (C) "Privacy and cookie settings" link in footer (as on transcribevid.com) wired to Google's consent message (EEA/UK/CH) — set up inside AdSense → Privacy & messaging - **Done:** Footer link re-opens Google consent message (works once AdSense messaging is configured).
 - [~] 9.4 (C) (First pass done 2026-11-10, see "AdSense policy findings" below; repeat before submitting.) Review against Google Publisher Policies and AdSense program policies: original content, no misleading UI, ads not placed in navigation, no incentivised clicks, no prohibited content
-- [ ] 9.5 (C) `ads.txt` with your publisher ID (after you send it); `robots.txt`; sitemap link
+- [x] 9.5 (C) `ads.txt` with your publisher ID (after you send it); `robots.txt`; sitemap link - **Done:** ads.txt generated from the publisher id (ca-pub-5152758693265080), robots.txt, and a sitemap.xml with hreflang.
 - [ ] 9.6 (C) Pre-submission checklist run & documented
 
 **Done when:** every item in the checklist passes.

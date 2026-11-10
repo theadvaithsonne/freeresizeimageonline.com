@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Ostatnia aktualizacja: {date}",
+    "about": {
+      "title": "O serwisie FreeResizeImageOnline",
+      "description": "Kto tworzy FreeResizeImageOnline, dlaczego jest darmowy i jak chronimy prywatność Twoich obrazów.",
+      "h1": "O serwisie FreeResizeImageOnline",
+      "paragraphs": [
+        "FreeResizeImageOnline to darmowe narzędzie do zmiany rozmiaru, kompresji i konwersji obrazów. Stworzył je i prowadzi {owner} w Bengaluru w Indiach.",
+        "Celem jest prostota: bez konta, bez znaku wodnego i bez limitów. Twoje obrazy są przetwarzane w Twojej przeglądarce i nigdy nie trafiają na nasze serwery.",
+        "Serwis jest utrzymywany z reklam Google AdSense, które pokrywają koszt domeny i rozwoju. Reklamy mieszczą się w jednym wyraźnie oznaczonym polu, aby nie przeszkadzały.",
+        "Masz pytania lub uwagi? Napisz na adres {email}."
+      ]
+    },
+    "contact": {
+      "title": "Kontakt z FreeResizeImageOnline",
+      "description": "Skontaktuj się z właścicielem FreeResizeImageOnline w sprawie pytań, błędów lub pomysłów.",
+      "h1": "Kontakt",
+      "paragraphs": [
+        "Masz pytania, zgłoszenie błędu lub pomysł? Wyślij e-mail, a odpowiemy najszybciej, jak to możliwe.",
+        "Prosimy nie dołączać do wiadomości prywatnych zdjęć. Opisz problem i podaj, z jakiej przeglądarki i urządzenia korzystasz."
+      ],
+      "emailLabel": "E-mail",
+      "ownerLabel": "Właściciel serwisu",
+      "locationLabel": "Lokalizacja",
+      "locationValue": "Bengaluru, Indie"
+    },
+    "privacy": {
+      "title": "Polityka prywatności - FreeResizeImageOnline",
+      "description": "Jak FreeResizeImageOnline traktuje dane: obrazy zostają na Twoim urządzeniu oraz jak działają reklamowe pliki cookie.",
+      "h1": "Polityka prywatności",
+      "sections": [
+        {
+          "title": "Podsumowanie",
+          "text": "Ten serwis został stworzony tak, aby Twoje obrazy zostawały na Twoim urządzeniu. Ta polityka wyjaśnia, jakie informacje są, a jakie nie są zbierane."
+        },
+        {
+          "title": "Twoje obrazy",
+          "text": "Dodawane przez Ciebie obrazy są przetwarzane lokalnie w Twojej przeglądarce za pomocą JavaScript i WebAssembly. Nie są wysyłane, przechowywane ani oglądane przez nas ani przez żadną stronę trzecią. Ukryte dane w Twoich obrazach, takie jak lokalizacja, nie są kopiowane do plików tworzonych przez to narzędzie."
+        },
+        {
+          "title": "Statystyki na żywo",
+          "text": "Aby pokazać, ile obrazów zmieniono i ile osób jest online, Twoja przeglądarka nawiązuje anonimowe połączenie z naszą usługą liczników w Cloudflare. Wysyła tylko jedną liczbę: liczbę obrazów, którym zmieniono rozmiar. Na potrzeby tych statystyk nie przechowujemy Twojego adresu IP, imienia, nazw plików ani żadnego identyfikatora."
+        },
+        {
+          "title": "Informacje zbierane automatycznie",
+          "text": "Jak większość stron internetowych, nasz dostawca hostingu Cloudflare przetwarza dane techniczne, takie jak Twój adres IP i typ przeglądarki, aby dostarczać serwis i chronić go przed nadużyciami. Do liczenia wyświetleń stron używamy Cloudflare Web Analytics, usługi nastawionej na prywatność, która nie używa plików cookie i nie śledzi Cię na różnych stronach internetowych."
+        },
+        {
+          "title": "Pliki cookie i pamięć lokalna",
+          "text": "Twoje wybory, takie jak motyw i język, zapisujemy w pamięci lokalnej Twojej przeglądarki. Pozostają one na Twoim urządzeniu. Partnerzy reklamowi mogą ustawiać pliki cookie zgodnie z opisem w następnej sekcji."
+        },
+        {
+          "title": "Reklamy",
+          "text": "Do wyświetlania reklam używamy Google AdSense. Dostawcy zewnętrzni, w tym Google, używają plików cookie do wyświetlania reklam na podstawie Twoich wcześniejszych odwiedzin tej lub innych stron internetowych. Wykorzystanie reklamowych plików cookie przez Google umożliwia jemu i jego partnerom wyświetlanie Ci reklam na podstawie Twojej wizyty na tej stronie i innych stronach w Internecie. Możesz zrezygnować z reklam spersonalizowanych, odwiedzając Google Ads Settings, a z wykorzystania plików cookie przez niektórych zewnętrznych dostawców do reklam spersonalizowanych możesz zrezygnować na stronie www.aboutads.info. W Europejskim Obszarze Gospodarczym, Wielkiej Brytanii i Szwajcarii reklamy są personalizowane dopiero po wyrażeniu przez Ciebie zgody w komunikacie wyświetlanym przez platformę zarządzania zgodami certyfikowaną przez Google. Swój wybór możesz zmienić w dowolnym momencie za pomocą linku Ustawienia prywatności i plików cookie w stopce."
+        },
+        {
+          "title": "Dzieci",
+          "text": "Ten serwis nie jest skierowany do dzieci poniżej 13. roku życia (lub wieku obowiązującego w Twoim kraju) i świadomie nie zbieramy danych osobowych od dzieci."
+        },
+        {
+          "title": "Twoje prawa",
+          "text": "W zależności od miejsca zamieszkania, na przykład na mocy RODO (GDPR) lub indyjskiej ustawy o ochronie danych osobowych w formie cyfrowej (Digital Personal Data Protection Act), możesz mieć prawo dostępu do danych osobowych, ich poprawiania lub usuwania. Ponieważ nie przechowujemy Twoich danych osobowych, zazwyczaj nie ma czego usuwać, ale możesz napisać na adres {email} z każdą prośbą."
+        },
+        {
+          "title": "Zmiany w tej polityce",
+          "text": "Od czasu do czasu możemy aktualizować tę politykę. Data na górze strony wskazuje najnowszą wersję."
+        },
+        {
+          "title": "Kontakt",
+          "text": "{owner}, Bengaluru, Indie. E-mail: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Regulamin - FreeResizeImageOnline",
+      "description": "Zasady korzystania z FreeResizeImageOnline.",
+      "h1": "Regulamin",
+      "sections": [
+        {
+          "title": "Akceptacja",
+          "text": "Korzystając z FreeResizeImageOnline, akceptujesz niniejszy regulamin. Jeśli się z nim nie zgadzasz, nie korzystaj z serwisu."
+        },
+        {
+          "title": "Usługa",
+          "text": "Serwis udostępnia darmowe narzędzia do zmiany rozmiaru, kompresji i konwersji obrazów. Możemy w dowolnym momencie i bez uprzedzenia zmienić, wstrzymać lub zakończyć dowolną część usługi."
+        },
+        {
+          "title": "Twoje treści",
+          "text": "Zachowujesz wszystkie prawa do swoich obrazów. Odpowiadasz za to, że masz prawo je wykorzystywać i edytować, i nie wolno Ci używać narzędzia do treści niezgodnych z prawem. Ponieważ obrazy są przetwarzane na Twoim urządzeniu, nie otrzymujemy ich."
+        },
+        {
+          "title": "Dozwolone korzystanie",
+          "text": "Nie nadużywaj serwisu. Dotyczy to między innymi prób jego zakłócania, wysyłania zautomatyzowanych żądań na dużą skalę, ingerowania w usługę liczników oraz zakłócania wyświetlania reklam."
+        },
+        {
+          "title": "Brak gwarancji",
+          "text": "Usługa jest świadczona w stanie, w jakim jest, bez jakichkolwiek gwarancji. Nie gwarantujemy jakości ani rozmiaru plików wynikowych. Sprawdź, czy Twoje obrazy spełniają wymagania każdego oficjalnego wniosku, ponieważ nie możemy zagwarantować, że dany urząd lub serwis je zaakceptuje."
+        },
+        {
+          "title": "Ograniczenie odpowiedzialności",
+          "text": "W zakresie dozwolonym przez prawo nie ponosimy odpowiedzialności za żadne straty ani szkody wynikające z korzystania z serwisu."
+        },
+        {
+          "title": "Reklamy i strony trzecie",
+          "text": "Reklamy i odnośniki do innych stron internetowych należą do stron trzecich. Nie odpowiadamy za ich treść ani praktyki."
+        },
+        {
+          "title": "Prawo właściwe",
+          "text": "Niniejszy regulamin podlega prawu: {country}. Jurysdykcję mają sądy: {place}."
+        },
+        {
+          "title": "Kontakt",
+          "text": "Pytania dotyczące tego regulaminu można wysyłać na adres {email}."
+        }
+      ]
+    },
+    "englishNote": "Ta strona jest tłumaczeniem przygotowanym dla Twojej wygody. W razie rozbieżności z wersją angielską obowiązuje wersja angielska.",
+    "englishVersion": "Przeczytaj wersję angielską"
+  }
+}

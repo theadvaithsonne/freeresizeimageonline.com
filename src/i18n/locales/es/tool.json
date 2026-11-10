@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Redimensionador de imágenes",
+    "drop": {
+      "title": "Arrastra y suelta las imágenes aquí",
+      "or": "o",
+      "choose": "Elegir imágenes",
+      "paste": "También puedes pegar imágenes con Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Sin límite de tamaño ni de cantidad.",
+      "privacy": "Tus imágenes nunca salen de tu dispositivo.",
+      "addMore": "Añadir más imágenes",
+      "overlay": "Suelta las imágenes para añadirlas",
+      "none": "No se encontraron imágenes válidas. Elige archivos JPG, PNG, WebP, GIF o BMP."
+    },
+    "files": {
+      "title": "Tus imágenes ({count})",
+      "clear": "Quitar todas",
+      "remove": "Quitar {name}"
+    },
+    "options": {
+      "title": "Opciones",
+      "preset": "Ajuste predefinido",
+      "presetNone": "Tamaño personalizado",
+      "presetHint": "Los requisitos de las fotos cambian. Revisa las normas oficiales de tu trámite antes de enviar.",
+      "resizeBy": "Redimensionar por",
+      "modeDimensions": "Tamaño",
+      "modePercent": "Porcentaje",
+      "modeKeep": "Mantener tamaño",
+      "width": "Ancho",
+      "height": "Alto",
+      "unit": "Unidad",
+      "dpi": "DPI",
+      "lock": "Bloquear proporción",
+      "fit": "Cuando se indican ancho y alto",
+      "fitFit": "Ajustar dentro del cuadro",
+      "fitCrop": "Recortar para llenar el cuadro",
+      "fitStretch": "Estirar al tamaño exacto",
+      "percent": "Escala (%)",
+      "format": "Formato",
+      "formatOriginal": "Igual que el original",
+      "quality": "Calidad",
+      "qualityNote": "Más calidad da una imagen más nítida y un archivo más grande.",
+      "target": "Limitar el tamaño del archivo",
+      "targetValue": "Tamaño máximo del archivo",
+      "targetNote": "Se elige automáticamente la mejor calidad que cabe.",
+      "pngNote": "PNG no pierde calidad. Para reducir mucho el archivo, elige JPG o WebP."
+    },
+    "actions": {
+      "resize": "Redimensionar imágenes",
+      "cancel": "Cancelar",
+      "downloadAll": "Descargar todo (ZIP)",
+      "download": "Descargar",
+      "working": "Trabajando..."
+    },
+    "status": {
+      "queued": "En espera",
+      "processing": "Procesando...",
+      "done": "Listo",
+      "error": "Error",
+      "cancelled": "Cancelado"
+    },
+    "result": {
+      "smaller": "{percent} menos",
+      "larger": "{percent} más",
+      "targetMissed": "No se pudo llegar a {target}. Lo más pequeño posible: {size}.",
+      "summary": "{done} de {total} listas",
+      "finished": "Todo listo. {count} imágenes preparadas."
+    },
+    "errors": {
+      "decode-failed": "No se pudo leer este archivo como imagen.",
+      "unsupported-type": "Este tipo de archivo no es compatible.",
+      "invalid-size": "Introduce un ancho, alto o porcentaje válido.",
+      "too-large": "Este tamaño es demasiado grande para tu dispositivo. Prueba con uno más pequeño.",
+      "encode-failed": "No se pudo guardar la imagen. Prueba con otro formato.",
+      "cancelled": "Cancelado."
+    },
+    "presets": {
+      "groups": {
+        "social": "Redes sociales",
+        "documents": "Foto de documento y visa",
+        "forms": "Formularios en línea (tamaño de archivo)",
+        "marketplaces": "Tiendas en línea",
+        "web": "Web y correo"
+      },
+      "words": {
+        "post": "publicación",
+        "story": "historia / reel",
+        "cover": "portada",
+        "banner": "banner",
+        "thumbnail": "miniatura",
+        "profile": "foto de perfil",
+        "passport": "foto de pasaporte",
+        "visa": "foto de visa",
+        "idPhoto": "foto de documento",
+        "maxSize": "tamaño máx. de archivo",
+        "product": "imagen de producto",
+        "favicon": "icono",
+        "email": "ancho para correo",
+        "screen": "pantalla"
+      }
+    }
+  }
+}

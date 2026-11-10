@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Last updated: {date}",
+    "about": {
+      "title": "About FreeResizeImageOnline",
+      "description": "Who makes FreeResizeImageOnline, why it is free and how your pictures stay private.",
+      "h1": "About FreeResizeImageOnline",
+      "paragraphs": [
+        "FreeResizeImageOnline is a free tool for resizing, compressing and converting pictures. It is built and run by {owner} in Bengaluru, India.",
+        "The goal is to keep it simple: no account, no watermark and no limits. Your pictures are processed inside your own browser and are never uploaded to our servers.",
+        "The site is supported by advertising from Google AdSense, which pays for the domain and for development. Ads are kept to one clearly marked box so they stay out of your way.",
+        "Questions or feedback? Write to {email}."
+      ]
+    },
+    "contact": {
+      "title": "Contact FreeResizeImageOnline",
+      "description": "Contact the owner of FreeResizeImageOnline with questions, bug reports or ideas.",
+      "h1": "Contact us",
+      "paragraphs": [
+        "Questions, bug reports or ideas? Send an email and you will get a reply as soon as possible.",
+        "Please do not attach private photos to your message. Describe the problem instead, and tell us your browser and device."
+      ],
+      "emailLabel": "Email",
+      "ownerLabel": "Site owner",
+      "locationLabel": "Location",
+      "locationValue": "Bengaluru, India"
+    },
+    "privacy": {
+      "title": "Privacy Policy - FreeResizeImageOnline",
+      "description": "How FreeResizeImageOnline handles data: images stay on your device, and how advertising cookies work.",
+      "h1": "Privacy Policy",
+      "sections": [
+        {
+          "title": "Summary",
+          "text": "This site was built so that your pictures stay on your device. This policy explains what information is and is not collected."
+        },
+        {
+          "title": "Your images",
+          "text": "Images you add are processed locally in your browser using JavaScript and WebAssembly. They are not uploaded, stored or seen by us or by any third party. Hidden data inside your pictures, such as location, is not copied into the files this tool creates."
+        },
+        {
+          "title": "Live statistics",
+          "text": "To show how many images have been resized and how many people are online, your browser opens an anonymous connection to our counter service on Cloudflare. It sends only a number, the count of images you resized. We do not store your IP address, name, file names or any identifier for these statistics."
+        },
+        {
+          "title": "Information collected automatically",
+          "text": "Like most websites, our hosting provider Cloudflare processes technical data such as your IP address and browser type to deliver the site and protect it from abuse. We use Cloudflare Web Analytics, a privacy-focused service that does not use cookies and does not track you across websites, to count page views."
+        },
+        {
+          "title": "Cookies and local storage",
+          "text": "We save your choices, such as theme and language, in your browser's local storage. This stays on your device. Advertising partners may set cookies as described in the next section."
+        },
+        {
+          "title": "Advertising",
+          "text": "We use Google AdSense to show ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to this site and other sites on the Internet. You can opt out of personalized advertising by visiting Google Ads Settings, and you can opt out of some third-party vendors' use of cookies for personalized advertising at www.aboutads.info. In the European Economic Area, the United Kingdom and Switzerland, ads are personalized only after you give consent in the message shown by a Google-certified consent management platform. You can change your choice at any time with the Privacy and cookie settings link in the footer."
+        },
+        {
+          "title": "Children",
+          "text": "This site is not directed at children under 13 (or the applicable age in your country) and we do not knowingly collect personal information from children."
+        },
+        {
+          "title": "Your rights",
+          "text": "Depending on where you live, for example under the GDPR or India's Digital Personal Data Protection Act, you may have the right to access, correct or delete personal data. Because we do not store personal data about you, there is usually nothing to delete, but you can write to {email} with any request."
+        },
+        {
+          "title": "Changes to this policy",
+          "text": "We may update this policy from time to time. The date at the top shows the latest version."
+        },
+        {
+          "title": "Contact",
+          "text": "{owner}, Bengaluru, India. Email: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service - FreeResizeImageOnline",
+      "description": "The terms for using FreeResizeImageOnline.",
+      "h1": "Terms of Service",
+      "sections": [
+        {
+          "title": "Acceptance",
+          "text": "By using FreeResizeImageOnline you agree to these terms. If you do not agree, please do not use the site."
+        },
+        {
+          "title": "The service",
+          "text": "The site provides free tools to resize, compress and convert images. We may change, pause or stop any part of the service at any time without notice."
+        },
+        {
+          "title": "Your content",
+          "text": "You keep all rights to your images. You are responsible for having the right to use and edit them, and you must not use the tool for illegal content. Because images are processed on your device, we do not receive them."
+        },
+        {
+          "title": "Acceptable use",
+          "text": "Do not misuse the site. This includes trying to disrupt it, sending automated requests at scale, tampering with the counter service or interfering with advertisements."
+        },
+        {
+          "title": "No warranty",
+          "text": "The service is provided as is, without warranties of any kind. We do not guarantee the quality or file size of the results. Check that your pictures meet the requirements of any official application, because we cannot guarantee that a particular authority or website will accept them."
+        },
+        {
+          "title": "Limitation of liability",
+          "text": "To the extent permitted by law, we are not liable for any loss or damage that results from using the site."
+        },
+        {
+          "title": "Advertisements and third parties",
+          "text": "Ads and links to other websites belong to third parties. We are not responsible for their content or practices."
+        },
+        {
+          "title": "Governing law",
+          "text": "These terms are governed by the laws of {country}. The courts of {place} have jurisdiction."
+        },
+        {
+          "title": "Contact",
+          "text": "Questions about these terms can be sent to {email}."
+        }
+      ]
+    },
+    "englishNote": "This page is a translation for your convenience. If it differs from the English version, the English version applies.",
+    "englishVersion": "Read the English version"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Pengubah ukuran gambar",
+    "drop": {
+      "title": "Seret dan lepas gambar di sini",
+      "or": "atau",
+      "choose": "Pilih gambar",
+      "paste": "Anda juga bisa menempel gambar dengan Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Tanpa batas ukuran maupun jumlah.",
+      "privacy": "Gambar Anda tidak pernah meninggalkan perangkat.",
+      "addMore": "Tambah gambar",
+      "overlay": "Lepas gambar untuk menambahkannya",
+      "none": "Tidak ada gambar yang bisa digunakan. Pilih file JPG, PNG, WebP, GIF, atau BMP."
+    },
+    "files": {
+      "title": "Gambar Anda ({count})",
+      "clear": "Hapus semua",
+      "remove": "Hapus {name}"
+    },
+    "options": {
+      "title": "Opsi",
+      "preset": "Preset",
+      "presetNone": "Ukuran kustom",
+      "presetHint": "Persyaratan foto bisa berubah. Periksa aturan resmi untuk pengajuan Anda sebelum mengirim.",
+      "resizeBy": "Ubah ukuran menurut",
+      "modeDimensions": "Ukuran",
+      "modePercent": "Persen",
+      "modeKeep": "Pertahankan ukuran",
+      "width": "Lebar",
+      "height": "Tinggi",
+      "unit": "Satuan",
+      "dpi": "DPI",
+      "lock": "Kunci rasio aspek",
+      "fit": "Saat lebar dan tinggi sama-sama diisi",
+      "fitFit": "Muat di dalam kotak",
+      "fitCrop": "Pangkas untuk mengisi kotak",
+      "fitStretch": "Regangkan ke ukuran persis",
+      "percent": "Skala (%)",
+      "format": "Format",
+      "formatOriginal": "Sama seperti aslinya",
+      "quality": "Kualitas",
+      "qualityNote": "Kualitas lebih tinggi menghasilkan gambar lebih tajam dan file lebih besar.",
+      "target": "Batasi ukuran file",
+      "targetValue": "Ukuran file maksimum",
+      "targetNote": "Kualitas terbaik yang masih muat akan dipilihkan untuk Anda.",
+      "pngNote": "PNG bersifat lossless. Untuk memperkecil file secara signifikan, pilih JPG atau WebP."
+    },
+    "actions": {
+      "resize": "Ubah ukuran gambar",
+      "cancel": "Batal",
+      "downloadAll": "Unduh semua (ZIP)",
+      "download": "Unduh",
+      "working": "Memproses..."
+    },
+    "status": {
+      "queued": "Menunggu",
+      "processing": "Memproses...",
+      "done": "Selesai",
+      "error": "Gagal",
+      "cancelled": "Dibatalkan"
+    },
+    "result": {
+      "smaller": "{percent} lebih kecil",
+      "larger": "{percent} lebih besar",
+      "targetMissed": "Tidak bisa mencapai {target}. Ukuran terkecil yang mungkin: {size}.",
+      "summary": "{done} dari {total} selesai",
+      "finished": "Semua selesai. {count} gambar siap."
+    },
+    "errors": {
+      "decode-failed": "File ini tidak bisa dibaca sebagai gambar.",
+      "unsupported-type": "Jenis file ini tidak didukung.",
+      "invalid-size": "Masukkan lebar, tinggi, atau persentase yang valid.",
+      "too-large": "Ukuran ini terlalu besar untuk perangkat Anda. Coba ukuran yang lebih kecil.",
+      "encode-failed": "Gagal menyimpan gambar. Coba format lain.",
+      "cancelled": "Dibatalkan."
+    },
+    "presets": {
+      "groups": {
+        "social": "Media sosial",
+        "documents": "Pas foto dan visa",
+        "forms": "Formulir online (ukuran file)",
+        "marketplaces": "Toko online",
+        "web": "Web dan email"
+      },
+      "words": {
+        "post": "postingan",
+        "story": "story / reel",
+        "cover": "sampul",
+        "banner": "banner",
+        "thumbnail": "thumbnail",
+        "profile": "foto profil",
+        "passport": "foto paspor",
+        "visa": "foto visa",
+        "idPhoto": "pas foto",
+        "maxSize": "ukuran file maks.",
+        "product": "gambar produk",
+        "favicon": "ikon",
+        "email": "lebar email",
+        "screen": "layar"
+      }
+    }
+  }
+}

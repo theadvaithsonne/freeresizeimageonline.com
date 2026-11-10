@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Zmiana rozmiaru obrazów",
+    "kb": "Zmiana rozmiaru do KB",
+    "cm": "Rozmiar w cm, mm lub calach",
+    "passport": "Rozmiar zdjęcia do paszportu",
+    "social": "Rozmiary dla social mediów",
+    "convert": "Konwersja obrazów",
+    "compress": "Kompresja obrazów"
+  },
+  "common": {
+    "howTo": "Jak z tego korzystać",
+    "tipsTitle": "Wskazówki",
+    "faqTitle": "Najczęstsze pytania",
+    "related": "Więcej darmowych narzędzi",
+    "goodToKnow": "Warto wiedzieć",
+    "table": {
+      "country": "Kraj",
+      "platform": "Platforma",
+      "use": "Zastosowanie",
+      "size": "Rozmiar",
+      "pixels": "Piksele (300 DPI)",
+      "pixelsPlain": "Piksele"
+    }
+  },
+  "home": {
+    "how": {
+      "title": "Jak zmienić rozmiar obrazu online",
+      "steps": [
+        { "title": "Dodaj obrazy", "text": "Przeciągnij zdjęcia na stronę, wybierz je na urządzeniu lub wklej. Możesz dodać naraz tyle, ile chcesz." },
+        { "title": "Wybierz rozmiar", "text": "Wybierz gotowy rozmiar, na przykład dla Instagrama albo do paszportu, lub wpisz własną szerokość i wysokość w pikselach, centymetrach, milimetrach albo calach. Możesz też ustawić maksymalny rozmiar pliku, na przykład 50 KB." },
+        { "title": "Zmień rozmiar i pobierz", "text": "Kliknij Zmień rozmiar. Pobierz każdy obraz osobno albo wszystko w jednym pliku ZIP." }
+      ]
+    },
+    "why": {
+      "title": "Dlaczego ludzie wybierają FreeResizeImageOnline",
+      "items": [
+        { "title": "Prywatność w standardzie", "text": "Obrazy są przetwarzane w Twojej przeglądarce. Nigdy nie trafiają na serwer, więc nikt poza Tobą ich nie zobaczy." },
+        { "title": "Za darmo i bez limitów", "text": "Bez konta, bez znaku wodnego, bez dziennego limitu i bez czekania. Zmień rozmiar jednego obrazu lub setek." },
+        { "title": "Ostry efekt", "text": "Wysokiej jakości filtr zmiany rozmiaru i nowoczesne kompresory sprawiają, że małe obrazy pozostają wyraźne, a pliki lekkie." },
+        { "title": "Dokładny rozmiar pliku", "text": "Potrzebujesz zdjęcia poniżej 50 KB do formularza? Ustaw limit, a narzędzie znajdzie najlepszą jakość, która się zmieści." }
+      ]
+    },
+    "faq": {
+      "items": [
+        { "q": "Czy to naprawdę za darmo?", "a": "Tak. Bez rejestracji, bez okresu próbnego i bez limitu liczby ani rozmiaru obrazów. Strona utrzymuje się z jednej reklamy obok narzędzia." },
+        { "q": "Czy moje obrazy są wysyłane na serwer?", "a": "Nie. Zmiana rozmiaru odbywa się na Twoim urządzeniu, w przeglądarce. Twoje obrazy nigdy nie trafiają na nasze serwery. Liczymy tylko, ile obrazów zmieniono, jako zwykłą liczbę." },
+        { "q": "Jakie formaty są obsługiwane?", "a": "Możesz otwierać pliki JPG, PNG, WebP, GIF i BMP, a także AVIF, jeśli obsługuje go Twoja przeglądarka. Zapisać możesz jako JPG, PNG lub WebP." },
+        { "q": "Czy zmiana rozmiaru obniży jakość?", "a": "Zmniejszony obraz pozostaje ostry, bo narzędzie używa filtra wysokiej jakości. Powiększenie nie doda szczegółów, których nie ma, więc powiększone obrazy wyglądają na bardziej miękkie. W przypadku JPG i WebP jakość możesz wybrać samodzielnie." },
+        { "q": "Jak zmniejszyć obraz poniżej określonego rozmiaru, np. 50 KB?", "a": "Włącz Ogranicz rozmiar pliku, wpisz liczbę i kliknij Zmień rozmiar. Narzędzie obniża jakość, a w razie potrzeby także wymiary, aż plik się zmieści. Wybierz JPG lub WebP, aby uzyskać najlepszy efekt, bo PNG nie da się w ten sposób zmniejszyć." },
+        { "q": "Czy działa na telefonie?", "a": "Tak. Strona działa w aktualnych wersjach Chrome, Safari, Firefox i Edge na telefonach, tabletach i komputerach. Bardzo duże zdjęcia mogą sprawiać problemy na starszych telefonach." }
+      ]
+    }
+  },
+  "kb": {
+    "title": "Zmniejsz zdjęcie do 20 KB, 50 KB, 100 KB lub 200 KB",
+    "description": "Zmniejsz zdjęcie do dokładnego rozmiaru w KB do formularzy i wysyłania. Za darmo, bez rejestracji, a obraz zostaje na Twoim urządzeniu.",
+    "h1": "Zmień rozmiar obrazu do KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "intro": "Wiele formularzy online, portali egzaminacyjnych i serwisów z ofertami pracy odrzuca zdjęcia powyżej limitu, takiego jak 50 KB lub 200 KB. To narzędzie zmniejsza obraz do wybranego limitu, zachowując jak najwięcej jakości.",
+    "steps": [
+      { "title": "Dodaj zdjęcie", "text": "Przeciągnij je na stronę lub wybierz na urządzeniu." },
+      { "title": "Ustaw limit rozmiaru", "text": "Wybierz limit z listy Gotowy rozmiar albo włącz Ogranicz rozmiar pliku i wpisz własną liczbę." },
+      { "title": "Zmień rozmiar i pobierz", "text": "Kliknij Zmień rozmiar i pobierz wynik." }
+    ],
+    "tipsTitle": "Wskazówki dla małych plików",
+    "tips": [
+      "Używaj JPG. Przy tych samych wymiarach kompresuje zdjęcia znacznie lepiej niż PNG.",
+      "Jeśli wynik jest nieostry, podnieś trochę limit albo przed zmianą rozmiaru przytnij puste krawędzie.",
+      "Większość formularzy mierzy rozmiar w KB, gdzie 1 KB to 1024 bajty. To narzędzie stosuje tę samą zasadę.",
+      "Sprawdź też wymagane wymiary. Niektóre portale wymagają zarówno rozmiaru w pikselach, jak i limitu w KB."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Dlaczego plik nadal jest większy niż limit?", "a": "Bardzo szczegółowe zdjęcia potrzebują więcej danych. Jeśli limitu nie da się osiągnąć nawet przy najniższej jakości, narzędzie zmniejsza także wymiary obrazu. Jeśli nadal nie uda się osiągnąć celu, poinformuje Cię o najmniejszym możliwym rozmiarze." },
+        { "q": "Czy mogę zmienić rozmiar wielu zdjęć do tego samego limitu?", "a": "Tak. Dodaj wszystkie, ustaw limit raz i pobierz je razem jako plik ZIP." },
+        { "q": "Czy moje zdjęcie jest wysyłane na serwer?", "a": "Nie. Wszystko dzieje się w Twojej przeglądarce, więc zdjęcie nigdy nie opuszcza Twojego urządzenia." }
+      ]
+    }
+  },
+  "cm": {
+    "title": "Zmień rozmiar obrazu w cm, mm lub calach - za darmo",
+    "description": "Ustaw dokładny rozmiar zdjęcia w centymetrach, milimetrach lub calach z odpowiednim DPI. Za darmo i prywatnie.",
+    "h1": "Zmień rozmiar obrazu w cm, mm lub calach",
+    "intro": "Druk i oficjalne formularze często wymagają rozmiaru w centymetrach lub calach, a nie w pikselach. Wpisz rozmiar i DPI, a narzędzie samo przeliczy piksele.",
+    "steps": [
+      { "title": "Dodaj zdjęcie", "text": "Przeciągnij je na stronę lub wybierz na urządzeniu." },
+      { "title": "Wpisz rozmiar", "text": "Wybierz cm, mm lub in, a potem wpisz szerokość i wysokość. Do dobrej jakości wydruku użyj 300 DPI." },
+      { "title": "Zmień rozmiar i pobierz", "text": "Kliknij Zmień rozmiar i pobierz wynik." }
+    ],
+    "tipsTitle": "Warto wiedzieć o DPI",
+    "tips": [
+      "DPI oznacza liczbę punktów na cal. Przy 300 DPI obraz o szerokości 10 cm ma około 1181 pikseli szerokości.",
+      "Używaj 300 DPI do wydruków i 72-96 DPI do ekranów.",
+      "Zostaw włączone Zablokuj proporcje, aby uniknąć rozciągnięcia. Wyłącz je i wybierz Przytnij, aby wypełnić ramkę, jeśli potrzebujesz dokładnego kształtu.",
+      "Na stronie internetowej liczy się tylko rozmiar w pikselach. DPI ma znaczenie przy drukowaniu obrazu."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Ile pikseli ma jeden cal?", "a": "To zależy od DPI. Przy 300 DPI jeden cal to 300 pikseli. Przy 96 DPI to 96 pikseli." },
+        { "q": "Czy wydrukuje się dokładnie w tym rozmiarze?", "a": "Narzędzie ustawia rozmiar w pikselach odpowiadający Twojemu rozmiarowi przy wybranym DPI. Wydrukuj obraz w rzeczywistym rozmiarze lub z tym DPI, aby uzyskać żądany rozmiar." },
+        { "q": "Jaki rozmiar ma zdjęcie 4 x 6 cali?", "a": "Przy 300 DPI 4 x 6 cali to 1200 x 1800 pikseli." }
+      ]
+    }
+  },
+  "passport": {
+    "title": "Rozmiar zdjęcia do paszportu i wizy według kraju - za darmo",
+    "description": "Popularne rozmiary zdjęć do paszportu i wizy w mm, calach i pikselach oraz darmowe narzędzie do dopasowania zdjęcia.",
+    "h1": "Rozmiar zdjęcia do paszportu i wizy",
+    "intro": "Różne kraje wymagają różnych rozmiarów zdjęć. Wybierz swój kraj na liście Gotowy rozmiar, aby przyciąć zdjęcie i zmienić jego rozmiar do dokładnych wymiarów przy 300 DPI.",
+    "note": "Przepisy się zmieniają, a każdy wniosek może mieć własne wymagania, takie jak kolor tła, wielkość głowy czy brak okularów. Przed wysłaniem zawsze sprawdź oficjalne instrukcje. To narzędzie ustawia tylko rozmiar; nie sprawdza wielkości głowy ani tła.",
+    "tableTitle": "Popularne rozmiary zdjęć",
+    "steps": [
+      { "title": "Wybierz rozmiar", "text": "Otwórz listę Gotowy rozmiar, przejdź do Zdjęcia do dokumentów i wiz i wybierz swój kraj." },
+      { "title": "Dodaj zdjęcie", "text": "Użyj zdjęcia, na którym twarz jest wyśrodkowana i dobrze widoczna, bo narzędzie przycina od środka." },
+      { "title": "Zmień rozmiar i pobierz", "text": "Kliknij Zmień rozmiar. Zdjęcie zostanie przycięte do wymaganego kształtu i zapisane jako JPG." }
+    ],
+    "tipsTitle": "Wskazówki dla dobrego zdjęcia",
+    "tips": [
+      "Wybierz jednolite, jasne tło i równe oświetlenie bez cieni.",
+      "Patrz prosto w obiektyw i wyśrodkuj twarz przed zmianą rozmiaru.",
+      "Przy wysyłaniu online sprawdź też limit rozmiaru pliku i użyj Ogranicz rozmiar pliku.",
+      "Drukuj w rzeczywistym rozmiarze (100 procent), aby rozmiar na papierze zgadzał się z wymaganiem."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Jaki jest standardowy rozmiar zdjęcia do paszportu?", "a": "To zależy od kraju. Stany Zjednoczone używają 2 x 2 cale (51 x 51 mm). Wielka Brytania, Unia Europejska i Australia używają 35 x 45 mm. Kanada używa 50 x 70 mm." },
+        { "q": "Czy mogę użyć tego do zdjęcia do wizy?", "a": "Tak, jeśli wymóg wizowy odpowiada jednemu z rozmiarów. Wiele wiz wymaga takiego samego rozmiaru jak paszport, ale niektóre kraje mają własne, więc zawsze sprawdź oficjalne zasady." },
+        { "q": "Ile pikseli ma zdjęcie paszportowe?", "a": "Przy 300 DPI 35 x 45 mm to 413 x 531 pikseli, a 2 x 2 cale to 600 x 600 pikseli." }
+      ]
+    }
+  },
+  "social": {
+    "title": "Rozmiary obrazów do social mediów - Instagram, YouTube, Facebook",
+    "description": "Popularne rozmiary obrazów dla Instagrama, Facebooka, YouTube, X, LinkedIn i Pinterest oraz darmowe narzędzie do dopasowania obrazu.",
+    "h1": "Rozmiary obrazów do social mediów",
+    "intro": "Posty wyglądają najlepiej, gdy obraz ma już odpowiedni kształt. Wybierz platformę na liście Gotowy rozmiar, a narzędzie przytnie obraz i zmieni jego rozmiar.",
+    "note": "Platformy co jakiś czas aktualizują swoje zalecenia. To powszechnie stosowane rozmiary, które dobrze działają z obecnymi formatami.",
+    "tableTitle": "Rozmiary według platformy",
+    "steps": [
+      { "title": "Dodaj obraz", "text": "Przeciągnij go na stronę lub wybierz na urządzeniu." },
+      { "title": "Wybierz rozmiar platformy", "text": "Otwórz listę Gotowy rozmiar, przejdź do Media społecznościowe i wybierz platformę oraz format." },
+      { "title": "Zmień rozmiar i pobierz", "text": "Kliknij Zmień rozmiar. Wybrana jest opcja Przytnij, aby wypełnić ramkę, więc nic nie jest rozciągane." }
+    ],
+    "tipsTitle": "Wskazówki dla ostrych postów",
+    "tips": [
+      "Najważniejsze elementy trzymaj z dala od krawędzi, bo niektóre aplikacje przycinają brzegi.",
+      "Używaj JPG lub WebP do zdjęć, a PNG do grafik z ostrym tekstem.",
+      "Dla największej ostrości zacznij od obrazu większego niż docelowy rozmiar."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Jaki jest najlepszy rozmiar posta na Instagramie?", "a": "Użyj 1080 x 1080 pikseli dla kwadratowego posta i 1080 x 1350 pikseli dla posta w pionie." },
+        { "q": "Jaki rozmiar powinna mieć miniatura na YouTube?", "a": "1280 x 720 pikseli, z plikiem mniejszym niż 2 MB." },
+        { "q": "Czy mój obraz zostanie przycięty?", "a": "Przy opcji Przytnij, aby wypełnić ramkę zachowany zostaje środek obrazu, a niemieszczące się krawędzie są obcinane. Wybierz Dopasuj do ramki, jeśli wolisz zachować wszystko." }
+      ]
+    }
+  },
+  "convert": {
+    "title": "Konwersja obrazów JPG, PNG i WebP - darmowy konwerter",
+    "description": "Konwertuj obrazy między JPG, PNG i WebP w przeglądarce. Za darmo, bez rejestracji i prywatnie.",
+    "h1": "Konwertuj obrazy między JPG, PNG i WebP",
+    "intro": "Wybierz potrzebny format, a narzędzie przekonwertuje każdy dodany obraz. Nic nie jest wysyłane na serwer.",
+    "steps": [
+      { "title": "Dodaj obrazy", "text": "Dodaj jeden lub wiele obrazów." },
+      { "title": "Wybierz format", "text": "Wybierz JPG, PNG lub WebP w polu Format. Zostaw zaznaczone Bez zmiany rozmiaru, jeśli chcesz zmienić tylko format." },
+      { "title": "Konwertuj i pobierz", "text": "Kliknij Zmień rozmiar i pobierz wyniki." }
+    ],
+    "tipsTitle": "Jaki format wybrać?",
+    "tips": [
+      "JPG najlepiej nadaje się do zdjęć. Pliki są małe, ale nie ma przezroczystości.",
+      "PNG najlepiej nadaje się do logo, zrzutów ekranu i grafik z ostrymi krawędziami lub przezroczystością. Pliki są większe.",
+      "WebP to nowoczesny format, zwykle mniejszy niż JPG lub PNG, który działa we wszystkich aktualnych przeglądarkach.",
+      "Konwersja przezroczystego PNG do JPG wypełnia przezroczyste obszary kolorem białym."
+    ],
+    "faq": {
+      "items": [
+        { "q": "Czy konwersja obniża jakość?", "a": "Wynik w PNG jest bezstratny. JPG i WebP są stratne, ale przy wysokiej jakości różnicę trudno zauważyć. Jakość możesz ustawić samodzielnie." },
+        { "q": "Czy mogę konwertować zdjęcia HEIC z iPhone'a?", "a": "Jeszcze nie, bo większość przeglądarek nie potrafi otwierać plików HEIC. Na iPhonie możesz ustawić formaty aparatu na Największa zgodność albo udostępnić zdjęcie jako JPG." }
+      ]
+    }
+  },
+  "compress": {
+    "title": "Kompresja zdjęć online - zmniejsz rozmiar zdjęcia za darmo",
+    "description": "Zmniejsz zdjęcia bez widocznej utraty jakości. Za darmo, bez rejestracji, a Twoje obrazy nigdy nie opuszczają urządzenia.",
+    "h1": "Kompresuj obrazy online",
+    "intro": "Mniejsze obrazy wczytują się szybciej, mieszczą się w e-mailach i oszczędzają miejsce. Narzędzie ponownie koduje Twoje obrazy nowoczesnymi kompresorami i pozwala ustawić poziom jakości lub maksymalny rozmiar pliku.",
+    "steps": [
+      { "title": "Dodaj obrazy", "text": "Przeciągnij je na stronę lub wybierz na urządzeniu." },
+      { "title": "Wybierz sposób kompresji", "text": "Zostaw Bez zmiany rozmiaru, aby skompresować bez zmiany wymiarów, i użyj suwaka Jakość, albo włącz Ogranicz rozmiar pliku." },
+      { "title": "Kompresuj i pobierz", "text": "Kliknij Zmień rozmiar i pobierz wyniki." }
+    ],
+    "tipsTitle": "Wskazówki dla mniejszych plików",
+    "tips": [
+      "Jakość od 70 do 85 zwykle wystarcza dla zdjęć i mocno zmniejsza rozmiar.",
+      "Zmniejszenie wymiarów zmniejsza plik znacznie bardziej niż samo obniżenie jakości.",
+      "Pliki WebP są zwykle mniejsze niż JPG przy takim samym wyglądzie.",
+      "Zdjęcia z telefonów zawierają ukryte dane, takie jak lokalizacja. Pliki utworzone tutaj ich nie zawierają."
+    ],
+    "faq": {
+      "items": [
+        { "q": "O ile mniejszy będzie mój plik?", "a": "Zdjęcia prosto z telefonu często zmniejszają się o 60-90 procent. Obrazy, które są już skompresowane, zmniejszają się mniej." },
+        { "q": "Czy mogę skompresować wiele obrazów naraz?", "a": "Tak. Dodaj je wszystkie i pobierz jeden plik ZIP." }
+      ]
+    }
+  }
+}

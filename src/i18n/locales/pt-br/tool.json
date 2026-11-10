@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Redimensionador de imagens",
+    "drop": {
+      "title": "Arraste e solte as imagens aqui",
+      "or": "ou",
+      "choose": "Escolher imagens",
+      "paste": "Você também pode colar imagens com Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Sem limite de tamanho ou quantidade.",
+      "privacy": "Suas imagens nunca saem do seu dispositivo.",
+      "addMore": "Adicionar mais imagens",
+      "overlay": "Solte as imagens para adicioná-las",
+      "none": "Nenhuma imagem utilizável encontrada. Escolha arquivos JPG, PNG, WebP, GIF ou BMP."
+    },
+    "files": {
+      "title": "Suas imagens ({count})",
+      "clear": "Limpar tudo",
+      "remove": "Remover {name}"
+    },
+    "options": {
+      "title": "Opções",
+      "preset": "Predefinição",
+      "presetNone": "Tamanho personalizado",
+      "presetHint": "Os requisitos de foto mudam. Confira as regras oficiais do seu pedido antes de enviar.",
+      "resizeBy": "Redimensionar por",
+      "modeDimensions": "Tamanho",
+      "modePercent": "Porcentagem",
+      "modeKeep": "Manter tamanho",
+      "width": "Largura",
+      "height": "Altura",
+      "unit": "Unidade",
+      "dpi": "DPI",
+      "lock": "Travar proporção",
+      "fit": "Quando largura e altura estão definidas",
+      "fitFit": "Ajustar dentro da caixa",
+      "fitCrop": "Cortar para preencher a caixa",
+      "fitStretch": "Esticar até o tamanho exato",
+      "percent": "Escala (%)",
+      "format": "Formato",
+      "formatOriginal": "Igual ao original",
+      "quality": "Qualidade",
+      "qualityNote": "Mais qualidade deixa a imagem mais nítida e o arquivo maior.",
+      "target": "Limitar o tamanho do arquivo",
+      "targetValue": "Tamanho máximo do arquivo",
+      "targetNote": "A melhor qualidade possível dentro do limite é escolhida para você.",
+      "pngNote": "O PNG não tem perdas. Para reduzir bastante o arquivo, escolha JPG ou WebP."
+    },
+    "actions": {
+      "resize": "Redimensionar imagens",
+      "cancel": "Cancelar",
+      "downloadAll": "Baixar tudo (ZIP)",
+      "download": "Baixar",
+      "working": "Trabalhando..."
+    },
+    "status": {
+      "queued": "Aguardando",
+      "processing": "Processando...",
+      "done": "Pronto",
+      "error": "Falhou",
+      "cancelled": "Cancelado"
+    },
+    "result": {
+      "smaller": "{percent} menor",
+      "larger": "{percent} maior",
+      "targetMissed": "Não foi possível chegar a {target}. Menor tamanho possível: {size}.",
+      "summary": "{done} de {total} concluídas",
+      "finished": "Tudo pronto. {count} imagens estão prontas."
+    },
+    "errors": {
+      "decode-failed": "Não foi possível ler este arquivo como imagem.",
+      "unsupported-type": "Este tipo de arquivo não é compatível.",
+      "invalid-size": "Digite uma largura, altura ou porcentagem válida.",
+      "too-large": "Este tamanho é grande demais para o seu dispositivo. Tente um tamanho menor.",
+      "encode-failed": "Não foi possível salvar a imagem. Tente outro formato.",
+      "cancelled": "Cancelado."
+    },
+    "presets": {
+      "groups": {
+        "social": "Redes sociais",
+        "documents": "Foto para documentos e visto",
+        "forms": "Formulários online (tamanho do arquivo)",
+        "marketplaces": "Lojas online",
+        "web": "Web e e-mail"
+      },
+      "words": {
+        "post": "post",
+        "story": "story / reel",
+        "cover": "capa",
+        "banner": "banner",
+        "thumbnail": "miniatura",
+        "profile": "foto de perfil",
+        "passport": "foto de passaporte",
+        "visa": "foto de visto",
+        "idPhoto": "foto de documento",
+        "maxSize": "tamanho máx. do arquivo",
+        "product": "imagem de produto",
+        "favicon": "ícone",
+        "email": "largura para e-mail",
+        "screen": "tela"
+      }
+    }
+  }
+}

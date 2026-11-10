@@ -1,0 +1,121 @@
+{
+  "legal": {
+    "updated": "Son güncelleme: {date}",
+    "about": {
+      "title": "FreeResizeImageOnline Hakkında",
+      "description": "FreeResizeImageOnline'ı kimin yaptığı, neden ücretsiz olduğu ve resimlerinizin nasıl gizli kaldığı.",
+      "h1": "FreeResizeImageOnline Hakkında",
+      "paragraphs": [
+        "FreeResizeImageOnline; resimleri boyutlandırmak, sıkıştırmak ve dönüştürmek için ücretsiz bir araçtır. Hindistan'ın Bengaluru kentinde {owner} tarafından geliştirilmiş ve işletilmektedir.",
+        "Amaç işi basit tutmaktır: hesap yok, filigran yok, sınır yok. Resimleriniz kendi tarayıcınızın içinde işlenir ve sunucularımıza asla yüklenmez.",
+        "Site, alan adının ve geliştirmenin maliyetini karşılayan Google AdSense reklamlarıyla desteklenmektedir. Reklamlar, yolunuza çıkmamaları için açıkça işaretlenmiş tek bir kutuyla sınırlı tutulur.",
+        "Sorularınız veya geri bildirimleriniz mi var? {email} adresine yazın."
+      ]
+    },
+    "contact": {
+      "title": "FreeResizeImageOnline ile İletişim",
+      "description": "Sorularınız, hata bildirimleriniz veya fikirleriniz için FreeResizeImageOnline'ın sahibiyle iletişime geçin.",
+      "h1": "Bize ulaşın",
+      "paragraphs": [
+        "Sorularınız, hata bildirimleriniz veya fikirleriniz mi var? Bir e-posta gönderin, en kısa sürede yanıt alırsınız.",
+        "Lütfen mesajınıza özel fotoğraflar eklemeyin. Bunun yerine sorunu anlatın ve tarayıcınızı ile cihazınızı belirtin."
+      ],
+      "emailLabel": "E-posta",
+      "ownerLabel": "Site sahibi",
+      "locationLabel": "Konum",
+      "locationValue": "Bengaluru, Hindistan"
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası - FreeResizeImageOnline",
+      "description": "FreeResizeImageOnline verileri nasıl işler: resimler cihazınızda kalır ve reklam çerezleri nasıl çalışır.",
+      "h1": "Gizlilik Politikası",
+      "sections": [
+        {
+          "title": "Özet",
+          "text": "Bu site, resimleriniz cihazınızda kalacak şekilde oluşturulmuştur. Bu politika, hangi bilgilerin toplandığını ve hangilerinin toplanmadığını açıklar."
+        },
+        {
+          "title": "Resimleriniz",
+          "text": "Eklediğiniz resimler, tarayıcınızda JavaScript ve WebAssembly kullanılarak yerel olarak işlenir. Resimler yüklenmez, saklanmaz ve bizim ya da herhangi bir üçüncü tarafın görebileceği bir yere gönderilmez. Resimlerinizin içindeki konum gibi gizli veriler, bu aracın oluşturduğu dosyalara kopyalanmaz."
+        },
+        {
+          "title": "Canlı istatistikler",
+          "text": "Kaç resmin boyutlandırıldığını ve kaç kişinin çevrimiçi olduğunu göstermek için tarayıcınız, Cloudflare üzerindeki sayaç hizmetimize anonim bir bağlantı açar. Bu bağlantı yalnızca bir sayı, yani boyutlandırdığınız resim sayısını gönderir. Bu istatistikler için IP adresinizi, adınızı, dosya adlarını veya herhangi bir tanımlayıcıyı saklamıyoruz."
+        },
+        {
+          "title": "Otomatik olarak toplanan bilgiler",
+          "text": "Çoğu web sitesinde olduğu gibi, barındırma sağlayıcımız Cloudflare da siteyi sunmak ve kötüye kullanıma karşı korumak için IP adresiniz ve tarayıcı türünüz gibi teknik verileri işler. Sayfa görüntülemelerini saymak için, çerez kullanmayan ve sizi web siteleri arasında izlemeyen, gizliliğe odaklı bir hizmet olan Cloudflare Web Analytics'i kullanıyoruz."
+        },
+        {
+          "title": "Çerezler ve yerel depolama",
+          "text": "Tema ve dil gibi tercihlerinizi tarayıcınızın yerel depolama alanına kaydediyoruz. Bu veriler cihazınızda kalır. Reklam ortakları, bir sonraki bölümde açıklandığı gibi çerez yerleştirebilir."
+        },
+        {
+          "title": "Reklamlar",
+          "text": "Reklam göstermek için Google AdSense kullanıyoruz. Google dahil üçüncü taraf sağlayıcılar, bu web sitesine veya diğer web sitelerine daha önceki ziyaretlerinize dayalı reklamlar sunmak için çerezler kullanır. Google'ın reklam çerezlerini kullanması, Google'ın ve ortaklarının size bu siteye ve internetteki diğer sitelere yaptığınız ziyarete dayalı reklamlar sunmasını sağlar. Google Ads Settings sayfasını ziyaret ederek kişiselleştirilmiş reklamcılığı reddedebilir, www.aboutads.info adresinden de bazı üçüncü taraf sağlayıcıların kişiselleştirilmiş reklamcılık için çerez kullanmasını reddedebilirsiniz. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de reklamlar, yalnızca Google tarafından sertifikalandırılmış bir onay yönetim platformunun gösterdiği mesajda onay vermenizden sonra kişiselleştirilir. Tercihinizi istediğiniz zaman alt bilgideki Gizlilik ve çerez ayarları bağlantısıyla değiştirebilirsiniz."
+        },
+        {
+          "title": "Çocuklar",
+          "text": "Bu site 13 yaşın altındaki (veya ülkenizde geçerli yaşın altındaki) çocuklara yönelik değildir ve çocuklardan bilerek kişisel bilgi toplamıyoruz."
+        },
+        {
+          "title": "Haklarınız",
+          "text": "Yaşadığınız yere bağlı olarak, örneğin GDPR veya Hindistan'ın Digital Personal Data Protection Act'i kapsamında, kişisel verilere erişme, bunları düzeltme veya silme hakkına sahip olabilirsiniz. Sizinle ilgili kişisel veri saklamadığımız için genellikle silinecek bir şey yoktur, ancak her türlü talebiniz için {email} adresine yazabilirsiniz."
+        },
+        {
+          "title": "Bu politikadaki değişiklikler",
+          "text": "Bu politikayı zaman zaman güncelleyebiliriz. En üstteki tarih, en son sürümü gösterir."
+        },
+        {
+          "title": "İletişim",
+          "text": "{owner}, Bengaluru, Hindistan. E-posta: {email}."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Hizmet Şartları - FreeResizeImageOnline",
+      "description": "FreeResizeImageOnline'ı kullanma şartları.",
+      "h1": "Hizmet Şartları",
+      "sections": [
+        {
+          "title": "Kabul",
+          "text": "FreeResizeImageOnline'ı kullanarak bu şartları kabul etmiş olursunuz. Kabul etmiyorsanız lütfen siteyi kullanmayın."
+        },
+        {
+          "title": "Hizmet",
+          "text": "Site, resimleri boyutlandırmak, sıkıştırmak ve dönüştürmek için ücretsiz araçlar sunar. Hizmetin herhangi bir bölümünü önceden haber vermeden istediğimiz zaman değiştirebilir, duraklatabilir veya durdurabiliriz."
+        },
+        {
+          "title": "İçeriğiniz",
+          "text": "Resimlerinizle ilgili tüm haklar size aittir. Resimleri kullanma ve düzenleme hakkına sahip olmaktan siz sorumlusunuz ve aracı yasa dışı içerik için kullanmamalısınız. Resimler cihazınızda işlendiği için bunları biz almayız."
+        },
+        {
+          "title": "Kabul edilebilir kullanım",
+          "text": "Siteyi kötüye kullanmayın. Buna siteyi aksatmaya çalışmak, büyük ölçekte otomatik istekler göndermek, sayaç hizmetiyle oynamak veya reklamlara müdahale etmek de dahildir."
+        },
+        {
+          "title": "Garanti verilmemesi",
+          "text": "Hizmet, herhangi bir tür garanti verilmeksizin olduğu gibi sunulmaktadır. Sonuçların kalitesini veya dosya boyutunu garanti etmiyoruz. Belirli bir kurumun veya web sitesinin resimlerinizi kabul edeceğini garanti edemeyeceğimiz için, resimlerinizin her türlü resmî başvurunun şartlarını karşıladığından emin olun."
+        },
+        {
+          "title": "Sorumluluğun sınırlandırılması",
+          "text": "Yasaların izin verdiği ölçüde, siteyi kullanmaktan kaynaklanan hiçbir kayıp veya zarardan sorumlu değiliz."
+        },
+        {
+          "title": "Reklamlar ve üçüncü taraflar",
+          "text": "Reklamlar ve diğer web sitelerine giden bağlantılar üçüncü taraflara aittir. Bunların içeriğinden veya uygulamalarından sorumlu değiliz."
+        },
+        {
+          "title": "Uygulanacak hukuk",
+          "text": "Bu şartlar {country} hukukuna tabidir. {place} mahkemeleri yetkilidir."
+        },
+        {
+          "title": "İletişim",
+          "text": "Bu şartlarla ilgili sorular {email} adresine gönderilebilir."
+        }
+      ]
+    },
+    "englishNote": "Bu sayfa, kolaylık sağlamak amacıyla yapılmış bir çeviridir. İngilizce sürümden farklılık olması durumunda İngilizce sürüm geçerlidir.",
+    "englishVersion": "İngilizce sürümü okuyun"
+  }
+}

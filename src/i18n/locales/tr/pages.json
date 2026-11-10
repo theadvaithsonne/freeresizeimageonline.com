@@ -1,0 +1,347 @@
+{
+  "nav": {
+    "home": "Resim boyutlandırıcı",
+    "kb": "KB'a küçült",
+    "cm": "cm, mm veya inç olarak boyutlandır",
+    "passport": "Pasaport fotoğrafı boyutu",
+    "social": "Sosyal medya boyutları",
+    "convert": "Resim dönüştür",
+    "compress": "Resim sıkıştır"
+  },
+  "common": {
+    "howTo": "Nasıl kullanılır?",
+    "tipsTitle": "İpuçları",
+    "faqTitle": "Sık sorulan sorular",
+    "related": "Diğer ücretsiz araçlar",
+    "goodToKnow": "Bilmekte fayda var",
+    "table": {
+      "country": "Ülke",
+      "platform": "Platform",
+      "use": "Kullanım",
+      "size": "Boyut",
+      "pixels": "Piksel (300 DPI)",
+      "pixelsPlain": "Piksel"
+    }
+  },
+  "home": {
+    "how": {
+      "title": "Resim online nasıl yeniden boyutlandırılır?",
+      "steps": [
+        {
+          "title": "Resimlerinizi ekleyin",
+          "text": "Fotoğrafları sayfaya sürükleyin, cihazınızdan seçin veya yapıştırın. Aynı anda istediğiniz kadar resim ekleyebilirsiniz."
+        },
+        {
+          "title": "Bir boyut seçin",
+          "text": "Instagram veya pasaport fotoğrafı gibi hazır bir ayar seçin ya da genişlik ve yüksekliği piksel, santimetre, milimetre veya inç olarak kendiniz girin. Örneğin 50 KB gibi en büyük dosya boyutunu da belirleyebilirsiniz."
+        },
+        {
+          "title": "Boyutlandırın ve indirin",
+          "text": "Resimleri boyutlandır düğmesine basın. Her resmi tek tek indirebilir veya hepsini tek bir ZIP dosyası olarak alabilirsiniz."
+        }
+      ]
+    },
+    "why": {
+      "title": "İnsanlar neden FreeResizeImageOnline'ı kullanıyor?",
+      "items": [
+        {
+          "title": "Tasarımından gizli",
+          "text": "Resimleriniz tarayıcınızın içinde işlenir. Hiçbir sunucuya yüklenmez, bu yüzden başka kimse göremez."
+        },
+        {
+          "title": "Ücretsiz ve sınırsız",
+          "text": "Hesap yok, filigran yok, günlük sınır yok, bekleme yok. Bir resmi de yüzlercesini de boyutlandırabilirsiniz."
+        },
+        {
+          "title": "Net sonuçlar",
+          "text": "Yüksek kaliteli bir boyutlandırma filtresi ve modern sıkıştırıcılar, küçük resimleri net, dosyaları ise küçük tutar."
+        },
+        {
+          "title": "Tam dosya boyutları",
+          "text": "Bir form için fotoğrafınızın 50 KB altında olması mı gerekiyor? Sınırı girin, araç sığan en iyi kaliteyi bulsun."
+        }
+      ]
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Gerçekten ücretsiz mi?",
+          "a": "Evet. Kayıt yok, deneme süresi yok, resimlerinizin sayısı veya boyutu için sınır yok. Siteyi aracın yanındaki tek bir reklam finanse ediyor."
+        },
+        {
+          "q": "Resimlerim yükleniyor mu?",
+          "a": "Hayır. Boyutlandırma kendi cihazınızda, tarayıcınızın içinde yapılır. Resimleriniz sunucularımıza hiçbir zaman gönderilmez. Saydığımız tek şey, düz bir sayı olarak kaç resmin boyutlandırıldığıdır."
+        },
+        {
+          "q": "Hangi biçimler destekleniyor?",
+          "a": "JPG, PNG, WebP, GIF ve BMP dosyalarını, tarayıcınız destekliyorsa AVIF dosyalarını da açabilirsiniz. JPG, PNG veya WebP olarak kaydedebilirsiniz."
+        },
+        {
+          "q": "Boyutlandırma kaliteyi düşürür mü?",
+          "a": "Bir resmi küçültmek, araç yüksek kaliteli bir filtre kullandığı için resmi net tutar. Büyütmek ise olmayan ayrıntıyı ekleyemez, bu yüzden büyütülen resimler daha yumuşak görünür. JPG ve WebP için kaliteyi kendiniz seçebilirsiniz."
+        },
+        {
+          "q": "Bir resmi 50 KB gibi bir boyutun altına nasıl indiririm?",
+          "a": "Dosya boyutunu sınırla seçeneğini açın, sayıyı yazın ve Resimleri boyutlandır düğmesine basın. Araç, dosya sığana kadar kaliteyi ve gerekirse ölçüleri düşürür. En iyi sonuç için JPG veya WebP seçin, çünkü PNG bu şekilde küçültülemez."
+        },
+        {
+          "q": "Telefonumda çalışır mı?",
+          "a": "Evet. Sayfa; telefonlarda, tabletlerde ve bilgisayarlarda Chrome, Safari, Firefox ve Edge'in güncel sürümleriyle çalışır. Çok büyük fotoğraflar eski telefonlarda sınırlı olabilir."
+        }
+      ]
+    }
+  },
+  "kb": {
+    "title": "Resmi 20KB, 50KB, 100KB veya 200KB'a Küçült - Ücretsiz",
+    "description": "Formlar ve yüklemeler için fotoğrafı tam istenen KB boyutuna küçültün. Ücretsiz, kayıtsız; resminiz cihazınızda kalır.",
+    "h1": "Resmi KB'a küçült (20 KB, 50 KB, 100 KB, 200 KB)",
+    "intro": "Pek çok online form, sınav sistemi ve iş sitesi 50 KB veya 200 KB gibi bir sınırın üstündeki fotoğrafları kabul etmez. Bu araç, resminizi seçtiğiniz sınıra sığacak şekilde küçültür ve kaliteyi olabildiğince korur.",
+    "steps": [
+      {
+        "title": "Fotoğrafınızı ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "Boyut sınırını belirleyin",
+        "text": "Hazır ayar listesinden bir sınır seçin ya da Dosya boyutunu sınırla seçeneğini açıp kendi sayınızı yazın."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve sonucu indirin."
+      }
+    ],
+    "tipsTitle": "Küçük dosya boyutları için ipuçları",
+    "tips": [
+      "JPG kullanın. Aynı ölçülerde fotoğrafları PNG'den çok daha iyi sıkıştırır.",
+      "Sonuç bulanık görünüyorsa sınırı biraz yükseltin veya boyutlandırmadan önce boş kenarları kırpın.",
+      "Çoğu form boyutu KB olarak ölçer ve 1 KB, 1.024 bayttır. Bu araç da aynı kuralı kullanır.",
+      "İstenen ölçülere de bakın. Bazı sitelerde hem piksel cinsinden bir boyut hem de KB cinsinden bir sınır gerekir."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Dosyam neden hâlâ sınırdan büyük?",
+          "a": "Çok ayrıntılı fotoğraflar daha fazla veri gerektirir. Sınıra en düşük kalitede bile ulaşılamıyorsa araç resmin ölçülerini de küçültür. Yine de hedefe ulaşamazsa yapabildiği en küçük boyutu size söyler."
+        },
+        {
+          "q": "Birçok fotoğrafı aynı sınıra küçültebilir miyim?",
+          "a": "Evet. Hepsini ekleyin, sınırı bir kez belirleyin ve hepsini ZIP dosyası olarak indirin."
+        },
+        {
+          "q": "Fotoğrafım bir sunucuya yükleniyor mu?",
+          "a": "Hayır. Her şey tarayıcınızda olur, bu yüzden fotoğrafınız cihazınızdan çıkmaz."
+        }
+      ]
+    }
+  },
+  "cm": {
+    "title": "Resmi cm, mm veya İnç Olarak Boyutlandır - Ücretsiz",
+    "description": "Fotoğrafın boyutunu doğru DPI ile santimetre, milimetre veya inç olarak ayarlayın. Ücretsiz ve gizli.",
+    "h1": "Resmi cm, mm veya inç olarak boyutlandır",
+    "intro": "Baskı işleri ve resmî formlar çoğu zaman piksel yerine santimetre veya inç cinsinden boyut ister. Boyutu ve DPI değerini girin, pikselleri araç sizin için hesaplasın.",
+    "steps": [
+      {
+        "title": "Fotoğrafınızı ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "Boyutu girin",
+        "text": "cm, mm veya in seçin, ardından genişlik ve yüksekliği yazın. İyi baskı kalitesi için 300 DPI kullanın."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve sonucu indirin."
+      }
+    ],
+    "tipsTitle": "DPI hakkında bilmeniz gerekenler",
+    "tips": [
+      "DPI, inç başına nokta demektir. 300 DPI'da 10 cm genişliğindeki bir resim yaklaşık 1.181 piksel genişliğindedir.",
+      "Baskı için 300 DPI, ekranlar için 72 ile 96 DPI arasını kullanın.",
+      "Resmin uzamasını önlemek için En-boy oranını kilitle seçeneğini açık tutun. Tam bir şekil gerekiyorsa seçeneği kapatın ve Kutuyu dolduracak şekilde kırp'ı seçin.",
+      "Web sitelerinde yalnızca piksel boyutu önemlidir. DPI, resim yazdırılırken önem kazanır."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir inç kaç pikseldir?",
+          "a": "DPI değerine bağlıdır. 300 DPI'da bir inç 300 pikseldir. 96 DPI'da 96 pikseldir."
+        },
+        {
+          "q": "Tam olarak bu boyutta basılır mı?",
+          "a": "Araç, seçtiğiniz DPI'da sizin boyutunuza denk gelen piksel boyutunu ayarlar. İstediğiniz boyutu elde etmek için resmi gerçek boyutunda veya bu DPI ile yazdırın."
+        },
+        {
+          "q": "4 x 6 inç bir fotoğraf kaç pikseldir?",
+          "a": "300 DPI'da 4 x 6 inç, 1.200 x 1.800 pikseldir."
+        }
+      ]
+    }
+  },
+  "passport": {
+    "title": "Ülkelere Göre Pasaport ve Vize Fotoğrafı Boyutu - Ücretsiz",
+    "description": "Yaygın pasaport ve vize fotoğrafı boyutları mm, inç ve piksel olarak; fotoğrafınızı buna göre boyutlandıran ücretsiz bir araçla.",
+    "h1": "Pasaport ve vize fotoğrafı boyutu",
+    "intro": "Farklı ülkeler farklı fotoğraf boyutları ister. Fotoğrafınızı 300 DPI'da tam ölçülere kırpıp boyutlandırmak için Hazır ayar listesinden ülkenizi seçin.",
+    "note": "Kurallar değişir ve her başvuru arka plan rengi, baş boyutu veya gözlüksüz olma gibi kendi şartlarını ekleyebilir. Göndermeden önce mutlaka resmî talimatları kontrol edin. Bu araç yalnızca boyutu ayarlar; baş boyutunu veya arka planı denetlemez.",
+    "tableTitle": "Yaygın fotoğraf boyutları",
+    "steps": [
+      {
+        "title": "Boyutunuzu seçin",
+        "text": "Hazır ayar listesini açın, Vesikalık ve vize bölümüne gidin ve ülkenizi seçin."
+      },
+      {
+        "title": "Bir fotoğraf ekleyin",
+        "text": "Yüzünüzün ortada ve net göründüğü bir fotoğraf kullanın, çünkü araç ortadan kırpar."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Fotoğraf istenen şekle kırpılır ve JPG olarak kaydedilir."
+      }
+    ],
+    "tipsTitle": "İyi bir fotoğraf için ipuçları",
+    "tips": [
+      "Düz, açık renkli bir arka plan ve gölgesiz, eşit bir ışık kullanın.",
+      "Kameraya dik bakın ve boyutlandırmadan önce yüzünüzü ortalayın.",
+      "Online yüklemelerde dosya boyutu sınırına da bakın ve Dosya boyutunu sınırla seçeneğini kullanın.",
+      "Kâğıt boyutunun şartla uyuşması için gerçek boyutta (yüzde 100) yazdırın."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Standart pasaport fotoğrafı boyutu nedir?",
+          "a": "Değişir. Amerika Birleşik Devletleri 2 x 2 inç (51 x 51 mm) kullanır. Birleşik Krallık, Avrupa Birliği ve Avustralya 35 x 45 mm kullanır. Kanada 50 x 70 mm kullanır."
+        },
+        {
+          "q": "Bunu vize fotoğrafı için kullanabilir miyim?",
+          "a": "Evet, vize şartı bu boyutlardan biriyle uyuşuyorsa. Birçok vize pasaportla aynı boyutu kullanır ama bazı ülkelerin kendi boyutu vardır, bu yüzden resmî kuralları mutlaka kontrol edin."
+        },
+        {
+          "q": "Pasaport fotoğrafı kaç pikseldir?",
+          "a": "300 DPI'da 35 x 45 mm, 413 x 531 piksel; 2 x 2 inç ise 600 x 600 pikseldir."
+        }
+      ]
+    }
+  },
+  "social": {
+    "title": "Sosyal Medya Resim Boyutları - Instagram, YouTube, Facebook",
+    "description": "Instagram, Facebook, YouTube, X, LinkedIn ve Pinterest için yaygın kullanılan resim boyutları; resminizi uygun boyuta getiren ücretsiz bir araçla.",
+    "h1": "Sosyal medya resim boyutları",
+    "intro": "Gönderiler, resim baştan doğru orandayken en iyi görünür. Hazır ayar listesinden bir platform seçin, araç resminizi buna göre kırpıp boyutlandırsın.",
+    "note": "Platformlar önerilerini zaman zaman günceller. Bunlar, güncel biçimlerle iyi çalışan yaygın boyutlardır.",
+    "tableTitle": "Platforma göre boyutlar",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "Bir platform boyutu seçin",
+        "text": "Hazır ayar listesini açın, Sosyal medya bölümüne gidin ve platformu ile biçimi seçin."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Kutuyu dolduracak şekilde kırp seçili olduğu için hiçbir şey uzatılmaz."
+      }
+    ],
+    "tipsTitle": "Net gönderiler için ipuçları",
+    "tips": [
+      "Önemli içeriği kenarlardan uzak tutun, çünkü bazı uygulamalar kenarları keser.",
+      "Fotoğraflar için JPG veya WebP, keskin yazılı grafikler için PNG kullanın.",
+      "En iyi netlik için hedef boyuttan daha büyük bir resimle başlayın."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Instagram gönderisi için en iyi boyut nedir?",
+          "a": "Kare gönderi için 1080 x 1080 piksel, dikey gönderi için 1080 x 1350 piksel kullanın."
+        },
+        {
+          "q": "YouTube küçük resmi hangi boyutta olmalı?",
+          "a": "1280 x 720 piksel; dosya boyutu 2 MB'ın altında olmalı."
+        },
+        {
+          "q": "Resmim kırpılacak mı?",
+          "a": "Kutuyu dolduracak şekilde kırp seçeneğinde resmin ortası korunur, sığmayan kenarlar kesilir. Her şeyi korumak istiyorsanız Kutuya sığdır'ı seçin."
+        }
+      ]
+    }
+  },
+  "convert": {
+    "title": "JPG, PNG ve WebP Resim Dönüştürücü - Ücretsiz Online",
+    "description": "Resimleri tarayıcınızda JPG, PNG ve WebP arasında dönüştürün. Ücretsiz, kayıtsız ve gizli.",
+    "h1": "Resimleri JPG, PNG ve WebP arasında dönüştür",
+    "intro": "İhtiyacınız olan biçimi seçin, araç eklediğiniz her resmi dönüştürsün. Hiçbir şey yüklenmez.",
+    "steps": [
+      {
+        "title": "Resimlerinizi ekleyin",
+        "text": "Bir veya birden çok resim ekleyin."
+      },
+      {
+        "title": "Biçimi seçin",
+        "text": "Biçim bölümünden JPG, PNG veya WebP seçin. Yalnızca biçimi değiştirmek istiyorsanız Boyutu koru seçili kalsın."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve sonuçları indirin."
+      }
+    ],
+    "tipsTitle": "Hangi biçimi seçmeliyim?",
+    "tips": [
+      "JPG fotoğraflar için en iyisidir. Dosyalar küçüktür ama saydamlık yoktur.",
+      "PNG; logolar, ekran görüntüleri ve keskin kenarlı ya da saydam grafikler için en iyisidir. Dosyalar daha büyüktür.",
+      "WebP, genellikle JPG veya PNG'den daha küçük olan modern bir biçimdir ve tüm güncel tarayıcılarda çalışır.",
+      "Saydam bir PNG'yi JPG'ye dönüştürmek, görünen yerleri beyazla doldurur."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Dönüştürmek kaliteyi düşürür mü?",
+          "a": "PNG çıktısı kayıpsızdır. JPG ve WebP kayıplıdır ama yüksek kalitede fark görmek zordur. Kaliteyi kendiniz ayarlayabilirsiniz."
+        },
+        {
+          "q": "iPhone'umdaki HEIC fotoğrafları dönüştürebilir miyim?",
+          "a": "Henüz hayır, çünkü çoğu tarayıcı HEIC dosyalarını açamaz. iPhone'unuzda Kamera biçimlerini En Uyumlu olarak ayarlayabilir veya fotoğrafı JPG olarak paylaşabilirsiniz."
+        }
+      ]
+    }
+  },
+  "compress": {
+    "title": "Resim Sıkıştırma Online - Fotoğraf Boyutunu Küçült Ücretsiz",
+    "description": "Fotoğrafları görünür kalite kaybı olmadan küçültün. Ücretsiz, kayıtsız; resimleriniz cihazınızdan asla çıkmaz.",
+    "h1": "Resimleri online sıkıştır",
+    "intro": "Küçük resimler daha hızlı yüklenir, e-postalara sığar ve depolama alanından tasarruf ettirir. Araç, resimlerinizi modern sıkıştırıcılarla yeniden kodlar ve bir kalite düzeyi ya da en büyük dosya boyutu belirlemenize izin verir.",
+    "steps": [
+      {
+        "title": "Resimlerinizi ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "Nasıl sıkıştıracağınızı seçin",
+        "text": "Ölçüleri değiştirmeden sıkıştırmak için Boyutu koru seçili kalsın ve Kalite kaydırıcısını kullanın ya da Dosya boyutunu sınırla seçeneğini açın."
+      },
+      {
+        "title": "Sıkıştırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve sonuçları indirin."
+      }
+    ],
+    "tipsTitle": "Daha küçük dosyalar için ipuçları",
+    "tips": [
+      "Fotoğraflar için genellikle 70 ile 85 arası kalite yeterlidir ve boyutu çok düşürür.",
+      "Ölçüleri küçültmek, yalnızca kaliteyi düşürmekten çok daha fazla küçültür.",
+      "WebP dosyaları, aynı görünüm için genellikle JPG'den daha küçüktür.",
+      "Telefon fotoğrafları konum gibi gizli veriler içerir. Burada oluşturulan dosyalar içermez."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Dosyam ne kadar küçülür?",
+          "a": "Doğrudan telefondan gelen fotoğraflar çoğu zaman yüzde 60 ile 90 arasında küçülür. Zaten sıkıştırılmış resimler daha az küçülür."
+        },
+        {
+          "q": "Birçok resmi aynı anda sıkıştırabilir miyim?",
+          "a": "Evet. Hepsini ekleyin ve tek bir ZIP dosyası indirin."
+        }
+      ]
+    }
+  }
+}

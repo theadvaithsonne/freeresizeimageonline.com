@@ -1,0 +1,103 @@
+{
+  "tool": {
+    "aria": "Công cụ đổi kích thước ảnh",
+    "drop": {
+      "title": "Kéo và thả ảnh vào đây",
+      "or": "hoặc",
+      "choose": "Chọn ảnh",
+      "paste": "Bạn cũng có thể dán ảnh bằng Ctrl+V.",
+      "formats": "JPG, PNG, WebP, GIF, BMP. Không giới hạn dung lượng hay số lượng.",
+      "privacy": "Ảnh của bạn không bao giờ rời khỏi thiết bị.",
+      "addMore": "Thêm ảnh",
+      "overlay": "Thả ảnh vào đây để thêm",
+      "none": "Không tìm thấy ảnh hợp lệ. Hãy chọn tệp JPG, PNG, WebP, GIF hoặc BMP."
+    },
+    "files": {
+      "title": "Ảnh của bạn ({count})",
+      "clear": "Xóa tất cả",
+      "remove": "Xóa {name}"
+    },
+    "options": {
+      "title": "Tùy chọn",
+      "preset": "Mẫu có sẵn",
+      "presetNone": "Kích thước tùy chỉnh",
+      "presetHint": "Yêu cầu về ảnh có thể thay đổi. Hãy kiểm tra quy định chính thức của hồ sơ trước khi nộp.",
+      "resizeBy": "Đổi kích thước theo",
+      "modeDimensions": "Kích thước",
+      "modePercent": "Phần trăm",
+      "modeKeep": "Giữ nguyên kích thước",
+      "width": "Chiều rộng",
+      "height": "Chiều cao",
+      "unit": "Đơn vị",
+      "dpi": "DPI",
+      "lock": "Khóa tỷ lệ khung hình",
+      "fit": "Khi đặt cả chiều rộng và chiều cao",
+      "fitFit": "Vừa trong khung",
+      "fitCrop": "Cắt để lấp đầy khung",
+      "fitStretch": "Kéo giãn đúng kích thước",
+      "percent": "Tỷ lệ (%)",
+      "format": "Định dạng",
+      "formatOriginal": "Giống ảnh gốc",
+      "quality": "Chất lượng",
+      "qualityNote": "Chất lượng càng cao thì ảnh càng nét và tệp càng nặng.",
+      "target": "Giới hạn dung lượng tệp",
+      "targetValue": "Dung lượng tệp tối đa",
+      "targetNote": "Công cụ sẽ tự chọn chất lượng tốt nhất vẫn nằm trong giới hạn.",
+      "pngNote": "PNG là định dạng không làm giảm chất lượng. Muốn tệp nhẹ hơn nhiều, hãy chọn JPG hoặc WebP."
+    },
+    "actions": {
+      "resize": "Đổi kích thước ảnh",
+      "cancel": "Hủy",
+      "downloadAll": "Tải tất cả (ZIP)",
+      "download": "Tải xuống",
+      "working": "Đang xử lý..."
+    },
+    "status": {
+      "queued": "Đang chờ",
+      "processing": "Đang xử lý...",
+      "done": "Xong",
+      "error": "Thất bại",
+      "cancelled": "Đã hủy"
+    },
+    "result": {
+      "smaller": "Nhẹ hơn {percent}",
+      "larger": "Nặng hơn {percent}",
+      "targetMissed": "Không đạt được {target}. Dung lượng nhỏ nhất có thể: {size}.",
+      "summary": "Đã xong {done}/{total}",
+      "finished": "Hoàn tất. {count} ảnh đã sẵn sàng."
+    },
+    "errors": {
+      "decode-failed": "Không thể đọc tệp này như một ảnh.",
+      "unsupported-type": "Loại tệp này không được hỗ trợ.",
+      "invalid-size": "Vui lòng nhập chiều rộng, chiều cao hoặc phần trăm hợp lệ.",
+      "too-large": "Kích thước này quá lớn so với thiết bị của bạn. Hãy thử kích thước nhỏ hơn.",
+      "encode-failed": "Không lưu được ảnh. Vui lòng thử định dạng khác.",
+      "cancelled": "Đã hủy."
+    },
+    "presets": {
+      "groups": {
+        "social": "Mạng xã hội",
+        "documents": "Ảnh thẻ và visa",
+        "forms": "Biểu mẫu online (dung lượng tệp)",
+        "marketplaces": "Cửa hàng online",
+        "web": "Web và email"
+      },
+      "words": {
+        "post": "bài đăng",
+        "story": "story / reel",
+        "cover": "ảnh bìa",
+        "banner": "banner",
+        "thumbnail": "ảnh thu nhỏ",
+        "profile": "ảnh đại diện",
+        "passport": "ảnh hộ chiếu",
+        "visa": "ảnh visa",
+        "idPhoto": "ảnh thẻ",
+        "maxSize": "dung lượng tối đa",
+        "product": "ảnh sản phẩm",
+        "favicon": "biểu tượng",
+        "email": "chiều rộng email",
+        "screen": "màn hình"
+      }
+    }
+  }
+}

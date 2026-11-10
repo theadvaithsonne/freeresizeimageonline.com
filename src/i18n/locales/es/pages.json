@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Redimensionar imágenes",
+    "kb": "Reducir a KB",
+    "cm": "Redimensionar en cm, mm o pulgadas",
+    "passport": "Tamaño de foto de pasaporte",
+    "social": "Tamaños para redes sociales",
+    "convert": "Convertir imágenes",
+    "compress": "Comprimir imágenes"
+  },
+  "common": {
+    "howTo": "Cómo usarlo",
+    "tipsTitle": "Consejos",
+    "faqTitle": "Preguntas frecuentes",
+    "related": "Más herramientas gratis",
+    "goodToKnow": "Conviene saber",
+    "table": {
+      "country": "País",
+      "platform": "Plataforma",
+      "use": "Uso",
+      "size": "Tamaño",
+      "pixels": "Píxeles (300 DPI)",
+      "pixelsPlain": "Píxeles"
+    }
+  },
+  "home": {
+    "how": {
+      "title": "Cómo redimensionar una imagen online",
+      "steps": [
+        { "title": "Añade tus imágenes", "text": "Arrastra las fotos a la página, elígelas desde tu dispositivo o pégalas. Puedes añadir todas las que quieras a la vez." },
+        { "title": "Elige un tamaño", "text": "Escoge un ajuste predefinido, como Instagram o foto de pasaporte, o escribe tu propio ancho y alto en píxeles, centímetros, milímetros o pulgadas. También puedes fijar un tamaño máximo de archivo, por ejemplo 50 KB." },
+        { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes. Descarga cada imagen por separado o todas juntas en un único archivo ZIP." }
+      ]
+    },
+    "why": {
+      "title": "Por qué la gente usa FreeResizeImageOnline",
+      "items": [
+        { "title": "Privado por diseño", "text": "Tus imágenes se procesan dentro de tu navegador. Nunca se suben a un servidor, así que nadie más puede verlas." },
+        { "title": "Gratis e ilimitado", "text": "Sin cuenta, sin marca de agua, sin límite diario y sin esperas. Redimensiona una imagen o cientos." },
+        { "title": "Resultados nítidos", "text": "Un filtro de redimensionado de alta calidad y compresores modernos mantienen las imágenes pequeñas claras y los archivos ligeros." },
+        { "title": "Tamaños de archivo exactos", "text": "¿Necesitas una foto de menos de 50 KB para un formulario? Fija el límite y la herramienta encuentra la mejor calidad que cabe." }
+      ]
+    },
+    "faq": {
+      "items": [
+        { "q": "¿De verdad es gratis?", "a": "Sí. No hay registro, ni prueba, ni límite en la cantidad o el tamaño de tus imágenes. El sitio se financia con un único anuncio junto a la herramienta." },
+        { "q": "¿Se suben mis imágenes?", "a": "No. El redimensionado se hace en tu propio dispositivo, dentro del navegador. Tus imágenes nunca se envían a nuestros servidores. Lo único que contamos es cuántas imágenes se han redimensionado, como un simple número." },
+        { "q": "¿Qué formatos son compatibles?", "a": "Puedes abrir archivos JPG, PNG, WebP, GIF y BMP, y AVIF si tu navegador lo admite. Puedes guardar en JPG, PNG o WebP." },
+        { "q": "¿Se pierde calidad al redimensionar?", "a": "Al hacer una imagen más pequeña se mantiene nítida, porque la herramienta usa un filtro de alta calidad. Al agrandarla no se puede añadir detalle que no existe, así que las imágenes ampliadas se ven más suaves. En JPG y WebP puedes elegir tú la calidad." },
+        { "q": "¿Cómo consigo que una imagen pese menos de 50 KB?", "a": "Activa Limitar el tamaño del archivo, escribe el número y pulsa Redimensionar imágenes. La herramienta baja la calidad y, si hace falta, las dimensiones hasta que el archivo quepa. Elige JPG o WebP para obtener los mejores resultados, porque PNG no se puede reducir de esa manera." },
+        { "q": "¿Funciona en mi móvil?", "a": "Sí. La página funciona en las versiones actuales de Chrome, Safari, Firefox y Edge en móviles, tabletas y computadoras. Las fotos muy grandes pueden dar problemas en móviles antiguos." }
+      ]
+    }
+  },
+  "kb": {
+    "title": "Reducir imagen a 20KB, 50KB, 100KB o 200KB - Gratis",
+    "description": "Reduce una foto a un tamaño exacto en KB para formularios y cargas. Gratis, sin registro y tu imagen no sale de tu dispositivo.",
+    "h1": "Reducir imagen a KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "intro": "Muchos formularios en línea, portales de exámenes y sitios de empleo rechazan fotos que superan un límite de tamaño, como 50 KB o 200 KB. Esta herramienta reduce tu imagen para que cumpla el límite que elijas, conservando la mayor calidad posible.",
+    "steps": [
+      { "title": "Añade tu foto", "text": "Arrástrala a la página o elígela desde tu dispositivo." },
+      { "title": "Fija el límite de tamaño", "text": "Elige un límite en la lista de ajustes predefinidos, o activa Limitar el tamaño del archivo y escribe tu propio número." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes y descarga el resultado." }
+    ],
+    "tipsTitle": "Consejos para archivos pequeños",
+    "tips": [
+      "Usa JPG. Comprime las fotos mucho mejor que PNG con las mismas dimensiones.",
+      "Si el resultado se ve borroso, sube un poco el límite o recorta los bordes vacíos antes de redimensionar.",
+      "La mayoría de los formularios miden el tamaño en KB, donde 1 KB son 1024 bytes. Esta herramienta usa la misma regla.",
+      "Revisa también las dimensiones requeridas. Algunos portales piden un tamaño en píxeles y además un límite en KB."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Por qué mi archivo sigue pesando más que el límite?", "a": "Las fotos con mucho detalle necesitan más datos. Si el límite no se alcanza ni con la calidad más baja, la herramienta también reduce las dimensiones de la imagen. Si aun así no llega al objetivo, te indica el tamaño más pequeño que pudo conseguir." },
+        { "q": "¿Puedo reducir muchas fotos al mismo límite?", "a": "Sí. Añádelas todas, fija el límite una sola vez y descárgalas juntas en un archivo ZIP." },
+        { "q": "¿Mi foto se sube a un servidor?", "a": "No. Todo ocurre en tu navegador, así que tu foto nunca sale de tu dispositivo." }
+      ]
+    }
+  },
+  "cm": {
+    "title": "Redimensionar imagen en cm, mm o pulgadas - Gratis",
+    "description": "Fija el tamaño exacto de una foto en centímetros, milímetros o pulgadas con los DPI adecuados. Gratis y privado.",
+    "h1": "Redimensionar imagen en cm, mm o pulgadas",
+    "intro": "Para imprimir y para trámites oficiales suelen pedir el tamaño en centímetros o pulgadas en lugar de píxeles. Escribe el tamaño y los DPI, y la herramienta calcula los píxeles por ti.",
+    "steps": [
+      { "title": "Añade tu foto", "text": "Arrástrala a la página o elígela desde tu dispositivo." },
+      { "title": "Escribe el tamaño", "text": "Elige cm, mm o in, y escribe el ancho y el alto. Usa 300 DPI para una buena calidad de impresión." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes y descarga el resultado." }
+    ],
+    "tipsTitle": "Lo que conviene saber sobre los DPI",
+    "tips": [
+      "DPI significa puntos por pulgada. A 300 DPI, una imagen de 10 cm de ancho mide unos 1181 píxeles de ancho.",
+      "Usa 300 DPI para impresiones y de 72 a 96 DPI para pantallas.",
+      "Deja activado Bloquear proporción para no deformar la imagen. Desactívalo y elige Recortar para llenar si necesitas una forma exacta.",
+      "En un sitio web solo importa el tamaño en píxeles. Los DPI importan cuando se imprime una imagen."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cuántos píxeles tiene una pulgada?", "a": "Depende de los DPI. A 300 DPI una pulgada son 300 píxeles. A 96 DPI son 96 píxeles." },
+        { "q": "¿Se imprimirá exactamente con este tamaño?", "a": "La herramienta fija el tamaño en píxeles que corresponde a tu medida con los DPI que elijas. Imprime la imagen a su tamaño real, o con esos DPI, para obtener la medida que pediste." },
+        { "q": "¿Qué tamaño tiene una foto de 4 x 6 pulgadas?", "a": "A 300 DPI, 4 x 6 pulgadas son 1200 x 1800 píxeles." }
+      ]
+    }
+  },
+  "passport": {
+    "title": "Tamaño de foto de pasaporte y visa por país - Gratis",
+    "description": "Tamaños habituales de foto de pasaporte y visa en mm, pulgadas y píxeles, con una herramienta gratis para ajustar tu foto.",
+    "h1": "Tamaño de foto de pasaporte y visa",
+    "intro": "Cada país pide un tamaño de foto distinto. Elige tu país en la lista de ajustes predefinidos para recortar y redimensionar tu foto a las dimensiones exactas a 300 DPI.",
+    "note": "Las normas cambian, y cada trámite puede añadir sus propios requisitos, como el color del fondo, el tamaño de la cabeza o no usar gafas. Revisa siempre las instrucciones oficiales antes de enviar. Esta herramienta solo ajusta el tamaño; no comprueba el tamaño de la cabeza ni el fondo.",
+    "tableTitle": "Tamaños de foto habituales",
+    "steps": [
+      { "title": "Elige tu tamaño", "text": "Abre la lista de ajustes predefinidos, ve a Foto de documento y visa y elige tu país." },
+      { "title": "Añade una foto", "text": "Usa una imagen donde tu cara esté centrada y se vea con claridad, porque la herramienta recorta desde el centro." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes. La imagen se recorta a la forma requerida y se guarda como JPG." }
+    ],
+    "tipsTitle": "Consejos para una buena foto",
+    "tips": [
+      "Usa un fondo liso y claro, y una iluminación uniforme y sin sombras.",
+      "Mira directamente a la cámara y mantén tu cara centrada antes de redimensionar.",
+      "Para cargas en línea, revisa también el límite de tamaño de archivo y usa Limitar el tamaño del archivo.",
+      "Imprime al tamaño real (100 por ciento) para que el tamaño del papel coincida con el requisito."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cuál es el tamaño estándar de una foto de pasaporte?", "a": "Varía. Estados Unidos usa 2 x 2 pulgadas (51 x 51 mm). El Reino Unido, la Unión Europea y Australia usan 35 x 45 mm. Canadá usa 50 x 70 mm." },
+        { "q": "¿Puedo usarlo para una foto de visa?", "a": "Sí, si el requisito de la visa coincide con alguno de los tamaños. Muchas visas usan el mismo tamaño que el pasaporte, pero algunos países tienen el suyo, así que revisa siempre las normas oficiales." },
+        { "q": "¿Cuántos píxeles tiene una foto de pasaporte?", "a": "A 300 DPI, 35 x 45 mm son 413 x 531 píxeles y 2 x 2 pulgadas son 600 x 600 píxeles." }
+      ]
+    }
+  },
+  "social": {
+    "title": "Tamaños de imagen para redes sociales - Instagram, YouTube, Facebook",
+    "description": "Tamaños de imagen muy usados en Instagram, Facebook, YouTube, X, LinkedIn y Pinterest, y una herramienta gratis para ajustar tu imagen.",
+    "h1": "Tamaños de imagen para redes sociales",
+    "intro": "Las publicaciones se ven mejor cuando la imagen ya tiene la forma correcta. Elige una plataforma en la lista de ajustes predefinidos y la herramienta recorta y redimensiona tu imagen para que encaje.",
+    "note": "Las plataformas actualizan sus recomendaciones de vez en cuando. Estos son tamaños muy usados que funcionan bien con los formatos actuales.",
+    "tableTitle": "Tamaños por plataforma",
+    "steps": [
+      { "title": "Añade tu imagen", "text": "Arrástrala a la página o elígela desde tu dispositivo." },
+      { "title": "Elige el tamaño de la plataforma", "text": "Abre la lista de ajustes predefinidos, ve a Redes sociales y elige la plataforma y el formato." },
+      { "title": "Redimensiona y descarga", "text": "Pulsa Redimensionar imágenes. Está seleccionado Recortar para llenar, así que nada se deforma." }
+    ],
+    "tipsTitle": "Consejos para publicaciones nítidas",
+    "tips": [
+      "Mantén el contenido importante lejos de los bordes, porque algunas apps recortan los márgenes.",
+      "Usa JPG o WebP para fotos y PNG para gráficos con texto nítido.",
+      "Parte de una imagen más grande que el tamaño final para lograr la mejor nitidez."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cuál es el mejor tamaño para una publicación de Instagram?", "a": "Usa 1080 x 1080 píxeles para una publicación cuadrada y 1080 x 1350 píxeles para una vertical." },
+        { "q": "¿Qué tamaño debe tener una miniatura de YouTube?", "a": "1280 x 720 píxeles, con un archivo de menos de 2 MB." },
+        { "q": "¿Se recortará mi imagen?", "a": "Con Recortar para llenar se conserva el centro de la imagen y se recortan los bordes que no caben. Elige Ajustar dentro del cuadro si prefieres conservarlo todo." }
+      ]
+    }
+  },
+  "convert": {
+    "title": "Convertir imágenes JPG, PNG y WebP - Convertidor gratis",
+    "description": "Convierte imágenes entre JPG, PNG y WebP en tu navegador. Gratis, sin registro y privado.",
+    "h1": "Convertir imágenes entre JPG, PNG y WebP",
+    "intro": "Elige el formato que necesitas y la herramienta convierte todas las imágenes que añadas. No se sube nada.",
+    "steps": [
+      { "title": "Añade tus imágenes", "text": "Añade una o varias imágenes." },
+      { "title": "Elige el formato", "text": "Selecciona JPG, PNG o WebP en Formato. Deja seleccionado Mantener tamaño si solo quieres cambiar el formato." },
+      { "title": "Convierte y descarga", "text": "Pulsa Redimensionar imágenes y descarga los resultados." }
+    ],
+    "tipsTitle": "¿Qué formato debo elegir?",
+    "tips": [
+      "JPG es ideal para fotos. Los archivos son pequeños, pero no admite transparencia.",
+      "PNG es ideal para logotipos, capturas de pantalla y gráficos con bordes nítidos o transparencia. Los archivos son más grandes.",
+      "WebP es un formato moderno que suele pesar menos que JPG o PNG y funciona en todos los navegadores actuales.",
+      "Al convertir un PNG transparente a JPG, las zonas transparentes se rellenan de blanco."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Se pierde calidad al convertir?", "a": "La salida en PNG no pierde calidad. JPG y WebP sí comprimen con pérdida, pero con calidad alta la diferencia casi no se nota. Puedes elegir tú la calidad." },
+        { "q": "¿Puedo convertir fotos HEIC de mi iPhone?", "a": "Todavía no, porque la mayoría de los navegadores no pueden abrir archivos HEIC. En tu iPhone puedes poner Formatos de cámara en Más compatible, o compartir la foto como JPG." }
+      ]
+    }
+  },
+  "compress": {
+    "title": "Comprimir imagen online - Reducir peso de fotos gratis",
+    "description": "Haz tus fotos más ligeras sin perder calidad visible. Gratis, sin registro y tus imágenes no salen de tu dispositivo.",
+    "h1": "Comprimir imágenes online",
+    "intro": "Las imágenes más pequeñas cargan más rápido, caben en los correos y ahorran espacio. La herramienta vuelve a codificar tus imágenes con compresores modernos y te deja fijar un nivel de calidad o un tamaño máximo de archivo.",
+    "steps": [
+      { "title": "Añade tus imágenes", "text": "Arrástralas a la página o elígelas desde tu dispositivo." },
+      { "title": "Elige cómo comprimir", "text": "Deja Mantener tamaño para comprimir sin cambiar las dimensiones y usa el control de Calidad, o activa Limitar el tamaño del archivo." },
+      { "title": "Comprime y descarga", "text": "Pulsa Redimensionar imágenes y descarga los resultados." }
+    ],
+    "tipsTitle": "Consejos para archivos más pequeños",
+    "tips": [
+      "Una calidad de 70 a 85 suele bastar para fotos y reduce mucho el tamaño.",
+      "Reducir las dimensiones achica un archivo mucho más que bajar solo la calidad.",
+      "Los archivos WebP suelen pesar menos que los JPG con el mismo aspecto.",
+      "Las fotos de los móviles contienen datos ocultos, como la ubicación. Los archivos creados aquí no los incluyen."
+    ],
+    "faq": {
+      "items": [
+        { "q": "¿Cuánto pesará menos mi archivo?", "a": "Las fotos recién sacadas con el móvil suelen reducirse entre un 60 y un 90 por ciento. Las imágenes que ya están comprimidas se reducen menos." },
+        { "q": "¿Puedo comprimir muchas imágenes a la vez?", "a": "Sí. Añádelas todas y descarga un único archivo ZIP." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "a11y": {
+    "skipToContent": "コンテンツへスキップ",
+    "home": "Free Resize Image Online - ホーム",
+    "toggleTheme": "カラーテーマを切り替える",
+    "openLanguages": "言語を選択"
+  },
+  "language": {
+    "label": "言語",
+    "suggestText": "このサイトを{language}で表示しますか？",
+    "suggestSwitch": "切り替える",
+    "suggestDismiss": "いいえ"
+  },
+  "ads": {
+    "label": "広告",
+    "note": "広告のおかげでFreeResizeImageOnlineは無料です。広告がなくてもすべて使えます。"
+  },
+  "badges": {
+    "free": "無料",
+    "unlimited": "無制限",
+    "noLogin": "ログイン不要",
+    "private": "プライベート：端末内で完結"
+  },
+  "home": {
+    "title": "画像リサイズ無料オンライン - 登録不要",
+    "description": "画像のリサイズ・圧縮・変換が無料。ログイン不要、制限なし、写真は端末の外に出ません。",
+    "h1": "画像を無料でオンラインリサイズ"
+  },
+  "counters": {
+    "label": "リアルタイム統計",
+    "resized": "{count}枚の画像をリサイズ",
+    "online": "現在{count}人が利用中"
+  },
+  "footer": {
+    "label": "フッター",
+    "about": "運営者情報",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "プライバシーとCookieの設定"
+  }
+}
