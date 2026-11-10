@@ -13,6 +13,7 @@ import {
   downloadBlob,
   dpiForUnitChange,
   fromPixels,
+  fromPixelsExact,
   lockedCounterpart,
   looksLikeImage,
   processImage,
@@ -225,8 +226,8 @@ export function initTool(root: HTMLElement): void {
     };
     if (m === 'percent') opts.percent = percentInput.valueAsNumber;
     if (m === 'dimensions') {
-      const w = widthInput.valueAsNumber;
-      const h = heightInput.valueAsNumber;
+      const w = lengthOf(widthInput);
+      const h = lengthOf(heightInput);
       if (lockInput.checked) {
         // Locked: only the side the user typed last decides the size; the other follows each image's own ratio.
         if (lockedSide === 'w') opts.width = Number.isFinite(w) ? w : undefined;
@@ -261,15 +262,25 @@ export function initTool(root: HTMLElement): void {
     runButton.disabled = items.length === 0 || running;
   }
 
+  /**
+   * The value of a width/height field. After a unit change the field shows a number rounded to 2 decimals but remembers
+   * the exact length; while the shown number is untouched, the exact one is used (so 500 px stays 500 px in inches).
+   */
+  function lengthOf(input: HTMLInputElement): number {
+    const exact = Number(input.dataset.exact);
+    if (input.dataset.exact !== undefined && Number.isFinite(exact) && input.value === input.dataset.shown) return exact;
+    return input.valueAsNumber;
+  }
+
   /** Keep the other side in sync when the aspect ratio is locked. */
   function syncLocked() {
     if (!lockInput.checked || !aspect) return;
     const unit = unitSelect.value as LengthUnit;
     if (lockedSide === 'w') {
-      const w = widthInput.valueAsNumber;
+      const w = lengthOf(widthInput);
       heightInput.value = Number.isFinite(w) ? String(lockedCounterpart(w, 1, aspect, unit)) : '';
     } else {
-      const h = heightInput.valueAsNumber;
+      const h = lengthOf(heightInput);
       widthInput.value = Number.isFinite(h) ? String(lockedCounterpart(h, aspect, 1, unit)) : '';
     }
   }
@@ -301,8 +312,13 @@ export function initTool(root: HTMLElement): void {
     const dpi = dpiForUnitChange(currentUnit, next, dpiInput.valueAsNumber || 300);
     // Keep the same pixel size when the unit changes (e.g. 1080 px -> 9.14 cm at 300 DPI).
     for (const input of [widthInput, heightInput]) {
-      const v = input.valueAsNumber;
-      if (Number.isFinite(v)) input.value = String(fromPixels(toPixels(v, currentUnit, dpi), next, dpi));
+      const v = lengthOf(input);
+      if (!Number.isFinite(v)) continue;
+      const px = toPixels(v, currentUnit, dpi);
+      input.value = String(fromPixels(px, next, dpi));
+      // remember the exact length behind the rounded number that is shown
+      input.dataset.exact = String(fromPixelsExact(px, next, dpi));
+      input.dataset.shown = input.value;
     }
     dpiInput.value = String(dpi);
     currentUnit = next;
@@ -333,6 +349,8 @@ export function initTool(root: HTMLElement): void {
       unitSelect.value = preset.unit;
       currentUnit = preset.unit;
       dpiInput.value = String(preset.unit === 'px' ? 96 : preset.dpi);
+      delete widthInput.dataset.exact; // a preset sets fresh values: forget any exact length remembered from a unit change
+      delete heightInput.dataset.exact;
       widthInput.value = String(preset.width);
       heightInput.value = preset.height ? String(preset.height) : '';
       const both = preset.height !== undefined;
@@ -379,8 +397,10 @@ export function initTool(root: HTMLElement): void {
       const file = await convertResult(result, format, encoder, { quality, targetBytes: runTarget });
       if (runTarget && format === 'png') {
         showResultsAlert(tx('results.limitNote'));
+        conversionNote = true;
       } else if (file.reachedTarget === false) {
         showResultsAlert(tx('result.targetMissed', { target: ltr(formatBytes(lang, runTarget!)), size: ltr(formatBytes(lang, file.blob.size)) }));
+        conversionNote = true;
       }
       converted.set(key, file);
       return file;
@@ -505,6 +525,9 @@ export function initTool(root: HTMLElement): void {
     }
   }
 
+  /** True while the results alert shows a note about a converted download (PNG limit, target missed). */
+  let conversionNote = false;
+
   /** Progress header, totals and toolbar state of the results view. */
   function refreshResults() {
     const p = batchProgress(items);
@@ -532,7 +555,7 @@ export function initTool(root: HTMLElement): void {
       resultsTotal.hidden = true;
     }
 
-    if (!running && p.finished === p.total && doneItems.length === 0 && p.total > 0) {
+    if (!running && p.finished === p.total && doneItems.length === 0 && p.total > 0 && items.some((i) => i.status === 'error')) {
       showResultsAlert(tx('results.allFailed'));
     } else if (resultsAlert.textContent === tx('results.allFailed')) {
       showResultsAlert(null); // images were removed or a new run started: the "nothing worked" message no longer applies
@@ -796,6 +819,10 @@ export function initTool(root: HTMLElement): void {
     }
   });
   saveAsSelect.addEventListener('change', () => {
+    if (conversionNote) {
+      showResultsAlert(null); // the note belonged to the previous choice; it comes back if the new one needs it
+      conversionNote = false;
+    }
     for (const item of items) updateCard(item);
   });
   q('[data-clear]').addEventListener('click', clearAll);

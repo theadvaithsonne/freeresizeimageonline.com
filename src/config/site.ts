@@ -40,8 +40,8 @@ export const ADS_LIVE = Boolean(ADSENSE.slots.rail || ADSENSE.slots.inline);
  */
 export const COUNTERS = {
   endpoint: 'wss://counters.freeresizeimageonline.com/ws',
-  /** Show the "images resized" number only once it reaches this value (it is always the real number). */
-  minTotalToShow: 100,
-  /** Show "online now" only once at least this many people are connected. */
-  minOnlineToShow: 3,
+  /** Show the "images resized" number once it reaches this value (it is always the real number, never invented). */
+  minTotalToShow: 1,
+  /** Show "online now" once at least this many people are connected (a visitor counts as one). */
+  minOnlineToShow: 1,
 } as const;

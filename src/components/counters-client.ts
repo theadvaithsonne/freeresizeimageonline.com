@@ -33,14 +33,24 @@ export function initCounters(): void {
   const fill = (template: string, n: number) =>
     template.replace('{count}', String.fromCharCode(0x2066) + formatNumber(cfg.lang, n, 0) + String.fromCharCode(0x2069));
 
+  /** Writes "text before" + number + "text after" into a pill, and the whole sentence as its tooltip. */
+  function setPill(pill: HTMLElement, selector: string, template: string, n: number) {
+    const box = pill.querySelector<HTMLElement>(selector)!;
+    const [pre = '', post = ''] = template.split('{count}');
+    box.querySelector('[data-pre]')!.textContent = pre;
+    box.querySelector('[data-num]')!.textContent = String.fromCharCode(0x2066) + formatNumber(cfg.lang, n, 0) + String.fromCharCode(0x2069);
+    box.querySelector('[data-post]')!.textContent = post;
+    pill.title = fill(template, n);
+  }
+
   function render(total: number, online: number) {
     for (const root of roots) {
       const totalPill = root.querySelector<HTMLElement>('[data-counter-total]')!;
       const onlinePill = root.querySelector<HTMLElement>('[data-counter-online]')!;
       totalPill.hidden = total < cfg.minTotal;
       onlinePill.hidden = online < cfg.minOnline;
-      if (!totalPill.hidden) totalPill.querySelector('[data-counter-total-text]')!.textContent = fill(cfg.resized, total);
-      if (!onlinePill.hidden) onlinePill.querySelector('[data-counter-online-text]')!.textContent = fill(cfg.online, online);
+      if (!totalPill.hidden) setPill(totalPill, '[data-counter-total-text]', cfg.resized, total);
+      if (!onlinePill.hidden) setPill(onlinePill, '[data-counter-online-text]', cfg.online, online);
     }
   }
 

@@ -23,6 +23,23 @@ export function toPixels(value: number, unit: LengthUnit, dpi: number): number {
   return Math.max(1, Math.round(px));
 }
 
+/**
+ * Convert pixels to a length in `unit` without rounding. A size field shows the rounded number but remembers this exact
+ * one, so changing the unit back and forth (or resizing right after a unit change) never moves the result by a pixel.
+ */
+export function fromPixelsExact(px: number, unit: LengthUnit, dpi: number): number {
+  switch (unit) {
+    case 'px':
+      return px;
+    case 'in':
+      return px / dpi;
+    case 'cm':
+      return (px / dpi) * CM_PER_INCH;
+    case 'mm':
+      return (px / dpi) * MM_PER_INCH;
+  }
+}
+
 /** Convert pixels to a length in `unit` (rounded to 2 decimals for physical units). */
 export function fromPixels(px: number, unit: LengthUnit, dpi: number): number {
   let value: number;

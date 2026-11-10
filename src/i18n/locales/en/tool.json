@@ -10,7 +10,7 @@
       "privacy": "Your images never leave your device.",
       "none": "No usable images found. Please choose JPG, PNG, WebP, GIF or BMP files.",
       "tooMany": "Only the first {max} images were added.",
-      "skipped": "{count} files were skipped because they are not images."
+      "skipped": "Files skipped because they are not images: {count}."
     },
     "files": {
       "title": "Your images ({count})",

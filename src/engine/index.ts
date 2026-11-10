@@ -8,7 +8,7 @@
  *   encoder.dispose();
  */
 export * from './types';
-export { toPixels, fromPixels, lockedCounterpart, dpiForUnitChange } from './units';
+export { toPixels, fromPixels, fromPixelsExact, lockedCounterpart, dpiForUnitChange } from './units';
 export { planResize } from './geometry';
 export { fitToTargetSize } from './target-size';
 export { createEncoder, type Encoder } from './encoder';
