@@ -5,6 +5,8 @@ import Sections from '../../components/content/Sections.astro';
 import { getLanguage, languageStaticPaths, list, localizedPath, t } from '../../i18n';
 import { safeJson } from '../../i18n/safe-json';
 import { SITE } from '../../config/site';
+import { TOOL_ROUTES } from '../../data/routes';
+import type { MessageKey } from '../../i18n';
 
 export function getStaticPaths() {
   return languageStaticPaths();
@@ -19,6 +21,20 @@ const faqLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+// "Popular tasks": a card for every other tool page (name + one line), so visitors and search engines find them at once.
+const popular = TOOL_ROUTES.filter((r) => r.key !== 'home').map((r) => ({
+  href: localizedPath(lang, r.path),
+  title: t(lang, `nav.${r.key}` as MessageKey),
+  text: t(lang, `${r.key}.blurb` as MessageKey),
+}));
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url,
+  inLanguage: getLanguage(lang).htmlLang,
+  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: new URL('/icon-512.png', SITE.url).href },
 };
 const appLd = {
   '@context': 'https://schema.org',
@@ -35,6 +51,7 @@ const appLd = {
 ---
 <Layout title={t(lang, 'home.title')} description={t(lang, 'home.description')} lang={lang} path="/" inlineAd="manual">
   <Fragment slot="head">
+    <script type="application/ld+json" set:html={safeJson(siteLd)} />
     <script type="application/ld+json" set:html={safeJson(appLd)} />
     <script type="application/ld+json" set:html={safeJson(faqLd)} />
   </Fragment>
@@ -48,6 +65,22 @@ const appLd = {
   </ul>
 
   <ResizerTool lang={lang} />
+
+  <section class="popular" aria-labelledby="popular-title">
+    <h2 id="popular-title">{t(lang, 'home.popular.title')}</h2>
+    <ul class="popular__grid">
+      {
+        popular.map((p) => (
+          <li>
+            <a class="popular__card" href={p.href}>
+              <span class="popular__name">{p.title}</span>
+              <span class="popular__text">{p.text}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 
   <Sections
     lang={lang}
@@ -75,6 +108,72 @@ const appLd = {
 </Layout>
 
 <style>
+  .popular {
+    margin-top: var(--space-7);
+  }
+  .popular h2 {
+    font-size: var(--step-2);
+  }
+  .popular__grid {
+    list-style: none;
+    margin: var(--space-4) 0 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-3);
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+  }
+  .popular__card {
+    position: relative;
+    display: grid;
+    align-content: start;
+    gap: var(--space-1);
+    height: 100%;
+    padding: var(--space-4) var(--space-5);
+    padding-inline-end: var(--space-7);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text);
+    text-decoration: none;
+    transition:
+      border-color 0.15s,
+      box-shadow 0.15s,
+      transform 0.15s;
+  }
+  .popular__card::after {
+    content: '→';
+    position: absolute;
+    inset-inline-end: var(--space-4);
+    top: var(--space-4);
+    font-weight: 800;
+    font-size: var(--step-1);
+    color: var(--brand);
+  }
+  :global([dir='rtl']) .popular__card::after {
+    content: '←';
+  }
+  .popular__card:hover {
+    border-color: var(--brand);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .popular__name {
+    font-weight: 750;
+    font-size: var(--step-1);
+    line-height: 1.25;
+  }
+  .popular__text {
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .popular__card {
+      transition: none;
+    }
+    .popular__card:hover {
+      transform: none;
+    }
+  }
   .block h2 {
     font-size: var(--step-2);
   }

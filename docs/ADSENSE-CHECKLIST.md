@@ -10,9 +10,9 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Requirement | Status |
 |---|---|
 | Publisher is 18+, owns the site, can edit its HTML | **You** confirm. Site is yours; the code snippet, `google-adsense-account` meta tag and `ads.txt` are live for verification |
-| Own, high-quality content | Done: original how-to text, tips, FAQ and size tables on 7 pages, in 20 languages |
+| Own, high-quality content | Done: original how-to text, tips, an explanatory section, FAQ and size tables on 14 tool pages, plus 3 written guides and a guides index, all in 20 languages. Every page that shows ads has 700 to 1,000+ words (the guides index 350) |
 | Site language supported | Done: all 20 languages are on Google's supported-language list |
-| Working, finished site | Done: live over HTTPS, 301 pages (15 pages x 20 languages + 404), no placeholder text |
+| Working, finished site | Done: live over HTTPS, 461 pages (23 pages x 20 languages + 404), no placeholder text |
 
 ## 2. Required pages and disclosures
 | Requirement | Status |

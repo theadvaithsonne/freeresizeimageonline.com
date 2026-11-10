@@ -4,7 +4,7 @@
  * Each block is optional; pass only what the page has.
  */
 import { localizedPath, t } from '../../i18n';
-import { GUIDES_INDEX_PATH, TOOL_ROUTES } from '../../data/routes';
+import { GUIDES_INDEX_PATH, relatedRoutes } from '../../data/routes';
 import AdSlot from '../AdSlot.astro';
 
 interface Step {
@@ -21,6 +21,9 @@ interface Props {
   steps?: Step[];
   tipsTitle?: string;
   tips?: string[];
+  /** Explanatory paragraphs shown after the steps and before the tips. */
+  detailsTitle?: string;
+  details?: string[];
   faqTitle?: string;
   faq?: FaqItem[];
   /** Key of the current page, hidden from the "more tools" list. */
@@ -38,13 +41,15 @@ const {
   steps = [],
   tipsTitle,
   tips = [],
+  detailsTitle,
+  details = [],
   faqTitle,
   faq = [],
   currentKey,
   showRelated = true,
   inlineAd = false,
 } = Astro.props;
-const related = TOOL_ROUTES.filter((r) => r.key !== currentKey);
+const related = relatedRoutes(currentKey ?? '');
 ---
 <div class="content">
   {
@@ -66,6 +71,17 @@ const related = TOOL_ROUTES.filter((r) => r.key !== currentKey);
   {inlineAd && <AdSlot variant="inline" lang={lang} />}
 
   <slot />
+
+  {
+    details.length > 0 && (
+      <section class="block details" aria-labelledby="details-title">
+        <h2 id="details-title">{detailsTitle}</h2>
+        {details.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </section>
+    )
+  }
 
   {
     tips.length > 0 && (
@@ -128,6 +144,14 @@ const related = TOOL_ROUTES.filter((r) => r.key !== currentKey);
   }
   .block h2 {
     font-size: var(--step-2);
+  }
+  .details p {
+    max-width: 52rem;
+    line-height: 1.65;
+    color: var(--text-muted);
+  }
+  .details p + p {
+    margin-top: var(--space-3);
   }
   .steps {
     list-style: none;

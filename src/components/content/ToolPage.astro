@@ -8,13 +8,13 @@ import ResizerTool from '../tool/ResizerTool.astro';
 import Sections from './Sections.astro';
 import SizeTable from './SizeTable.astro';
 import { SITE } from '../../config/site';
-import { list, localizedPath, t, type MessageKey } from '../../i18n';
+import { getLanguage, list, localizedPath, t, type MessageKey } from '../../i18n';
 import { safeJson } from '../../i18n/safe-json';
-import { TOOL_ROUTES } from '../../data/routes';
+import { TOOL_ROUTES, type ToolKey } from '../../data/routes';
 
 interface Props {
   lang: string;
-  pageKey: 'kb' | 'cm' | 'passport' | 'social' | 'convert' | 'compress';
+  pageKey: Exclude<ToolKey, 'home'>;
   preset?: string;
   format?: 'original' | 'jpeg' | 'png' | 'webp';
   unit?: 'px' | 'cm' | 'mm' | 'in';
@@ -28,6 +28,8 @@ const p = (suffix: string) => t(lang, `${pageKey}.${suffix}` as MessageKey);
 
 const steps = list<{ title: string; text: string }>(lang, `${pageKey}.steps`);
 const tips = list<string>(lang, `${pageKey}.tips`);
+// A short explanatory section ("Why 50 KB works well", "Which format should you pick?"): real text for readers and search engines.
+const details = list<string>(lang, `${pageKey}.details`);
 const faq = list<{ q: string; a: string }>(lang, `${pageKey}.faq.items`);
 const hasNote = pageKey === 'passport' || pageKey === 'social';
 const pageUrl = new URL(localizedPath(lang, route.path), SITE.url).href;
@@ -39,6 +41,20 @@ const faqLd = faq.length
       mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     }
   : null;
+const appLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: p('h1'),
+  url: pageUrl,
+  description: p('description'),
+  applicationCategory: 'MultimediaApplication',
+  operatingSystem: 'Any',
+  browserRequirements: 'Requires a modern web browser',
+  inLanguage: getLanguage(lang).htmlLang,
+  isAccessibleForFree: true,
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+};
 const breadcrumbLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -50,6 +66,7 @@ const breadcrumbLd = {
 ---
 <Layout title={p('title')} description={p('description')} lang={lang} path={route.path} inlineAd="manual">
   <Fragment slot="head">
+    <script type="application/ld+json" set:html={safeJson(appLd)} />
     {faqLd && <script type="application/ld+json" set:html={safeJson(faqLd)} />}
     <script type="application/ld+json" set:html={safeJson(breadcrumbLd)} />
   </Fragment>
@@ -65,6 +82,8 @@ const breadcrumbLd = {
     steps={steps}
     tipsTitle={p('tipsTitle')}
     tips={tips}
+    detailsTitle={p('detailsTitle')}
+    details={details}
     faqTitle={t(lang, 'common.faqTitle')}
     faq={faq}
     currentKey={pageKey}

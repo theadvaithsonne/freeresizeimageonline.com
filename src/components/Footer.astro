@@ -1,6 +1,7 @@
 ---
 import { ADSENSE, SITE } from '../config/site';
-import { localizedPath, t } from '../i18n';
+import { GUIDES_INDEX_PATH, GUIDE_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
+import { list, localizedPath, t, type MessageKey } from '../i18n';
 import Counters from './Counters.astro';
 
 interface Props {
@@ -8,8 +9,24 @@ interface Props {
 }
 const { lang } = Astro.props;
 const year = new Date().getFullYear();
+
+// Site map columns: every tool page and guide is linked from every page (good for visitors and for search engines).
+const columns: { id: string; title: string; links: { href: string; label: string }[] }[] = NAV_GROUPS.map((group) => ({
+  id: group,
+  title: t(lang, `navGroups.${group}` as MessageKey),
+  links: routesInGroup(group).map((r) => ({ href: localizedPath(lang, r.path), label: t(lang, `nav.${r.key}` as MessageKey) })),
+}));
+const guideTitles = list<{ title: string }>(lang, 'guides.index.items');
+columns.push({
+  id: 'guides',
+  title: t(lang, 'guides.nav'),
+  links: [
+    { href: localizedPath(lang, GUIDES_INDEX_PATH), label: t(lang, 'guides.nav') },
+    ...GUIDE_ROUTES.map((g, i) => ({ href: localizedPath(lang, g.path), label: guideTitles[i]?.title ?? '' })),
+  ],
+});
+
 const links = [
-  { href: localizedPath(lang, '/guides/'), label: t(lang, 'guides.nav') },
   { href: localizedPath(lang, '/about/'), label: t(lang, 'footer.about') },
   { href: localizedPath(lang, '/contact/'), label: t(lang, 'footer.contact') },
   { href: localizedPath(lang, '/privacy/'), label: t(lang, 'footer.privacy') },
@@ -19,6 +36,22 @@ const links = [
 <footer class="site-footer">
   <div class="container">
     <Counters lang={lang} variant="footer" />
+    <div class="site-footer__columns">
+      {
+        columns.map((c) => (
+          <nav class="site-footer__column" aria-labelledby={`footer-${c.id}`}>
+            <p class="site-footer__title" id={`footer-${c.id}`}>{c.title}</p>
+            <ul>
+              {c.links.map((l) => (
+                <li>
+                  <a href={l.href}>{l.label}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))
+      }
+    </div>
     <div class="site-footer__inner">
       <p class="site-footer__copy">&copy; {year} {SITE.name}</p>
       <nav class="site-footer__nav" aria-label={t(lang, 'footer.label')}>
@@ -54,13 +87,41 @@ const links = [
     background: var(--footer-bg);
     font-size: var(--step-0);
   }
+  .site-footer__columns {
+    display: grid;
+    gap: var(--space-5) var(--space-6);
+    grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
+    padding-block: var(--space-6) var(--space-4);
+  }
+  .site-footer__title {
+    margin: 0 0 var(--space-2);
+    font-size: var(--step--1);
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--brand-strong);
+  }
+  .site-footer__column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .site-footer__column a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem; /* touch target of at least 44 px */
+    color: var(--text);
+    font-weight: 500;
+    line-height: 1.3;
+  }
   .site-footer__inner {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: var(--space-3) var(--space-5);
-    padding-block: var(--space-5);
+    padding-block: var(--space-4) var(--space-5);
+    border-top: 1px solid var(--border);
   }
   .site-footer__copy {
     margin: 0;

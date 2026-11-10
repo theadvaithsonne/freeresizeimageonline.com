@@ -3,6 +3,7 @@ import Logo from './Logo.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import Counters from './Counters.astro';
+import MobileMenu from './MobileMenu.astro';
 import { localizedPath, t } from '../i18n';
 
 interface Props {
@@ -25,6 +26,7 @@ const { lang, path } = Astro.props;
         dark={t(lang, 'a11y.themeDark')}
         light={t(lang, 'a11y.themeLight')}
       />
+      <MobileMenu lang={lang} path={path} />
     </div>
   </div>
 </header>

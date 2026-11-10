@@ -1,7 +1,7 @@
 ---
 /**
- * Strip of links to every tool page, under the header. Helps people find the right tool quickly
- * (and search engines find every page). The current page is highlighted.
+ * Strip of links to the main tool pages, under the header (wide screens only: phones and tablets use the menu
+ * button in the header instead). The current page is highlighted.
  */
 import { GUIDES_INDEX_PATH, TOOL_ROUTES } from '../data/routes';
 import { localizedPath, t } from '../i18n';
@@ -12,9 +12,10 @@ interface Props {
   path: string;
 }
 const { lang, path } = Astro.props;
+const here = TOOL_ROUTES.find((x) => x.path === path);
 // The tool links plus one link to the written guides (highlighted on the guides index and on every guide).
 const links = [
-  ...TOOL_ROUTES.map((r) => ({ href: r.path, label: t(lang, `nav.${r.key}` as 'nav.home'), current: r.path === path })),
+  ...TOOL_ROUTES.filter((r) => r.strip).map((r) => ({ href: r.path, label: t(lang, `nav.${r.key}` as 'nav.home'), current: r.path === path || here?.parent === r.key })),
   { href: GUIDES_INDEX_PATH, label: t(lang, 'guides.nav'), current: path.startsWith(GUIDES_INDEX_PATH) },
 ];
 ---
@@ -34,16 +35,6 @@ const links = [
   </div>
 </nav>
 
-<script>
-  // On phones the strip scrolls sideways: bring the page you are on into the middle so it is always visible.
-  const current = document.querySelector<HTMLElement>('.toolnav a.is-current');
-  const strip = current?.parentElement;
-  if (current && strip && strip.scrollWidth > strip.clientWidth) {
-    // block: 'nearest' keeps the page from scrolling vertically; the browser handles left-to-right and right-to-left
-    current.scrollIntoView({ inline: 'center', block: 'nearest' });
-  }
-</script>
-
 <style>
   .toolnav {
     background: var(--surface);
@@ -53,25 +44,16 @@ const links = [
     display: flex;
     gap: var(--space-2);
     padding-block: var(--space-2);
-    overflow-x: auto; /* scrolls sideways on phones instead of wrapping into many rows */
-    scrollbar-width: thin;
   }
-  /* Phones/tablets: faded edges show that the strip scrolls sideways */
+  /* Phones and tablets use the menu button in the header instead of this strip. */
   @media (max-width: 59.99rem) {
-    .toolnav__inner {
-      -webkit-mask-image: linear-gradient(to right, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
-      mask-image: linear-gradient(to right, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
-      scroll-padding-inline: 2rem;
-    }
-    :global([dir='rtl']) .toolnav__inner {
-      -webkit-mask-image: linear-gradient(to left, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
-      mask-image: linear-gradient(to left, transparent 0, #000 0.75rem, #000 calc(100% - 2.5rem), transparent 100%);
+    .toolnav {
+      display: none;
     }
   }
   @media (min-width: 60rem) {
     .toolnav__inner {
       flex-wrap: wrap; /* on wide screens every link is visible */
-      overflow-x: visible;
     }
   }
   .toolnav a {

@@ -8,11 +8,13 @@ interface Props {
   dark: string;
   /** Visible word shown while the dark theme is active. */
   light: string;
+  /** 'header' (round button, hidden on very small phones) or 'menu' (full-width row inside the menu panel). */
+  variant?: 'header' | 'menu';
 }
-const { label, dark, light } = Astro.props;
+const { label, dark, light, variant = 'header' } = Astro.props;
 ---
 <!-- The accessible name is "<label>: <visible word>", so it always contains the word that is on screen (WCAG 2.5.3). -->
-<button type="button" class="theme-toggle" data-theme-toggle title={label}>
+<button type="button" class={`theme-toggle theme-toggle--${variant}`} data-theme-toggle title={label}>
   <span class="visually-hidden">{label}:</span>
   <svg class="icon icon--moon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
     <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
@@ -27,8 +29,9 @@ const { label, dark, light } = Astro.props;
 
 <script>
   const root = document.documentElement;
-  const button = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
-  button?.addEventListener('click', () => {
+  // There can be two buttons (header and menu); the icon and word follow the theme through CSS, so they stay in sync.
+  document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]').forEach((button) =>
+  button.addEventListener('click', () => {
     const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
     root.dataset.theme = next;
     try {
@@ -36,7 +39,7 @@ const { label, dark, light } = Astro.props;
     } catch {
       /* storage unavailable (private mode): the choice just isn't remembered */
     }
-  });
+  }));
 </script>
 
 <style>
@@ -72,6 +75,24 @@ const { label, dark, light } = Astro.props;
   :global(:root[data-theme='dark']) .theme-toggle__text--dark {
     display: none;
   }
+  /* Very small phones: the toggle moves into the menu panel (the header has no room for a third button). */
+  @media (max-width: 29.99rem) {
+    .theme-toggle--header {
+      display: none;
+    }
+  }
+  /* In the menu panel: a full-width row with the icon and the word. */
+  .theme-toggle--menu {
+    width: 100%;
+    justify-content: flex-start;
+    gap: var(--space-3);
+    height: auto;
+    min-height: 3rem;
+    padding: 0.4rem var(--space-3);
+    border: 0;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+  }
   /* Phones: icon only, to leave room for the logo (the word stays available to screen readers) */
   @media (max-width: 40rem) {
     .theme-toggle__text {
@@ -85,6 +106,20 @@ const { label, dark, light } = Astro.props;
     .theme-toggle {
       padding: 0;
       width: var(--control-h);
+    }
+  }
+  @media (max-width: 40rem) {
+    .theme-toggle--menu .theme-toggle__text {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip-path: none;
+      white-space: normal;
+    }
+    .theme-toggle--menu {
+      width: 100%;
+      padding: 0.4rem var(--space-3);
     }
   }
 </style>

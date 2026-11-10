@@ -47,7 +47,7 @@ export interface SizePreset extends Base {
 
 export interface TargetPreset extends Base {
   kind: 'target';
-  /** Maximum file size in KB (1 KB = 1024 bytes). */
+  /** Maximum file size in KB (1 KB = 1000 bytes, so a file that passes also passes where KB means 1024). */
   kb: number;
 }
 
@@ -158,7 +158,7 @@ export const PRESET_GROUPS: PresetGroup[] = [
   },
   {
     id: 'forms',
-    presets: [kb(20), kb(50), kb(100), kb(200), kb(500), kb(1024)],
+    presets: [kb(10), kb(20), kb(50), kb(100), kb(200), kb(500), kb(1024)],
   },
   {
     id: 'marketplaces',

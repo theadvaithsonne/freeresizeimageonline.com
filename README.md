@@ -45,5 +45,6 @@ public/          static files (icons, robots.txt, _headers; fonts and ads.txt ar
 ## Rules of the project
 - Images never leave the device. No server-side image processing, no paid services or APIs.
 - Counters show real numbers only.
+- Getting found in search: see docs/SEO.md (Search Console steps, IndexNow, how to add landing pages).
 - Ads: one clearly labelled box; Auto ads stay OFF in AdSense; never next to action buttons.
 - Branch per step (`step-N-short-name`), merge to `main` when the step's "Done when" is met.

@@ -28,7 +28,9 @@ const url = new URL(localizedPath(lang, path), SITE.url).href;
 
 const indexItems = list<{ title: string; text: string }>(lang, 'guides.index.items');
 const sections = guideKey === 'index' ? [] : list<Section>(lang, `guides.${guideKey}.sections`);
-const faq = guideKey === 'index' ? [] : list<{ q: string; a: string }>(lang, `guides.${guideKey}.faq.items`);
+const faq = list<{ q: string; a: string }>(lang, `guides.${guideKey}.faq.items`);
+// The index page also has a few paragraphs of its own, so it is a real page and not just a list of links.
+const paragraphs = guideKey === 'index' ? list<string>(lang, 'guides.index.paragraphs') : [];
 // Each other guide, with the title shown on the index page (the items are in the same order as GUIDE_ROUTES).
 const others = GUIDE_ROUTES.map((r, i) => ({ ...r, title: indexItems[i]?.title ?? '', text: indexItems[i]?.text ?? '' }));
 
@@ -81,19 +83,40 @@ const faqLd = faq.length
 
     {
       guideKey === 'index' ? (
-        <ul class="guide-list">
-          {others.map((g) => (
-            <li class="card">
-              <h2>
-                <a href={localizedPath(lang, g.path)}>{g.title}</a>
-              </h2>
-              <p>{g.text}</p>
-              <a class="guide-list__more" href={localizedPath(lang, g.path)}>
-                {t(lang, 'guides.common.readGuide')}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <>
+          <ul class="guide-list">
+            {others.map((g) => (
+              <li class="card">
+                <h2>
+                  <a href={localizedPath(lang, g.path)}>{g.title}</a>
+                </h2>
+                <p>{g.text}</p>
+                <a class="guide-list__more" href={localizedPath(lang, g.path)}>
+                  {t(lang, 'guides.common.readGuide')}
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          <section class="guide__section guide__about">
+            {paragraphs.map((text) => <p>{text}</p>)}
+            <a class="btn" href={localizedPath(lang, '/')}>{t(lang, 'guides.common.openTool')}</a>
+          </section>
+
+          {faq.length > 0 && (
+            <section class="guide__section" aria-labelledby="guide-faq">
+              <h2 id="guide-faq">{t(lang, 'common.faqTitle')}</h2>
+              <div class="faq">
+                {faq.map((item) => (
+                  <details>
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
+        </>
       ) : (
         <>
           {sections.map((s) => (
@@ -172,6 +195,15 @@ const faqLd = faq.length
     padding-inline-start: 1.25rem;
     display: grid;
     gap: var(--space-2);
+  }
+  .guide__about {
+    display: grid;
+    gap: var(--space-3);
+    justify-items: start;
+  }
+  .guide__about p {
+    margin: 0;
+    color: var(--text-muted);
   }
   .guide__cta {
     display: grid;

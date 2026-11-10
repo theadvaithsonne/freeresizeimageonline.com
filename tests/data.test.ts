@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { PRESET_GROUPS, findPreset, presetLabel } from '../src/data/presets';
-import { ALL_PATHS, GUIDE_ROUTES, LEGAL_ROUTES, TOOL_ROUTES } from '../src/data/routes';
+import { ALL_PATHS, GUIDE_ROUTES, LEGAL_ROUTES, NAV_GROUPS, TOOL_ROUTES, relatedRoutes, routesInGroup } from '../src/data/routes';
 import { toPixels } from '../src/engine/units';
 import { getMessages, subtree, t } from '../src/i18n';
 import { safeJson } from '../src/i18n/safe-json';
@@ -61,6 +61,34 @@ describe('routes', () => {
     const en = getMessages('en') as unknown as Record<string, Record<string, unknown>>;
     for (const r of TOOL_ROUTES) expect(en.nav![r.key], r.key).toBeTruthy();
     for (const r of LEGAL_ROUTES) expect((en.legal as Record<string, unknown>)[r.key], r.key).toBeTruthy();
+  });
+
+  it('every tool page has complete, search-friendly text', () => {
+    const en = getMessages('en') as unknown as Record<string, any>;
+    for (const r of TOOL_ROUTES.filter((x) => x.key !== 'home')) {
+      const p = en[r.key];
+      expect(p.title.length, `${r.key} title`).toBeLessThanOrEqual(60);
+      expect(p.description.length, `${r.key} description`).toBeGreaterThanOrEqual(60);
+      expect(p.description.length, `${r.key} description`).toBeLessThanOrEqual(160);
+      expect(p.blurb, `${r.key} blurb`).toBeTruthy();
+      expect(p.steps.length, `${r.key} steps`).toBe(3);
+      expect(p.tips.length, `${r.key} tips`).toBeGreaterThanOrEqual(3);
+      expect(p.details.length, `${r.key} details`).toBeGreaterThanOrEqual(2);
+      expect(p.faq.items.length, `${r.key} faq`).toBeGreaterThanOrEqual(2);
+    }
+    for (const g of NAV_GROUPS) expect(en.navGroups[g], g).toBeTruthy();
+  });
+
+  it('groups every tool page once and lists related pages without the page itself or home', () => {
+    expect(NAV_GROUPS.flatMap((g) => routesInGroup(g).map((r) => r.key)).sort()).toEqual(TOOL_ROUTES.map((r) => r.key).sort());
+    for (const r of TOOL_ROUTES) {
+      const related = relatedRoutes(r.key).map((x) => x.key);
+      expect(related, r.key).not.toContain(r.key);
+      expect(related, r.key).not.toContain('home');
+      expect(related.length, r.key).toBeGreaterThan(3);
+    }
+    // Landing pages belong to a tab of the strip under the header.
+    for (const r of TOOL_ROUTES.filter((x) => !x.strip)) expect(TOOL_ROUTES.find((x) => x.key === r.parent)?.strip, r.key).toBe(true);
   });
 
   it('every guide has a title, intro, sections and FAQ, and the index lists each guide in route order', () => {

@@ -148,9 +148,11 @@ const data = Object.fromEntries(
   }
   .lang-suggest__actions {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--space-2);
   }
   .lang-suggest .btn {
+    white-space: nowrap;
     min-height: 2.5rem;
     padding-inline: var(--space-4);
   }
