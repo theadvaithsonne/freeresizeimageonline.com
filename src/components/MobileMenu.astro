@@ -40,8 +40,9 @@ const legalLinks = LEGAL_ROUTES.map((r) => ({
   current: r.path === path,
 }));
 const quick = [
-  { href: localizedPath(lang, FAQ_PATH), label: t(lang, 'nav.faq'), current: path === FAQ_PATH },
+  { href: localizedPath(lang, '/'), label: t(lang, 'nav.homePage'), current: path === '/' },
   { href: localizedPath(lang, GUIDES_INDEX_PATH), label: t(lang, 'guides.nav'), current: path.startsWith(GUIDES_INDEX_PATH) },
+  { href: localizedPath(lang, FAQ_PATH), label: t(lang, 'nav.faq'), current: path === FAQ_PATH },
 ];
 const label = t(lang, 'a11y.menu');
 ---
@@ -253,7 +254,7 @@ const label = t(lang, 'a11y.menu');
     gap: var(--space-2);
   }
   .menu-quick li {
-    flex: 1 1 8rem;
+    flex: 1 1 6rem;
   }
   .menu-quick a {
     justify-content: center;

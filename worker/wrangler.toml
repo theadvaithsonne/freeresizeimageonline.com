@@ -1,6 +1,8 @@
 name = "frio-counters"
 main = "src/index.ts"
 compatibility_date = "2026-11-01"
+# Only reachable on counters.freeresizeimageonline.com (no public *.workers.dev address).
+workers_dev = false
 
 # Only these sites may open the live-counter connection.
 [vars]
@@ -15,7 +17,7 @@ class_name = "Counter"
 tag = "v1"
 new_sqlite_classes = ["Counter"]
 
-# Optional: serve the Worker on your own subdomain (needs the domain active in Cloudflare).
-# [[routes]]
-# pattern = "counters.freeresizeimageonline.com"
-# custom_domain = true
+# The Worker is served on its own subdomain (Cloudflare creates the DNS record and certificate by itself).
+[[routes]]
+pattern = "counters.freeresizeimageonline.com"
+custom_domain = true

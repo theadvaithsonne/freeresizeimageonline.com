@@ -65,7 +65,7 @@ const loadAdScript = Boolean(ADSENSE.client) && ads && (ADS_LIVE || path === '/'
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="FreeResizeImageOnline" />
+    <meta property="og:site_name" content={t(lang, 'brand.name')} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     {!plain && <meta property="og:url" content={canonical} />}

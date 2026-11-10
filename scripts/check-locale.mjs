@@ -23,6 +23,7 @@ function flatten(value, prefix = '', out = {}) {
   return out;
 }
 const load = (code, file) => flatten(JSON.parse(readFileSync(join(root, code, file), 'utf8')));
+const LATIN_BRAND = 'FreeResizeImageOnline';
 const placeholders = (s) => (s.match(/\{\w+\}/g) ?? []).sort().join(',');
 
 const requested = process.argv.slice(2);
@@ -31,6 +32,7 @@ const codes = requested.length ? requested : readdirSync(root, { withFileTypes: 
 let problems = 0;
 for (const code of codes) {
   const issues = [];
+  const brandName = existsSync(join(root, code, 'core.json')) ? (load(code, 'core.json')['brand.name'] ?? LATIN_BRAND) : LATIN_BRAND;
   for (const file of FILES) {
     if (!existsSync(join(root, code, file))) {
       issues.push(`${file}: missing file`);
@@ -58,7 +60,9 @@ for (const code of codes) {
       if (t.trim() === '') issues.push(`${file}: empty ${k}`);
       if (placeholders(t) !== placeholders(en[k])) issues.push(`${file}: placeholders differ in ${k} (expected ${placeholders(en[k]) || 'none'})`);
       for (const term of PROTECTED) {
-        if (en[k].includes(term) && !t.includes(term)) issues.push(`${file}: ${k} must keep "${term}"`);
+        // The site name is written in the language's own alphabet where it is not Latin (core.json: brand.name).
+        const expected = term === LATIN_BRAND ? brandName : term;
+        if (en[k].includes(term) && !t.includes(expected)) issues.push(`${file}: ${k} must keep "${expected}"`);
       }
       if (/^\s|\s$/.test(t) && !/^\s|\s$/.test(en[k])) issues.push(`${file}: stray whitespace in ${k}`);
     }

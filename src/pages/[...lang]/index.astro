@@ -28,10 +28,13 @@ const popular = TOOL_ROUTES.filter((r) => r.key !== 'home').map((r) => ({
   title: t(lang, `nav.${r.key}` as MessageKey),
   text: t(lang, `${r.key}.blurb` as MessageKey),
 }));
+const localName = t(lang, 'brand.name');
 const siteLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: SITE.name,
+  // the name in the page's own alphabet, for languages that do not use Latin letters
+  alternateName: localName !== SITE.name ? localName : undefined,
   url: SITE.url,
   inLanguage: getLanguage(lang).htmlLang,
   publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: new URL('/icon-512.png', SITE.url).href },

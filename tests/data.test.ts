@@ -92,6 +92,25 @@ describe('routes', () => {
     for (const r of TOOL_ROUTES.filter((x) => !x.strip)) expect(TOOL_ROUTES.find((x) => x.key === r.parent)?.strip, r.key).toBe(true);
   });
 
+  it('every language has a site name, a logo wordmark and a Home tab label, and non-Latin languages do not mix in the Latin name', async () => {
+    const { readdirSync, readFileSync } = await import('node:fs');
+    const { join } = await import('node:path');
+    const dir = join(__dirname, '..', 'src', 'i18n', 'locales');
+    for (const code of readdirSync(dir)) {
+      const core = JSON.parse(readFileSync(join(dir, code, 'core.json'), 'utf8'));
+      const pages = JSON.parse(readFileSync(join(dir, code, 'pages.json'), 'utf8'));
+      expect(core.brand.name, code).toBeTruthy();
+      expect(core.brand.logo, code).toBeTruthy();
+      expect(pages.nav.homePage, code).toBeTruthy();
+      if (core.brand.name !== 'FreeResizeImageOnline') {
+        // the language has its own name: the Latin one must not be left in any of its texts
+        for (const f of ['core', 'tool', 'pages', 'legal', 'guides']) {
+          expect(readFileSync(join(dir, code, f + '.json'), 'utf8'), code + '/' + f).not.toContain('FreeResizeImage');
+        }
+      }
+    }
+  });
+
   it('has an FAQ page with a tab label, and every tool page contributes questions to it', () => {
     const en = getMessages('en') as unknown as Record<string, any>;
     expect(ALL_PATHS).toContain(FAQ_PATH);

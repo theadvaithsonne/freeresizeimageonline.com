@@ -15,7 +15,8 @@
     "pngToJpg": "PNGをJPGに変換",
     "jpgToPng": "JPGをPNGに変換",
     "webpToJpg": "WebPをJPGに変換",
-    "faq": "よくある質問"
+    "faq": "よくある質問",
+    "homePage": "ホーム"
   },
   "common": {
     "howTo": "使い方",
@@ -51,7 +52,7 @@
       ]
     },
     "why": {
-      "title": "FreeResizeImageOnlineが選ばれる理由",
+      "title": "無料オンライン画像リサイズが選ばれる理由",
       "items": [
         {
           "title": "プライバシーを重視した設計",

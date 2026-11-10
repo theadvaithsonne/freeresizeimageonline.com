@@ -56,9 +56,11 @@ const config = {
   }
   .counters--footer {
     justify-content: center;
-    padding-block: var(--space-3) 0;
+    padding-block: var(--space-4) 0;
   }
-  @media (min-width: 56rem) {
+  /* The header has room for the numbers only on very wide screens (it also holds the tabs, the language and the theme
+     buttons); everywhere else they are in the footer, which can never be squeezed. */
+  @media (min-width: 90rem) {
     .counters--header {
       display: flex;
     }
@@ -76,7 +78,9 @@ const config = {
     color: var(--text);
     font-size: var(--step--1);
     font-weight: 650;
-    white-space: nowrap;
+    /* a long translation wraps inside its own pill instead of pushing the page wider */
+    max-width: 100%;
+    text-align: center;
     font-variant-numeric: tabular-nums;
   }
   .dot {

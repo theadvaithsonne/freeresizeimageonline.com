@@ -1,10 +1,17 @@
 ---
+import { getLanguage, t } from '../i18n';
+
 interface Props {
   /** Show the wordmark next to the icon. */
   wordmark?: boolean;
   class?: string;
+  /** Page language: languages that do not use the Latin alphabet show the site name in their own script. */
+  lang?: string;
 }
-const { wordmark = true, class: className } = Astro.props;
+const { wordmark = true, class: className, lang = 'en' } = Astro.props;
+const logo = t(lang, 'brand.logo');
+const name = t(lang, 'brand.name');
+const isLatin = logo === 'FreeResizeImage';
 ---
 <span class:list={['logo', className]}>
   <svg class="logo__mark" viewBox="0 0 64 64" width="44" height="44" aria-hidden="true" focusable="false">
@@ -13,8 +20,13 @@ const { wordmark = true, class: className } = Astro.props;
     <path d="M32 32 L50 14" stroke="#fff" stroke-width="4.5" stroke-linecap="round" />
     <path d="M36 14 H50 V28" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
-  {wordmark && (
+  {wordmark && isLatin && (
     <span class="logo__text" dir="ltr">Free<strong>Resize</strong>Image<span class="visually-hidden">Online</span></span>
+  )}
+  {wordmark && !isLatin && (
+    <span class="logo__text logo__text--local" lang={getLanguage(lang).htmlLang}>
+      <span aria-hidden="true">{logo}</span><span class="visually-hidden">{name}</span>
+    </span>
   )}
 </span>
 
@@ -40,6 +52,10 @@ const { wordmark = true, class: className } = Astro.props;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .logo__text--local {
+    font-weight: 750;
+    letter-spacing: 0;
   }
   .logo__text strong {
     font-weight: 800;

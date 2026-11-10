@@ -15,7 +15,8 @@
     "pngToJpg": "Da PNG a JPG",
     "jpgToPng": "Da JPG a PNG",
     "webpToJpg": "Da WebP a JPG",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "homePage": "Home"
   },
   "common": {
     "howTo": "Come si usa",

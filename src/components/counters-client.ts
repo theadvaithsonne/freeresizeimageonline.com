@@ -29,7 +29,9 @@ export function initCounters(): void {
   let stopped = false;
   let shownTotal = 0;
 
-  const fill = (template: string, n: number) => template.replace('{count}', formatNumber(cfg.lang, n, 0));
+  // The number is isolated so that it keeps its order inside right-to-left sentences (Arabic, Urdu).
+  const fill = (template: string, n: number) =>
+    template.replace('{count}', String.fromCharCode(0x2066) + formatNumber(cfg.lang, n, 0) + String.fromCharCode(0x2069));
 
   function render(total: number, online: number) {
     for (const root of roots) {

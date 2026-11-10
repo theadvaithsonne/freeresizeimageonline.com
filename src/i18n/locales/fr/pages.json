@@ -15,7 +15,8 @@
     "pngToJpg": "Convertir PNG en JPG",
     "jpgToPng": "Convertir JPG en PNG",
     "webpToJpg": "Convertir WebP en JPG",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "homePage": "Accueil"
   },
   "common": {
     "howTo": "Comment l'utiliser",

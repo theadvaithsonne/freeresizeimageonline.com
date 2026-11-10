@@ -15,7 +15,8 @@
     "pngToJpg": "PNG를 JPG로 변환",
     "jpgToPng": "JPG를 PNG로 변환",
     "webpToJpg": "WebP를 JPG로 변환",
-    "faq": "자주 묻는 질문"
+    "faq": "자주 묻는 질문",
+    "homePage": "홈"
   },
   "common": {
     "howTo": "사용 방법",
@@ -42,7 +43,7 @@
       ]
     },
     "why": {
-      "title": "FreeResizeImageOnline을 쓰는 이유",
+      "title": "무료 이미지 리사이즈 온라인을 쓰는 이유",
       "items": [
         { "title": "처음부터 개인정보 보호를 위해 설계", "text": "사진은 브라우저 안에서 처리됩니다. 서버로 업로드되지 않으니 다른 사람이 볼 수 없어요." },
         { "title": "무료, 무제한", "text": "계정도, 워터마크도, 하루 사용 제한도, 대기 시간도 없습니다. 사진 한 장이든 수백 장이든 상관없어요." },

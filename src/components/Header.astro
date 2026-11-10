@@ -15,6 +15,7 @@ interface Props {
 const { lang, path } = Astro.props;
 // Tabs on the right of the header (wide screens; on phones the same links are at the top of the menu).
 const tabs = [
+  { href: localizedPath(lang, '/'), label: t(lang, 'nav.homePage'), current: path === '/' },
   { href: localizedPath(lang, GUIDES_INDEX_PATH), label: t(lang, 'guides.nav'), current: path.startsWith(GUIDES_INDEX_PATH) },
   { href: localizedPath(lang, FAQ_PATH), label: t(lang, 'nav.faq'), current: path === FAQ_PATH },
 ];
@@ -22,7 +23,7 @@ const tabs = [
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="site-header__brand" href={localizedPath(lang, '/')}>
-      <Logo />
+      <Logo lang={lang} />
     </a>
     <div class="site-header__actions">
       <div class="site-header__tabs">

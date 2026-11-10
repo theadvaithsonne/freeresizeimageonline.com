@@ -40,5 +40,9 @@
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "cookies": "Paramètres de confidentialité et de cookies"
+  },
+  "brand": {
+    "name": "FreeResizeImageOnline",
+    "logo": "FreeResizeImage"
   }
 }

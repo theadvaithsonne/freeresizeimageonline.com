@@ -2,11 +2,11 @@
   "legal": {
     "updated": "最終更新日：{date}",
     "about": {
-      "title": "FreeResizeImageOnlineについて",
-      "description": "FreeResizeImageOnlineの運営者、無料である理由、そして画像のプライバシーがどのように守られているかをご紹介します。",
-      "h1": "FreeResizeImageOnlineについて",
+      "title": "無料オンライン画像リサイズについて",
+      "description": "無料オンライン画像リサイズの運営者、無料である理由、そして画像のプライバシーがどのように守られているかをご紹介します。",
+      "h1": "無料オンライン画像リサイズについて",
       "paragraphs": [
-        "FreeResizeImageOnlineは、画像のリサイズ、圧縮、変換ができる無料ツールです。インドのベンガルールで、{owner}が開発・運営しています。",
+        "無料オンライン画像リサイズは、画像のリサイズ、圧縮、変換ができる無料ツールです。インドのベンガルールで、{owner}が開発・運営しています。",
         "目指しているのは、速くて誠実な画像ツールです。アカウント登録も、透かしも、1日の利用制限もありません。画像はお使いのブラウザの中で処理され、当社のサーバーにアップロードされることはありません。"
       ],
       "sections": [
@@ -33,8 +33,8 @@
       ]
     },
     "contact": {
-      "title": "FreeResizeImageOnlineへのお問い合わせ",
-      "description": "ご質問、不具合の報告、ご提案などは、FreeResizeImageOnlineの運営者までご連絡ください。",
+      "title": "無料オンライン画像リサイズへのお問い合わせ",
+      "description": "ご質問、不具合の報告、ご提案などは、無料オンライン画像リサイズの運営者までご連絡ください。",
       "h1": "お問い合わせ",
       "paragraphs": [
         "ご質問、不具合の報告、ご提案はありませんか？ メールをお送りいただければ、できるだけ早く返信します。",
@@ -60,8 +60,8 @@
       ]
     },
     "privacy": {
-      "title": "プライバシーポリシー - FreeResizeImageOnline",
-      "description": "FreeResizeImageOnlineでのデータの扱い（画像は端末内にとどまること）と、広告Cookieの仕組みについて説明します。",
+      "title": "プライバシーポリシー - 無料オンライン画像リサイズ",
+      "description": "無料オンライン画像リサイズでのデータの扱い（画像は端末内にとどまること）と、広告Cookieの仕組みについて説明します。",
       "h1": "プライバシーポリシー",
       "sections": [
         {
@@ -113,13 +113,13 @@
       }
     },
     "terms": {
-      "title": "利用規約 - FreeResizeImageOnline",
-      "description": "FreeResizeImageOnlineをご利用いただく際の規約です。",
+      "title": "利用規約 - 無料オンライン画像リサイズ",
+      "description": "無料オンライン画像リサイズをご利用いただく際の規約です。",
       "h1": "利用規約",
       "sections": [
         {
           "title": "同意",
-          "text": "FreeResizeImageOnlineを利用することで、お客様はこれらの規約に同意したものとみなされます。同意いただけない場合は、このサイトを利用しないでください。"
+          "text": "無料オンライン画像リサイズを利用することで、お客様はこれらの規約に同意したものとみなされます。同意いただけない場合は、このサイトを利用しないでください。"
         },
         {
           "title": "サービス",
@@ -147,7 +147,7 @@
         },
         {
           "title": "商標",
-          "text": "Instagram、Facebook、YouTube、X、LinkedIn、Pinterest、WhatsApp、Amazon、Shopify、eBay、Googleなどの名称は、それぞれの所有者に帰属します。ここでは画像サイズを説明する目的でのみ使用しています。FreeResizeImageOnlineはこれらの企業と提携しておらず、承認も受けていません。"
+          "text": "Instagram、Facebook、YouTube、X、LinkedIn、Pinterest、WhatsApp、Amazon、Shopify、eBay、Googleなどの名称は、それぞれの所有者に帰属します。ここでは画像サイズを説明する目的でのみ使用しています。無料オンライン画像リサイズはこれらの企業と提携しておらず、承認も受けていません。"
         },
         {
           "title": "準拠法",

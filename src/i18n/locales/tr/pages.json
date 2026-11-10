@@ -15,7 +15,8 @@
     "pngToJpg": "PNG'den JPG'ye",
     "jpgToPng": "JPG'den PNG'ye",
     "webpToJpg": "WebP'den JPG'ye",
-    "faq": "SSS"
+    "faq": "SSS",
+    "homePage": "Ana sayfa"
   },
   "common": {
     "howTo": "Nasıl kullanılır?",

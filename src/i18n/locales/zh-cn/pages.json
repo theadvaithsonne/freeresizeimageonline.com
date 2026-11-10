@@ -15,7 +15,8 @@
     "pngToJpg": "PNG 转 JPG",
     "jpgToPng": "JPG 转 PNG",
     "webpToJpg": "WebP 转 JPG",
-    "faq": "常见问题"
+    "faq": "常见问题",
+    "homePage": "首页"
   },
   "common": {
     "howTo": "使用方法",
@@ -42,7 +43,7 @@
       ]
     },
     "why": {
-      "title": "为什么大家选择 FreeResizeImageOnline",
+      "title": "为什么大家选择免费在线图片调整大小",
       "items": [
         { "title": "从设计上保护隐私", "text": "您的图片在浏览器中处理，不会上传到服务器，其他人无法看到。" },
         { "title": "免费且无限制", "text": "无需账号，没有水印，没有每日限额，也不用等待。调整一张或几百张都可以。" },

@@ -1,5 +1,4 @@
 ---
-import { SITE } from '../config/site';
 import { FAQ_PATH, GUIDES_INDEX_PATH, GUIDE_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
 import { list, localizedPath, t, type MessageKey } from '../i18n';
 import Counters from './Counters.astro';
@@ -56,7 +55,7 @@ const links = [
       }
     </div>
     <div class="site-footer__inner">
-      <p class="site-footer__copy">&copy; {year} {SITE.name}</p>
+      <p class="site-footer__copy">&copy; {year} {t(lang, 'brand.name')}</p>
       <nav class="site-footer__nav" aria-label={t(lang, 'footer.label')}>
         {links.map((l) => <a href={l.href}>{l.label}</a>)}
         {

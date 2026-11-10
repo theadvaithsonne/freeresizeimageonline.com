@@ -15,7 +15,7 @@
   },
   "ads": {
     "label": "广告",
-    "note": "广告让 FreeResizeImageOnline 保持免费。没有广告，一切功能也照常使用。"
+    "note": "广告让免费在线图片调整大小保持免费。没有广告，一切功能也照常使用。"
   },
   "badges": {
     "free": "免费",
@@ -40,5 +40,9 @@
     "privacy": "隐私政策",
     "terms": "服务条款",
     "cookies": "隐私和 Cookie 设置"
+  },
+  "brand": {
+    "name": "免费在线图片调整大小",
+    "logo": "免费调整图片"
   }
 }

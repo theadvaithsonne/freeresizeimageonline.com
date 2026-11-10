@@ -40,5 +40,9 @@
     "privacy": "Chính sách quyền riêng tư",
     "terms": "Điều khoản dịch vụ",
     "cookies": "Cài đặt quyền riêng tư và cookie"
+  },
+  "brand": {
+    "name": "FreeResizeImageOnline",
+    "logo": "FreeResizeImage"
   }
 }
