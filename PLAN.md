@@ -181,12 +181,12 @@ Browser (visitor)
 - [x] 11.5 (C) Security headers: nosniff, referrer policy, permissions policy. A strict Content-Security-Policy is deliberately NOT set because AdSense loads from many changing domains and the resizer needs blob: workers.
 
 ## STEP 12 — Testing (device + browser matrix)
-- [ ] 12.1 (C) Browsers: Chrome, Edge, Firefox, Safari (macOS + iOS), Samsung Internet
-- [ ] 12.2 (C) Screens: 320 / 375 / 414 / 768 / 1024 / 1280 / 1440 / 1920 / 2560 / 3840 px; portrait + landscape
-- [ ] 12.3 (C) Stress: 50-image batch, 30MP file, GIF/BMP/WebP/HEIC inputs, corrupted files, low-memory phone
-- [ ] 12.4 (C) All 20 languages visual check (long German/Russian text, CJK, Thai, RTL)
-- [ ] 12.5 (C) Accessibility check (keyboard only, screen-reader labels)
-- [ ] 12.6 (U) Real-device spot check on your phone(s)
+- [~] 12.1 (C) Browsers: tested in Chrome (desktop emulation of phone/tablet sizes). **Not tested**: real Safari/iPhone, Firefox, Edge, Samsung Internet. The engine falls back to the built-in canvas encoders if WebAssembly workers fail, and the iPhone canvas-size limit is built in, but a real-device check is still needed (12.6).
+- [x] 12.2 (C) Screens 320 / 820 / 1280 px across all 20 languages (120 page views) plus 390, 1440, 2560 spot checks: no horizontal overflow after fixes (header, size table and big button were fixed at 320 px); portrait + landscape rules in CSS.
+- [x] 12.3 (C) Stress on the live site: 50 photos in 11.5 s with no UI freeze (longest pause 66 ms, 12 MB memory); 30-megapixel 10 MB photo -> 94 KB in 3.8 s and -> 2000 px in 1.6 s; corrupt file and 30,000 px request give clear messages; Download-as JPG/PNG/WebP and ZIP verified byte-for-byte. HEIC not supported (v1.1).
+- [x] 12.4 (C) All 20 languages checked for layout overflow at phone and desktop widths; screenshots reviewed for Arabic (RTL), Hindi, Japanese. Long German/Russian/French text fixed where it overflowed.
+- [x] 12.5 (C) Accessibility: Lighthouse accessibility 100 on all tested live pages; WCAG AA contrast enforced by 34 automated checks in both themes; skip link, focus rings, labels, reduced motion. Not done: a test with a real screen reader.
+- [ ] 12.6 (U) Please open https://freeresizeimageonline.com on your own phone(s) and try a resize + download, ideally on an iPhone too, and tell me if anything looks or works wrong.
 
 ## STEP 13 — Deployment
 - [x] 13.1 (U/C) Cloudflare account already existed; deployed with Wrangler (already logged in on this computer), so no GitHub repo is needed. GitHub auto-deploy stays optional (docs/DEPLOY.md).
@@ -199,7 +199,7 @@ Browser (visitor)
 ## STEP 14 — AdSense application & go-live of ads
 - [~] 14.1 (U) AdSense site added; **Verify** is ready to click (the site is live with the code snippet, meta tag and ads.txt), then **Request review**.
 - [x] 14.2 (C) AdSense code snippet in `<head>`, `google-adsense-account` meta tag, and `/ads.txt` (publisher ca-pub-5152758693265080) are live.
-- [ ] 14.3 (U) Wait for review (can take days to weeks); (C) fix anything flagged
+- [ ] 14.3 (U) Wait for review (can take days to weeks); (C) fix anything flagged. Reminder: Auto ads OFF; create the consent message under Privacy & messaging.
 - [ ] 14.4 (C) Switch on ad box via config; verify layout; configure consent message
 - [ ] 14.5 (C) Check AdSense policy centre; monitor "Auto ads" off (manual placement only)
 
