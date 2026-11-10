@@ -100,16 +100,16 @@ Browser (visitor)
 **Done when:** switching language changes all UI text and the URL; Arabic/Urdu mirror correctly.
 
 ## STEP 4 — Core image engine (runs in browser)
-- [ ] 4.1 (C) Load images (file picker, drag-drop anywhere, paste, multi-select); read dimensions/metadata
-- [ ] 4.2 (C) High-quality resize with Pica in a Web Worker; Fit / Crop / Stretch modes
-- [ ] 4.3 (C) Units: px, %, cm, mm, inch with DPI; lock aspect ratio
-- [ ] 4.4 (C) Output formats JPG / PNG / WebP with quality control (MozJPEG/OxiPNG/WebP WASM)
-- [ ] 4.5 (C) **Target file size** mode (e.g. 20 / 50 / 100 / 200 KB): quality binary-search, then gentle downscale if needed; clear message when impossible
-- [ ] 4.6 (C) Batch queue, sequential processing, progress, cancel; ZIP download via fflate
-- [ ] 4.7 (C) Large-image safety: tiled processing, iOS canvas-size limits, memory cleanup (revoke URLs)
-- [ ] 4.8 (C) EXIF orientation fix; option to strip metadata (privacy)
-- [ ] 4.9 (C) HEIC/HEIF input (lazy-loaded WASM) — v1 if licence is OK, otherwise v1.1
-- [ ] 4.10 (C) Unit tests for unit conversion, KB-targeting, batch logic
+- [x] 4.1 (C) Decode any browser-readable image (JPG, PNG, WebP, GIF first frame, BMP, AVIF where supported) with EXIF orientation applied (`src/engine/decode.ts`). *File picker, drag-drop and paste UI are built in Step 5.*
+- [x] 4.2 (C) High-quality resize with Pica (tiled, multi-threaded, MKS2013 filter) loaded lazily; Fit / Crop / Stretch modes. Encoding runs in our own Web Worker.
+- [x] 4.3 (C) Units px / % / cm / mm / in with DPI, aspect-ratio helper (`units.ts`, `geometry.ts`)
+- [x] 4.4 (C) JPG / PNG / WebP output via MozJPEG, OxiPNG, libwebp (jSquash WASM) in a worker, automatic fallback to the browser's canvas encoders; transparent images get a white (configurable) background when saved as JPG
+- [x] 4.5 (C) **Target file size**: interpolating quality search, then scale estimate if needed; clear `reachedTarget` result. Browser-tested: 50 KB target -> 50,587 B in 1.7 s; 20 KB target from a 12 MP photo -> 19,152 B in 3.0 s
+- [x] 4.6 (C) Sequential batch queue (one bad file never stops the rest), progress, cancel; streaming ZIP via fflate (`batch.ts`, `zip.ts`). *Progress bar UI is in Step 5.*
+- [x] 4.7 (C) Large-image safety: size limits (16384 px side, 64 MP desktop, 16.7 MP iPhone/iPad Safari, 24 MP low-memory Android), canvases released after use, input cap 200 MP. *Real iPhone test is in Step 12.*
+- [x] 4.8 (C) EXIF orientation applied; re-encoding removes all metadata (EXIF/GPS/camera), which is stated as a privacy feature. No "keep metadata" option.
+- [ ] 4.9 (C) HEIC/HEIF input — **deferred to v1.1** (browser can't decode it natively; needs a libheif WASM whose licence must be checked first)
+- [x] 4.10 (C) 86 unit tests (units, geometry, target-size search, naming, alpha, batch, zip) + a real-browser integration run in headless Chrome (WASM encoders, crop, transparency, corrupt file, oversize request, ZIP) — all passed. Tip: run `npm test` from PowerShell; under Git Bash Vitest fails to start.
 
 **Done when:** engine passes tests and handles 50-image batches and 30MP photos without freezing.
 
@@ -250,6 +250,7 @@ Sources read: AdSense Program policies (updated Aug 4, 2026), Eligibility requir
 | 2026-11-10 | Planning | Plan v2 written, awaiting approval |
 | 2026-11-10 | Planning | AdSense policies verified (no postal address required); plan v3 approved by owner |
 | 2026-11-10 | Step 1 | Done. Astro 7 + TypeScript + Vitest set up; build, tests, type-check pass |
+| 2026-11-10 | Step 4 | Done except HEIC (deferred to v1.1). Engine in `src/engine/`, public API in `src/engine/index.ts`. |
 | 2026-11-10 | Step 3 | Done (3.8 stays open on purpose: more strings arrive with later steps). 20 language pages, switcher, suggestion bar, RTL, formatting, tests (51 passing). |
 | 2026-11-10 | Step 13.3 | Nameservers switched at BigRock to Cloudflare; waiting for Cloudflare to mark the domain Active |
 | 2026-11-10 | Step 2 | Done. Design system, light/dark, responsive shell, ad slot placeholders, fonts, brand icons. Hard-coded English labels in Header/Footer/AdSlot/Layout get replaced by translation keys in Step 3. |
