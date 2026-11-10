@@ -17,7 +17,9 @@ const sitemap = readFileSync(join(root, 'dist', 'sitemap.xml'), 'utf8');
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
 if (urls.length === 0) throw new Error('dist/sitemap.xml has no URLs - run a build first');
 
-const response = await fetch('https://api.indexnow.org/indexnow', {
+// Bing's own endpoint: it accepted the full list on 2026-11-11, and Bing shares submissions with the other IndexNow
+// engines (the generic api.indexnow.org address kept answering 403 for this new key).
+const response = await fetch('https://www.bing.com/indexnow', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json; charset=utf-8' },
   body: JSON.stringify({ host, key, keyLocation: `https://${host}/${keyFile}`, urlList: urls }),
