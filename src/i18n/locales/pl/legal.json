@@ -20,7 +20,7 @@
         },
         {
           "title": "Dlaczego jest za darmo",
-          "text": "Serwis jest utrzymywany z jednej wyraźnie oznaczonej reklamy Google AdSense. Reklama pokrywa ona koszt domeny i czas poświęcony na ulepszanie narzędzia. Reklama jest umieszczona z dala od przycisków, a wszystko działa także bez niej."
+          "text": "Serwis jest utrzymywany z kilku wyraźnie oznaczonych reklam Google AdSense. Pokrywają one koszt domeny i czas poświęcony na ulepszanie narzędzia. Reklamy są umieszczone z dala od przycisków, a wszystko działa także bez nich."
         },
         {
           "title": "Rozmiary i dokładność",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Reklamy",
-          "text": "Do wyświetlania reklam używamy Google AdSense. Dostawcy zewnętrzni, w tym Google, używają plików cookie do wyświetlania reklam na podstawie Twoich wcześniejszych odwiedzin tej lub innych stron internetowych. Wykorzystanie reklamowych plików cookie przez Google umożliwia jemu i jego partnerom wyświetlanie Ci reklam na podstawie Twojej wizyty na tej stronie i innych stronach w Internecie. Możesz zrezygnować z reklam spersonalizowanych, odwiedzając Google Ads Settings, a z wykorzystania plików cookie przez niektórych zewnętrznych dostawców do reklam spersonalizowanych możesz zrezygnować na stronie www.aboutads.info. W Europejskim Obszarze Gospodarczym, Wielkiej Brytanii i Szwajcarii reklamy są personalizowane dopiero po wyrażeniu przez Ciebie zgody w komunikacie wyświetlanym przez platformę zarządzania zgodami certyfikowaną przez Google. Swój wybór możesz zmienić w dowolnym momencie za pomocą linku Ustawienia prywatności i plików cookie w stopce."
+          "text": "Do wyświetlania reklam używamy Google AdSense. Dostawcy zewnętrzni, w tym Google, używają plików cookie do wyświetlania reklam na podstawie Twoich wcześniejszych odwiedzin tej lub innych stron internetowych. Wykorzystanie reklamowych plików cookie przez Google umożliwia jemu i jego partnerom wyświetlanie Ci reklam na podstawie Twojej wizyty na tej stronie i innych stronach w Internecie. Możesz zrezygnować z reklam spersonalizowanych, odwiedzając Google Ads Settings, a z wykorzystania plików cookie przez niektórych zewnętrznych dostawców do reklam spersonalizowanych możesz zrezygnować na stronie www.aboutads.info. W Europejskim Obszarze Gospodarczym, Wielkiej Brytanii i Szwajcarii reklamy są personalizowane dopiero po wyrażeniu przez Ciebie zgody w komunikacie wyświetlanym przez platformę zarządzania zgodami certyfikowaną przez Google. Swój wybór możesz zmienić w dowolnym momencie za pomocą linku Ustawienia prywatności i plików cookie w stopce stron, na których wyświetlane są reklamy, albo zarządzać personalizacją reklam w Google Ads Settings (zobacz linki poniżej). W Stanach Zjednoczonych, jeśli mieszkasz w stanie, który ma ustawę o ochronie prywatności, możesz zrezygnować ze sprzedaży lub udostępniania swoich danych osobowych za pomocą linku lub komunikatu z opcjami prywatności, który Google wyświetla na tych stronach."
         },
         {
           "title": "Dzieci",
@@ -94,7 +94,7 @@
         },
         {
           "title": "Twoje prawa",
-          "text": "W zależności od miejsca zamieszkania, na przykład na mocy RODO (GDPR) lub indyjskiej ustawy o ochronie danych osobowych w formie cyfrowej (Digital Personal Data Protection Act), możesz mieć prawo dostępu do danych osobowych, ich poprawiania lub usuwania. Ponieważ nie przechowujemy Twoich danych osobowych, zazwyczaj nie ma czego usuwać, ale możesz napisać na adres {email} z każdą prośbą."
+          "text": "W zależności od miejsca zamieszkania, na przykład na mocy RODO (GDPR), indyjskiej ustawy o ochronie danych osobowych w formie cyfrowej (Digital Personal Data Protection Act) lub amerykańskich stanowych przepisów o ochronie prywatności, możesz mieć prawo dostępu do danych osobowych, ich poprawiania lub usuwania. Ponieważ nie przechowujemy Twoich danych osobowych, zazwyczaj nie ma czego usuwać, ale możesz napisać na adres {email} z każdą prośbą."
         },
         {
           "title": "Zmiany w tej polityce",

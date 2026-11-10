@@ -53,7 +53,7 @@
     },
     "faq": {
       "items": [
-        { "q": "É realmente grátis?", "a": "Sim. Não há cadastro, período de teste nem limite diário. O site é mantido por um único anúncio ao lado da ferramenta. Imagens muito grandes podem ser demais para um celular ou um computador antigo, e você verá uma mensagem se isso acontecer." },
+        { "q": "É realmente grátis?", "a": "Sim. Não há cadastro, período de teste nem limite diário. O site é mantido por alguns anúncios claramente identificados. Imagens muito grandes podem ser demais para um celular ou um computador antigo, e você verá uma mensagem se isso acontecer." },
         { "q": "Minhas imagens são enviadas para algum servidor?", "a": "Não. O redimensionamento acontece no seu próprio dispositivo, dentro do navegador. Suas imagens nunca são enviadas aos nossos servidores." },
         { "q": "Quais formatos são compatíveis?", "a": "Você pode abrir arquivos JPG, PNG, WebP, GIF e BMP, e também AVIF onde o seu navegador oferecer suporte. Você pode salvar em JPG, PNG ou WebP." },
         { "q": "Redimensionar reduz a qualidade?", "a": "Diminuir uma imagem a mantém nítida, porque a ferramenta usa um filtro de alta qualidade. Aumentar não cria detalhes que não existem, então imagens ampliadas ficam mais suaves. Em JPG e WebP, você mesmo pode escolher a qualidade." },

@@ -20,7 +20,7 @@
         },
         {
           "title": "Neden ücretsiz?",
-          "text": "Site, Google AdSense'in açıkça işaretlenmiş tek bir reklamıyla desteklenmektedir. Bu reklam alan adının ve aracı geliştirmeye harcanan zamanın masrafını karşılar. Reklam düğmelerden uzak tutulur ve her şey o olmadan da çalışır."
+          "text": "Site, Google AdSense'in açıkça işaretlenmiş birkaç reklamıyla desteklenmektedir. Bu reklamlar alan adının ve aracı geliştirmeye harcanan zamanın masrafını karşılar. Reklamlar düğmelerden uzak tutulur ve her şey onlar olmadan da çalışır."
         },
         {
           "title": "Boyutlar ve doğruluk",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Reklamlar",
-          "text": "Reklam göstermek için Google AdSense kullanıyoruz. Google dahil üçüncü taraf sağlayıcılar, bu web sitesine veya diğer web sitelerine daha önceki ziyaretlerinize dayalı reklamlar sunmak için çerezler kullanır. Google'ın reklam çerezlerini kullanması, Google'ın ve ortaklarının size bu siteye ve internetteki diğer sitelere yaptığınız ziyarete dayalı reklamlar sunmasını sağlar. Google Ads Settings sayfasını ziyaret ederek kişiselleştirilmiş reklamcılığı reddedebilir, www.aboutads.info adresinden de bazı üçüncü taraf sağlayıcıların kişiselleştirilmiş reklamcılık için çerez kullanmasını reddedebilirsiniz. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de reklamlar, yalnızca Google tarafından sertifikalandırılmış bir onay yönetim platformunun gösterdiği mesajda onay vermenizden sonra kişiselleştirilir. Tercihinizi istediğiniz zaman alt bilgideki Gizlilik ve çerez ayarları bağlantısıyla değiştirebilirsiniz."
+          "text": "Reklam göstermek için Google AdSense kullanıyoruz. Google dahil üçüncü taraf sağlayıcılar, bu web sitesine veya diğer web sitelerine daha önceki ziyaretlerinize dayalı reklamlar sunmak için çerezler kullanır. Google'ın reklam çerezlerini kullanması, Google'ın ve ortaklarının size bu siteye ve internetteki diğer sitelere yaptığınız ziyarete dayalı reklamlar sunmasını sağlar. Google Ads Settings sayfasını ziyaret ederek kişiselleştirilmiş reklamcılığı reddedebilir, www.aboutads.info adresinden de bazı üçüncü taraf sağlayıcıların kişiselleştirilmiş reklamcılık için çerez kullanmasını reddedebilirsiniz. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de reklamlar, yalnızca Google tarafından sertifikalandırılmış bir onay yönetim platformunun gösterdiği mesajda onay vermenizden sonra kişiselleştirilir. Tercihinizi istediğiniz zaman, reklam gösteren sayfaların alt bilgisindeki Gizlilik ve çerez ayarları bağlantısıyla değiştirebilir veya reklam kişiselleştirmesini Google Ads Settings sayfasından yönetebilirsiniz (aşağıdaki bağlantılara bakın). Amerika Birleşik Devletleri'nde, kişisel verilere ilişkin bir gizlilik yasası olan bir eyalette yaşıyorsanız, Google'ın bu sayfalarda gösterdiği gizlilik tercihleri bağlantısını veya mesajını kullanarak kişisel bilgilerinizin satışından veya paylaşılmasından vazgeçebilirsiniz."
         },
         {
           "title": "Çocuklar",
@@ -94,7 +94,7 @@
         },
         {
           "title": "Haklarınız",
-          "text": "Yaşadığınız yere bağlı olarak, örneğin GDPR veya Hindistan'ın Digital Personal Data Protection Act'i kapsamında, kişisel verilere erişme, bunları düzeltme veya silme hakkına sahip olabilirsiniz. Sizinle ilgili kişisel veri saklamadığımız için genellikle silinecek bir şey yoktur, ancak her türlü talebiniz için {email} adresine yazabilirsiniz."
+          "text": "Yaşadığınız yere bağlı olarak, örneğin GDPR, Hindistan'ın Digital Personal Data Protection Act'i veya ABD eyalet gizlilik yasaları kapsamında, kişisel verilere erişme, bunları düzeltme veya silme hakkına sahip olabilirsiniz. Sizinle ilgili kişisel veri saklamadığımız için genellikle silinecek bir şey yoktur, ancak her türlü talebiniz için {email} adresine yazabilirsiniz."
         },
         {
           "title": "Bu politikadaki değişiklikler",

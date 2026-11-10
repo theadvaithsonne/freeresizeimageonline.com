@@ -53,7 +53,7 @@
     },
     "faq": {
       "items": [
-        { "q": "Czy to naprawdę za darmo?", "a": "Tak. Bez rejestracji, bez okresu próbnego i bez dziennego limitu. Strona utrzymuje się z jednej reklamy obok narzędzia. Bardzo duże obrazy mogą być zbyt dużym obciążeniem dla telefonu lub starego komputera. Jeśli tak się stanie, zobaczysz komunikat." },
+        { "q": "Czy to naprawdę za darmo?", "a": "Tak. Bez rejestracji, bez okresu próbnego i bez dziennego limitu. Strona utrzymuje się z kilku wyraźnie oznaczonych reklam. Bardzo duże obrazy mogą być zbyt dużym obciążeniem dla telefonu lub starego komputera. Jeśli tak się stanie, zobaczysz komunikat." },
         { "q": "Czy moje obrazy są wysyłane na serwer?", "a": "Nie. Zmiana rozmiaru odbywa się na Twoim urządzeniu, w przeglądarce. Twoje obrazy nigdy nie trafiają na nasze serwery." },
         { "q": "Jakie formaty są obsługiwane?", "a": "Możesz otwierać pliki JPG, PNG, WebP, GIF i BMP, a także AVIF, jeśli obsługuje go Twoja przeglądarka. Zapisać możesz jako JPG, PNG lub WebP." },
         { "q": "Czy zmiana rozmiaru obniży jakość?", "a": "Zmniejszony obraz pozostaje ostry, bo narzędzie używa filtra wysokiej jakości. Powiększenie nie doda szczegółów, których nie ma, więc powiększone obrazy wyglądają na bardziej miękkie. W przypadku JPG i WebP jakość możesz wybrać samodzielnie." },

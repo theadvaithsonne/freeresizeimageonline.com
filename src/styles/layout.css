@@ -15,7 +15,7 @@
 }
 
 .page__inline-ad {
-  margin-top: var(--space-6);
+  margin-top: var(--space-8); /* well away from the last links and buttons of the page */
 }
 
 .page__rail {
@@ -23,11 +23,11 @@
 }
 
 @media (min-width: 75rem) {
-  .page {
+  .page--rail {
     grid-template-columns: minmax(0, 1fr) var(--rail-w);
     /* a wide gap keeps the ad away from the tool's buttons (Google ad placement policy) */
-    gap: var(--space-7);
-    align-items: stretch; /* rail column spans full height so the sticky ad can travel */
+    gap: var(--space-8);
+    align-items: start;
   }
   .page__inline-ad {
     display: none;

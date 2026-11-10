@@ -20,7 +20,7 @@
         },
         {
           "title": "Warum es kostenlos ist",
-          "text": "Die Seite finanziert sich durch eine einzelne, klar gekennzeichnete Anzeige von Google AdSense. Sie bezahlt die Domain und die Zeit, die in die Verbesserung des Tools fließt. Die Anzeige hält Abstand zu den Schaltflächen, und alles funktioniert auch ohne sie."
+          "text": "Die Seite finanziert sich durch einige klar gekennzeichnete Anzeigen von Google AdSense. Sie bezahlen die Domain und die Zeit, die in die Verbesserung des Tools fließt. Die Anzeigen halten Abstand zu den Schaltflächen, und alles funktioniert auch ohne sie."
         },
         {
           "title": "Größen und Genauigkeit",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Werbung",
-          "text": "Wir verwenden Google AdSense, um Werbung anzuzeigen. Drittanbieter, einschließlich Google, verwenden Cookies, um Werbung auf Grundlage Ihrer früheren Besuche auf dieser Website oder anderen Websites auszuliefern. Durch die Verwendung von Werbe-Cookies kann Google mit seinen Partnern Ihnen Werbung auf Grundlage Ihres Besuchs dieser und anderer Seiten im Internet anzeigen. Sie können personalisierte Werbung deaktivieren, indem Sie Google Ads Settings aufrufen, und Sie können der Verwendung von Cookies für personalisierte Werbung durch einige Drittanbieter unter www.aboutads.info widersprechen. Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz wird Werbung nur personalisiert, nachdem Sie in der Meldung einer von Google zertifizierten Consent-Management-Plattform eingewilligt haben. Sie können Ihre Auswahl jederzeit über den Link „Datenschutz- und Cookie-Einstellungen“ in der Fußzeile ändern."
+          "text": "Wir verwenden Google AdSense, um Werbung anzuzeigen. Drittanbieter, einschließlich Google, verwenden Cookies, um Werbung auf Grundlage Ihrer früheren Besuche auf dieser Website oder anderen Websites auszuliefern. Durch die Verwendung von Werbe-Cookies kann Google mit seinen Partnern Ihnen Werbung auf Grundlage Ihres Besuchs dieser und anderer Seiten im Internet anzeigen. Sie können personalisierte Werbung deaktivieren, indem Sie Google Ads Settings aufrufen, und Sie können der Verwendung von Cookies für personalisierte Werbung durch einige Drittanbieter unter www.aboutads.info widersprechen. Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz wird Werbung nur personalisiert, nachdem Sie in der Meldung einer von Google zertifizierten Consent-Management-Plattform eingewilligt haben. Sie können Ihre Auswahl jederzeit über den Link „Datenschutz- und Cookie-Einstellungen“ in der Fußzeile der Seiten, die Werbung anzeigen, ändern oder die Personalisierung der Werbung in den Google Ads Settings verwalten (siehe die Links unten). Wenn Sie in den Vereinigten Staaten in einem Bundesstaat mit eigenem Datenschutzgesetz leben, können Sie dem Verkauf oder der Weitergabe Ihrer personenbezogenen Daten widersprechen, und zwar über den Link oder die Meldung zu den Datenschutzoptionen, die Google auf diesen Seiten anzeigt."
         },
         {
           "title": "Kinder",
@@ -94,7 +94,7 @@
         },
         {
           "title": "Ihre Rechte",
-          "text": "Je nachdem, wo Sie leben, zum Beispiel nach der DSGVO (GDPR) oder dem indischen Digital Personal Data Protection Act, haben Sie möglicherweise das Recht auf Auskunft, Berichtigung oder Löschung personenbezogener Daten. Da wir keine personenbezogenen Daten über Sie speichern, gibt es in der Regel nichts zu löschen, aber Sie können jederzeit mit einem Anliegen an {email} schreiben."
+          "text": "Je nachdem, wo Sie leben, zum Beispiel nach der DSGVO (GDPR), dem indischen Digital Personal Data Protection Act oder den Datenschutzgesetzen der US-Bundesstaaten, haben Sie möglicherweise das Recht auf Auskunft, Berichtigung oder Löschung personenbezogener Daten. Da wir keine personenbezogenen Daten über Sie speichern, gibt es in der Regel nichts zu löschen, aber Sie können jederzeit mit einem Anliegen an {email} schreiben."
         },
         {
           "title": "Änderungen dieser Erklärung",

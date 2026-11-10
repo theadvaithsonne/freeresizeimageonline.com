@@ -20,7 +20,7 @@
         },
         {
           "title": "Pourquoi c'est gratuit",
-          "text": "Le site est financé par une seule publicité, clairement identifiée, de Google AdSense. Elle paie le nom de domaine et le temps passé à améliorer l'outil. La publicité est tenue à l'écart des boutons, et tout fonctionne sans elle."
+          "text": "Le site est financé par quelques publicités, clairement identifiées, de Google AdSense. Elles paient le nom de domaine et le temps passé à améliorer l'outil. Les publicités sont tenues à l'écart des boutons, et tout fonctionne sans elles."
         },
         {
           "title": "Tailles et précision",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Publicité",
-          "text": "Nous utilisons Google AdSense pour afficher des publicités. Des fournisseurs tiers, dont Google, utilisent des cookies pour diffuser des publicités en fonction de vos visites précédentes sur ce site web ou sur d'autres sites web. L'utilisation de cookies publicitaires par Google lui permet, ainsi qu'à ses partenaires, de vous présenter des publicités en fonction de votre visite sur ce site et sur d'autres sites sur Internet. Vous pouvez désactiver la publicité personnalisée en visitant Google Ads Settings, et vous pouvez désactiver l'utilisation de cookies par certains fournisseurs tiers pour la publicité personnalisée sur www.aboutads.info. Dans l'Espace économique européen, au Royaume-Uni et en Suisse, les publicités ne sont personnalisées qu'après votre consentement, donné dans le message affiché par une plateforme de gestion du consentement certifiée par Google. Vous pouvez modifier votre choix à tout moment grâce au lien Paramètres de confidentialité et de cookies en bas de page."
+          "text": "Nous utilisons Google AdSense pour afficher des publicités. Des fournisseurs tiers, dont Google, utilisent des cookies pour diffuser des publicités en fonction de vos visites précédentes sur ce site web ou sur d'autres sites web. L'utilisation de cookies publicitaires par Google lui permet, ainsi qu'à ses partenaires, de vous présenter des publicités en fonction de votre visite sur ce site et sur d'autres sites sur Internet. Vous pouvez désactiver la publicité personnalisée en visitant Google Ads Settings, et vous pouvez désactiver l'utilisation de cookies par certains fournisseurs tiers pour la publicité personnalisée sur www.aboutads.info. Dans l'Espace économique européen, au Royaume-Uni et en Suisse, les publicités ne sont personnalisées qu'après votre consentement, donné dans le message affiché par une plateforme de gestion du consentement certifiée par Google. Vous pouvez modifier votre choix à tout moment grâce au lien Paramètres de confidentialité et de cookies en bas des pages qui affichent des publicités, ou gérer la personnalisation des publicités dans Google Ads Settings (voir les liens ci-dessous). Aux États-Unis, si vous vivez dans un État qui dispose d'une loi sur la protection de la vie privée, vous pouvez refuser la vente ou le partage de vos informations personnelles grâce au lien ou au message de choix de confidentialité que Google affiche sur ces pages."
         },
         {
           "title": "Enfants",
@@ -94,7 +94,7 @@
         },
         {
           "title": "Vos droits",
-          "text": "Selon votre lieu de résidence, par exemple en vertu du RGPD (GDPR) ou du Digital Personal Data Protection Act indien, vous pouvez avoir le droit d'accéder à vos données personnelles, de les rectifier ou de les supprimer. Comme nous ne stockons aucune donnée personnelle vous concernant, il n'y a généralement rien à supprimer, mais vous pouvez écrire à {email} pour toute demande."
+          "text": "Selon votre lieu de résidence, par exemple en vertu du RGPD (GDPR), du Digital Personal Data Protection Act indien ou des lois des États américains sur la protection de la vie privée, vous pouvez avoir le droit d'accéder à vos données personnelles, de les rectifier ou de les supprimer. Comme nous ne stockons aucune donnée personnelle vous concernant, il n'y a généralement rien à supprimer, mais vous pouvez écrire à {email} pour toute demande."
         },
         {
           "title": "Modifications de cette politique",

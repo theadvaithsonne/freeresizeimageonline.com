@@ -20,7 +20,7 @@
         },
         {
           "title": "Vì sao công cụ miễn phí",
-          "text": "Trang web được hỗ trợ bằng một quảng cáo có nhãn rõ ràng từ Google AdSense. Khoản thu này chi trả cho tên miền và thời gian dành để cải thiện công cụ. Quảng cáo được đặt tránh xa các nút bấm, và mọi chức năng vẫn hoạt động bình thường khi không có quảng cáo."
+          "text": "Trang web được hỗ trợ bằng một vài quảng cáo có nhãn rõ ràng từ Google AdSense. Khoản thu này chi trả cho tên miền và thời gian dành để cải thiện công cụ. Quảng cáo được đặt tránh xa các nút bấm, và mọi chức năng vẫn hoạt động bình thường khi không có quảng cáo."
         },
         {
           "title": "Kích thước và độ chính xác",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Quảng cáo",
-          "text": "Chúng tôi dùng Google AdSense để hiển thị quảng cáo. Các nhà cung cấp bên thứ ba, bao gồm Google, sử dụng cookie để phân phối quảng cáo dựa trên những lần bạn truy cập trước đây vào trang web này hoặc các trang web khác. Việc Google sử dụng cookie quảng cáo cho phép Google và các đối tác của Google phân phối quảng cáo cho bạn dựa trên việc bạn truy cập trang web này và các trang web khác trên Internet. Bạn có thể từ chối quảng cáo được cá nhân hóa bằng cách truy cập Google Ads Settings, và bạn có thể từ chối việc một số nhà cung cấp bên thứ ba sử dụng cookie cho quảng cáo được cá nhân hóa tại www.aboutads.info. Tại Khu vực Kinh tế Châu Âu, Vương quốc Anh và Thụy Sĩ, quảng cáo chỉ được cá nhân hóa sau khi bạn đồng ý trong thông báo do một nền tảng quản lý sự đồng ý được Google chứng nhận hiển thị. Bạn có thể thay đổi lựa chọn của mình bất cứ lúc nào bằng liên kết Cài đặt quyền riêng tư và cookie ở chân trang."
+          "text": "Chúng tôi dùng Google AdSense để hiển thị quảng cáo. Các nhà cung cấp bên thứ ba, bao gồm Google, sử dụng cookie để phân phối quảng cáo dựa trên những lần bạn truy cập trước đây vào trang web này hoặc các trang web khác. Việc Google sử dụng cookie quảng cáo cho phép Google và các đối tác của Google phân phối quảng cáo cho bạn dựa trên việc bạn truy cập trang web này và các trang web khác trên Internet. Bạn có thể từ chối quảng cáo được cá nhân hóa bằng cách truy cập Google Ads Settings, và bạn có thể từ chối việc một số nhà cung cấp bên thứ ba sử dụng cookie cho quảng cáo được cá nhân hóa tại www.aboutads.info. Tại Khu vực Kinh tế Châu Âu, Vương quốc Anh và Thụy Sĩ, quảng cáo chỉ được cá nhân hóa sau khi bạn đồng ý trong thông báo do một nền tảng quản lý sự đồng ý được Google chứng nhận hiển thị. Bạn có thể thay đổi lựa chọn của mình bất cứ lúc nào bằng liên kết Cài đặt quyền riêng tư và cookie ở chân trang của những trang có hiển thị quảng cáo, hoặc quản lý việc cá nhân hóa quảng cáo trong Google Ads Settings (xem các liên kết bên dưới). Tại Hoa Kỳ, nếu bạn sống ở một tiểu bang có luật về quyền riêng tư, bạn có thể từ chối việc bán hoặc chia sẻ thông tin cá nhân của mình bằng liên kết hoặc thông báo về các lựa chọn quyền riêng tư mà Google hiển thị trên những trang đó."
         },
         {
           "title": "Trẻ em",
@@ -94,7 +94,7 @@
         },
         {
           "title": "Quyền của bạn",
-          "text": "Tùy theo nơi bạn sinh sống, chẳng hạn theo GDPR hoặc Đạo luật Bảo vệ Dữ liệu Cá nhân Kỹ thuật số của Ấn Độ, bạn có thể có quyền truy cập, chỉnh sửa hoặc xóa dữ liệu cá nhân. Vì chúng tôi không lưu dữ liệu cá nhân nào về bạn, thường sẽ không có gì để xóa, nhưng bạn vẫn có thể gửi yêu cầu đến {email}."
+          "text": "Tùy theo nơi bạn sinh sống, chẳng hạn theo GDPR, Đạo luật Bảo vệ Dữ liệu Cá nhân Kỹ thuật số của Ấn Độ hoặc các luật về quyền riêng tư của các tiểu bang Hoa Kỳ, bạn có thể có quyền truy cập, chỉnh sửa hoặc xóa dữ liệu cá nhân. Vì chúng tôi không lưu dữ liệu cá nhân nào về bạn, thường sẽ không có gì để xóa, nhưng bạn vẫn có thể gửi yêu cầu đến {email}."
         },
         {
           "title": "Thay đổi chính sách này",

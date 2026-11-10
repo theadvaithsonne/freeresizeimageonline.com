@@ -25,6 +25,7 @@ const p = (suffix: string) => t(lang, `guides.${guideKey}.${suffix}` as MessageK
 const route = GUIDE_ROUTES.find((r) => r.key === guideKey);
 const path = route ? route.path : GUIDES_INDEX_PATH;
 const url = new URL(localizedPath(lang, path), SITE.url).href;
+// The guides index is mostly a list of links with little text of its own, so it carries no ads (the guides themselves do).
 
 const indexItems = list<{ title: string; text: string }>(lang, 'guides.index.items');
 const sections = guideKey === 'index' ? [] : list<Section>(lang, `guides.${guideKey}.sections`);
@@ -70,7 +71,7 @@ const faqLd = faq.length
     }
   : null;
 ---
-<Layout title={p('title')} description={p('description')} lang={lang} path={path}>
+<Layout title={p('title')} description={p('description')} lang={lang} path={path} ads={guideKey !== 'index'}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={safeJson(breadcrumbLd)} />
     {articleLd && <script type="application/ld+json" set:html={safeJson(articleLd)} />}

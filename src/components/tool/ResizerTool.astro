@@ -4,6 +4,7 @@ import { subtree } from '../../i18n';
 import { t } from '../../i18n';
 import { safeJson } from '../../i18n/safe-json';
 import AdSlot from '../AdSlot.astro';
+import { ADS_LIVE } from '../../config/site';
 
 interface Props {
   lang: string;
@@ -211,9 +212,13 @@ const clientData = {
 
     <!-- Phones and tablets: an ad box under the results, well away from the download buttons. On wide screens the
          ad column beside the page is used instead (this box is hidden there). -->
-    <div class="results__ad" data-results-ad>
-      <AdSlot variant="inline" lang={lang} />
-    </div>
+    {
+      ADS_LIVE && (
+        <div class="results__ad" data-results-ad>
+          <AdSlot variant="inline" lang={lang} />
+        </div>
+      )
+    }
   </div>
 
   <div class="visually-hidden" aria-live="polite" data-live></div>
@@ -624,7 +629,11 @@ const clientData = {
     place-items: center;
     background: var(--surface-2);
   }
+  /* The picture fills the fixed 4:3 frame and never decides the card's height (tall photos used to push the sizes and
+     the Download button out of the card). */
   .rcard__media img {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: contain;

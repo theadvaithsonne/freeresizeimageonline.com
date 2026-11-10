@@ -34,15 +34,16 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Policy | Status |
 |---|---|
 | Label ads only "Advertisement" / "Sponsored Links" | Done: label above each box (translated word for "Advertisement") |
-| No ads near buttons that cause accidental clicks | Done: desktop box sits in its own column with a 3rem gap; on phones one box sits under the results (separated by a line and a wide gap) and one after the how-to section, never next to Resize / Download / ZIP. Only boxes that are visible are filled, and a box that becomes visible later (the results box) is filled at that moment |
+| No ads near buttons that cause accidental clicks | Done: the desktop box sits in its own column (not sticky, it does not follow the page) with a gap of 4.5rem; on phones one box sits under the results (separated by a line and a wide gap) and one after the how-to section, never next to Resize / Download / ZIP. Only boxes that are visible are filled, and a box that becomes visible later (the results box) is filled at that moment |
 | Ads must not look like navigation, menus or download links | Done: separate bordered box with label; no arrows or "click here" |
 | No pop-ups, pop-unders, interstitials, auto-refresh | Done: none exist; ads are never refreshed |
-| No ads on pages without publisher content / thin pages | Done: legal pages and the 404 page carry no ads; every ad page has full content |
+| No ads on pages without publisher content / thin pages | Done: legal pages, the 404 page and the guides index (mostly a list of links) carry no ads; every other ad page has 700 words or more |
 | No ads in modals, loading or empty states | Done |
-| No incentives to click, no asking for clicks | Done: the only text is "Ads keep FreeResizeImageOnline free. Everything works without them." |
+| No incentives to click, no asking for clicks | Done: nothing is shown before real ad units exist (no empty "Advertisement" boxes, no "support us" text); no arrows, "click here" or rewards |
 | Layout does not jump when ads load (Better Ads / user experience) | Done: fixed reserved heights; measured layout shift ~0 |
 | Auto ads | Done: shown as OFF for freeresizeimageonline.com (Ads > By site, checked by the owner on 2026-11-11). Google's script still adds one empty, zero-height element (`adsbygoogle-noablate`); it has no visible effect. Manual placement is built in |
-| Ad units | **You** (after approval): create 1 vertical unit (right column) and 1 responsive unit (phones), paste the slot ids in `src/config/site.ts`, redeploy |
+| Ad units | **You** (after approval): create 2 Display ad units ("rail" and "inline"), paste the slot ids in `src/config/site.ts`, redeploy. The boxes and the ad column appear automatically at that moment |
+| Ad code modification | The loader (`Layout.astro`) creates the `ins` element only inside a visible box and calls the normal `adsbygoogle.push({})`; it never refreshes ads, hides units to manipulate them or triggers clicks. The inline unit is fixed-size (`data-full-width-responsive="false"`) so it fits its 336 px box |
 
 ## 5. Content policies
 | Policy | Status |

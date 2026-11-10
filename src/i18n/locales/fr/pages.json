@@ -53,7 +53,7 @@
     },
     "faq": {
       "items": [
-        { "q": "Est-ce vraiment gratuit ?", "a": "Oui. Il n'y a ni inscription, ni période d'essai, ni limite quotidienne. Le site est financé par une seule publicité placée à côté de l'outil. Les très grandes images peuvent être trop lourdes pour un téléphone ou un vieil ordinateur : un message s'affiche si cela arrive." },
+        { "q": "Est-ce vraiment gratuit ?", "a": "Oui. Il n'y a ni inscription, ni période d'essai, ni limite quotidienne. Le site est financé par quelques publicités clairement identifiées. Les très grandes images peuvent être trop lourdes pour un téléphone ou un vieil ordinateur : un message s'affiche si cela arrive." },
         { "q": "Mes images sont-elles envoyées sur un serveur ?", "a": "Non. Le redimensionnement se fait sur votre propre appareil, dans votre navigateur. Vos images ne sont jamais envoyées à nos serveurs." },
         { "q": "Quels formats sont pris en charge ?", "a": "Vous pouvez ouvrir des fichiers JPG, PNG, WebP, GIF et BMP, ainsi que AVIF si votre navigateur le permet. Vous pouvez enregistrer en JPG, PNG ou WebP." },
         { "q": "Le redimensionnement réduit-il la qualité ?", "a": "Réduire une image la garde nette, car l'outil utilise un filtre de haute qualité. L'agrandir ne peut pas ajouter des détails qui n'existent pas : une image agrandie paraît donc plus floue. Pour le JPG et le WebP, vous pouvez choisir vous-même la qualité." },

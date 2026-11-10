@@ -53,7 +53,7 @@
     },
     "faq": {
       "items": [
-        { "q": "È davvero gratis?", "a": "Sì. Non serve registrarsi, non c'è nessuna prova e non c'è nessun limite giornaliero. Il sito si sostiene con un solo annuncio pubblicitario accanto allo strumento. Le immagini molto grandi possono essere troppo pesanti per un telefono o un computer vecchio, e in quel caso vedrai un messaggio." },
+        { "q": "È davvero gratis?", "a": "Sì. Non serve registrarsi, non c'è nessuna prova e non c'è nessun limite giornaliero. Il sito si sostiene con alcuni annunci pubblicitari ben segnalati. Le immagini molto grandi possono essere troppo pesanti per un telefono o un computer vecchio, e in quel caso vedrai un messaggio." },
         { "q": "Le mie immagini vengono caricate online?", "a": "No. Il ridimensionamento avviene sul tuo dispositivo, dentro il tuo browser. Le tue immagini non vengono mai inviate ai nostri server." },
         { "q": "Quali formati sono supportati?", "a": "Puoi aprire file JPG, PNG, WebP, GIF e BMP, e AVIF dove il tuo browser lo supporta. Puoi salvare in JPG, PNG o WebP." },
         { "q": "Ridimensionare riduce la qualità?", "a": "Rimpicciolire un'immagine la mantiene nitida perché lo strumento usa un filtro di alta qualità. Ingrandirla non può aggiungere dettagli che non ci sono, quindi le immagini ingrandite risultano più morbide. Per JPG e WebP puoi scegliere tu la qualità." },

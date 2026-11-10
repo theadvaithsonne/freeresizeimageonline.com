@@ -11,8 +11,8 @@
  *
  * The Google <ins> element is created by the page script (see Layout.astro) only while its box is visible.
  *
- * Until ADSENSE.client is set in src/config/site.ts (after AdSense approval) no Google code is loaded
- * and a friendly placeholder is shown. Space is reserved with fixed heights, so the page never jumps.
+ * Until an ad unit id is set in src/config/site.ts (after AdSense approval) NOTHING is rendered: no label and no empty
+ * box over a non-ad. Once live, space is reserved with fixed heights, so the page never jumps.
  * Label wording is restricted by Google to "Advertisement" or "Sponsored Links".
  */
 import { ADSENSE } from '../config/site';
@@ -27,25 +27,23 @@ const label = t(lang, 'ads.label');
 const slotId = ADSENSE.slots[variant];
 const live = Boolean(ADSENSE.client && slotId);
 ---
+{
+  live && (
 <aside class:list={['ad-slot', `ad-slot--${variant}`]} aria-label={label} data-ad-slot={variant}>
   <p class="ad-slot__label">{label}</p>
   <div class="ad-slot__box">
-    {
-      live ? (
-        <div
-          class="ad-slot__unit"
-          data-ad-unit
-          data-client={ADSENSE.client}
-          data-slot={slotId}
-          data-format={variant === 'rail' ? 'vertical' : 'auto'}
-          data-responsive={variant === 'rail' ? 'false' : 'true'}
-        />
-      ) : (
-        <p class="ad-slot__note">{t(lang, 'ads.note')}</p>
-      )
-    }
+    <div
+      class="ad-slot__unit"
+      data-ad-unit
+      data-client={ADSENSE.client}
+      data-slot={slotId}
+      data-format={variant === 'rail' ? 'vertical' : 'auto'}
+      data-responsive="false"
+    />
   </div>
 </aside>
+  )
+}
 
 <style>
   .ad-slot {
@@ -72,13 +70,6 @@ const live = Boolean(ADSENSE.client && slotId);
   .ad-slot__unit {
     width: 100%;
   }
-  .ad-slot__note {
-    margin: 0;
-    max-width: 14rem;
-    text-align: center;
-    color: var(--text-muted);
-    font-size: var(--step--1);
-  }
 
   /* Inline (phones/tablets): visible below 75rem only */
   .ad-slot--inline {
@@ -89,7 +80,7 @@ const live = Boolean(ADSENSE.client && slotId);
     min-height: var(--ad-inline-h);
   }
 
-  /* Rail (desktop): visible from 75rem up, sticks below the header while scrolling */
+  /* Rail (desktop): visible from 75rem up, in its own column beside the content (it does not float or follow the page) */
   .ad-slot--rail {
     display: none;
   }
@@ -103,8 +94,6 @@ const live = Boolean(ADSENSE.client && slotId);
     }
     .ad-slot--rail {
       display: block;
-      position: sticky;
-      top: calc(var(--header-h) + var(--space-4));
     }
   }
 </style>

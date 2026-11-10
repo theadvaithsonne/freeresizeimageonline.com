@@ -53,7 +53,7 @@
     },
     "faq": {
       "items": [
-        { "q": "Có thật sự miễn phí không?", "a": "Có. Không cần đăng ký, không dùng thử và không giới hạn mỗi ngày. Trang web được duy trì nhờ một quảng cáo duy nhất đặt cạnh công cụ. Những ảnh quá lớn có thể vượt quá sức của điện thoại hoặc máy tính cũ, và bạn sẽ thấy một thông báo nếu điều đó xảy ra." },
+        { "q": "Có thật sự miễn phí không?", "a": "Có. Không cần đăng ký, không dùng thử và không giới hạn mỗi ngày. Trang web được duy trì nhờ một vài quảng cáo có nhãn rõ ràng. Những ảnh quá lớn có thể vượt quá sức của điện thoại hoặc máy tính cũ, và bạn sẽ thấy một thông báo nếu điều đó xảy ra." },
         { "q": "Ảnh của tôi có bị tải lên không?", "a": "Không. Việc đổi kích thước diễn ra ngay trên thiết bị của bạn, trong trình duyệt. Ảnh của bạn không bao giờ được gửi đến máy chủ của chúng tôi." },
         { "q": "Hỗ trợ những định dạng nào?", "a": "Bạn có thể mở tệp JPG, PNG, WebP, GIF và BMP, cùng AVIF nếu trình duyệt của bạn hỗ trợ. Bạn có thể lưu dưới dạng JPG, PNG hoặc WebP." },
         { "q": "Đổi kích thước có làm giảm chất lượng không?", "a": "Thu nhỏ ảnh vẫn giữ được độ nét vì công cụ dùng bộ lọc chất lượng cao. Phóng to ảnh thì không thể thêm chi tiết vốn không có, nên ảnh phóng to trông sẽ mềm hơn. Với JPG và WebP, bạn có thể tự chọn chất lượng." },

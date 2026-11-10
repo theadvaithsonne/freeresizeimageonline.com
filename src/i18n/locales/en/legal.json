@@ -20,7 +20,7 @@
         },
         {
           "title": "Why it is free",
-          "text": "The site is supported by one clearly labelled advertisement from Google AdSense. It pays for the domain and for the time spent improving the tool. The advertisement is kept away from the buttons, and everything works without it."
+          "text": "The site is supported by a few clearly labelled advertisements from Google AdSense. They pay for the domain and for the time spent improving the tool. The advertisements are kept away from the buttons, and everything works without them."
         },
         {
           "title": "Sizes and accuracy",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Advertising",
-          "text": "We use Google AdSense to show ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to this site and other sites on the Internet. You can opt out of personalized advertising by visiting Google Ads Settings, and you can opt out of some third-party vendors' use of cookies for personalized advertising at www.aboutads.info. In the European Economic Area, the United Kingdom and Switzerland, ads are personalized only after you give consent in the message shown by a Google-certified consent management platform. You can change your choice at any time with the Privacy and cookie settings link in the footer."
+          "text": "We use Google AdSense to show ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to this site and other sites on the Internet. You can opt out of personalized advertising by visiting Google Ads Settings, and you can opt out of some third-party vendors' use of cookies for personalized advertising at www.aboutads.info. In the European Economic Area, the United Kingdom and Switzerland, ads are personalized only after you give consent in the message shown by a Google-certified consent management platform. You can change your choice at any time with the Privacy and cookie settings link in the footer of the pages that show ads, or manage ad personalization in Google Ads Settings (see the links below). In the United States, if you live in a state that has a privacy law, you can opt out of the sale or sharing of your personal information using the privacy choices link or message that Google shows on those pages."
         },
         {
           "title": "Children",
@@ -94,7 +94,7 @@
         },
         {
           "title": "Your rights",
-          "text": "Depending on where you live, for example under the GDPR or India's Digital Personal Data Protection Act, you may have the right to access, correct or delete personal data. Because we do not store personal data about you, there is usually nothing to delete, but you can write to {email} with any request."
+          "text": "Depending on where you live, for example under the GDPR, India's Digital Personal Data Protection Act or US state privacy laws, you may have the right to access, correct or delete personal data. Because we do not store personal data about you, there is usually nothing to delete, but you can write to {email} with any request."
         },
         {
           "title": "Changes to this policy",

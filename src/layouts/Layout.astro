@@ -40,6 +40,8 @@ const versions = alternates(path);
 // The AdSense code is only needed where ads can show. Before any ad unit exists it is loaded on the home pages
 // alone, which is where Google's site check looks; every other page stays free of third-party code.
 const loadAdScript = Boolean(ADSENSE.client) && ads && (ADS_LIVE || path === '/');
+// Ad boxes and the ad column exist only once real ad units are set up: no empty, labelled boxes before that.
+const showAds = ads && ADS_LIVE;
 ---
 <!doctype html>
 <html lang={language.htmlLang} dir={language.dir} data-lang={language.code}>
@@ -115,18 +117,18 @@ const loadAdScript = Boolean(ADSENSE.client) && ads && (ADS_LIVE || path === '/'
     {toolNav && <ToolNav lang={lang} path={path} />}
     <LanguageSuggest lang={lang} path={path} />
 
-    <div class="page container">
+    <div class:list={['page container', { 'page--rail': showAds }]}>
       <main id="main" class="page__main">
         <Breadcrumbs lang={lang} path={path} />
         <slot />
-        {ads && inlineAd === 'end' && (
+        {showAds && inlineAd === 'end' && (
           <div class="page__inline-ad">
             <AdSlot variant="inline" lang={lang} />
           </div>
         )}
       </main>
       {
-        ads && (
+        showAds && (
           <div class="page__rail">
             <AdSlot variant="rail" lang={lang} />
           </div>

@@ -53,7 +53,7 @@
     },
     "faq": {
       "items": [
-        { "q": "Ist es wirklich kostenlos?", "a": "Ja. Es gibt keine Anmeldung, keine Testphase und kein Tageslimit. Die Seite wird durch eine einzelne Werbeanzeige neben dem Tool finanziert. Sehr große Bilder können für ein Smartphone oder einen alten Computer zu viel sein. Dann sehen Sie eine Meldung." },
+        { "q": "Ist es wirklich kostenlos?", "a": "Ja. Es gibt keine Anmeldung, keine Testphase und kein Tageslimit. Die Seite wird durch einige klar gekennzeichnete Werbeanzeigen finanziert. Sehr große Bilder können für ein Smartphone oder einen alten Computer zu viel sein. Dann sehen Sie eine Meldung." },
         { "q": "Werden meine Bilder hochgeladen?", "a": "Nein. Die Größenänderung findet auf Ihrem eigenen Gerät in Ihrem Browser statt. Ihre Bilder werden nie an unsere Server gesendet." },
         { "q": "Welche Formate werden unterstützt?", "a": "Sie können JPG-, PNG-, WebP-, GIF- und BMP-Dateien öffnen, und AVIF, sofern Ihr Browser es unterstützt. Gespeichert werden kann als JPG, PNG oder WebP." },
         { "q": "Verringert die Größenänderung die Qualität?", "a": "Ein verkleinertes Bild bleibt scharf, weil das Tool einen hochwertigen Filter verwendet. Beim Vergrößern können keine Details entstehen, die nicht vorhanden sind, daher wirken vergrößerte Bilder weicher. Bei JPG und WebP können Sie die Qualität selbst wählen." },
