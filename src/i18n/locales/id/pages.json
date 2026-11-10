@@ -14,7 +14,8 @@
     "signature": "Ubah ukuran tanda tangan",
     "pngToJpg": "PNG ke JPG",
     "jpgToPng": "JPG ke PNG",
-    "webpToJpg": "WebP ke JPG"
+    "webpToJpg": "WebP ke JPG",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "Cara menggunakan",
@@ -819,5 +820,12 @@
         }
       ]
     }
+  },
+  "faq": {
+    "title": "FAQ - Ubah Ukuran, Kompres, dan Konversi Gambar",
+    "description": "Jawaban pertanyaan umum: mengecilkan gambar ke KB, ukuran dalam cm, pas foto, kompres foto, serta konversi JPG, PNG, dan WebP.",
+    "h1": "Pertanyaan yang sering diajukan",
+    "intro": "Jawaban singkat tentang alat ubah ukuran gambar gratis, dikelompokkan per tugas. Semua berjalan di browser Anda, jadi foto tidak pernah diunggah.",
+    "jump": "Langsung ke"
   }
 }

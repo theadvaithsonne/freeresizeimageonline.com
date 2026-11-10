@@ -3,7 +3,7 @@
  * Visible breadcrumb trail ("Image resizer > Resize in cm, mm or inches") shown above the page title on every
  * inner page. Search engines also get the same trail as structured data (BreadcrumbList on tool pages).
  */
-import { GUIDES_INDEX_PATH, GUIDE_ROUTES, LEGAL_ROUTES, TOOL_ROUTES } from '../data/routes';
+import { FAQ_PATH, GUIDES_INDEX_PATH, GUIDE_ROUTES, LEGAL_ROUTES, TOOL_ROUTES } from '../data/routes';
 import { localizedPath, t, type MessageKey } from '../i18n';
 
 interface Props {
@@ -21,6 +21,7 @@ const guide = GUIDE_ROUTES.find((r) => r.path === path);
 let trail: { label: string; href?: string }[] = [];
 if (tool) trail = [{ label: t(lang, `nav.${tool.key}` as 'nav.home') }];
 else if (legal) trail = [{ label: t(lang, `footer.${legal.key}` as 'footer.about') }];
+else if (path === FAQ_PATH) trail = [{ label: t(lang, 'nav.faq') }];
 else if (path === GUIDES_INDEX_PATH) trail = [{ label: t(lang, 'guides.nav') }];
 else if (guide) {
   trail = [

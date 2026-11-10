@@ -12,7 +12,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Publisher is 18+, owns the site, can edit its HTML | **You** confirm. Site is yours; the code snippet, `google-adsense-account` meta tag and `ads.txt` are live for verification |
 | Own, high-quality content | Done: original how-to text, tips, an explanatory section, FAQ and size tables on 14 tool pages, plus 3 written guides and a guides index, all in 20 languages. Every page that shows ads has 700 to 1,000+ words (the guides index 350) |
 | Site language supported | Done: all 20 languages are on Google's supported-language list |
-| Working, finished site | Done: live over HTTPS, 461 pages (23 pages x 20 languages + 404), no placeholder text |
+| Working, finished site | Done: live over HTTPS, 481 pages (24 pages x 20 languages + 404), no placeholder text |
 
 ## 2. Required pages and disclosures
 | Requirement | Status |
@@ -34,14 +34,14 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Policy | Status |
 |---|---|
 | Label ads only "Advertisement" / "Sponsored Links" | Done: label above each box (translated word for "Advertisement") |
-| No ads near buttons that cause accidental clicks | Done: desktop box sits in its own column with a 3rem gap; phone box sits after the how-to section, never next to Resize / Download / ZIP |
+| No ads near buttons that cause accidental clicks | Done: desktop box sits in its own column with a 3rem gap; on phones one box sits under the results (separated by a line and a wide gap) and one after the how-to section, never next to Resize / Download / ZIP. Only boxes that are visible are filled, and a box that becomes visible later (the results box) is filled at that moment |
 | Ads must not look like navigation, menus or download links | Done: separate bordered box with label; no arrows or "click here" |
 | No pop-ups, pop-unders, interstitials, auto-refresh | Done: none exist; ads are never refreshed |
 | No ads on pages without publisher content / thin pages | Done: legal pages and the 404 page carry no ads; every ad page has full content |
 | No ads in modals, loading or empty states | Done |
 | No incentives to click, no asking for clicks | Done: the only text is "Ads keep FreeResizeImageOnline free. Everything works without them." |
 | Layout does not jump when ads load (Better Ads / user experience) | Done: fixed reserved heights; measured layout shift ~0 |
-| Auto ads | **You**: set **OFF** now (AdSense -> Sites -> freeresizeimageonline.com -> Auto ads). With the snippet on the page, Auto ads would otherwise place ads anywhere. Manual placement is built in |
+| Auto ads | **You**: set **OFF** now. The live site shows Google injecting its own "auto" ad container (empty for now), so Auto ads is ON in your account (AdSense -> Sites -> freeresizeimageonline.com -> Auto ads). With the snippet on the page, Auto ads would otherwise place ads anywhere. Manual placement is built in |
 | Ad units | **You** (after approval): create 1 vertical unit (right column) and 1 responsive unit (phones), paste the slot ids in `src/config/site.ts`, redeploy |
 
 ## 5. Content policies

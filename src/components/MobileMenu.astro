@@ -4,7 +4,7 @@
  * tool links under the header does this job. The panel lists every tool page by group, the guides and the legal
  * pages, so every page is one tap away - and every page is linked from every other page for search engines.
  */
-import { GUIDES_INDEX_PATH, GUIDE_ROUTES, LEGAL_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
+import { FAQ_PATH, GUIDES_INDEX_PATH, GUIDE_ROUTES, LEGAL_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
 import { list, localizedPath, t, type MessageKey } from '../i18n';
 import ThemeToggle from './ThemeToggle.astro';
 
@@ -39,6 +39,10 @@ const legalLinks = LEGAL_ROUTES.map((r) => ({
   label: t(lang, `footer.${r.key}` as MessageKey),
   current: r.path === path,
 }));
+const quick = [
+  { href: localizedPath(lang, FAQ_PATH), label: t(lang, 'nav.faq'), current: path === FAQ_PATH },
+  { href: localizedPath(lang, GUIDES_INDEX_PATH), label: t(lang, 'guides.nav'), current: path.startsWith(GUIDES_INDEX_PATH) },
+];
 const label = t(lang, 'a11y.menu');
 ---
 <button
@@ -59,6 +63,15 @@ const label = t(lang, 'a11y.menu');
 
 <nav class="menu-panel" id="site-menu" data-menu-panel aria-label={label} hidden>
   <div class="container menu-panel__inner">
+    <ul class="menu-quick">
+      {
+        quick.map((l) => (
+          <li>
+            <a href={l.href} aria-current={l.current ? 'page' : undefined}>{l.label}</a>
+          </li>
+        ))
+      }
+    </ul>
     {
       groups.map((g) => (
         <section class="menu-group">
@@ -228,6 +241,26 @@ const label = t(lang, 'a11y.menu');
     .menu-theme {
       display: block;
     }
+  }
+  /* FAQ and Guides as two prominent tabs at the top of the menu */
+  .menu-quick {
+    grid-column: 1 / -1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .menu-quick li {
+    flex: 1 1 8rem;
+  }
+  .menu-quick a {
+    justify-content: center;
+    min-height: 3rem;
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-full);
+    font-weight: 700;
   }
   .menu-legal {
     grid-column: 1 / -1;

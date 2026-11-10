@@ -14,7 +14,8 @@
     "signature": "Resize signature",
     "pngToJpg": "PNG to JPG",
     "jpgToPng": "JPG to PNG",
-    "webpToJpg": "WebP to JPG"
+    "webpToJpg": "WebP to JPG",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "How to use it",
@@ -819,5 +820,12 @@
         }
       ]
     }
+  },
+  "faq": {
+    "title": "Image Resizer FAQ - Questions and Answers",
+    "description": "Answers to common questions about resizing images to a file size, centimeters or passport photos, compressing photos and converting JPG, PNG and WebP.",
+    "h1": "Frequently asked questions",
+    "intro": "Quick answers about the free image resizer, grouped by task. Everything runs in your browser, so your pictures are never uploaded.",
+    "jump": "Jump to"
   }
 }

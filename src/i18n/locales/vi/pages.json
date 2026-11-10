@@ -14,7 +14,8 @@
     "signature": "Đổi kích thước chữ ký",
     "pngToJpg": "PNG sang JPG",
     "jpgToPng": "JPG sang PNG",
-    "webpToJpg": "WebP sang JPG"
+    "webpToJpg": "WebP sang JPG",
+    "faq": "Hỏi đáp"
   },
   "common": {
     "howTo": "Cách sử dụng",
@@ -678,5 +679,12 @@
         }
       ]
     }
+  },
+  "faq": {
+    "title": "Hỏi đáp - Đổi kích thước, nén và chuyển đổi ảnh",
+    "description": "Giải đáp câu hỏi thường gặp: giảm ảnh xuống KB, kích thước theo cm, ảnh hộ chiếu, nén ảnh và chuyển đổi JPG, PNG, WebP.",
+    "h1": "Câu hỏi thường gặp",
+    "intro": "Trả lời nhanh về công cụ đổi kích thước ảnh miễn phí, chia theo tác vụ. Mọi thứ chạy ngay trong trình duyệt nên ảnh của bạn không bao giờ bị tải lên.",
+    "jump": "Đi tới"
   }
 }

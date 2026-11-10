@@ -3,6 +3,7 @@ import { PRESET_GROUPS, presetLabel } from '../../data/presets';
 import { subtree } from '../../i18n';
 import { t } from '../../i18n';
 import { safeJson } from '../../i18n/safe-json';
+import AdSlot from '../AdSlot.astro';
 
 interface Props {
   lang: string;
@@ -207,6 +208,12 @@ const clientData = {
 
     <p class="results__alert" role="alert" data-results-alert hidden></p>
     <ul class="results__grid" data-grid></ul>
+
+    <!-- Phones and tablets: an ad box under the results, well away from the download buttons. On wide screens the
+         ad column beside the page is used instead (this box is hidden there). -->
+    <div class="results__ad" data-results-ad>
+      <AdSlot variant="inline" lang={lang} />
+    </div>
   </div>
 
   <div class="visually-hidden" aria-live="polite" data-live></div>
@@ -303,7 +310,7 @@ const clientData = {
     justify-items: center;
     align-content: center;
     gap: var(--space-3);
-    min-height: 24rem;
+    min-height: 21rem;
     padding: var(--space-6) var(--space-4);
     text-align: center;
     background: var(--surface);
@@ -329,8 +336,8 @@ const clientData = {
   }
   .drop__title {
     margin: 0;
-    font-size: var(--step-2);
-    font-weight: 800;
+    font-size: var(--step-1);
+    font-weight: 750;
     line-height: 1.25;
   }
   .drop__or {
@@ -474,7 +481,7 @@ const clientData = {
      ------------------------------------------------------------------------------------------ */
   .results {
     display: grid;
-    gap: var(--space-5);
+    gap: var(--space-6);
   }
   .results__head {
     display: grid;
@@ -520,7 +527,7 @@ const clientData = {
     z-index: 5;
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
     gap: var(--space-3) var(--space-5);
     padding: var(--space-3) var(--space-4);
@@ -532,24 +539,54 @@ const clientData = {
   .results__bar-group {
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
+    align-items: center;
     gap: var(--space-3);
   }
   .results__bar .btn {
     min-height: var(--control-h);
     padding-inline: var(--space-5);
   }
-  .results__format {
-    min-width: 12rem;
+  /* "Download as" label and list on one line (stacked on narrow screens) */
+  .results__bar .results__format {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    min-width: 0;
+  }
+  .results__bar .results__format label {
+    margin: 0;
+    white-space: nowrap;
+    font-weight: 650;
   }
   @container page (max-width: 40rem) {
     .results__bar {
       position: static;
     }
-    .results__bar-group,
-    .results__bar-group .btn,
-    .results__format {
-      flex: 1 1 100%;
+    /* Phones: the main action (download) comes first; "change settings" and "start over" sit side by side */
+    .results__bar {
+      display: grid;
+      gap: var(--space-4);
+      padding: var(--space-4);
+    }
+    .results__bar-group {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-3);
+    }
+    .results__bar-group--end {
+      order: -1;
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .results__bar-group .btn {
+      align-self: stretch;
+      padding-inline: var(--space-2);
+      font-size: var(--step--1);
+      line-height: 1.2;
+    }
+    .results__bar .results__format {
+      flex-direction: column;
+      align-items: stretch;
+      gap: var(--space-1);
     }
   }
 
@@ -559,8 +596,13 @@ const clientData = {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
-    gap: var(--space-4);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+    gap: var(--space-5);
+  }
+  .results__ad {
+    margin-top: var(--space-5);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--border);
   }
   .rcard {
     display: grid;
@@ -580,10 +622,7 @@ const clientData = {
     aspect-ratio: 4 / 3;
     display: grid;
     place-items: center;
-    /* light checkerboard so transparent images are easy to see */
-    background:
-      conic-gradient(var(--surface-2) 25%, var(--surface) 0 50%, var(--surface-2) 0 75%, var(--surface) 0) 0 0 /
-      1.25rem 1.25rem;
+    background: var(--surface-2);
   }
   .rcard__media img {
     width: 100%;
@@ -648,7 +687,7 @@ const clientData = {
     display: grid;
     align-content: start;
     gap: var(--space-2);
-    padding: var(--space-4) var(--space-4) var(--space-2);
+    padding: var(--space-5) var(--space-5) var(--space-2);
     min-width: 0;
   }
   .rcard__name {
@@ -683,7 +722,7 @@ const clientData = {
   .rcard__sizes dd {
     margin: 0;
     font-size: var(--step-1);
-    font-weight: 800;
+    font-weight: 700;
   }
   .rcard__sizes div:last-child dd {
     color: var(--success-strong);
@@ -698,7 +737,7 @@ const clientData = {
     display: flex;
     align-items: center;
     gap: var(--space-2);
-    padding: var(--space-2) var(--space-4) var(--space-4);
+    padding: var(--space-3) var(--space-5) var(--space-5);
   }
   .rcard__download {
     flex: 1 1 auto;

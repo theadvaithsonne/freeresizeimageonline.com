@@ -89,8 +89,12 @@ export const GUIDE_ROUTES = [
 /** Date the guides were published / last reviewed (shown to search engines as structured data). */
 export const GUIDES_DATE = '2026-11-11';
 
+/** One page with every question and answer, grouped by tool (linked from the header, the menu and the footer). */
+export const FAQ_PATH = '/faq/';
+
 export const ALL_PATHS: string[] = [
   ...TOOL_ROUTES.map((r) => r.path),
+  FAQ_PATH,
   GUIDES_INDEX_PATH,
   ...GUIDE_ROUTES.map((r) => r.path),
   ...LEGAL_ROUTES.map((r) => r.path),

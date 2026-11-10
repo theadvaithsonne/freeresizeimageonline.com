@@ -14,7 +14,8 @@
     "signature": "Ridimensiona firma",
     "pngToJpg": "Da PNG a JPG",
     "jpgToPng": "Da JPG a PNG",
-    "webpToJpg": "Da WebP a JPG"
+    "webpToJpg": "Da WebP a JPG",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "Come si usa",
@@ -510,5 +511,12 @@
         { "q": "È gratis?", "a": "Sì. Non serve registrarsi, non c'è nessuna filigrana e non ci sono limiti al numero di immagini." }
       ]
     }
+  },
+  "faq": {
+    "title": "FAQ - Ridimensionare, comprimere e convertire immagini",
+    "description": "Risposte alle domande più comuni: ridurre un'immagine a KB, dimensioni in cm, foto tessera, comprimere e convertire JPG, PNG e WebP.",
+    "h1": "Domande frequenti",
+    "intro": "Risposte rapide sullo strumento gratuito per ridimensionare le immagini, divise per attività. Tutto avviene nel tuo browser: le tue foto non vengono mai caricate.",
+    "jump": "Vai a"
   }
 }

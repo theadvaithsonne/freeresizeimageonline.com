@@ -1,6 +1,6 @@
 ---
 import { ADSENSE, SITE } from '../config/site';
-import { GUIDES_INDEX_PATH, GUIDE_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
+import { FAQ_PATH, GUIDES_INDEX_PATH, GUIDE_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
 import { list, localizedPath, t, type MessageKey } from '../i18n';
 import Counters from './Counters.astro';
 
@@ -27,6 +27,7 @@ columns.push({
 });
 
 const links = [
+  { href: localizedPath(lang, FAQ_PATH), label: t(lang, 'nav.faq') },
   { href: localizedPath(lang, '/about/'), label: t(lang, 'footer.about') },
   { href: localizedPath(lang, '/contact/'), label: t(lang, 'footer.contact') },
   { href: localizedPath(lang, '/privacy/'), label: t(lang, 'footer.privacy') },

@@ -14,7 +14,8 @@
     "signature": "Redimensionner la signature",
     "pngToJpg": "Convertir PNG en JPG",
     "jpgToPng": "Convertir JPG en PNG",
-    "webpToJpg": "Convertir WebP en JPG"
+    "webpToJpg": "Convertir WebP en JPG",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "Comment l'utiliser",
@@ -510,5 +511,12 @@
         { "q": "Est-ce gratuit ?", "a": "Oui. Il n'y a ni inscription, ni filigrane, ni limite au nombre d'images." }
       ]
     }
+  },
+  "faq": {
+    "title": "FAQ - Redimensionner, compresser et convertir des images",
+    "description": "Réponses aux questions fréquentes : réduire une image en Ko, taille en cm, photo d'identité, compression et conversion JPG, PNG et WebP.",
+    "h1": "Questions fréquentes",
+    "intro": "Réponses rapides sur l'outil gratuit de redimensionnement d'images, classées par tâche. Tout se passe dans votre navigateur : vos images ne sont jamais envoyées.",
+    "jump": "Aller à"
   }
 }

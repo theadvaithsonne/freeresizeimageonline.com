@@ -14,7 +14,8 @@
     "signature": "Redimensionar assinatura",
     "pngToJpg": "PNG para JPG",
     "jpgToPng": "JPG para PNG",
-    "webpToJpg": "WebP para JPG"
+    "webpToJpg": "WebP para JPG",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "Como usar",
@@ -510,5 +511,12 @@
         { "q": "É grátis?", "a": "Sim. Não há cadastro, marca d'água nem limite de imagens." }
       ]
     }
+  },
+  "faq": {
+    "title": "FAQ - Redimensionar, compactar e converter imagens",
+    "description": "Respostas às dúvidas mais comuns: reduzir imagem para KB, tamanho em cm, foto de passaporte, compactar e converter JPG, PNG e WebP.",
+    "h1": "Perguntas frequentes",
+    "intro": "Respostas rápidas sobre o redimensionador de imagens grátis, organizadas por tarefa. Tudo acontece no seu navegador, então suas fotos nunca são enviadas.",
+    "jump": "Ir para"
   }
 }

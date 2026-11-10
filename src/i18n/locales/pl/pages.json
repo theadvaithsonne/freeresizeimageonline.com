@@ -14,7 +14,8 @@
     "signature": "Zmień rozmiar podpisu",
     "pngToJpg": "PNG na JPG",
     "jpgToPng": "JPG na PNG",
-    "webpToJpg": "WebP na JPG"
+    "webpToJpg": "WebP na JPG",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "Jak z tego korzystać",
@@ -510,5 +511,12 @@
         { "q": "Czy to jest darmowe?", "a": "Tak. Bez rejestracji, bez znaku wodnego i bez limitu liczby obrazów." }
       ]
     }
+  },
+  "faq": {
+    "title": "FAQ - Zmiana rozmiaru, kompresja i konwersja zdjęć",
+    "description": "Odpowiedzi na częste pytania: zmniejszanie zdjęć do KB, rozmiar w cm, zdjęcie paszportowe, kompresja oraz konwersja JPG, PNG i WebP.",
+    "h1": "Najczęstsze pytania",
+    "intro": "Krótkie odpowiedzi o darmowym narzędziu do zmiany rozmiaru zdjęć, pogrupowane według zadań. Wszystko dzieje się w przeglądarce, więc zdjęcia nigdy nie są przesyłane.",
+    "jump": "Przejdź do"
   }
 }

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { PRESET_GROUPS, findPreset, presetLabel } from '../src/data/presets';
-import { ALL_PATHS, GUIDE_ROUTES, LEGAL_ROUTES, NAV_GROUPS, TOOL_ROUTES, relatedRoutes, routesInGroup } from '../src/data/routes';
+import { ALL_PATHS, FAQ_PATH, GUIDE_ROUTES, LEGAL_ROUTES, NAV_GROUPS, TOOL_ROUTES, relatedRoutes, routesInGroup } from '../src/data/routes';
 import { toPixels } from '../src/engine/units';
 import { getMessages, subtree, t } from '../src/i18n';
 import { safeJson } from '../src/i18n/safe-json';
@@ -86,9 +86,22 @@ describe('routes', () => {
       expect(related, r.key).not.toContain(r.key);
       expect(related, r.key).not.toContain('home');
       expect(related.length, r.key).toBeGreaterThan(3);
+      expect(related.length, r.key).toBeLessThanOrEqual(9);
     }
     // Landing pages belong to a tab of the strip under the header.
     for (const r of TOOL_ROUTES.filter((x) => !x.strip)) expect(TOOL_ROUTES.find((x) => x.key === r.parent)?.strip, r.key).toBe(true);
+  });
+
+  it('has an FAQ page with a tab label, and every tool page contributes questions to it', () => {
+    const en = getMessages('en') as unknown as Record<string, any>;
+    expect(ALL_PATHS).toContain(FAQ_PATH);
+    expect(en.nav.faq).toBeTruthy();
+    for (const k of ['title', 'description', 'h1', 'intro', 'jump']) expect(en.faq[k], k).toBeTruthy();
+    expect(en.faq.title.length).toBeLessThanOrEqual(60);
+    const questions =
+      en.home.faq.items.length +
+      TOOL_ROUTES.filter((r) => r.key !== 'home').reduce((n, r) => n + (en[r.key].faq?.items.length ?? 0), 0);
+    expect(questions).toBeGreaterThan(40);
   });
 
   it('every guide has a title, intro, sections and FAQ, and the index lists each guide in route order', () => {

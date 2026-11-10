@@ -8,13 +8,13 @@ earn links from other sites. Both lists are below.
 
 | Area | What is in place |
 |---|---|
-| One page per search intent | Home, resize to KB (and separate pages for 20, 50, 100 and 200 KB), signature, cm / mm / inches, passport and visa photo size, social media sizes, compress, convert (and separate pages for PNG to JPG, JPG to PNG, WebP to JPG), three guides. 23 pages in 20 languages = 460 pages |
+| One page per search intent | Home, resize to KB (and separate pages for 20, 50, 100 and 200 KB), signature, cm / mm / inches, passport and visa photo size, social media sizes, compress, convert (and separate pages for PNG to JPG, JPG to PNG, WebP to JPG), three guides. 24 pages in 20 languages = 480 pages (plus one FAQ page with every question) |
 | Page text | Each page has its own title (60 characters or less), description, one H1, an intro, three steps, tips, an explanatory section, and FAQ. Unique per page, written per language with the words people search with |
 | Language signals | `hreflang` for all 20 languages plus `x-default`, canonical URL on every page, correct `lang` and `dir` |
 | Structured data | `WebSite`, `SoftwareApplication`, `WebApplication`, `FAQPage`, `BreadcrumbList`, `Article` (guides) |
-| Internal links | Every page links to every tool page and guide (menu on phones, strip on wide screens, footer, "popular tasks", "more free tools"), so crawlers find everything in one step |
+| Internal links | Every page links to every tool page, guide and the FAQ (menu on phones, header tabs and strip on wide screens, footer, "popular tasks", "more free tools"), so crawlers find everything in one step |
 | Speed and quality | Lighthouse mobile: performance 98-100, accessibility 100, SEO 100. Layout does not jump. No analytics or tracking cookies |
-| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (460 URLs with alternates). The 404 page is `noindex` |
+| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (480 URLs with alternates). The 404 page is `noindex` |
 | IndexNow | `scripts/indexnow.mjs` tells Bing, Yandex, Seznam and Naver about all pages after a deploy (the key file is in `public/`) |
 
 ## What you need to do (once)

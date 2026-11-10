@@ -1,0 +1,143 @@
+---
+/**
+ * The FAQ page: every question and answer of the site in one place, grouped by tool. The questions come from the
+ * tool pages themselves (they are already written and translated there), so nothing is duplicated by hand.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { SITE } from '../../config/site';
+import { FAQ_PATH, TOOL_ROUTES } from '../../data/routes';
+import { list, localizedPath, t, type MessageKey } from '../../i18n';
+import { safeJson } from '../../i18n/safe-json';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const url = new URL(localizedPath(lang, FAQ_PATH), SITE.url).href;
+
+const groups = TOOL_ROUTES.map((r) => ({
+  id: r.key,
+  title: t(lang, `nav.${r.key}` as MessageKey),
+  href: localizedPath(lang, r.path),
+  items: list<{ q: string; a: string }>(lang, r.key === 'home' ? 'home.faq.items' : `${r.key}.faq.items`),
+})).filter((g) => g.items.length > 0);
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: groups.flatMap((g) =>
+    g.items.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  ),
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: t(lang, 'nav.home'), item: new URL(localizedPath(lang, '/'), SITE.url).href },
+    { '@type': 'ListItem', position: 2, name: t(lang, 'nav.faq'), item: url },
+  ],
+};
+---
+<Layout title={t(lang, 'faq.title')} description={t(lang, 'faq.description')} lang={lang} path={FAQ_PATH}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={safeJson(breadcrumbLd)} />
+    <script type="application/ld+json" set:html={safeJson(faqLd)} />
+  </Fragment>
+
+  <article class="faq-page">
+    <h1>{t(lang, 'faq.h1')}</h1>
+    <p class="lead">{t(lang, 'faq.intro')}</p>
+
+    <nav class="faq-jump" aria-labelledby="faq-jump-title">
+      <p class="faq-jump__title" id="faq-jump-title">{t(lang, 'faq.jump')}</p>
+      <ul>
+        {
+          groups.map((g) => (
+            <li>
+              <a href={`#faq-${g.id}`}>{g.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    {
+      groups.map((g) => (
+        <section class="faq-group" id={`faq-${g.id}`} aria-labelledby={`faq-${g.id}-title`}>
+          <h2 id={`faq-${g.id}-title`}>
+            <a href={g.href}>{g.title}</a>
+          </h2>
+          <div class="faq">
+            {g.items.map((item) => (
+              <details>
+                <summary>{item.q}</summary>
+                <p>{item.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </article>
+</Layout>
+
+<style>
+  .faq-page {
+    max-width: 54rem;
+  }
+  .lead {
+    font-size: var(--step-1);
+    color: var(--text-muted);
+    max-width: 46rem;
+  }
+  .faq-jump {
+    margin: var(--space-6) 0 var(--space-8);
+  }
+  .faq-jump__title {
+    margin: 0 0 var(--space-2);
+    font-size: var(--step--1);
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--brand-strong);
+  }
+  .faq-jump ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .faq-jump a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0 var(--space-4);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-full);
+    background: var(--surface);
+    color: var(--text);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .faq-jump a:hover {
+    background: var(--brand-soft);
+    color: var(--brand-strong);
+  }
+  .faq-group {
+    margin-top: var(--space-8);
+  }
+  .faq-group h2 {
+    font-size: var(--step-2);
+    margin-bottom: var(--space-4);
+  }
+  .faq-group h2 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .faq-group h2 a:hover {
+    color: var(--brand-strong);
+    text-decoration: underline;
+  }
+</style>

@@ -4,6 +4,7 @@ import ThemeToggle from './ThemeToggle.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import Counters from './Counters.astro';
 import MobileMenu from './MobileMenu.astro';
+import { FAQ_PATH, GUIDES_INDEX_PATH } from '../data/routes';
 import { localizedPath, t } from '../i18n';
 
 interface Props {
@@ -12,6 +13,11 @@ interface Props {
   path: string;
 }
 const { lang, path } = Astro.props;
+// Tabs on the right of the header (wide screens; on phones the same links are at the top of the menu).
+const tabs = [
+  { href: localizedPath(lang, GUIDES_INDEX_PATH), label: t(lang, 'guides.nav'), current: path.startsWith(GUIDES_INDEX_PATH) },
+  { href: localizedPath(lang, FAQ_PATH), label: t(lang, 'nav.faq'), current: path === FAQ_PATH },
+];
 ---
 <header class="site-header">
   <div class="container site-header__inner">
@@ -19,6 +25,9 @@ const { lang, path } = Astro.props;
       <Logo />
     </a>
     <div class="site-header__actions">
+      <div class="site-header__tabs">
+        {tabs.map((tab) => <a href={tab.href} aria-current={tab.current ? 'page' : undefined}>{tab.label}</a>)}
+      </div>
       <Counters lang={lang} variant="header" />
       <LanguageSwitcher lang={lang} path={path} />
       <ThemeToggle
@@ -67,6 +76,35 @@ const { lang, path } = Astro.props;
   @media (min-width: 30rem) {
     .site-header__actions {
       gap: var(--space-3);
+    }
+  }
+  .site-header__tabs {
+    display: none;
+  }
+  @media (min-width: 60rem) {
+    .site-header__tabs {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+      margin-inline-end: var(--space-3);
+    }
+    .site-header__tabs a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.75rem;
+      padding: 0 var(--space-4);
+      border-radius: var(--radius-full);
+      color: var(--text);
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .site-header__tabs a:hover {
+      background: var(--surface-2);
+      color: var(--text);
+    }
+    .site-header__tabs a[aria-current='page'] {
+      background: var(--brand-soft);
+      color: var(--brand-strong);
     }
   }
 </style>

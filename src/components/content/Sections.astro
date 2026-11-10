@@ -4,7 +4,7 @@
  * Each block is optional; pass only what the page has.
  */
 import { localizedPath, t } from '../../i18n';
-import { GUIDES_INDEX_PATH, relatedRoutes } from '../../data/routes';
+import { relatedRoutes } from '../../data/routes';
 import AdSlot from '../AdSlot.astro';
 
 interface Step {
@@ -49,7 +49,7 @@ const {
   showRelated = true,
   inlineAd = false,
 } = Astro.props;
-const related = relatedRoutes(currentKey ?? '');
+const related = relatedRoutes(currentKey ?? '', 6);
 ---
 <div class="content">
   {
@@ -74,7 +74,7 @@ const related = relatedRoutes(currentKey ?? '');
 
   {
     details.length > 0 && (
-      <section class="block details" aria-labelledby="details-title">
+      <section class="block details pair" aria-labelledby="details-title">
         <h2 id="details-title">{detailsTitle}</h2>
         {details.map((paragraph) => (
           <p>{paragraph}</p>
@@ -85,7 +85,7 @@ const related = relatedRoutes(currentKey ?? '');
 
   {
     tips.length > 0 && (
-      <section class="block" aria-labelledby="tips-title">
+      <section class="block tips-block pair" aria-labelledby="tips-title">
         <h2 id="tips-title">{tipsTitle}</h2>
         <ul class="tips">
           {tips.map((tip) => (
@@ -122,9 +122,7 @@ const related = relatedRoutes(currentKey ?? '');
               <a href={localizedPath(lang, r.path)}>{t(lang, `nav.${r.key}` as 'nav.home')}</a>
             </li>
           ))}
-          <li>
-            <a href={localizedPath(lang, GUIDES_INDEX_PATH)}>{t(lang, 'guides.nav')}</a>
-          </li>
+
         </ul>
       </section>
     )
@@ -133,26 +131,40 @@ const related = relatedRoutes(currentKey ?? '');
 
 <style>
   .content {
-    margin-top: var(--space-7);
+    margin-top: var(--space-9);
     display: grid;
     grid-template-columns: minmax(0, 1fr); /* lets wide tables scroll inside their own box instead of widening the page */
-    gap: var(--space-7);
-    max-width: 64rem;
+    gap: var(--space-8);
+    max-width: 70rem;
   }
   .content > :global(*) {
     min-width: 0;
+    grid-column: 1 / -1;
   }
   .block h2 {
     font-size: var(--step-2);
+    margin-bottom: var(--space-4);
+  }
+
+  /* Explanation and tips sit side by side when the column is wide enough */
+  @container page (min-width: 56rem) {
+    .content {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: var(--space-7);
+    }
+    .content > .pair {
+      grid-column: auto;
+    }
   }
   .details p {
-    max-width: 52rem;
-    line-height: 1.65;
+    line-height: 1.7;
     color: var(--text-muted);
   }
   .details p + p {
     margin-top: var(--space-3);
   }
+
+  /* Steps: a row of three cards on wide columns, a stack on narrow ones */
   .steps {
     list-style: none;
     counter-reset: step;
@@ -164,64 +176,74 @@ const related = relatedRoutes(currentKey ?? '');
   .steps li {
     counter-increment: step;
     position: relative;
-    padding: var(--space-4) var(--space-4) var(--space-4) 4.5rem;
+    padding: var(--space-5) var(--space-5) var(--space-5) 5rem;
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-lg);
   }
   .steps li::before {
     content: counter(step);
     position: absolute;
-    inset-inline-start: var(--space-4);
-    top: var(--space-4);
+    inset-inline-start: var(--space-5);
+    top: var(--space-5);
     display: grid;
     place-items: center;
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
-    background: var(--brand);
-    color: var(--on-brand);
+    background: var(--brand-soft);
+    color: var(--brand-strong);
     font-weight: 800;
     font-size: var(--step-1);
   }
   :global([dir='rtl']) .steps li {
-    padding: var(--space-4) 4.5rem var(--space-4) var(--space-4);
+    padding: var(--space-5) 5rem var(--space-5) var(--space-5);
   }
   .steps h3 {
     font-size: var(--step-1);
-    margin: 0 0 var(--space-1);
+    margin: 0 0 var(--space-2);
   }
   .steps p {
     margin: 0;
     color: var(--text-muted);
+    line-height: 1.6;
   }
+  @container page (min-width: 46rem) {
+    .steps {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-5);
+    }
+    .steps li,
+    :global([dir='rtl']) .steps li {
+      padding: calc(var(--space-5) + 3.25rem) var(--space-5) var(--space-5);
+    }
+  }
+
+  /* Tips */
   .tips {
     margin: 0;
-    padding-inline-start: 1.25rem;
+    padding: 0;
+    list-style: none;
     display: grid;
-    gap: var(--space-2);
+    gap: var(--space-3);
   }
-  .faq {
-    display: grid;
-    gap: var(--space-2);
+  .tips li {
+    position: relative;
+    padding-inline-start: 1.75rem;
+    line-height: 1.6;
   }
-  .faq details {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-    padding: 0 var(--space-4);
+  .tips li::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0.6em;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: var(--brand);
   }
-  .faq summary {
-    cursor: pointer;
-    font-weight: 650;
-    padding: var(--space-3) 0;
-    min-height: var(--control-h);
-    font-size: var(--step-1);
-  }
-  .faq p {
-    margin: 0 0 var(--space-4);
-    color: var(--text-muted);
-  }
+
+  /* More free tools */
   .related {
     list-style: none;
     margin: 0;
@@ -231,8 +253,10 @@ const related = relatedRoutes(currentKey ?? '');
     gap: var(--space-2);
   }
   .related a {
-    display: inline-block;
-    padding: 0.65rem var(--space-4);
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0 var(--space-4);
     border: 1px solid var(--border-strong);
     border-radius: var(--radius-full);
     background: var(--surface);

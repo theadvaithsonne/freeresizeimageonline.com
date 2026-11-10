@@ -57,7 +57,7 @@ const loadAdScript = Boolean(ADSENSE.client) && ads && (ADS_LIVE || path === '/'
     }
     {!plain && <link rel="alternate" hreflang="x-default" href={new URL(localizedPath('en', path), site).href} />}
     <meta name="theme-color" content="#fff4e8" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#1b100b" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
 
     <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -139,23 +139,35 @@ const loadAdScript = Boolean(ADSENSE.client) && ads && (ADS_LIVE || path === '/'
     {
       loadAdScript && (
         <script is:inline>
-          {`
-          // Fill only the ad box that is visible at this screen size (an ad can't be sized inside a hidden box).
-          // Boxes only contain an <ins> once ad unit ids are set in src/config/site.ts.
+          // Ad boxes start empty (an element with data-ad-unit that carries the ad unit details). When a box is visible, the
+          // ins element is created inside it and Google is asked to fill it. Google always processes the first unprocessed
+          // ins element on the page, so one must never exist in a hidden box (it could not be sized and would swallow the
+          // request meant for the visible one). Boxes that are hidden now are filled later, when they become visible.
           (function () {
             function fill() {
-              var boxes = document.querySelectorAll('[data-ad-slot] ins.adsbygoogle');
+              var units = document.querySelectorAll('[data-ad-unit]');
               window.adsbygoogle = window.adsbygoogle || [];
-              Array.prototype.forEach.call(boxes, function (ins) {
-                if (ins.offsetParent === null || ins.getAttribute('data-adsbygoogle-status')) return;
+              Array.prototype.forEach.call(units, function (unit) {
+                if (unit.dataset.filled || unit.getClientRects().length === 0) return;
+                unit.dataset.filled = '1';
+                var ins = document.createElement('ins');
+                ins.className = 'adsbygoogle';
+                ins.style.display = 'block';
+                ins.style.width = '100%';
+                ins.setAttribute('data-ad-client', unit.dataset.client);
+                ins.setAttribute('data-ad-slot', unit.dataset.slot);
+                ins.setAttribute('data-ad-format', unit.dataset.format);
+                ins.setAttribute('data-full-width-responsive', unit.dataset.responsive);
+                unit.appendChild(ins);
                 try { window.adsbygoogle.push({}); } catch (e) {}
               });
             }
             if (document.readyState === 'complete') fill(); else window.addEventListener('load', fill, { once: true });
             // The other ad box becomes visible when the window crosses the rail breakpoint (rotation, resize): fill it then.
             if (window.matchMedia) window.matchMedia('(min-width: 75rem)').addEventListener('change', fill);
+            // The ad box under the results becomes visible when the tool switches to its results view.
+            window.addEventListener('frio:view', function () { setTimeout(fill, 400); });
           })();
-          `}
         </script>
       )
     }

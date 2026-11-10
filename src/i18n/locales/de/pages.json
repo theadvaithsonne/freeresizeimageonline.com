@@ -14,7 +14,8 @@
     "signature": "Unterschrift verkleinern",
     "pngToJpg": "PNG in JPG umwandeln",
     "jpgToPng": "JPG in PNG umwandeln",
-    "webpToJpg": "WebP in JPG umwandeln"
+    "webpToJpg": "WebP in JPG umwandeln",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "So funktioniert es",
@@ -510,5 +511,12 @@
         { "q": "Ist es kostenlos?", "a": "Ja. Es gibt keine Anmeldung, kein Wasserzeichen und keine Begrenzung der Bildanzahl." }
       ]
     }
+  },
+  "faq": {
+    "title": "FAQ - Bilder verkleinern, komprimieren, umwandeln",
+    "description": "Antworten auf häufige Fragen: Bild auf KB verkleinern, Größe in cm, Passbild, Fotos komprimieren und JPG, PNG und WebP umwandeln.",
+    "h1": "Häufige Fragen",
+    "intro": "Kurze Antworten zum kostenlosen Bildverkleinerer, nach Aufgabe sortiert. Alles läuft im Browser, die Bilder werden nie hochgeladen.",
+    "jump": "Gehe zu"
   }
 }

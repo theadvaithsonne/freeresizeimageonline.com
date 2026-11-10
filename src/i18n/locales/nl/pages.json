@@ -14,7 +14,8 @@
     "signature": "Handtekening verkleinen",
     "pngToJpg": "PNG naar JPG",
     "jpgToPng": "JPG naar PNG",
-    "webpToJpg": "WebP naar JPG"
+    "webpToJpg": "WebP naar JPG",
+    "faq": "FAQ"
   },
   "common": {
     "howTo": "Zo werkt het",
@@ -819,5 +820,12 @@
         }
       ]
     }
+  },
+  "faq": {
+    "title": "FAQ - Afbeeldingen verkleinen, comprimeren en converteren",
+    "description": "Antwoorden op veelgestelde vragen: afbeelding verkleinen naar KB, formaat in cm, pasfoto, foto's comprimeren en JPG, PNG en WebP converteren.",
+    "h1": "Veelgestelde vragen",
+    "intro": "Snelle antwoorden over de gratis afbeeldingsverkleiner, per taak gegroepeerd. Alles gebeurt in je browser, dus je foto's worden nooit geüpload.",
+    "jump": "Ga naar"
   }
 }

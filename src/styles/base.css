@@ -57,14 +57,15 @@ h4 {
 }
 h1 {
   font-size: var(--step-4);
-  font-weight: 800;
+  font-weight: 760;
+  letter-spacing: -0.02em;
 }
 h2 {
-  font-size: var(--step-3);
-  font-weight: 750;
+  font-size: var(--step-2);
+  font-weight: 720;
 }
 h3 {
-  font-size: var(--step-2);
+  font-size: var(--step-1);
   font-weight: 700;
 }
 p {
@@ -309,4 +310,45 @@ select optgroup {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* FAQ list (tool pages, guides, the FAQ page): thin lines instead of a stack of boxes */
+.faq {
+  max-width: 54rem;
+  border-top: 1px solid var(--border);
+}
+.faq details {
+  border-bottom: 1px solid var(--border);
+}
+.faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  cursor: pointer;
+  list-style: none;
+  padding: var(--space-4) 0;
+  min-height: var(--control-h);
+  font-size: var(--step-0);
+  font-weight: 650;
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: '+';
+  flex: none;
+  font-size: 1.6em;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--brand);
+}
+.faq details[open] summary::after {
+  content: '−';
+}
+.faq p {
+  margin: 0 0 var(--space-4);
+  max-width: 46rem;
+  line-height: 1.65;
+  color: var(--text-muted);
 }

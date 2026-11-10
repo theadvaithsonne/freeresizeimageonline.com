@@ -14,7 +14,8 @@
     "signature": "Redimensionar firma",
     "pngToJpg": "PNG a JPG",
     "jpgToPng": "JPG a PNG",
-    "webpToJpg": "WebP a JPG"
+    "webpToJpg": "WebP a JPG",
+    "faq": "Preguntas frecuentes"
   },
   "common": {
     "howTo": "Cómo usarlo",
@@ -508,5 +509,12 @@
         { "q": "¿Es gratis?", "a": "Sí. No hay registro ni marca de agua, y no hay límite en el número de imágenes." }
       ]
     }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes - Redimensionar y comprimir imágenes",
+    "description": "Respuestas a las dudas más comunes: reducir imágenes a KB, cambiar el tamaño en cm, fotos de pasaporte, comprimir y convertir JPG, PNG y WebP.",
+    "h1": "Preguntas frecuentes",
+    "intro": "Respuestas rápidas sobre el redimensionador de imágenes gratuito, agrupadas por tarea. Todo se hace en tu navegador, así que tus fotos nunca se suben.",
+    "jump": "Ir a"
   }
 }

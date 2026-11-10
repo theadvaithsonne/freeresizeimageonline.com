@@ -2,12 +2,14 @@
 /**
  * Ad space.
  *
- * - variant="rail":   right-hand column on wide screens (>= 64rem). Sticky, 300x600 reserve.
- * - variant="inline": single slot in the content flow on phones/tablets (< 64rem), placed
- *                     below the result and away from action buttons (Google ad placement policy).
+ * - variant="rail":   right-hand column on wide screens (>= 75rem). Sticky, 300x600 reserve.
+ * - variant="inline": boxes in the content flow on phones/tablets (< 75rem): one after the how-to steps and one under the
+ *                     results (inside the tool), each away from action buttons (Google ad placement policy).
  *
- * Only one of the two is visible at any width. The loader (src/scripts/ads.ts) initialises ONLY the
- * visible slot, because AdSense can't size an ad inside a display:none container.
+ * Only the rail or the inline boxes are visible at any width. The loader (Layout.astro) fills ONLY visible boxes,
+ * because AdSense can't size an ad inside a display:none container.
+ *
+ * The Google <ins> element is created by the page script (see Layout.astro) only while its box is visible.
  *
  * Until ADSENSE.client is set in src/config/site.ts (after AdSense approval) no Google code is loaded
  * and a friendly placeholder is shown. Space is reserved with fixed heights, so the page never jumps.
@@ -30,13 +32,13 @@ const live = Boolean(ADSENSE.client && slotId);
   <div class="ad-slot__box">
     {
       live ? (
-        <ins
-          class="adsbygoogle"
-          style="display:block;width:100%"
-          data-ad-client={ADSENSE.client}
-          data-ad-slot={slotId}
-          data-ad-format={variant === 'rail' ? 'vertical' : 'auto'}
-          data-full-width-responsive={variant === 'rail' ? 'false' : 'true'}
+        <div
+          class="ad-slot__unit"
+          data-ad-unit
+          data-client={ADSENSE.client}
+          data-slot={slotId}
+          data-format={variant === 'rail' ? 'vertical' : 'auto'}
+          data-responsive={variant === 'rail' ? 'false' : 'true'}
         />
       ) : (
         <p class="ad-slot__note">{t(lang, 'ads.note')}</p>
@@ -66,6 +68,9 @@ const live = Boolean(ADSENSE.client && slotId);
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
+  }
+  .ad-slot__unit {
+    width: 100%;
   }
   .ad-slot__note {
     margin: 0;

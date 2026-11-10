@@ -207,6 +207,8 @@ export function initTool(root: HTMLElement): void {
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     root.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
     if (focusResults) resultsTitle.focus({ preventScroll: true });
+    // Lets the page fill an ad box that has just become visible (the one under the results).
+    window.dispatchEvent(new CustomEvent('frio:view', { detail: { view: next } }));
   }
 
   function readOptions(): ResizeOptions {
