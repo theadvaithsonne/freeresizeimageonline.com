@@ -1,0 +1,43 @@
+---
+// Legal/info links (About, Contact, Privacy, Terms) are added in Step 9 with the pages themselves.
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copy">&copy; {year} FreeResizeImageOnline</p>
+    <nav class="site-footer__nav" aria-label="Footer">
+      <slot name="links" />
+      <a href="mailto:theadvaithsonne@gmail.com">theadvaithsonne@gmail.com</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: var(--space-8);
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    font-size: var(--step--1);
+  }
+  .site-footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3) var(--space-5);
+    padding-block: var(--space-5);
+  }
+  .site-footer__copy {
+    margin: 0;
+    color: var(--text-muted);
+  }
+  .site-footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-5);
+  }
+  .site-footer__nav :global(a) {
+    color: var(--text);
+    font-weight: 600;
+  }
+</style>

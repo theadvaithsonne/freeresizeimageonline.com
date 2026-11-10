@@ -1,0 +1,39 @@
+---
+interface Props {
+  /** Show the wordmark next to the icon. */
+  wordmark?: boolean;
+  class?: string;
+}
+const { wordmark = true, class: className } = Astro.props;
+---
+<span class:list={['logo', className]}>
+  <svg class="logo__mark" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+    <rect width="64" height="64" rx="15" fill="#2457f5" />
+    <rect x="13" y="26" width="25" height="25" rx="5" fill="none" stroke="#fff" stroke-width="4.5" />
+    <path d="M32 32 L50 14" stroke="#fff" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M36 14 H50 V28" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+  {wordmark && (
+    <span class="logo__text">Free<strong>Resize</strong>Image</span>
+  )}
+</span>
+
+<style>
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--text);
+    font-weight: 500;
+    font-size: 1.15rem;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .logo__mark {
+    flex: none;
+  }
+  .logo__text strong {
+    font-weight: 800;
+    color: var(--brand);
+  }
+</style>

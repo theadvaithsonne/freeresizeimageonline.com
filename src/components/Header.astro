@@ -1,0 +1,50 @@
+---
+import Logo from './Logo.astro';
+import ThemeToggle from './ThemeToggle.astro';
+
+interface Props {
+  homeHref?: string;
+}
+const { homeHref = '/' } = Astro.props;
+---
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href={homeHref} aria-label="Free Resize Image Online - home">
+      <Logo />
+    </a>
+    <div class="site-header__actions">
+      <!-- Step 7: live counters. Step 3: language switcher. -->
+      <slot name="counters" />
+      <slot name="language" />
+      <ThemeToggle />
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: var(--header-h);
+    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    backdrop-filter: saturate(1.4) blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .site-header__inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+  }
+  .site-header__brand {
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+  }
+  .site-header__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+</style>

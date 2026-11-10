@@ -1,0 +1,92 @@
+---
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/layout.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { FONT_STYLESHEETS, getLanguage } from '../i18n/languages';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Language code from src/i18n/languages.ts (default English). */
+  lang?: string;
+  /** Show the right-hand ad rail / inline ad slot (default true). */
+  ads?: boolean;
+  /** Canonical path, e.g. "/" or "/hi/". */
+  path?: string;
+}
+const { title, description, lang = 'en', ads = true, path = Astro.url.pathname } = Astro.props;
+const language = getLanguage(lang);
+const canonical = new URL(path, Astro.site).href;
+const fontSheets = FONT_STYLESHEETS[language.font];
+---
+<!doctype html>
+<html lang={language.htmlLang} dir={language.dir}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#2457f5" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FreeResizeImageOnline" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL('/og-image.png', Astro.site).href} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    {fontSheets.map((name) => <link rel="stylesheet" href={`/fonts/${name}/index.css`} />)}
+
+    <!-- Apply the saved/system theme before first paint to avoid a flash. -->
+    <script is:inline>
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem('theme');
+        } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Header homeHref={lang === 'en' ? '/' : `/${lang}/`}>
+      <slot name="counters" slot="counters" />
+      <slot name="language" slot="language" />
+    </Header>
+
+    <div class="page container">
+      <main id="main" class="page__main">
+        <slot />
+        {ads && (
+          <div class="page__inline-ad">
+            <AdSlot variant="inline" />
+          </div>
+        )}
+      </main>
+      {
+        ads && (
+          <div class="page__rail">
+            <AdSlot variant="rail" />
+          </div>
+        )
+      }
+    </div>
+
+    <Footer>
+      <slot name="footer-links" slot="links" />
+    </Footer>
+  </body>
+</html>

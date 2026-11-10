@@ -1,0 +1,53 @@
+/* Page shell: one fluid column on phones/tablets, content + 320px ad rail from 64rem (1024px). */
+.page {
+  flex: 1 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-6);
+  padding-block: var(--space-6) 0;
+}
+
+.page__main {
+  min-width: 0; /* lets wide children (tables, previews) shrink instead of overflowing */
+}
+
+.page__inline-ad {
+  margin-top: var(--space-6);
+}
+
+.page__rail {
+  display: none;
+}
+
+@media (min-width: 64rem) {
+  .page {
+    grid-template-columns: minmax(0, 1fr) var(--rail-w);
+    gap: var(--space-6);
+    align-items: stretch; /* rail column spans full height so the sticky ad can travel */
+  }
+  .page__inline-ad {
+    display: none;
+  }
+  .page__rail {
+    display: block;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 22.5rem) {
+  :root {
+    --gutter: 0.875rem;
+  }
+}
+
+/* Short landscape phones: keep the header compact so the tool stays visible */
+@media (max-height: 30rem) and (orientation: landscape) {
+  :root {
+    --header-h: 3.25rem;
+  }
+}
+
+/* Respect notches / rounded corners */
+.container {
+  padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
+}

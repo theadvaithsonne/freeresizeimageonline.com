@@ -78,12 +78,12 @@ Browser (visitor)
 **Done when:** blank site builds and runs locally.
 
 ## STEP 2 — Branding, design system & responsive foundation
-- [ ] 2.1 (C) Name/tagline/logo (SVG), favicon set, social share image
-- [ ] 2.2 (C) Design tokens: colors, spacing, type scale (fluid typography), radius, shadows
-- [ ] 2.3 (C) Light + dark theme (follows system, manual toggle, remembered)
-- [ ] 2.4 (C) Responsive layout shell: header, main, right ad column, footer. Breakpoints for 320px phones → tablets → laptops → 4K/ultrawide
-- [ ] 2.5 (C) Fonts: self-hosted Noto subsets per script (Latin, Devanagari, Arabic, Bengali, Thai, CJK) loaded only for the active language
-- [ ] 2.6 (C) Accessibility basics: keyboard focus, contrast AA, ARIA labels, reduced-motion
+- [x] 2.1 (C) Name/tagline/logo (SVG), favicon set, social share image (`scripts/make-icons.mjs`, output committed in `public/`)
+- [x] 2.2 (C) Design tokens: colors, spacing, type scale (fluid typography), radius, shadows (`src/styles/tokens.css`)
+- [x] 2.3 (C) Light + dark theme (follows system, manual toggle, remembered, no flash on load)
+- [x] 2.4 (C) Responsive layout shell: header, main, right ad column, footer, `AdSlot` component. Verified by screenshots at 320, 390, 768, 1440, 2560 px
+- [x] 2.5 (C) Fonts: self-hosted Inter + Noto per script (Devanagari, Arabic, Bengali, Thai, JP, KR, SC), copied from `@fontsource-variable` by `scripts/copy-fonts.mjs`; each page links only its language's sheets and browsers fetch only the glyph slices used. Language metadata in `src/i18n/languages.ts`
+- [x] 2.6 (C) Accessibility basics: skip link, visible focus ring, ARIA labels, reduced-motion, 44px touch targets. *(Contrast checked by eye only; run an automated audit in Step 12.)*
 
 **Done when:** empty shell looks right on all screen sizes in both themes.
 
@@ -249,3 +249,4 @@ Sources read: AdSense Program policies (updated Aug 4, 2026), Eligibility requir
 | 2026-11-10 | Planning | Plan v2 written, awaiting approval |
 | 2026-11-10 | Planning | AdSense policies verified (no postal address required); plan v3 approved by owner |
 | 2026-11-10 | Step 1 | Done. Astro 7 + TypeScript + Vitest set up; build, tests, type-check pass |
+| 2026-11-10 | Step 2 | Done. Design system, light/dark, responsive shell, ad slot placeholders, fonts, brand icons. Hard-coded English labels in Header/Footer/AdSlot/Layout get replaced by translation keys in Step 3. |

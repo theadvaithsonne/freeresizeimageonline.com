@@ -1,0 +1,92 @@
+---
+/**
+ * Reserved ad space. Real AdSense code is added in Step 14, after approval.
+ *
+ * - variant="rail":   right-hand column on wide screens (>= 64rem). Sticky, 300x600 reserve.
+ * - variant="inline": single slot in the content flow on phones/tablets (< 64rem), placed
+ *                     below the result and away from action buttons (Google ad placement policy).
+ *
+ * Only one of the two is visible at any width. Step 14 must initialise ONLY the visible slot
+ * (AdSense can't size an ad inside a display:none container).
+ *
+ * Space is reserved with fixed heights so the page never jumps when an ad loads (no layout shift).
+ * Label wording is restricted by Google to "Advertisement" or "Sponsored Links".
+ */
+interface Props {
+  variant: 'rail' | 'inline';
+  /** Set to true once AdSense is approved and the slot is wired to real ad code. */
+  live?: boolean;
+}
+const { variant, live = false } = Astro.props;
+---
+<aside class:list={['ad-slot', `ad-slot--${variant}`]} aria-label="Advertisement" data-ad-slot={variant}>
+  <p class="ad-slot__label">Advertisement</p>
+  <div class="ad-slot__box">
+    {
+      live ? (
+        <slot />
+      ) : (
+        <p class="ad-slot__note">Ads keep FreeResizeImageOnline free. Everything works without them.</p>
+      )
+    }
+  </div>
+</aside>
+
+<style>
+  .ad-slot {
+    width: 100%;
+  }
+  .ad-slot__label {
+    margin: 0 0 var(--space-1);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  .ad-slot__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: var(--space-4);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+  .ad-slot__note {
+    margin: 0;
+    max-width: 14rem;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: var(--step--1);
+  }
+
+  /* Inline (phones/tablets): visible below 64rem only */
+  .ad-slot--inline {
+    max-width: 336px;
+    margin-inline: auto;
+  }
+  .ad-slot--inline .ad-slot__box {
+    min-height: var(--ad-inline-h);
+  }
+
+  /* Rail (desktop): visible from 64rem up, sticks below the header while scrolling */
+  .ad-slot--rail {
+    display: none;
+  }
+  .ad-slot--rail .ad-slot__box {
+    min-height: var(--ad-rail-h);
+  }
+
+  @media (min-width: 64rem) {
+    .ad-slot--inline {
+      display: none;
+    }
+    .ad-slot--rail {
+      display: block;
+      position: sticky;
+      top: calc(var(--header-h) + var(--space-4));
+    }
+  }
+</style>
