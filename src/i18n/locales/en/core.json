@@ -3,7 +3,9 @@
     "skipToContent": "Skip to content",
     "home": "Free Resize Image Online - home",
     "toggleTheme": "Switch color theme",
-    "openLanguages": "Choose language"
+    "openLanguages": "Choose language",
+    "themeDark": "Dark",
+    "themeLight": "Light"
   },
   "language": {
     "label": "Language",

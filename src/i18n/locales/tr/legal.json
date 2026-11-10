@@ -70,7 +70,13 @@
           "title": "İletişim",
           "text": "{owner}, Bengaluru, Hindistan. E-posta: {email}."
         }
-      ]
+      ],
+      "linksTitle": "Faydalı bağlantılar",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Google, hizmetlerini kullanan sitelerdeki bilgileri nasıl kullanır",
+        "aboutAds": "İlgi alanına dayalı reklamlardan çıkın (aboutads.info)"
+      }
     },
     "terms": {
       "title": "Hizmet Şartları - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "Reklamlar ve üçüncü taraflar",
           "text": "Reklamlar ve diğer web sitelerine giden bağlantılar üçüncü taraflara aittir. Bunların içeriğinden veya uygulamalarından sorumlu değiliz."
+        },
+        {
+          "title": "Ticari markalar",
+          "text": "Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay ve Google gibi adlar sahiplerine aittir. Burada yalnızca görsel boyutlarını açıklamak için kullanılır. FreeResizeImageOnline bunlarla bağlantılı değildir ve bunlar tarafından onaylanmamıştır."
         },
         {
           "title": "Uygulanacak hukuk",

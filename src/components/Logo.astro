@@ -7,8 +7,8 @@ interface Props {
 const { wordmark = true, class: className } = Astro.props;
 ---
 <span class:list={['logo', className]}>
-  <svg class="logo__mark" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
-    <rect width="64" height="64" rx="15" fill="#2457f5" />
+  <svg class="logo__mark" viewBox="0 0 64 64" width="44" height="44" aria-hidden="true" focusable="false">
+    <rect width="64" height="64" rx="15" fill="#c2410c" />
     <rect x="13" y="26" width="25" height="25" rx="5" fill="none" stroke="#fff" stroke-width="4.5" />
     <path d="M32 32 L50 14" stroke="#fff" stroke-width="4.5" stroke-linecap="round" />
     <path d="M36 14 H50 V28" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -23,14 +23,22 @@ const { wordmark = true, class: className } = Astro.props;
     display: inline-flex;
     align-items: center;
     gap: 0.6rem;
+    min-width: 0;
     color: var(--text);
     font-weight: 500;
-    font-size: 1.15rem;
+    font-size: clamp(1.1rem, 0.9rem + 0.6vw, 1.5rem);
     letter-spacing: -0.02em;
     line-height: 1;
   }
   .logo__mark {
     flex: none;
+    width: 2.2em;
+    height: 2.2em;
+  }
+  .logo__text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .logo__text strong {
     font-weight: 800;

@@ -50,7 +50,9 @@
       "cancel": "取消",
       "downloadAll": "全部下载（ZIP）",
       "download": "下载",
-      "working": "处理中..."
+      "working": "处理中...",
+      "saveAs": "另存为",
+      "sameAsResized": "与调整后相同"
     },
     "status": {
       "queued": "等待中",

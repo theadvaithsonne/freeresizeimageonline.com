@@ -40,7 +40,7 @@ const clientData = {
     <!-- Left: drop zone + file list -->
     <div class="tool__main">
       <div class="drop" data-drop tabindex="0" role="button">
-        <svg class="drop__icon" viewBox="0 0 48 48" width="44" height="44" aria-hidden="true" focusable="false">
+        <svg class="drop__icon" viewBox="0 0 48 48" width="56" height="56" aria-hidden="true" focusable="false">
           <rect x="6" y="9" width="36" height="30" rx="5" fill="none" stroke="currentColor" stroke-width="3" />
           <circle cx="17" cy="20" r="3.5" fill="currentColor" />
           <path d="M8 35l10-9 7 6 6-5 9 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
@@ -66,6 +66,21 @@ const clientData = {
           <div class="progress__bar"><span data-progress-bar></span></div>
           <p class="progress__text" data-progress-text></p>
         </div>
+
+        <!-- Shown once results exist: choose the download format and get everything as one ZIP -->
+        <div class="results-bar" data-results-bar hidden>
+          <div class="field results-bar__format">
+            <label for="opt-saveas">{t(lang, 'tool.actions.saveAs')}</label>
+            <select id="opt-saveas" data-saveas>
+              <option value="">{t(lang, 'tool.actions.sameAsResized')}</option>
+              <option value="jpeg">JPG</option>
+              <option value="png">PNG</option>
+              <option value="webp">WebP</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn--accent" data-download-all hidden>{t(lang, 'tool.actions.downloadAll')}</button>
+        </div>
+
         <ul class="files__list" data-list></ul>
       </div>
     </div>
@@ -98,7 +113,7 @@ const clientData = {
         <label><input type="radio" name="mode" value="keep" data-mode /><span>{t(lang, 'tool.options.modeKeep')}</span></label>
       </fieldset>
 
-      <div data-panel="dimensions">
+      <div data-panel="dimensions" class="panel">
         <div class="row">
           <div class="field">
             <label for="opt-width">{t(lang, 'tool.options.width')}</label>
@@ -168,9 +183,8 @@ const clientData = {
       </div>
 
       <div class="actions" data-actions>
-        <button type="submit" class="btn" data-run disabled>{t(lang, 'tool.actions.resize')}</button>
+        <button type="submit" class="btn btn--big" data-run disabled>{t(lang, 'tool.actions.resize')}</button>
         <button type="button" class="btn btn--ghost" data-cancel hidden>{t(lang, 'tool.actions.cancel')}</button>
-        <button type="button" class="btn btn--accent" data-download-all hidden>{t(lang, 'tool.actions.downloadAll')}</button>
       </div>
     </form>
   </div>
@@ -179,7 +193,7 @@ const clientData = {
 
   <template data-item-template>
     <li class="item" data-item>
-      <div class="item__thumb"><img alt="" width="56" height="56" decoding="async" /></div>
+      <div class="item__thumb"><img alt="" width="72" height="72" decoding="async" /></div>
       <div class="item__info">
         <p class="item__name" data-name></p>
         <p class="item__meta" data-meta></p>
@@ -189,7 +203,7 @@ const clientData = {
         <span class="item__status" data-status></span>
         <button type="button" class="btn btn--small" data-download hidden>{t(lang, 'tool.actions.download')}</button>
         <button type="button" class="icon-button" data-remove>
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" /></svg>
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" /></svg>
         </button>
       </div>
     </li>
@@ -206,12 +220,28 @@ const clientData = {
 <style>
   .tool__grid {
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: var(--space-5);
     align-items: start;
   }
-  @media (min-width: 48rem) {
+  .tool__main,
+  .options {
+    min-width: 0;
+  }
+  /* Two columns whenever the content column is wide enough (not just when the window is) */
+  @container page (min-width: 44rem) {
     .tool__grid {
-      grid-template-columns: minmax(0, 1.25fr) minmax(16rem, 1fr);
+      grid-template-columns: minmax(0, 1.2fr) minmax(19rem, 1fr);
+    }
+  }
+  /* Narrow screens: the file list's per-row buttons go under the name */
+  @container page (max-width: 36rem) {
+    .item {
+      grid-template-columns: auto minmax(0, 1fr);
+    }
+    .item__side {
+      grid-column: 1 / -1;
+      justify-content: space-between;
     }
   }
 
@@ -219,11 +249,13 @@ const clientData = {
   .drop {
     display: grid;
     justify-items: center;
-    gap: var(--space-2);
+    align-content: center;
+    gap: var(--space-3);
+    min-height: 24rem;
     padding: var(--space-6) var(--space-4);
     text-align: center;
     background: var(--surface);
-    border: 2px dashed var(--border-strong);
+    border: 3px dashed color-mix(in srgb, var(--brand) 55%, var(--border-strong));
     border-radius: var(--radius-lg);
     color: var(--text);
     cursor: pointer;
@@ -238,31 +270,47 @@ const clientData = {
   }
   .drop__icon {
     color: var(--brand);
+    padding: var(--space-3);
+    box-sizing: content-box;
+    background: var(--brand-soft);
+    border-radius: var(--radius-md);
   }
   .drop__title {
     margin: 0;
-    font-size: var(--step-1);
-    font-weight: 700;
+    font-size: var(--step-2);
+    font-weight: 800;
+    line-height: 1.25;
   }
   .drop__or {
     margin: 0;
     color: var(--text-muted);
+    font-size: var(--step-0);
   }
   .drop__button {
     cursor: pointer;
+    min-height: 4rem;
+    /* padding shrinks on narrow screens and long translations wrap instead of overflowing */
+    padding: var(--space-2) clamp(var(--space-4), 8vw, var(--space-7));
+    max-width: 100%;
+    text-align: center;
+    line-height: 1.25;
+    font-size: var(--step-1);
+    font-weight: 800;
+    border-radius: var(--radius-sm);
   }
   .drop__hint,
   .drop__privacy {
     margin: 0;
-    font-size: var(--step--1);
+    font-size: var(--step-0);
     color: var(--text-muted);
   }
   .drop__privacy {
     color: var(--success-strong);
-    font-weight: 650;
+    font-weight: 700;
   }
   [data-tool].has-files .drop {
-    padding-block: var(--space-4);
+    min-height: 0;
+    padding-block: var(--space-5);
   }
   [data-tool].has-files .drop__icon,
   [data-tool].has-files .drop__hint,
@@ -290,15 +338,16 @@ const clientData = {
     gap: var(--space-3);
   }
   .files__title {
-    font-size: var(--step-1);
+    font-size: var(--step-2);
     margin: 0;
   }
   .link-button {
     background: none;
     border: 0;
-    padding: var(--space-2);
+    padding: var(--space-3);
     color: var(--brand);
-    font-weight: 650;
+    font-weight: 700;
+    font-size: var(--step-0);
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 0.2em;
@@ -307,7 +356,7 @@ const clientData = {
     margin: var(--space-3) 0;
   }
   .progress__bar {
-    height: 0.5rem;
+    height: 0.75rem;
     background: var(--surface-2);
     border-radius: var(--radius-full);
     overflow: hidden;
@@ -324,27 +373,43 @@ const clientData = {
     font-size: var(--step--1);
     color: var(--text-muted);
   }
+
+  .results-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: var(--space-3) var(--space-4);
+    margin-top: var(--space-4);
+    padding: var(--space-4);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+  .results-bar__format {
+    flex: 1 1 14rem;
+  }
+
   .files__list {
     list-style: none;
     margin: var(--space-3) 0 0;
     padding: 0;
     display: grid;
-    gap: var(--space-2);
+    gap: var(--space-3);
   }
 
   .item {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr) auto;
-    gap: var(--space-3);
+    gap: var(--space-3) var(--space-4);
     align-items: center;
-    padding: var(--space-3);
+    padding: var(--space-4);
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
   }
   .item__thumb {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: var(--radius-sm);
     background: var(--surface-2);
     overflow: hidden;
@@ -357,7 +422,8 @@ const clientData = {
   }
   .item__name {
     margin: 0;
-    font-weight: 650;
+    font-weight: 700;
+    font-size: var(--step-0);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -383,7 +449,7 @@ const clientData = {
   }
   .item__status {
     font-size: var(--step--1);
-    font-weight: 650;
+    font-weight: 700;
     color: var(--text-muted);
   }
   .item[data-state='done'] .item__status {
@@ -393,9 +459,14 @@ const clientData = {
     color: var(--danger);
   }
   .btn--small {
-    min-height: 2.25rem;
-    padding-inline: var(--space-3);
+    min-height: 2.75rem;
+    padding-inline: var(--space-4);
     font-size: var(--step--1);
+  }
+  .btn--big {
+    min-height: 3.75rem;
+    font-size: var(--step-1);
+    font-weight: 800;
   }
   .btn--accent {
     background: var(--success-strong);
@@ -410,8 +481,8 @@ const clientData = {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2.75rem;
+    height: 2.75rem;
     border: 0;
     border-radius: var(--radius-full);
     background: transparent;
@@ -427,15 +498,19 @@ const clientData = {
   .options {
     padding: var(--space-5);
     display: grid;
-    gap: var(--space-4);
+    gap: var(--space-5);
   }
   .options__title {
     margin: 0;
-    font-size: var(--step-1);
+    font-size: var(--step-2);
+  }
+  .panel {
+    display: grid;
+    gap: var(--space-4);
   }
   .field {
     display: grid;
-    gap: var(--space-1);
+    gap: var(--space-2);
     min-width: 0;
     border: 0;
     margin: 0;
@@ -443,13 +518,13 @@ const clientData = {
   }
   .field label,
   .field legend {
-    font-size: var(--step--1);
-    font-weight: 650;
+    font-size: var(--step-0);
+    font-weight: 700;
     padding: 0;
   }
   .field__note {
     margin: 0;
-    font-size: 0.8rem;
+    font-size: var(--step--1);
     color: var(--text-muted);
   }
   .row {
@@ -458,40 +533,50 @@ const clientData = {
     gap: var(--space-3);
   }
   .row--target {
-    grid-template-columns: minmax(0, 1fr) 6rem;
+    grid-template-columns: minmax(0, 1fr) 7rem;
   }
   .options :global(input[type='number']),
-  .options :global(select) {
+  .options :global(select),
+  .results-bar :global(select) {
     width: 100%;
-    min-height: 2.75rem;
+    min-height: var(--control-h);
     padding: 0 var(--space-3);
     background: var(--surface);
     color: var(--text);
-    border: 1px solid var(--border-strong);
-    border-radius: var(--radius-md);
+    border: 2px solid var(--border-strong);
+    border-radius: var(--radius-sm);
     font: inherit;
+    font-size: var(--step-0);
+  }
+  .options :global(input[type='number']):focus,
+  .options :global(select):focus,
+  .results-bar :global(select):focus {
+    border-color: var(--brand);
   }
   .options :global(input[type='range']) {
     width: 100%;
+    height: 2rem;
     accent-color: var(--brand);
   }
   .check {
     display: flex;
     align-items: center;
-    gap: var(--space-2);
-    font-size: var(--step--1);
-    font-weight: 600;
+    gap: var(--space-3);
+    font-size: var(--step-0);
+    font-weight: 650;
     cursor: pointer;
+    min-height: 2.75rem;
   }
   .check input {
-    width: 1.15rem;
-    height: 1.15rem;
+    flex: none;
+    width: 1.5rem;
+    height: 1.5rem;
     accent-color: var(--brand);
   }
   .segmented {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0;
+    gap: var(--space-2);
   }
   .segmented legend {
     grid-column: 1 / -1;
@@ -511,26 +596,22 @@ const clientData = {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 2.75rem;
-    padding: 0 var(--space-2);
+    min-height: var(--control-h);
+    padding: var(--space-1) var(--space-2);
     text-align: center;
-    border: 1px solid var(--border-strong);
-    font-weight: 600;
-    font-size: var(--step--1);
+    border: 2px solid var(--border-strong);
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: var(--step-0);
+    line-height: 1.2;
     background: var(--surface);
   }
-  .segmented label:first-of-type span {
-    border-start-start-radius: var(--radius-md);
-    border-end-start-radius: var(--radius-md);
-  }
-  .segmented label:last-of-type span {
-    border-start-end-radius: var(--radius-md);
-    border-end-end-radius: var(--radius-md);
-  }
+  /* Selected option: peach fill with an orange border, like the reference design */
   .segmented input:checked + span {
-    background: var(--brand);
+    background: var(--brand-soft);
     border-color: var(--brand);
-    color: var(--on-brand);
+    box-shadow: inset 0 0 0 1px var(--brand);
+    color: var(--text);
   }
   .segmented input:focus-visible + span {
     outline: 3px solid var(--brand);
@@ -542,7 +623,7 @@ const clientData = {
     gap: var(--space-2);
     padding-top: var(--space-2);
   }
-  /* Phones: keep the main buttons within reach while scrolling through options and files */
+  /* Phones: keep the main button within reach while scrolling through options and files */
   @media (max-width: 47.99rem) {
     .actions {
       position: sticky;
@@ -550,9 +631,6 @@ const clientData = {
       padding-block: var(--space-3);
       background: linear-gradient(to top, var(--surface) 75%, transparent);
     }
-  }
-  .actions .btn[hidden] {
-    display: none;
   }
   .actions .btn:disabled {
     opacity: 0.55;

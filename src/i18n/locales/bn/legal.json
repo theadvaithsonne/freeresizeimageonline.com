@@ -70,7 +70,13 @@
           "title": "যোগাযোগ",
           "text": "{owner}, বেঙ্গালুরু, ভারত। ইমেইল: {email}।"
         }
-      ]
+      ],
+      "linksTitle": "দরকারি লিঙ্ক",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Google তার পরিষেবা ব্যবহারকারী সাইট থেকে তথ্য কীভাবে ব্যবহার করে",
+        "aboutAds": "আগ্রহভিত্তিক বিজ্ঞাপন থেকে বেরিয়ে আসুন (aboutads.info)"
+      }
     },
     "terms": {
       "title": "পরিষেবার শর্তাবলি - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "বিজ্ঞাপন ও তৃতীয় পক্ষ",
           "text": "বিজ্ঞাপন এবং অন্য ওয়েবসাইটের লিংক তৃতীয় পক্ষের। তাদের কনটেন্ট বা কার্যপদ্ধতির জন্য আমরা দায়ী নই।"
+        },
+        {
+          "title": "ট্রেডমার্ক",
+          "text": "Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay এবং Google ইত্যাদি নাম তাদের নিজ নিজ মালিকের। এখানে এগুলি শুধু ছবির সাইজ বোঝাতে ব্যবহার করা হয়েছে। FreeResizeImageOnline এগুলির কোনোটির সঙ্গে যুক্ত নয় এবং এদের অনুমোদিতও নয়।"
         },
         {
           "title": "প্রযোজ্য আইন",

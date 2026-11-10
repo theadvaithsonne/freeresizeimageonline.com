@@ -51,7 +51,7 @@ const live = Boolean(ADSENSE.client && slotId);
   }
   .ad-slot__label {
     margin: 0 0 var(--space-1);
-    font-size: 0.7rem;
+    font-size: 0.8125rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--text-muted);
@@ -75,7 +75,7 @@ const live = Boolean(ADSENSE.client && slotId);
     font-size: var(--step--1);
   }
 
-  /* Inline (phones/tablets): visible below 64rem only */
+  /* Inline (phones/tablets): visible below 75rem only */
   .ad-slot--inline {
     max-width: 336px;
     margin-inline: auto;
@@ -84,7 +84,7 @@ const live = Boolean(ADSENSE.client && slotId);
     min-height: var(--ad-inline-h);
   }
 
-  /* Rail (desktop): visible from 64rem up, sticks below the header while scrolling */
+  /* Rail (desktop): visible from 75rem up, sticks below the header while scrolling */
   .ad-slot--rail {
     display: none;
   }
@@ -92,7 +92,7 @@ const live = Boolean(ADSENSE.client && slotId);
     min-height: var(--ad-rail-h);
   }
 
-  @media (min-width: 64rem) {
+  @media (min-width: 75rem) {
     .ad-slot--inline {
       display: none;
     }

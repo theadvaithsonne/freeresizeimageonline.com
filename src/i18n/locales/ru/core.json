@@ -3,7 +3,9 @@
     "skipToContent": "Перейти к содержимому",
     "home": "Free Resize Image Online - главная",
     "toggleTheme": "Сменить цветовую тему",
-    "openLanguages": "Выбрать язык"
+    "openLanguages": "Выбрать язык",
+    "themeDark": "Тёмная",
+    "themeLight": "Светлая"
   },
   "language": {
     "label": "Язык",

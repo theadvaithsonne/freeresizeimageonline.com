@@ -13,6 +13,7 @@ export { planResize } from './geometry';
 export { fitToTargetSize } from './target-size';
 export { createEncoder, type Encoder } from './encoder';
 export { processImage } from './pipeline';
+export { convertResult, type ConvertedFile } from './convert';
 export { createItems, runBatch, batchProgress, type BatchItem, type ItemStatus } from './batch';
 export { zipFiles } from './zip';
 export { downloadBlob } from './download';

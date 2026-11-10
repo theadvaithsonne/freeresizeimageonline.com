@@ -50,7 +50,9 @@
       "cancel": "İptal",
       "downloadAll": "Tümünü indir (ZIP)",
       "download": "İndir",
-      "working": "Çalışıyor..."
+      "working": "Çalışıyor...",
+      "saveAs": "Şu biçimde indir",
+      "sameAsResized": "Yeniden boyutlandırılmış hâliyle aynı"
     },
     "status": {
       "queued": "Bekliyor",

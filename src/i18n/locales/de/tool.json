@@ -50,7 +50,9 @@
       "cancel": "Abbrechen",
       "downloadAll": "Alle laden (ZIP)",
       "download": "Herunterladen",
-      "working": "Wird bearbeitet..."
+      "working": "Wird bearbeitet...",
+      "saveAs": "Herunterladen als",
+      "sameAsResized": "Wie bearbeitet"
     },
     "status": {
       "queued": "Wartet",

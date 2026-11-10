@@ -70,7 +70,13 @@
           "title": "संपर्क",
           "text": "{owner}, बेंगलुरु, भारत। ईमेल: {email}।"
         }
-      ]
+      ],
+      "linksTitle": "उपयोगी लिंक",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Google उन साइटों से जानकारी का उपयोग कैसे करता है जो उसकी सेवाओं का उपयोग करती हैं",
+        "aboutAds": "रुचि-आधारित विज्ञापनों से बाहर निकलें (aboutads.info)"
+      }
     },
     "terms": {
       "title": "सेवा की शर्तें - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "विज्ञापन और तीसरे पक्ष",
           "text": "विज्ञापन और अन्य वेबसाइटों के लिंक तीसरे पक्षों के हैं। उनकी सामग्री या तौर-तरीकों के लिए हम ज़िम्मेदार नहीं हैं।"
+        },
+        {
+          "title": "ट्रेडमार्क",
+          "text": "Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay और Google जैसे नाम उनके मालिकों के हैं। इनका उपयोग यहाँ केवल इमेज साइज़ बताने के लिए किया गया है। FreeResizeImageOnline का इनमें से किसी से कोई संबंध नहीं है और न ही इन्होंने इसका समर्थन किया है।"
         },
         {
           "title": "लागू कानून",

@@ -70,7 +70,13 @@
           "title": "Liên hệ",
           "text": "{owner}, Bengaluru, Ấn Độ. Email: {email}."
         }
-      ]
+      ],
+      "linksTitle": "Liên kết hữu ích",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Cách Google sử dụng thông tin từ các trang web dùng dịch vụ của Google",
+        "aboutAds": "Từ chối quảng cáo theo sở thích (aboutads.info)"
+      }
     },
     "terms": {
       "title": "Điều khoản dịch vụ - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "Quảng cáo và bên thứ ba",
           "text": "Quảng cáo và liên kết đến các trang web khác thuộc về bên thứ ba. Chúng tôi không chịu trách nhiệm về nội dung hay hoạt động của họ."
+        },
+        {
+          "title": "Nhãn hiệu",
+          "text": "Các tên như Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay và Google thuộc về chủ sở hữu của chúng. Ở đây chúng chỉ được dùng để mô tả kích thước ảnh. FreeResizeImageOnline không liên kết với và không được các bên này bảo trợ."
         },
         {
           "title": "Luật điều chỉnh",

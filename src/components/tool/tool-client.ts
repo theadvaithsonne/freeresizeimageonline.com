@@ -6,6 +6,7 @@ import {
   DEFAULT_OPTIONS,
   batchProgress,
   createEncoder,
+  convertResult,
   createItems,
   downloadBlob,
   fromPixels,
@@ -16,10 +17,12 @@ import {
   toPixels,
   zipFiles,
   type BatchItem,
+  type ConvertedFile,
   type Encoder,
   type FitMode,
   type FormatChoice,
   type LengthUnit,
+  type OutputFormat,
   type ResizeOptions,
   type SizeMode,
 } from '../../engine';
@@ -97,6 +100,8 @@ export function initTool(root: HTMLElement): void {
   const runButton = q<HTMLButtonElement>('[data-run]');
   const cancelButton = q<HTMLButtonElement>('[data-cancel]');
   const downloadAllButton = q<HTMLButtonElement>('[data-download-all]');
+  const resultsBar = q('[data-results-bar]');
+  const saveAsSelect = q<HTMLSelectElement>('[data-saveas]');
 
   // --- state --------------------------------------------------------------------------------
   const items: ToolItem[] = [];
@@ -278,6 +283,59 @@ export function initTool(root: HTMLElement): void {
     return formatBytes(lang, item.file.size);
   }
 
+  // --- choosing the download format after resizing ------------------------------------------
+  const FORMAT_LABEL: Record<OutputFormat, string> = { jpeg: 'JPG', png: 'PNG', webp: 'WebP' };
+  /** Converted copies already made, so downloading the same format twice doesn't re-encode. */
+  const converted = new Map<string, ConvertedFile>();
+
+  function chosenFormat(item: ToolItem): OutputFormat | null {
+    const value = saveAsSelect.value as OutputFormat | '';
+    return value || item.result?.format || null;
+  }
+
+  function downloadLabel(item: ToolItem): string {
+    const format = chosenFormat(item);
+    return format ? `${tx('actions.download')} · ${FORMAT_LABEL[format]}` : tx('actions.download');
+  }
+
+  /** The file to save for this item: the resized result, or a re-encoded copy in the chosen format. */
+  async function fileFor(item: ToolItem): Promise<ConvertedFile> {
+    const result = item.result!;
+    const format = chosenFormat(item)!;
+    if (format === result.format) return { blob: result.blob, name: result.name, format };
+
+    const key = `${item.id}:${format}`;
+    const cached = converted.get(key);
+    if (cached) return cached;
+
+    const encoder = createEncoder();
+    try {
+      const file = await convertResult(result, format, encoder, {
+        quality: Math.min(1, Math.max(0.1, (qualityInput.valueAsNumber || 90) / 100)),
+      });
+      converted.set(key, file);
+      return file;
+    } finally {
+      encoder.dispose();
+    }
+  }
+
+  async function downloadOne(item: ToolItem, button: HTMLButtonElement) {
+    if (!item.result) return;
+    const original = button.textContent;
+    button.disabled = true;
+    button.textContent = tx('actions.working');
+    try {
+      const file = await fileFor(item);
+      downloadBlob(file.blob, file.name);
+    } catch {
+      showNotice(tx('errors.encode-failed'));
+    } finally {
+      button.disabled = false;
+      button.textContent = original;
+    }
+  }
+
   function updateItem(item: ToolItem) {
     const el = item.el;
     if (!el) return;
@@ -287,6 +345,7 @@ export function initTool(root: HTMLElement): void {
     (el.querySelector('[data-status]') as HTMLElement).textContent = tx(`status.${item.status}`);
     const dl = el.querySelector('[data-download]') as HTMLButtonElement;
     dl.hidden = !(item.status === 'done' && item.result);
+    if (item.result) dl.textContent = downloadLabel(item);
     const err = el.querySelector('[data-error]') as HTMLElement;
     let message = '';
     if (item.status === 'error') message = tx(`errors.${item.error ?? 'encode-failed'}`);
@@ -317,6 +376,7 @@ export function initTool(root: HTMLElement): void {
     filesBox.hidden = !has;
     filesTitle.textContent = tx('files.title', { count: items.length });
     const doneCount = items.filter((i) => i.status === 'done').length;
+    resultsBar.hidden = doneCount === 0;
     downloadAllButton.hidden = running || doneCount < 2;
     cancelButton.hidden = !running;
     runButton.hidden = running;
@@ -373,8 +433,8 @@ export function initTool(root: HTMLElement): void {
       item.el = node;
       node.dataset.id = String(item.id);
       node.querySelector('[data-remove]')!.addEventListener('click', () => removeItem(item));
-      node.querySelector('[data-download]')!.addEventListener('click', () => {
-        if (item.result) downloadBlob(item.result.blob, item.result.name);
+      node.querySelector('[data-download]')!.addEventListener('click', (event) => {
+        void downloadOne(item, event.currentTarget as HTMLButtonElement);
       });
       list.appendChild(node);
       items.push(item);
@@ -426,6 +486,7 @@ export function initTool(root: HTMLElement): void {
     running = true;
     abort = new AbortController();
     const encoder: Encoder = createEncoder();
+    converted.clear(); // new results replace any earlier converted copies
     for (const item of items) {
       item.status = 'queued';
       item.result = undefined;
@@ -472,9 +533,27 @@ export function initTool(root: HTMLElement): void {
   });
   cancelButton.addEventListener('click', () => abort?.abort());
   downloadAllButton.addEventListener('click', async () => {
-    const entries = items.filter((i) => i.result).map((i) => ({ name: i.result!.name, blob: i.result!.blob }));
-    if (entries.length === 0) return;
-    downloadBlob(await zipFiles(entries), 'resized-images.zip');
+    const finished = items.filter((i) => i.result);
+    if (finished.length === 0) return;
+    const original = downloadAllButton.textContent;
+    downloadAllButton.disabled = true;
+    downloadAllButton.textContent = tx('actions.working');
+    try {
+      const entries: { name: string; blob: Blob }[] = [];
+      for (const item of finished) {
+        const file = await fileFor(item);
+        entries.push({ name: file.name, blob: file.blob });
+      }
+      downloadBlob(await zipFiles(entries), 'resized-images.zip');
+    } catch {
+      showNotice(tx('errors.encode-failed'));
+    } finally {
+      downloadAllButton.disabled = false;
+      downloadAllButton.textContent = original;
+    }
+  });
+  saveAsSelect.addEventListener('change', () => {
+    for (const item of items) updateItem(item);
   });
   q('[data-clear]').addEventListener('click', clearAll);
 

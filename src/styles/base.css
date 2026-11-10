@@ -6,8 +6,9 @@
 }
 
 html {
-  /* 16px on phones, grows gently on large monitors, capped at 22px (4K). */
-  font-size: clamp(16px, 0.35vw + 11px, 22px);
+  /* 18px on phones (bigger than the usual 16px so text is easy to read), growing on large monitors, capped at 28px (4K). */
+  font-size: clamp(18px, 0.4vw + 12.5px, 28px);
+  scrollbar-color: var(--brand) var(--surface-2);
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   scroll-padding-top: calc(var(--header-h) + 1rem);
@@ -23,7 +24,7 @@ body {
   color: var(--text);
   font-family: var(--font-sans);
   font-size: var(--step-0);
-  line-height: 1.6;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   overflow-wrap: break-word;
 }
@@ -132,8 +133,9 @@ button {
   align-items: center;
   justify-content: center;
   gap: var(--space-2);
-  min-height: 2.75rem; /* comfortable touch target */
-  padding: 0 var(--space-5);
+  min-height: var(--control-h); /* big, comfortable touch target */
+  padding: 0 var(--space-6);
+  font-size: var(--step-0);
   border: 1px solid transparent;
   border-radius: var(--radius-md);
   background: var(--brand);
@@ -180,24 +182,32 @@ button {
 .badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.3rem 0.8rem;
+  gap: 0.5rem;
+  padding: 0.45rem 1rem 0.45rem 0.6rem;
   border-radius: var(--radius-full);
-  background: var(--success-soft);
+  background: var(--mint);
   color: var(--text);
-  font-size: var(--step--1);
-  font-weight: 650;
+  font-size: var(--step-0);
+  font-weight: 700;
+}
+.badge:nth-child(2) {
+  background: var(--mint-soft);
+}
+.badge:nth-child(3) {
+  background: var(--sun);
+}
+.badge:nth-child(4) {
+  background: var(--brand-soft);
 }
 .badge::before {
   content: '';
-  width: 1.1em;
-  height: 1.1em;
-  border-radius: 50%;
-  background: var(--success);
-  /* checkmark */
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4 10.5l4 4 8-9' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 70% no-repeat;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4 10.5l4 4 8-9' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 70% no-repeat;
-  background: var(--success);
+  flex: none;
+  width: 1.5em;
+  height: 1.5em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%232b1005'/%3E%3Cpath d='M6.5 12.5l4 4 7-8.5' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+:root[data-theme='dark'] .badge::before {
+  filter: invert(1);
 }
 
 @media (prefers-reduced-motion: reduce) {

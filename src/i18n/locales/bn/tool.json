@@ -50,7 +50,9 @@
       "cancel": "বাতিল",
       "downloadAll": "সব ডাউনলোড (ZIP)",
       "download": "ডাউনলোড",
-      "working": "কাজ চলছে..."
+      "working": "কাজ চলছে...",
+      "saveAs": "এই ফরম্যাটে ডাউনলোড করুন",
+      "sameAsResized": "রিসাইজ করা ফাইলের মতোই"
     },
     "status": {
       "queued": "অপেক্ষায়",

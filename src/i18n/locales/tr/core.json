@@ -3,7 +3,9 @@
     "skipToContent": "İçeriğe geç",
     "home": "Free Resize Image Online - ana sayfa",
     "toggleTheme": "Renk temasını değiştir",
-    "openLanguages": "Dil seçin"
+    "openLanguages": "Dil seçin",
+    "themeDark": "Koyu",
+    "themeLight": "Açık"
   },
   "language": {
     "label": "Dil",

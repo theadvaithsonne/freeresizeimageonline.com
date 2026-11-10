@@ -70,7 +70,13 @@
           "title": "Contato",
           "text": "{owner}, Bengaluru, Índia. E-mail: {email}."
         }
-      ]
+      ],
+      "linksTitle": "Links úteis",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Como o Google usa informações de sites que usam seus serviços",
+        "aboutAds": "Desativar publicidade baseada em interesses (aboutads.info)"
+      }
     },
     "terms": {
       "title": "Termos de Serviço - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "Anúncios e terceiros",
           "text": "Os anúncios e os links para outros sites pertencem a terceiros. Não somos responsáveis pelo conteúdo ou pelas práticas deles."
+        },
+        {
+          "title": "Marcas registradas",
+          "text": "Nomes como Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay e Google pertencem aos seus respectivos proprietários. Eles são usados aqui apenas para descrever tamanhos de imagem. O FreeResizeImageOnline não é afiliado a nenhum deles nem é endossado por eles."
         },
         {
           "title": "Lei aplicável",

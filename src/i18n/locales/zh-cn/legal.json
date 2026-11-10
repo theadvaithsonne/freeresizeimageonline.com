@@ -70,7 +70,13 @@
           "title": "联系方式",
           "text": "{owner}，印度班加罗尔。电子邮件：{email}。"
         }
-      ]
+      ],
+      "linksTitle": "实用链接",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Google 如何使用采用其服务的网站中的信息",
+        "aboutAds": "退出基于兴趣的广告（aboutads.info）"
+      }
     },
     "terms": {
       "title": "服务条款 - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "广告和第三方",
           "text": "广告以及指向其他网站的链接属于第三方。我们不对其内容或做法负责。"
+        },
+        {
+          "title": "商标",
+          "text": "Instagram、Facebook、YouTube、X、LinkedIn、Pinterest、WhatsApp、Amazon、Shopify、eBay 和 Google 等名称均归其各自所有者所有，在此仅用于说明图片尺寸。FreeResizeImageOnline 与它们没有关联，也未获得它们的认可。"
         },
         {
           "title": "适用法律",

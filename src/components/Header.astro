@@ -20,7 +20,11 @@ const { lang, path } = Astro.props;
     <div class="site-header__actions">
       <Counters lang={lang} variant="header" />
       <LanguageSwitcher lang={lang} path={path} />
-      <ThemeToggle label={t(lang, 'a11y.toggleTheme')} />
+      <ThemeToggle
+        label={t(lang, 'a11y.toggleTheme')}
+        dark={t(lang, 'a11y.themeDark')}
+        light={t(lang, 'a11y.themeLight')}
+      />
     </div>
   </div>
 </header>
@@ -31,7 +35,7 @@ const { lang, path } = Astro.props;
     top: 0;
     z-index: 50;
     height: var(--header-h);
-    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    background: color-mix(in srgb, var(--surface) 94%, transparent);
     backdrop-filter: saturate(1.4) blur(10px);
     border-bottom: 1px solid var(--border);
   }
@@ -47,10 +51,19 @@ const { lang, path } = Astro.props;
     border-radius: var(--radius-sm);
     /* The brand name is a Latin logo even on RTL pages */
     direction: ltr;
+    /* shrink (with an ellipsis) instead of pushing the buttons off a narrow screen */
+    flex: 0 1 auto;
+    min-width: 0;
   }
   .site-header__actions {
     display: flex;
     align-items: center;
-    gap: var(--space-3);
+    gap: var(--space-2);
+    flex: none;
+  }
+  @media (min-width: 30rem) {
+    .site-header__actions {
+      gap: var(--space-3);
+    }
   }
 </style>

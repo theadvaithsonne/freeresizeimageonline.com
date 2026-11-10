@@ -50,7 +50,9 @@
       "cancel": "Batal",
       "downloadAll": "Unduh semua (ZIP)",
       "download": "Unduh",
-      "working": "Memproses..."
+      "working": "Memproses...",
+      "saveAs": "Unduh sebagai",
+      "sameAsResized": "Sama seperti hasil"
     },
     "status": {
       "queued": "Menunggu",

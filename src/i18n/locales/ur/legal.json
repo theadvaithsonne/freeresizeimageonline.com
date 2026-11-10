@@ -70,7 +70,13 @@
           "title": "رابطہ",
           "text": "{owner}، بنگلورو، بھارت۔ ای میل: {email}۔"
         }
-      ]
+      ],
+      "linksTitle": "مفید لنکس",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Google ان سائٹس کی معلومات کیسے استعمال کرتا ہے جو اس کی خدمات استعمال کرتی ہیں",
+        "aboutAds": "دلچسپی پر مبنی اشتہارات سے باہر نکلیں (aboutads.info)"
+      }
     },
     "terms": {
       "title": "سروس کی شرائط - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "اشتہارات اور تیسرے فریق",
           "text": "اشتہارات اور دوسری ویب سائٹس کے لنکس تیسرے فریق کی ملکیت ہیں۔ ہم ان کے مواد یا طریقوں کے ذمہ دار نہیں ہیں۔"
+        },
+        {
+          "title": "ٹریڈ مارکس",
+          "text": "Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay اور Google جیسے نام ان کے مالکان کی ملکیت ہیں۔ یہاں انہیں صرف تصویر کے سائز بتانے کے لیے استعمال کیا گیا ہے۔ FreeResizeImageOnline کا ان میں سے کسی سے کوئی تعلق نہیں اور نہ ہی انہوں نے اس کی توثیق کی ہے۔"
         },
         {
           "title": "حاکم قانون",

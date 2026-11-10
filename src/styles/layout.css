@@ -1,4 +1,4 @@
-/* Page shell: one fluid column on phones/tablets, content + 320px ad rail from 64rem (1024px). */
+/* Page shell: one fluid column on phones/tablets; content + 336px ad column from 75rem (1200px). */
 .page {
   flex: 1 0 auto;
   display: grid;
@@ -9,6 +9,9 @@
 
 .page__main {
   min-width: 0; /* lets wide children (tables, previews) shrink instead of overflowing */
+  /* Components can react to the width of the content column (not the whole window). */
+  container-type: inline-size;
+  container-name: page;
 }
 
 .page__inline-ad {
@@ -19,10 +22,11 @@
   display: none;
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 75rem) {
   .page {
     grid-template-columns: minmax(0, 1fr) var(--rail-w);
-    gap: var(--space-6);
+    /* a wide gap keeps the ad away from the tool's buttons (Google ad placement policy) */
+    gap: var(--space-7);
     align-items: stretch; /* rail column spans full height so the sticky ad can travel */
   }
   .page__inline-ad {
@@ -36,14 +40,14 @@
 /* Very small phones */
 @media (max-width: 22.5rem) {
   :root {
-    --gutter: 0.875rem;
+    --gutter: 0.75rem;
   }
 }
 
 /* Short landscape phones: keep the header compact so the tool stays visible */
 @media (max-height: 30rem) and (orientation: landscape) {
   :root {
-    --header-h: 3.25rem;
+    --header-h: 3.5rem;
   }
 }
 

@@ -38,7 +38,7 @@ const appLd = {
   inLanguage: lang,
 };
 ---
-<Layout title={t(lang, 'home.title')} description={t(lang, 'home.description')} lang={lang} path="/">
+<Layout title={t(lang, 'home.title')} description={t(lang, 'home.description')} lang={lang} path="/" inlineAd="manual">
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(appLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
@@ -62,6 +62,7 @@ const appLd = {
     faqTitle={t(lang, 'common.faqTitle')}
     faq={faq}
     currentKey="home"
+    inlineAd
   >
     <section class="block" aria-labelledby="why-title">
       <h2 id="why-title">{t(lang, 'home.why.title')}</h2>

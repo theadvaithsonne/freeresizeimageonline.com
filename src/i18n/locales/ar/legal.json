@@ -70,7 +70,13 @@
           "title": "اتصل بنا",
           "text": "{owner}، بنغالورو، الهند. البريد الإلكتروني: {email}."
         }
-      ]
+      ],
+      "linksTitle": "روابط مفيدة",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "كيف تستخدم Google المعلومات من المواقع التي تستخدم خدماتها",
+        "aboutAds": "إلغاء الاشتراك في الإعلانات المبنية على الاهتمامات (aboutads.info)"
+      }
     },
     "terms": {
       "title": "شروط الخدمة - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "الإعلانات والأطراف الخارجية",
           "text": "الإعلانات والروابط إلى المواقع الأخرى تعود لأطراف خارجية. ولسنا مسؤولين عن محتواها أو ممارساتها."
+        },
+        {
+          "title": "العلامات التجارية",
+          "text": "الأسماء مثل Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay و Google مملوكة لأصحابها. تُستخدم هنا فقط لوصف أحجام الصور. موقع FreeResizeImageOnline غير تابع لأي منها ولا يحظى بتأييدها."
         },
         {
           "title": "القانون الحاكم",

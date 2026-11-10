@@ -50,7 +50,9 @@
       "cancel": "Отмена",
       "downloadAll": "Скачать всё (ZIP)",
       "download": "Скачать",
-      "working": "Обработка..."
+      "working": "Обработка...",
+      "saveAs": "Скачать как",
+      "sameAsResized": "Как в результате"
     },
     "status": {
       "queued": "Ожидание",

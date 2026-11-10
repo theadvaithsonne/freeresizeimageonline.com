@@ -24,7 +24,7 @@ const sections = list<{ title: string; text: string }>(lang, `legal.${pageKey}.s
 }));
 const showDate = pageKey === 'privacy' || pageKey === 'terms';
 ---
-<Layout title={p('title')} description={p('description')} lang={lang} path={`/${pageKey}/`} ads={false}>
+<Layout title={p('title')} description={p('description')} lang={lang} path={`/${pageKey}/`} ads={false} toolNav={false}>
   <article class="legal">
     <h1>{p('h1')}</h1>
     {showDate && <p class="legal__date">{t(lang, 'legal.updated', { date: formatDate(lang, SITE.legalUpdated) })}</p>}
@@ -66,6 +66,31 @@ const showDate = pageKey === 'privacy' || pageKey === 'terms';
       ))
     }
 
+    {
+      pageKey === 'privacy' && (
+        <section>
+          <h2>{t(lang, 'legal.privacy.linksTitle')}</h2>
+          <ul class="legal__links">
+            <li>
+              <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank">
+                {t(lang, 'legal.privacy.links.adsSettings')}
+              </a>
+            </li>
+            <li>
+              <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer" target="_blank">
+                {t(lang, 'legal.privacy.links.googleData')}
+              </a>
+            </li>
+            <li>
+              <a href="https://optout.aboutads.info/" rel="noopener noreferrer" target="_blank">
+                {t(lang, 'legal.privacy.links.aboutAds')}
+              </a>
+            </li>
+          </ul>
+        </section>
+      )
+    }
+
     <p class="legal__back"><a href={localizedPath(lang, '/')}>{t(lang, 'nav.home')}</a></p>
   </article>
 </Layout>
@@ -105,6 +130,11 @@ const showDate = pageKey === 'privacy' || pageKey === 'terms';
     margin: 0;
     font-weight: 600;
     overflow-wrap: anywhere;
+  }
+  .legal__links {
+    padding-inline-start: 1.25rem;
+    display: grid;
+    gap: var(--space-2);
   }
   .legal__back {
     margin-top: var(--space-7);

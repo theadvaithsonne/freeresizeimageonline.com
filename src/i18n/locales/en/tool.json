@@ -50,7 +50,9 @@
       "cancel": "Cancel",
       "downloadAll": "Download all (ZIP)",
       "download": "Download",
-      "working": "Working..."
+      "working": "Working...",
+      "saveAs": "Download as",
+      "sameAsResized": "Same as resized"
     },
     "status": {
       "queued": "Waiting",

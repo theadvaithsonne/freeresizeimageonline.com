@@ -50,7 +50,9 @@
       "cancel": "Hủy",
       "downloadAll": "Tải tất cả (ZIP)",
       "download": "Tải xuống",
-      "working": "Đang xử lý..."
+      "working": "Đang xử lý...",
+      "saveAs": "Tải xuống dưới dạng",
+      "sameAsResized": "Giữ nguyên như kết quả"
     },
     "status": {
       "queued": "Đang chờ",

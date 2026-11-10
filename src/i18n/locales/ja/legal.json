@@ -70,7 +70,13 @@
           "title": "お問い合わせ",
           "text": "{owner}、インド、ベンガルール。メール：{email}。"
         }
-      ]
+      ],
+      "linksTitle": "便利なリンク",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Googleのサービスを使用するサイトの情報をGoogleがどのように使用するか",
+        "aboutAds": "関心に基づく広告のオプトアウト（aboutads.info）"
+      }
     },
     "terms": {
       "title": "利用規約 - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "広告と第三者",
           "text": "広告や他のウェブサイトへのリンクは、第三者のものです。当社は、その内容や運営について責任を負いません。"
+        },
+        {
+          "title": "商標",
+          "text": "Instagram、Facebook、YouTube、X、LinkedIn、Pinterest、WhatsApp、Amazon、Shopify、eBay、Googleなどの名称は、それぞれの所有者に帰属します。ここでは画像サイズを説明する目的でのみ使用しています。FreeResizeImageOnlineはこれらの企業と提携しておらず、承認も受けていません。"
         },
         {
           "title": "準拠法",

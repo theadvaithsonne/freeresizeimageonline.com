@@ -3,7 +3,9 @@
     "skipToContent": "Naar de inhoud",
     "home": "Free Resize Image Online - home",
     "toggleTheme": "Kleurthema wisselen",
-    "openLanguages": "Taal kiezen"
+    "openLanguages": "Taal kiezen",
+    "themeDark": "Donker",
+    "themeLight": "Licht"
   },
   "language": {
     "label": "Taal",

@@ -3,7 +3,9 @@
     "skipToContent": "মূল বিষয়বস্তুতে যান",
     "home": "Free Resize Image Online - হোম",
     "toggleTheme": "রঙের থিম পরিবর্তন করুন",
-    "openLanguages": "ভাষা বেছে নিন"
+    "openLanguages": "ভাষা বেছে নিন",
+    "themeDark": "ডার্ক",
+    "themeLight": "লাইট"
   },
   "language": {
     "label": "ভাষা",

@@ -3,7 +3,9 @@
     "skipToContent": "انتقل إلى المحتوى",
     "home": "Free Resize Image Online - الصفحة الرئيسية",
     "toggleTheme": "تبديل مظهر الألوان",
-    "openLanguages": "اختر اللغة"
+    "openLanguages": "اختر اللغة",
+    "themeDark": "داكن",
+    "themeLight": "فاتح"
   },
   "language": {
     "label": "اللغة",

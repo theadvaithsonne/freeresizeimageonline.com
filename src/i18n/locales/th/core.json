@@ -3,7 +3,9 @@
     "skipToContent": "ข้ามไปยังเนื้อหา",
     "home": "Free Resize Image Online - หน้าแรก",
     "toggleTheme": "สลับธีมสี",
-    "openLanguages": "เลือกภาษา"
+    "openLanguages": "เลือกภาษา",
+    "themeDark": "มืด",
+    "themeLight": "สว่าง"
   },
   "language": {
     "label": "ภาษา",

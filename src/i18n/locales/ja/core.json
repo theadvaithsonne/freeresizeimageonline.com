@@ -3,7 +3,9 @@
     "skipToContent": "コンテンツへスキップ",
     "home": "Free Resize Image Online - ホーム",
     "toggleTheme": "カラーテーマを切り替える",
-    "openLanguages": "言語を選択"
+    "openLanguages": "言語を選択",
+    "themeDark": "ダーク",
+    "themeLight": "ライト"
   },
   "language": {
     "label": "言語",

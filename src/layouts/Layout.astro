@@ -4,6 +4,7 @@ import '../styles/base.css';
 import '../styles/layout.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import ToolNav from '../components/ToolNav.astro';
 import AdSlot from '../components/AdSlot.astro';
 import LanguageSuggest from '../components/LanguageSuggest.astro';
 import { FONT_STYLESHEETS } from '../i18n/languages';
@@ -19,8 +20,15 @@ interface Props {
   path?: string;
   /** Show the right-hand ad rail / inline ad slot (default true). */
   ads?: boolean;
+  /**
+   * Where the phone/tablet ad goes: 'end' = after the page content (default), 'manual' = the page places
+   * <AdSlot variant="inline"> itself (tool pages put it after the "how to" steps, well away from the buttons).
+   */
+  inlineAd?: 'end' | 'manual';
+  /** Show the strip of tool links under the header (default true). */
+  toolNav?: boolean;
 }
-const { title, description, lang, path = '/', ads = true } = Astro.props;
+const { title, description, lang, path = '/', ads = true, inlineAd = 'end', toolNav = true } = Astro.props;
 const language = getLanguage(lang);
 const site = Astro.site!;
 const canonical = new URL(localizedPath(lang, path), site).href;
@@ -41,7 +49,8 @@ const versions = alternates(path);
       ))
     }
     <link rel="alternate" hreflang="x-default" href={new URL(localizedPath('en', path), site).href} />
-    <meta name="theme-color" content="#2457f5" />
+    <meta name="theme-color" content="#fff4e8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1b100b" media="(prefers-color-scheme: dark)" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
@@ -92,11 +101,12 @@ const versions = alternates(path);
   <body>
     <a class="skip-link" href="#main">{t(lang, 'a11y.skipToContent')}</a>
     <Header lang={lang} path={path} />
+    {toolNav && <ToolNav lang={lang} path={path} />}
 
     <div class="page container">
       <main id="main" class="page__main">
         <slot />
-        {ads && (
+        {ads && inlineAd === 'end' && (
           <div class="page__inline-ad">
             <AdSlot variant="inline" lang={lang} />
           </div>

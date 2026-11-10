@@ -70,7 +70,13 @@
           "title": "Kontak",
           "text": "{owner}, Bengaluru, India. Email: {email}."
         }
-      ]
+      ],
+      "linksTitle": "Tautan berguna",
+      "links": {
+        "adsSettings": "Google Ads Settings",
+        "googleData": "Cara Google menggunakan informasi dari situs yang memakai layanannya",
+        "aboutAds": "Nonaktifkan iklan berbasis minat (aboutads.info)"
+      }
     },
     "terms": {
       "title": "Ketentuan Layanan - FreeResizeImageOnline",
@@ -104,6 +110,10 @@
         {
           "title": "Iklan dan pihak ketiga",
           "text": "Iklan dan tautan ke situs web lain adalah milik pihak ketiga. Kami tidak bertanggung jawab atas konten atau praktik mereka."
+        },
+        {
+          "title": "Merek dagang",
+          "text": "Nama seperti Instagram, Facebook, YouTube, X, LinkedIn, Pinterest, WhatsApp, Amazon, Shopify, eBay dan Google adalah milik pemiliknya masing-masing. Nama-nama itu hanya digunakan di sini untuk menjelaskan ukuran gambar. FreeResizeImageOnline tidak berafiliasi dengan maupun didukung oleh mereka."
         },
         {
           "title": "Hukum yang berlaku",
