@@ -1,0 +1,15 @@
+{
+  // The website: a Cloudflare Worker that serves the static files in ./dist (free plan, unlimited static requests).
+  // Deploy with: npm run build && npx wrangler deploy
+  // The live-counter Worker is a separate project in ./worker (see docs/DEPLOY.md).
+  "name": "freeresizeimageonline",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "freeresizeimageonline.com", "custom_domain": true },
+    { "pattern": "www.freeresizeimageonline.com", "custom_domain": true }
+  ]
+}

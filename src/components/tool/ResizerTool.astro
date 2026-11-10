@@ -39,7 +39,7 @@ const clientData = {
   <div class="tool__grid">
     <!-- Left: drop zone + file list -->
     <div class="tool__main">
-      <div class="drop" data-drop tabindex="0" role="button" aria-label={t(lang, 'tool.drop.choose')}>
+      <div class="drop" data-drop tabindex="0" role="button">
         <svg class="drop__icon" viewBox="0 0 48 48" width="44" height="44" aria-hidden="true" focusable="false">
           <rect x="6" y="9" width="36" height="30" rx="5" fill="none" stroke="currentColor" stroke-width="3" />
           <circle cx="17" cy="20" r="3.5" fill="currentColor" />
@@ -258,7 +258,7 @@ const clientData = {
     color: var(--text-muted);
   }
   .drop__privacy {
-    color: var(--success);
+    color: var(--success-strong);
     font-weight: 650;
   }
   [data-tool].has-files .drop {
@@ -387,7 +387,7 @@ const clientData = {
     color: var(--text-muted);
   }
   .item[data-state='done'] .item__status {
-    color: var(--success);
+    color: var(--success-strong);
   }
   .item[data-state='error'] .item__status {
     color: var(--danger);
@@ -398,13 +398,13 @@ const clientData = {
     font-size: var(--step--1);
   }
   .btn--accent {
-    background: var(--success);
-    color: #fff;
+    background: var(--success-strong);
+    color: var(--on-success);
   }
   .btn--accent:hover {
-    background: var(--success);
-    filter: brightness(0.93);
-    color: #fff;
+    background: var(--success-strong);
+    filter: brightness(0.92);
+    color: var(--on-success);
   }
   .icon-button {
     display: inline-flex;

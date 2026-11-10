@@ -1,0 +1,54 @@
+---
+// Shown by Cloudflare for unknown URLs. Language-neutral on purpose: it is served for any path,
+// so it offers a link to every language's home page.
+import Layout from '../layouts/Layout.astro';
+import { LANGUAGES, localizedPath } from '../i18n';
+---
+<Layout
+  title="Page not found - FreeResizeImageOnline"
+  description="This page does not exist. Go to the free image resizer."
+  lang="en"
+  path="/404/"
+  ads={false}
+>
+  <meta name="robots" content="noindex" slot="head" />
+  <h1>404</h1>
+  <p class="lead">This page does not exist. / <span lang="en">Go back to the image resizer:</span></p>
+  <ul class="languages">
+    {
+      LANGUAGES.map((l) => (
+        <li>
+          <a href={localizedPath(l.code, '/')} hreflang={l.htmlLang} lang={l.htmlLang}>{l.nativeName}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
+
+<style>
+  .lead {
+    font-size: var(--step-1);
+    color: var(--text-muted);
+  }
+  .languages {
+    list-style: none;
+    margin: var(--space-5) 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .languages a {
+    display: inline-block;
+    padding: 0.5rem var(--space-4);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-full);
+    background: var(--surface);
+    color: var(--text);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .languages a:hover {
+    background: var(--brand-soft);
+  }
+</style>

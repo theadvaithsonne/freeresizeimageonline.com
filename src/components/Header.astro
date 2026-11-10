@@ -14,7 +14,7 @@ const { lang, path } = Astro.props;
 ---
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="site-header__brand" href={localizedPath(lang, '/')} aria-label={t(lang, 'a11y.home')}>
+    <a class="site-header__brand" href={localizedPath(lang, '/')}>
       <Logo />
     </a>
     <div class="site-header__actions">

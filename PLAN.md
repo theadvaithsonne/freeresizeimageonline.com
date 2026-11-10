@@ -162,23 +162,23 @@ Browser (visitor)
 **Done when:** every item in the checklist passes.
 
 ## STEP 10 — Translations (19 languages + English)
-- [ ] 10.1 (C) Glossary of key terms per language (resize, compress, quality, DPI, batch…)
-- [ ] 10.2 (C) UI strings for all 20 languages
-- [ ] 10.3 (C) Tool/intent page content for all 20 languages — localised, not word-for-word; local examples
-- [ ] 10.4 (C) Legal pages translated (legal text: English version is authoritative; stated on page)
-- [ ] 10.5 (C) Automated checks: no missing keys, no leftover English, placeholders intact, RTL pages render
-- [ ] 10.6 (U, optional) Native-speaker proof-read of top markets (Hindi, Spanish, German, French, Portuguese)
+- [x] 10.1 (C) Glossary: handled through consistent instructions per language (formal/informal address, resize/compress terms); each translator kept button names identical between the UI and the how-to text
+- [x] 10.2 (C) UI strings (core + tool) for all 20 languages
+- [x] 10.3 (C) Home page and six landing pages for all 20 languages: natural wording, local search phrasing for titles/descriptions, same facts and numbers
+- [x] 10.4 (C) Privacy and Terms translated faithfully; a note on every translated legal page links to the English version, which applies if they differ
+- [x] 10.5 (C) Automated checks: `node scripts/check-locale.mjs` and the Vitest suite verify files, keys, list lengths, placeholders, protected terms (brand, Google AdSense, Cloudflare), and that long texts are not left in English. RTL pages verified by screenshot (Arabic, Urdu layout mirrors).
+- [ ] 10.6 (U, optional) Native-speaker proof-read, ideally for Hindi, Spanish, German, French, Portuguese and the legal pages. The translators flagged these points: French users often write Ko/Mo instead of KB/MB; Russian page titles use "КБ"; several languages write Bengaluru as Bangalore; SEO titles are worth a native look.
 
 **Done when:** all 20 languages are complete; checks pass.
 
 > ⚠ Honest caveat: translations are written by Claude without native review. Google doesn't treat AI translation as spam by itself, but low-quality bulk translation can hurt SEO/AdSense review — so quality over volume, and proof-reading of main markets is advised.
 
 ## STEP 11 — Technical SEO & performance
-- [ ] 11.1 (C) Sitemap per language, canonical + hreflang audit
-- [ ] 11.2 (C) Structured data: SoftwareApplication, FAQPage, HowTo, BreadcrumbList
-- [ ] 11.3 (C) Core Web Vitals: Lighthouse ≥ 90 mobile; lazy-load WASM codecs; font subsetting; cache headers (`_headers`)
-- [ ] 11.4 (C) Open Graph / Twitter cards per language
-- [ ] 11.5 (C) Security headers (CSP compatible with AdSense, X-Content-Type-Options, etc.)
+- [x] 11.1 (C) `sitemap.xml` with all 221 URLs x language alternates, canonical + hreflang (x-default = English), `robots.txt`
+- [x] 11.2 (C) Structured data: SoftwareApplication, FAQPage, HowTo, BreadcrumbList
+- [x] 11.3 (C) Lighthouse on the live site (mobile): performance 91-100, accessibility 100, SEO 100, layout shift ~0, LCP 1.0-1.7 s. Best Practices 77 only because Google AdSense sets third-party cookies (the privacy page scores 100). Cache headers in `public/_headers`; WASM codecs and Pica load only when used; fonts split per script.
+- [x] 11.4 (C) Open Graph / Twitter cards with a 1200x630 image and per-language `og:locale`
+- [x] 11.5 (C) Security headers: nosniff, referrer policy, permissions policy. A strict Content-Security-Policy is deliberately NOT set because AdSense loads from many changing domains and the resizer needs blob: workers.
 
 ## STEP 12 — Testing (device + browser matrix)
 - [ ] 12.1 (C) Browsers: Chrome, Edge, Firefox, Safari (macOS + iOS), Samsung Internet
@@ -189,16 +189,16 @@ Browser (visitor)
 - [ ] 12.6 (U) Real-device spot check on your phone(s)
 
 ## STEP 13 — Deployment
-- [ ] 13.1 (U) Create Cloudflare + GitHub accounts/repo; (C) push code
-- [ ] 13.2 (C) Cloudflare Pages project (build command, output dir) + Worker deploy for counters
-- [~] 13.3 (U) Nameservers at BigRock changed to `nia.ns.cloudflare.com` + `rajeev.ns.cloudflare.com` on 2026-11-10 ~22:19 IST (DONE; placeholder 127.0.0.1 records removed). Waiting for Cloudflare to show the zone as **Active** (1-2h, up to 24h).
-- [ ] 13.4 (C) Custom domain + HTTPS, www → apex redirect
+- [x] 13.1 (U/C) Cloudflare account already existed; deployed with Wrangler (already logged in on this computer), so no GitHub repo is needed. GitHub auto-deploy stays optional (docs/DEPLOY.md).
+- [x] 13.2 (C) Site deployed as a Cloudflare Worker with static assets (Cloudflare has merged Pages into Workers); config in `wrangler.jsonc`. The counter Worker is ready but **not deployed** (see 7.x note: shared free quota with the other site on this account).
+- [x] 13.3 (U) Nameservers at BigRock changed to `nia.ns.cloudflare.com` + `rajeev.ns.cloudflare.com` on 2026-11-10; Cloudflare serves the zone.
+- [x] 13.4 (C) Custom domains freeresizeimageonline.com and www attached, HTTPS working. Optional 1-minute dashboard step: redirect www to the root domain (docs/DEPLOY.md).
 - [x] 13.5 (C) ~~Cloudflare Email Routing~~ — not needed (public contact email is the Gmail address)
-- [ ] 13.6 (C) Cloudflare Web Analytics; (U) Google Search Console verification + submit sitemaps
+- [~] 13.6 (C/U) Cloudflare Web Analytics beacon is injected automatically. (U) Add the domain in Google Search Console and submit https://freeresizeimageonline.com/sitemap.xml.
 
 ## STEP 14 — AdSense application & go-live of ads
-- [ ] 14.1 (U) Apply for AdSense with the live site (needs the site to be public, finished and in the languages)
-- [ ] 14.2 (C) Add AdSense verification snippet / `ads.txt`
+- [~] 14.1 (U) AdSense site added; **Verify** is ready to click (the site is live with the code snippet, meta tag and ads.txt), then **Request review**.
+- [x] 14.2 (C) AdSense code snippet in `<head>`, `google-adsense-account` meta tag, and `/ads.txt` (publisher ca-pub-5152758693265080) are live.
 - [ ] 14.3 (U) Wait for review (can take days to weeks); (C) fix anything flagged
 - [ ] 14.4 (C) Switch on ad box via config; verify layout; configure consent message
 - [ ] 14.5 (C) Check AdSense policy centre; monitor "Auto ads" off (manual placement only)

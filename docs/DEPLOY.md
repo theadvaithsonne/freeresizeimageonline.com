@@ -1,55 +1,63 @@
 # Deploying to Cloudflare (free plan)
 
-Two parts: the **website** (Cloudflare Pages) and the optional **live counters** (one Worker).
-The domain `freeresizeimageonline.com` is already in your Cloudflare account (nameservers changed at BigRock).
+Two parts: the **website** and the optional **live counters** (one small Worker).
+The domain `freeresizeimageonline.com` is in your Cloudflare account (nameservers changed at BigRock).
 
-## A. Website on Cloudflare Pages
+## A. The website (already live)
 
-### Option 1 - direct upload from this computer (no GitHub needed)
+Cloudflare has merged "Pages" into "Workers": a static site is now a Worker that serves a folder of files
+("static assets"). It is free, with unlimited requests for static files. The settings are in `wrangler.jsonc`.
+
 ```
-npm install
-npx wrangler login                      # opens the browser once; click "Allow"
-npm run build                           # runs tests, copies fonts, writes ads.txt, builds ./dist
-npx wrangler pages project create freeresizeimageonline --production-branch main
-npx wrangler pages deploy dist --project-name freeresizeimageonline --branch main
+npm install                 # once
+npx wrangler login          # once per computer (opens the browser; click Allow)
+npm run build               # runs the tests, copies fonts, writes ads.txt, builds ./dist
+npx wrangler deploy         # uploads ./dist and keeps freeresizeimageonline.com + www attached
 ```
-You get a `https://freeresizeimageonline.pages.dev` address immediately.
+Every deploy is a new "version"; rolling back is possible from the Cloudflare dashboard
+(Workers & Pages -> freeresizeimageonline -> Deployments).
 
-### Option 2 - automatic deploys from GitHub
-1. Push this repository to GitHub (a private repo is fine).
-2. Cloudflare dashboard -> **Workers & Pages** -> **Create** -> **Pages** -> **Connect to Git** -> pick the repo.
-3. Build command `npm run build`, output directory `dist`. Environment variable `NODE_VERSION` = `22`.
-4. Every push to `main` redeploys.
+Optional: automatic deploys from GitHub. Push the repo, then in the dashboard open the Worker ->
+Settings -> Builds -> connect the repository; build command `npm run build`, deploy command `npx wrangler deploy`.
 
-### Connect your domain (both options)
-Cloudflare dashboard -> **Workers & Pages** -> `freeresizeimageonline` -> **Custom domains** -> **Set up a custom domain**:
-- add `freeresizeimageonline.com` (Cloudflare creates the DNS record automatically)
-- add `www.freeresizeimageonline.com` too, then in **Rules -> Redirect Rules** redirect `www` to the main domain (or tell Claude and it will give the exact rule).
+Headers and caching are in `public/_headers`. Unknown URLs show `src/pages/404.astro`.
 
-HTTPS certificates are issued automatically (a few minutes).
+### www redirect (recommended, 1 minute, in the dashboard)
+Both `freeresizeimageonline.com` and `www.freeresizeimageonline.com` serve the site and every page declares
+`https://freeresizeimageonline.com/...` as its canonical address, so search engines do the right thing.
+To also redirect visitors: dashboard -> the domain -> **Rules** -> **Redirect Rules** -> template
+"Redirect from WWW to root".
 
-## B. Live counters Worker (optional, free)
+## B. Live counters Worker (optional, free) - NOT deployed yet
 ```
-npx wrangler login                      # if not done already
-npm run worker:deploy                   # deploys worker/ (Durable Object with the SQLite backend = free plan)
+npm run worker:deploy
 ```
-Wrangler prints the address, e.g. `https://frio-counters.<your-subdomain>.workers.dev`.
-Put it into `src/config/site.ts`:
+Wrangler prints an address like `https://frio-counters.<your-subdomain>.workers.dev`. Put it into
+`src/config/site.ts`:
 ```ts
 export const COUNTERS = { endpoint: 'wss://frio-counters.<your-subdomain>.workers.dev/ws', ... }
 ```
-then rebuild and redeploy the site. (Optional: serve it from `counters.freeresizeimageonline.com` by enabling the `routes` block in `worker/wrangler.toml`.)
+then `npm run build && npx wrangler deploy` again.
 
-Free-plan note: Workers/Durable Objects free quotas are **per Cloudflare account**. If another site on the account uses Workers, they share the daily request allowance. When the allowance is used up the counters simply hide; the resizer keeps working.
+**Check first:** Workers / Durable Objects free allowances (100,000 requests/day) are shared by every Worker in the
+same Cloudflare account. If another site on this account (for example one with its own "online now" counter) already
+uses a good part of that allowance, adding this Worker could use it up and affect that site. When the allowance is
+used up the counters here simply hide; the resizer keeps working.
 
 ## C. Google AdSense
-1. `src/config/site.ts` already contains the publisher id. The site contains the AdSense snippet, the `google-adsense-account` meta tag and `/ads.txt`.
-2. When the site is live: AdSense -> Sites -> freeresizeimageonline.com -> **Verify** (any of the three methods works) -> **Request review**.
-3. Keep **Auto ads OFF** in AdSense. After approval, create two ad units (one vertical for the right column, one responsive for phones), paste their slot ids into `ADSENSE.slots` in `src/config/site.ts`, rebuild and redeploy.
-4. AdSense -> **Privacy & messaging**: create the EEA/UK/Switzerland consent message (free Google CMP). The footer link "Privacy and cookie settings" re-opens it.
+1. `src/config/site.ts` contains the publisher id. Every page that may show ads has the AdSense snippet and the
+   `google-adsense-account` meta tag in `<head>`, and `/ads.txt` is published (written during `npm run build`).
+2. AdSense -> Sites -> freeresizeimageonline.com -> **Verify** (any of the three methods) -> **Request review**.
+3. Keep **Auto ads OFF**: ads are placed manually (one clearly labelled box).
+4. After approval, create two ad units (one vertical for the right column, one responsive for phones), paste their
+   slot ids into `ADSENSE.slots` in `src/config/site.ts`, then rebuild and redeploy.
+5. AdSense -> **Privacy & messaging**: create the EEA/UK/Switzerland consent message (free Google CMP).
+   The footer link "Privacy and cookie settings" re-opens it.
 
 ## D. Search Console
-Add `https://freeresizeimageonline.com/` as a "Domain" property (DNS verification is easiest because Cloudflare manages DNS), then submit `https://freeresizeimageonline.com/sitemap.xml`.
+Add `https://freeresizeimageonline.com/` as a **Domain** property (DNS verification is easiest because Cloudflare
+manages DNS), then submit `https://freeresizeimageonline.com/sitemap.xml`.
 
-## E. Cloudflare Web Analytics (cookie-free)
-Cloudflare dashboard -> **Analytics & Logs** -> **Web Analytics** -> add the site. Because the site is proxied by Cloudflare, you can enable "Automatic setup"; no code changes are needed.
+## E. Analytics
+Cloudflare injects its cookie-free Web Analytics beacon automatically for proxied sites; view it under
+**Analytics & Logs -> Web Analytics**. The privacy policy already describes it.

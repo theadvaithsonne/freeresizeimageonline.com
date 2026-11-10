@@ -7,6 +7,9 @@
   --brand-soft: #e8eeff;
   --on-brand: #ffffff;
   --success: #0e9f6e;
+  /* text-safe green (>= 4.5:1 on white) and the text color to use on top of it */
+  --success-strong: #087a52;
+  --on-success: #ffffff;
   --success-soft: #e3f7ee;
   --warning: #b7791f;
   --danger: #d92d20;
@@ -68,6 +71,8 @@
   --brand-soft: #1a2547;
   --on-brand: #0b1020;
   --success: #3ddc97;
+  --success-strong: #3ddc97;
+  --on-success: #08140f;
   --success-soft: #11291f;
   --warning: #f0b25a;
   --danger: #ff7a70;
