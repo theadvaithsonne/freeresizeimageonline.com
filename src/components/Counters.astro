@@ -11,7 +11,8 @@ import { safeJson } from '../i18n/safe-json';
 
 interface Props {
   lang: string;
-  variant: 'header' | 'footer';
+  /** 'header': inside the header from 75rem; 'bar': a slim bar under the header on phones and tablets. */
+  variant: 'header' | 'bar';
 }
 const { lang, variant } = Astro.props;
 const config = {
@@ -54,18 +55,34 @@ const config = {
   .counters--header {
     display: none;
   }
-  .counters--footer {
+  /* Phones and tablets: a slim bar right under the header, so the numbers are seen at once. Its height is reserved
+     (no jump when the numbers arrive) and given back if the counter service cannot be reached. */
+  .counters--bar {
     justify-content: center;
-    padding-block: var(--space-4) 0;
+    min-height: 2.75rem;
+    padding: 0.3rem var(--gutter);
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+  .counters--bar {
+    gap: 0.4rem;
+  }
+  .counters--bar .pill {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.875rem;
+    gap: 0.3rem;
+  }
+  .counters--bar[data-off] {
+    display: none;
   }
   /* In the header from laptop width up (it also holds the tabs, the language and the theme buttons): the full wording
      from 90rem, just the numbers with their icons between 75rem and 90rem (the words stay available to screen readers
-     and as a tooltip). Below 75rem the numbers are in the footer, which can never be squeezed. */
+     and as a tooltip). */
   @media (min-width: 75rem) {
     .counters--header {
       display: flex;
     }
-    .counters--footer {
+    .counters--bar {
       display: none;
     }
   }

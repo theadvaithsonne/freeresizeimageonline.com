@@ -1,7 +1,6 @@
 ---
 import { FAQ_PATH, GUIDES_INDEX_PATH, GUIDE_ROUTES, NAV_GROUPS, routesInGroup } from '../data/routes';
 import { list, localizedPath, t, type MessageKey } from '../i18n';
-import Counters from './Counters.astro';
 
 interface Props {
   lang: string;
@@ -37,7 +36,6 @@ const links = [
 ---
 <footer class="site-footer">
   <div class="container">
-    <Counters lang={lang} variant="footer" />
     <div class="site-footer__columns">
       {
         columns.map((c) => (

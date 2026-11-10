@@ -45,6 +45,7 @@ export function initCounters(): void {
 
   function render(total: number, online: number) {
     for (const root of roots) {
+      delete root.dataset.off; // connected: the bar keeps its place
       const totalPill = root.querySelector<HTMLElement>('[data-counter-total]')!;
       const onlinePill = root.querySelector<HTMLElement>('[data-counter-online]')!;
       totalPill.hidden = total < cfg.minTotal;
@@ -56,6 +57,7 @@ export function initCounters(): void {
 
   function hideAll() {
     for (const root of roots) {
+      root.dataset.off = ''; // not connected: the bar gives its space back
       root.querySelector<HTMLElement>('[data-counter-total]')!.hidden = true;
       root.querySelector<HTMLElement>('[data-counter-online]')!.hidden = true;
     }
