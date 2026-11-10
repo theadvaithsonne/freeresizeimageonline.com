@@ -128,6 +128,93 @@ button {
   margin-inline: auto;
 }
 
+/* Dropdown lists. Every browser: readable colors, also in dark mode. */
+select option,
+select optgroup {
+  background: var(--surface);
+  color: var(--text);
+}
+
+/* Chrome and Edge 135+ let a site style the dropdown list itself (the "customizable select").
+   Other browsers keep their normal system dropdown, which still works the same way. */
+@supports (appearance: base-select) {
+  select,
+  ::picker(select) {
+    appearance: base-select;
+  }
+  /* closed select: text on one side, arrow on the other, both vertically centered */
+  select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+  }
+  select::picker-icon {
+    color: var(--brand);
+    font-size: 1.1em;
+    transition: rotate 0.2s ease;
+  }
+  select:open::picker-icon {
+    rotate: 180deg;
+  }
+  ::picker(select) {
+    margin-block: var(--space-1);
+    /* same width as the dropdown it belongs to, so it never spills over neighbouring columns */
+    inline-size: anchor-size(inline);
+    box-sizing: border-box;
+    padding: var(--space-2);
+    background: var(--surface);
+    color: var(--text);
+    border: 2px solid var(--brand);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    max-block-size: min(24rem, 60vh);
+    overflow-x: hidden; /* long names wrap instead of adding a sideways scrollbar */
+    overflow-y: auto;
+    font-size: var(--step-0);
+  }
+  select option {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    min-height: 3rem;
+    padding: 0.5rem var(--space-3);
+    border-radius: var(--radius-sm);
+    font-size: var(--step-0);
+    line-height: 1.3;
+    cursor: pointer;
+  }
+  select option:hover,
+  select option:focus-visible {
+    background: var(--brand-soft);
+  }
+  select option:checked {
+    background: var(--brand-soft);
+    font-weight: 700;
+  }
+  select option::checkmark {
+    flex: none;
+    color: var(--brand);
+    order: 2;
+    margin-inline-start: auto;
+  }
+  select optgroup {
+    padding-block-start: var(--space-2);
+    font-weight: 800;
+    font-size: var(--step--1);
+    color: var(--text-muted);
+    background: transparent;
+  }
+  select optgroup option {
+    font-weight: 500;
+  }
+  select optgroup option:checked {
+    font-weight: 700;
+  }
+}
+
 .btn {
   display: inline-flex;
   align-items: center;

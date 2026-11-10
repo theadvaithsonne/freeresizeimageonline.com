@@ -233,6 +233,19 @@ const clientData = {
     .tool__grid {
       grid-template-columns: minmax(0, 1.2fr) minmax(19rem, 1fr);
     }
+    /* The drop zone and the file list stay in view while the (taller) options column scrolls, so there
+       is no big empty area next to the options. A long file list scrolls inside this column. */
+    .tool__main {
+      position: sticky;
+      top: calc(var(--header-h) + var(--space-3));
+      max-height: calc(100dvh - var(--header-h) - var(--space-5));
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+      /* room for focus rings, which overflow:auto would otherwise clip */
+      padding: 4px;
+      margin: -4px;
+    }
   }
   /* Narrow screens: the file list's per-row buttons go under the name */
   @container page (max-width: 36rem) {
