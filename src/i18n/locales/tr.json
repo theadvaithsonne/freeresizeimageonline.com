@@ -1,0 +1,29 @@
+{
+  "a11y": {
+    "skipToContent": "İçeriğe geç",
+    "home": "Free Resize Image Online - ana sayfa",
+    "toggleTheme": "Renk temasını değiştir",
+    "openLanguages": "Dil seçin"
+  },
+  "language": {
+    "label": "Dil",
+    "suggestText": "Bu siteyi {language} dilinde görüntüle?",
+    "suggestSwitch": "Değiştir",
+    "suggestDismiss": "Hayır, teşekkürler"
+  },
+  "ads": {
+    "label": "Reklam",
+    "note": "Reklamlar FreeResizeImageOnline'ı ücretsiz tutar. Reklamlar olmadan da her şey çalışır."
+  },
+  "badges": {
+    "free": "Ücretsiz",
+    "unlimited": "Sınırsız",
+    "noLogin": "Giriş gerekmez",
+    "private": "Gizli: cihazınızda kalır"
+  },
+  "home": {
+    "title": "Resim Boyutlandırma Online - Ücretsiz, Kayıt Gerekmez",
+    "description": "Resimleri ücretsiz yeniden boyutlandırın, sıkıştırın ve dönüştürün. Giriş yok, sınır yok; fotoğraflarınız cihazınızdan asla çıkmaz.",
+    "h1": "Resimleri online yeniden boyutlandırın, ücretsiz"
+  }
+}

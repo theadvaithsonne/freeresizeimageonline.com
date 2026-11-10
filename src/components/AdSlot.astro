@@ -12,21 +12,25 @@
  * Space is reserved with fixed heights so the page never jumps when an ad loads (no layout shift).
  * Label wording is restricted by Google to "Advertisement" or "Sponsored Links".
  */
+import { t } from '../i18n';
+
 interface Props {
   variant: 'rail' | 'inline';
+  lang: string;
   /** Set to true once AdSense is approved and the slot is wired to real ad code. */
   live?: boolean;
 }
-const { variant, live = false } = Astro.props;
+const { variant, lang, live = false } = Astro.props;
+const label = t(lang, 'ads.label');
 ---
-<aside class:list={['ad-slot', `ad-slot--${variant}`]} aria-label="Advertisement" data-ad-slot={variant}>
-  <p class="ad-slot__label">Advertisement</p>
+<aside class:list={['ad-slot', `ad-slot--${variant}`]} aria-label={label} data-ad-slot={variant}>
+  <p class="ad-slot__label">{label}</p>
   <div class="ad-slot__box">
     {
       live ? (
         <slot />
       ) : (
-        <p class="ad-slot__note">Ads keep FreeResizeImageOnline free. Everything works without them.</p>
+        <p class="ad-slot__note">{t(lang, 'ads.note')}</p>
       )
     }
   </div>

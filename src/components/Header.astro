@@ -1,22 +1,26 @@
 ---
 import Logo from './Logo.astro';
 import ThemeToggle from './ThemeToggle.astro';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import { localizedPath, t } from '../i18n';
 
 interface Props {
-  homeHref?: string;
+  lang: string;
+  /** Current page path without language prefix. */
+  path: string;
 }
-const { homeHref = '/' } = Astro.props;
+const { lang, path } = Astro.props;
 ---
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="site-header__brand" href={homeHref} aria-label="Free Resize Image Online - home">
+    <a class="site-header__brand" href={localizedPath(lang, '/')} aria-label={t(lang, 'a11y.home')}>
       <Logo />
     </a>
     <div class="site-header__actions">
-      <!-- Step 7: live counters. Step 3: language switcher. -->
+      <!-- Step 7: live counters go in this slot -->
       <slot name="counters" />
-      <slot name="language" />
-      <ThemeToggle />
+      <LanguageSwitcher lang={lang} path={path} />
+      <ThemeToggle label={t(lang, 'a11y.toggleTheme')} />
     </div>
   </div>
 </header>
@@ -41,6 +45,8 @@ const { homeHref = '/' } = Astro.props;
   .site-header__brand {
     text-decoration: none;
     border-radius: var(--radius-sm);
+    /* The brand name is a Latin logo even on RTL pages */
+    direction: ltr;
   }
   .site-header__actions {
     display: flex;

@@ -5,31 +5,41 @@ import '../styles/layout.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { FONT_STYLESHEETS, getLanguage } from '../i18n/languages';
+import LanguageSuggest from '../components/LanguageSuggest.astro';
+import { FONT_STYLESHEETS } from '../i18n/languages';
+import { alternates, getLanguage, localizedPath, t } from '../i18n';
 
 interface Props {
   title: string;
   description: string;
-  /** Language code from src/i18n/languages.ts (default English). */
-  lang?: string;
+  /** Language code from src/i18n/languages.ts. */
+  lang: string;
+  /** Page path WITHOUT a language prefix, e.g. "/" or "/resize-image-to-50kb/". */
+  path?: string;
   /** Show the right-hand ad rail / inline ad slot (default true). */
   ads?: boolean;
-  /** Canonical path, e.g. "/" or "/hi/". */
-  path?: string;
 }
-const { title, description, lang = 'en', ads = true, path = Astro.url.pathname } = Astro.props;
+const { title, description, lang, path = '/', ads = true } = Astro.props;
 const language = getLanguage(lang);
-const canonical = new URL(path, Astro.site).href;
+const site = Astro.site!;
+const canonical = new URL(localizedPath(lang, path), site).href;
 const fontSheets = FONT_STYLESHEETS[language.font];
+const versions = alternates(path);
 ---
 <!doctype html>
-<html lang={language.htmlLang} dir={language.dir}>
+<html lang={language.htmlLang} dir={language.dir} data-lang={language.code}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {
+      versions.map(({ language: l, href }) => (
+        <link rel="alternate" hreflang={l.htmlLang} href={new URL(href, site).href} />
+      ))
+    }
+    <link rel="alternate" hreflang="x-default" href={new URL(localizedPath('en', path), site).href} />
     <meta name="theme-color" content="#2457f5" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -41,7 +51,8 @@ const fontSheets = FONT_STYLESHEETS[language.font];
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL('/og-image.png', Astro.site).href} />
+    <meta property="og:locale" content={language.htmlLang.replace('-', '_')} />
+    <meta property="og:image" content={new URL('/og-image.png', site).href} />
     <meta name="twitter:card" content="summary_large_image" />
 
     {fontSheets.map((name) => <link rel="stylesheet" href={`/fonts/${name}/index.css`} />)}
@@ -61,10 +72,9 @@ const fontSheets = FONT_STYLESHEETS[language.font];
     </script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <Header homeHref={lang === 'en' ? '/' : `/${lang}/`}>
+    <a class="skip-link" href="#main">{t(lang, 'a11y.skipToContent')}</a>
+    <Header lang={lang} path={path}>
       <slot name="counters" slot="counters" />
-      <slot name="language" slot="language" />
     </Header>
 
     <div class="page container">
@@ -72,14 +82,14 @@ const fontSheets = FONT_STYLESHEETS[language.font];
         <slot />
         {ads && (
           <div class="page__inline-ad">
-            <AdSlot variant="inline" />
+            <AdSlot variant="inline" lang={lang} />
           </div>
         )}
       </main>
       {
         ads && (
           <div class="page__rail">
-            <AdSlot variant="rail" />
+            <AdSlot variant="rail" lang={lang} />
           </div>
         )
       }
@@ -88,5 +98,7 @@ const fontSheets = FONT_STYLESHEETS[language.font];
     <Footer>
       <slot name="footer-links" slot="links" />
     </Footer>
+
+    <LanguageSuggest lang={lang} path={path} />
   </body>
 </html>

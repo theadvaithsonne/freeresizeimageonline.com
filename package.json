@@ -9,7 +9,7 @@
     "icons": "node scripts/make-icons.mjs",
     "predev": "npm run fonts",
     "dev": "astro dev",
-    "prebuild": "npm run fonts",
+    "prebuild": "npm run fonts && npm test",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
@@ -29,5 +29,8 @@
     "astro": "^7.4.8",
     "typescript": "^6.0.3",
     "vitest": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
   }
 }

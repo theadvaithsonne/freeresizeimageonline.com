@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { languageStaticPaths, t } from '../../i18n';
+
+export function getStaticPaths() {
+  return languageStaticPaths();
+}
+
+const { lang } = Astro.props;
+---
+<Layout title={t(lang, 'home.title')} description={t(lang, 'home.description')} lang={lang} path="/">
+  <h1>{t(lang, 'home.h1')}</h1>
+  <ul class="badges">
+    <li class="badge">{t(lang, 'badges.free')}</li>
+    <li class="badge">{t(lang, 'badges.unlimited')}</li>
+    <li class="badge">{t(lang, 'badges.noLogin')}</li>
+    <li class="badge">{t(lang, 'badges.private')}</li>
+  </ul>
+
+  <!-- Dev placeholder only (English on purpose): the real tool replaces this in Steps 4-5. -->
+  <section class="card layout-preview" lang="en" dir="ltr" aria-hidden="true">
+    <p>Tool placeholder: the resizer arrives in Steps 4-5.</p>
+  </section>
+</Layout>
+
+<style>
+  .layout-preview {
+    display: grid;
+    min-height: 22rem;
+    place-content: center;
+    padding: var(--space-6);
+    border-style: dashed;
+    border-width: 2px;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  .layout-preview p {
+    margin: 0;
+  }
+</style>

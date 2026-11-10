@@ -88,13 +88,14 @@ Browser (visitor)
 **Done when:** empty shell looks right on all screen sizes in both themes.
 
 ## STEP 3 — Internationalisation framework (20 languages)
-- [ ] 3.1 (C) Astro i18n routing: `/` = English, `/hi/`, `/es/`, … per language
-- [ ] 3.2 (C) JSON translation files per language + typed key checking (build fails on missing keys)
-- [ ] 3.3 (C) Language switcher (header dropdown, native language names, search-friendly)
-- [ ] 3.4 (C) Auto-suggest language from browser setting (suggest only, never force-redirect); remember choice
-- [ ] 3.5 (C) `hreflang` tags + `x-default`, localized `<title>`/meta, canonical URLs
-- [ ] 3.6 (C) RTL support for Arabic & Urdu (`dir="rtl"`, mirrored layout)
-- [ ] 3.7 (C) Locale-aware numbers, units & dates
+- [x] 3.1 (C) Routing: `src/pages/[...lang]/` generates `/` (English) + `/hi/`, `/es/`, `/pt-br/`, … (20 pages built). Own helpers in `src/i18n/index.ts` (`localizedPath`, `stripLocale`, `alternates`)
+- [x] 3.2 (C) JSON translation files per language (`src/i18n/locales/*.json`), typed keys (`MessageKey`, checked by `npm run check`); `npm test` verifies identical keys, no empty values, placeholders intact, key strings not left in English; `npm run build` runs the tests first so a broken locale fails the build
+- [x] 3.3 (C) Language switcher: header dropdown, native names, `lang`/`hreflang` on links, closes on Escape/outside click, icon-only on phones
+- [x] 3.4 (C) "View this site in <language>?" bar in the visitor's own language, from browser language or saved choice; suggest only, never redirects; "No thanks" is remembered
+- [x] 3.5 (C) `hreflang` for all 20 + `x-default`, canonical, localized title/description/og:locale
+- [x] 3.6 (C) RTL for Arabic & Urdu: `dir="rtl"`, logical CSS properties, mirrored layout verified by screenshot
+- [x] 3.7 (C) Locale-aware formatting in `src/i18n/format.ts` (numbers, %, px/cm/mm/in, KB/MB, compact counts, dates); always Latin digits (inputs are ASCII); unit-tested
+- [ ] 3.8 (C) Translation strings so far cover only the shell + home page headline/meta; tool, content and legal strings are added with Steps 5, 8, 9 and checked again in Step 10
 
 **Done when:** switching language changes all UI text and the URL; Arabic/Urdu mirror correctly.
 
@@ -190,7 +191,7 @@ Browser (visitor)
 ## STEP 13 — Deployment
 - [ ] 13.1 (U) Create Cloudflare + GitHub accounts/repo; (C) push code
 - [ ] 13.2 (C) Cloudflare Pages project (build command, output dir) + Worker deploy for counters
-- [ ] 13.3 (U) Change nameservers at BigRock to Cloudflare's (I give exact steps); wait for propagation
+- [~] 13.3 (U) Nameservers at BigRock changed to `nia.ns.cloudflare.com` + `rajeev.ns.cloudflare.com` on 2026-11-10 ~22:19 IST (DONE; placeholder 127.0.0.1 records removed). Waiting for Cloudflare to show the zone as **Active** (1-2h, up to 24h).
 - [ ] 13.4 (C) Custom domain + HTTPS, www → apex redirect
 - [x] 13.5 (C) ~~Cloudflare Email Routing~~ — not needed (public contact email is the Gmail address)
 - [ ] 13.6 (C) Cloudflare Web Analytics; (U) Google Search Console verification + submit sitemaps
@@ -249,4 +250,6 @@ Sources read: AdSense Program policies (updated Aug 4, 2026), Eligibility requir
 | 2026-11-10 | Planning | Plan v2 written, awaiting approval |
 | 2026-11-10 | Planning | AdSense policies verified (no postal address required); plan v3 approved by owner |
 | 2026-11-10 | Step 1 | Done. Astro 7 + TypeScript + Vitest set up; build, tests, type-check pass |
+| 2026-11-10 | Step 3 | Done (3.8 stays open on purpose: more strings arrive with later steps). 20 language pages, switcher, suggestion bar, RTL, formatting, tests (51 passing). |
+| 2026-11-10 | Step 13.3 | Nameservers switched at BigRock to Cloudflare; waiting for Cloudflare to mark the domain Active |
 | 2026-11-10 | Step 2 | Done. Design system, light/dark, responsive shell, ad slot placeholders, fonts, brand icons. Hard-coded English labels in Header/Footer/AdSlot/Layout get replaced by translation keys in Step 3. |

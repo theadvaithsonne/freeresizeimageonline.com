@@ -1,7 +1,11 @@
 ---
 // Light/dark toggle. The initial theme is applied by an inline script in Layout.astro (no flash).
+interface Props {
+  label: string;
+}
+const { label } = Astro.props;
 ---
-<button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Switch color theme">
+<button type="button" class="theme-toggle" data-theme-toggle aria-label={label} title={label}>
   <svg class="icon icon--moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
     <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
   </svg>

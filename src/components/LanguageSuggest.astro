@@ -1,0 +1,136 @@
+---
+import { LANGUAGES, localizedPath, t } from '../i18n';
+
+interface Props {
+  /** Current language code. */
+  lang: string;
+  /** Current page path without language prefix. */
+  path: string;
+}
+const { lang, path } = Astro.props;
+
+// Strings for every language, so the suggestion can appear in the visitor's OWN language.
+const data = Object.fromEntries(
+  LANGUAGES.map((l) => [
+    l.code,
+    {
+      href: localizedPath(l.code, path),
+      htmlLang: l.htmlLang,
+      dir: l.dir,
+      text: t(l.code, 'language.suggestText', { language: l.nativeName }),
+      switch: t(l.code, 'language.suggestSwitch'),
+      dismiss: t(l.code, 'language.suggestDismiss'),
+    },
+  ]),
+);
+---
+<!--
+  Suggest only: never auto-redirects. Hidden until JS finds a better language than the page's.
+  Fixed-position so it can't cause layout shift.
+-->
+<div class="lang-suggest" data-lang-suggest hidden role="region" aria-live="polite">
+  <p class="lang-suggest__text" data-text></p>
+  <div class="lang-suggest__actions">
+    <a class="btn" data-switch href="#"></a>
+    <button type="button" class="btn btn--ghost" data-dismiss></button>
+  </div>
+</div>
+<script type="application/json" id="lang-suggest-data" set:html={JSON.stringify(data)} />
+<script define:vars={{ currentLang: lang }}>
+  (function () {
+    var box = document.querySelector('[data-lang-suggest]');
+    var raw = document.getElementById('lang-suggest-data');
+    if (!box || !raw) return;
+    var data = JSON.parse(raw.textContent || '{}');
+
+    function read(store, key) {
+      try {
+        return store.getItem(key);
+      } catch (e) {
+        return null;
+      }
+    }
+    function write(store, key, value) {
+      try {
+        store.setItem(key, value);
+      } catch (e) {}
+    }
+
+    // Map a browser tag like "pt-BR", "zh-Hans-CN", "es-MX" to one of our language codes.
+    function fromBrowserTag(tag) {
+      tag = String(tag || '').toLowerCase();
+      if (data[tag]) return tag;
+      if (tag.indexOf('zh') === 0) return tag.indexOf('hant') > -1 || /-(tw|hk|mo)/.test(tag) ? null : 'zh-cn';
+      var base = tag.split('-')[0];
+      if (base === 'pt') return 'pt-br';
+      return data[base] ? base : null;
+    }
+
+    var target = read(localStorage, 'lang-pref');
+    if (!target || !data[target]) {
+      target = null;
+      var tags = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language];
+      for (var i = 0; i < tags.length && !target; i++) target = fromBrowserTag(tags[i]);
+    }
+    if (!target || target === currentLang) return;
+    if (read(sessionStorage, 'lang-suggest-dismissed') === '1') return;
+
+    var d = data[target];
+    box.lang = d.htmlLang;
+    box.dir = d.dir;
+    box.querySelector('[data-text]').textContent = d.text;
+    var sw = box.querySelector('[data-switch]');
+    sw.textContent = d.switch;
+    sw.href = d.href;
+    sw.setAttribute('hreflang', d.htmlLang);
+    sw.addEventListener('click', function () {
+      write(localStorage, 'lang-pref', target);
+    });
+    var dismiss = box.querySelector('[data-dismiss]');
+    dismiss.textContent = d.dismiss;
+    dismiss.addEventListener('click', function () {
+      // "No thanks": stay on this language from now on; also hide for this session.
+      write(localStorage, 'lang-pref', currentLang);
+      write(sessionStorage, 'lang-suggest-dismissed', '1');
+      box.hidden = true;
+    });
+    box.hidden = false;
+  })();
+</script>
+
+<style>
+  .lang-suggest {
+    position: fixed;
+    inset-inline: var(--space-4);
+    bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
+    z-index: 70;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3) var(--space-5);
+    max-width: 40rem;
+    margin-inline: auto;
+    padding: var(--space-4) var(--space-5);
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+  }
+  .lang-suggest[hidden] {
+    display: none;
+  }
+  .lang-suggest__text {
+    margin: 0;
+    font-weight: 600;
+    flex: 1 1 14rem;
+  }
+  .lang-suggest__actions {
+    display: flex;
+    gap: var(--space-2);
+  }
+  .lang-suggest .btn {
+    min-height: 2.5rem;
+    padding-inline: var(--space-4);
+  }
+</style>
