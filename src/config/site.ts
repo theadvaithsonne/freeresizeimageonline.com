@@ -35,11 +35,11 @@ export const ADSENSE = {
 export const ADS_LIVE = Boolean(ADSENSE.slots.rail || ADSENSE.slots.inline);
 
 /**
- * Live counters (Step 7). Leave `endpoint` empty to hide the counters.
- * After deploying the Worker, set it to e.g. "wss://counters.freeresizeimageonline.com/ws".
+ * Live counters. The Worker in worker/ is deployed on counters.freeresizeimageonline.com (2026-11-11).
+ * Leave `endpoint` empty to switch the counters off everywhere (the privacy policy section about them also disappears).
  */
 export const COUNTERS = {
-  endpoint: '',
+  endpoint: 'wss://counters.freeresizeimageonline.com/ws',
   /** Show the "images resized" number only once it reaches this value (it is always the real number). */
   minTotalToShow: 100,
   /** Show "online now" only once at least this many people are connected. */

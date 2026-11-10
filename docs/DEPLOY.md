@@ -28,31 +28,33 @@ Both `freeresizeimageonline.com` and `www.freeresizeimageonline.com` serve the s
 To also redirect visitors: dashboard -> the domain -> **Rules** -> **Redirect Rules** -> template
 "Redirect from WWW to root".
 
-## B. Live counters Worker (optional, free) - NOT deployed yet
+## B. Live counters Worker (free)
+The counters are one small Cloudflare Worker with a Durable Object (`worker/`), served on its own address
+`counters.freeresizeimageonline.com` (no public workers.dev address). It was deployed on 2026-11-11:
 ```
-npm run worker:deploy
+npm run worker:deploy     # needs a workers.dev subdomain on the account (a one-time Cloudflare setting)
 ```
-Wrangler prints an address like `https://frio-counters.<your-subdomain>.workers.dev`. Put it into
-`src/config/site.ts`:
-```ts
-export const COUNTERS = { endpoint: 'wss://frio-counters.<your-subdomain>.workers.dev/ws', ... }
-```
-then `npm run build && npx wrangler deploy` again.
+`COUNTERS.endpoint` in `src/config/site.ts` is `wss://counters.freeresizeimageonline.com/ws`; after changing it run
+`npm run build && npx wrangler deploy`.
 
-**Check first:** Workers / Durable Objects free allowances (100,000 requests/day) are shared by every Worker in the
-same Cloudflare account. If another site on this account (for example one with its own "online now" counter) already
-uses a good part of that allowance, adding this Worker could use it up and affect that site. When the allowance is
-used up the counters here simply hide; the resizer keeps working.
+What it does: one anonymous WebSocket per open page; it sends only a number (images resized in a batch) and the Worker keeps
+only two numbers (the running total and the open connections). Only our own domains may connect (other origins get 403).
+Numbers appear on the site once they pass the limits in `COUNTERS` (100 images in total, 3 people online). They are real
+numbers; the pills hide again if the Worker is not reachable and the resizer never depends on it.
+
+**Free allowance:** Workers / Durable Objects allow 100,000 requests per day for the whole account, shared with the other
+Workers on it (for example the transcribevid ones). The counter is built to use very little (idle connections cost nothing,
+broadcasts are grouped, `/stats` is cached). Watch Workers & Pages > Usage in the dashboard now and then.
 
 ## C. Google AdSense
 1. `src/config/site.ts` contains the publisher id. Every page that may show ads has the AdSense snippet and the
    `google-adsense-account` meta tag in `<head>`, and `/ads.txt` is published (written during `npm run build`).
 2. AdSense -> Sites -> freeresizeimageonline.com -> **Verify** (any of the three methods) -> **Request review**.
-3. Keep **Auto ads OFF**: ads are placed manually (one clearly labelled box).
-4. After approval, create two ad units (one vertical for the right column, one responsive for phones), paste their
-   slot ids into `ADSENSE.slots` in `src/config/site.ts`, then rebuild and redeploy.
-5. AdSense -> **Privacy & messaging**: create the EEA/UK/Switzerland consent message (free Google CMP).
-   The footer link "Privacy and cookie settings" re-opens it.
+3. Keep **Auto ads OFF**: ads are placed manually (clearly labelled boxes that appear only once ad units exist).
+4. After approval, create two Display ad units ("rail" and "inline"), paste their slot ids into `ADSENSE.slots` in
+   `src/config/site.ts`, then rebuild and redeploy. The ad boxes and the ad column appear only from that moment.
+5. AdSense -> **Privacy & messaging**: the EEA/UK/Switzerland and US-states messages are published (2026-11-11).
+   The footer link "Privacy and cookie settings" re-opens the EU one for visitors who get it.
 
 ## D. Search Console
 Add `https://freeresizeimageonline.com/` as a **Domain** property (DNS verification is easiest because Cloudflare
