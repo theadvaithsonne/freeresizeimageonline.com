@@ -15,13 +15,7 @@ export function getStaticPaths() {
 const { lang } = Astro.props;
 const steps = list<{ title: string; text: string }>(lang, 'home.how.steps');
 const features = list<{ title: string; text: string }>(lang, 'home.why.items');
-const faq = list<{ q: string; a: string }>(lang, 'home.faq.items');
 
-const faqLd = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
-};
 // "Popular tasks": a card for every other tool page (name + one line), so visitors and search engines find them at once.
 const popular = TOOL_ROUTES.filter((r) => r.key !== 'home').map((r) => ({
   href: localizedPath(lang, r.path),
@@ -56,7 +50,6 @@ const appLd = {
   <Fragment slot="head">
     <script type="application/ld+json" set:html={safeJson(siteLd)} />
     <script type="application/ld+json" set:html={safeJson(appLd)} />
-    <script type="application/ld+json" set:html={safeJson(faqLd)} />
   </Fragment>
 
   <div class="hero">
@@ -91,8 +84,6 @@ const appLd = {
     lang={lang}
     stepsTitle={t(lang, 'home.how.title')}
     steps={steps}
-    faqTitle={t(lang, 'common.faqTitle')}
-    faq={faq}
     currentKey="home"
     inlineAd
   >
