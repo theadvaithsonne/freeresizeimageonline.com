@@ -47,20 +47,19 @@ const tabs = [
     top: 0;
     z-index: 50;
     height: var(--header-h);
-    background: color-mix(in srgb, var(--surface) 94%, transparent);
-    backdrop-filter: saturate(1.4) blur(10px);
-    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    border-bottom: 1px solid var(--border-strong);
   }
   .site-header__inner {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: var(--space-4);
+    gap: 10px;
   }
   .site-header__brand {
     text-decoration: none;
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
     /* The brand name is a Latin logo even on RTL pages */
     direction: ltr;
     /* shrink (with an ellipsis) instead of pushing the buttons off a narrow screen */
@@ -71,41 +70,67 @@ const tabs = [
   .site-header__actions {
     display: flex;
     align-items: center;
-    gap: var(--space-2);
+    gap: 8px;
     flex: none;
   }
   @media (min-width: 30rem) {
     .site-header__actions {
-      gap: var(--space-3);
+      gap: 10px;
     }
   }
   .site-header__tabs {
     display: none;
   }
+  /* Tabs: the open one is a filled box with a 3px orange bar under it (clear without colour: bold text too). */
   @media (min-width: 60rem) {
     .site-header__tabs {
       display: flex;
       align-items: center;
-      gap: var(--space-1);
-      margin-inline-end: var(--space-3);
+      gap: 4px;
+      margin-inline-end: 6px;
     }
     .site-header__tabs a {
       display: inline-flex;
       align-items: center;
-      min-height: 2.75rem;
-      padding: 0 var(--space-4);
-      border-radius: var(--radius-full);
+      min-height: 48px;
+      padding: 8px 16px 5px;
+      border-bottom: 3px solid transparent;
+      border-radius: 8px 8px 0 0;
       color: var(--text);
-      font-weight: 650;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.2;
       text-decoration: none;
+      white-space: nowrap;
     }
     .site-header__tabs a:hover {
       background: var(--surface-2);
-      color: var(--text);
+      color: var(--text-strong);
     }
     .site-header__tabs a[aria-current='page'] {
-      background: var(--brand-soft);
-      color: var(--brand-strong);
+      background: var(--surface-3);
+      border-bottom-color: var(--brand);
+      color: var(--text-strong);
+      font-weight: 800;
+    }
+  }
+  @media (min-width: 60rem) and (max-width: 80rem) {
+    .site-header__tabs a {
+      padding-inline: 12px;
+    }
+  }
+  @media (min-width: 60rem) and (max-width: 67.5rem) {
+    .site-header__tabs {
+      gap: 2px;
+    }
+    .site-header__tabs a {
+      padding-inline: 9px;
+    }
+  }
+  /* the smallest phones: the whole name still has to fit beside the two buttons */
+  @media (max-width: 22.5rem) {
+    .site-header__inner {
+      gap: 6px;
     }
   }
 </style>

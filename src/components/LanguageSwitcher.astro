@@ -77,21 +77,28 @@ const items = alternates(path);
   .lang-switch__button {
     display: inline-flex;
     align-items: center;
-    gap: var(--space-2);
-    height: var(--control-h);
-    padding-inline: var(--space-3);
+    gap: 10px;
+    height: var(--control-h-sm);
+    padding-inline: 16px 14px;
     border: 1.5px solid var(--border-strong);
     border-radius: var(--radius-full);
+    background: var(--surface);
+    color: var(--text-strong);
     cursor: pointer;
     list-style: none;
     font-weight: 700;
-    font-size: var(--step-0);
+    font-size: var(--step--1);
     user-select: none;
+    transition:
+      background-color 0.18s var(--ease),
+      border-color 0.18s var(--ease);
   }
   .lang-switch__button::-webkit-details-marker {
     display: none;
   }
-  .lang-switch__button:hover {
+  .lang-switch__button:hover,
+  .lang-switch[open] .lang-switch__button {
+    border-color: var(--text-strong);
     background: var(--surface-2);
   }
   .lang-switch__current {
@@ -100,6 +107,10 @@ const items = alternates(path);
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .lang-switch__chevron {
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+  }
   .lang-switch[open] .lang-switch__chevron {
     transform: rotate(180deg);
   }
@@ -107,16 +118,15 @@ const items = alternates(path);
   .lang-switch__menu {
     position: absolute;
     inset-inline-end: 0;
-    top: calc(100% + var(--space-2));
+    top: calc(100% + 12px);
     z-index: 60;
     width: min(22rem, calc(100vw - 2 * var(--gutter)));
     max-height: min(70vh, 30rem);
     overflow-y: auto;
     padding: var(--space-2);
     background: var(--surface);
-    border: 1px solid var(--border);
+    border: 2px solid var(--border-strong);
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
   }
   .lang-switch__menu ul {
     display: grid;
@@ -129,7 +139,7 @@ const items = alternates(path);
   .lang-switch__menu a {
     display: block;
     padding: 0.75rem var(--space-3);
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
     color: var(--text);
     text-decoration: none;
     font-size: var(--step-0);
@@ -137,12 +147,12 @@ const items = alternates(path);
   }
   .lang-switch__menu a:hover {
     background: var(--surface-2);
-    color: var(--text);
+    color: var(--text-strong);
   }
   .lang-switch__menu a.is-current {
-    background: var(--brand-soft);
-    color: var(--brand-strong);
-    font-weight: 700;
+    background: var(--surface-3);
+    color: var(--text-strong);
+    font-weight: 800;
   }
 
   /* Phones: icon-only button to save header space, and the menu spans the screen under the header
@@ -156,9 +166,16 @@ const items = alternates(path);
       display: none;
     }
     .lang-switch__button {
-      width: var(--control-h);
+      width: var(--control-h-sm);
       padding: 0;
       justify-content: center;
+    }
+  }
+  /* the smallest phones: slightly smaller buttons so the whole name fits beside them */
+  @media (max-width: 22.5rem) {
+    .lang-switch__button {
+      width: 44px;
+      height: 44px;
     }
     .lang-switch__menu {
       position: fixed;

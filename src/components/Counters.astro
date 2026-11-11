@@ -1,11 +1,13 @@
 ---
 /**
- * Live "images resized" and "online now" numbers (real values from the counter Worker, never faked).
- * Renders nothing until COUNTERS.endpoint is set (after the Worker is deployed). The pills stay hidden
- * until the real numbers pass the thresholds in src/config/site.ts, and hide again if the Worker is
- * unreachable - the resizer never depends on it.
+ * Live "images resized" and "online now" numbers (real values from the counter Worker, never invented).
+ * Renders nothing until COUNTERS.endpoint is set. Both stats are in the page from the very first paint (with their words and a
+ * quiet "…" where the number will be), so nothing pops in or moves when the numbers arrive; the script in counters-client.ts
+ * fills them within a fraction of a second and drops a stat only if its number really cannot be read. The resizer never
+ * depends on any of this.
  */
-import { COUNTERS } from '../config/site';
+import { COUNTERS, COUNTERS_STATS_URL } from '../config/site';
+import { COUNTER_WORDS_FROM } from '../config/header-widths';
 import { t } from '../i18n';
 import { safeJson } from '../i18n/safe-json';
 
@@ -15,25 +17,33 @@ interface Props {
   variant: 'header' | 'bar';
 }
 const { lang, variant } = Astro.props;
+// from this window width (in rem) the header shows the words next to the numbers; narrower: numbers and icons only
+const wordsFrom = COUNTER_WORDS_FROM[lang] ?? 135;
+const resized = t(lang, 'counters.resized');
+const online = t(lang, 'counters.online');
+// The words around the number are known at build time, so they are in the HTML already; only the number comes later.
+const [resizedPre = '', resizedPost = ''] = resized.split('{count}');
+const [onlinePre = '', onlinePost = ''] = online.split('{count}');
 const config = {
   endpoint: COUNTERS.endpoint,
+  statsUrl: COUNTERS_STATS_URL,
   lang,
   minTotal: COUNTERS.minTotalToShow,
   minOnline: COUNTERS.minOnlineToShow,
-  resized: t(lang, 'counters.resized'),
-  online: t(lang, 'counters.online'),
+  resized,
+  online,
 };
 ---
 {
   COUNTERS.endpoint && (
-    <div class:list={['counters', `counters--${variant}`]} data-counters role="group" aria-label={t(lang, 'counters.label')}>
-      <span class="pill pill--total" data-counter-total hidden>
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="2" /><path d="M5 17l5-5 4 4 2-2 3 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
-        <span data-counter-total-text><span class="pill__words" data-pre></span><span class="pill__num" data-num></span><span class="pill__words" data-post></span></span>
+    <div class:list={['counters', `counters--${variant}`, `counters--w${wordsFrom}`]} data-counters role="group" aria-label={t(lang, 'counters.label')}>
+      <span class="stat stat--total" data-counter-total data-state="loading" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><rect x="3" y="4.5" width="18" height="15" rx="3.2" fill="none" stroke="currentColor" stroke-width="1.9" /><circle cx="9" cy="10" r="1.6" fill="currentColor" /><path d="M4.5 17.5l5-4.6 3.6 3.2 2.4-2.1 4 3.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        <span class="stat__text"><span class="stat__words">{resizedPre}</span><span class="stat__num" data-num>…</span><span class="stat__words">{resizedPost}</span></span>
       </span>
-      <span class="pill pill--online" data-counter-online hidden>
+      <span class="stat stat--online" data-counter-online data-state="loading" aria-hidden="true">
         <span class="dot" aria-hidden="true" />
-        <span data-counter-online-text><span class="pill__words" data-pre></span><span class="pill__num" data-num></span><span class="pill__words" data-post></span></span>
+        <span class="stat__text"><span class="stat__words">{onlinePre}</span><span class="stat__num" data-num>…</span><span class="stat__words">{onlinePost}</span></span>
       </span>
       <script type="application/json" data-counters-config set:html={safeJson(config)} />
     </div>
@@ -50,34 +60,27 @@ const config = {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: var(--space-2);
+    gap: var(--space-1) var(--space-4);
   }
   .counters--header {
     display: none;
+    flex-wrap: nowrap;
   }
-  /* Phones and tablets: a slim bar right under the header, so the numbers are seen at once. Its height is reserved
-     (no jump when the numbers arrive) and given back if the counter service cannot be reached. */
+  /* Phones and tablets: a slim bar right under the header, so the numbers are seen at once. Its height is reserved from the first
+     paint (nothing jumps when the numbers arrive) and given back only if the counter service really cannot be reached. */
   .counters--bar {
     justify-content: center;
     min-height: 2.75rem;
-    padding: 0.3rem var(--gutter);
+    padding: var(--space-1) var(--gutter);
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-  }
-  .counters--bar {
-    gap: 0.4rem;
-  }
-  .counters--bar .pill {
-    padding: 0.25rem 0.6rem;
-    font-size: 0.875rem;
-    gap: 0.3rem;
   }
   .counters--bar[data-off] {
     display: none;
   }
-  /* In the header from laptop width up (it also holds the tabs, the language and the theme buttons): the full wording
-     from 90rem, just the numbers with their icons between 75rem and 90rem (the words stay available to screen readers
-     and as a tooltip). */
+  /* In the header from laptop width up (it also holds the tabs, the language and the theme buttons): just the numbers with
+     their icons first, the full wording from a width that is measured for each language (header-widths.ts). The words always
+     stay available to screen readers and as a tooltip. */
   @media (min-width: 75rem) {
     .counters--header {
       display: flex;
@@ -86,8 +89,8 @@ const config = {
       display: none;
     }
   }
-  @media (min-width: 75rem) and (max-width: 89.99rem) {
-    .counters--header .pill__words {
+  @media (min-width: 75rem) {
+    .counters--header .stat__words {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -96,39 +99,127 @@ const config = {
       white-space: nowrap;
     }
   }
-  .pill__num {
-    font-weight: 800;
+  @media (min-width: 90rem) {
+    .counters--w90 .stat__words {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip-path: none;
+    }
   }
-  .pill {
+  @media (min-width: 100rem) {
+    .counters--w100 .stat__words {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip-path: none;
+    }
+  }
+  @media (min-width: 110rem) {
+    .counters--w110 .stat__words {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip-path: none;
+    }
+  }
+  @media (min-width: 120rem) {
+    .counters--w120 .stat__words {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip-path: none;
+    }
+  }
+  @media (min-width: 135rem) {
+    .counters--w135 .stat__words {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip-path: none;
+    }
+  }
+  /* Without scripts the numbers can never arrive, so the whole thing stays out of sight. */
+  @media (scripting: none) {
+    .counters {
+      display: none !important;
+    }
+  }
+
+  .stat {
     position: relative;
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
-    padding: 0.3rem 0.75rem;
-    border-radius: var(--radius-full);
-    background: var(--surface-2);
-    color: var(--text);
+    gap: 0.45rem;
+    max-width: 100%;
+    color: var(--text-muted);
     font-size: var(--step--1);
     font-weight: 650;
-    /* a long translation wraps inside its own pill instead of pushing the page wider */
-    max-width: 100%;
+    line-height: 1.25;
+    white-space: nowrap;
+  }
+  /* a long translation wraps inside the slim bar instead of pushing the page wider */
+  .counters--bar .stat {
+    white-space: normal;
     text-align: center;
+  }
+  .stat[data-state='off'] {
+    display: none;
+  }
+  .stat svg {
+    flex: none;
+    width: 1.3em;
+    height: 1.3em;
+  }
+  .stat__num {
+    color: var(--text-strong);
+    font-size: 1.18em;
+    font-weight: 800;
     font-variant-numeric: tabular-nums;
   }
-  .dot {
-    width: 0.55rem;
-    height: 0.55rem;
-    border-radius: 50%;
-    background: var(--success);
-    box-shadow: 0 0 0 0 color-mix(in srgb, var(--success) 60%, transparent);
-    animation: pulse 2s infinite;
+  .stat[data-state='loading'] .stat__num {
+    display: inline-block;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-align: center;
   }
-  @keyframes pulse {
-    70% {
-      box-shadow: 0 0 0 0.45rem transparent;
+  /* room for a few digits while the total is on its way, so the words beside it hardly move when it arrives */
+  .stat--total[data-state='loading'] .stat__num {
+    min-inline-size: 4ch;
+  }
+  .stat[data-state='ready'] .stat__num {
+    animation: stat-in 0.3s ease-out;
+  }
+  @keyframes stat-in {
+    from {
+      opacity: 0.2;
     }
-    100% {
-      box-shadow: 0 0 0 0 transparent;
+  }
+
+  /* "online now": a small green dot that breathes (still while loading, and when motion is reduced) */
+  .dot {
+    flex: none;
+    width: 12px;
+    height: 12px;
+    margin-inline: 3px;
+    border-radius: 50%;
+    background: var(--live);
+  }
+  .stat[data-state='ready'] .dot {
+    animation: live-dot 2.4s ease-in-out infinite;
+  }
+  .stat[data-state='loading'] .dot {
+    background: var(--text-muted);
+    opacity: 0.6;
+  }
+  @keyframes live-dot {
+    50% {
+      opacity: 0.4;
     }
   }
 </style>

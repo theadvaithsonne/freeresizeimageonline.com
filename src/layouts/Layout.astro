@@ -10,7 +10,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
 import LanguageSuggest from '../components/LanguageSuggest.astro';
 import { FONT_STYLESHEETS } from '../i18n/languages';
-import { ADSENSE, ADS_LIVE } from '../config/site';
+import { ADSENSE, ADS_LIVE, COUNTERS_STATS_URL } from '../config/site';
 import { alternates, getLanguage, localizedPath, t } from '../i18n';
 
 interface Props {
@@ -95,6 +95,25 @@ const showAds = ads && ADS_LIVE;
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE.client}`}
           crossorigin="anonymous"
         ></script>
+      )
+    }
+
+    <!-- Live counters: open the connection to the counter service while the page is still loading, and start the quick read of the
+         numbers right away (counters-client.ts picks the answer up). Nothing is sent: it only reads two public numbers. -->
+    {
+      COUNTERS_STATS_URL && (
+        <>
+          <link rel="preconnect" href={new URL(COUNTERS_STATS_URL).origin} crossorigin />
+          <script is:inline define:vars={{ statsUrl: COUNTERS_STATS_URL }}>
+            try {
+              window.__frioStats = fetch(statsUrl, { credentials: 'omit' }).then(function (r) {
+                if (!r.ok) throw new Error('stats ' + r.status);
+                return r.json();
+              });
+              window.__frioStats.catch(function () {});
+            } catch (e) {}
+          </script>
+        </>
       )
     }
 

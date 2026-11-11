@@ -1,41 +1,57 @@
-/* Design tokens. Warm cream + burnt-orange palette (light), true black + the same orange (dark).
-   Light is the default; dark applies via the user's choice or system setting. */
+/* Design tokens: the same flat "warm sunset" look as TranscribeVid. Warm cream page, white cards, burnt-orange main button,
+   teal links and badges; dark = true black with the same orange. Light is the default; dark applies via the visitor's
+   choice or system setting. Flat on purpose: solid colours and 1-2px borders, no shadows, glows or gradients. */
 :root {
   color-scheme: light;
 
+  /* the main button (one per area), the open tab, the outline of the chosen option */
   --brand: #c2410c;
   --brand-strong: #9a3412;
-  --brand-soft: #ffe6d2;
+  --brand-bright: #ea580c;
+  --brand-soft: #ffedd5;
   --on-brand: #ffffff;
-  --success: #0f9d8a;
-  /* text-safe teal (>= 4.5:1 on cream) and the text color to use on top of it */
-  --success-strong: #0b6e62;
+  /* teal: links, small badges, the edge of a field you are typing in */
+  --accent: #0f766e;
+  --accent-hover: #115e59;
+  --accent-soft: rgb(15 118 110 / 0.12);
+  --success: #0f766e;
+  --success-strong: #0f766e;
   --on-success: #ffffff;
-  --success-soft: #cff5ec;
-  --warning: #a15c07;
-  --danger: #b42318;
-  --danger-soft: #fde3df;
+  --success-soft: #ccfbf1;
+  --live: #15803d; /* the "online now" dot */
+  --warning: #b45309;
+  --danger: #b91c1c;
+  --danger-soft: #fee2e2;
 
-  --bg: #fff4e8;
-  --surface: #fffbf6;
-  --surface-2: #fce9d8;
-  --footer-bg: #ffebd9;
-  --text: #2b1005;
-  --text-muted: #6e4a35;
-  --border: #f0d5bc;
-  --border-strong: #d9a57f;
+  --bg: #fff7ed;
+  --surface: #ffffff;
+  --surface-2: #ffedd5;
+  --surface-3: #fed7aa;
+  --footer-bg: #ffedd5;
+  --text: #431407;
+  --text-strong: #2c0d04;
+  --text-muted: #7a5238;
+  /* card edges and hairlines / edges of buttons, fields and pills (3:1 against the surface, so they can be seen) */
+  --border: #fed7aa;
+  --border-strong: #bf7a47;
 
-  /* badge colors (mint, light mint, sun) */
-  --mint: #b8f1e5;
-  --mint-soft: #daf7f0;
-  --sun: #fde7a0;
+  /* pastel chips (the three promises) with dark ink on top */
+  --mint: #99f6e4;
+  --mint-soft: #ccfbf1;
+  --sun: #fde68a;
+  --peach: #fed7aa;
+  --tint-ink: #431407;
 
-  --shadow-sm: 0 1px 2px rgb(60 25 5 / 0.07), 0 1px 3px rgb(60 25 5 / 0.06);
-  --shadow-md: 0 6px 18px rgb(60 25 5 / 0.12);
+  /* flat: no shadows (the zero shadow keeps combined values valid) */
+  --shadow-sm: 0 0 #0000;
+  --shadow-md: 0 0 #0000;
+  --shadow-lg: 0 0 #0000;
+  --ring: 0 0 0 4px var(--accent-soft);
 
-  --radius-sm: 0.5rem;
-  --radius-md: 0.625rem;
-  --radius-lg: 0.875rem;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
   --radius-full: 999px;
 
   --space-1: 0.25rem;
@@ -48,24 +64,25 @@
   --space-8: 4.5rem;
   --space-9: 6rem;
 
-  /* Fluid type scale. Sizes are deliberately generous (readable for people with low vision);
-     the root font-size itself also grows on large screens. */
-  --step--1: clamp(0.9375rem, 0.92rem + 0.1vw, 1rem);
-  --step-0: 1.0625rem;
-  --step-1: clamp(1.15rem, 1.05rem + 0.3vw, 1.35rem);
-  --step-2: clamp(1.4rem, 1.2rem + 0.6vw, 1.8rem);
-  --step-3: clamp(1.65rem, 1.3rem + 1.2vw, 2.3rem);
-  --step-4: clamp(2rem, 1.5rem + 2vw, 3.1rem);
+  /* Type sizes as in TranscribeVid: nothing smaller than 16px, body text 18-21px. */
+  --step--1: clamp(16px, 0.15vw + 14px, 18px);
+  --step-0: clamp(18px, 0.3vw + 14.4px, 21px);
+  --step-1: clamp(20px, 0.35vw + 15.5px, 24px);
+  --step-2: clamp(22px, 0.6vw + 15.5px, 28px);
+  --step-3: clamp(24px, 1.2vw + 12px, 34px);
+  --step-4: clamp(28px, 2.4vw, 40px);
 
   --font-sans:
     'Inter Variable', 'Noto Sans Devanagari Variable', 'Noto Sans Arabic Variable',
     'Noto Sans Bengali Variable', 'Noto Sans Thai Variable', system-ui, -apple-system, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
 
-  --header-h: 4.5rem;
-  --gutter: clamp(1rem, 0.5rem + 2vw, 2.5rem);
+  --header-h: 76px;
+  --gutter: clamp(16px, 3.4vw, 64px);
   --container-max: 80rem;
-  --control-h: 3.25rem; /* inputs, selects and buttons: big, easy targets */
+  --control-h: 54px; /* inputs, selects and buttons: big, easy targets */
+  --control-h-sm: 48px; /* buttons in the header */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
   /* Ad units are fixed-pixel creatives, so their sizes are in px, not rem. */
   --rail-w: 336px;
   --ad-rail-h: 600px;
@@ -86,36 +103,43 @@
     sans-serif;
 }
 
+/* Dark: true black, soft off-white text, the same orange toned down, teal links. Every text colour keeps at least 4.5:1. */
 :root[data-theme='dark'] {
   color-scheme: dark;
 
-  --brand: #fb923c;
-  --brand-strong: #fdba74;
+  --brand: #f08a4b;
+  --brand-strong: #f4a172;
+  --brand-bright: #f6a06b;
   --brand-soft: #2a1b0f;
-  --on-brand: #0a0500;
-  --success: #5eead4;
-  --success-strong: #5eead4;
-  --on-success: #04211e;
+  --on-brand: #1f1d1b;
+  --accent: #5ccfc4;
+  --accent-hover: #8ee3da;
+  --accent-soft: rgb(92 207 196 / 0.16);
+  --success: #5ccfc4;
+  --success-strong: #5ccfc4;
+  --on-success: #10201e;
   --success-soft: #0a2622;
-  --warning: #f0b25a;
-  --danger: #ff8a7d;
+  --live: #6fd08c;
+  --warning: #f0b85a;
+  --danger: #f28b82;
   --danger-soft: #2e1412;
 
   --bg: #000000;
   --surface: #0f0f0f;
   --surface-2: #1c1c1c;
+  --surface-3: #2a2a2a;
   --footer-bg: #0a0a0a;
-  --text: #f4f4f5;
-  --text-muted: #a1a1aa;
-  --border: #27272a;
-  --border-strong: #52525b;
+  --text: #e9e2db;
+  --text-strong: #f7f1ea;
+  --text-muted: #b8ada2;
+  --border: #2a2724;
+  --border-strong: #85796e;
 
-  --mint: #12413b;
-  --mint-soft: #0d2f2b;
-  --sun: #4a3a0c;
-
-  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
-  --shadow-md: 0 6px 18px rgb(0 0 0 / 0.5);
+  --mint: #9fd8cf;
+  --mint-soft: #a9cfe0;
+  --sun: #eedc9a;
+  --peach: #f2c39f;
+  --tint-ink: #1f1d1b;
 }
 
 @media (min-width: 120rem) {

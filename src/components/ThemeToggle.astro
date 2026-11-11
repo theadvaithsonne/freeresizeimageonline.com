@@ -48,19 +48,23 @@ const { label, dark, light, variant = 'header' } = Astro.props;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: var(--space-2);
-    min-width: var(--control-h);
-    height: var(--control-h);
-    padding: 0 var(--space-3);
+    gap: 10px;
+    min-width: var(--control-h-sm);
+    height: var(--control-h-sm);
+    padding: 0 20px 0 16px;
     border: 1.5px solid var(--border-strong);
     border-radius: var(--radius-full);
-    background: transparent;
-    color: var(--text);
+    background: var(--surface);
+    color: var(--text-strong);
     font-weight: 700;
-    font-size: var(--step-0);
+    font-size: var(--step--1);
     cursor: pointer;
+    transition:
+      background-color 0.18s var(--ease),
+      border-color 0.18s var(--ease);
   }
   .theme-toggle:hover {
+    border-color: var(--text-strong);
     background: var(--surface-2);
   }
   .icon--sun,
@@ -91,11 +95,13 @@ const { label, dark, light, variant = 'header' } = Astro.props;
     padding: 0.4rem var(--space-3);
     border: 0;
     border-radius: var(--radius-sm);
+    background: transparent;
     font-weight: 600;
+    font-size: var(--step-0);
   }
-  /* Phones: icon only, to leave room for the logo (the word stays available to screen readers) */
-  @media (max-width: 40rem) {
-    .theme-toggle__text {
+  /* Below laptop width the header is crowded: icon only (the word stays available to screen readers) */
+  @media (max-width: 74.99rem) {
+    .theme-toggle--header .theme-toggle__text {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -103,23 +109,9 @@ const { label, dark, light, variant = 'header' } = Astro.props;
       clip-path: inset(50%);
       white-space: nowrap;
     }
-    .theme-toggle {
+    .theme-toggle--header {
       padding: 0;
-      width: var(--control-h);
-    }
-  }
-  @media (max-width: 40rem) {
-    .theme-toggle--menu .theme-toggle__text {
-      position: static;
-      width: auto;
-      height: auto;
-      overflow: visible;
-      clip-path: none;
-      white-space: normal;
-    }
-    .theme-toggle--menu {
-      width: 100%;
-      padding: 0.4rem var(--space-3);
+      width: var(--control-h-sm);
     }
   }
 </style>

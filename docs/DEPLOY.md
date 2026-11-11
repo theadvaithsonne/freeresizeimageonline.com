@@ -39,8 +39,14 @@ npm run worker:deploy     # needs a workers.dev subdomain on the account (a one-
 
 What it does: one anonymous WebSocket per open page; it sends only a number (images resized in a batch) and the Worker keeps
 only two numbers (the running total and the open connections). Only our own domains may connect (other origins get 403).
-Numbers appear on the site once they pass the limits in `COUNTERS` (100 images in total, 3 people online). They are real
-numbers; the pills hide again if the Worker is not reachable and the resizer never depends on it.
+The two stats are in the page from the first paint (a quiet "…" where the number goes), so nothing pops in on a refresh.
+The total is read with a plain HTTPS GET of `/stats` (started from the page head, answered from the edge cache, usually well
+under a second) and "online now" comes from the WebSocket, which also carries every later change live. A stat is dropped only
+after three failed tries in a row (and comes back if its number can be read later). They show from the first real number
+(`COUNTERS.minTotalToShow` / `minOnlineToShow` are 1). The numbers are real, never invented, and the resizer never depends on them.
+From what window width the header shows the words next to the numbers is measured per language in
+`src/config/header-widths.ts` (re-measure after changing the counter texts, tab names or language names).
+A test build can talk to a stand-in server: `PUBLIC_COUNTERS_ENDPOINT=ws://127.0.0.1:8787/ws npx astro build --outDir dist-test`.
 
 **Free allowance:** Workers / Durable Objects allow 100,000 requests per day for the whole account, shared with the other
 Workers on it (for example the transcribevid ones). The counter is built to use very little (idle connections cost nothing,

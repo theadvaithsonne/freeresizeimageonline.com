@@ -39,9 +39,17 @@ export const ADS_LIVE = Boolean(ADSENSE.slots.rail || ADSENSE.slots.inline);
  * Leave `endpoint` empty to switch the counters off everywhere (the privacy policy section about them also disappears).
  */
 export const COUNTERS = {
-  endpoint: 'wss://counters.freeresizeimageonline.com/ws',
+  // PUBLIC_COUNTERS_ENDPOINT lets a test build talk to a stand-in server on this computer; it is not set for the real site.
+  endpoint: (import.meta.env.PUBLIC_COUNTERS_ENDPOINT as string | undefined) || 'wss://counters.freeresizeimageonline.com/ws',
   /** Show the "images resized" number once it reaches this value (it is always the real number, never invented). */
   minTotalToShow: 1,
   /** Show "online now" once at least this many people are connected (a visitor counts as one). */
   minOnlineToShow: 1,
-} as const;
+};
+
+/**
+ * The same service over plain HTTPS: a read of the two numbers. It is answered from the edge cache within a fraction of a
+ * second, while the live WebSocket needs longer to open - so the "images resized" number shows at once and the socket
+ * (which also carries the "online now" number and live updates) catches up behind it.
+ */
+export const COUNTERS_STATS_URL = COUNTERS.endpoint ? COUNTERS.endpoint.replace(/^ws/, 'http').replace(/\/ws$/, '/stats') : '';

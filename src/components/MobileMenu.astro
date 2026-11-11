@@ -153,21 +153,25 @@ const label = t(lang, 'a11y.menu');
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: var(--control-h);
-    height: var(--control-h);
+    width: var(--control-h-sm);
+    height: var(--control-h-sm);
     padding: 0;
     border: 1.5px solid var(--border-strong);
     border-radius: var(--radius-full);
-    background: transparent;
-    color: var(--text);
+    background: var(--surface);
+    color: var(--text-strong);
     cursor: pointer;
+    transition:
+      background-color 0.18s var(--ease),
+      border-color 0.18s var(--ease);
   }
   .menu-button:hover {
+    border-color: var(--text-strong);
     background: var(--surface-2);
   }
   .menu-button[aria-expanded='true'] {
-    background: var(--brand-soft);
-    border-color: var(--brand);
+    border-color: var(--text-strong);
+    background: var(--surface-3);
   }
   .menu-button__close,
   .menu-button[aria-expanded='true'] .menu-button__open {
@@ -185,9 +189,8 @@ const label = t(lang, 'a11y.menu');
     max-height: calc(100dvh - var(--header-h));
     overflow-y: auto;
     overscroll-behavior: contain;
-    background: var(--bg);
-    border-bottom: 1px solid var(--border-strong);
-    box-shadow: var(--shadow-md);
+    background: var(--surface);
+    border-bottom: 2px solid var(--border-strong);
   }
   .menu-panel[hidden] {
     display: none;
@@ -208,16 +211,15 @@ const label = t(lang, 'a11y.menu');
     margin: 0 0 var(--space-1);
     padding-inline: var(--space-3);
     font-size: var(--step--1);
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--brand-strong);
+    font-weight: 700;
+    color: var(--text-muted);
   }
   .menu-panel a {
     display: flex;
     align-items: center;
     min-height: 2.75rem;
     padding: 0.3rem var(--space-3);
+    border-inline-start: 4px solid transparent;
     border-radius: var(--radius-sm);
     color: var(--text);
     font-weight: 600;
@@ -227,11 +229,13 @@ const label = t(lang, 'a11y.menu');
   }
   .menu-panel a:hover {
     background: var(--surface-2);
+    color: var(--text-strong);
   }
   .menu-panel a[aria-current='page'] {
-    background: var(--brand-soft);
-    color: var(--brand-strong);
-    font-weight: 750;
+    background: var(--surface-3);
+    border-inline-start-color: var(--brand);
+    color: var(--text-strong);
+    font-weight: 800;
   }
   /* The theme switch lives in the menu only on very small phones; elsewhere it is in the header. */
   .menu-theme {
@@ -243,7 +247,7 @@ const label = t(lang, 'a11y.menu');
       display: block;
     }
   }
-  /* FAQ and Guides as two prominent tabs at the top of the menu */
+  /* Home, Guides and FAQ as three prominent tabs at the top of the menu */
   .menu-quick {
     grid-column: 1 / -1;
     list-style: none;
@@ -259,9 +263,14 @@ const label = t(lang, 'a11y.menu');
   .menu-quick a {
     justify-content: center;
     min-height: 3rem;
-    border: 1px solid var(--border-strong);
+    border: 1.5px solid var(--border-strong);
     border-radius: var(--radius-full);
+    background: var(--surface);
     font-weight: 700;
+  }
+  .menu-quick a[aria-current='page'] {
+    border-color: var(--brand);
+    border-inline-start-color: var(--brand);
   }
   .menu-legal {
     grid-column: 1 / -1;
@@ -274,6 +283,13 @@ const label = t(lang, 'a11y.menu');
   .menu-legal a {
     color: var(--text-muted);
     font-weight: 600;
+  }
+
+  @media (max-width: 22.5rem) {
+    .menu-button {
+      width: 44px;
+      height: 44px;
+    }
   }
 
   /* On wide screens the strip under the header replaces the menu. */

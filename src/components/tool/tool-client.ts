@@ -841,15 +841,23 @@ export function initTool(root: HTMLElement): void {
 
   let dragDepth = 0;
   const hasFiles = (event: DragEvent) => Array.from(event.dataTransfer?.types ?? []).includes('Files');
+  // While files are dragged over the window, the whole window says where to let go (like TranscribeVid). The message sits
+  // directly in <body>: a fixed box inside the page column would only cover that column.
+  const overlay = root.querySelector<HTMLElement>('[data-drop-overlay]');
+  if (overlay) document.body.append(overlay);
+  const setOver = (on: boolean) => {
+    drop.classList.toggle('is-over', on);
+    if (overlay) overlay.hidden = !on;
+  };
   window.addEventListener('dragenter', (event) => {
     if (!hasFiles(event)) return;
     dragDepth++;
-    drop.classList.add('is-over');
+    setOver(true);
   });
   window.addEventListener('dragleave', (event) => {
     if (!hasFiles(event)) return;
     dragDepth = Math.max(0, dragDepth - 1);
-    if (dragDepth === 0) drop.classList.remove('is-over');
+    if (dragDepth === 0) setOver(false);
   });
   window.addEventListener('dragover', (event) => {
     if (hasFiles(event)) event.preventDefault();
@@ -858,7 +866,7 @@ export function initTool(root: HTMLElement): void {
     if (!hasFiles(event)) return;
     event.preventDefault();
     dragDepth = 0;
-    drop.classList.remove('is-over');
+    setOver(false);
     if (event.dataTransfer?.files) addFiles(event.dataTransfer.files);
   });
   document.addEventListener('paste', (event) => {

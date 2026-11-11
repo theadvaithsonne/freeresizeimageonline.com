@@ -34,19 +34,19 @@ const isLatin = logo === 'FreeResizeImage';
   .logo {
     display: flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 12px;
     min-width: 0;
     max-width: 100%;
-    color: var(--text);
+    color: var(--text-strong);
     font-weight: 500;
-    font-size: clamp(1.1rem, 0.9rem + 0.6vw, 1.5rem);
+    font-size: 26px;
     letter-spacing: -0.02em;
     line-height: 1;
   }
   .logo__mark {
     flex: none;
-    width: 2.2em;
-    height: 2.2em;
+    width: 40px;
+    height: 40px;
   }
   .logo__text {
     overflow: hidden;
@@ -60,5 +60,26 @@ const isLatin = logo === 'FreeResizeImage';
   .logo__text strong {
     font-weight: 800;
     color: var(--brand);
+  }
+  @media (max-width: 67.5rem) {
+    .logo {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 25rem) {
+    .logo {
+      font-size: 23px;
+      gap: 10px;
+    }
+  }
+  @media (max-width: 22.5rem) {
+    .logo {
+      font-size: 18px;
+      gap: 7px;
+    }
+    .logo__mark {
+      width: 32px;
+      height: 32px;
+    }
   }
 </style>
