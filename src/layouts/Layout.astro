@@ -10,7 +10,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
 import LanguageSuggest from '../components/LanguageSuggest.astro';
 import { FONT_STYLESHEETS } from '../i18n/languages';
-import { ADSENSE, ADS_LIVE, COUNTERS_STATS_URL } from '../config/site';
+import { ADSENSE, ADS_LIVE, COUNTERS_STATS_URL, INLINE_ADS_LIVE, RAIL_ADS_LIVE } from '../config/site';
 import { alternates, getLanguage, localizedPath, t } from '../i18n';
 
 interface Props {
@@ -42,7 +42,8 @@ const versions = alternates(path);
 // alone, which is where Google's site check looks; every other page stays free of third-party code.
 const loadAdScript = Boolean(ADSENSE.client) && ads && (ADS_LIVE || path === '/');
 // Ad boxes and the ad column exist only once real ad units are set up: no empty, labelled boxes before that.
-const showAds = ads && ADS_LIVE;
+const showRail = ads && RAIL_ADS_LIVE;
+const showInline = ads && INLINE_ADS_LIVE;
 ---
 <!doctype html>
 <html lang={language.htmlLang} dir={language.dir} data-lang={language.code}>
@@ -138,18 +139,18 @@ const showAds = ads && ADS_LIVE;
     {toolNav && <ToolNav lang={lang} path={path} />}
     <LanguageSuggest lang={lang} path={path} />
 
-    <div class:list={['page container', { 'page--rail': showAds }]}>
+    <div class:list={['page container', { 'page--rail': showRail }]}>
       <main id="main" class="page__main">
         <Breadcrumbs lang={lang} path={path} />
         <slot />
-        {showAds && inlineAd === 'end' && (
+        {showInline && inlineAd === 'end' && (
           <div class="page__inline-ad">
             <AdSlot variant="inline" lang={lang} />
           </div>
         )}
       </main>
       {
-        showAds && (
+        showRail && (
           <div class="page__rail">
             <AdSlot variant="rail" lang={lang} />
           </div>

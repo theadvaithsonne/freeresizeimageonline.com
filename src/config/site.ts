@@ -20,7 +20,9 @@ export const SITE = {
 export const ADSENSE = {
   client: 'ca-pub-5152758693265080',
   slots: {
-    rail: '',
+    // "Right column": responsive display unit created in AdSense on 2026-11-11 (the wide-screen ad column)
+    rail: '3536472557',
+    // the phone / tablet unit: paste its number here once it is created (until then no box is drawn on small screens)
     inline: '',
   },
   /**
@@ -33,6 +35,9 @@ export const ADSENSE = {
 
 /** True once at least one ad unit id is filled in above (ads can actually appear). */
 export const ADS_LIVE = Boolean(ADSENSE.slots.rail || ADSENSE.slots.inline);
+/** The wide-screen ad column exists only once its unit is set; the boxes inside the page only once the inline unit is set. */
+export const RAIL_ADS_LIVE = Boolean(ADSENSE.slots.rail);
+export const INLINE_ADS_LIVE = Boolean(ADSENSE.slots.inline);
 
 /**
  * Live counters. The Worker in worker/ is deployed on counters.freeresizeimageonline.com (2026-11-11).

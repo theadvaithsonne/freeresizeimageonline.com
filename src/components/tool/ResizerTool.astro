@@ -4,7 +4,7 @@ import { subtree } from '../../i18n';
 import { t } from '../../i18n';
 import { safeJson } from '../../i18n/safe-json';
 import AdSlot from '../AdSlot.astro';
-import { ADS_LIVE } from '../../config/site';
+import { INLINE_ADS_LIVE } from '../../config/site';
 
 interface Props {
   lang: string;
@@ -215,7 +215,7 @@ const clientData = {
     <!-- Phones and tablets: an ad box under the results, well away from the download buttons. On wide screens the
          ad column beside the page is used instead (this box is hidden there). -->
     {
-      ADS_LIVE && (
+      INLINE_ADS_LIVE && (
         <div class="results__ad" data-results-ad>
           <AdSlot variant="inline" lang={lang} />
         </div>
@@ -663,6 +663,12 @@ const clientData = {
     margin-top: var(--space-5);
     padding-top: var(--space-6);
     border-top: 1px solid var(--border);
+  }
+  /* from 75rem the ad column beside the page is used instead of this box */
+  @media (min-width: 75rem) {
+    .results__ad {
+      display: none;
+    }
   }
   .rcard {
     display: grid;
