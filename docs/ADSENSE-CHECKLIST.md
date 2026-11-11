@@ -73,3 +73,14 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 2. Create the consent message (section 3).
 3. Check AdSense -> **Policy center** weekly for the first month.
 4. Never place extra ads without re-checking the placement rules above.
+
+## Re-check before requesting the review (2026-11-11)
+
+Checked on the deployed build and the live site:
+
+- Ads only on pages with real content: home, 14 tool pages, FAQ and 3 guides in all 20 languages (481 pages). No ads on About, Contact, Privacy, Terms, the guides index or the 404 page.
+- Content amount on ad pages: 573-2,140 words per page in space-separated languages (home 755 in English after the FAQ moved to its own page), at least 1,829 characters in Japanese, Chinese and Thai.
+- Privacy page (all 20 languages) discloses Google/third-party cookies for ads, opt-out links (Google Ads Settings, aboutads.info, How Google uses information), EEA/UK/CH consent, US state choices, Cloudflare and the live statistics. Footer on every page links to About, Contact, Privacy and Terms.
+- Ad boxes: label "Advertisement" (translated) only; not sticky; no arrows or "support us" wording anywhere; no ad above the tool; right column 85 px from the nearest tappable element, in-page boxes 125 px or more from the Download buttons (about 108 px from the last link on guide and FAQ pages after this check); at most two ad boxes visible at once; ad code only created inside visible boxes.
+- Technical: 0 broken internal links, every page has one H1, title, description and canonical; ads.txt correct (google.com, pub-5152758693265080, DIRECT); robots.txt allows everything; HTTP and www redirect to https; 404 returns a real 404.
+- Not an AdSense requirement but still missing: the HSTS header (Cloudflare > SSL/TLS > Edge Certificates > HSTS).

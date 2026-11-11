@@ -15,7 +15,7 @@
 }
 
 .page__inline-ad {
-  margin-top: var(--space-8); /* well away from the last links and buttons of the page */
+  margin-top: var(--space-9); /* well away from the last links and buttons of the page */
 }
 
 .page__rail {
