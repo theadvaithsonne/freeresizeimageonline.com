@@ -22,8 +22,8 @@ export const ADSENSE = {
   slots: {
     // "Right column": responsive display unit created in AdSense on 2026-11-11 (the wide-screen ad column)
     rail: '3536472557',
-    // the phone / tablet unit: paste its number here once it is created (until then no box is drawn on small screens)
-    inline: '',
+    // "Phone and tablet": responsive display unit created in AdSense on 2026-11-11 (boxes inside the page below 1200 px)
+    inline: '1696118130',
   },
   /**
    * Set to true after you create the EEA/UK/Switzerland consent message in AdSense > Privacy & messaging.

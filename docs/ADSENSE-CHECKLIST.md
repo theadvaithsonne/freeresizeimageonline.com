@@ -42,7 +42,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | No incentives to click, no asking for clicks | Done: nothing is shown before real ad units exist (no empty "Advertisement" boxes, no "support us" text); no arrows, "click here" or rewards |
 | Layout does not jump when ads load (Better Ads / user experience) | Done: fixed reserved heights; measured layout shift ~0 |
 | Auto ads | Done: shown as OFF for freeresizeimageonline.com (Ads > By site, checked by the owner on 2026-11-11). Google's script still adds one empty, zero-height element (`adsbygoogle-noablate`); it has no visible effect. Manual placement is built in |
-| Ad units | Right-column unit (responsive display, slot 3536472557) created and set in `src/config/site.ts` on 2026-11-11: the ad column shows on screens from 1200 px. **You**: create the second responsive display unit ("Phone and tablet") and send its 10-digit slot number; it goes into `ADSENSE.slots.inline` and the in-page boxes for phones and tablets appear. Ads stay blank until AdSense has approved the site |
+| Ad units | Done (2026-11-11): both responsive display units are created and set in `src/config/site.ts` - "Right column" (slot 3536472557, the ad column from 1200 px) and "Phone and tablet" (slot 1696118130, boxes under the how-to steps and under the results on smaller screens). Ads stay blank until AdSense has approved the site |
 | Ad code modification | The loader (`Layout.astro`) creates the `ins` element only inside a visible box and calls the normal `adsbygoogle.push({})`; it never refreshes ads, hides units to manipulate them or triggers clicks. The inline unit is fixed-size (`data-full-width-responsive="false"`) so it fits its 336 px box |
 
 ## 5. Content policies
