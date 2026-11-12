@@ -38,6 +38,7 @@ const live = Boolean(ADSENSE.client && slotId);
       data-client={ADSENSE.client}
       data-slot={slotId}
       data-format={variant === 'rail' ? 'vertical' : 'auto'}
+      data-format-short={variant === 'rail' ? 'rectangle' : undefined}
       data-responsive="false"
     />
   </div>
@@ -89,8 +90,19 @@ const live = Boolean(ADSENSE.client && slotId);
     max-width: 300px;
     margin-inline: auto;
   }
+  /* The tall ad (300x600) plus its label must fit in the window under the header while it sticks, so the box has no vertical padding. On a
+     window shorter than 45rem a shorter ad (300x250, also allowed for sticky ads) is requested instead (see the loader in Layout.astro). */
+  .ad-slot--rail .ad-slot__label {
+    line-height: 1.2;
+  }
   .ad-slot--rail .ad-slot__box {
-    min-height: var(--ad-rail-h);
+    padding-block: 0;
+    min-height: calc(var(--ad-rail-h) + 2px);
+  }
+  @media (max-height: 44.99rem) {
+    .ad-slot--rail .ad-slot__box {
+      min-height: 252px;
+    }
   }
 
   @media (min-width: 75rem) {

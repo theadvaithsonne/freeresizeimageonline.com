@@ -180,7 +180,15 @@ const showInline = ads && INLINE_ADS_LIVE;
                 ins.style.width = '100%';
                 ins.setAttribute('data-ad-client', unit.dataset.client);
                 ins.setAttribute('data-ad-slot', unit.dataset.slot);
-                ins.setAttribute('data-ad-format', unit.dataset.format);
+                // The right-hand column asks for a tall ad (300x600) when the window is tall enough to show all of it while it sticks
+                // (45rem), otherwise for a 300x250 one. Decided once, when the ad is requested.
+                var format = unit.dataset.format;
+                if (unit.dataset.formatShort) {
+                  var tall = window.matchMedia && window.matchMedia('(min-height: 45rem)').matches;
+                  unit.dataset.shape = tall ? 'tall' : 'short';
+                  if (!tall) format = unit.dataset.formatShort;
+                }
+                ins.setAttribute('data-ad-format', format);
                 ins.setAttribute('data-full-width-responsive', unit.dataset.responsive);
                 unit.appendChild(ins);
                 try { window.adsbygoogle.push({}); } catch (e) {}

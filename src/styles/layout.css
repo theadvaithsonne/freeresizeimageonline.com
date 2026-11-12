@@ -38,13 +38,20 @@
 }
 
 /* The ad column follows the page while you scroll. Google allows sticky ads under these rules (Ad formats FAQ): desktop only, ads at most
-   300px wide, nothing overlapped, one sticky ad at a time, the whole ad and its label always in view. So it only sticks on a mouse-driven
-   screen that is tall enough to show all of it, stays inside its own column below the header, and stops at the footer. On tablets, touch
-   screens and short windows it scrolls with the page like any other content. */
-@media (min-width: 75rem) and (min-height: 48rem) and (hover: hover) and (pointer: fine) {
+   300px wide (300x600 and 300x250 are both allowed), nothing overlapped, one sticky ad at a time, the whole ad and its label always in view.
+   So it only sticks on a mouse-driven screen, stays inside its own column below the header, and stops at the footer. A tall ad (300x600)
+   sticks only while the window is at least 45rem (720px) tall; shorter windows are served the 300x250 ad instead (see the loader in
+   Layout.astro), which fits anywhere. On tablets and touch screens the column scrolls with the page like any other content. */
+@media (min-width: 75rem) and (min-height: 25rem) and (hover: hover) and (pointer: fine) {
   .page__rail {
     position: sticky;
-    top: calc(var(--header-h) + var(--space-4));
+    top: calc(var(--header-h) + var(--space-2));
+  }
+}
+/* the window was made shorter after a tall ad was requested: stop sticking rather than cut the ad off */
+@media (max-height: 44.99rem) {
+  .page__rail:has([data-shape='tall']) {
+    position: static;
   }
 }
 
