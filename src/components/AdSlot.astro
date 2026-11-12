@@ -2,7 +2,7 @@
 /**
  * Ad space.
  *
- * - variant="rail":   right-hand column on wide screens (>= 75rem). Sticky, 300x600 reserve.
+ * - variant="rail":   right-hand column on wide screens (>= 75rem). 300x600 reserve; the column sticks while scrolling (layout.css).
  * - variant="inline": boxes in the content flow on phones/tablets (< 75rem): one after the how-to steps and one under the
  *                     results (inside the tool), each away from action buttons (Google ad placement policy).
  *
@@ -80,9 +80,14 @@ const live = Boolean(ADSENSE.client && slotId);
     min-height: var(--ad-inline-h);
   }
 
-  /* Rail (desktop): visible from 75rem up, in its own column beside the content (it does not float or follow the page) */
+  /* Rail (desktop): visible from 75rem up, in its own column beside the content. Google allows sticky ads only up to 300px wide, so the
+     ad itself is kept to 300px (the responsive vertical unit then serves 300x600 or narrower). */
   .ad-slot--rail {
     display: none;
+  }
+  .ad-slot--rail .ad-slot__unit {
+    max-width: 300px;
+    margin-inline: auto;
   }
   .ad-slot--rail .ad-slot__box {
     min-height: var(--ad-rail-h);

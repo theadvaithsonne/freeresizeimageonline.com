@@ -37,6 +37,17 @@
   }
 }
 
+/* The ad column follows the page while you scroll. Google allows sticky ads under these rules (Ad formats FAQ): desktop only, ads at most
+   300px wide, nothing overlapped, one sticky ad at a time, the whole ad and its label always in view. So it only sticks on a mouse-driven
+   screen that is tall enough to show all of it, stays inside its own column below the header, and stops at the footer. On tablets, touch
+   screens and short windows it scrolls with the page like any other content. */
+@media (min-width: 75rem) and (min-height: 48rem) and (hover: hover) and (pointer: fine) {
+  .page__rail {
+    position: sticky;
+    top: calc(var(--header-h) + var(--space-4));
+  }
+}
+
 /* Very small phones */
 @media (max-width: 22.5rem) {
   :root {
