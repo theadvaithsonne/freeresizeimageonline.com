@@ -16,7 +16,15 @@
     "jpgToPng": "JPG'den PNG'ye",
     "webpToJpg": "WebP'den JPG'ye",
     "faq": "SSS",
-    "homePage": "Ana sayfa"
+    "homePage": "Ana sayfa",
+    "kb10": "10 KB'a küçült",
+    "kb30": "30 KB'a küçült",
+    "kb500": "500 KB'a küçült",
+    "mb1": "1 MB'a küçült",
+    "pixels": "Piksel olarak boyutlandır",
+    "bulk": "Toplu resim boyutlandırıcı",
+    "jpgToWebp": "JPG'den WebP'ye",
+    "pngToWebp": "PNG'den WebP'ye"
   },
   "common": {
     "howTo": "Nasıl kullanılır?",
@@ -105,8 +113,8 @@
     }
   },
   "kb": {
-    "title": "Resmi 20KB, 50KB, 100KB veya 200KB'a Küçült - Ücretsiz",
-    "description": "Formlar ve yüklemeler için fotoğrafı tam istenen KB boyutuna küçültün. Ücretsiz, kayıtsız; resminiz cihazınızda kalır.",
+    "title": "Resmi KB'a Küçült Online - 10, 20, 50, 100, 200 KB",
+    "description": "Resmi KB olarak online ücretsiz küçültün: fotoğrafı form ve yüklemeler için 10, 20, 30, 50, 100, 200 veya 500 KB'a indirin. Kayıt yok, resminiz gizli kalır.",
     "h1": "Resmi KB'a küçült (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Pek çok online form, sınav sistemi ve iş sitesi 50 KB veya 200 KB gibi bir sınırın üstündeki fotoğrafları kabul etmez. Bu araç, resminizi seçtiğiniz sınıra sığacak şekilde küçültür ve kaliteyi olabildiğince korur.",
     "steps": [
@@ -155,7 +163,7 @@
   },
   "cm": {
     "title": "Resmi cm, mm veya İnç Olarak Boyutlandır - Ücretsiz",
-    "description": "Fotoğrafın boyutunu doğru DPI ile santimetre, milimetre veya inç olarak ayarlayın. Ücretsiz ve gizli.",
+    "description": "Resmi cm olarak online ücretsiz boyutlandırın: fotoğrafın tam boyutunu doğru DPI ile santimetre, milimetre veya inç olarak ayarlayın. Kayıt yok, gizli kalır.",
     "h1": "Resmi cm, mm veya inç olarak boyutlandır",
     "intro": "Baskı işleri ve resmî formlar çoğu zaman piksel yerine santimetre veya inç cinsinden boyut ister. Boyutu ve DPI değerini girin, pikselleri araç sizin için hesaplasın.",
     "steps": [
@@ -204,7 +212,7 @@
   },
   "passport": {
     "title": "Ülkelere Göre Pasaport ve Vize Fotoğrafı Boyutu - Ücretsiz",
-    "description": "Yaygın pasaport ve vize fotoğrafı boyutları mm, inç ve piksel olarak; fotoğrafınızı buna göre boyutlandıran ücretsiz bir araçla.",
+    "description": "Ülkelere göre pasaport ve vize fotoğrafı boyutu mm, inç ve piksel olarak (2 x 2 inç ve 35 x 45 mm dahil); fotoğrafınızı buna göre boyutlandıran ücretsiz araçla.",
     "h1": "Pasaport ve vize fotoğrafı boyutu",
     "intro": "Farklı ülkeler farklı fotoğraf boyutları ister. Fotoğrafınızı 300 DPI'da tam ölçülere kırpıp boyutlandırmak için Hazır ayar listesinden ülkenizi seçin.",
     "note": "Kurallar değişir ve her başvuru arka plan rengi, baş boyutu veya gözlüksüz olma gibi kendi şartlarını ekleyebilir. Göndermeden önce mutlaka resmî talimatları kontrol edin. Bu araç yalnızca boyutu ayarlar; baş boyutunu veya arka planı denetlemez.",
@@ -255,7 +263,7 @@
   },
   "social": {
     "title": "Sosyal Medya Resim Boyutları - Instagram, YouTube, Facebook",
-    "description": "Instagram, Facebook, YouTube, X, LinkedIn ve Pinterest için yaygın kullanılan resim boyutları; resminizi uygun boyuta getiren ücretsiz bir araçla.",
+    "description": "Instagram, Facebook, YouTube, X, LinkedIn ve Pinterest için sosyal medya resim boyutları; resminizi kırpmadan sığdıran ücretsiz bir araçla birlikte.",
     "h1": "Sosyal medya resim boyutları",
     "intro": "Gönderiler, resim baştan doğru orandayken en iyi görünür. Hazır ayar listesinden bir platform seçin, araç resminizi buna göre kırpıp boyutlandırsın.",
     "note": "Platformlar önerilerini zaman zaman günceller. Bunlar, güncel biçimlerle iyi çalışan yaygın boyutlardır.",
@@ -291,8 +299,8 @@
           "a": "1280 x 720 piksel; dosya boyutu 2 MB'ın altında olmalı."
         },
         {
-          "q": "Resmim kırpılacak mı?",
-          "a": "Kutuyu dolduracak şekilde kırp seçeneğinde resmin ortası korunur, sığmayan kenarlar kesilir. Her şeyi korumak istiyorsanız Kutuya sığdır'ı seçin."
+          "q": "Instagram için resmi kırpmadan nasıl boyutlandırırım?",
+          "a": "Hazır ayar listesinden Instagram boyutunu seçin, ardından Kutuyu dolduracak şekilde kırp yerine Kutuya sığdır'ı seçin. Resmin tamamı görünür kalır ve hiçbir yer kesilmez. Kutuyu dolduracak şekilde kırp seçeneğinde resmin ortası korunur, sığmayan kenarlar kesilir."
         }
       ]
     },
@@ -305,7 +313,7 @@
   },
   "convert": {
     "title": "JPG, PNG ve WebP Resim Dönüştürücü - Ücretsiz Online",
-    "description": "Resimleri tarayıcınızda JPG, PNG ve WebP arasında dönüştürün. Ücretsiz, kayıtsız ve gizli.",
+    "description": "JPG, PNG ve WebP arasında resim dönüştürmeyi online ve ücretsiz yapın. Kayıt ve yükleme yok, kaliteyi kendiniz seçersiniz. Telefonda ve bilgisayarda çalışır.",
     "h1": "Resimleri JPG, PNG ve WebP arasında dönüştür",
     "intro": "İhtiyacınız olan biçimi seçin, araç eklediğiniz her resmi dönüştürsün. Hiçbir şey yüklenmez.",
     "steps": [
@@ -350,7 +358,7 @@
   },
   "compress": {
     "title": "Resim Sıkıştırma Online - Fotoğraf Boyutunu Küçült Ücretsiz",
-    "description": "Fotoğrafları görünür kalite kaybı olmadan küçültün. Ücretsiz, kayıtsız; resimleriniz cihazınızdan asla çıkmaz.",
+    "description": "Resim sıkıştırma online ücretsiz: fotoğrafları görünür kayıp olmadan küçültün veya resmi belirli bir KB sınırına indirin. Kayıt yok, hiçbir şey yüklenmez.",
     "h1": "Resimleri online sıkıştır",
     "intro": "Küçük resimler daha hızlı yüklenir, e-postalara sığar ve depolama alanından tasarruf ettirir. Araç, resimlerinizi modern sıkıştırıcılarla yeniden kodlar ve bir kalite düzeyi ya da en büyük dosya boyutu belirlemenize izin verir.",
     "steps": [
@@ -400,7 +408,7 @@
   },
   "kb20": {
     "title": "Resmi 20 KB'a Küçült - Ücretsiz Fotoğraf Küçültme",
-    "description": "Fotoğraf veya imzayı tarayıcınızda 20 KB veya altına küçültün. Ücretsiz, kayıtsız; resminiz cihazınızdan asla çıkmaz.",
+    "description": "Resmi 20 KB'a online ücretsiz küçültün: fotoğraf veya imzayı tarayıcınızda 20 KB veya altına indirin. Kayıt gerekmez, resminiz cihazınızdan asla çıkmaz.",
     "h1": "Resmi 20 KB'a küçült",
     "intro": "20 KB sınırı; sınav, iş ve devlet formlarında küçük vesikalık fotoğraflar ve imzalar için yaygındır. Resminizi ekleyin; araç, dosya 20 KB'ın (20.000 bayt) altına inene kadar kaliteyi adım adım düşürür, resmi de yalnızca zorunluysa küçültür.",
     "blurb": "Fotoğraf veya imzayı 20 KB altına indirin.",
@@ -453,7 +461,7 @@
   },
   "kb50": {
     "title": "Resmi 50 KB'a Küçült - Ücretsiz Fotoğraf Küçültme",
-    "description": "Sınav formları, iş siteleri ve kimlik yüklemeleri için fotoğrafı 50 KB veya altına sıkıştırın. Ücretsiz, gizli, tarayıcıda çalışır.",
+    "description": "Resmi 50 KB'a ücretsiz küçültün: fotoğrafı sınav formları, iş siteleri ve kimlik yüklemeleri için 50 KB veya altına sıkıştırın. Kayıt yok, gizli, tarayıcıda.",
     "h1": "Resmi 50 KB'a küçült",
     "intro": "50 KB, online başvuru formlarında vesikalık boyutundaki fotoğraflar için en çok istenen sınırlardan biridir. Bu sayfa sınırı sizin için ayarlar: fotoğrafınızı ekleyin, yine de net görünen, 50 KB'ın (50.000 bayt) altında bir JPG indirin.",
     "blurb": "Formlar ve siteler için fotoğrafı 50 KB altına indirin.",
@@ -506,7 +514,7 @@
   },
   "kb100": {
     "title": "Resmi 100 KB'a Küçült - Ücretsiz Resim Sıkıştırma",
-    "description": "İş başvuruları, kimlik doğrulama ve belge yüklemeleri için resmi 100 KB veya altına sıkıştırın. Ücretsiz, gizli, kayıt gerekmez.",
+    "description": "Resmi 100 KB'a online ücretsiz küçültün: iş başvuruları, kimlik doğrulama ve belge yüklemeleri için resmi 100 KB veya altına indirin. Kayıt yok, tamamen gizli.",
     "h1": "Resmi 100 KB'a küçült",
     "intro": "100 KB; başvuru fotoğrafları, taranmış kimlikler ve profil resimleri için yaygın bir sınırdır. Resminizi ekleyin, sığan en yüksek kaliteyle 100 KB'ın (100.000 bayt) altında bir JPG alın.",
     "blurb": "Başvurular ve kimlik doğrulama için resmi 100 KB altına indirin.",
@@ -559,7 +567,7 @@
   },
   "kb200": {
     "title": "Resmi 200 KB'a Küçült - Ücretsiz Resim Sıkıştırma",
-    "description": "Vize, kimlik doğrulama ve resmî kurum yüklemeleri için resmi 200 KB veya altına sıkıştırın. Ücretsiz, gizli, tarayıcıda çalışır.",
+    "description": "Resmi 200 KB'a ücretsiz küçültün: vize, kimlik doğrulama ve resmî kurum yüklemeleri için resmi 200 KB veya altına sıkıştırın. Kayıt yok, tarayıcıda çalışır.",
     "h1": "Resmi 200 KB'a küçült",
     "intro": "200 KB; vize fotoğrafları, kimlik doğrulama belgeleri ve resmî kurum yüklemeleri için tipik bir üst sınırdır. Resminizi ekleyin, olabildiğince çok ayrıntıyı koruyan, 200 KB'ın (200.000 bayt) altında bir JPG indirin.",
     "blurb": "Vize ve resmî yüklemeler için resmi 200 KB altına indirin.",
@@ -612,7 +620,7 @@
   },
   "signature": {
     "title": "İmza Boyutlandırma Online - 10-20 KB'a Küçült Ücretsiz",
-    "description": "İmza resmini online formun istediği boyuta getirin: 10 KB veya 20 KB ve belirli bir piksel boyutu. Ücretsiz ve gizli.",
+    "description": "İmza boyutlandırma online ücretsiz: imza resmini online formlar için 10 KB veya 20 KB ve belirli bir piksel boyutuna getirin. Kayıt yok, cihazınızda kalır.",
     "h1": "İmza resmini boyutlandır",
     "intro": "Online formlar genellikle imzanızın küçük ve net bir resmini ister: birkaç KB ve çoğu zaman sabit bir genişlik ile yükseklik. İmzanızın fotoğrafını veya taramasını ekleyin; hem dosya boyutuna hem piksel boyutuna uyan bir dosya alın.",
     "blurb": "İmzayı formun istediği dosya boyutuna getirin.",
@@ -665,7 +673,7 @@
   },
   "pngToJpg": {
     "title": "PNG'den JPG'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
-    "description": "PNG resimlerini tarayıcınızda JPG'ye çevirin. Ücretsiz, kayıt ve yükleme yok; kaliteyi kendiniz seçebilirsiniz.",
+    "description": "PNG'yi JPG'ye online ücretsiz dönüştürün: PNG resimlerini tarayıcınızda daha küçük JPG dosyalarına çevirin. Kayıt ve yükleme yok, kaliteyi kendiniz seçersiniz.",
     "h1": "PNG'yi JPG'ye dönüştür",
     "intro": "PNG resimlerini tek adımda daha küçük JPG dosyalarına çevirin. JPG hemen her yerde kabul edilir ve fotoğraflarda çok daha küçüktür. PNG dosyalarınızı ekleyin, düğmeye basın ve JPG dosyalarını ya da hepsini içeren bir ZIP'i indirin.",
     "blurb": "PNG dosyalarını daha küçük JPG dosyalarına çevirin.",
@@ -718,7 +726,7 @@
   },
   "jpgToPng": {
     "title": "JPG'den PNG'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
-    "description": "JPG resimlerini tarayıcınızda PNG'ye çevirin. Ücretsiz; kayıt, yükleme ve filigran yok, dosyalar cihazınızda kalır.",
+    "description": "JPG'yi PNG'ye tarayıcınızda online ve ücretsiz dönüştürün. Kayıt, yükleme ve filigran yok; telefonda ve bilgisayarda çalışır.",
     "h1": "JPG'yi PNG'ye dönüştür",
     "intro": "Logo, tasarım aracı ya da JPG kabul etmeyen bir form için PNG mi lazım? JPG dosyalarınızı ekleyin ve tek adımda kayıpsız PNG dosyaları indirin. Her şey tarayıcınızda çalışır.",
     "blurb": "JPG dosyalarını kayıpsız PNG dosyalarına çevirin.",
@@ -771,7 +779,7 @@
   },
   "webpToJpg": {
     "title": "WebP'den JPG'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
-    "description": "WebP resimlerini tarayıcınızda JPG'ye çevirin. Ücretsiz, kayıt ve yükleme yok; telefonda ve bilgisayarda çalışır.",
+    "description": "WebP'yi JPG'ye online ücretsiz dönüştürün: WebP resimlerini her yerde açılan JPG dosyalarına çevirin. Kayıt ve yükleme yok, telefonda ve bilgisayarda çalışır.",
     "h1": "WebP'yi JPG'ye dönüştür",
     "intro": "Web siteleri resimleri sık sık WebP olarak kaydeder ama birçok program, yazıcı ve yükleme formu yalnızca JPG kabul eder. WebP resimlerinizi ekleyin ve her yerde açılan JPG dosyaları indirin.",
     "blurb": "WebP resimlerini her yerde açılan JPG dosyalarına çevirin.",
@@ -828,5 +836,429 @@
     "h1": "Sık sorulan sorular",
     "intro": "Ücretsiz resim küçültme aracı hakkında göreve göre gruplanmış kısa yanıtlar. Her şey tarayıcınızda olur, bu yüzden fotoğraflarınız asla yüklenmez.",
     "jump": "Şuraya git"
+  },
+  "kb10": {
+    "title": "Resmi 10 KB'a Küçült - Ücretsiz Fotoğraf Küçültme",
+    "description": "Resmi 10 KB'a online ücretsiz küçültün: fotoğraf veya imzayı tarayıcınızda 10 KB veya altına indirin. Kayıt ve yükleme yok, resminiz gizli kalır.",
+    "h1": "Resmi 10 KB'a küçült",
+    "intro": "10 KB çok küçük bir sınırdır; başvuru formlarındaki imzalar, küçük resimler ve küçük fotoğraf alanları için yaygındır. Bu sayfa 10 KB sınırını sizin için ayarlar: resminizi ekleyin ve 10 KB'ın (10.000 bayt) altında bir JPG indirin.",
+    "blurb": "İmzayı veya küçük bir fotoğrafı 10 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. İmza taraması da telefon fotoğrafı da olur."
+      },
+      {
+        "title": "10 KB sınırını koruyun",
+        "text": "10 KB önceden seçili. Formda 140 x 60 gibi piksel de belirtiliyorsa önce bunları Boyut bölümüne girin: küçük bir resmi sığdırmak çok daha kolaydır."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve JPG dosyasını indirin. Sonuç, tam boyutunu KB olarak gösterir."
+      }
+    ],
+    "tipsTitle": "10 KB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Önce piksel boyutunu küçültün. Yaklaşık 200 x 100 piksellik bir resim, tam boyutlu bir telefon fotoğrafından çok daha kolay 10 KB'a sığar.",
+      "Düz arka planlar en iyi sıkışır. İmza için beyaz kâğıda koyu mürekkep kullanın ve boş kenar boşluklarını kırpın.",
+      "Burada doğru biçim JPG'dir. PNG olarak kaydedilmiş bir fotoğraf çok daha büyüktür ve nadiren 10 KB'a sığar.",
+      "Site dosyanın hâlâ büyük olduğunu söylüyorsa sınırı biraz düşürüp, örneğin 9 KB yapıp, yeniden çalıştırın."
+    ],
+    "detailsTitle": "10 KB'lık bir resim nasıl görünür?",
+    "details": [
+      "10 KB'lık bir JPG çok küçüktür; kısa bir metin belgesinin boyutu kadar. Yaklaşık 200 x 100 pikselde bir imza okunaklı kalır, yaklaşık 100 x 120 piksellik küçük bir vesikalık tarzı fotoğrafta ise yüz tanınabilir kalır. Büyük resimler bulanıklaşmadan 10 KB'a ulaşamaz.",
+      "Araç, sığan en yüksek kaliteyi dener. JPG kalitesini adım adım düşürür ve resim boyutunu yalnızca gerekirse küçültür; böylece sınırdan geçen en net dosyayı alırsınız. İndirmeden önce sonucun boyutunu görürsünüz."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 10 KB'a nasıl küçültürüm?",
+          "a": "Resmi ekleyin, önceden seçili olan 10 KB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç, JPG 10 KB veya daha küçük olana kadar kaliteyi, gerekirse resim boyutunu düşürür."
+        },
+        {
+          "q": "İmzayı 10 KB'a düşürebilir miyim?",
+          "a": "Evet. İmzayı mürekkebe yakın kırpın, buraya ekleyin ve 10 KB sınırı kalsın. Küçük ve yüksek kontrastlı bir imza çok iyi sıkışır."
+        },
+        {
+          "q": "Resim tam olarak 10 KB mı olacak?",
+          "a": "10 KB veya daha küçük olacak. Araç, dosya her sistemden geçsin diye sınırın hemen altını hedefler."
+        },
+        {
+          "q": "Resmim bir yere yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "kb30": {
+    "title": "Resmi 30 KB'a Küçült - Ücretsiz Fotoğraf Küçültme",
+    "description": "Resmi 30 KB'a online ücretsiz küçültün: fotoğraf veya imzayı formlar ve sınav siteleri için 30 KB veya altına sıkıştırın. Kayıt yok, cihazınızda kalır.",
+    "h1": "Resmi 30 KB'a küçült",
+    "intro": "30 KB sınırı, fotoğrafın ve imzanın ayrı alanlara yüklendiği sınav, iş ve devlet başvuru formlarında yaygındır. Bu sayfa sınırı sizin için ayarlar: resminizi ekleyin ve 30 KB'ın (30.000 bayt) altında bir JPG indirin.",
+    "blurb": "Başvuru formları için fotoğrafı 30 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Fotoğrafınızı ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Büyük telefon fotoğrafları sorun değil."
+      },
+      {
+        "title": "30 KB sınırını koruyun",
+        "text": "30 KB önceden seçili. Formda 200 x 230 gibi bir piksel boyutu belirtiliyorsa önce onu Boyut bölümüne girin."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve JPG dosyasını indirin. Sonuç, tam boyutunu KB olarak gösterir."
+      }
+    ],
+    "tipsTitle": "30 KB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Önce formdaki piksel boyutunu ayarlayın, sonra 30 KB sınırını kullanın. Küçük bir resmi sığdırmak kolaydır.",
+      "Düz arka planlı fotoğraflar, karmaşık olanlara göre 30 KB'a çok daha yüksek kaliteyle ulaşır.",
+      "İmza alanı için de aynı aracı kullanın: imzayı mürekkebe yakın kırpın ve formun istediği sınırı koruyun.",
+      "Site dosyanın hâlâ çok büyük olduğunu söylüyorsa 28 KB sınırıyla yeniden çalıştırın."
+    ],
+    "detailsTitle": "30 KB başvuru fotoğrafları için neden uygun?",
+    "details": [
+      "30 KB'ta yaklaşık 200 x 230 piksellik vesikalık tarzı bir fotoğraf, net bir yüzü ve temiz kenarları korur. Dosya, yavaş bağlantılar ve sıkı yükleme formları için yeterince küçüktür, ekranda ise yine nettir.",
+      "Araç, sığan en yüksek kaliteyi dener ve indirmeden önce sonucun boyutunu gösterir. Sınırı değiştirip fotoğrafı iki kez eklemeden yeniden çalıştırabilirsiniz."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir fotoğrafı 30 KB'a nasıl sıkıştırırım?",
+          "a": "Fotoğrafı ekleyin, 30 KB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç JPG kalitesini yavaş yavaş düşürür ve resim boyutunu yalnızca gerekirse küçültür; böylece sığan en net sonucu alırsınız."
+        },
+        {
+          "q": "Fotoğrafımı sınav formu için 30 KB yapabilir miyim?",
+          "a": "Evet. Formun istediği piksel boyutuna ve dosya boyutuna bakın, pikselleri Boyut bölümüne girin ve 30 KB sınırı kalsın. Her form kendi kurallarını belirler, bu yüzden önce mutlaka onları okuyun."
+        },
+        {
+          "q": "30 KB'lık fotoğraf için hangi biçimi kullanmalıyım?",
+          "a": "JPG. Fotoğraflar için en küçük dosyaları verir ve neredeyse her site tarafından kabul edilir."
+        },
+        {
+          "q": "Fotoğrafımı saklıyor musunuz?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "kb500": {
+    "title": "Resmi 500 KB'a Küçült - Ücretsiz Resim Sıkıştırma",
+    "description": "Resmi 500 KB'a online ücretsiz küçültün: fotoğrafı e-posta, iş başvurusu ve yüklemeler için 500 KB veya altına sıkıştırın, net kalsın. Kayıt yok, gizli.",
+    "h1": "Resmi 500 KB'a küçült",
+    "intro": "500 KB; e-posta ekleri, iş başvuruları ve yine de iyi görünen bir resim isteyen yükleme formları için yaygın bir sınırdır. Bu sayfa sınırı sizin için ayarlar: resminizi ekleyin ve net kalan, 500 KB'ın (500.000 bayt) altında bir dosya indirin.",
+    "blurb": "Resmi 500 KB altına indirin ve net tutun.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Birkaç MB'lık telefon fotoğrafları sorun değil."
+      },
+      {
+        "title": "500 KB sınırını koruyun",
+        "text": "500 KB önceden seçili. Sınır uygulanmadan önce Boyut bölümüne, örneğin 1600 piksel gibi bir genişlik veya yükseklik de girebilirsiniz."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve dosyayı indirin. Sonuç, tam boyutunu KB olarak gösterir."
+      }
+    ],
+    "tipsTitle": "500 KB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Çoğu telefon fotoğrafı birkaç MB'tır. Araç bunları 500 KB'a küçültür ve ekranda görüntülemek için yeterince net tutar.",
+      "Resim yalnızca ekran içinse 1600 ile 2000 piksel arası bir genişlik fazlasıyla yeterlidir ve 500 KB'a kolayca sığar.",
+      "Fotoğrafları JPG veya WebP olarak kaydedin. PNG logolar ve ekran görüntüleri için daha iyidir ama PNG olarak kaydedilmiş fotoğraflar çoğu zaman 500 KB'ın çok üzerindedir.",
+      "Küçük bir resmi büyütmeyin. Ayrıntı eklemeden dosyayı büyütür."
+    ],
+    "detailsTitle": "500 KB'lık bir resim ne kadar iyi?",
+    "details": [
+      "500 KB sınırı, 50 KB'lık bir form fotoğrafının yaklaşık on katıdır; yani gerçek ayrıntıya yer vardır. Yaklaşık 1600 x 1200 piksellik bir fotoğraf genellikle JPG olarak 500 KB'a sığar ve dizüstü bilgisayarda ya da telefonda net görünür.",
+      "Araç kaliteyi adım adım düşürür ve piksel boyutunu yalnızca sınıra başka türlü ulaşılamıyorsa küçültür. İndirmeden önce sonucun boyutunu görürsünüz."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 500 KB'a nasıl düşürürüm?",
+          "a": "Resmi ekleyin, önceden seçili olan 500 KB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en yüksek kaliteyi bulur."
+        },
+        {
+          "q": "500 KB'lık fotoğraf yine de iyi görünür mü?",
+          "a": "Evet, ekranda görüntülemek için. Çoğu fotoğraf 500 KB'ta net ayrıntıyı korur. Büyük baskılar için daha büyük dosyalar gerekir."
+        },
+        {
+          "q": "Birçok resmi aynı anda 500 KB'a küçültebilir miyim?",
+          "a": "Evet. İstediğiniz kadar resim ekleyin. Her biri 500 KB veya daha küçük boyutlandırılır ve hepsini tek bir ZIP dosyası olarak indirebilirsiniz."
+        },
+        {
+          "q": "Resmim yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "mb1": {
+    "title": "Resmi 1 MB'a Küçült - Ücretsiz Resim Sıkıştırma",
+    "description": "Resmi 1 MB'a ücretsiz küçültün: fotoğrafı e-posta, form ve yüklemeler için gözle görülür kayıp olmadan 1 MB veya altına indirin. Kayıt yok, cihazınızda kalır.",
+    "h1": "Resmi 1 MB'a küçült",
+    "intro": "1 MB sınırı; e-posta hizmetlerinde, başvuru formlarında ve fotoğraf yüklemeyi kabul eden web sitelerinde yaygındır. Bu sayfa sınırı sizin için ayarlar: resminizi ekleyin ve yine de net görünen, 1 MB'ın (1.000.000 bayt) altında bir dosya indirin.",
+    "blurb": "E-posta ve yüklemeler için resmi 1 MB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Birkaç MB'lık telefon fotoğrafları sorun değil."
+      },
+      {
+        "title": "1 MB sınırını koruyun",
+        "text": "1 MB önceden seçili. Araç bunu 1.000.000 bayt sayar; böylece dosya 1.000 KB sayan sistemlerden de 1.024 KB sayanlardan da geçer."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve dosyayı indirin. Sonuç, tam boyutunu gösterir."
+      }
+    ],
+    "tipsTitle": "1 MB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Telefon fotoğrafları çoğu zaman 3 ile 8 MB arasındadır. Piksel boyutunu biraz küçültmek, örneğin 2000 piksel genişliğe indirmek, onları gözle görülür neredeyse hiç kayıp olmadan 1 MB altına getirir.",
+      "Fotoğraflar 1 MB'a en iyi JPG veya WebP olarak sığar. PNG olarak kaydedilmiş bir fotoğraf genellikle birkaç kat daha büyüktür.",
+      "E-postayla çok sayıda fotoğraf göndermek için hepsini aynı anda ekleyin ve ZIP dosyasını indirin.",
+      "Ekran görüntüleri ve logolar PNG olarak daha iyidir: zaten küçüktür ve kenarları keskin tutar."
+    ],
+    "detailsTitle": "1 MB bir fotoğraf için ne anlama gelir?",
+    "details": [
+      "Bir megabayt 1.000 kilobayttır. 1 MB'lık bir JPG, yaklaşık 2000 x 1500 piksellik bir fotoğrafı iyi ayrıntıyla taşıyabilir; bu da çoğu ekranın gösterdiğinden fazladır. 1 MB'ın yaygın bir sınır olmasının nedeni budur: göndermek için yeterince küçük, iyi görünmek için yeterince büyük.",
+      "Araç, sığan en yüksek kaliteyi dener ve indirmeden önce sonucun tam boyutunu gösterir. Bir form daha küçük bir dosya istiyorsa daha düşük bir sınır seçin ve yeniden çalıştırın."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 1 MB'a nasıl düşürürüm?",
+          "a": "Resmi ekleyin, önceden seçili olan 1 MB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en yüksek kaliteyi bulur."
+        },
+        {
+          "q": "1 MB, 1.024 KB ile aynı mı?",
+          "a": "Bazı sistemlerde bir megabayt 1.024 kilobayt, bazılarında 1.000 kilobayt sayılır. Araç küçük olan değeri (1.000 KB veya 1.000.000 bayt) kullanır, böylece dosya her ikisinden de geçer."
+        },
+        {
+          "q": "Resim piksel olarak da küçülür mü?",
+          "a": "Yalnızca zorunluysa. Araç önce kaliteyi düşürür; piksel boyutunu yalnızca sınıra başka türlü ulaşılamıyorsa küçültür."
+        },
+        {
+          "q": "Resmim yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "pixels": {
+    "title": "Resmi Piksel Olarak Boyutlandır - Genişlik ve Yükseklik",
+    "description": "Resmi piksel olarak ücretsiz boyutlandırın: tam genişlik ve yüksekliği girin, oranı koruyun, sığdırın veya kırpın. Kayıt yok, resimler cihazınızda kalır.",
+    "h1": "Resmi piksel olarak boyutlandır",
+    "intro": "Bir resmin tam genişliğini ve yüksekliğini piksel olarak ayarlayın; web sitesi, başvuru formu, küçük resim veya sosyal medya gönderisi için. Resminizi ekleyin, boyutu yazın ve sonucu indirin. En-boy oranı varsayılan olarak kilitlidir, bu yüzden hiçbir şey uzamış görünmez.",
+    "blurb": "Tam genişlik ve yüksekliği piksel olarak ayarlayın.",
+    "steps": [
+      {
+        "title": "Resimlerinizi ekleyin",
+        "text": "Resimleri sayfaya sürükleyin, cihazınızdan seçin veya yapıştırın. Aynı anda çok sayıda resim ekleyebilirsiniz."
+      },
+      {
+        "title": "Genişlik ve yüksekliği girin",
+        "text": "Bir genişlik, bir yükseklik veya ikisini birden yazın. Resmin uzamaması için En-boy oranını kilitle seçeneği açık kalsın. İkisini de girerseniz resmin sığdırılacağını, kırpılacağını veya uzatılacağını seçin."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Her resmi tek tek indirin veya hepsini tek bir ZIP dosyasında alın."
+      }
+    ],
+    "tipsTitle": "Piksel olarak boyutlandırma ipuçları",
+    "tips": [
+      "Mümkün olduğunda resmi küçültün. Büyütmek ayrıntı ekleyemez, bu yüzden büyütülen resimler yumuşak görünür.",
+      "En-boy oranını korumak için yalnızca genişliği girin. Yükseklik kendiliğinden ayarlanır.",
+      "1080 x 1080 piksel gibi tam bir boyutu boş çubuk kalmadan doldurmak için Kutuyu dolduracak şekilde kırp'ı seçin. Resmin tamamını korumak için Kutuya sığdır'ı seçin.",
+      "Birçok form dosya boyutu da belirtir. İki sınıra da tek seferde uymak için Dosya boyutunu sınırla seçeneğini açın."
+    ],
+    "detailsTitle": "Piksel ve dosya boyutu nasıl bağlantılı?",
+    "details": [
+      "Piksel, bir resmin en küçük noktasıdır. Daha fazla piksel daha fazla ayrıntı ve daha büyük dosya demektir; 4000 piksellik bir telefon fotoğrafının 1000 piksellik olandan çok daha büyük olmasının nedeni budur. Ekran için genellikle 1200 ile 2000 piksel arası bir genişlik fazlasıyla yeterlidir.",
+      "Araç yüksek kaliteli bir boyutlandırma filtresi kullanır, bu yüzden resmi küçültmek onu net tutar. Cihazınızda çalışır; tek bir resimde de, aynı anda yüzlercesinde de."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi piksel olarak belirli bir boyuta nasıl getiririm?",
+          "a": "Resmi ekleyin, Boyut bölümüne genişlik ve yüksekliği yazın ve Resimleri boyutlandır düğmesine basın. Birimin px olarak ayarlandığından emin olun."
+        },
+        {
+          "q": "Boyutlandırırken oranları nasıl korurum?",
+          "a": "En-boy oranını kilitle seçeneği açık kalsın ve yalnızca genişliği ya da yalnızca yüksekliği girin. Diğer kenar kendiliğinden ayarlanır."
+        },
+        {
+          "q": "Birçok resmi aynı piksel boyutuna getirebilir miyim?",
+          "a": "Evet. Hepsini ekleyin, boyutu bir kez girin ve sonuçları tek tek veya ZIP dosyası olarak indirin."
+        },
+        {
+          "q": "Resmim yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "bulk": {
+    "title": "Toplu Resim Boyutlandırma - Fotoğrafları Aynı Anda Küçült",
+    "description": "Toplu resim boyutlandırma: yüzlerce fotoğrafı tek bir boyuta veya dosya sınırına aynı anda getirin ve ZIP indirin. Ücretsiz, kayıt yok, tarayıcınızda gizli.",
+    "h1": "Toplu resim boyutlandırma",
+    "intro": "Çok sayıda resmi tek seferde boyutlandırın. Bir klasör dolusu fotoğrafı ekleyin, hepsi için tek bir boyut veya dosya boyutu sınırı seçin ve sonuçları tek bir ZIP dosyası olarak indirin. Her şey cihazınızda olur, bu yüzden yükleme ve bekleme yok.",
+    "blurb": "Birçok fotoğrafı aynı anda boyutlandırın ve ZIP indirin.",
+    "steps": [
+      {
+        "title": "Tüm resimlerinizi ekleyin",
+        "text": "Çok sayıda fotoğrafı sayfaya sürükleyin, cihazınızdan seçin veya yapıştırın. Aynı anda 500'e kadar ekleyebilirsiniz."
+      },
+      {
+        "title": "Hepsi için tek bir boyut seçin",
+        "text": "Hazır bir ayar seçin, genişlik ve yükseklik, bir yüzde veya en büyük dosya boyutunu girin. Aynı ayar her resme uygulanır."
+      },
+      {
+        "title": "Boyutlandırın ve ZIP indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Resimleri tek tek veya hepsini birlikte tek bir ZIP dosyasında indirin."
+      }
+    ],
+    "tipsTitle": "Çok sayıda resmi boyutlandırma ipuçları",
+    "tips": [
+      "Resimlerinizin boyutları farklıysa ve oranlarını korumak istiyorsanız yüzde 50 gibi bir yüzde kullanın.",
+      "Her resmin aynı sınırın altında kalması gerekiyorsa, örneğin 200 KB, Dosya boyutunu sınırla seçeneğini açın.",
+      "Çok büyük gruplar cihazınızın belleğini kullanır. Yavaşlarsa resimleri 100 ile 200'lük gruplara bölün.",
+      "Hepsini indirmeden önce ilk sonuçlara bakın; ayarı düzeltip yeniden çalıştırmak istiyorsanız Ayarları değiştir'i kullanın."
+    ],
+    "detailsTitle": "Toplu boyutlandırmayı neden kendi cihazınızda yapmalı?",
+    "details": [
+      "Online toplu boyutlandırıcılar genellikle her resmi bir sunucuya yüklemenizi, işlenmesini beklemenizi ve dosyaları yeniden indirmenizi ister. Burada işi tarayıcınız yapar; bu yüzden büyük fotoğraf grupları gizli kalır ve hemen başlar.",
+      "Kaç kez kullanabileceğinize sınır yok, filigran ve hesap da yok. Bir grupta farklı boyutlarda resimler olması sorun değil, çünkü aynı ayar her birine ayrı ayrı uygulanır."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Aynı anda kaç resmi boyutlandırabilirim?",
+          "a": "Aynı anda 500 resme kadar ekleyebilirsiniz. Daha fazlası için birkaç grup halinde çalıştırın."
+        },
+        {
+          "q": "Tüm resimleri aynı boyuta getirebilir miyim?",
+          "a": "Evet. Bir boyutu, yüzdeyi veya dosya boyutu sınırını bir kez seçin; gruptaki her resme uygulanır."
+        },
+        {
+          "q": "Hepsini tek seferde indirebilir miyim?",
+          "a": "Evet. Boyutlandırılan tüm resimleri içeren tek bir ZIP dosyası almak için Tümünü indir (ZIP) düğmesini kullanın."
+        },
+        {
+          "q": "Fotoğraflarım bir sunucuya yükleniyor mu?",
+          "a": "Hayır. Her resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "jpgToWebp": {
+    "title": "JPG'den WebP'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
+    "description": "JPG'yi WebP'ye tarayıcınızda online dönüştürün: daha küçük dosyalar, daha hızlı sayfalar. Ücretsiz, kayıt ve yükleme yok, kaliteyi kendiniz seçersiniz.",
+    "h1": "JPG'yi WebP'ye dönüştür",
+    "intro": "WebP dosyaları, benzer kalitede genellikle JPG dosyalarından küçüktür; bu da web sitelerinin daha hızlı yüklenmesini sağlar. JPG resimlerinizi ekleyin ve saniyeler içinde WebP dosyaları indirin. Hiçbir şey yüklenmez: dönüştürme cihazınızda olur.",
+    "blurb": "JPG resimlerini daha küçük WebP dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "JPG dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok JPG resmini sayfaya sürükleyin ya da telefonunuzdan veya bilgisayarınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak WebP zaten seçili. Daha küçük ya da daha net bir dosya istiyorsanız bir kalite seçin."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her WebP'yi ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "JPG'yi WebP'ye dönüştürme ipuçları",
+    "tips": [
+      "75 ile 85 arası kalite, genellikle görünür bir fark olmadan JPG'den belirgin biçimde daha küçük bir dosya verir.",
+      "Orijinal JPG dosyalarını saklayın. Bazı eski programlar ve yükleme formları WebP kabul etmez.",
+      "Zaten çok sıkıştırılmış bir JPG'yi dönüştürmek, kaybolan kaliteyi geri getirmez.",
+      "Çok sayıda resmi aynı anda ekleyin ve ZIP dosyası olarak birlikte indirin."
+    ],
+    "detailsTitle": "JPG'yi neden WebP'ye dönüştürmeli?",
+    "details": [
+      "WebP, tüm güncel tarayıcıların gösterebildiği modern bir resim biçimidir. Fotoğraflarda benzer kalitede dosyaları çoğu zaman JPG'den yaklaşık dörtte bir ile üçte bir oranında daha küçük yapar; bu da bant genişliğinden tasarruf ettirir ve sayfaları hızlandırır.",
+      "Bir web sitesindeki resimleri değiştirmeden önce, kullandığınız yerlerin WebP kabul ettiğinden emin olun. E-posta programları, bazı yazıcılar ve birçok yükleme formu hâlâ JPG ister."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "WebP, JPG'den daha mı iyi?",
+          "a": "Web siteleri için genellikle evet: WebP dosyaları benzer kalitede daha küçüktür. Paylaşma ve yükleme için JPG hâlâ daha çok yerde kabul edilir."
+        },
+        {
+          "q": "Dönüştürdükten sonra kalite aynı mı?",
+          "a": "Neredeyse. İki biçim de kayıplıdır, bu yüzden yüksek bir WebP kalitesi dosya küçülürken resmin aynı görünmesini sağlar."
+        },
+        {
+          "q": "JPG'yi telefonumda WebP'ye dönüştürebilir miyim?",
+          "a": "Evet. Güncel her telefonun tarayıcısında çalışır; yüklenecek uygulama yok."
+        },
+        {
+          "q": "Ücretsiz mi?",
+          "a": "Evet. Kayıt yok, filigran yok ve resim sayısında sınır yok."
+        }
+      ]
+    }
+  },
+  "pngToWebp": {
+    "title": "PNG'den WebP'ye Dönüştürücü - Ücretsiz, Yükleme Yok",
+    "description": "PNG'yi WebP'ye tarayıcınızda online dönüştürün: çok daha küçük dosyalar, saydamlık korunur. Ücretsiz, kayıt ve yükleme yok, kaliteyi kendiniz seçersiniz.",
+    "h1": "PNG'yi WebP'ye dönüştür",
+    "intro": "PNG dosyaları, özellikle fotoğraflarda ve ekran görüntülerinde çok büyük olabilir. WebP saydamlığı da korur ve genellikle çok daha küçüktür. PNG resimlerinizi ekleyin ve saniyeler içinde WebP dosyaları indirin. Hiçbir şey yüklenmez: dönüştürme cihazınızda olur.",
+    "blurb": "PNG resimlerini çok daha küçük WebP dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "PNG dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok PNG resmini sayfaya sürükleyin ya da telefonunuzdan veya bilgisayarınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak WebP zaten seçili. Daha küçük ya da daha net bir dosya istiyorsanız bir kalite seçin."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her WebP'yi ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "PNG'yi WebP'ye dönüştürme ipuçları",
+    "tips": [
+      "Saydam alanlar WebP'de saydam kalır, bu yüzden logolar ve arka planı silinmiş resimler şeklini korur.",
+      "Fotoğraflarda 80 ile 90 arası kalite, çok daha küçük bir dosyayla PNG'ye neredeyse aynı görünür.",
+      "Kayıpsız bir kopyaya ihtiyacınız varsa orijinal PNG'yi saklayın. Düşük kalitede WebP bazı ince ayrıntıları siler.",
+      "Çok sayıda resmi aynı anda ekleyin ve ZIP dosyası olarak birlikte indirin."
+    ],
+    "detailsTitle": "PNG'yi neden WebP'ye dönüştürmeli?",
+    "details": [
+      "PNG her pikseli olduğu gibi korur; bu yüzden PNG olarak kaydedilmiş bir fotoğraf, aynı fotoğrafın kayıplı bir biçimdeki hâlinden beş ila on kat büyük olabilir. WebP çok daha küçük bir dosya verir ve yine de saydam alanları destekler.",
+      "Bir web sitesindeki resimleri değiştirmeden önce, kullandığınız yerlerin WebP kabul ettiğinden emin olun. E-posta programları, bazı yazıcılar ve birçok yükleme formu hâlâ JPG veya PNG ister."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "PNG'nin saydam arka planı WebP'de korunur mu?",
+          "a": "Evet. PNG'nin saydam alanları WebP dosyasında da saydam kalır."
+        },
+        {
+          "q": "WebP, PNG'den ne kadar küçüktür?",
+          "a": "Fotoğraflarda çoğu zaman birkaç kat daha küçüktür. Basit logolarda ve ekran görüntülerinde fark daha azdır."
+        },
+        {
+          "q": "PNG'yi telefonumda WebP'ye dönüştürebilir miyim?",
+          "a": "Evet. Güncel her telefonun tarayıcısında çalışır; yüklenecek uygulama yok."
+        },
+        {
+          "q": "Ücretsiz mi?",
+          "a": "Evet. Kayıt yok, filigran yok ve resim sayısında sınır yok."
+        }
+      ]
+    }
   }
 }

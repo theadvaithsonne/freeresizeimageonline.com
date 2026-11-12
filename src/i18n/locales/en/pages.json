@@ -16,7 +16,15 @@
     "jpgToPng": "JPG to PNG",
     "webpToJpg": "WebP to JPG",
     "faq": "FAQ",
-    "homePage": "Home"
+    "homePage": "Home",
+    "kb10": "Resize to 10 KB",
+    "kb30": "Resize to 30 KB",
+    "kb500": "Resize to 500 KB",
+    "mb1": "Resize to 1 MB",
+    "pixels": "Resize in pixels",
+    "bulk": "Bulk image resizer",
+    "jpgToWebp": "JPG to WebP",
+    "pngToWebp": "PNG to WebP"
   },
   "common": {
     "howTo": "How to use it",
@@ -105,8 +113,8 @@
     }
   },
   "kb": {
-    "title": "Resize Image to 20KB, 50KB, 100KB or 200KB - Free",
-    "description": "Reduce a photo to an exact file size in KB for forms and uploads. Free, no signup, and your image stays on your device.",
+    "title": "Resize Image in KB Online - 10, 20, 50, 100, 200 KB",
+    "description": "Resize image in KB online free: reduce a photo to 10, 20, 30, 50, 100, 200 or 500 KB for forms and uploads. No signup, and your image stays private.",
     "h1": "Resize image to KB (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Many online forms, exam portals and job sites reject photos above a size limit such as 50 KB or 200 KB. This tool shrinks your image to fit the limit you choose while keeping as much quality as possible.",
     "steps": [
@@ -155,7 +163,7 @@
   },
   "cm": {
     "title": "Resize Image in cm, mm or Inches - Free Online",
-    "description": "Set the exact size of a photo in centimeters, millimeters or inches with the right DPI. Free and private.",
+    "description": "Resize image in cm online free: set the exact size of a photo in centimeters, millimeters or inches with the right DPI. No signup, and it stays private.",
     "h1": "Resize image in cm, mm or inches",
     "intro": "Printing and official forms often ask for a size in centimeters or inches instead of pixels. Enter the size and the DPI, and the tool works out the pixels for you.",
     "steps": [
@@ -204,7 +212,7 @@
   },
   "passport": {
     "title": "Passport and Visa Photo Size by Country - Resize Free",
-    "description": "Common passport and visa photo sizes in mm, inches and pixels, with a free tool to resize your photo to match.",
+    "description": "Passport and visa photo size by country in mm, inches and pixels, with a free tool to resize your photo to match, including 2x2 inch and 35x45 mm.",
     "h1": "Passport and visa photo size",
     "intro": "Different countries ask for different photo sizes. Pick your country in the Preset list to crop and resize your photo to the exact dimensions at 300 DPI.",
     "note": "Rules change, and every application can add its own requirements such as background color, head size or no glasses. Always check the official instructions before you submit. This tool only sets the size; it does not check head size or background.",
@@ -255,7 +263,7 @@
   },
   "social": {
     "title": "Social Media Image Sizes for Instagram, YouTube, Facebook",
-    "description": "Widely used image sizes for Instagram, Facebook, YouTube, X, LinkedIn and Pinterest, plus a free tool to resize your picture to fit.",
+    "description": "Social media image sizes for Instagram, Facebook, YouTube, X, LinkedIn and Pinterest, plus a free tool to resize your picture to fit without cropping.",
     "h1": "Social media image sizes",
     "intro": "Posts look best when the picture already has the right shape. Choose a platform in the Preset list and the tool crops and resizes your image to match.",
     "note": "Platforms update their recommendations from time to time. These are widely used sizes that work well with the current formats.",
@@ -291,8 +299,8 @@
           "a": "1280 x 720 pixels, with a file size below 2 MB."
         },
         {
-          "q": "Will my picture be cropped?",
-          "a": "With Crop to fill the middle of the picture is kept and the edges that do not fit are trimmed. Choose Fit inside the box if you prefer to keep everything."
+          "q": "How do I resize an image for Instagram without cropping?",
+          "a": "Choose the Instagram size under Preset, then choose Fit inside the box instead of Crop to fill. The whole picture stays visible and nothing is trimmed. With Crop to fill the middle of the picture is kept and the edges that do not fit are trimmed."
         }
       ]
     },
@@ -305,7 +313,7 @@
   },
   "convert": {
     "title": "Convert JPG, PNG and WebP Images - Free Online Converter",
-    "description": "Convert images between JPG, PNG and WebP in your browser. Free, no signup, and private.",
+    "description": "Convert images between JPG, PNG and WebP online for free. No signup, no upload, and you can choose the quality. Works on phones and computers.",
     "h1": "Convert images between JPG, PNG and WebP",
     "intro": "Choose the format you need and the tool converts every image you add. Nothing is uploaded.",
     "steps": [
@@ -350,7 +358,7 @@
   },
   "compress": {
     "title": "Compress Image Online - Reduce Photo Size Free",
-    "description": "Make photos smaller without losing visible quality. Free, no signup, and your images never leave your device.",
+    "description": "Compress image online free: make photos smaller without losing visible quality, or reduce image size to a set KB limit. No signup, nothing is uploaded.",
     "h1": "Compress images online",
     "intro": "Smaller images load faster, fit in emails and save storage. The tool re-encodes your pictures with modern compressors and lets you set a quality level or a maximum file size.",
     "steps": [
@@ -400,7 +408,7 @@
   },
   "kb20": {
     "title": "Resize Image to 20KB Online - Free Photo Resizer",
-    "description": "Reduce a photo or signature to 20 KB or less in your browser. Free, no signup, and your image never leaves your device.",
+    "description": "Resize image to 20KB online free: reduce a photo or signature to 20 KB or less in your browser. No signup, and your image never leaves your device.",
     "h1": "Resize image to 20 KB",
     "intro": "A 20 KB limit is common for small passport photos and signatures on exam, job and government forms. Add your picture and the tool lowers the quality step by step, and makes the picture smaller only if it has to, until the file is under 20 KB (20,000 bytes).",
     "blurb": "Get a photo or signature under 20 KB.",
@@ -453,7 +461,7 @@
   },
   "kb50": {
     "title": "Resize Image to 50KB Online - Free Photo Resizer",
-    "description": "Compress a photo to 50 KB or less for exam forms, job portals and ID uploads. Free, private and works in your browser.",
+    "description": "Resize image to 50KB online free: compress a photo to 50 KB or less for exam forms, job portals and ID uploads. No signup, private, in your browser.",
     "h1": "Resize image to 50 KB",
     "intro": "50 KB is one of the most requested limits for passport-size photos on online application forms. This page sets the limit for you: add your photo and download a JPG under 50 KB (50,000 bytes) that still looks sharp.",
     "blurb": "Get a photo under 50 KB for forms and portals.",
@@ -506,7 +514,7 @@
   },
   "kb100": {
     "title": "Resize Image to 100KB Online - Free Image Compressor",
-    "description": "Reduce an image to 100 KB or less for job applications, KYC and document uploads. Free, private, no signup.",
+    "description": "Resize image to 100KB online free: reduce an image to 100 KB or less for job applications, KYC and document uploads. No signup, and fully private.",
     "h1": "Resize image to 100 KB",
     "intro": "100 KB is a common limit for application photos, scanned IDs and profile pictures. Add your image and get a JPG under 100 KB (100,000 bytes) with the highest quality that fits.",
     "blurb": "Get an image under 100 KB for applications and KYC.",
@@ -559,7 +567,7 @@
   },
   "kb200": {
     "title": "Resize Image to 200KB Online - Free Image Compressor",
-    "description": "Compress an image to 200 KB or less for visa, KYC and government uploads. Free, private and runs in your browser.",
+    "description": "Resize image to 200KB online free: compress an image to 200 KB or less for visa, KYC and government uploads. No signup, and it runs in your browser.",
     "h1": "Resize image to 200 KB",
     "intro": "200 KB is a typical upper limit for visa photos, KYC documents and government uploads. Add your image and download a JPG under 200 KB (200,000 bytes) that keeps as much detail as possible.",
     "blurb": "Get an image under 200 KB for visa and government uploads.",
@@ -612,7 +620,7 @@
   },
   "signature": {
     "title": "Resize Signature Online - Photo to 10-20KB Free",
-    "description": "Resize a signature image to the size an online form asks for, such as 10 KB or 20 KB and a set pixel size. Free and private.",
+    "description": "Resize signature online free: reduce a signature image to 10 KB or 20 KB and a set pixel size for online forms. No signup, and it stays on your device.",
     "h1": "Resize signature image",
     "intro": "Online forms usually want a small, clear picture of your signature: a few KB, and often a fixed width and height. Add a photo or scan of your signature and get a file that meets both the file size and the pixel size.",
     "blurb": "Resize a signature to the file size a form asks for.",
@@ -665,7 +673,7 @@
   },
   "pngToJpg": {
     "title": "PNG to JPG Converter - Free Online, No Upload",
-    "description": "Convert PNG images to JPG in your browser. Free, no signup, no upload, and you can choose the quality.",
+    "description": "Convert PNG to JPG online free: turn PNG images into smaller JPG files in your browser. No signup, no upload, and you can choose the quality.",
     "h1": "Convert PNG to JPG",
     "intro": "Turn PNG pictures into smaller JPG files in one step. JPG is accepted almost everywhere and is much smaller for photos. Add your PNG files, press the button and download the JPG files, or a ZIP with all of them.",
     "blurb": "Turn PNG files into smaller JPG files.",
@@ -718,7 +726,7 @@
   },
   "jpgToPng": {
     "title": "JPG to PNG Converter - Free Online, No Upload",
-    "description": "Convert JPG images to PNG in your browser. Free, no signup, no upload and no watermark.",
+    "description": "Convert JPG to PNG online free in your browser. No signup, no upload and no watermark, and it works on phones and computers.",
     "h1": "Convert JPG to PNG",
     "intro": "Need a PNG for a logo, a design tool or a form that does not accept JPG? Add your JPG files and download lossless PNG files in one step. Everything runs in your browser.",
     "blurb": "Turn JPG files into lossless PNG files.",
@@ -771,7 +779,7 @@
   },
   "webpToJpg": {
     "title": "WebP to JPG Converter - Free Online, No Upload",
-    "description": "Convert WebP images to JPG in your browser. Free, no signup, no upload, and it works on phones and computers.",
+    "description": "Convert WebP to JPG online free: turn WebP images into JPG files that open everywhere. No signup, no upload, and it works on phones and computers.",
     "h1": "Convert WebP to JPG",
     "intro": "Websites often save pictures as WebP, but many programs, printers and upload forms only accept JPG. Add your WebP pictures and download JPG files that open everywhere.",
     "blurb": "Turn WebP pictures into JPG files that open everywhere.",
@@ -828,5 +836,429 @@
     "h1": "Frequently asked questions",
     "intro": "Quick answers about the free image resizer, grouped by task. Everything runs in your browser, so your pictures are never uploaded.",
     "jump": "Jump to"
+  },
+  "kb10": {
+    "title": "Resize Image to 10KB Online - Free Photo Resizer",
+    "description": "Resize image to 10KB online free: shrink a photo or signature to 10 KB or less in your browser. No signup, no upload, and your image stays private.",
+    "h1": "Resize image to 10 KB",
+    "intro": "10 KB is a very small limit, common for signatures, thumbnails and small photo fields on application forms. This page sets the 10 KB limit for you: add your picture and download a JPG under 10 KB (10,000 bytes).",
+    "blurb": "Get a signature or small photo under 10 KB.",
+    "steps": [
+      {
+        "title": "Add your picture",
+        "text": "Drag it here or choose it from your device. A signature scan and a phone photo both work."
+      },
+      {
+        "title": "Keep the 10 KB limit",
+        "text": "10 KB is preselected. If the form also states pixels, such as 140 by 60, enter them under Size first: a small picture is much easier to fit."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the JPG. The result shows its exact size in KB."
+      }
+    ],
+    "tipsTitle": "Tips for staying under 10 KB",
+    "tips": [
+      "Shrink the pixel size first. A picture of about 200 by 100 pixels fits in 10 KB far more easily than a full phone photo.",
+      "Plain backgrounds compress best. For a signature, use dark ink on white paper and crop away the empty margins.",
+      "JPG is the right format here. A photo saved as PNG is much larger and rarely fits in 10 KB.",
+      "If the portal still says the file is too big, lower the limit a little, for example to 9 KB, and run it again."
+    ],
+    "detailsTitle": "What a 10 KB picture looks like",
+    "details": [
+      "A JPG of 10 KB is tiny, about the size of a short text document. At around 200 by 100 pixels a signature stays readable, and a small passport-style photo of about 100 by 120 pixels keeps the face recognisable. Large pictures cannot reach 10 KB without turning blurry.",
+      "The tool tries the highest quality that fits. It lowers the JPG quality step by step and only reduces the picture size when it has to, so you get the sharpest file that passes. You see the result size before you download."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I resize an image to 10 KB?",
+          "a": "Add the picture, keep the 10 KB limit that is preselected and press Resize images. The tool lowers the quality and, if needed, the picture size until the JPG is 10 KB or smaller."
+        },
+        {
+          "q": "Can I reduce a signature to 10 KB?",
+          "a": "Yes. Crop the signature close to the ink, add it here and keep the 10 KB limit. A small, high-contrast signature compresses very well."
+        },
+        {
+          "q": "Will the image be exactly 10 KB?",
+          "a": "It will be 10 KB or smaller. The tool aims just under the limit so the file passes on every system."
+        },
+        {
+          "q": "Is my picture uploaded anywhere?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "kb30": {
+    "title": "Resize Image to 30KB Online - Free Photo Resizer",
+    "description": "Resize image to 30KB online free: compress a photo or signature to 30 KB or less for forms and exam portals. No signup, and it stays on your device.",
+    "h1": "Resize image to 30 KB",
+    "intro": "A 30 KB limit is common on exam, job and government application forms, where the photo and the signature are uploaded in separate fields. This page sets the limit for you: add your picture and download a JPG under 30 KB (30,000 bytes).",
+    "blurb": "Get a photo under 30 KB for application forms.",
+    "steps": [
+      {
+        "title": "Add your photo",
+        "text": "Drag it here or choose it from your device. Large phone photos are fine."
+      },
+      {
+        "title": "Keep the 30 KB limit",
+        "text": "30 KB is preselected. If the form states a pixel size, such as 200 by 230, enter it under Size first."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the JPG. The result shows its exact size in KB."
+      }
+    ],
+    "tipsTitle": "Tips for staying under 30 KB",
+    "tips": [
+      "Set the pixel size from the form first, then use the 30 KB limit. A small picture is easy to fit.",
+      "Photos with a plain background reach 30 KB at a much higher quality than busy ones.",
+      "Use the same tool for the signature field: crop it close to the ink and keep the limit the form asks for.",
+      "If the portal still says the file is too large, run it again with a limit of 28 KB."
+    ],
+    "detailsTitle": "Why 30 KB works for application photos",
+    "details": [
+      "At 30 KB a passport-style photo of about 200 by 230 pixels keeps a clear face and clean edges. The file is small enough for slow connections and strict upload forms, and still sharp on screen.",
+      "The tool tries the highest quality that fits and shows you the result size before you download. You can change the limit and run it again without adding the photo twice."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I compress a photo to 30 KB?",
+          "a": "Add the photo, keep the 30 KB limit and press Resize images. The tool lowers the JPG quality gradually and reduces the picture size only if it must, so you get the sharpest result that fits."
+        },
+        {
+          "q": "Can I make my photo 30 KB for an exam form?",
+          "a": "Yes. Check the pixel size and the file size the form asks for, enter the pixels under Size and keep the 30 KB limit. Each form states its own rules, so always read them first."
+        },
+        {
+          "q": "Which format should I use for a 30 KB photo?",
+          "a": "JPG. It gives the smallest files for photos and is accepted by almost every portal."
+        },
+        {
+          "q": "Do you keep my photo?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "kb500": {
+    "title": "Resize Image to 500KB Online - Free Image Compressor",
+    "description": "Resize image to 500KB online free: compress a photo to 500 KB or less for email, job applications and uploads, and keep it sharp. No signup, private.",
+    "h1": "Resize image to 500 KB",
+    "intro": "500 KB is a common limit for email attachments, job applications and upload forms that still want a good-looking picture. This page sets the limit for you: add your image and download a file under 500 KB (500,000 bytes) that stays sharp.",
+    "blurb": "Get an image under 500 KB and keep it sharp.",
+    "steps": [
+      {
+        "title": "Add your image",
+        "text": "Drag it here or choose it from your device. Phone photos of several MB are fine."
+      },
+      {
+        "title": "Keep the 500 KB limit",
+        "text": "500 KB is preselected. You can also enter a width or height under Size, for example 1600 pixels, before the limit is applied."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the file. The result shows its exact size in KB."
+      }
+    ],
+    "tipsTitle": "Tips for staying under 500 KB",
+    "tips": [
+      "Most phone photos are several MB. The tool shrinks them to 500 KB and keeps them sharp enough to view on a screen.",
+      "If the picture is only for a screen, a width of 1600 to 2000 pixels is plenty and fits in 500 KB easily.",
+      "Save photos as JPG or WebP. PNG is better for logos and screenshots, but photos saved as PNG are usually far above 500 KB.",
+      "Do not enlarge a small picture. It makes the file bigger without adding detail."
+    ],
+    "detailsTitle": "How good is a 500 KB picture?",
+    "details": [
+      "A limit of 500 KB is about ten times the size of a 50 KB form photo, so there is room for real detail. A photo of about 1600 by 1200 pixels usually fits in 500 KB as a JPG and looks sharp on a laptop or a phone.",
+      "The tool lowers the quality step by step and only reduces the pixel size if the limit cannot be reached otherwise. You see the result size before you download."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I reduce an image to 500 KB?",
+          "a": "Add the image, keep the 500 KB limit that is preselected and press Resize images. The tool finds the highest quality that fits."
+        },
+        {
+          "q": "Will a 500 KB photo still look good?",
+          "a": "Yes, for viewing on a screen. Most photos keep clear detail at 500 KB. Large prints need bigger files."
+        },
+        {
+          "q": "Can I resize several images to 500 KB at once?",
+          "a": "Yes. Add as many images as you like. Each one is resized to 500 KB or smaller, and you can download them all as one ZIP file."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "mb1": {
+    "title": "Resize Image to 1MB Online - Free Image Compressor",
+    "description": "Resize image to 1MB online free: reduce a photo to 1 MB or less for email, forms and uploads without visible loss. No signup, and it stays on your device.",
+    "h1": "Resize image to 1 MB",
+    "intro": "A 1 MB limit is common on email services, application forms and websites that accept photo uploads. This page sets the limit for you: add your image and download a file under 1 MB (1,000,000 bytes) that still looks sharp.",
+    "blurb": "Get an image under 1 MB for email and uploads.",
+    "steps": [
+      {
+        "title": "Add your image",
+        "text": "Drag it here or choose it from your device. Phone photos of several MB are fine."
+      },
+      {
+        "title": "Keep the 1 MB limit",
+        "text": "1 MB is preselected. The tool counts it as 1,000,000 bytes, so the file passes on systems that count 1,000 KB and on those that count 1,024 KB."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the file. The result shows its exact size."
+      }
+    ],
+    "tipsTitle": "Tips for staying under 1 MB",
+    "tips": [
+      "Phone photos are often 3 to 8 MB. Reducing the pixel size a little, for example to 2000 pixels wide, brings them under 1 MB with almost no visible loss.",
+      "Photos fit into 1 MB best as JPG or WebP. A photo saved as PNG is usually several times larger.",
+      "To send many photos by email, add them all at once and download the ZIP file.",
+      "Screenshots and logos are better as PNG: they are small already and keep sharp edges."
+    ],
+    "detailsTitle": "What 1 MB means for a photo",
+    "details": [
+      "One megabyte is 1,000 kilobytes. A JPG of 1 MB can hold a photo of about 2000 by 1500 pixels with good detail, which is more than most screens show. That is why 1 MB is a popular limit: small enough to send, large enough to look good.",
+      "The tool tries the highest quality that fits and shows you the exact result size before you download. If a form wants a smaller file, choose a lower limit and run it again."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I reduce an image to 1 MB?",
+          "a": "Add the image, keep the 1 MB limit that is preselected and press Resize images. The tool finds the highest quality that fits."
+        },
+        {
+          "q": "Is 1 MB the same as 1,024 KB?",
+          "a": "On some systems a megabyte counts as 1,024 kilobytes, on others as 1,000. The tool uses the smaller value (1,000 KB, or 1,000,000 bytes), so the file passes on both."
+        },
+        {
+          "q": "Does the picture get smaller in pixels?",
+          "a": "Only if it has to. The tool lowers the quality first and reduces the pixel size only when the limit cannot be reached otherwise."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "pixels": {
+    "title": "Resize Image in Pixels Online - Set Width and Height",
+    "description": "Resize image in pixels online free: enter the exact width and height, keep the aspect ratio, fit or crop. No signup, and your images stay on your device.",
+    "h1": "Resize image in pixels",
+    "intro": "Set the exact width and height of a picture in pixels, for a website, an application form, a thumbnail or a social media post. Add your image, type the size and download the result. The aspect ratio is locked by default, so nothing looks stretched.",
+    "blurb": "Set the exact width and height in pixels.",
+    "steps": [
+      {
+        "title": "Add your images",
+        "text": "Drag pictures onto the page, choose them from your device or paste them. You can add many at once."
+      },
+      {
+        "title": "Enter the width and height",
+        "text": "Type a width, a height or both. Keep Lock aspect ratio on to avoid a stretched picture. If you give both, choose whether the picture is fitted, cropped or stretched."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images. Download each picture on its own or get everything in a single ZIP file."
+      }
+    ],
+    "tipsTitle": "Tips for resizing in pixels",
+    "tips": [
+      "Make a picture smaller whenever you can. Enlarging cannot add detail, so enlarged pictures look soft.",
+      "Enter only the width to keep the proportions. The height follows automatically.",
+      "To fill an exact size such as 1080 by 1080 pixels without empty bars, choose crop. To keep the whole picture, choose fit.",
+      "Many forms also state a file size. Turn on Limit the file size to meet both limits in one go."
+    ],
+    "detailsTitle": "How pixels and file size are connected",
+    "details": [
+      "A pixel is the smallest dot of a picture. More pixels mean more detail and a bigger file, which is why a 4000-pixel phone photo is much larger than a 1000-pixel one. For a screen, a width of 1200 to 2000 pixels is usually plenty.",
+      "The tool uses a high-quality resizing filter, so reducing a picture keeps it sharp. It works on your device, on one picture or on hundreds at a time."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I resize an image to a specific size in pixels?",
+          "a": "Add the image, type the width and height under Size and press Resize images. Make sure the unit is set to px."
+        },
+        {
+          "q": "How do I keep the proportions when resizing?",
+          "a": "Keep Lock aspect ratio on and enter only the width or only the height. The other side follows automatically."
+        },
+        {
+          "q": "Can I resize many images to the same pixel size?",
+          "a": "Yes. Add them all, enter the size once and download the results one by one or as a ZIP file."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "bulk": {
+    "title": "Bulk Image Resizer - Batch Resize Photos Free Online",
+    "description": "Bulk image resizer: batch resize hundreds of photos at once to one size or file limit and download a ZIP. Free, no signup, and private in your browser.",
+    "h1": "Bulk image resizer",
+    "intro": "Resize many pictures in one go. Add a whole folder of photos, choose one size or one file-size limit for all of them and download the results as a single ZIP file. Everything happens on your device, so there is no upload and no waiting.",
+    "blurb": "Batch resize many photos at once and download a ZIP.",
+    "steps": [
+      {
+        "title": "Add all your images",
+        "text": "Drag many photos onto the page, choose them from your device or paste them. You can add up to 500 at a time."
+      },
+      {
+        "title": "Choose one size for all",
+        "text": "Pick a preset, enter a width and height, a percentage or a maximum file size. The same setting is applied to every picture."
+      },
+      {
+        "title": "Resize and download a ZIP",
+        "text": "Press Resize images. Download the pictures one by one or all together in one ZIP file."
+      }
+    ],
+    "tipsTitle": "Tips for resizing many images",
+    "tips": [
+      "Use a percentage, such as 50 percent, when your pictures have different sizes and you want to keep their proportions.",
+      "Turn on Limit the file size when every picture must stay under the same limit, for example 200 KB.",
+      "Very large batches use the memory of your device. If it slows down, split the pictures into groups of 100 to 200.",
+      "Check the first results before you download everything, and use Change settings if you want to adjust and run again."
+    ],
+    "detailsTitle": "Why resize in bulk on your own device?",
+    "details": [
+      "Online bulk resizers usually make you upload every picture to a server, wait for the processing and download the files again. Here the work is done by your browser, so large batches of photos stay private and start immediately.",
+      "There is no limit on how often you can use it, no watermark and no account. Pictures of different sizes in one batch are fine, because the same setting is applied to each one separately."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How many images can I resize at once?",
+          "a": "You can add up to 500 pictures at a time. For more, run several batches."
+        },
+        {
+          "q": "Can I resize all images to the same size?",
+          "a": "Yes. Choose a size, a percentage or a file-size limit once and it is applied to every picture in the batch."
+        },
+        {
+          "q": "Can I download everything at once?",
+          "a": "Yes. Use Download all to get a single ZIP file with every resized picture."
+        },
+        {
+          "q": "Are my photos uploaded to a server?",
+          "a": "No. Every picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "jpgToWebp": {
+    "title": "JPG to WebP Converter - Free Online, No Upload",
+    "description": "Convert JPG to WebP online in your browser for smaller files and faster pages. Free, no signup, no upload, and you can choose the quality.",
+    "h1": "Convert JPG to WebP",
+    "intro": "WebP files are usually smaller than JPG files at similar quality, which makes websites load faster. Add your JPG pictures and download WebP files in seconds. Nothing is uploaded: the conversion happens on your device.",
+    "blurb": "Turn JPG pictures into smaller WebP files.",
+    "steps": [
+      {
+        "title": "Add your JPG files",
+        "text": "Drag one or many JPG pictures onto the page, or choose them from your phone or computer."
+      },
+      {
+        "title": "Check the format",
+        "text": "WebP is already selected as the output format. Choose a quality if you want a smaller or sharper file."
+      },
+      {
+        "title": "Convert and download",
+        "text": "Press Resize images and download each WebP, or all of them as a ZIP."
+      }
+    ],
+    "tipsTitle": "Tips for converting JPG to WebP",
+    "tips": [
+      "A quality of 75 to 85 usually gives a clearly smaller file than the JPG with no visible difference.",
+      "Keep the original JPG files. Some older programs and upload forms do not accept WebP.",
+      "Converting a JPG that was already compressed heavily does not bring back lost quality.",
+      "Add many pictures at once and download them together as a ZIP file."
+    ],
+    "detailsTitle": "Why convert JPG to WebP?",
+    "details": [
+      "WebP is a modern image format that all current browsers can show. For photos it often makes files around a quarter to a third smaller than JPG at similar quality, which saves bandwidth and speeds up pages.",
+      "Before you replace pictures on a website, check that the places where you use them accept WebP. Email programs, some printers and many upload forms still ask for JPG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Is WebP better than JPG?",
+          "a": "For websites, usually yes: WebP files are smaller at similar quality. For sharing and uploading, JPG is still accepted in more places."
+        },
+        {
+          "q": "Is the quality the same after converting?",
+          "a": "Almost. Both formats are lossy, so a high WebP quality keeps the picture looking the same while the file gets smaller."
+        },
+        {
+          "q": "Can I convert JPG to WebP on my phone?",
+          "a": "Yes. It works in the browser of any modern phone, with no app to install."
+        },
+        {
+          "q": "Is it free?",
+          "a": "Yes. There is no signup, no watermark and no limit on the number of pictures."
+        }
+      ]
+    }
+  },
+  "pngToWebp": {
+    "title": "PNG to WebP Converter - Free Online, No Upload",
+    "description": "Convert PNG to WebP online in your browser: much smaller files and transparency kept. Free, no signup, no upload, and you can choose the quality.",
+    "h1": "Convert PNG to WebP",
+    "intro": "PNG files can be very large, especially for photos and screenshots. WebP keeps transparency too and is usually much smaller. Add your PNG pictures and download WebP files in seconds. Nothing is uploaded: the conversion happens on your device.",
+    "blurb": "Turn PNG pictures into much smaller WebP files.",
+    "steps": [
+      {
+        "title": "Add your PNG files",
+        "text": "Drag one or many PNG pictures onto the page, or choose them from your phone or computer."
+      },
+      {
+        "title": "Check the format",
+        "text": "WebP is already selected as the output format. Choose a quality if you want a smaller or sharper file."
+      },
+      {
+        "title": "Convert and download",
+        "text": "Press Resize images and download each WebP, or all of them as a ZIP."
+      }
+    ],
+    "tipsTitle": "Tips for converting PNG to WebP",
+    "tips": [
+      "Transparent areas stay transparent in WebP, so logos and cut-out pictures keep their shape.",
+      "A quality of 80 to 90 looks almost the same as the PNG for photos, with a far smaller file.",
+      "Keep the original PNG if you need a lossless copy. WebP at a lower quality removes some fine detail.",
+      "Add many pictures at once and download them together as a ZIP file."
+    ],
+    "detailsTitle": "Why convert PNG to WebP?",
+    "details": [
+      "PNG keeps every pixel exactly, which is why a photo saved as PNG can be five to ten times bigger than the same photo in a lossy format. WebP gives you a far smaller file and still supports transparent areas.",
+      "Before you replace pictures on a website, check that the places where you use them accept WebP. Email programs, some printers and many upload forms still ask for JPG or PNG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Does WebP keep the transparent background of my PNG?",
+          "a": "Yes. Transparent areas of the PNG stay transparent in the WebP file."
+        },
+        {
+          "q": "How much smaller is a WebP than a PNG?",
+          "a": "For photos it is often several times smaller. For simple logos and screenshots the difference is smaller."
+        },
+        {
+          "q": "Can I convert PNG to WebP on my phone?",
+          "a": "Yes. It works in the browser of any modern phone, with no app to install."
+        },
+        {
+          "q": "Is it free?",
+          "a": "Yes. There is no signup, no watermark and no limit on the number of pictures."
+        }
+      ]
+    }
   }
 }

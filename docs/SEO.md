@@ -8,13 +8,13 @@ earn links from other sites. Both lists are below.
 
 | Area | What is in place |
 |---|---|
-| One page per search intent | Home, resize to KB (and separate pages for 20, 50, 100 and 200 KB), signature, cm / mm / inches, passport and visa photo size, social media sizes, compress, convert (and separate pages for PNG to JPG, JPG to PNG, WebP to JPG), three guides. 24 pages in 20 languages = 480 pages (plus one FAQ page with every question) |
+| One page per search intent | Home, resize to KB (and separate pages for 10, 20, 30, 50, 100, 200, 500 KB and 1 MB, pixels, bulk, JPG/PNG to WebP), signature, cm / mm / inches, passport and visa photo size, social media sizes, compress, convert (and separate pages for PNG to JPG, JPG to PNG, WebP to JPG), three guides. 24 pages in 20 languages = 480 pages (plus one FAQ page with every question) |
 | Page text | Each page has its own title (60 characters or less), description, one H1, an intro, three steps, tips, an explanatory section, and FAQ. Unique per page, written per language with the words people search with |
 | Language signals | `hreflang` for all 20 languages plus `x-default`, canonical URL on every page, correct `lang` and `dir` |
 | Structured data | `WebSite`, `SoftwareApplication`, `WebApplication`, `FAQPage`, `BreadcrumbList`, `Article` (guides) |
 | Internal links | Every page links to every tool page, guide and the FAQ (menu on phones, header tabs and strip on wide screens, footer, "popular tasks", "more free tools"), so crawlers find everything in one step |
 | Speed and quality | Lighthouse mobile: performance 98-100, accessibility 100, SEO 100. Layout does not jump. No analytics or tracking cookies |
-| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (480 URLs with alternates). The 404 page is `noindex` |
+| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (640 URLs with alternates). The 404 page is `noindex` |
 | IndexNow | `scripts/indexnow.mjs` tells Bing, Yandex, Seznam and Naver about all pages after a deploy (the key file is in `public/`) |
 
 ## What you need to do (once)
@@ -52,3 +52,24 @@ Do not buy links, do not use link exchanges and do not use automatic submission 
 3. Add a page file in `src/pages/[...lang]/` that renders `ToolPage` with the preset or format.
 4. Have the 19 other languages written (one language at a time works well), run `node scripts/check-locale.mjs`, build and deploy.
 Keep every page genuinely different. Pages that only change a number are treated as thin by search engines and by AdSense.
+
+## Keyword research and landing pages (2026-11-12)
+
+Method: Google's public autocomplete (what people actually type) for 50 seed phrases, once for the US and once for India, ranked by how
+high and how often each phrase appears. No paid tools. Re-run it every few months.
+
+Strongest demand (score = rank-weighted, US + India): "resize image to 20kb" (49), "100kb" (46), "resize image online" (36), "50kb" (34),
+"20kb to 50kb" (29), "200kb" (28), "1mb" (28, mostly US), "reduce image size to 100kb" (27), "30kb" (26), "resize image for instagram without
+cropping" (26), "resize image in kb" (25), "without losing quality" (23), "resize image pixels" (23), "10kb" (21), "500kb" (20), then
+bulk / batch resizer, jpg to webp, png to webp, pan card / ssc / aadhar photo size, 4x6 and 2x2 photo size in pixels.
+
+What was built from it:
+- New landing pages for exact sizes that had no page: 10 KB, 30 KB, 500 KB, 1 MB; plus "resize image in pixels", "bulk image resizer", JPG to WebP, PNG to WebP
+  (each with its own steps, tips, explanation and FAQ in all 20 languages; they also join the FAQ page, the sitemap, the menu and the footer automatically).
+- Titles in the page language now lead with the phrase people type; descriptions use the full 140-160 characters with the keyword variants
+  ("resize image to 50KB online free", "reduce image size", "no signup"); the Instagram FAQ now says "without cropping".
+- Not built (ideas): "image to PDF" (very high demand but a different tool), PAN / SSC / Aadhaar photo-size pages (needs verified official sizes first).
+
+Honest expectations: a brand-new domain normally shows no impressions for the first days to weeks; Google must crawl and trust it first.
+What speeds it up: sitemap submitted in Search Console and Bing, "Request indexing" for the main pages (docs/indexing-urls.txt), a few real
+links from other sites (directories, social posts, forums where the tool really helps), and patience.

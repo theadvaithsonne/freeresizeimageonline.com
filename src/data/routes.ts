@@ -10,14 +10,22 @@ export type ToolKey =
   | 'social'
   | 'convert'
   | 'compress'
+  | 'kb10'
   | 'kb20'
+  | 'kb30'
   | 'kb50'
   | 'kb100'
   | 'kb200'
+  | 'kb500'
+  | 'mb1'
   | 'signature'
+  | 'pixels'
+  | 'bulk'
   | 'pngToJpg'
   | 'jpgToPng'
-  | 'webpToJpg';
+  | 'webpToJpg'
+  | 'jpgToWebp'
+  | 'pngToWebp';
 
 /** Heading under which a page is listed in the menu and the footer (text: "navGroups.<group>"). */
 export type NavGroup = 'tools' | 'sizes' | 'convert';
@@ -43,14 +51,22 @@ export const TOOL_ROUTES: ToolRoute[] = [
   { key: 'convert', path: '/convert-image/', group: 'convert', strip: true },
   { key: 'compress', path: '/compress-image/', group: 'tools', strip: true },
   // Dedicated landing pages for the most searched tasks (listed in the menu and the footer).
+  { key: 'kb10', path: '/resize-image-to-10kb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'kb20', path: '/resize-image-to-20kb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'kb30', path: '/resize-image-to-30kb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'kb50', path: '/resize-image-to-50kb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'kb100', path: '/resize-image-to-100kb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'kb200', path: '/resize-image-to-200kb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'kb500', path: '/resize-image-to-500kb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'mb1', path: '/resize-image-to-1mb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'signature', path: '/resize-signature/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'pixels', path: '/resize-image-in-pixels/', group: 'tools', strip: false, parent: 'home' },
+  { key: 'bulk', path: '/bulk-image-resizer/', group: 'tools', strip: false, parent: 'home' },
   { key: 'pngToJpg', path: '/png-to-jpg/', group: 'convert', strip: false, parent: 'convert' },
   { key: 'jpgToPng', path: '/jpg-to-png/', group: 'convert', strip: false, parent: 'convert' },
   { key: 'webpToJpg', path: '/webp-to-jpg/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'jpgToWebp', path: '/jpg-to-webp/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'pngToWebp', path: '/png-to-webp/', group: 'convert', strip: false, parent: 'convert' },
 ];
 
 export const NAV_GROUPS: NavGroup[] = ['tools', 'sizes', 'convert'];

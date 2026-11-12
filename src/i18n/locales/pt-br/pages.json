@@ -16,7 +16,15 @@
     "jpgToPng": "JPG para PNG",
     "webpToJpg": "WebP para JPG",
     "faq": "FAQ",
-    "homePage": "Início"
+    "homePage": "Início",
+    "kb10": "Redimensionar para 10 KB",
+    "kb30": "Redimensionar para 30 KB",
+    "kb500": "Redimensionar para 500 KB",
+    "mb1": "Redimensionar para 1 MB",
+    "pixels": "Redimensionar em pixels",
+    "bulk": "Redimensionar imagens em lote",
+    "jpgToWebp": "JPG para WebP",
+    "pngToWebp": "PNG para WebP"
   },
   "common": {
     "howTo": "Como usar",
@@ -37,28 +45,67 @@
     "how": {
       "title": "Como redimensionar uma imagem online",
       "steps": [
-        { "title": "Adicione suas imagens", "text": "Arraste as fotos para a página, escolha-as no seu dispositivo ou cole-as. Você pode adicionar quantas quiser de uma só vez." },
-        { "title": "Escolha um tamanho", "text": "Selecione uma predefinição, como Instagram ou foto de passaporte, ou digite sua própria largura e altura em pixels, centímetros, milímetros ou polegadas. Você também pode definir um tamanho máximo de arquivo, por exemplo 50 KB." },
-        { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens. Baixe cada imagem separadamente ou pegue tudo em um único arquivo ZIP." }
+        {
+          "title": "Adicione suas imagens",
+          "text": "Arraste as fotos para a página, escolha-as no seu dispositivo ou cole-as. Você pode adicionar quantas quiser de uma só vez."
+        },
+        {
+          "title": "Escolha um tamanho",
+          "text": "Selecione uma predefinição, como Instagram ou foto de passaporte, ou digite sua própria largura e altura em pixels, centímetros, milímetros ou polegadas. Você também pode definir um tamanho máximo de arquivo, por exemplo 50 KB."
+        },
+        {
+          "title": "Redimensione e baixe",
+          "text": "Clique em Redimensionar imagens. Baixe cada imagem separadamente ou pegue tudo em um único arquivo ZIP."
+        }
       ]
     },
     "why": {
       "title": "Por que as pessoas usam o FreeResizeImageOnline",
       "items": [
-        { "title": "Privado desde a origem", "text": "Suas imagens são processadas dentro do seu navegador. Elas nunca são enviadas a um servidor, então ninguém mais pode vê-las." },
-        { "title": "Grátis e ilimitado", "text": "Sem conta, sem marca d'água, sem limite diário e sem espera. Redimensione uma imagem ou centenas." },
-        { "title": "Resultado nítido", "text": "Um filtro de redimensionamento de alta qualidade e compressores modernos mantêm as imagens pequenas nítidas e os arquivos leves." },
-        { "title": "Tamanhos de arquivo exatos", "text": "Precisa de uma foto com menos de 50 KB para um formulário? Defina o limite e a ferramenta encontra a melhor qualidade que cabe nele." }
+        {
+          "title": "Privado desde a origem",
+          "text": "Suas imagens são processadas dentro do seu navegador. Elas nunca são enviadas a um servidor, então ninguém mais pode vê-las."
+        },
+        {
+          "title": "Grátis e ilimitado",
+          "text": "Sem conta, sem marca d'água, sem limite diário e sem espera. Redimensione uma imagem ou centenas."
+        },
+        {
+          "title": "Resultado nítido",
+          "text": "Um filtro de redimensionamento de alta qualidade e compressores modernos mantêm as imagens pequenas nítidas e os arquivos leves."
+        },
+        {
+          "title": "Tamanhos de arquivo exatos",
+          "text": "Precisa de uma foto com menos de 50 KB para um formulário? Defina o limite e a ferramenta encontra a melhor qualidade que cabe nele."
+        }
       ]
     },
     "faq": {
       "items": [
-        { "q": "É realmente grátis?", "a": "Sim. Não há cadastro, período de teste nem limite diário. O site é mantido por alguns anúncios claramente identificados. Imagens muito grandes podem ser demais para um celular ou um computador antigo, e você verá uma mensagem se isso acontecer." },
-        { "q": "Minhas imagens são enviadas para algum servidor?", "a": "Não. O redimensionamento acontece no seu próprio dispositivo, dentro do navegador. Suas imagens nunca são enviadas aos nossos servidores." },
-        { "q": "Quais formatos são compatíveis?", "a": "Você pode abrir arquivos JPG, PNG, WebP, GIF e BMP, e também AVIF onde o seu navegador oferecer suporte. Você pode salvar em JPG, PNG ou WebP." },
-        { "q": "Redimensionar reduz a qualidade?", "a": "Diminuir uma imagem a mantém nítida, porque a ferramenta usa um filtro de alta qualidade. Aumentar não cria detalhes que não existem, então imagens ampliadas ficam mais suaves. Em JPG e WebP, você mesmo pode escolher a qualidade." },
-        { "q": "Como deixo uma imagem abaixo de um tamanho, como 50 KB?", "a": "Ative Limitar o tamanho do arquivo, digite o número e clique em Redimensionar imagens. A ferramenta reduz a qualidade e, se for preciso, as dimensões, até o arquivo caber no limite. Escolha JPG ou WebP para os melhores resultados, porque o PNG não pode ser reduzido assim." },
-        { "q": "Funciona no meu celular?", "a": "Sim. A página funciona nas versões atuais do Chrome, Safari, Firefox e Edge em celulares, tablets e computadores. Fotos muito grandes podem ter limitações em celulares mais antigos." }
+        {
+          "q": "É realmente grátis?",
+          "a": "Sim. Não há cadastro, período de teste nem limite diário. O site é mantido por alguns anúncios claramente identificados. Imagens muito grandes podem ser demais para um celular ou um computador antigo, e você verá uma mensagem se isso acontecer."
+        },
+        {
+          "q": "Minhas imagens são enviadas para algum servidor?",
+          "a": "Não. O redimensionamento acontece no seu próprio dispositivo, dentro do navegador. Suas imagens nunca são enviadas aos nossos servidores."
+        },
+        {
+          "q": "Quais formatos são compatíveis?",
+          "a": "Você pode abrir arquivos JPG, PNG, WebP, GIF e BMP, e também AVIF onde o seu navegador oferecer suporte. Você pode salvar em JPG, PNG ou WebP."
+        },
+        {
+          "q": "Redimensionar reduz a qualidade?",
+          "a": "Diminuir uma imagem a mantém nítida, porque a ferramenta usa um filtro de alta qualidade. Aumentar não cria detalhes que não existem, então imagens ampliadas ficam mais suaves. Em JPG e WebP, você mesmo pode escolher a qualidade."
+        },
+        {
+          "q": "Como deixo uma imagem abaixo de um tamanho, como 50 KB?",
+          "a": "Ative Limitar o tamanho do arquivo, digite o número e clique em Redimensionar imagens. A ferramenta reduz a qualidade e, se for preciso, as dimensões, até o arquivo caber no limite. Escolha JPG ou WebP para os melhores resultados, porque o PNG não pode ser reduzido assim."
+        },
+        {
+          "q": "Funciona no meu celular?",
+          "a": "Sim. A página funciona nas versões atuais do Chrome, Safari, Firefox e Edge em celulares, tablets e computadores. Fotos muito grandes podem ter limitações em celulares mais antigos."
+        }
       ]
     },
     "popular": {
@@ -66,14 +113,23 @@
     }
   },
   "kb": {
-    "title": "Reduzir Imagem para 20KB, 50KB, 100KB ou 200KB - Grátis",
-    "description": "Reduza uma foto para um tamanho exato em KB para formulários e envios. Grátis, sem cadastro, e sua imagem fica no seu dispositivo.",
+    "title": "Reduzir Imagem em KB Online - 10, 20, 50, 100, 200 KB",
+    "description": "Redimensione imagem em KB online grátis: reduza uma foto para 10, 20, 30, 50, 100, 200 ou 500 KB para formulários e envios. Sem cadastro e privado.",
     "h1": "Redimensionar imagem para KB (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Muitos formulários online, portais de concursos e sites de vagas rejeitam fotos acima de um limite de tamanho, como 50 KB ou 200 KB. Esta ferramenta reduz sua imagem para caber no limite que você escolher, mantendo o máximo de qualidade possível.",
     "steps": [
-      { "title": "Adicione sua foto", "text": "Arraste-a para a página ou escolha-a no seu dispositivo." },
-      { "title": "Defina o limite de tamanho", "text": "Escolha um limite na lista Predefinição ou ative Limitar o tamanho do arquivo e digite o seu próprio número." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens e baixe o resultado." }
+      {
+        "title": "Adicione sua foto",
+        "text": "Arraste-a para a página ou escolha-a no seu dispositivo."
+      },
+      {
+        "title": "Defina o limite de tamanho",
+        "text": "Escolha um limite na lista Predefinição ou ative Limitar o tamanho do arquivo e digite o seu próprio número."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o resultado."
+      }
     ],
     "tipsTitle": "Dicas para arquivos pequenos",
     "tips": [
@@ -84,9 +140,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Por que meu arquivo ainda está maior que o limite?", "a": "Fotos muito detalhadas precisam de mais dados. Se o limite não puder ser atingido nem com a qualidade mais baixa, a ferramenta também reduz as dimensões da imagem. Se mesmo assim não chegar à meta, ela informa o menor tamanho que conseguiu gerar." },
-        { "q": "Posso redimensionar várias fotos para o mesmo limite?", "a": "Sim. Adicione todas, defina o limite uma vez e baixe tudo junto em um arquivo ZIP." },
-        { "q": "Minha foto é enviada para um servidor?", "a": "Não. Tudo acontece no seu navegador, então sua foto nunca sai do seu dispositivo." }
+        {
+          "q": "Por que meu arquivo ainda está maior que o limite?",
+          "a": "Fotos muito detalhadas precisam de mais dados. Se o limite não puder ser atingido nem com a qualidade mais baixa, a ferramenta também reduz as dimensões da imagem. Se mesmo assim não chegar à meta, ela informa o menor tamanho que conseguiu gerar."
+        },
+        {
+          "q": "Posso redimensionar várias fotos para o mesmo limite?",
+          "a": "Sim. Adicione todas, defina o limite uma vez e baixe tudo junto em um arquivo ZIP."
+        },
+        {
+          "q": "Minha foto é enviada para um servidor?",
+          "a": "Não. Tudo acontece no seu navegador, então sua foto nunca sai do seu dispositivo."
+        }
       ]
     },
     "blurb": "Reduza uma foto para um tamanho exato de arquivo em KB.",
@@ -98,13 +163,22 @@
   },
   "cm": {
     "title": "Redimensionar Imagem em cm, mm ou Polegadas - Grátis",
-    "description": "Defina o tamanho exato de uma foto em centímetros, milímetros ou polegadas com o DPI certo. Grátis e privado.",
+    "description": "Redimensione imagem em cm online grátis: defina o tamanho exato de uma foto em centímetros, milímetros ou polegadas com o DPI certo. Sem cadastro e privado.",
     "h1": "Redimensionar imagem em cm, mm ou polegadas",
     "intro": "Impressões e formulários oficiais costumam pedir o tamanho em centímetros ou polegadas, em vez de pixels. Digite o tamanho e o DPI, e a ferramenta calcula os pixels para você.",
     "steps": [
-      { "title": "Adicione sua foto", "text": "Arraste-a para a página ou escolha-a no seu dispositivo." },
-      { "title": "Digite o tamanho", "text": "Escolha cm, mm ou in e digite a largura e a altura. Use 300 DPI para uma boa qualidade de impressão." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens e baixe o resultado." }
+      {
+        "title": "Adicione sua foto",
+        "text": "Arraste-a para a página ou escolha-a no seu dispositivo."
+      },
+      {
+        "title": "Digite o tamanho",
+        "text": "Escolha cm, mm ou in e digite a largura e a altura. Use 300 DPI para uma boa qualidade de impressão."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o resultado."
+      }
     ],
     "tipsTitle": "Bom saber sobre DPI",
     "tips": [
@@ -115,9 +189,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Quantos pixels tem uma polegada?", "a": "Depende do DPI. A 300 DPI, uma polegada tem 300 pixels. A 96 DPI, tem 96 pixels." },
-        { "q": "Vai imprimir exatamente nesse tamanho?", "a": "A ferramenta define o tamanho em pixels que corresponde ao seu tamanho no DPI escolhido. Imprima a imagem no tamanho real, ou com esse DPI, para obter o tamanho que você pediu." },
-        { "q": "Qual é o tamanho de uma foto de 4 x 6 polegadas?", "a": "A 300 DPI, 4 x 6 polegadas são 1.200 x 1.800 pixels." }
+        {
+          "q": "Quantos pixels tem uma polegada?",
+          "a": "Depende do DPI. A 300 DPI, uma polegada tem 300 pixels. A 96 DPI, tem 96 pixels."
+        },
+        {
+          "q": "Vai imprimir exatamente nesse tamanho?",
+          "a": "A ferramenta define o tamanho em pixels que corresponde ao seu tamanho no DPI escolhido. Imprima a imagem no tamanho real, ou com esse DPI, para obter o tamanho que você pediu."
+        },
+        {
+          "q": "Qual é o tamanho de uma foto de 4 x 6 polegadas?",
+          "a": "A 300 DPI, 4 x 6 polegadas são 1.200 x 1.800 pixels."
+        }
       ]
     },
     "blurb": "Defina uma imagem com tamanho exato em cm, mm ou polegadas.",
@@ -129,15 +212,24 @@
   },
   "passport": {
     "title": "Tamanho de Foto para Passaporte e Visto - Redimensionar",
-    "description": "Tamanhos comuns de foto para passaporte e visto em mm, polegadas e pixels, com uma ferramenta grátis para ajustar sua foto.",
+    "description": "Tamanho de foto de passaporte e visto por país em mm, polegadas e pixels, com uma ferramenta grátis para ajustar sua foto, incluindo 2x2 polegadas e 35x45 mm.",
     "h1": "Tamanho de foto para passaporte e visto",
     "intro": "Cada país pede um tamanho de foto diferente. Escolha o seu país na lista Predefinição para cortar e redimensionar sua foto nas dimensões exatas, a 300 DPI.",
     "note": "As regras mudam, e cada pedido pode ter exigências próprias, como cor do fundo, tamanho da cabeça ou não usar óculos. Sempre confira as instruções oficiais antes de enviar. Esta ferramenta só define o tamanho; ela não verifica o tamanho da cabeça nem o fundo.",
     "tableTitle": "Tamanhos de foto comuns",
     "steps": [
-      { "title": "Escolha o seu tamanho", "text": "Abra a lista Predefinição, vá até Foto para documentos e visto e escolha o seu país." },
-      { "title": "Adicione uma foto", "text": "Use uma foto em que o rosto esteja centralizado e bem visível, pois a ferramenta corta a partir do centro." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens. A imagem é cortada no formato exigido e salva como JPG." }
+      {
+        "title": "Escolha o seu tamanho",
+        "text": "Abra a lista Predefinição, vá até Foto para documentos e visto e escolha o seu país."
+      },
+      {
+        "title": "Adicione uma foto",
+        "text": "Use uma foto em que o rosto esteja centralizado e bem visível, pois a ferramenta corta a partir do centro."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. A imagem é cortada no formato exigido e salva como JPG."
+      }
     ],
     "tipsTitle": "Dicas para uma boa foto",
     "tips": [
@@ -148,9 +240,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Qual é o tamanho padrão de foto para passaporte?", "a": "Varia. Os Estados Unidos usam 2 x 2 polegadas (51 x 51 mm). O Reino Unido, a União Europeia e a Austrália usam 35 x 45 mm. O Canadá usa 50 x 70 mm." },
-        { "q": "Posso usar isto para uma foto de visto?", "a": "Sim, se a exigência do visto corresponder a um dos tamanhos. Muitos vistos usam o mesmo tamanho do passaporte, mas alguns países têm o seu próprio, então sempre confira as regras oficiais." },
-        { "q": "Quantos pixels tem uma foto de passaporte?", "a": "A 300 DPI, 35 x 45 mm são 413 x 531 pixels e 2 x 2 polegadas são 600 x 600 pixels." }
+        {
+          "q": "Qual é o tamanho padrão de foto para passaporte?",
+          "a": "Varia. Os Estados Unidos usam 2 x 2 polegadas (51 x 51 mm). O Reino Unido, a União Europeia e a Austrália usam 35 x 45 mm. O Canadá usa 50 x 70 mm."
+        },
+        {
+          "q": "Posso usar isto para uma foto de visto?",
+          "a": "Sim, se a exigência do visto corresponder a um dos tamanhos. Muitos vistos usam o mesmo tamanho do passaporte, mas alguns países têm o seu próprio, então sempre confira as regras oficiais."
+        },
+        {
+          "q": "Quantos pixels tem uma foto de passaporte?",
+          "a": "A 300 DPI, 35 x 45 mm são 413 x 531 pixels e 2 x 2 polegadas são 600 x 600 pixels."
+        }
       ]
     },
     "blurb": "Redimensione fotos para tamanhos comuns de passaporte e visto.",
@@ -162,15 +263,24 @@
   },
   "social": {
     "title": "Tamanhos de Imagem para Redes Sociais - Instagram, YouTube",
-    "description": "Tamanhos de imagem muito usados no Instagram, Facebook, YouTube, X, LinkedIn e Pinterest, e uma ferramenta grátis para ajustar sua imagem.",
+    "description": "Tamanhos de imagem para Instagram, Facebook, YouTube, X, LinkedIn e Pinterest, e uma ferramenta grátis para ajustar sua imagem sem cortar.",
     "h1": "Tamanhos de imagem para redes sociais",
     "intro": "As publicações ficam melhores quando a imagem já tem o formato certo. Escolha uma plataforma na lista Predefinição e a ferramenta corta e redimensiona sua imagem para combinar.",
     "note": "As plataformas atualizam suas recomendações de tempos em tempos. Estes são tamanhos muito usados que funcionam bem com os formatos atuais.",
     "tableTitle": "Tamanhos por plataforma",
     "steps": [
-      { "title": "Adicione sua imagem", "text": "Arraste-a para a página ou escolha-a no seu dispositivo." },
-      { "title": "Escolha o tamanho da plataforma", "text": "Abra a lista Predefinição, vá até Redes sociais e escolha a plataforma e o formato." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens. Cortar para preencher já vem selecionado, então nada é esticado." }
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a para a página ou escolha-a no seu dispositivo."
+      },
+      {
+        "title": "Escolha o tamanho da plataforma",
+        "text": "Abra a lista Predefinição, vá até Redes sociais e escolha a plataforma e o formato."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. Cortar para preencher já vem selecionado, então nada é esticado."
+      }
     ],
     "tipsTitle": "Dicas para posts nítidos",
     "tips": [
@@ -180,9 +290,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Qual é o melhor tamanho para um post no Instagram?", "a": "Use 1080 x 1080 pixels para um post quadrado e 1080 x 1350 pixels para um post vertical." },
-        { "q": "Qual deve ser o tamanho de uma miniatura do YouTube?", "a": "1280 x 720 pixels, com um arquivo de menos de 2 MB." },
-        { "q": "Minha imagem vai ser cortada?", "a": "Com Cortar para preencher, o centro da imagem é mantido e as bordas que não cabem são removidas. Escolha Ajustar dentro da caixa se preferir manter tudo." }
+        {
+          "q": "Qual é o melhor tamanho para um post no Instagram?",
+          "a": "Use 1080 x 1080 pixels para um post quadrado e 1080 x 1350 pixels para um post vertical."
+        },
+        {
+          "q": "Qual deve ser o tamanho de uma miniatura do YouTube?",
+          "a": "1280 x 720 pixels, com um arquivo de menos de 2 MB."
+        },
+        {
+          "q": "Como redimensionar uma imagem para o Instagram sem cortar?",
+          "a": "Escolha o tamanho do Instagram em Predefinição e depois escolha Ajustar dentro da caixa em vez de Cortar para preencher a caixa. A imagem inteira continua visível e nada é cortado. Com Cortar para preencher a caixa, o centro da imagem é mantido e as bordas que não cabem são cortadas."
+        }
       ]
     },
     "blurb": "Ajuste imagens para Instagram, YouTube, Facebook e mais.",
@@ -194,13 +313,22 @@
   },
   "convert": {
     "title": "Converter Imagens JPG, PNG e WebP - Conversor Online Grátis",
-    "description": "Converta imagens entre JPG, PNG e WebP no seu navegador. Grátis, sem cadastro e privado.",
+    "description": "Converta imagens entre JPG, PNG e WebP online e grátis. Sem cadastro, sem upload, e você escolhe a qualidade. Funciona em celulares e computadores.",
     "h1": "Converta imagens entre JPG, PNG e WebP",
     "intro": "Escolha o formato de que você precisa e a ferramenta converte todas as imagens que você adicionar. Nada é enviado.",
     "steps": [
-      { "title": "Adicione suas imagens", "text": "Adicione uma ou várias imagens." },
-      { "title": "Escolha o formato", "text": "Selecione JPG, PNG ou WebP em Formato. Deixe Manter tamanho selecionado se quiser mudar apenas o formato." },
-      { "title": "Converta e baixe", "text": "Clique em Redimensionar imagens e baixe os resultados." }
+      {
+        "title": "Adicione suas imagens",
+        "text": "Adicione uma ou várias imagens."
+      },
+      {
+        "title": "Escolha o formato",
+        "text": "Selecione JPG, PNG ou WebP em Formato. Deixe Manter tamanho selecionado se quiser mudar apenas o formato."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe os resultados."
+      }
     ],
     "tipsTitle": "Qual formato devo escolher?",
     "tips": [
@@ -211,8 +339,14 @@
     ],
     "faq": {
       "items": [
-        { "q": "Converter reduz a qualidade?", "a": "A saída em PNG não tem perdas. JPG e WebP têm perdas, mas em alta qualidade a diferença é difícil de notar. Você mesmo pode definir a qualidade." },
-        { "q": "Posso converter fotos HEIC do meu iPhone?", "a": "Ainda não, porque a maioria dos navegadores não abre arquivos HEIC. No iPhone, você pode definir Formatos da Câmera como Mais Compatível ou compartilhar a foto como JPG." }
+        {
+          "q": "Converter reduz a qualidade?",
+          "a": "A saída em PNG não tem perdas. JPG e WebP têm perdas, mas em alta qualidade a diferença é difícil de notar. Você mesmo pode definir a qualidade."
+        },
+        {
+          "q": "Posso converter fotos HEIC do meu iPhone?",
+          "a": "Ainda não, porque a maioria dos navegadores não abre arquivos HEIC. No iPhone, você pode definir Formatos da Câmera como Mais Compatível ou compartilhar a foto como JPG."
+        }
       ]
     },
     "blurb": "Troque imagens entre JPG, PNG e WebP.",
@@ -224,13 +358,22 @@
   },
   "compress": {
     "title": "Comprimir Imagem Online - Reduzir Tamanho da Foto Grátis",
-    "description": "Deixe as fotos menores sem perder qualidade visível. Grátis, sem cadastro, e suas imagens nunca saem do seu dispositivo.",
+    "description": "Comprimir imagem online grátis: deixe as fotos menores sem perder qualidade visível ou reduza a imagem até um limite em KB. Sem cadastro e sem upload.",
     "h1": "Comprima imagens online",
     "intro": "Imagens menores carregam mais rápido, cabem em e-mails e economizam espaço. A ferramenta recodifica suas imagens com compressores modernos e permite definir um nível de qualidade ou um tamanho máximo de arquivo.",
     "steps": [
-      { "title": "Adicione suas imagens", "text": "Arraste-as para a página ou escolha-as no seu dispositivo." },
-      { "title": "Escolha como comprimir", "text": "Mantenha Manter tamanho para comprimir sem mudar as dimensões e use o controle de Qualidade, ou ative Limitar o tamanho do arquivo." },
-      { "title": "Comprima e baixe", "text": "Clique em Redimensionar imagens e baixe os resultados." }
+      {
+        "title": "Adicione suas imagens",
+        "text": "Arraste-as para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Escolha como comprimir",
+        "text": "Mantenha Manter tamanho para comprimir sem mudar as dimensões e use o controle de Qualidade, ou ative Limitar o tamanho do arquivo."
+      },
+      {
+        "title": "Comprima e baixe",
+        "text": "Clique em Redimensionar imagens e baixe os resultados."
+      }
     ],
     "tipsTitle": "Dicas para arquivos menores",
     "tips": [
@@ -241,8 +384,14 @@
     ],
     "faq": {
       "items": [
-        { "q": "Quanto menor meu arquivo vai ficar?", "a": "Fotos direto do celular costumam diminuir de 60 a 90 por cento. Imagens que já estão comprimidas diminuem menos." },
-        { "q": "Posso comprimir várias imagens de uma vez?", "a": "Sim. Adicione todas e baixe um único arquivo ZIP." }
+        {
+          "q": "Quanto menor meu arquivo vai ficar?",
+          "a": "Fotos direto do celular costumam diminuir de 60 a 90 por cento. Imagens que já estão comprimidas diminuem menos."
+        },
+        {
+          "q": "Posso comprimir várias imagens de uma vez?",
+          "a": "Sim. Adicione todas e baixe um único arquivo ZIP."
+        }
       ]
     },
     "blurb": "Deixe as fotos menores sem perda visível.",
@@ -259,14 +408,23 @@
   },
   "kb20": {
     "title": "Reduzir Imagem para 20KB Online - Redimensionar Grátis",
-    "description": "Reduza uma foto ou assinatura para 20 KB ou menos no navegador. Grátis, sem cadastro, e sua imagem nunca sai do seu dispositivo.",
+    "description": "Reduza imagem para 20KB online grátis: diminua uma foto ou assinatura para 20 KB ou menos no navegador. Sem cadastro, e sua imagem nunca sai do seu dispositivo.",
     "h1": "Redimensionar imagem para 20 KB",
     "intro": "Um limite de 20 KB é comum para fotos pequenas de passaporte e assinaturas em formulários de provas, vagas de emprego e órgãos públicos. Adicione sua imagem e a ferramenta reduz a qualidade aos poucos, e só diminui a imagem se for preciso, até o arquivo ficar abaixo de 20 KB (20.000 bytes).",
     "blurb": "Deixe uma foto ou assinatura abaixo de 20 KB.",
     "steps": [
-      { "title": "Adicione sua imagem", "text": "Arraste-a até aqui ou escolha-a no celular ou no computador. JPG, PNG e WebP funcionam." },
-      { "title": "Confira o limite de 20 KB", "text": "O limite de 20 KB já vem selecionado. Se o seu formulário pedir outro tamanho, altere-o na lista Predefinição." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens, confira o resultado e baixe o JPG." }
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no celular ou no computador. JPG, PNG e WebP funcionam."
+      },
+      {
+        "title": "Confira o limite de 20 KB",
+        "text": "O limite de 20 KB já vem selecionado. Se o seu formulário pedir outro tamanho, altere-o na lista Predefinição."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens, confira o resultado e baixe o JPG."
+      }
     ],
     "tipsTitle": "Dicas para uma foto de 20 KB",
     "tips": [
@@ -282,23 +440,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Como reduzir uma foto para 20 KB?", "a": "Adicione a foto, mantenha o limite de 20 KB selecionado e clique em Redimensionar imagens. A ferramenta procura a maior qualidade de JPG que cabe em 20 KB e só diminui a imagem se isso não for suficiente." },
-        { "q": "20 KB é o mesmo que 20.000 bytes?", "a": "Aqui é. Alguns sistemas contam 1 KB como 1.024 bytes, então um arquivo com menos de 20.000 bytes fica abaixo do limite nos dois casos." },
-        { "q": "Posso usar isto para uma assinatura?", "a": "Sim. Assine com caneta escura em papel branco, fotografe com boa luz, corte rente à assinatura e redimensione para 20 KB. Também há uma página separada para redimensionar assinaturas." },
-        { "q": "Minha foto é enviada para algum servidor?", "a": "Não. Tudo acontece no seu navegador, então a imagem fica no seu dispositivo." }
+        {
+          "q": "Como reduzir uma foto para 20 KB?",
+          "a": "Adicione a foto, mantenha o limite de 20 KB selecionado e clique em Redimensionar imagens. A ferramenta procura a maior qualidade de JPG que cabe em 20 KB e só diminui a imagem se isso não for suficiente."
+        },
+        {
+          "q": "20 KB é o mesmo que 20.000 bytes?",
+          "a": "Aqui é. Alguns sistemas contam 1 KB como 1.024 bytes, então um arquivo com menos de 20.000 bytes fica abaixo do limite nos dois casos."
+        },
+        {
+          "q": "Posso usar isto para uma assinatura?",
+          "a": "Sim. Assine com caneta escura em papel branco, fotografe com boa luz, corte rente à assinatura e redimensione para 20 KB. Também há uma página separada para redimensionar assinaturas."
+        },
+        {
+          "q": "Minha foto é enviada para algum servidor?",
+          "a": "Não. Tudo acontece no seu navegador, então a imagem fica no seu dispositivo."
+        }
       ]
     }
   },
   "kb50": {
     "title": "Reduzir Imagem para 50KB Online - Redimensionar Grátis",
-    "description": "Comprima uma foto para 50 KB ou menos para formulários de provas, portais de vagas e envio de documentos. Grátis, privado e no navegador.",
+    "description": "Reduza imagem para 50KB online grátis: comprima uma foto para 50 KB ou menos para formulários de provas, portais de vagas e documentos. Sem cadastro, privado.",
     "h1": "Redimensionar imagem para 50 KB",
     "intro": "50 KB é um dos limites mais pedidos para fotos tipo passaporte em formulários de inscrição online. Esta página já define o limite para você: adicione sua foto e baixe um JPG com menos de 50 KB (50.000 bytes) que continua nítido.",
     "blurb": "Deixe uma foto abaixo de 50 KB para formulários e portais.",
     "steps": [
-      { "title": "Adicione sua foto", "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos de celular com vários MB não são problema." },
-      { "title": "Mantenha o limite de 50 KB", "text": "50 KB já vem selecionado. Se o formulário também indicar pixels, como 200 por 230, digite-os antes em Tamanho." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens e baixe o JPG. O resultado mostra o tamanho exato em KB." }
+      {
+        "title": "Adicione sua foto",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos de celular com vários MB não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 50 KB",
+        "text": "50 KB já vem selecionado. Se o formulário também indicar pixels, como 200 por 230, digite-os antes em Tamanho."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o JPG. O resultado mostra o tamanho exato em KB."
+      }
     ],
     "tipsTitle": "Dicas para ficar abaixo de 50 KB",
     "tips": [
@@ -314,23 +493,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Como comprimir uma foto para 50 KB sem perder qualidade?", "a": "Não dá para manter todos os detalhes, mas dá para manter a qualidade visível. A ferramenta primeiro reduz a qualidade do JPG aos poucos e só depois diminui o tamanho da imagem, então você obtém o resultado mais nítido que cabe no limite." },
-        { "q": "Qual formato devo usar para uma foto de 50 KB?", "a": "JPG. Ele gera os menores arquivos para fotos e é aceito por quase todos os portais." },
-        { "q": "A foto terá exatamente 50 KB?", "a": "Terá 50 KB ou menos. A ferramenta mira um pouco abaixo do limite para que o arquivo passe em qualquer sistema." },
-        { "q": "Vocês guardam minha foto?", "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada." }
+        {
+          "q": "Como comprimir uma foto para 50 KB sem perder qualidade?",
+          "a": "Não dá para manter todos os detalhes, mas dá para manter a qualidade visível. A ferramenta primeiro reduz a qualidade do JPG aos poucos e só depois diminui o tamanho da imagem, então você obtém o resultado mais nítido que cabe no limite."
+        },
+        {
+          "q": "Qual formato devo usar para uma foto de 50 KB?",
+          "a": "JPG. Ele gera os menores arquivos para fotos e é aceito por quase todos os portais."
+        },
+        {
+          "q": "A foto terá exatamente 50 KB?",
+          "a": "Terá 50 KB ou menos. A ferramenta mira um pouco abaixo do limite para que o arquivo passe em qualquer sistema."
+        },
+        {
+          "q": "Vocês guardam minha foto?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
       ]
     }
   },
   "kb100": {
     "title": "Reduzir Imagem para 100KB Online - Redimensionar Grátis",
-    "description": "Reduza uma imagem para 100 KB ou menos para vagas de emprego, verificação de identidade (KYC) e envio de documentos. Grátis e privado.",
+    "description": "Reduza imagem para 100KB online grátis: diminua uma imagem para 100 KB ou menos para vagas de emprego, KYC e documentos. Sem cadastro e totalmente privado.",
     "h1": "Redimensionar imagem para 100 KB",
     "intro": "100 KB é um limite comum para fotos de candidatura, documentos digitalizados e fotos de perfil. Adicione sua imagem e obtenha um JPG com menos de 100 KB (100.000 bytes) na maior qualidade que couber.",
     "blurb": "Deixe uma imagem abaixo de 100 KB para candidaturas e KYC.",
     "steps": [
-      { "title": "Adicione sua imagem", "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Funciona com fotos e com digitalizações." },
-      { "title": "Mantenha o limite de 100 KB", "text": "100 KB já vem selecionado. Se o formulário pedir pixels ou centímetros exatos, defina-os primeiro." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens e baixe o resultado. Você pode alterar o limite e executar de novo." }
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Funciona com fotos e com digitalizações."
+      },
+      {
+        "title": "Mantenha o limite de 100 KB",
+        "text": "100 KB já vem selecionado. Se o formulário pedir pixels ou centímetros exatos, defina-os primeiro."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o resultado. Você pode alterar o limite e executar de novo."
+      }
     ],
     "tipsTitle": "Dicas para uma imagem de 100 KB",
     "tips": [
@@ -346,23 +546,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Como comprimir uma imagem para 100 KB?", "a": "Adicione a imagem, mantenha o limite de 100 KB e clique em Redimensionar imagens. A ferramenta encontra a melhor qualidade de JPG que cabe no limite." },
-        { "q": "Posso comprimir um PDF para 100 KB aqui?", "a": "Não. Esta ferramenta trabalha com imagens (JPG, PNG, WebP, GIF e BMP). Salve ou fotografe a página como imagem primeiro." },
-        { "q": "A qualidade é boa com 100 KB?", "a": "Para fotos de rosto e para documentos, em geral sim. Imagens muito detalhadas, como grandes paisagens, podem ficar mais suaves." },
-        { "q": "É grátis e privado?", "a": "Sim. Não há cadastro nem marca d'água, e seus arquivos nunca saem do seu dispositivo." }
+        {
+          "q": "Como comprimir uma imagem para 100 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 100 KB e clique em Redimensionar imagens. A ferramenta encontra a melhor qualidade de JPG que cabe no limite."
+        },
+        {
+          "q": "Posso comprimir um PDF para 100 KB aqui?",
+          "a": "Não. Esta ferramenta trabalha com imagens (JPG, PNG, WebP, GIF e BMP). Salve ou fotografe a página como imagem primeiro."
+        },
+        {
+          "q": "A qualidade é boa com 100 KB?",
+          "a": "Para fotos de rosto e para documentos, em geral sim. Imagens muito detalhadas, como grandes paisagens, podem ficar mais suaves."
+        },
+        {
+          "q": "É grátis e privado?",
+          "a": "Sim. Não há cadastro nem marca d'água, e seus arquivos nunca saem do seu dispositivo."
+        }
       ]
     }
   },
   "kb200": {
     "title": "Reduzir Imagem para 200KB Online - Redimensionar Grátis",
-    "description": "Comprima uma imagem para 200 KB ou menos para visto, KYC e envios a órgãos públicos. Grátis, privado e roda no seu navegador.",
+    "description": "Reduza imagem para 200KB online grátis: comprima uma imagem para 200 KB ou menos para visto, KYC e órgãos públicos. Sem cadastro, e roda no seu navegador.",
     "h1": "Redimensionar imagem para 200 KB",
     "intro": "200 KB é um limite máximo típico para fotos de visto, documentos de KYC e envios a órgãos públicos. Adicione sua imagem e baixe um JPG com menos de 200 KB (200.000 bytes) que mantém o máximo de detalhes possível.",
     "blurb": "Deixe uma imagem abaixo de 200 KB para visto e órgãos públicos.",
     "steps": [
-      { "title": "Adicione sua imagem", "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos grandes de celular não são problema." },
-      { "title": "Mantenha o limite de 200 KB", "text": "200 KB já vem selecionado. Precisa de outro limite? Escolha outro na lista Predefinição." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens e baixe o JPG. O resultado mostra o tamanho exato." }
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos grandes de celular não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 200 KB",
+        "text": "200 KB já vem selecionado. Precisa de outro limite? Escolha outro na lista Predefinição."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o JPG. O resultado mostra o tamanho exato."
+      }
     ],
     "tipsTitle": "Dicas para uma imagem de 200 KB",
     "tips": [
@@ -378,23 +599,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Como reduzir uma imagem para 200 KB?", "a": "Adicione a imagem, mantenha o limite de 200 KB e clique em Redimensionar imagens. A ferramenta escolhe a melhor qualidade de JPG que cabe no limite." },
-        { "q": "Qual é a diferença entre 200 KB e 2 MB?", "a": "2 MB é cerca de dez vezes maior. 200 KB são apenas 0,2 MB. Confira se a unidade no seu formulário é KB e não MB." },
-        { "q": "Posso usar PNG para um limite de 200 KB?", "a": "Arquivos PNG não têm perdas, então a ferramenta só consegue atingir um limite diminuindo a imagem. O JPG mantém mais detalhes com o mesmo tamanho de arquivo." },
-        { "q": "Meus documentos estão seguros?", "a": "Sim. Eles são processados no seu navegador e nunca são enviados, o que é importante para documentos de identidade." }
+        {
+          "q": "Como reduzir uma imagem para 200 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 200 KB e clique em Redimensionar imagens. A ferramenta escolhe a melhor qualidade de JPG que cabe no limite."
+        },
+        {
+          "q": "Qual é a diferença entre 200 KB e 2 MB?",
+          "a": "2 MB é cerca de dez vezes maior. 200 KB são apenas 0,2 MB. Confira se a unidade no seu formulário é KB e não MB."
+        },
+        {
+          "q": "Posso usar PNG para um limite de 200 KB?",
+          "a": "Arquivos PNG não têm perdas, então a ferramenta só consegue atingir um limite diminuindo a imagem. O JPG mantém mais detalhes com o mesmo tamanho de arquivo."
+        },
+        {
+          "q": "Meus documentos estão seguros?",
+          "a": "Sim. Eles são processados no seu navegador e nunca são enviados, o que é importante para documentos de identidade."
+        }
       ]
     }
   },
   "signature": {
     "title": "Redimensionar Assinatura Online - Foto para 10-20KB",
-    "description": "Redimensione a imagem de uma assinatura para o tamanho que o formulário online pede, como 10 KB ou 20 KB e um tamanho em pixels. Grátis e privado.",
+    "description": "Redimensionar assinatura online grátis: reduza uma assinatura para 10 KB ou 20 KB e um tamanho em pixels para formulários. Sem cadastro, e fica no dispositivo.",
     "h1": "Redimensionar imagem de assinatura",
     "intro": "Formulários online costumam pedir uma imagem pequena e nítida da sua assinatura: poucos KB e, muitas vezes, largura e altura fixas. Adicione uma foto ou digitalização da sua assinatura e obtenha um arquivo que atende ao tamanho em KB e ao tamanho em pixels.",
     "blurb": "Redimensione uma assinatura para o tamanho que o formulário pede.",
     "steps": [
-      { "title": "Adicione sua assinatura", "text": "Fotografe ou digitalize sua assinatura em papel branco liso e depois adicione a imagem aqui." },
-      { "title": "Defina o tamanho e o limite", "text": "Digite a largura e a altura em pixels indicadas no formulário e depois escolha 10 KB ou 20 KB na lista Predefinição." },
-      { "title": "Redimensione e baixe", "text": "Clique em Redimensionar imagens. Confira o resultado: a assinatura deve aparecer escura e as bordas limpas." }
+      {
+        "title": "Adicione sua assinatura",
+        "text": "Fotografe ou digitalize sua assinatura em papel branco liso e depois adicione a imagem aqui."
+      },
+      {
+        "title": "Defina o tamanho e o limite",
+        "text": "Digite a largura e a altura em pixels indicadas no formulário e depois escolha 10 KB ou 20 KB na lista Predefinição."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. Confira o resultado: a assinatura deve aparecer escura e as bordas limpas."
+      }
     ],
     "tipsTitle": "Dicas para uma assinatura nítida",
     "tips": [
@@ -410,23 +652,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Qual deve ser o tamanho de uma assinatura em um formulário online?", "a": "Depende do formulário. Muitos pedem cerca de 10 a 20 KB e uma largura e altura pequenas em pixels. Siga sempre os números exatos do aviso oficial." },
-        { "q": "Como deixo minha assinatura com 10 KB?", "a": "Adicione a assinatura, escolha o limite de 10 KB na lista Predefinição e clique em Redimensionar imagens." },
-        { "q": "Posso remover o fundo de papel?", "a": "Esta ferramenta redimensiona e comprime; ela não remove fundos. Use papel branco liso para que o resultado fique limpo." },
-        { "q": "É seguro usar minha assinatura aqui?", "a": "Nada é enviado. A assinatura é processada dentro do seu navegador e fica no seu dispositivo." }
+        {
+          "q": "Qual deve ser o tamanho de uma assinatura em um formulário online?",
+          "a": "Depende do formulário. Muitos pedem cerca de 10 a 20 KB e uma largura e altura pequenas em pixels. Siga sempre os números exatos do aviso oficial."
+        },
+        {
+          "q": "Como deixo minha assinatura com 10 KB?",
+          "a": "Adicione a assinatura, escolha o limite de 10 KB na lista Predefinição e clique em Redimensionar imagens."
+        },
+        {
+          "q": "Posso remover o fundo de papel?",
+          "a": "Esta ferramenta redimensiona e comprime; ela não remove fundos. Use papel branco liso para que o resultado fique limpo."
+        },
+        {
+          "q": "É seguro usar minha assinatura aqui?",
+          "a": "Nada é enviado. A assinatura é processada dentro do seu navegador e fica no seu dispositivo."
+        }
       ]
     }
   },
   "pngToJpg": {
     "title": "Converter PNG para JPG - Online, Grátis e sem Upload",
-    "description": "Converta imagens PNG para JPG no seu navegador. Grátis, sem cadastro, sem upload, e você escolhe a qualidade do resultado.",
+    "description": "Converter PNG para JPG online grátis: transforme imagens PNG em arquivos JPG menores no navegador. Sem cadastro, sem upload, e você escolhe a qualidade.",
     "h1": "Converter PNG para JPG",
     "intro": "Transforme imagens PNG em arquivos JPG menores em um só passo. O JPG é aceito em quase todo lugar e é bem menor para fotos. Adicione seus arquivos PNG, clique no botão e baixe os arquivos JPG, ou um ZIP com todos eles.",
     "blurb": "Transforme arquivos PNG em arquivos JPG menores.",
     "steps": [
-      { "title": "Adicione seus arquivos PNG", "text": "Arraste uma ou várias imagens PNG para a página ou escolha-as no seu dispositivo." },
-      { "title": "Confira o formato", "text": "JPG já vem selecionado como formato de saída. Reduza a qualidade para obter um arquivo menor." },
-      { "title": "Converta e baixe", "text": "Clique em Redimensionar imagens e baixe cada JPG, ou todos em um ZIP." }
+      {
+        "title": "Adicione seus arquivos PNG",
+        "text": "Arraste uma ou várias imagens PNG para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "JPG já vem selecionado como formato de saída. Reduza a qualidade para obter um arquivo menor."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada JPG, ou todos em um ZIP."
+      }
     ],
     "tipsTitle": "Dicas para converter PNG em JPG",
     "tips": [
@@ -442,23 +705,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Como converter PNG para JPG?", "a": "Adicione seu PNG, confirme que JPG é o formato de saída e clique em Redimensionar imagens. Baixe o JPG quando estiver pronto." },
-        { "q": "Converter PNG para JPG reduz a qualidade?", "a": "Um pouco. O JPG tem perdas. Com qualidade 85 ou mais, a diferença raramente é visível em fotos." },
-        { "q": "O que acontece com as áreas transparentes?", "a": "Elas são preenchidas com branco, porque o JPG não pode ser transparente." },
-        { "q": "Posso converter vários arquivos PNG de uma vez?", "a": "Sim. Adicione quantos quiser, até 500 por vez, e baixe um a um ou em um ZIP." }
+        {
+          "q": "Como converter PNG para JPG?",
+          "a": "Adicione seu PNG, confirme que JPG é o formato de saída e clique em Redimensionar imagens. Baixe o JPG quando estiver pronto."
+        },
+        {
+          "q": "Converter PNG para JPG reduz a qualidade?",
+          "a": "Um pouco. O JPG tem perdas. Com qualidade 85 ou mais, a diferença raramente é visível em fotos."
+        },
+        {
+          "q": "O que acontece com as áreas transparentes?",
+          "a": "Elas são preenchidas com branco, porque o JPG não pode ser transparente."
+        },
+        {
+          "q": "Posso converter vários arquivos PNG de uma vez?",
+          "a": "Sim. Adicione quantos quiser, até 500 por vez, e baixe um a um ou em um ZIP."
+        }
       ]
     }
   },
   "jpgToPng": {
     "title": "Converter JPG para PNG - Online, Grátis e sem Upload",
-    "description": "Converta imagens JPG para PNG direto no navegador. Grátis, sem cadastro, sem upload e sem marca d'água, em um só passo.",
+    "description": "Converter JPG para PNG online grátis no navegador. Sem cadastro, sem upload e sem marca d'água, e funciona em celulares e computadores.",
     "h1": "Converter JPG para PNG",
     "intro": "Precisa de um PNG para um logotipo, um programa de design ou um formulário que não aceita JPG? Adicione seus arquivos JPG e baixe arquivos PNG sem perdas em um só passo. Tudo roda no seu navegador.",
     "blurb": "Transforme arquivos JPG em arquivos PNG sem perdas.",
     "steps": [
-      { "title": "Adicione seus arquivos JPG", "text": "Arraste uma ou várias imagens JPG para a página ou escolha-as no seu dispositivo." },
-      { "title": "Confira o formato", "text": "PNG já vem selecionado como formato de saída." },
-      { "title": "Converta e baixe", "text": "Clique em Redimensionar imagens e baixe cada PNG, ou todos em um ZIP." }
+      {
+        "title": "Adicione seus arquivos JPG",
+        "text": "Arraste uma ou várias imagens JPG para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "PNG já vem selecionado como formato de saída."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada PNG, ou todos em um ZIP."
+      }
     ],
     "tipsTitle": "Dicas para converter JPG em PNG",
     "tips": [
@@ -474,23 +758,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Como converter JPG para PNG?", "a": "Adicione seu JPG, confirme que PNG é o formato de saída e clique em Redimensionar imagens. Baixe o PNG quando estiver pronto." },
-        { "q": "O PNG será maior que o JPG?", "a": "Em geral sim, muitas vezes várias vezes maior em fotos, porque o PNG preserva todos os detalhes." },
-        { "q": "Converter JPG para PNG melhora a qualidade?", "a": "Não. Isso impede novas perdas de qualidade, mas não recupera detalhes que a compressão do JPG já removeu." },
-        { "q": "Meus arquivos são enviados?", "a": "Não. A conversão roda no seu navegador e suas imagens nunca saem do seu dispositivo." }
+        {
+          "q": "Como converter JPG para PNG?",
+          "a": "Adicione seu JPG, confirme que PNG é o formato de saída e clique em Redimensionar imagens. Baixe o PNG quando estiver pronto."
+        },
+        {
+          "q": "O PNG será maior que o JPG?",
+          "a": "Em geral sim, muitas vezes várias vezes maior em fotos, porque o PNG preserva todos os detalhes."
+        },
+        {
+          "q": "Converter JPG para PNG melhora a qualidade?",
+          "a": "Não. Isso impede novas perdas de qualidade, mas não recupera detalhes que a compressão do JPG já removeu."
+        },
+        {
+          "q": "Meus arquivos são enviados?",
+          "a": "Não. A conversão roda no seu navegador e suas imagens nunca saem do seu dispositivo."
+        }
       ]
     }
   },
   "webpToJpg": {
     "title": "Converter WebP para JPG - Online, Grátis e sem Upload",
-    "description": "Converta imagens WebP para JPG no seu navegador. Grátis, sem cadastro, sem upload, e funciona em celulares e computadores.",
+    "description": "Converter WebP para JPG online grátis: transforme imagens WebP em JPG que abrem em qualquer lugar. Sem cadastro, sem upload, e funciona no celular e no PC.",
     "h1": "Converter WebP para JPG",
     "intro": "Os sites costumam salvar imagens em WebP, mas muitos programas, impressoras e formulários de envio só aceitam JPG. Adicione suas imagens WebP e baixe arquivos JPG que abrem em qualquer lugar.",
     "blurb": "Transforme imagens WebP em JPG que abrem em qualquer lugar.",
     "steps": [
-      { "title": "Adicione seus arquivos WebP", "text": "Arraste uma ou várias imagens WebP para a página ou escolha-as no celular ou no computador." },
-      { "title": "Confira o formato", "text": "JPG já vem selecionado como formato de saída. Escolha uma qualidade se quiser um arquivo menor." },
-      { "title": "Converta e baixe", "text": "Clique em Redimensionar imagens e baixe cada JPG, ou todos em um ZIP." }
+      {
+        "title": "Adicione seus arquivos WebP",
+        "text": "Arraste uma ou várias imagens WebP para a página ou escolha-as no celular ou no computador."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "JPG já vem selecionado como formato de saída. Escolha uma qualidade se quiser um arquivo menor."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada JPG, ou todos em um ZIP."
+      }
     ],
     "tipsTitle": "Dicas para converter WebP em JPG",
     "tips": [
@@ -506,10 +811,22 @@
     ],
     "faq": {
       "items": [
-        { "q": "Posso converter WebP para JPG no celular?", "a": "Sim. Funciona no navegador de qualquer celular moderno, sem instalar aplicativo." },
-        { "q": "Por que os sites salvam imagens em WebP?", "a": "Arquivos WebP são menores que arquivos JPG com qualidade parecida, o que faz as páginas carregarem mais rápido." },
-        { "q": "A qualidade é a mesma depois de converter?", "a": "Quase. Os dois formatos têm perdas, então uma qualidade alta de JPG mantém a imagem com a mesma aparência." },
-        { "q": "É grátis?", "a": "Sim. Não há cadastro, marca d'água nem limite de imagens." }
+        {
+          "q": "Posso converter WebP para JPG no celular?",
+          "a": "Sim. Funciona no navegador de qualquer celular moderno, sem instalar aplicativo."
+        },
+        {
+          "q": "Por que os sites salvam imagens em WebP?",
+          "a": "Arquivos WebP são menores que arquivos JPG com qualidade parecida, o que faz as páginas carregarem mais rápido."
+        },
+        {
+          "q": "A qualidade é a mesma depois de converter?",
+          "a": "Quase. Os dois formatos têm perdas, então uma qualidade alta de JPG mantém a imagem com a mesma aparência."
+        },
+        {
+          "q": "É grátis?",
+          "a": "Sim. Não há cadastro, marca d'água nem limite de imagens."
+        }
       ]
     }
   },
@@ -519,5 +836,429 @@
     "h1": "Perguntas frequentes",
     "intro": "Respostas rápidas sobre o redimensionador de imagens grátis, organizadas por tarefa. Tudo acontece no seu navegador, então suas fotos nunca são enviadas.",
     "jump": "Ir para"
+  },
+  "kb10": {
+    "title": "Reduzir Imagem para 10KB Online - Redimensionar Grátis",
+    "description": "Reduza imagem para 10KB online grátis: diminua uma foto ou assinatura para 10 KB ou menos no navegador. Sem cadastro, sem upload, e sua imagem fica privada.",
+    "h1": "Redimensionar imagem para 10 KB",
+    "intro": "10 KB é um limite muito pequeno, comum para assinaturas, miniaturas e campos de foto pequena em formulários de inscrição. Esta página já define o limite de 10 KB para você: adicione sua imagem e baixe um JPG com menos de 10 KB (10.000 bytes).",
+    "blurb": "Deixe uma assinatura ou foto pequena abaixo de 10 KB.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Uma assinatura digitalizada e uma foto de celular funcionam."
+      },
+      {
+        "title": "Mantenha o limite de 10 KB",
+        "text": "10 KB já vem selecionado. Se o formulário também indicar pixels, como 140 por 60, digite-os antes em Tamanho: uma imagem pequena é muito mais fácil de encaixar."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o JPG. O resultado mostra o tamanho exato em KB."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 10 KB",
+    "tips": [
+      "Reduza primeiro o tamanho em pixels. Uma imagem de cerca de 200 por 100 pixels cabe em 10 KB com muito mais facilidade do que uma foto inteira de celular.",
+      "Fundos lisos comprimem melhor. Para uma assinatura, use tinta escura em papel branco e corte as margens vazias.",
+      "JPG é o formato certo aqui. Uma foto salva como PNG é bem maior e dificilmente cabe em 10 KB.",
+      "Se o portal ainda disser que o arquivo é grande demais, diminua um pouco o limite, por exemplo para 9 KB, e execute de novo."
+    ],
+    "detailsTitle": "Como é uma imagem de 10 KB",
+    "details": [
+      "Um JPG de 10 KB é minúsculo, mais ou menos o tamanho de um documento de texto curto. Com cerca de 200 por 100 pixels, uma assinatura continua legível, e uma foto pequena no estilo passaporte, de cerca de 100 por 120 pixels, mantém o rosto reconhecível. Imagens grandes não chegam a 10 KB sem ficar borradas.",
+      "A ferramenta tenta a maior qualidade que cabe no limite. Ela reduz a qualidade do JPG aos poucos e só diminui o tamanho da imagem quando é preciso, então você obtém o arquivo mais nítido que passa. Você vê o tamanho do resultado antes de baixar."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como redimensionar uma imagem para 10 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 10 KB que já vem selecionado e clique em Redimensionar imagens. A ferramenta reduz a qualidade e, se for preciso, o tamanho da imagem até o JPG ficar com 10 KB ou menos."
+        },
+        {
+          "q": "Posso reduzir uma assinatura para 10 KB?",
+          "a": "Sim. Corte a assinatura rente à tinta, adicione-a aqui e mantenha o limite de 10 KB. Uma assinatura pequena e de alto contraste comprime muito bem."
+        },
+        {
+          "q": "A imagem terá exatamente 10 KB?",
+          "a": "Terá 10 KB ou menos. A ferramenta mira um pouco abaixo do limite para que o arquivo passe em qualquer sistema."
+        },
+        {
+          "q": "Minha imagem é enviada para algum lugar?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "kb30": {
+    "title": "Reduzir Imagem para 30KB Online - Redimensionar Grátis",
+    "description": "Reduza imagem para 30KB online grátis: comprima uma foto ou assinatura para 30 KB ou menos para formulários e provas. Sem cadastro, e fica no seu dispositivo.",
+    "h1": "Redimensionar imagem para 30 KB",
+    "intro": "Um limite de 30 KB é comum em formulários de provas, vagas de emprego e órgãos públicos, nos quais a foto e a assinatura são enviadas em campos separados. Esta página já define o limite para você: adicione sua imagem e baixe um JPG com menos de 30 KB (30.000 bytes).",
+    "blurb": "Deixe uma foto abaixo de 30 KB para formulários de inscrição.",
+    "steps": [
+      {
+        "title": "Adicione sua foto",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos grandes de celular não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 30 KB",
+        "text": "30 KB já vem selecionado. Se o formulário indicar um tamanho em pixels, como 200 por 230, digite-o antes em Tamanho."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o JPG. O resultado mostra o tamanho exato em KB."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 30 KB",
+    "tips": [
+      "Defina primeiro o tamanho em pixels do formulário e depois use o limite de 30 KB. Uma imagem pequena é fácil de encaixar.",
+      "Fotos com fundo liso chegam a 30 KB com qualidade muito maior do que fotos com fundo cheio de detalhes.",
+      "Use a mesma ferramenta para o campo da assinatura: corte rente à tinta e mantenha o limite que o formulário pede.",
+      "Se o portal ainda disser que o arquivo é grande demais, execute de novo com um limite de 28 KB."
+    ],
+    "detailsTitle": "Por que 30 KB funciona bem para fotos de inscrição",
+    "details": [
+      "Com 30 KB, uma foto no estilo passaporte de cerca de 200 por 230 pixels mantém o rosto nítido e as bordas limpas. O arquivo é pequeno o bastante para conexões lentas e formulários de envio rígidos, e ainda fica nítido na tela.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho do resultado antes de você baixar. Você pode alterar o limite e executar de novo sem adicionar a foto duas vezes."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como comprimir uma foto para 30 KB?",
+          "a": "Adicione a foto, mantenha o limite de 30 KB e clique em Redimensionar imagens. A ferramenta reduz a qualidade do JPG aos poucos e só diminui o tamanho da imagem se for preciso, então você obtém o resultado mais nítido que cabe no limite."
+        },
+        {
+          "q": "Posso deixar minha foto com 30 KB para um formulário de prova?",
+          "a": "Sim. Confira o tamanho em pixels e o tamanho do arquivo que o formulário pede, digite os pixels em Tamanho e mantenha o limite de 30 KB. Cada formulário tem suas próprias regras, então leia-as sempre antes."
+        },
+        {
+          "q": "Qual formato devo usar para uma foto de 30 KB?",
+          "a": "JPG. Ele gera os menores arquivos para fotos e é aceito por quase todos os portais."
+        },
+        {
+          "q": "Vocês guardam minha foto?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "kb500": {
+    "title": "Reduzir Imagem para 500KB Online - Compressor Grátis",
+    "description": "Reduza imagem para 500KB online grátis: comprima uma foto para 500 KB ou menos para e-mail, vagas de emprego e envios, mantendo a nitidez. Sem cadastro.",
+    "h1": "Redimensionar imagem para 500 KB",
+    "intro": "500 KB é um limite comum para anexos de e-mail, candidaturas de emprego e formulários de envio que ainda querem uma imagem bonita. Esta página já define o limite para você: adicione sua imagem e baixe um arquivo com menos de 500 KB (500.000 bytes) que continua nítido.",
+    "blurb": "Deixe uma imagem abaixo de 500 KB e mantenha a nitidez.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos de celular com vários MB não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 500 KB",
+        "text": "500 KB já vem selecionado. Você também pode digitar uma largura ou altura em Tamanho, por exemplo 1600 pixels, antes de o limite ser aplicado."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato em KB."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 500 KB",
+    "tips": [
+      "A maioria das fotos de celular tem vários MB. A ferramenta as reduz para 500 KB e as mantém nítidas o bastante para ver na tela.",
+      "Se a imagem for só para a tela, uma largura de 1600 a 2000 pixels é mais que suficiente e cabe em 500 KB com facilidade.",
+      "Salve fotos como JPG ou WebP. O PNG é melhor para logotipos e capturas de tela, mas fotos salvas como PNG costumam ficar muito acima de 500 KB.",
+      "Não amplie uma imagem pequena. Isso deixa o arquivo maior sem acrescentar detalhes."
+    ],
+    "detailsTitle": "Qual a qualidade de uma imagem de 500 KB?",
+    "details": [
+      "Um limite de 500 KB é cerca de dez vezes o tamanho de uma foto de formulário de 50 KB, então há espaço para detalhes de verdade. Uma foto de cerca de 1600 por 1200 pixels costuma caber em 500 KB como JPG e fica nítida em um notebook ou celular.",
+      "A ferramenta reduz a qualidade aos poucos e só diminui o número de pixels se não for possível chegar ao limite de outra forma. Você vê o tamanho do resultado antes de baixar."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 500 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 500 KB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "Uma foto de 500 KB ainda fica boa?",
+          "a": "Sim, para ver na tela. A maioria das fotos mantém detalhes nítidos com 500 KB. Impressões grandes exigem arquivos maiores."
+        },
+        {
+          "q": "Posso redimensionar várias imagens para 500 KB de uma vez?",
+          "a": "Sim. Adicione quantas imagens quiser. Cada uma é redimensionada para 500 KB ou menos, e você pode baixar todas em um único arquivo ZIP."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "mb1": {
+    "title": "Reduzir Imagem para 1MB Online - Compressor Grátis",
+    "description": "Reduza imagem para 1MB online grátis: diminua uma foto para 1 MB ou menos para e-mail, formulários e envios, sem perda visível. Sem cadastro, e fica privada.",
+    "h1": "Redimensionar imagem para 1 MB",
+    "intro": "Um limite de 1 MB é comum em serviços de e-mail, formulários de inscrição e sites que aceitam envio de fotos. Esta página já define o limite para você: adicione sua imagem e baixe um arquivo com menos de 1 MB (1.000.000 bytes) que continua nítido.",
+    "blurb": "Deixe uma imagem abaixo de 1 MB para e-mail e envios.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos de celular com vários MB não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 1 MB",
+        "text": "1 MB já vem selecionado. A ferramenta conta 1 MB como 1.000.000 bytes, então o arquivo passa nos sistemas que contam 1.000 KB e nos que contam 1.024 KB."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 1 MB",
+    "tips": [
+      "Fotos de celular costumam ter de 3 a 8 MB. Diminuir um pouco o tamanho em pixels, por exemplo para 2000 pixels de largura, deixa-as abaixo de 1 MB quase sem perda visível.",
+      "As fotos cabem melhor em 1 MB como JPG ou WebP. Uma foto salva como PNG costuma ser várias vezes maior.",
+      "Para enviar muitas fotos por e-mail, adicione todas de uma vez e baixe o arquivo ZIP.",
+      "Capturas de tela e logotipos ficam melhores em PNG: já são pequenos e mantêm as bordas nítidas."
+    ],
+    "detailsTitle": "O que 1 MB significa para uma foto",
+    "details": [
+      "Um megabyte tem 1.000 quilobytes. Um JPG de 1 MB pode conter uma foto de cerca de 2000 por 1500 pixels com bons detalhes, mais do que a maioria das telas mostra. Por isso 1 MB é um limite popular: pequeno o bastante para enviar, grande o bastante para ficar bonito.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho exato do resultado antes de você baixar. Se um formulário pedir um arquivo menor, escolha um limite mais baixo e execute de novo."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 1 MB?",
+          "a": "Adicione a imagem, mantenha o limite de 1 MB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "1 MB é o mesmo que 1.024 KB?",
+          "a": "Em alguns sistemas um megabyte conta como 1.024 quilobytes, em outros como 1.000. A ferramenta usa o valor menor (1.000 KB, ou 1.000.000 bytes), então o arquivo passa nos dois."
+        },
+        {
+          "q": "A imagem fica menor em pixels?",
+          "a": "Só se for preciso. A ferramenta reduz primeiro a qualidade e só diminui o tamanho em pixels quando não é possível chegar ao limite de outra forma."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "pixels": {
+    "title": "Redimensionar Imagem em Pixels Online - Largura e Altura",
+    "description": "Redimensione imagem em pixels online grátis: digite a largura e a altura exatas, mantenha a proporção, ajuste ou corte. Sem cadastro, e fica no seu dispositivo.",
+    "h1": "Redimensionar imagem em pixels",
+    "intro": "Defina a largura e a altura exatas de uma imagem em pixels, para um site, um formulário de inscrição, uma miniatura ou uma publicação em rede social. Adicione sua imagem, digite o tamanho e baixe o resultado. A proporção vem travada por padrão, então nada fica esticado.",
+    "blurb": "Defina a largura e a altura exatas em pixels.",
+    "steps": [
+      {
+        "title": "Adicione suas imagens",
+        "text": "Arraste imagens para a página, escolha-as no seu dispositivo ou cole-as. Você pode adicionar várias de uma vez."
+      },
+      {
+        "title": "Digite a largura e a altura",
+        "text": "Digite uma largura, uma altura ou as duas. Mantenha Travar proporção ativado para evitar uma imagem esticada. Se informar as duas, escolha se a imagem será ajustada, cortada ou esticada."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. Baixe cada imagem separadamente ou receba tudo em um único arquivo ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para redimensionar em pixels",
+    "tips": [
+      "Diminua a imagem sempre que puder. Ampliar não acrescenta detalhes, então imagens ampliadas ficam borradas.",
+      "Digite só a largura para manter as proporções. A altura é ajustada automaticamente.",
+      "Para preencher um tamanho exato, como 1080 por 1080 pixels, sem faixas vazias, escolha Cortar para preencher a caixa. Para manter a imagem inteira, escolha Ajustar dentro da caixa.",
+      "Muitos formulários também indicam um tamanho de arquivo. Ative Limitar o tamanho do arquivo para atender aos dois limites de uma vez."
+    ],
+    "detailsTitle": "Como pixels e tamanho do arquivo se relacionam",
+    "details": [
+      "Um pixel é o menor ponto de uma imagem. Mais pixels significam mais detalhes e um arquivo maior, e é por isso que uma foto de celular com 4000 pixels é muito maior do que uma com 1000. Para uma tela, uma largura de 1200 a 2000 pixels costuma ser mais que suficiente.",
+      "A ferramenta usa um filtro de redimensionamento de alta qualidade, então reduzir uma imagem a mantém nítida. Ela funciona no seu dispositivo, com uma imagem ou com centenas de uma vez."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como redimensionar uma imagem para um tamanho específico em pixels?",
+          "a": "Adicione a imagem, digite a largura e a altura em Tamanho e clique em Redimensionar imagens. Confirme que a unidade está definida como px."
+        },
+        {
+          "q": "Como manter as proporções ao redimensionar?",
+          "a": "Mantenha Travar proporção ativado e digite só a largura ou só a altura. O outro lado é ajustado automaticamente."
+        },
+        {
+          "q": "Posso redimensionar várias imagens para o mesmo tamanho em pixels?",
+          "a": "Sim. Adicione todas, digite o tamanho uma vez e baixe os resultados um a um ou em um arquivo ZIP."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "bulk": {
+    "title": "Redimensionar Imagens em Lote - Várias Fotos Grátis",
+    "description": "Redimensione imagens em lote: altere centenas de fotos de uma vez para um só tamanho ou limite de arquivo e baixe um ZIP. Grátis, sem cadastro e privado.",
+    "h1": "Redimensionar imagens em lote",
+    "intro": "Redimensione muitas imagens de uma só vez. Adicione uma pasta inteira de fotos, escolha um tamanho ou um limite de tamanho de arquivo para todas e baixe os resultados em um único arquivo ZIP. Tudo acontece no seu dispositivo, então não há upload nem espera.",
+    "blurb": "Redimensione várias fotos em lote e baixe um ZIP.",
+    "steps": [
+      {
+        "title": "Adicione todas as suas imagens",
+        "text": "Arraste várias fotos para a página, escolha-as no seu dispositivo ou cole-as. Você pode adicionar até 500 por vez."
+      },
+      {
+        "title": "Escolha um tamanho para todas",
+        "text": "Escolha uma predefinição, digite uma largura e uma altura, uma porcentagem ou um tamanho máximo de arquivo. A mesma configuração é aplicada a cada imagem."
+      },
+      {
+        "title": "Redimensione e baixe um ZIP",
+        "text": "Clique em Redimensionar imagens. Baixe as imagens uma a uma ou todas juntas em um arquivo ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para redimensionar muitas imagens",
+    "tips": [
+      "Use uma porcentagem, como 50 por cento, quando suas imagens tiverem tamanhos diferentes e você quiser manter as proporções.",
+      "Ative Limitar o tamanho do arquivo quando todas as imagens precisarem ficar abaixo do mesmo limite, por exemplo 200 KB.",
+      "Lotes muito grandes usam a memória do seu dispositivo. Se ele ficar lento, divida as imagens em grupos de 100 a 200.",
+      "Confira os primeiros resultados antes de baixar tudo e use Alterar configurações se quiser ajustar e executar de novo."
+    ],
+    "detailsTitle": "Por que redimensionar em lote no seu próprio dispositivo?",
+    "details": [
+      "Redimensionadores em lote online costumam exigir que você envie cada imagem a um servidor, espere o processamento e baixe os arquivos de novo. Aqui o trabalho é feito pelo seu navegador, então lotes grandes de fotos ficam privados e começam na hora.",
+      "Não há limite de quantas vezes você pode usar, nem marca d'água, nem conta. Imagens de tamanhos diferentes no mesmo lote não são problema, porque a mesma configuração é aplicada a cada uma separadamente."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Quantas imagens posso redimensionar de uma vez?",
+          "a": "Você pode adicionar até 500 imagens por vez. Para mais, execute vários lotes."
+        },
+        {
+          "q": "Posso redimensionar todas as imagens para o mesmo tamanho?",
+          "a": "Sim. Escolha um tamanho, uma porcentagem ou um limite de tamanho de arquivo uma vez e ele é aplicado a todas as imagens do lote."
+        },
+        {
+          "q": "Posso baixar tudo de uma vez?",
+          "a": "Sim. Use Baixar tudo (ZIP) para obter um único arquivo ZIP com todas as imagens redimensionadas."
+        },
+        {
+          "q": "Minhas fotos são enviadas para um servidor?",
+          "a": "Não. Cada imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "jpgToWebp": {
+    "title": "Converter JPG para WebP - Online, Grátis e sem Upload",
+    "description": "Converta JPG para WebP online no navegador para ter arquivos menores e páginas mais rápidas. Grátis, sem cadastro, sem upload, e você escolhe a qualidade.",
+    "h1": "Converter JPG para WebP",
+    "intro": "Os arquivos WebP costumam ser menores que os JPG com qualidade parecida, o que faz os sites carregarem mais rápido. Adicione suas imagens JPG e baixe arquivos WebP em segundos. Nada é enviado: a conversão acontece no seu dispositivo.",
+    "blurb": "Transforme imagens JPG em arquivos WebP menores.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos JPG",
+        "text": "Arraste uma ou várias imagens JPG para a página ou escolha-as no celular ou no computador."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "WebP já vem selecionado como formato de saída. Escolha uma qualidade se quiser um arquivo menor ou mais nítido."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada WebP, ou todos em um ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para converter JPG em WebP",
+    "tips": [
+      "Uma qualidade de 75 a 85 costuma gerar um arquivo claramente menor que o JPG, sem diferença visível.",
+      "Guarde os arquivos JPG originais. Alguns programas mais antigos e formulários de envio não aceitam WebP.",
+      "Converter um JPG que já foi muito comprimido não recupera a qualidade perdida.",
+      "Adicione várias imagens de uma vez e baixe todas juntas em um arquivo ZIP."
+    ],
+    "detailsTitle": "Por que converter JPG para WebP?",
+    "details": [
+      "O WebP é um formato de imagem moderno que todos os navegadores atuais conseguem exibir. Em fotos, ele costuma gerar arquivos de um quarto a um terço menores que o JPG com qualidade parecida, o que economiza banda e acelera as páginas.",
+      "Antes de trocar as imagens de um site, confira se os lugares em que você as usa aceitam WebP. Programas de e-mail, algumas impressoras e muitos formulários de envio ainda pedem JPG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "O WebP é melhor que o JPG?",
+          "a": "Para sites, em geral sim: os arquivos WebP são menores com qualidade parecida. Para compartilhar e enviar, o JPG ainda é aceito em mais lugares."
+        },
+        {
+          "q": "A qualidade é a mesma depois de converter?",
+          "a": "Quase. Os dois formatos têm perdas, então uma qualidade alta de WebP mantém a imagem com a mesma aparência enquanto o arquivo fica menor."
+        },
+        {
+          "q": "Posso converter JPG para WebP no celular?",
+          "a": "Sim. Funciona no navegador de qualquer celular moderno, sem instalar aplicativo."
+        },
+        {
+          "q": "É grátis?",
+          "a": "Sim. Não há cadastro, marca d'água nem limite de imagens."
+        }
+      ]
+    }
+  },
+  "pngToWebp": {
+    "title": "Converter PNG para WebP - Online, Grátis e sem Upload",
+    "description": "Converta PNG para WebP online no navegador: arquivos bem menores e com transparência mantida. Grátis, sem cadastro, sem upload, e você escolhe a qualidade.",
+    "h1": "Converter PNG para WebP",
+    "intro": "Arquivos PNG podem ser muito grandes, principalmente fotos e capturas de tela. O WebP também mantém a transparência e costuma ser bem menor. Adicione suas imagens PNG e baixe arquivos WebP em segundos. Nada é enviado: a conversão acontece no seu dispositivo.",
+    "blurb": "Transforme imagens PNG em arquivos WebP bem menores.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos PNG",
+        "text": "Arraste uma ou várias imagens PNG para a página ou escolha-as no celular ou no computador."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "WebP já vem selecionado como formato de saída. Escolha uma qualidade se quiser um arquivo menor ou mais nítido."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada WebP, ou todos em um ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para converter PNG em WebP",
+    "tips": [
+      "As áreas transparentes continuam transparentes no WebP, então logotipos e imagens recortadas mantêm o formato.",
+      "Uma qualidade de 80 a 90 fica quase igual ao PNG em fotos, com um arquivo bem menor.",
+      "Guarde o PNG original se precisar de uma cópia sem perdas. O WebP com qualidade mais baixa elimina alguns detalhes finos.",
+      "Adicione várias imagens de uma vez e baixe todas juntas em um arquivo ZIP."
+    ],
+    "detailsTitle": "Por que converter PNG para WebP?",
+    "details": [
+      "O PNG preserva cada pixel exatamente, e é por isso que uma foto salva como PNG pode ser de cinco a dez vezes maior que a mesma foto em um formato com perdas. O WebP gera um arquivo bem menor e ainda aceita áreas transparentes.",
+      "Antes de trocar as imagens de um site, confira se os lugares em que você as usa aceitam WebP. Programas de e-mail, algumas impressoras e muitos formulários de envio ainda pedem JPG ou PNG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "O WebP mantém o fundo transparente do meu PNG?",
+          "a": "Sim. As áreas transparentes do PNG continuam transparentes no arquivo WebP."
+        },
+        {
+          "q": "Quanto menor é um WebP em relação a um PNG?",
+          "a": "Em fotos, costuma ser várias vezes menor. Em logotipos simples e capturas de tela, a diferença é menor."
+        },
+        {
+          "q": "Posso converter PNG para WebP no celular?",
+          "a": "Sim. Funciona no navegador de qualquer celular moderno, sem instalar aplicativo."
+        },
+        {
+          "q": "É grátis?",
+          "a": "Sim. Não há cadastro, marca d'água nem limite de imagens."
+        }
+      ]
+    }
   }
 }

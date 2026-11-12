@@ -16,7 +16,15 @@
     "jpgToPng": "JPG in PNG umwandeln",
     "webpToJpg": "WebP in JPG umwandeln",
     "faq": "FAQ",
-    "homePage": "Startseite"
+    "homePage": "Startseite",
+    "kb10": "Auf 10 KB verkleinern",
+    "kb30": "Auf 30 KB verkleinern",
+    "kb500": "Auf 500 KB verkleinern",
+    "mb1": "Auf 1 MB verkleinern",
+    "pixels": "Größe in Pixeln ändern",
+    "bulk": "Mehrere Bilder verkleinern",
+    "jpgToWebp": "JPG in WebP umwandeln",
+    "pngToWebp": "PNG in WebP umwandeln"
   },
   "common": {
     "howTo": "So funktioniert es",
@@ -37,28 +45,67 @@
     "how": {
       "title": "So ändern Sie die Bildgröße online",
       "steps": [
-        { "title": "Bilder hinzufügen", "text": "Ziehen Sie Fotos auf die Seite, wählen Sie sie von Ihrem Gerät aus oder fügen Sie sie ein. Sie können beliebig viele auf einmal hinzufügen." },
-        { "title": "Größe wählen", "text": "Wählen Sie eine Vorlage wie Instagram oder Passfoto, oder geben Sie Ihre eigene Breite und Höhe in Pixeln, Zentimetern, Millimetern oder Zoll ein. Sie können auch eine maximale Dateigröße festlegen, zum Beispiel 50 KB." },
-        { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“. Laden Sie jedes Bild einzeln herunter oder alles zusammen als ZIP-Datei." }
+        {
+          "title": "Bilder hinzufügen",
+          "text": "Ziehen Sie Fotos auf die Seite, wählen Sie sie von Ihrem Gerät aus oder fügen Sie sie ein. Sie können beliebig viele auf einmal hinzufügen."
+        },
+        {
+          "title": "Größe wählen",
+          "text": "Wählen Sie eine Vorlage wie Instagram oder Passfoto, oder geben Sie Ihre eigene Breite und Höhe in Pixeln, Zentimetern, Millimetern oder Zoll ein. Sie können auch eine maximale Dateigröße festlegen, zum Beispiel 50 KB."
+        },
+        {
+          "title": "Verkleinern und herunterladen",
+          "text": "Klicken Sie auf „Größe ändern“. Laden Sie jedes Bild einzeln herunter oder alles zusammen als ZIP-Datei."
+        }
       ]
     },
     "why": {
       "title": "Warum Menschen FreeResizeImageOnline nutzen",
       "items": [
-        { "title": "Privat von Grund auf", "text": "Ihre Bilder werden in Ihrem Browser verarbeitet. Sie werden nie auf einen Server hochgeladen, daher kann sie niemand sonst sehen." },
-        { "title": "Kostenlos und unbegrenzt", "text": "Kein Konto, kein Wasserzeichen, kein Tageslimit und keine Wartezeit. Ändern Sie ein Bild oder Hunderte." },
-        { "title": "Scharfe Ergebnisse", "text": "Ein hochwertiger Skalierungsfilter und moderne Kompressoren halten kleine Bilder klar und Dateien klein." },
-        { "title": "Genaue Dateigrößen", "text": "Sie brauchen ein Foto unter 50 KB für ein Formular? Legen Sie das Limit fest, und das Tool findet die beste Qualität, die passt." }
+        {
+          "title": "Privat von Grund auf",
+          "text": "Ihre Bilder werden in Ihrem Browser verarbeitet. Sie werden nie auf einen Server hochgeladen, daher kann sie niemand sonst sehen."
+        },
+        {
+          "title": "Kostenlos und unbegrenzt",
+          "text": "Kein Konto, kein Wasserzeichen, kein Tageslimit und keine Wartezeit. Ändern Sie ein Bild oder Hunderte."
+        },
+        {
+          "title": "Scharfe Ergebnisse",
+          "text": "Ein hochwertiger Skalierungsfilter und moderne Kompressoren halten kleine Bilder klar und Dateien klein."
+        },
+        {
+          "title": "Genaue Dateigrößen",
+          "text": "Sie brauchen ein Foto unter 50 KB für ein Formular? Legen Sie das Limit fest, und das Tool findet die beste Qualität, die passt."
+        }
       ]
     },
     "faq": {
       "items": [
-        { "q": "Ist es wirklich kostenlos?", "a": "Ja. Es gibt keine Anmeldung, keine Testphase und kein Tageslimit. Die Seite wird durch einige klar gekennzeichnete Werbeanzeigen finanziert. Sehr große Bilder können für ein Smartphone oder einen alten Computer zu viel sein. Dann sehen Sie eine Meldung." },
-        { "q": "Werden meine Bilder hochgeladen?", "a": "Nein. Die Größenänderung findet auf Ihrem eigenen Gerät in Ihrem Browser statt. Ihre Bilder werden nie an unsere Server gesendet." },
-        { "q": "Welche Formate werden unterstützt?", "a": "Sie können JPG-, PNG-, WebP-, GIF- und BMP-Dateien öffnen, und AVIF, sofern Ihr Browser es unterstützt. Gespeichert werden kann als JPG, PNG oder WebP." },
-        { "q": "Verringert die Größenänderung die Qualität?", "a": "Ein verkleinertes Bild bleibt scharf, weil das Tool einen hochwertigen Filter verwendet. Beim Vergrößern können keine Details entstehen, die nicht vorhanden sind, daher wirken vergrößerte Bilder weicher. Bei JPG und WebP können Sie die Qualität selbst wählen." },
-        { "q": "Wie bekomme ich ein Bild unter eine Größe wie 50 KB?", "a": "Aktivieren Sie „Dateigröße begrenzen“, geben Sie die Zahl ein und klicken Sie auf „Größe ändern“. Das Tool senkt die Qualität und bei Bedarf die Abmessungen, bis die Datei passt. Wählen Sie JPG oder WebP für die besten Ergebnisse, denn PNG lässt sich so nicht verkleinern." },
-        { "q": "Funktioniert es auf meinem Smartphone?", "a": "Ja. Die Seite funktioniert in aktuellen Versionen von Chrome, Safari, Firefox und Edge auf Smartphones, Tablets und Computern. Sehr große Fotos können auf älteren Smartphones an Grenzen stoßen." }
+        {
+          "q": "Ist es wirklich kostenlos?",
+          "a": "Ja. Es gibt keine Anmeldung, keine Testphase und kein Tageslimit. Die Seite wird durch einige klar gekennzeichnete Werbeanzeigen finanziert. Sehr große Bilder können für ein Smartphone oder einen alten Computer zu viel sein. Dann sehen Sie eine Meldung."
+        },
+        {
+          "q": "Werden meine Bilder hochgeladen?",
+          "a": "Nein. Die Größenänderung findet auf Ihrem eigenen Gerät in Ihrem Browser statt. Ihre Bilder werden nie an unsere Server gesendet."
+        },
+        {
+          "q": "Welche Formate werden unterstützt?",
+          "a": "Sie können JPG-, PNG-, WebP-, GIF- und BMP-Dateien öffnen, und AVIF, sofern Ihr Browser es unterstützt. Gespeichert werden kann als JPG, PNG oder WebP."
+        },
+        {
+          "q": "Verringert die Größenänderung die Qualität?",
+          "a": "Ein verkleinertes Bild bleibt scharf, weil das Tool einen hochwertigen Filter verwendet. Beim Vergrößern können keine Details entstehen, die nicht vorhanden sind, daher wirken vergrößerte Bilder weicher. Bei JPG und WebP können Sie die Qualität selbst wählen."
+        },
+        {
+          "q": "Wie bekomme ich ein Bild unter eine Größe wie 50 KB?",
+          "a": "Aktivieren Sie „Dateigröße begrenzen“, geben Sie die Zahl ein und klicken Sie auf „Größe ändern“. Das Tool senkt die Qualität und bei Bedarf die Abmessungen, bis die Datei passt. Wählen Sie JPG oder WebP für die besten Ergebnisse, denn PNG lässt sich so nicht verkleinern."
+        },
+        {
+          "q": "Funktioniert es auf meinem Smartphone?",
+          "a": "Ja. Die Seite funktioniert in aktuellen Versionen von Chrome, Safari, Firefox und Edge auf Smartphones, Tablets und Computern. Sehr große Fotos können auf älteren Smartphones an Grenzen stoßen."
+        }
       ]
     },
     "popular": {
@@ -66,14 +113,23 @@
     }
   },
   "kb": {
-    "title": "Bild auf 20 KB, 50 KB, 100 KB oder 200 KB verkleinern",
-    "description": "Foto auf eine genaue Dateigröße in KB verkleinern, für Formulare und Uploads. Kostenlos, ohne Anmeldung, Ihr Bild bleibt auf Ihrem Gerät.",
+    "title": "Bild auf KB verkleinern online - 10, 20, 50, 100, 200 KB",
+    "description": "Bild in KB online kostenlos verkleinern: Foto auf 10, 20, 30, 50, 100, 200 oder 500 KB bringen, für Formulare und Uploads. Ohne Anmeldung, privat.",
     "h1": "Bild auf KB verkleinern (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Viele Online-Formulare, Prüfungsportale und Jobbörsen lehnen Fotos über einer Größengrenze wie 50 KB oder 200 KB ab. Dieses Tool verkleinert Ihr Bild auf die gewählte Grenze und behält dabei so viel Qualität wie möglich.",
     "steps": [
-      { "title": "Foto hinzufügen", "text": "Ziehen Sie es auf die Seite oder wählen Sie es von Ihrem Gerät aus." },
-      { "title": "Größenlimit festlegen", "text": "Wählen Sie ein Limit aus der Vorlagenliste, oder aktivieren Sie „Dateigröße begrenzen“ und geben Sie Ihre eigene Zahl ein." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie das Ergebnis herunter." }
+      {
+        "title": "Foto hinzufügen",
+        "text": "Ziehen Sie es auf die Seite oder wählen Sie es von Ihrem Gerät aus."
+      },
+      {
+        "title": "Größenlimit festlegen",
+        "text": "Wählen Sie ein Limit aus der Vorlagenliste, oder aktivieren Sie „Dateigröße begrenzen“ und geben Sie Ihre eigene Zahl ein."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie das Ergebnis herunter."
+      }
     ],
     "tipsTitle": "Tipps für kleine Dateien",
     "tips": [
@@ -84,9 +140,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Warum ist meine Datei immer noch größer als das Limit?", "a": "Sehr detailreiche Fotos brauchen mehr Daten. Wenn das Limit selbst bei der niedrigsten Qualität nicht erreicht wird, verkleinert das Tool zusätzlich das Bild. Wird das Ziel trotzdem nicht erreicht, teilt es Ihnen die kleinstmögliche Größe mit." },
-        { "q": "Kann ich viele Fotos auf dasselbe Limit verkleinern?", "a": "Ja. Fügen Sie alle hinzu, legen Sie das Limit einmal fest und laden Sie sie zusammen als ZIP-Datei herunter." },
-        { "q": "Wird mein Foto auf einen Server hochgeladen?", "a": "Nein. Alles geschieht in Ihrem Browser, daher verlässt Ihr Foto nie Ihr Gerät." }
+        {
+          "q": "Warum ist meine Datei immer noch größer als das Limit?",
+          "a": "Sehr detailreiche Fotos brauchen mehr Daten. Wenn das Limit selbst bei der niedrigsten Qualität nicht erreicht wird, verkleinert das Tool zusätzlich das Bild. Wird das Ziel trotzdem nicht erreicht, teilt es Ihnen die kleinstmögliche Größe mit."
+        },
+        {
+          "q": "Kann ich viele Fotos auf dasselbe Limit verkleinern?",
+          "a": "Ja. Fügen Sie alle hinzu, legen Sie das Limit einmal fest und laden Sie sie zusammen als ZIP-Datei herunter."
+        },
+        {
+          "q": "Wird mein Foto auf einen Server hochgeladen?",
+          "a": "Nein. Alles geschieht in Ihrem Browser, daher verlässt Ihr Foto nie Ihr Gerät."
+        }
       ]
     },
     "blurb": "Foto auf eine genaue Dateigröße in KB verkleinern.",
@@ -98,13 +163,22 @@
   },
   "cm": {
     "title": "Bildgröße in cm, mm oder Zoll ändern - kostenlos online",
-    "description": "Legen Sie die genaue Größe eines Fotos in Zentimetern, Millimetern oder Zoll mit dem passenden DPI-Wert fest. Kostenlos und privat.",
+    "description": "Bildgröße in cm online kostenlos ändern: genaue Größe eines Fotos in Zentimetern, Millimetern oder Zoll mit dem richtigen DPI-Wert. Ohne Anmeldung, privat.",
     "h1": "Bildgröße in cm, mm oder Zoll ändern",
     "intro": "Für Druck und amtliche Formulare wird die Größe oft in Zentimetern oder Zoll statt in Pixeln verlangt. Geben Sie die Größe und die DPI ein, und das Tool berechnet die Pixel für Sie.",
     "steps": [
-      { "title": "Foto hinzufügen", "text": "Ziehen Sie es auf die Seite oder wählen Sie es von Ihrem Gerät aus." },
-      { "title": "Größe eingeben", "text": "Wählen Sie cm, mm oder in und geben Sie dann Breite und Höhe ein. Verwenden Sie 300 DPI für gute Druckqualität." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie das Ergebnis herunter." }
+      {
+        "title": "Foto hinzufügen",
+        "text": "Ziehen Sie es auf die Seite oder wählen Sie es von Ihrem Gerät aus."
+      },
+      {
+        "title": "Größe eingeben",
+        "text": "Wählen Sie cm, mm oder in und geben Sie dann Breite und Höhe ein. Verwenden Sie 300 DPI für gute Druckqualität."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie das Ergebnis herunter."
+      }
     ],
     "tipsTitle": "Gut zu wissen über DPI",
     "tips": [
@@ -115,9 +189,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie viele Pixel hat ein Zoll?", "a": "Das hängt von den DPI ab. Bei 300 DPI sind es 300 Pixel pro Zoll. Bei 96 DPI sind es 96 Pixel." },
-        { "q": "Wird es genau in dieser Größe gedruckt?", "a": "Das Tool legt die Pixelgröße fest, die Ihrer Größe bei den gewählten DPI entspricht. Drucken Sie das Bild in tatsächlicher Größe oder mit diesen DPI, um die gewünschte Größe zu erhalten." },
-        { "q": "Wie groß ist ein Foto im Format 4 x 6 Zoll?", "a": "Bei 300 DPI sind 4 x 6 Zoll 1.200 x 1.800 Pixel." }
+        {
+          "q": "Wie viele Pixel hat ein Zoll?",
+          "a": "Das hängt von den DPI ab. Bei 300 DPI sind es 300 Pixel pro Zoll. Bei 96 DPI sind es 96 Pixel."
+        },
+        {
+          "q": "Wird es genau in dieser Größe gedruckt?",
+          "a": "Das Tool legt die Pixelgröße fest, die Ihrer Größe bei den gewählten DPI entspricht. Drucken Sie das Bild in tatsächlicher Größe oder mit diesen DPI, um die gewünschte Größe zu erhalten."
+        },
+        {
+          "q": "Wie groß ist ein Foto im Format 4 x 6 Zoll?",
+          "a": "Bei 300 DPI sind 4 x 6 Zoll 1.200 x 1.800 Pixel."
+        }
       ]
     },
     "blurb": "Bild auf eine exakte Größe in cm, mm oder Zoll bringen.",
@@ -129,15 +212,24 @@
   },
   "passport": {
     "title": "Passfoto- und Visumfoto-Größe nach Land - kostenlos ändern",
-    "description": "Gängige Größen für Passfotos und Visumfotos in mm, Zoll und Pixeln, mit einem kostenlosen Tool, um Ihr Foto passend zu skalieren.",
+    "description": "Größen für Passfotos und Visumfotos nach Land in mm, Zoll und Pixeln, plus ein kostenloses Tool, um Ihr Foto anzupassen, auch für 2 x 2 Zoll und 35 x 45 mm.",
     "h1": "Passfoto- und Visumfoto-Größe",
     "intro": "Verschiedene Länder verlangen unterschiedliche Fotogrößen. Wählen Sie Ihr Land in der Vorlagenliste, um Ihr Foto bei 300 DPI auf die genauen Abmessungen zuzuschneiden und zu skalieren.",
     "note": "Die Regeln ändern sich, und jeder Antrag kann eigene Anforderungen stellen, etwa zu Hintergrundfarbe, Kopfgröße oder keine Brille. Prüfen Sie vor dem Einreichen immer die offiziellen Vorgaben. Dieses Tool legt nur die Größe fest; Kopfgröße und Hintergrund prüft es nicht.",
     "tableTitle": "Gängige Fotogrößen",
     "steps": [
-      { "title": "Größe wählen", "text": "Öffnen Sie die Vorlagenliste, gehen Sie zu „Passfoto und Visum“ und wählen Sie Ihr Land." },
-      { "title": "Foto hinzufügen", "text": "Verwenden Sie ein Bild, auf dem Ihr Gesicht mittig und gut sichtbar ist, denn das Tool schneidet von der Mitte aus zu." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“. Das Bild wird auf das geforderte Format zugeschnitten und als JPG gespeichert." }
+      {
+        "title": "Größe wählen",
+        "text": "Öffnen Sie die Vorlagenliste, gehen Sie zu „Passfoto und Visum“ und wählen Sie Ihr Land."
+      },
+      {
+        "title": "Foto hinzufügen",
+        "text": "Verwenden Sie ein Bild, auf dem Ihr Gesicht mittig und gut sichtbar ist, denn das Tool schneidet von der Mitte aus zu."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“. Das Bild wird auf das geforderte Format zugeschnitten und als JPG gespeichert."
+      }
     ],
     "tipsTitle": "Tipps für ein gutes Foto",
     "tips": [
@@ -148,9 +240,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Welche Größe hat ein Standard-Passfoto?", "a": "Das ist unterschiedlich. Die USA verwenden 2 x 2 Zoll (51 x 51 mm). Das Vereinigte Königreich, die Europäische Union und Australien verwenden 35 x 45 mm. Kanada verwendet 50 x 70 mm." },
-        { "q": "Kann ich das für ein Visumfoto verwenden?", "a": "Ja, wenn die Visumvorgabe einer dieser Größen entspricht. Viele Visa verwenden dieselbe Größe wie der Reisepass, manche Länder haben aber eigene Vorgaben. Prüfen Sie deshalb immer die offiziellen Regeln." },
-        { "q": "Wie viele Pixel hat ein Passfoto?", "a": "Bei 300 DPI sind 35 x 45 mm 413 x 531 Pixel und 2 x 2 Zoll 600 x 600 Pixel." }
+        {
+          "q": "Welche Größe hat ein Standard-Passfoto?",
+          "a": "Das ist unterschiedlich. Die USA verwenden 2 x 2 Zoll (51 x 51 mm). Das Vereinigte Königreich, die Europäische Union und Australien verwenden 35 x 45 mm. Kanada verwendet 50 x 70 mm."
+        },
+        {
+          "q": "Kann ich das für ein Visumfoto verwenden?",
+          "a": "Ja, wenn die Visumvorgabe einer dieser Größen entspricht. Viele Visa verwenden dieselbe Größe wie der Reisepass, manche Länder haben aber eigene Vorgaben. Prüfen Sie deshalb immer die offiziellen Regeln."
+        },
+        {
+          "q": "Wie viele Pixel hat ein Passfoto?",
+          "a": "Bei 300 DPI sind 35 x 45 mm 413 x 531 Pixel und 2 x 2 Zoll 600 x 600 Pixel."
+        }
       ]
     },
     "blurb": "Fotos auf gängige Passfoto- und Visumgrößen bringen.",
@@ -162,15 +263,24 @@
   },
   "social": {
     "title": "Bildgrößen für soziale Medien - Instagram, YouTube, Facebook",
-    "description": "Gängige Bildgrößen für Instagram, Facebook, YouTube, X, LinkedIn und Pinterest, plus ein kostenloses Tool, um Ihr Bild passend zu skalieren.",
+    "description": "Bildgrößen für Instagram, Facebook, YouTube, X, LinkedIn und Pinterest, plus ein kostenloses Tool, um Ihr Bild ohne Zuschneiden einzupassen.",
     "h1": "Bildgrößen für soziale Medien",
     "intro": "Beiträge wirken am besten, wenn das Bild schon die richtige Form hat. Wählen Sie eine Plattform in der Vorlagenliste, und das Tool schneidet Ihr Bild passend zu und ändert die Größe.",
     "note": "Die Plattformen aktualisieren ihre Empfehlungen von Zeit zu Zeit. Dies sind weit verbreitete Größen, die mit den aktuellen Formaten gut funktionieren.",
     "tableTitle": "Größen nach Plattform",
     "steps": [
-      { "title": "Bild hinzufügen", "text": "Ziehen Sie es auf die Seite oder wählen Sie es von Ihrem Gerät aus." },
-      { "title": "Plattformgröße wählen", "text": "Öffnen Sie die Vorlagenliste, gehen Sie zu „Soziale Medien“ und wählen Sie Plattform und Format." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“. „Rahmen füllen und zuschneiden“ ist ausgewählt, daher wird nichts verzerrt." }
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es auf die Seite oder wählen Sie es von Ihrem Gerät aus."
+      },
+      {
+        "title": "Plattformgröße wählen",
+        "text": "Öffnen Sie die Vorlagenliste, gehen Sie zu „Soziale Medien“ und wählen Sie Plattform und Format."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“. „Rahmen füllen und zuschneiden“ ist ausgewählt, daher wird nichts verzerrt."
+      }
     ],
     "tipsTitle": "Tipps für scharfe Beiträge",
     "tips": [
@@ -180,9 +290,18 @@
     ],
     "faq": {
       "items": [
-        { "q": "Welche Größe ist für einen Instagram-Beitrag am besten?", "a": "Verwenden Sie 1080 x 1080 Pixel für einen quadratischen Beitrag und 1080 x 1350 Pixel für einen Beitrag im Hochformat." },
-        { "q": "Welche Größe sollte ein YouTube-Vorschaubild haben?", "a": "1280 x 720 Pixel, mit einer Dateigröße unter 2 MB." },
-        { "q": "Wird mein Bild zugeschnitten?", "a": "Bei „Rahmen füllen und zuschneiden“ bleibt die Bildmitte erhalten, und die Ränder, die nicht passen, werden abgeschnitten. Wählen Sie „In den Rahmen einpassen“, wenn Sie alles behalten möchten." }
+        {
+          "q": "Welche Größe ist für einen Instagram-Beitrag am besten?",
+          "a": "Verwenden Sie 1080 x 1080 Pixel für einen quadratischen Beitrag und 1080 x 1350 Pixel für einen Beitrag im Hochformat."
+        },
+        {
+          "q": "Welche Größe sollte ein YouTube-Vorschaubild haben?",
+          "a": "1280 x 720 Pixel, mit einer Dateigröße unter 2 MB."
+        },
+        {
+          "q": "Wie ändere ich die Bildgröße für Instagram ohne Zuschneiden?",
+          "a": "Wählen Sie unter „Vorlage“ die Instagram-Größe und dann „In den Rahmen einpassen“ statt „Rahmen füllen und zuschneiden“. Das ganze Bild bleibt sichtbar, und nichts wird abgeschnitten. Bei „Rahmen füllen und zuschneiden“ bleibt die Bildmitte erhalten, und die Ränder, die nicht passen, werden abgeschnitten."
+        }
       ]
     },
     "blurb": "Bilder für Instagram, YouTube, Facebook und mehr anpassen.",
@@ -194,13 +313,22 @@
   },
   "convert": {
     "title": "JPG, PNG und WebP konvertieren - kostenloser Bildkonverter",
-    "description": "Bilder in Ihrem Browser zwischen JPG, PNG und WebP konvertieren. Kostenlos, ohne Anmeldung und privat.",
+    "description": "Bilder online kostenlos zwischen JPG, PNG und WebP konvertieren. Ohne Anmeldung, ohne Upload, mit frei wählbarer Qualität. Für Smartphone und Computer.",
     "h1": "Bilder zwischen JPG, PNG und WebP konvertieren",
     "intro": "Wählen Sie das gewünschte Format, und das Tool konvertiert jedes Bild, das Sie hinzufügen. Es wird nichts hochgeladen.",
     "steps": [
-      { "title": "Bilder hinzufügen", "text": "Fügen Sie ein Bild oder viele hinzu." },
-      { "title": "Format wählen", "text": "Wählen Sie unter „Format“ JPG, PNG oder WebP. Lassen Sie „Größe beibehalten“ ausgewählt, wenn Sie nur das Format ändern möchten." },
-      { "title": "Konvertieren und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Ergebnisse herunter." }
+      {
+        "title": "Bilder hinzufügen",
+        "text": "Fügen Sie ein Bild oder viele hinzu."
+      },
+      {
+        "title": "Format wählen",
+        "text": "Wählen Sie unter „Format“ JPG, PNG oder WebP. Lassen Sie „Größe beibehalten“ ausgewählt, wenn Sie nur das Format ändern möchten."
+      },
+      {
+        "title": "Konvertieren und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Ergebnisse herunter."
+      }
     ],
     "tipsTitle": "Welches Format soll ich wählen?",
     "tips": [
@@ -211,8 +339,14 @@
     ],
     "faq": {
       "items": [
-        { "q": "Verringert das Konvertieren die Qualität?", "a": "Die PNG-Ausgabe ist verlustfrei. JPG und WebP sind verlustbehaftet, aber bei hoher Qualität ist der Unterschied kaum zu sehen. Sie können die Qualität selbst einstellen." },
-        { "q": "Kann ich HEIC-Fotos von meinem iPhone konvertieren?", "a": "Noch nicht, da die meisten Browser HEIC-Dateien nicht öffnen können. Auf Ihrem iPhone können Sie die Kameraformate auf „Maximale Kompatibilität“ stellen oder das Foto als JPG teilen." }
+        {
+          "q": "Verringert das Konvertieren die Qualität?",
+          "a": "Die PNG-Ausgabe ist verlustfrei. JPG und WebP sind verlustbehaftet, aber bei hoher Qualität ist der Unterschied kaum zu sehen. Sie können die Qualität selbst einstellen."
+        },
+        {
+          "q": "Kann ich HEIC-Fotos von meinem iPhone konvertieren?",
+          "a": "Noch nicht, da die meisten Browser HEIC-Dateien nicht öffnen können. Auf Ihrem iPhone können Sie die Kameraformate auf „Maximale Kompatibilität“ stellen oder das Foto als JPG teilen."
+        }
       ]
     },
     "blurb": "Bilder zwischen JPG, PNG und WebP umwandeln.",
@@ -224,13 +358,22 @@
   },
   "compress": {
     "title": "Bilder online komprimieren - Fotogröße kostenlos reduzieren",
-    "description": "Fotos verkleinern, ohne sichtbar an Qualität zu verlieren. Kostenlos, ohne Anmeldung, Ihre Bilder verlassen nie Ihr Gerät.",
+    "description": "Bilder online kostenlos komprimieren: Fotos ohne sichtbaren Qualitätsverlust verkleinern oder auf ein KB-Limit bringen. Ohne Anmeldung, ohne Upload.",
     "h1": "Bilder online komprimieren",
     "intro": "Kleinere Bilder laden schneller, passen in E-Mails und sparen Speicherplatz. Das Tool kodiert Ihre Bilder mit modernen Kompressoren neu und lässt Sie eine Qualitätsstufe oder eine maximale Dateigröße festlegen.",
     "steps": [
-      { "title": "Bilder hinzufügen", "text": "Ziehen Sie sie auf die Seite oder wählen Sie sie von Ihrem Gerät aus." },
-      { "title": "Komprimierung wählen", "text": "Lassen Sie „Größe beibehalten“ ausgewählt, um ohne Änderung der Abmessungen zu komprimieren, und nutzen Sie den Regler „Qualität“, oder aktivieren Sie „Dateigröße begrenzen“." },
-      { "title": "Komprimieren und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Ergebnisse herunter." }
+      {
+        "title": "Bilder hinzufügen",
+        "text": "Ziehen Sie sie auf die Seite oder wählen Sie sie von Ihrem Gerät aus."
+      },
+      {
+        "title": "Komprimierung wählen",
+        "text": "Lassen Sie „Größe beibehalten“ ausgewählt, um ohne Änderung der Abmessungen zu komprimieren, und nutzen Sie den Regler „Qualität“, oder aktivieren Sie „Dateigröße begrenzen“."
+      },
+      {
+        "title": "Komprimieren und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Ergebnisse herunter."
+      }
     ],
     "tipsTitle": "Tipps für kleinere Dateien",
     "tips": [
@@ -241,8 +384,14 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie viel kleiner wird meine Datei?", "a": "Fotos direkt vom Smartphone schrumpfen oft um 60 bis 90 Prozent. Bereits komprimierte Bilder werden weniger kleiner." },
-        { "q": "Kann ich viele Bilder gleichzeitig komprimieren?", "a": "Ja. Fügen Sie alle hinzu und laden Sie eine einzige ZIP-Datei herunter." }
+        {
+          "q": "Wie viel kleiner wird meine Datei?",
+          "a": "Fotos direkt vom Smartphone schrumpfen oft um 60 bis 90 Prozent. Bereits komprimierte Bilder werden weniger kleiner."
+        },
+        {
+          "q": "Kann ich viele Bilder gleichzeitig komprimieren?",
+          "a": "Ja. Fügen Sie alle hinzu und laden Sie eine einzige ZIP-Datei herunter."
+        }
       ]
     },
     "blurb": "Fotos verkleinern, ohne sichtbaren Qualitätsverlust.",
@@ -259,14 +408,23 @@
   },
   "kb20": {
     "title": "Bild auf 20 KB verkleinern - Foto kostenlos online",
-    "description": "Foto oder Unterschrift auf 20 KB oder weniger verkleinern, direkt im Browser. Kostenlos, ohne Anmeldung, Ihr Bild verlässt nie Ihr Gerät.",
+    "description": "Bild auf 20 KB online kostenlos verkleinern: Foto oder Unterschrift im Browser auf 20 KB oder weniger bringen. Ohne Anmeldung, Ihr Bild verlässt nie Ihr Gerät.",
     "h1": "Bild auf 20 KB verkleinern",
     "intro": "Ein Limit von 20 KB ist bei kleinen Passfotos und Unterschriften in Formularen für Prüfungen, Bewerbungen und Behörden üblich. Fügen Sie Ihr Bild hinzu: Das Tool senkt die Qualität Schritt für Schritt und verkleinert das Bild nur dann, wenn es nötig ist, bis die Datei unter 20 KB (20.000 Byte) liegt.",
     "blurb": "Foto oder Unterschrift unter 20 KB bringen.",
     "steps": [
-      { "title": "Bild hinzufügen", "text": "Ziehen Sie es hierher oder wählen Sie es auf Ihrem Smartphone oder Computer aus. JPG, PNG und WebP funktionieren." },
-      { "title": "20-KB-Limit prüfen", "text": "Das Limit von 20 KB ist bereits ausgewählt. Verlangt Ihr Formular eine andere Größe, ändern Sie sie in der Vorlagenliste." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“, prüfen Sie das Ergebnis und laden Sie das JPG herunter." }
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es auf Ihrem Smartphone oder Computer aus. JPG, PNG und WebP funktionieren."
+      },
+      {
+        "title": "20-KB-Limit prüfen",
+        "text": "Das Limit von 20 KB ist bereits ausgewählt. Verlangt Ihr Formular eine andere Größe, ändern Sie sie in der Vorlagenliste."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“, prüfen Sie das Ergebnis und laden Sie das JPG herunter."
+      }
     ],
     "tipsTitle": "Tipps für ein Foto mit 20 KB",
     "tips": [
@@ -282,23 +440,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie verkleinere ich ein Foto auf 20 KB?", "a": "Fügen Sie das Foto hinzu, lassen Sie das Limit von 20 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool sucht die höchste JPG-Qualität, die unter 20 KB passt, und verkleinert das Bild nur, wenn das nicht genügt." },
-        { "q": "Sind 20 KB dasselbe wie 20.000 Byte?", "a": "Hier schon. Manche Systeme zählen 1 KB als 1.024 Byte, daher liegt eine Datei unter 20.000 Byte in beiden Fällen unter dem Limit." },
-        { "q": "Kann ich das für eine Unterschrift verwenden?", "a": "Ja. Unterschreiben Sie mit einem dunklen Stift auf weißem Papier, fotografieren Sie die Unterschrift bei gutem Licht, schneiden Sie eng zu und verkleinern Sie sie auf 20 KB. Für Unterschriften gibt es außerdem eine eigene Seite." },
-        { "q": "Wird mein Foto hochgeladen?", "a": "Nein. Alles geschieht in Ihrem Browser, daher bleibt das Bild auf Ihrem Gerät." }
+        {
+          "q": "Wie verkleinere ich ein Foto auf 20 KB?",
+          "a": "Fügen Sie das Foto hinzu, lassen Sie das Limit von 20 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool sucht die höchste JPG-Qualität, die unter 20 KB passt, und verkleinert das Bild nur, wenn das nicht genügt."
+        },
+        {
+          "q": "Sind 20 KB dasselbe wie 20.000 Byte?",
+          "a": "Hier schon. Manche Systeme zählen 1 KB als 1.024 Byte, daher liegt eine Datei unter 20.000 Byte in beiden Fällen unter dem Limit."
+        },
+        {
+          "q": "Kann ich das für eine Unterschrift verwenden?",
+          "a": "Ja. Unterschreiben Sie mit einem dunklen Stift auf weißem Papier, fotografieren Sie die Unterschrift bei gutem Licht, schneiden Sie eng zu und verkleinern Sie sie auf 20 KB. Für Unterschriften gibt es außerdem eine eigene Seite."
+        },
+        {
+          "q": "Wird mein Foto hochgeladen?",
+          "a": "Nein. Alles geschieht in Ihrem Browser, daher bleibt das Bild auf Ihrem Gerät."
+        }
       ]
     }
   },
   "kb50": {
     "title": "Bild auf 50 KB verkleinern - Foto kostenlos online",
-    "description": "Foto auf 50 KB oder weniger komprimieren, für Prüfungsformulare, Jobportale und Ausweis-Uploads. Kostenlos, privat und direkt im Browser.",
+    "description": "Bild auf 50 KB online kostenlos verkleinern: Foto auf 50 KB oder weniger bringen, für Prüfungsformulare, Jobportale und Ausweis-Uploads. Ohne Anmeldung, privat.",
     "h1": "Bild auf 50 KB verkleinern",
     "intro": "50 KB gehört zu den am häufigsten verlangten Limits für Passfotos in Online-Anträgen. Diese Seite stellt das Limit für Sie ein: Fügen Sie Ihr Foto hinzu und laden Sie ein JPG unter 50 KB (50.000 Byte) herunter, das trotzdem scharf aussieht.",
     "blurb": "Foto für Formulare und Portale unter 50 KB bringen.",
     "steps": [
-      { "title": "Foto hinzufügen", "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Smartphone-Fotos mit mehreren MB sind kein Problem." },
-      { "title": "50-KB-Limit beibehalten", "text": "50 KB ist bereits voreingestellt. Nennt das Formular auch Pixel, etwa 200 x 230, geben Sie diese zuerst unter „Größe“ ein." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie das JPG herunter. Das Ergebnis zeigt seine genaue Größe in KB." }
+      {
+        "title": "Foto hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Smartphone-Fotos mit mehreren MB sind kein Problem."
+      },
+      {
+        "title": "50-KB-Limit beibehalten",
+        "text": "50 KB ist bereits voreingestellt. Nennt das Formular auch Pixel, etwa 200 x 230, geben Sie diese zuerst unter „Größe“ ein."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie das JPG herunter. Das Ergebnis zeigt seine genaue Größe in KB."
+      }
     ],
     "tipsTitle": "Tipps, um unter 50 KB zu bleiben",
     "tips": [
@@ -314,23 +493,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie komprimiere ich ein Foto auf 50 KB ohne Qualitätsverlust?", "a": "Alle Details lassen sich nicht erhalten, die sichtbare Qualität aber schon. Das Tool senkt zuerst schrittweise die JPG-Qualität und verkleinert erst danach das Bild, sodass Sie das schärfste Ergebnis bekommen, das passt." },
-        { "q": "Welches Format sollte ich für ein Foto mit 50 KB verwenden?", "a": "JPG. Es liefert die kleinsten Dateien für Fotos und wird von fast jedem Portal akzeptiert." },
-        { "q": "Ist das Foto genau 50 KB groß?", "a": "Es ist 50 KB groß oder kleiner. Das Tool zielt knapp unter das Limit, damit die Datei auf jedem System durchgeht." },
-        { "q": "Speichern Sie mein Foto?", "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen." }
+        {
+          "q": "Wie komprimiere ich ein Foto auf 50 KB ohne Qualitätsverlust?",
+          "a": "Alle Details lassen sich nicht erhalten, die sichtbare Qualität aber schon. Das Tool senkt zuerst schrittweise die JPG-Qualität und verkleinert erst danach das Bild, sodass Sie das schärfste Ergebnis bekommen, das passt."
+        },
+        {
+          "q": "Welches Format sollte ich für ein Foto mit 50 KB verwenden?",
+          "a": "JPG. Es liefert die kleinsten Dateien für Fotos und wird von fast jedem Portal akzeptiert."
+        },
+        {
+          "q": "Ist das Foto genau 50 KB groß?",
+          "a": "Es ist 50 KB groß oder kleiner. Das Tool zielt knapp unter das Limit, damit die Datei auf jedem System durchgeht."
+        },
+        {
+          "q": "Speichern Sie mein Foto?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
       ]
     }
   },
   "kb100": {
     "title": "Bild auf 100 KB verkleinern - Foto kostenlos online",
-    "description": "Bild auf 100 KB oder weniger verkleinern, für Bewerbungen, KYC und Dokument-Uploads. Kostenlos, privat und ohne Anmeldung.",
+    "description": "Bild auf 100 KB online kostenlos verkleinern: auf 100 KB oder weniger, für Bewerbungen, KYC und Dokument-Uploads. Ohne Anmeldung und vollständig privat.",
     "h1": "Bild auf 100 KB verkleinern",
     "intro": "100 KB ist ein gängiges Limit für Bewerbungsfotos, gescannte Ausweise und Profilbilder. Fügen Sie Ihr Bild hinzu und erhalten Sie ein JPG unter 100 KB (100.000 Byte) in der höchsten Qualität, die passt.",
     "blurb": "Bild für Bewerbungen und KYC unter 100 KB bringen.",
     "steps": [
-      { "title": "Bild hinzufügen", "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Fotos und Scans funktionieren beide." },
-      { "title": "100-KB-Limit beibehalten", "text": "100 KB ist bereits voreingestellt. Braucht Ihr Formular exakte Pixel oder Zentimeter, stellen Sie diese zuerst ein." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie das Ergebnis herunter. Sie können das Limit ändern und erneut starten." }
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Fotos und Scans funktionieren beide."
+      },
+      {
+        "title": "100-KB-Limit beibehalten",
+        "text": "100 KB ist bereits voreingestellt. Braucht Ihr Formular exakte Pixel oder Zentimeter, stellen Sie diese zuerst ein."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie das Ergebnis herunter. Sie können das Limit ändern und erneut starten."
+      }
     ],
     "tipsTitle": "Tipps für ein Bild mit 100 KB",
     "tips": [
@@ -346,23 +546,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie komprimiere ich ein Bild auf 100 KB?", "a": "Fügen Sie das Bild hinzu, lassen Sie das Limit von 100 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool findet die beste JPG-Qualität, die passt." },
-        { "q": "Kann ich hier ein PDF auf 100 KB komprimieren?", "a": "Nein. Dieses Tool arbeitet mit Bildern (JPG, PNG, WebP, GIF und BMP). Speichern oder fotografieren Sie die Seite zuerst als Bild." },
-        { "q": "Ist die Qualität bei 100 KB gut?", "a": "Für Fotos von Gesichtern und für Dokumente meist ja. Sehr detailreiche Bilder, etwa große Landschaften, wirken eventuell weicher." },
-        { "q": "Ist es kostenlos und privat?", "a": "Ja. Es gibt keine Anmeldung und kein Wasserzeichen, und Ihre Dateien verlassen nie Ihr Gerät." }
+        {
+          "q": "Wie komprimiere ich ein Bild auf 100 KB?",
+          "a": "Fügen Sie das Bild hinzu, lassen Sie das Limit von 100 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool findet die beste JPG-Qualität, die passt."
+        },
+        {
+          "q": "Kann ich hier ein PDF auf 100 KB komprimieren?",
+          "a": "Nein. Dieses Tool arbeitet mit Bildern (JPG, PNG, WebP, GIF und BMP). Speichern oder fotografieren Sie die Seite zuerst als Bild."
+        },
+        {
+          "q": "Ist die Qualität bei 100 KB gut?",
+          "a": "Für Fotos von Gesichtern und für Dokumente meist ja. Sehr detailreiche Bilder, etwa große Landschaften, wirken eventuell weicher."
+        },
+        {
+          "q": "Ist es kostenlos und privat?",
+          "a": "Ja. Es gibt keine Anmeldung und kein Wasserzeichen, und Ihre Dateien verlassen nie Ihr Gerät."
+        }
       ]
     }
   },
   "kb200": {
     "title": "Bild auf 200 KB verkleinern - Foto kostenlos online",
-    "description": "Bild auf 200 KB oder weniger komprimieren, für Visum, KYC und Behörden-Uploads. Kostenlos, privat und direkt im Browser.",
+    "description": "Bild auf 200 KB online kostenlos verkleinern: auf 200 KB oder weniger komprimieren, für Visum, KYC und Behörden-Uploads. Ohne Anmeldung, läuft in Ihrem Browser.",
     "h1": "Bild auf 200 KB verkleinern",
     "intro": "200 KB ist eine typische Obergrenze für Visumfotos, KYC-Dokumente und Uploads bei Behörden. Fügen Sie Ihr Bild hinzu und laden Sie ein JPG unter 200 KB (200.000 Byte) herunter, das so viele Details wie möglich behält.",
     "blurb": "Bild für Visum und Behörden unter 200 KB bringen.",
     "steps": [
-      { "title": "Bild hinzufügen", "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Große Smartphone-Fotos sind kein Problem." },
-      { "title": "200-KB-Limit beibehalten", "text": "200 KB ist bereits voreingestellt. Brauchen Sie ein anderes Limit? Wählen Sie ein anderes aus der Vorlagenliste." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie das JPG herunter. Das Ergebnis zeigt seine genaue Größe." }
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Große Smartphone-Fotos sind kein Problem."
+      },
+      {
+        "title": "200-KB-Limit beibehalten",
+        "text": "200 KB ist bereits voreingestellt. Brauchen Sie ein anderes Limit? Wählen Sie ein anderes aus der Vorlagenliste."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie das JPG herunter. Das Ergebnis zeigt seine genaue Größe."
+      }
     ],
     "tipsTitle": "Tipps für ein Bild mit 200 KB",
     "tips": [
@@ -378,23 +599,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie verkleinere ich ein Bild auf 200 KB?", "a": "Fügen Sie das Bild hinzu, lassen Sie das Limit von 200 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool wählt die beste JPG-Qualität, die passt." },
-        { "q": "Was ist der Unterschied zwischen 200 KB und 2 MB?", "a": "2 MB sind etwa zehnmal so viel. 200 KB sind nur 0,2 MB. Prüfen Sie, ob die Einheit in Ihrem Formular KB und nicht MB lautet." },
-        { "q": "Kann ich PNG für ein Limit von 200 KB verwenden?", "a": "PNG-Dateien sind verlustfrei, daher kann das Tool das Bild nur verkleinern, um ein Limit zu erreichen. JPG behält bei gleicher Dateigröße mehr Details." },
-        { "q": "Sind meine Dokumente sicher?", "a": "Ja. Sie werden in Ihrem Browser verarbeitet und nie hochgeladen, was bei Ausweisdokumenten wichtig ist." }
+        {
+          "q": "Wie verkleinere ich ein Bild auf 200 KB?",
+          "a": "Fügen Sie das Bild hinzu, lassen Sie das Limit von 200 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool wählt die beste JPG-Qualität, die passt."
+        },
+        {
+          "q": "Was ist der Unterschied zwischen 200 KB und 2 MB?",
+          "a": "2 MB sind etwa zehnmal so viel. 200 KB sind nur 0,2 MB. Prüfen Sie, ob die Einheit in Ihrem Formular KB und nicht MB lautet."
+        },
+        {
+          "q": "Kann ich PNG für ein Limit von 200 KB verwenden?",
+          "a": "PNG-Dateien sind verlustfrei, daher kann das Tool das Bild nur verkleinern, um ein Limit zu erreichen. JPG behält bei gleicher Dateigröße mehr Details."
+        },
+        {
+          "q": "Sind meine Dokumente sicher?",
+          "a": "Ja. Sie werden in Ihrem Browser verarbeitet und nie hochgeladen, was bei Ausweisdokumenten wichtig ist."
+        }
       ]
     }
   },
   "signature": {
     "title": "Unterschrift verkleinern - Bild auf 10-20 KB, kostenlos",
-    "description": "Unterschrift auf die Größe verkleinern, die ein Online-Formular verlangt, etwa 10 KB oder 20 KB und eine feste Pixelgröße. Kostenlos und privat.",
+    "description": "Unterschrift online kostenlos verkleinern: auf 10 KB oder 20 KB und eine feste Pixelgröße bringen, für Online-Formulare. Ohne Anmeldung, bleibt auf Ihrem Gerät.",
     "h1": "Unterschrift als Bild verkleinern",
     "intro": "Online-Formulare verlangen meist ein kleines, klares Bild Ihrer Unterschrift: wenige KB und oft eine feste Breite und Höhe. Fügen Sie ein Foto oder einen Scan Ihrer Unterschrift hinzu und erhalten Sie eine Datei, die sowohl die Dateigröße als auch die Pixelgröße erfüllt.",
     "blurb": "Unterschrift auf die verlangte Dateigröße verkleinern.",
     "steps": [
-      { "title": "Unterschrift hinzufügen", "text": "Fotografieren oder scannen Sie Ihre Unterschrift auf einfachem weißem Papier und fügen Sie das Bild hier hinzu." },
-      { "title": "Größe und Limit festlegen", "text": "Geben Sie Breite und Höhe in Pixeln aus dem Formular ein und wählen Sie dann in der Vorlagenliste 10 KB oder 20 KB." },
-      { "title": "Verkleinern und herunterladen", "text": "Klicken Sie auf „Größe ändern“. Prüfen Sie das Ergebnis: Die Unterschrift sollte dunkel wirken und die Kanten sollten sauber sein." }
+      {
+        "title": "Unterschrift hinzufügen",
+        "text": "Fotografieren oder scannen Sie Ihre Unterschrift auf einfachem weißem Papier und fügen Sie das Bild hier hinzu."
+      },
+      {
+        "title": "Größe und Limit festlegen",
+        "text": "Geben Sie Breite und Höhe in Pixeln aus dem Formular ein und wählen Sie dann in der Vorlagenliste 10 KB oder 20 KB."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“. Prüfen Sie das Ergebnis: Die Unterschrift sollte dunkel wirken und die Kanten sollten sauber sein."
+      }
     ],
     "tipsTitle": "Tipps für eine klare Unterschrift",
     "tips": [
@@ -410,23 +652,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Welche Größe sollte eine Unterschrift für ein Online-Formular haben?", "a": "Das hängt vom Formular ab. Viele verlangen etwa 10 bis 20 KB und eine kleine Breite und Höhe in Pixeln. Halten Sie sich immer an die genauen Zahlen in der offiziellen Mitteilung." },
-        { "q": "Wie bringe ich meine Unterschrift auf 10 KB?", "a": "Fügen Sie die Unterschrift hinzu, wählen Sie in der Vorlagenliste das Limit von 10 KB und klicken Sie auf „Größe ändern“." },
-        { "q": "Kann ich den Papierhintergrund entfernen?", "a": "Dieses Tool ändert die Größe und komprimiert; es entfernt keine Hintergründe. Verwenden Sie einfaches weißes Papier, damit das Ergebnis sauber aussieht." },
-        { "q": "Ist es sicher, hier meine Unterschrift zu verwenden?", "a": "Es wird nichts hochgeladen. Die Unterschrift wird in Ihrem Browser verarbeitet und bleibt auf Ihrem Gerät." }
+        {
+          "q": "Welche Größe sollte eine Unterschrift für ein Online-Formular haben?",
+          "a": "Das hängt vom Formular ab. Viele verlangen etwa 10 bis 20 KB und eine kleine Breite und Höhe in Pixeln. Halten Sie sich immer an die genauen Zahlen in der offiziellen Mitteilung."
+        },
+        {
+          "q": "Wie bringe ich meine Unterschrift auf 10 KB?",
+          "a": "Fügen Sie die Unterschrift hinzu, wählen Sie in der Vorlagenliste das Limit von 10 KB und klicken Sie auf „Größe ändern“."
+        },
+        {
+          "q": "Kann ich den Papierhintergrund entfernen?",
+          "a": "Dieses Tool ändert die Größe und komprimiert; es entfernt keine Hintergründe. Verwenden Sie einfaches weißes Papier, damit das Ergebnis sauber aussieht."
+        },
+        {
+          "q": "Ist es sicher, hier meine Unterschrift zu verwenden?",
+          "a": "Es wird nichts hochgeladen. Die Unterschrift wird in Ihrem Browser verarbeitet und bleibt auf Ihrem Gerät."
+        }
       ]
     }
   },
   "pngToJpg": {
     "title": "PNG in JPG umwandeln - kostenlos, ohne Upload",
-    "description": "PNG-Bilder direkt im Browser in JPG konvertieren. Kostenlos, ohne Anmeldung, ohne Upload und mit frei wählbarer Qualität.",
+    "description": "PNG in JPG online kostenlos umwandeln: PNG-Bilder im Browser in kleinere JPG-Dateien konvertieren. Ohne Anmeldung, ohne Upload und mit frei wählbarer Qualität.",
     "h1": "PNG in JPG umwandeln",
     "intro": "Wandeln Sie PNG-Bilder in einem Schritt in kleinere JPG-Dateien um. JPG wird fast überall akzeptiert und ist bei Fotos viel kleiner. Fügen Sie Ihre PNG-Dateien hinzu, klicken Sie auf die Schaltfläche und laden Sie die JPG-Dateien herunter, oder ein ZIP mit allen.",
     "blurb": "PNG-Dateien in kleinere JPG-Dateien umwandeln.",
     "steps": [
-      { "title": "PNG-Dateien hinzufügen", "text": "Ziehen Sie ein oder mehrere PNG-Bilder auf die Seite oder wählen Sie sie von Ihrem Gerät aus." },
-      { "title": "Format prüfen", "text": "JPG ist bereits als Ausgabeformat ausgewählt. Senken Sie die Qualität für eine kleinere Datei." },
-      { "title": "Umwandeln und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes JPG einzeln herunter oder alle zusammen als ZIP." }
+      {
+        "title": "PNG-Dateien hinzufügen",
+        "text": "Ziehen Sie ein oder mehrere PNG-Bilder auf die Seite oder wählen Sie sie von Ihrem Gerät aus."
+      },
+      {
+        "title": "Format prüfen",
+        "text": "JPG ist bereits als Ausgabeformat ausgewählt. Senken Sie die Qualität für eine kleinere Datei."
+      },
+      {
+        "title": "Umwandeln und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes JPG einzeln herunter oder alle zusammen als ZIP."
+      }
     ],
     "tipsTitle": "Tipps zum Umwandeln von PNG in JPG",
     "tips": [
@@ -442,23 +705,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie wandle ich PNG in JPG um?", "a": "Fügen Sie Ihr PNG hinzu, achten Sie darauf, dass JPG das Ausgabeformat ist, und klicken Sie auf „Größe ändern“. Laden Sie das JPG herunter, sobald es fertig ist." },
-        { "q": "Verringert die Umwandlung von PNG in JPG die Qualität?", "a": "Ein wenig. JPG ist verlustbehaftet. Bei einer Qualität von 85 oder höher ist der Unterschied bei Fotos kaum zu sehen." },
-        { "q": "Was passiert mit transparenten Bereichen?", "a": "Sie werden mit Weiß gefüllt, weil JPG nicht transparent sein kann." },
-        { "q": "Kann ich viele PNG-Dateien gleichzeitig umwandeln?", "a": "Ja. Fügen Sie beliebig viele hinzu, bis zu 500 auf einmal, und laden Sie sie einzeln oder als ZIP herunter." }
+        {
+          "q": "Wie wandle ich PNG in JPG um?",
+          "a": "Fügen Sie Ihr PNG hinzu, achten Sie darauf, dass JPG das Ausgabeformat ist, und klicken Sie auf „Größe ändern“. Laden Sie das JPG herunter, sobald es fertig ist."
+        },
+        {
+          "q": "Verringert die Umwandlung von PNG in JPG die Qualität?",
+          "a": "Ein wenig. JPG ist verlustbehaftet. Bei einer Qualität von 85 oder höher ist der Unterschied bei Fotos kaum zu sehen."
+        },
+        {
+          "q": "Was passiert mit transparenten Bereichen?",
+          "a": "Sie werden mit Weiß gefüllt, weil JPG nicht transparent sein kann."
+        },
+        {
+          "q": "Kann ich viele PNG-Dateien gleichzeitig umwandeln?",
+          "a": "Ja. Fügen Sie beliebig viele hinzu, bis zu 500 auf einmal, und laden Sie sie einzeln oder als ZIP herunter."
+        }
       ]
     }
   },
   "jpgToPng": {
     "title": "JPG in PNG umwandeln - kostenlos, ohne Upload",
-    "description": "JPG-Bilder direkt im Browser in PNG konvertieren. Kostenlos, ohne Anmeldung, ohne Upload und ohne Wasserzeichen.",
+    "description": "JPG in PNG online kostenlos im Browser umwandeln. Ohne Anmeldung, ohne Upload und ohne Wasserzeichen, auf Smartphone und Computer.",
     "h1": "JPG in PNG umwandeln",
     "intro": "Sie brauchen ein PNG für ein Logo, ein Grafikprogramm oder ein Formular, das kein JPG akzeptiert? Fügen Sie Ihre JPG-Dateien hinzu und laden Sie in einem Schritt verlustfreie PNG-Dateien herunter. Alles läuft in Ihrem Browser.",
     "blurb": "JPG-Dateien in verlustfreie PNG-Dateien umwandeln.",
     "steps": [
-      { "title": "JPG-Dateien hinzufügen", "text": "Ziehen Sie ein oder mehrere JPG-Bilder auf die Seite oder wählen Sie sie von Ihrem Gerät aus." },
-      { "title": "Format prüfen", "text": "PNG ist bereits als Ausgabeformat ausgewählt." },
-      { "title": "Umwandeln und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes PNG einzeln herunter oder alle zusammen als ZIP." }
+      {
+        "title": "JPG-Dateien hinzufügen",
+        "text": "Ziehen Sie ein oder mehrere JPG-Bilder auf die Seite oder wählen Sie sie von Ihrem Gerät aus."
+      },
+      {
+        "title": "Format prüfen",
+        "text": "PNG ist bereits als Ausgabeformat ausgewählt."
+      },
+      {
+        "title": "Umwandeln und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes PNG einzeln herunter oder alle zusammen als ZIP."
+      }
     ],
     "tipsTitle": "Tipps zum Umwandeln von JPG in PNG",
     "tips": [
@@ -474,23 +758,44 @@
     ],
     "faq": {
       "items": [
-        { "q": "Wie wandle ich JPG in PNG um?", "a": "Fügen Sie Ihr JPG hinzu, achten Sie darauf, dass PNG das Ausgabeformat ist, und klicken Sie auf „Größe ändern“. Laden Sie das PNG herunter, sobald es fertig ist." },
-        { "q": "Ist das PNG größer als das JPG?", "a": "Meist ja, bei Fotos oft um ein Vielfaches, weil PNG jedes Detail behält." },
-        { "q": "Verbessert die Umwandlung von JPG in PNG die Qualität?", "a": "Nein. Sie verhindert weiteren Qualitätsverlust, kann aber keine Details zurückbringen, die die JPG-Komprimierung bereits entfernt hat." },
-        { "q": "Werden meine Dateien hochgeladen?", "a": "Nein. Die Umwandlung läuft in Ihrem Browser, und Ihre Bilder verlassen nie Ihr Gerät." }
+        {
+          "q": "Wie wandle ich JPG in PNG um?",
+          "a": "Fügen Sie Ihr JPG hinzu, achten Sie darauf, dass PNG das Ausgabeformat ist, und klicken Sie auf „Größe ändern“. Laden Sie das PNG herunter, sobald es fertig ist."
+        },
+        {
+          "q": "Ist das PNG größer als das JPG?",
+          "a": "Meist ja, bei Fotos oft um ein Vielfaches, weil PNG jedes Detail behält."
+        },
+        {
+          "q": "Verbessert die Umwandlung von JPG in PNG die Qualität?",
+          "a": "Nein. Sie verhindert weiteren Qualitätsverlust, kann aber keine Details zurückbringen, die die JPG-Komprimierung bereits entfernt hat."
+        },
+        {
+          "q": "Werden meine Dateien hochgeladen?",
+          "a": "Nein. Die Umwandlung läuft in Ihrem Browser, und Ihre Bilder verlassen nie Ihr Gerät."
+        }
       ]
     }
   },
   "webpToJpg": {
     "title": "WebP in JPG umwandeln - kostenlos, ohne Upload",
-    "description": "WebP-Bilder direkt im Browser in JPG konvertieren. Kostenlos, ohne Anmeldung, ohne Upload, auf Smartphone und Computer.",
+    "description": "WebP in JPG online kostenlos umwandeln: JPG-Dateien, die sich überall öffnen lassen. Ohne Anmeldung, ohne Upload, auf Smartphone und Computer.",
     "h1": "WebP in JPG umwandeln",
     "intro": "Websites speichern Bilder oft als WebP, aber viele Programme, Drucker und Upload-Formulare akzeptieren nur JPG. Fügen Sie Ihre WebP-Bilder hinzu und laden Sie JPG-Dateien herunter, die sich überall öffnen lassen.",
     "blurb": "WebP-Bilder in JPG-Dateien umwandeln, die überall funktionieren.",
     "steps": [
-      { "title": "WebP-Dateien hinzufügen", "text": "Ziehen Sie ein oder mehrere WebP-Bilder auf die Seite oder wählen Sie sie auf Ihrem Smartphone oder Computer aus." },
-      { "title": "Format prüfen", "text": "JPG ist bereits als Ausgabeformat ausgewählt. Wählen Sie eine Qualität, wenn Sie eine kleinere Datei möchten." },
-      { "title": "Umwandeln und herunterladen", "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes JPG einzeln herunter oder alle zusammen als ZIP." }
+      {
+        "title": "WebP-Dateien hinzufügen",
+        "text": "Ziehen Sie ein oder mehrere WebP-Bilder auf die Seite oder wählen Sie sie auf Ihrem Smartphone oder Computer aus."
+      },
+      {
+        "title": "Format prüfen",
+        "text": "JPG ist bereits als Ausgabeformat ausgewählt. Wählen Sie eine Qualität, wenn Sie eine kleinere Datei möchten."
+      },
+      {
+        "title": "Umwandeln und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes JPG einzeln herunter oder alle zusammen als ZIP."
+      }
     ],
     "tipsTitle": "Tipps zum Umwandeln von WebP in JPG",
     "tips": [
@@ -506,10 +811,22 @@
     ],
     "faq": {
       "items": [
-        { "q": "Kann ich WebP auf meinem Smartphone in JPG umwandeln?", "a": "Ja. Es funktioniert im Browser jedes aktuellen Smartphones, ohne dass Sie eine App installieren müssen." },
-        { "q": "Warum speichern Websites Bilder als WebP?", "a": "WebP-Dateien sind bei ähnlicher Qualität kleiner als JPG-Dateien, wodurch Seiten schneller laden." },
-        { "q": "Ist die Qualität nach der Umwandlung gleich?", "a": "Fast. Beide Formate sind verlustbehaftet, daher sieht das Bild bei hoher JPG-Qualität gleich aus." },
-        { "q": "Ist es kostenlos?", "a": "Ja. Es gibt keine Anmeldung, kein Wasserzeichen und keine Begrenzung der Bildanzahl." }
+        {
+          "q": "Kann ich WebP auf meinem Smartphone in JPG umwandeln?",
+          "a": "Ja. Es funktioniert im Browser jedes aktuellen Smartphones, ohne dass Sie eine App installieren müssen."
+        },
+        {
+          "q": "Warum speichern Websites Bilder als WebP?",
+          "a": "WebP-Dateien sind bei ähnlicher Qualität kleiner als JPG-Dateien, wodurch Seiten schneller laden."
+        },
+        {
+          "q": "Ist die Qualität nach der Umwandlung gleich?",
+          "a": "Fast. Beide Formate sind verlustbehaftet, daher sieht das Bild bei hoher JPG-Qualität gleich aus."
+        },
+        {
+          "q": "Ist es kostenlos?",
+          "a": "Ja. Es gibt keine Anmeldung, kein Wasserzeichen und keine Begrenzung der Bildanzahl."
+        }
       ]
     }
   },
@@ -519,5 +836,429 @@
     "h1": "Häufige Fragen",
     "intro": "Kurze Antworten zum kostenlosen Bildverkleinerer, nach Aufgabe sortiert. Alles läuft im Browser, die Bilder werden nie hochgeladen.",
     "jump": "Gehe zu"
+  },
+  "kb10": {
+    "title": "Bild auf 10 KB verkleinern - Foto kostenlos online",
+    "description": "Bild auf 10 KB online kostenlos verkleinern: Foto oder Unterschrift im Browser auf 10 KB oder weniger bringen. Ohne Anmeldung, ohne Upload, Bild bleibt privat.",
+    "h1": "Bild auf 10 KB verkleinern",
+    "intro": "10 KB ist ein sehr kleines Limit, das bei Unterschriften, Vorschaubildern und kleinen Fotofeldern in Antragsformularen üblich ist. Diese Seite stellt das Limit von 10 KB für Sie ein: Fügen Sie Ihr Bild hinzu und laden Sie ein JPG unter 10 KB (10.000 Byte) herunter.",
+    "blurb": "Unterschrift oder kleines Foto unter 10 KB bringen.",
+    "steps": [
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Der Scan einer Unterschrift und ein Smartphone-Foto funktionieren beide."
+      },
+      {
+        "title": "10-KB-Limit beibehalten",
+        "text": "10 KB ist bereits voreingestellt. Nennt das Formular auch Pixel, etwa 140 x 60, geben Sie diese zuerst unter „Größe“ ein: Ein kleines Bild passt viel leichter."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie das JPG herunter. Das Ergebnis zeigt seine genaue Größe in KB."
+      }
+    ],
+    "tipsTitle": "Tipps, um unter 10 KB zu bleiben",
+    "tips": [
+      "Verkleinern Sie zuerst die Pixelgröße. Ein Bild mit etwa 200 x 100 Pixeln passt viel leichter in 10 KB als ein komplettes Smartphone-Foto.",
+      "Einfache Hintergründe lassen sich am besten komprimieren. Verwenden Sie für eine Unterschrift dunkle Tinte auf weißem Papier und schneiden Sie leere Ränder ab.",
+      "JPG ist hier das richtige Format. Ein als PNG gespeichertes Foto ist viel größer und passt selten in 10 KB.",
+      "Meldet das Portal trotzdem, die Datei sei zu groß, senken Sie das Limit etwas, zum Beispiel auf 9 KB, und starten Sie erneut."
+    ],
+    "detailsTitle": "So sieht ein Bild mit 10 KB aus",
+    "details": [
+      "Ein JPG mit 10 KB ist winzig, etwa so groß wie ein kurzes Textdokument. Bei rund 200 x 100 Pixeln bleibt eine Unterschrift lesbar, und bei einem kleinen Passfoto mit etwa 100 x 120 Pixeln bleibt das Gesicht erkennbar. Große Bilder erreichen 10 KB nicht, ohne unscharf zu werden.",
+      "Das Tool sucht die höchste Qualität, die passt. Es senkt die JPG-Qualität Schritt für Schritt und verkleinert das Bild nur, wenn es nötig ist, sodass Sie die schärfste Datei bekommen, die durchgeht. Die Größe des Ergebnisses sehen Sie vor dem Herunterladen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie verkleinere ich ein Bild auf 10 KB?",
+          "a": "Fügen Sie das Bild hinzu, lassen Sie das voreingestellte Limit von 10 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool senkt die Qualität und bei Bedarf die Bildgröße, bis das JPG 10 KB oder kleiner ist."
+        },
+        {
+          "q": "Kann ich eine Unterschrift auf 10 KB verkleinern?",
+          "a": "Ja. Schneiden Sie die Unterschrift eng um die Tinte zu, fügen Sie sie hier hinzu und lassen Sie das Limit von 10 KB eingestellt. Eine kleine, kontrastreiche Unterschrift lässt sich sehr gut komprimieren."
+        },
+        {
+          "q": "Ist das Bild genau 10 KB groß?",
+          "a": "Es ist 10 KB groß oder kleiner. Das Tool zielt knapp unter das Limit, damit die Datei auf jedem System durchgeht."
+        },
+        {
+          "q": "Wird mein Bild irgendwo hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "kb30": {
+    "title": "Bild auf 30 KB verkleinern - Foto kostenlos online",
+    "description": "Bild auf 30 KB online kostenlos verkleinern: Foto oder Unterschrift auf 30 KB oder weniger bringen, für Formulare und Prüfungsportale. Ohne Anmeldung.",
+    "h1": "Bild auf 30 KB verkleinern",
+    "intro": "Ein Limit von 30 KB ist bei Formularen für Prüfungen, Bewerbungen und Behörden üblich, wo Foto und Unterschrift in getrennten Feldern hochgeladen werden. Diese Seite stellt das Limit für Sie ein: Fügen Sie Ihr Bild hinzu und laden Sie ein JPG unter 30 KB (30.000 Byte) herunter.",
+    "blurb": "Foto für Antragsformulare unter 30 KB bringen.",
+    "steps": [
+      {
+        "title": "Foto hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Große Smartphone-Fotos sind kein Problem."
+      },
+      {
+        "title": "30-KB-Limit beibehalten",
+        "text": "30 KB ist bereits voreingestellt. Nennt das Formular eine Pixelgröße, etwa 200 x 230, geben Sie diese zuerst unter „Größe“ ein."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie das JPG herunter. Das Ergebnis zeigt seine genaue Größe in KB."
+      }
+    ],
+    "tipsTitle": "Tipps, um unter 30 KB zu bleiben",
+    "tips": [
+      "Geben Sie zuerst die Pixelgröße aus dem Formular ein und nutzen Sie dann das Limit von 30 KB. Ein kleines Bild passt leicht.",
+      "Fotos mit einfachem Hintergrund erreichen 30 KB bei viel höherer Qualität als Fotos mit unruhigem Hintergrund.",
+      "Nutzen Sie dasselbe Tool für das Unterschriftsfeld: Schneiden Sie eng um die Tinte zu und stellen Sie das Limit ein, das das Formular verlangt.",
+      "Meldet das Portal trotzdem, die Datei sei zu groß, starten Sie erneut mit einem Limit von 28 KB."
+    ],
+    "detailsTitle": "Warum 30 KB für Antragsfotos gut funktionieren",
+    "details": [
+      "Bei 30 KB behält ein Passfoto mit etwa 200 x 230 Pixeln ein klares Gesicht und saubere Kanten. Die Datei ist klein genug für langsame Verbindungen und strenge Upload-Formulare und wirkt auf dem Bildschirm dennoch scharf.",
+      "Das Tool wählt die höchste Qualität, die passt, und zeigt Ihnen die Größe des Ergebnisses vor dem Herunterladen. Sie können das Limit ändern und erneut starten, ohne das Foto ein zweites Mal hinzuzufügen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie komprimiere ich ein Foto auf 30 KB?",
+          "a": "Fügen Sie das Foto hinzu, lassen Sie das Limit von 30 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool senkt die JPG-Qualität schrittweise und verkleinert das Bild nur, wenn es sein muss, sodass Sie das schärfste Ergebnis bekommen, das passt."
+        },
+        {
+          "q": "Kann ich mein Foto für ein Prüfungsformular auf 30 KB bringen?",
+          "a": "Ja. Prüfen Sie die Pixelgröße und die Dateigröße, die das Formular verlangt, geben Sie die Pixel unter „Größe“ ein und lassen Sie das Limit von 30 KB eingestellt. Jedes Formular hat eigene Regeln, lesen Sie diese daher immer zuerst."
+        },
+        {
+          "q": "Welches Format sollte ich für ein Foto mit 30 KB verwenden?",
+          "a": "JPG. Es liefert die kleinsten Dateien für Fotos und wird von fast jedem Portal akzeptiert."
+        },
+        {
+          "q": "Speichern Sie mein Foto?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "kb500": {
+    "title": "Bild auf 500 KB verkleinern - kostenlos online",
+    "description": "Bild auf 500 KB online kostenlos verkleinern: Foto für E-Mail, Bewerbungen und Uploads auf 500 KB oder weniger komprimieren, scharf. Ohne Anmeldung, privat.",
+    "h1": "Bild auf 500 KB verkleinern",
+    "intro": "500 KB ist ein gängiges Limit für E-Mail-Anhänge, Bewerbungen und Upload-Formulare, die trotzdem ein gutes Bild wollen. Diese Seite stellt das Limit für Sie ein: Fügen Sie Ihr Bild hinzu und laden Sie eine scharfe Datei unter 500 KB (500.000 Byte) herunter.",
+    "blurb": "Bild unter 500 KB bringen und scharf halten.",
+    "steps": [
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Smartphone-Fotos mit mehreren MB sind kein Problem."
+      },
+      {
+        "title": "500-KB-Limit beibehalten",
+        "text": "500 KB ist bereits voreingestellt. Vor dem Anwenden des Limits können Sie unter „Größe“ auch eine Breite oder Höhe eingeben, zum Beispiel 1600 Pixel."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Datei herunter. Das Ergebnis zeigt seine genaue Größe in KB."
+      }
+    ],
+    "tipsTitle": "Tipps, um unter 500 KB zu bleiben",
+    "tips": [
+      "Die meisten Smartphone-Fotos sind mehrere MB groß. Das Tool verkleinert sie auf 500 KB und hält sie scharf genug für die Ansicht auf dem Bildschirm.",
+      "Ist das Bild nur für den Bildschirm gedacht, genügen 1600 bis 2000 Pixel Breite völlig, und es passt leicht in 500 KB.",
+      "Speichern Sie Fotos als JPG oder WebP. PNG eignet sich besser für Logos und Screenshots, doch als PNG gespeicherte Fotos liegen meist weit über 500 KB.",
+      "Vergrößern Sie kein kleines Bild. Die Datei wird dadurch größer, ohne dass Details hinzukommen."
+    ],
+    "detailsTitle": "Wie gut ist ein Bild mit 500 KB?",
+    "details": [
+      "Ein Limit von 500 KB ist etwa zehnmal so groß wie bei einem Formularfoto mit 50 KB, es ist also Platz für echte Details. Ein Foto mit etwa 1600 x 1200 Pixeln passt als JPG meist in 500 KB und wirkt auf Laptop und Smartphone scharf.",
+      "Das Tool senkt die Qualität Schritt für Schritt und verringert die Pixelzahl nur, wenn sich das Limit anders nicht erreichen lässt. Die Größe des Ergebnisses sehen Sie vor dem Herunterladen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie verkleinere ich ein Bild auf 500 KB?",
+          "a": "Fügen Sie das Bild hinzu, lassen Sie das voreingestellte Limit von 500 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool findet die höchste Qualität, die passt."
+        },
+        {
+          "q": "Sieht ein Foto mit 500 KB noch gut aus?",
+          "a": "Ja, für die Ansicht auf dem Bildschirm. Die meisten Fotos behalten bei 500 KB klare Details. Für große Drucke brauchen Sie größere Dateien."
+        },
+        {
+          "q": "Kann ich mehrere Bilder gleichzeitig auf 500 KB verkleinern?",
+          "a": "Ja. Fügen Sie beliebig viele Bilder hinzu. Jedes wird auf 500 KB oder weniger verkleinert, und Sie können alle als eine ZIP-Datei herunterladen."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "mb1": {
+    "title": "Bild auf 1 MB verkleinern - kostenlos online",
+    "description": "Bild auf 1 MB online kostenlos verkleinern: Foto für E-Mail, Formulare und Uploads auf 1 MB oder weniger bringen, ohne sichtbaren Verlust. Ohne Anmeldung.",
+    "h1": "Bild auf 1 MB verkleinern",
+    "intro": "Ein Limit von 1 MB ist bei E-Mail-Diensten, Antragsformularen und Websites mit Foto-Upload üblich. Diese Seite stellt das Limit für Sie ein: Fügen Sie Ihr Bild hinzu und laden Sie eine Datei unter 1 MB (1.000.000 Byte) herunter, die weiterhin scharf aussieht.",
+    "blurb": "Bild für E-Mail und Uploads unter 1 MB bringen.",
+    "steps": [
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Smartphone-Fotos mit mehreren MB sind kein Problem."
+      },
+      {
+        "title": "1-MB-Limit beibehalten",
+        "text": "1 MB ist bereits voreingestellt. Das Tool rechnet 1 MB als 1.000.000 Byte, sodass die Datei auf Systemen durchgeht, die 1.000 KB zählen, und auf solchen, die 1.024 KB zählen."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Datei herunter. Das Ergebnis zeigt seine genaue Größe."
+      }
+    ],
+    "tipsTitle": "Tipps, um unter 1 MB zu bleiben",
+    "tips": [
+      "Smartphone-Fotos sind oft 3 bis 8 MB groß. Verringern Sie die Pixelgröße etwas, zum Beispiel auf 2000 Pixel Breite, liegen sie fast ohne sichtbaren Verlust unter 1 MB.",
+      "Fotos passen am besten als JPG oder WebP in 1 MB. Ein als PNG gespeichertes Foto ist meist um ein Vielfaches größer.",
+      "Um viele Fotos per E-Mail zu senden, fügen Sie alle auf einmal hinzu und laden Sie die ZIP-Datei herunter.",
+      "Screenshots und Logos sind als PNG besser aufgehoben: Sie sind schon klein und behalten scharfe Kanten."
+    ],
+    "detailsTitle": "Was 1 MB für ein Foto bedeutet",
+    "details": [
+      "Ein Megabyte sind 1.000 Kilobyte. Ein JPG mit 1 MB fasst ein Foto mit etwa 2000 x 1500 Pixeln und guten Details, mehr als die meisten Bildschirme anzeigen. Deshalb ist 1 MB ein beliebtes Limit: klein genug zum Versenden, groß genug für ein gutes Bild.",
+      "Das Tool sucht die höchste Qualität, die passt, und zeigt Ihnen vor dem Herunterladen die genaue Größe des Ergebnisses. Verlangt ein Formular eine kleinere Datei, wählen Sie ein niedrigeres Limit und starten Sie erneut."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie verkleinere ich ein Bild auf 1 MB?",
+          "a": "Fügen Sie das Bild hinzu, lassen Sie das voreingestellte Limit von 1 MB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool findet die höchste Qualität, die passt."
+        },
+        {
+          "q": "Sind 1 MB dasselbe wie 1.024 KB?",
+          "a": "Auf manchen Systemen zählt ein Megabyte 1.024 Kilobyte, auf anderen 1.000. Das Tool verwendet den kleineren Wert (1.000 KB oder 1.000.000 Byte), sodass die Datei in beiden Fällen durchgeht."
+        },
+        {
+          "q": "Wird das Bild auch in Pixeln kleiner?",
+          "a": "Nur wenn es sein muss. Das Tool senkt zuerst die Qualität und verringert die Pixelgröße nur, wenn sich das Limit anders nicht erreichen lässt."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "pixels": {
+    "title": "Bildgröße in Pixeln ändern - Breite und Höhe festlegen",
+    "description": "Bildgröße in Pixeln online kostenlos ändern: exakte Breite und Höhe eingeben, Seitenverhältnis beibehalten, einpassen oder zuschneiden. Ohne Anmeldung, privat.",
+    "h1": "Bildgröße in Pixeln ändern",
+    "intro": "Legen Sie die exakte Breite und Höhe eines Bildes in Pixeln fest, für eine Website, ein Antragsformular, ein Vorschaubild oder einen Beitrag in sozialen Medien. Fügen Sie Ihr Bild hinzu, geben Sie die Größe ein und laden Sie das Ergebnis herunter. Das Seitenverhältnis ist standardmäßig gesperrt, daher wirkt nichts gestreckt.",
+    "blurb": "Exakte Breite und Höhe in Pixeln festlegen.",
+    "steps": [
+      {
+        "title": "Bilder hinzufügen",
+        "text": "Ziehen Sie Bilder auf die Seite, wählen Sie sie von Ihrem Gerät aus oder fügen Sie sie ein. Sie können beliebig viele auf einmal hinzufügen."
+      },
+      {
+        "title": "Breite und Höhe eingeben",
+        "text": "Geben Sie eine Breite, eine Höhe oder beides ein. Lassen Sie „Seitenverhältnis sperren“ eingeschaltet, damit das Bild nicht verzerrt wird. Geben Sie beides an, wählen Sie, ob das Bild eingepasst, zugeschnitten oder gestreckt wird."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“. Laden Sie jedes Bild einzeln herunter oder alles zusammen als eine ZIP-Datei."
+      }
+    ],
+    "tipsTitle": "Tipps zum Ändern der Größe in Pixeln",
+    "tips": [
+      "Machen Sie ein Bild nach Möglichkeit kleiner. Beim Vergrößern können keine Details entstehen, daher wirken vergrößerte Bilder weich.",
+      "Geben Sie nur die Breite ein, um die Proportionen zu behalten. Die Höhe ergibt sich automatisch.",
+      "Um eine exakte Größe wie 1080 x 1080 Pixel ohne leere Balken zu füllen, wählen Sie „Rahmen füllen und zuschneiden“. Um das ganze Bild zu behalten, wählen Sie „In den Rahmen einpassen“.",
+      "Viele Formulare nennen auch eine Dateigröße. Schalten Sie „Dateigröße begrenzen“ ein, um beide Vorgaben auf einmal zu erfüllen."
+    ],
+    "detailsTitle": "So hängen Pixel und Dateigröße zusammen",
+    "details": [
+      "Ein Pixel ist der kleinste Punkt eines Bildes. Mehr Pixel bedeuten mehr Details und eine größere Datei, weshalb ein Smartphone-Foto mit 4000 Pixeln viel größer ist als eines mit 1000 Pixeln. Für den Bildschirm genügen meist 1200 bis 2000 Pixel Breite.",
+      "Das Tool verwendet einen hochwertigen Skalierungsfilter, daher bleibt ein verkleinertes Bild scharf. Es arbeitet auf Ihrem Gerät, mit einem Bild oder mit Hunderten auf einmal."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie ändere ich ein Bild auf eine bestimmte Größe in Pixeln?",
+          "a": "Fügen Sie das Bild hinzu, geben Sie Breite und Höhe unter „Größe“ ein und klicken Sie auf „Größe ändern“. Achten Sie darauf, dass die Einheit auf px steht."
+        },
+        {
+          "q": "Wie behalte ich beim Ändern die Proportionen bei?",
+          "a": "Lassen Sie „Seitenverhältnis sperren“ eingeschaltet und geben Sie nur die Breite oder nur die Höhe ein. Die andere Seite ergibt sich automatisch."
+        },
+        {
+          "q": "Kann ich viele Bilder auf dieselbe Pixelgröße bringen?",
+          "a": "Ja. Fügen Sie alle hinzu, geben Sie die Größe einmal ein und laden Sie die Ergebnisse einzeln oder als ZIP-Datei herunter."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "bulk": {
+    "title": "Mehrere Bilder gleichzeitig verkleinern - Batch, kostenlos",
+    "description": "Mehrere Bilder gleichzeitig verkleinern: Hunderte Fotos auf eine Größe oder ein Dateilimit bringen und als ZIP laden. Kostenlos, ohne Anmeldung, privat.",
+    "h1": "Mehrere Bilder gleichzeitig verkleinern",
+    "intro": "Verkleinern Sie viele Bilder in einem Rutsch. Fügen Sie einen ganzen Ordner mit Fotos hinzu, wählen Sie eine Größe oder ein Dateigrößen-Limit für alle und laden Sie die Ergebnisse als eine ZIP-Datei herunter. Alles geschieht auf Ihrem Gerät, es gibt also keinen Upload und keine Wartezeit.",
+    "blurb": "Viele Fotos auf einmal verkleinern und als ZIP herunterladen.",
+    "steps": [
+      {
+        "title": "Alle Bilder hinzufügen",
+        "text": "Ziehen Sie viele Fotos auf die Seite, wählen Sie sie von Ihrem Gerät aus oder fügen Sie sie ein. Sie können bis zu 500 auf einmal hinzufügen."
+      },
+      {
+        "title": "Eine Größe für alle wählen",
+        "text": "Wählen Sie eine Vorlage, geben Sie Breite und Höhe, einen Prozentwert oder eine maximale Dateigröße ein. Dieselbe Einstellung gilt für jedes Bild."
+      },
+      {
+        "title": "Verkleinern und ZIP herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“. Laden Sie die Bilder einzeln oder alle zusammen als eine ZIP-Datei herunter."
+      }
+    ],
+    "tipsTitle": "Tipps für viele Bilder",
+    "tips": [
+      "Verwenden Sie einen Prozentwert, etwa 50 Prozent, wenn Ihre Bilder unterschiedlich groß sind und Sie ihre Proportionen behalten möchten.",
+      "Schalten Sie „Dateigröße begrenzen“ ein, wenn jedes Bild unter demselben Limit bleiben muss, zum Beispiel 200 KB.",
+      "Sehr große Stapel beanspruchen den Speicher Ihres Geräts. Wird es langsam, teilen Sie die Bilder in Gruppen zu 100 bis 200 auf.",
+      "Prüfen Sie die ersten Ergebnisse, bevor Sie alles herunterladen, und nutzen Sie „Einstellungen ändern“, wenn Sie etwas anpassen und erneut starten möchten."
+    ],
+    "detailsTitle": "Warum viele Bilder auf dem eigenen Gerät verkleinern?",
+    "details": [
+      "Online-Tools für viele Bilder verlangen meist, dass Sie jedes Bild auf einen Server hochladen, die Verarbeitung abwarten und die Dateien wieder herunterladen. Hier erledigt Ihr Browser die Arbeit, daher bleiben große Foto-Stapel privat und starten sofort.",
+      "Es gibt keine Begrenzung, wie oft Sie es nutzen können, kein Wasserzeichen und kein Konto. Bilder unterschiedlicher Größe in einem Stapel sind kein Problem, weil dieselbe Einstellung auf jedes einzeln angewendet wird."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie viele Bilder kann ich auf einmal verkleinern?",
+          "a": "Sie können bis zu 500 Bilder auf einmal hinzufügen. Für mehr starten Sie mehrere Stapel."
+        },
+        {
+          "q": "Kann ich alle Bilder auf dieselbe Größe bringen?",
+          "a": "Ja. Wählen Sie einmal eine Größe, einen Prozentwert oder ein Dateigrößen-Limit, und es gilt für jedes Bild im Stapel."
+        },
+        {
+          "q": "Kann ich alles auf einmal herunterladen?",
+          "a": "Ja. Mit „Alle laden (ZIP)“ erhalten Sie eine einzige ZIP-Datei mit allen verkleinerten Bildern."
+        },
+        {
+          "q": "Werden meine Fotos auf einen Server hochgeladen?",
+          "a": "Nein. Jedes Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "jpgToWebp": {
+    "title": "JPG in WebP umwandeln - kostenlos, ohne Upload",
+    "description": "JPG in WebP online im Browser umwandeln: kleinere Dateien und schnellere Seiten. Kostenlos, ohne Anmeldung, ohne Upload und mit frei wählbarer Qualität.",
+    "h1": "JPG in WebP umwandeln",
+    "intro": "WebP-Dateien sind bei ähnlicher Qualität meist kleiner als JPG-Dateien, wodurch Websites schneller laden. Fügen Sie Ihre JPG-Bilder hinzu und laden Sie in Sekunden WebP-Dateien herunter. Es wird nichts hochgeladen: Die Umwandlung geschieht auf Ihrem Gerät.",
+    "blurb": "JPG-Bilder in kleinere WebP-Dateien umwandeln.",
+    "steps": [
+      {
+        "title": "JPG-Dateien hinzufügen",
+        "text": "Ziehen Sie ein oder mehrere JPG-Bilder auf die Seite oder wählen Sie sie auf Ihrem Smartphone oder Computer aus."
+      },
+      {
+        "title": "Format prüfen",
+        "text": "WebP ist bereits als Ausgabeformat ausgewählt. Wählen Sie eine Qualität, wenn Sie eine kleinere oder schärfere Datei möchten."
+      },
+      {
+        "title": "Umwandeln und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes WebP einzeln herunter oder alle zusammen als ZIP."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umwandeln von JPG in WebP",
+    "tips": [
+      "Eine Qualität von 75 bis 85 ergibt meist eine deutlich kleinere Datei als das JPG, ohne sichtbaren Unterschied.",
+      "Behalten Sie die ursprünglichen JPG-Dateien. Manche älteren Programme und Upload-Formulare akzeptieren kein WebP.",
+      "Die Umwandlung eines JPG, das bereits stark komprimiert wurde, bringt die verlorene Qualität nicht zurück.",
+      "Fügen Sie viele Bilder auf einmal hinzu und laden Sie sie zusammen als ZIP-Datei herunter."
+    ],
+    "detailsTitle": "Warum JPG in WebP umwandeln?",
+    "details": [
+      "WebP ist ein modernes Bildformat, das alle aktuellen Browser anzeigen können. Bei Fotos sind die Dateien oft etwa ein Viertel bis ein Drittel kleiner als JPG bei ähnlicher Qualität, was Bandbreite spart und Seiten beschleunigt.",
+      "Bevor Sie Bilder auf einer Website ersetzen, prüfen Sie, ob die Stellen, an denen Sie sie verwenden, WebP akzeptieren. E-Mail-Programme, manche Drucker und viele Upload-Formulare verlangen weiterhin JPG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Ist WebP besser als JPG?",
+          "a": "Für Websites meist ja: WebP-Dateien sind bei ähnlicher Qualität kleiner. Zum Teilen und Hochladen wird JPG noch an mehr Stellen akzeptiert."
+        },
+        {
+          "q": "Ist die Qualität nach der Umwandlung gleich?",
+          "a": "Fast. Beide Formate sind verlustbehaftet, daher sieht das Bild bei hoher WebP-Qualität gleich aus, während die Datei kleiner wird."
+        },
+        {
+          "q": "Kann ich JPG auf meinem Smartphone in WebP umwandeln?",
+          "a": "Ja. Es funktioniert im Browser jedes aktuellen Smartphones, ohne dass Sie eine App installieren müssen."
+        },
+        {
+          "q": "Ist es kostenlos?",
+          "a": "Ja. Es gibt keine Anmeldung, kein Wasserzeichen und keine Begrenzung der Bildanzahl."
+        }
+      ]
+    }
+  },
+  "pngToWebp": {
+    "title": "PNG in WebP umwandeln - kostenlos, ohne Upload",
+    "description": "PNG in WebP online im Browser umwandeln: viel kleinere Dateien, Transparenz bleibt erhalten. Kostenlos, ohne Anmeldung, ohne Upload, Qualität frei wählbar.",
+    "h1": "PNG in WebP umwandeln",
+    "intro": "PNG-Dateien können sehr groß sein, vor allem bei Fotos und Screenshots. WebP behält auch die Transparenz und ist meist viel kleiner. Fügen Sie Ihre PNG-Bilder hinzu und laden Sie in Sekunden WebP-Dateien herunter. Es wird nichts hochgeladen: Die Umwandlung geschieht auf Ihrem Gerät.",
+    "blurb": "PNG-Bilder in viel kleinere WebP-Dateien umwandeln.",
+    "steps": [
+      {
+        "title": "PNG-Dateien hinzufügen",
+        "text": "Ziehen Sie ein oder mehrere PNG-Bilder auf die Seite oder wählen Sie sie auf Ihrem Smartphone oder Computer aus."
+      },
+      {
+        "title": "Format prüfen",
+        "text": "WebP ist bereits als Ausgabeformat ausgewählt. Wählen Sie eine Qualität, wenn Sie eine kleinere oder schärfere Datei möchten."
+      },
+      {
+        "title": "Umwandeln und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie jedes WebP einzeln herunter oder alle zusammen als ZIP."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umwandeln von PNG in WebP",
+    "tips": [
+      "Transparente Bereiche bleiben in WebP transparent, daher behalten Logos und freigestellte Bilder ihre Form.",
+      "Eine Qualität von 80 bis 90 sieht bei Fotos fast wie das PNG aus, bei deutlich kleinerer Datei.",
+      "Behalten Sie das ursprüngliche PNG, falls Sie eine verlustfreie Kopie brauchen. WebP mit niedrigerer Qualität entfernt einige feine Details.",
+      "Fügen Sie viele Bilder auf einmal hinzu und laden Sie sie zusammen als ZIP-Datei herunter."
+    ],
+    "detailsTitle": "Warum PNG in WebP umwandeln?",
+    "details": [
+      "PNG behält jedes Pixel exakt, weshalb ein als PNG gespeichertes Foto fünf- bis zehnmal größer sein kann als dasselbe Foto in einem verlustbehafteten Format. WebP liefert eine viel kleinere Datei und unterstützt weiterhin transparente Bereiche.",
+      "Bevor Sie Bilder auf einer Website ersetzen, prüfen Sie, ob die Stellen, an denen Sie sie verwenden, WebP akzeptieren. E-Mail-Programme, manche Drucker und viele Upload-Formulare verlangen weiterhin JPG oder PNG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Behält WebP den transparenten Hintergrund meines PNG?",
+          "a": "Ja. Transparente Bereiche des PNG bleiben in der WebP-Datei transparent."
+        },
+        {
+          "q": "Wie viel kleiner ist ein WebP als ein PNG?",
+          "a": "Bei Fotos oft um ein Vielfaches. Bei einfachen Logos und Screenshots ist der Unterschied kleiner."
+        },
+        {
+          "q": "Kann ich PNG auf meinem Smartphone in WebP umwandeln?",
+          "a": "Ja. Es funktioniert im Browser jedes aktuellen Smartphones, ohne dass Sie eine App installieren müssen."
+        },
+        {
+          "q": "Ist es kostenlos?",
+          "a": "Ja. Es gibt keine Anmeldung, kein Wasserzeichen und keine Begrenzung der Bildanzahl."
+        }
+      ]
+    }
   }
 }

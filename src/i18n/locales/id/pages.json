@@ -16,7 +16,15 @@
     "jpgToPng": "JPG ke PNG",
     "webpToJpg": "WebP ke JPG",
     "faq": "FAQ",
-    "homePage": "Beranda"
+    "homePage": "Beranda",
+    "kb10": "Ubah ukuran ke 10 KB",
+    "kb30": "Ubah ukuran ke 30 KB",
+    "kb500": "Ubah ukuran ke 500 KB",
+    "mb1": "Ubah ukuran ke 1 MB",
+    "pixels": "Ubah ukuran dalam piksel",
+    "bulk": "Ubah ukuran banyak gambar",
+    "jpgToWebp": "JPG ke WebP",
+    "pngToWebp": "PNG ke WebP"
   },
   "common": {
     "howTo": "Cara menggunakan",
@@ -105,8 +113,8 @@
     }
   },
   "kb": {
-    "title": "Kecilkan Foto ke 20KB, 50KB, 100KB, 200KB - Gratis",
-    "description": "Perkecil foto ke ukuran file KB yang pas untuk formulir dan unggahan. Gratis, tanpa daftar, dan gambar Anda tetap di perangkat.",
+    "title": "Kecilkan Foto ke 10KB, 20KB, 50KB, 100KB, 200KB",
+    "description": "Ubah ukuran gambar ke KB online gratis: kecilkan foto ke 10, 20, 30, 50, 100, 200, atau 500 KB untuk formulir dan unggahan. Tanpa daftar, tetap privat.",
     "h1": "Ubah ukuran gambar ke KB (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Banyak formulir online, portal ujian, dan situs lowongan kerja menolak foto di atas batas ukuran tertentu, seperti 50 KB atau 200 KB. Alat ini memperkecil gambar Anda sesuai batas yang dipilih sambil menjaga kualitas sebaik mungkin.",
     "steps": [
@@ -155,7 +163,7 @@
   },
   "cm": {
     "title": "Ubah Ukuran Foto dalam cm, mm, atau Inci - Gratis",
-    "description": "Atur ukuran pasti foto dalam sentimeter, milimeter, atau inci dengan DPI yang tepat. Gratis dan privat.",
+    "description": "Ubah ukuran gambar dalam cm online gratis: atur ukuran pasti foto dalam sentimeter, milimeter, atau inci dengan DPI yang tepat. Tanpa daftar, dan tetap privat.",
     "h1": "Ubah ukuran gambar dalam cm, mm, atau inci",
     "intro": "Pencetakan dan formulir resmi sering meminta ukuran dalam sentimeter atau inci, bukan piksel. Masukkan ukuran dan DPI, lalu alat ini menghitung pikselnya untuk Anda.",
     "steps": [
@@ -204,7 +212,7 @@
   },
   "passport": {
     "title": "Ukuran Foto Paspor dan Visa per Negara - Resize Gratis",
-    "description": "Ukuran foto paspor dan visa yang umum dalam mm, inci, dan piksel, plus alat gratis untuk menyesuaikan ukuran foto Anda.",
+    "description": "Ukuran foto paspor dan visa per negara dalam mm, inci, dan piksel, plus alat gratis untuk menyesuaikan ukuran foto Anda, termasuk 2x2 inci dan 35x45 mm.",
     "h1": "Ukuran foto paspor dan visa",
     "intro": "Setiap negara meminta ukuran foto yang berbeda. Pilih negara Anda di daftar Preset untuk memangkas dan mengubah ukuran foto Anda ke dimensi yang persis pada 300 DPI.",
     "note": "Aturan bisa berubah, dan setiap pengajuan bisa menambahkan persyaratan sendiri seperti warna latar, ukuran kepala, atau tanpa kacamata. Selalu periksa petunjuk resmi sebelum mengirim. Alat ini hanya mengatur ukuran; alat ini tidak memeriksa ukuran kepala atau latar belakang.",
@@ -255,7 +263,7 @@
   },
   "social": {
     "title": "Ukuran Gambar Media Sosial - Resize untuk Instagram, YouTube",
-    "description": "Ukuran gambar yang banyak dipakai untuk Instagram, Facebook, YouTube, X, LinkedIn, dan Pinterest, plus alat gratis untuk menyesuaikan gambar Anda.",
+    "description": "Ukuran gambar media sosial untuk Instagram, Facebook, YouTube, X, LinkedIn, dan Pinterest, plus alat gratis untuk menyesuaikan gambar agar muat tanpa dipangkas.",
     "h1": "Ukuran gambar media sosial",
     "intro": "Postingan terlihat paling bagus jika gambarnya sudah berbentuk tepat. Pilih platform di daftar Preset, dan alat ini memangkas serta mengubah ukuran gambar Anda agar sesuai.",
     "note": "Platform memperbarui rekomendasinya dari waktu ke waktu. Ini adalah ukuran yang banyak dipakai dan cocok dengan format saat ini.",
@@ -291,8 +299,8 @@
           "a": "1280 x 720 piksel, dengan ukuran file di bawah 2 MB."
         },
         {
-          "q": "Apakah gambar saya akan terpangkas?",
-          "a": "Dengan Pangkas untuk mengisi, bagian tengah gambar dipertahankan dan tepi yang tidak muat dipotong. Pilih Muat di dalam kotak jika Anda ingin mempertahankan semuanya."
+          "q": "Bagaimana cara mengubah ukuran gambar untuk Instagram tanpa dipangkas?",
+          "a": "Pilih ukuran Instagram di Preset, lalu pilih Muat di dalam kotak, bukan Pangkas untuk mengisi kotak. Seluruh gambar tetap terlihat dan tidak ada bagian yang terpotong. Dengan Pangkas untuk mengisi kotak, bagian tengah gambar dipertahankan dan tepi yang tidak muat dipangkas."
         }
       ]
     },
@@ -305,7 +313,7 @@
   },
   "convert": {
     "title": "Konversi Gambar JPG, PNG, WebP - Konverter Online Gratis",
-    "description": "Konversi gambar antara JPG, PNG, dan WebP di browser Anda. Gratis, tanpa daftar, dan privat.",
+    "description": "Konversi gambar antara JPG, PNG, dan WebP online gratis. Tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur. Jalan di ponsel maupun komputer.",
     "h1": "Konversi gambar antara JPG, PNG, dan WebP",
     "intro": "Pilih format yang Anda butuhkan, dan alat ini mengonversi setiap gambar yang Anda tambahkan. Tidak ada yang diunggah.",
     "steps": [
@@ -350,7 +358,7 @@
   },
   "compress": {
     "title": "Kompres Gambar Online - Perkecil Ukuran Foto Gratis",
-    "description": "Perkecil foto tanpa kehilangan kualitas yang terlihat. Gratis, tanpa daftar, dan gambar Anda tidak pernah meninggalkan perangkat.",
+    "description": "Kompres gambar online gratis: perkecil foto tanpa kehilangan kualitas yang terlihat, atau kecilkan gambar ke batas KB tertentu. Tanpa daftar, tanpa unggah.",
     "h1": "Kompres gambar online",
     "intro": "Gambar yang lebih kecil dimuat lebih cepat, muat di email, dan menghemat penyimpanan. Alat ini mengenkode ulang gambar Anda dengan kompresor modern dan memungkinkan Anda menetapkan tingkat kualitas atau ukuran file maksimum.",
     "steps": [
@@ -400,7 +408,7 @@
   },
   "kb20": {
     "title": "Kecilkan Foto ke 20KB Online - Resize Gratis",
-    "description": "Kecilkan foto atau tanda tangan ke 20 KB atau kurang langsung di browser. Gratis, tanpa daftar, dan gambar Anda tidak keluar dari perangkat.",
+    "description": "Kecilkan foto ke 20KB online gratis: perkecil foto atau tanda tangan ke 20 KB atau kurang di browser. Tanpa daftar, dan gambar Anda tidak keluar dari perangkat.",
     "h1": "Ubah ukuran gambar ke 20 KB",
     "intro": "Batas 20 KB umum dipakai untuk pas foto kecil dan tanda tangan pada formulir ujian, lowongan kerja, dan layanan pemerintah. Tambahkan gambar Anda, lalu alat ini menurunkan kualitas langkah demi langkah dan memperkecil dimensi hanya jika perlu, sampai file di bawah 20 KB (20.000 byte).",
     "blurb": "Foto atau tanda tangan di bawah 20 KB.",
@@ -453,7 +461,7 @@
   },
   "kb50": {
     "title": "Kecilkan Foto ke 50KB Online - Resize Gratis",
-    "description": "Kompres foto ke 50 KB atau kurang untuk formulir ujian, portal lowongan kerja, dan unggahan KTP. Gratis, privat, dan berjalan di browser.",
+    "description": "Kecilkan foto ke 50KB online gratis: kompres foto ke 50 KB atau kurang untuk formulir ujian, portal lowongan kerja, dan unggahan KTP. Tanpa daftar, privat.",
     "h1": "Ubah ukuran gambar ke 50 KB",
     "intro": "50 KB adalah salah satu batas yang paling sering diminta untuk pas foto pada formulir pendaftaran online. Halaman ini menetapkan batasnya untuk Anda: tambahkan foto, lalu unduh JPG di bawah 50 KB (50.000 byte) yang tetap tajam.",
     "blurb": "Foto di bawah 50 KB untuk formulir dan portal.",
@@ -506,7 +514,7 @@
   },
   "kb100": {
     "title": "Kecilkan Foto ke 100KB Online - Kompres Gambar Gratis",
-    "description": "Perkecil gambar ke 100 KB atau kurang untuk lamaran kerja, KYC, dan unggah dokumen. Gratis, privat, tanpa daftar.",
+    "description": "Kecilkan foto ke 100KB online gratis: perkecil gambar ke 100 KB atau kurang untuk lamaran kerja, KYC, dan unggah dokumen. Tanpa daftar, dan sepenuhnya privat.",
     "h1": "Ubah ukuran gambar ke 100 KB",
     "intro": "100 KB adalah batas umum untuk foto lamaran, hasil pindai KTP, dan foto profil. Tambahkan gambar Anda dan dapatkan JPG di bawah 100 KB (100.000 byte) dengan kualitas tertinggi yang masih muat.",
     "blurb": "Gambar di bawah 100 KB untuk lamaran dan KYC.",
@@ -559,7 +567,7 @@
   },
   "kb200": {
     "title": "Kecilkan Foto ke 200KB Online - Kompres Gambar Gratis",
-    "description": "Kompres gambar ke 200 KB atau kurang untuk visa, KYC, dan unggahan layanan pemerintah. Gratis, privat, dan berjalan di browser.",
+    "description": "Kecilkan foto ke 200KB online gratis: kompres gambar ke 200 KB atau kurang untuk visa, KYC, dan unggahan layanan pemerintah. Tanpa daftar, dan privat.",
     "h1": "Ubah ukuran gambar ke 200 KB",
     "intro": "200 KB adalah batas atas yang umum untuk foto visa, dokumen KYC, dan unggahan layanan pemerintah. Tambahkan gambar Anda dan unduh JPG di bawah 200 KB (200.000 byte) yang menyimpan sebanyak mungkin detail.",
     "blurb": "Gambar di bawah 200 KB untuk visa dan layanan pemerintah.",
@@ -612,7 +620,7 @@
   },
   "signature": {
     "title": "Ubah Ukuran Tanda Tangan Online - 10-20KB Gratis",
-    "description": "Ubah ukuran gambar tanda tangan sesuai permintaan formulir online, misalnya 10 KB atau 20 KB dan ukuran piksel tertentu. Gratis dan privat.",
+    "description": "Ubah ukuran tanda tangan online gratis: kecilkan gambar tanda tangan ke 10 KB atau 20 KB dan ukuran piksel tertentu untuk formulir online. Tanpa daftar, privat.",
     "h1": "Ubah ukuran gambar tanda tangan",
     "intro": "Formulir online biasanya meminta gambar tanda tangan yang kecil dan jelas: beberapa KB, dan sering dengan lebar dan tinggi yang ditentukan. Tambahkan foto atau hasil pindai tanda tangan Anda dan dapatkan file yang memenuhi ukuran file sekaligus ukuran pikselnya.",
     "blurb": "Kecilkan tanda tangan sesuai ukuran file yang diminta formulir.",
@@ -665,7 +673,7 @@
   },
   "pngToJpg": {
     "title": "Konverter PNG ke JPG - Online Gratis, Tanpa Unggah",
-    "description": "Ubah atau konversi gambar PNG ke JPG langsung di browser. Gratis, tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
+    "description": "Konversi PNG ke JPG online gratis: ubah gambar PNG menjadi file JPG yang lebih kecil di browser. Tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
     "h1": "Konversi PNG ke JPG",
     "intro": "Ubah gambar PNG menjadi file JPG yang lebih kecil dalam satu langkah. JPG diterima hampir di mana saja dan jauh lebih kecil untuk foto. Tambahkan file PNG Anda, tekan tombolnya, lalu unduh file JPG-nya, atau satu ZIP berisi semuanya.",
     "blurb": "Ubah file PNG menjadi JPG yang lebih kecil.",
@@ -718,7 +726,7 @@
   },
   "jpgToPng": {
     "title": "Konverter JPG ke PNG - Online Gratis, Tanpa Unggah",
-    "description": "Ubah atau konversi gambar JPG ke PNG langsung di browser. Gratis, tanpa daftar, tanpa unggah, dan tanpa watermark.",
+    "description": "Konversi JPG ke PNG online gratis di browser. Tanpa daftar, tanpa unggah, dan tanpa watermark, serta jalan di ponsel maupun komputer.",
     "h1": "Konversi JPG ke PNG",
     "intro": "Butuh PNG untuk logo, aplikasi desain, atau formulir yang tidak menerima JPG? Tambahkan file JPG Anda dan unduh file PNG lossless dalam satu langkah. Semuanya berjalan di browser Anda.",
     "blurb": "Ubah file JPG menjadi PNG lossless.",
@@ -771,7 +779,7 @@
   },
   "webpToJpg": {
     "title": "Konverter WebP ke JPG - Online Gratis, Tanpa Unggah",
-    "description": "Ubah atau konversi gambar WebP ke JPG langsung di browser. Gratis, tanpa daftar, tanpa unggah, dan jalan di ponsel maupun komputer.",
+    "description": "Konversi WebP ke JPG online gratis: ubah gambar WebP menjadi JPG yang bisa dibuka di mana saja. Tanpa daftar, tanpa unggah, jalan di ponsel maupun komputer.",
     "h1": "Konversi WebP ke JPG",
     "intro": "Situs web sering menyimpan gambar sebagai WebP, tetapi banyak program, printer, dan formulir unggah hanya menerima JPG. Tambahkan gambar WebP Anda dan unduh file JPG yang bisa dibuka di mana saja.",
     "blurb": "Ubah gambar WebP menjadi JPG yang bisa dibuka di mana saja.",
@@ -828,5 +836,429 @@
     "h1": "Pertanyaan yang sering diajukan",
     "intro": "Jawaban singkat tentang alat ubah ukuran gambar gratis, dikelompokkan per tugas. Semua berjalan di browser Anda, jadi foto tidak pernah diunggah.",
     "jump": "Langsung ke"
+  },
+  "kb10": {
+    "title": "Kecilkan Foto ke 10KB Online - Resize Gratis",
+    "description": "Kecilkan foto ke 10KB online gratis: perkecil foto atau tanda tangan ke 10 KB atau kurang di browser. Tanpa daftar, tanpa unggah, dan gambar Anda tetap privat.",
+    "h1": "Ubah ukuran gambar ke 10 KB",
+    "intro": "10 KB adalah batas yang sangat kecil, umum untuk tanda tangan, thumbnail, dan kolom foto kecil pada formulir pendaftaran. Halaman ini menetapkan batas 10 KB untuk Anda: tambahkan gambar, lalu unduh JPG di bawah 10 KB (10.000 byte).",
+    "blurb": "Tanda tangan atau foto kecil di bawah 10 KB.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Hasil pindai tanda tangan maupun foto dari ponsel bisa dipakai."
+      },
+      {
+        "title": "Pertahankan batas 10 KB",
+        "text": "10 KB sudah terpilih. Jika formulir juga menyebut piksel, misalnya 140 x 60, masukkan dulu di bagian Ukuran: gambar kecil jauh lebih mudah dimuatkan."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh JPG-nya. Hasilnya menampilkan ukuran persisnya dalam KB."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 10 KB",
+    "tips": [
+      "Perkecil ukuran piksel lebih dulu. Gambar sekitar 200 x 100 piksel jauh lebih mudah muat di 10 KB daripada foto ponsel utuh.",
+      "Latar polos paling mudah dikompresi. Untuk tanda tangan, gunakan tinta gelap di kertas putih dan pangkas margin kosongnya.",
+      "JPG adalah format yang tepat di sini. Foto yang disimpan sebagai PNG jauh lebih besar dan jarang muat di 10 KB.",
+      "Jika portal masih bilang file terlalu besar, turunkan batasnya sedikit, misalnya ke 9 KB, lalu jalankan lagi."
+    ],
+    "detailsTitle": "Seperti apa gambar 10 KB",
+    "details": [
+      "JPG 10 KB sangat kecil, kira-kira sebesar dokumen teks pendek. Pada sekitar 200 x 100 piksel, tanda tangan tetap terbaca, dan pas foto kecil sekitar 100 x 120 piksel masih memperlihatkan wajah yang bisa dikenali. Gambar besar tidak bisa mencapai 10 KB tanpa menjadi buram.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat. Kualitas JPG diturunkan secara bertahap dan ukuran gambar baru diperkecil jika terpaksa, sehingga Anda mendapat file paling tajam yang lolos. Anda melihat ukuran hasilnya sebelum mengunduh."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengubah ukuran gambar ke 10 KB?",
+          "a": "Tambahkan gambar, pertahankan batas 10 KB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini menurunkan kualitas dan, jika perlu, ukuran gambar sampai JPG-nya 10 KB atau lebih kecil."
+        },
+        {
+          "q": "Bisakah tanda tangan dikecilkan ke 10 KB?",
+          "a": "Bisa. Pangkas tanda tangan rapat di sekitar tintanya, tambahkan di sini, dan pertahankan batas 10 KB. Tanda tangan yang kecil dan berkontras tinggi sangat mudah dikompresi."
+        },
+        {
+          "q": "Apakah ukuran gambarnya akan persis 10 KB?",
+          "a": "Ukurannya 10 KB atau lebih kecil. Alat ini menargetkan sedikit di bawah batas agar file lolos di semua sistem."
+        },
+        {
+          "q": "Apakah gambar saya diunggah ke mana pun?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "kb30": {
+    "title": "Kecilkan Foto ke 30KB Online - Resize Gratis",
+    "description": "Kecilkan foto ke 30KB online gratis: kompres foto atau tanda tangan ke 30 KB atau kurang untuk formulir dan portal ujian. Tanpa daftar, tetap di perangkat.",
+    "h1": "Ubah ukuran gambar ke 30 KB",
+    "intro": "Batas 30 KB umum pada formulir pendaftaran ujian, lowongan kerja, dan instansi pemerintah, tempat foto dan tanda tangan diunggah di kolom terpisah. Halaman ini menetapkan batasnya untuk Anda: tambahkan foto, lalu unduh JPG di bawah 30 KB (30.000 byte).",
+    "blurb": "Foto di bawah 30 KB untuk formulir pendaftaran.",
+    "steps": [
+      {
+        "title": "Tambahkan foto Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto ponsel yang besar tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 30 KB",
+        "text": "30 KB sudah terpilih. Jika formulir menyebut ukuran piksel, misalnya 200 x 230, masukkan dulu di bagian Ukuran."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh JPG-nya. Hasilnya menampilkan ukuran persisnya dalam KB."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 30 KB",
+    "tips": [
+      "Tetapkan dulu ukuran piksel sesuai formulir, baru gunakan batas 30 KB. Gambar kecil mudah dimuatkan.",
+      "Foto dengan latar polos mencapai 30 KB pada kualitas yang jauh lebih tinggi daripada foto dengan latar ramai.",
+      "Gunakan alat yang sama untuk kolom tanda tangan: pangkas rapat di sekitar tintanya dan pertahankan batas yang diminta formulir.",
+      "Jika portal masih bilang file terlalu besar, jalankan lagi dengan batas 28 KB."
+    ],
+    "detailsTitle": "Mengapa 30 KB cocok untuk foto pendaftaran",
+    "details": [
+      "Pada 30 KB, pas foto sekitar 200 x 230 piksel tetap memperlihatkan wajah yang jelas dan tepi yang bersih. Filenya cukup kecil untuk koneksi lambat dan formulir unggah yang ketat, tetapi tetap tajam di layar.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasilnya sebelum Anda mengunduh. Anda bisa mengubah batas lalu menjalankannya lagi tanpa menambahkan foto dua kali."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengompres foto ke 30 KB?",
+          "a": "Tambahkan foto, pertahankan batas 30 KB, lalu tekan Ubah ukuran gambar. Alat ini menurunkan kualitas JPG secara bertahap dan memperkecil ukuran gambar hanya jika terpaksa, sehingga Anda mendapat hasil paling tajam yang masih muat."
+        },
+        {
+          "q": "Bisakah foto saya dibuat 30 KB untuk formulir ujian?",
+          "a": "Bisa. Periksa ukuran piksel dan ukuran file yang diminta formulir, masukkan pikselnya di bagian Ukuran, dan pertahankan batas 30 KB. Setiap formulir punya aturannya sendiri, jadi selalu baca dulu."
+        },
+        {
+          "q": "Format apa yang sebaiknya dipakai untuk foto 30 KB?",
+          "a": "JPG. Format ini menghasilkan file terkecil untuk foto dan diterima hampir di semua portal."
+        },
+        {
+          "q": "Apakah foto saya disimpan?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "kb500": {
+    "title": "Kecilkan Foto ke 500KB Online - Kompres Gambar Gratis",
+    "description": "Kecilkan foto ke 500KB online gratis: kompres foto ke 500 KB atau kurang untuk email, lamaran kerja, dan unggahan, tetap tajam. Tanpa daftar, privat.",
+    "h1": "Ubah ukuran gambar ke 500 KB",
+    "intro": "500 KB adalah batas yang umum untuk lampiran email, lamaran kerja, dan formulir unggah yang tetap menginginkan gambar yang bagus. Halaman ini menetapkan batasnya untuk Anda: tambahkan gambar, lalu unduh file di bawah 500 KB (500.000 byte) yang tetap tajam.",
+    "blurb": "Gambar di bawah 500 KB yang tetap tajam.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto ponsel berukuran beberapa MB tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 500 KB",
+        "text": "500 KB sudah terpilih. Anda juga bisa memasukkan lebar atau tinggi di bagian Ukuran, misalnya 1600 piksel, sebelum batas diterapkan."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya dalam KB."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 500 KB",
+    "tips": [
+      "Kebanyakan foto ponsel berukuran beberapa MB. Alat ini memperkecilnya ke 500 KB dan menjaganya cukup tajam untuk dilihat di layar.",
+      "Jika gambar hanya untuk layar, lebar 1600 sampai 2000 piksel sudah lebih dari cukup dan mudah muat di 500 KB.",
+      "Simpan foto sebagai JPG atau WebP. PNG lebih cocok untuk logo dan tangkapan layar, tetapi foto yang disimpan sebagai PNG biasanya jauh di atas 500 KB.",
+      "Jangan memperbesar gambar yang kecil. File jadi lebih besar tanpa menambah detail."
+    ],
+    "detailsTitle": "Sebagus apa gambar 500 KB?",
+    "details": [
+      "Batas 500 KB kira-kira sepuluh kali ukuran foto formulir 50 KB, jadi ada ruang untuk detail yang sesungguhnya. Foto sekitar 1600 x 1200 piksel biasanya muat di 500 KB sebagai JPG dan terlihat tajam di laptop maupun ponsel.",
+      "Alat ini menurunkan kualitas secara bertahap dan hanya memperkecil ukuran piksel jika batas tidak bisa dicapai dengan cara lain. Anda melihat ukuran hasilnya sebelum mengunduh."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara memperkecil gambar ke 500 KB?",
+          "a": "Tambahkan gambar, pertahankan batas 500 KB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Apakah foto 500 KB masih terlihat bagus?",
+          "a": "Ya, untuk dilihat di layar. Kebanyakan foto tetap punya detail yang jelas di 500 KB. Untuk cetakan besar, dibutuhkan file yang lebih besar."
+        },
+        {
+          "q": "Bisakah saya mengubah ukuran beberapa gambar ke 500 KB sekaligus?",
+          "a": "Bisa. Tambahkan gambar sebanyak yang Anda mau. Masing-masing diubah ke 500 KB atau lebih kecil, dan Anda bisa mengunduh semuanya sebagai satu file ZIP."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "mb1": {
+    "title": "Kecilkan Foto ke 1MB Online - Kompres Gambar Gratis",
+    "description": "Kecilkan foto ke 1MB online gratis: perkecil foto ke 1 MB atau kurang untuk email, formulir, dan unggahan tanpa penurunan terlihat. Tanpa daftar, privat.",
+    "h1": "Ubah ukuran gambar ke 1 MB",
+    "intro": "Batas 1 MB umum pada layanan email, formulir pendaftaran, dan situs yang menerima unggahan foto. Halaman ini menetapkan batasnya untuk Anda: tambahkan gambar, lalu unduh file di bawah 1 MB (1.000.000 byte) yang tetap terlihat tajam.",
+    "blurb": "Gambar di bawah 1 MB untuk email dan unggahan.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto ponsel berukuran beberapa MB tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 1 MB",
+        "text": "1 MB sudah terpilih. Alat ini menghitungnya sebagai 1.000.000 byte, jadi file lolos di sistem yang menghitung 1.000 KB maupun yang menghitung 1.024 KB."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 1 MB",
+    "tips": [
+      "Foto ponsel sering berukuran 3 sampai 8 MB. Memperkecil ukuran piksel sedikit, misalnya menjadi lebar 2000 piksel, membuatnya di bawah 1 MB dengan hampir tanpa penurunan yang terlihat.",
+      "Foto paling pas di 1 MB sebagai JPG atau WebP. Foto yang disimpan sebagai PNG biasanya beberapa kali lebih besar.",
+      "Untuk mengirim banyak foto lewat email, tambahkan semuanya sekaligus lalu unduh file ZIP-nya.",
+      "Tangkapan layar dan logo lebih baik sebagai PNG: ukurannya sudah kecil dan tepinya tetap tajam."
+    ],
+    "detailsTitle": "Arti 1 MB untuk sebuah foto",
+    "details": [
+      "Satu megabyte adalah 1.000 kilobyte. JPG 1 MB dapat memuat foto sekitar 2000 x 1500 piksel dengan detail yang bagus, lebih dari yang ditampilkan kebanyakan layar. Itu sebabnya 1 MB menjadi batas yang populer: cukup kecil untuk dikirim, cukup besar untuk terlihat bagus.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasil yang persis sebelum Anda mengunduh. Jika formulir meminta file yang lebih kecil, pilih batas yang lebih rendah lalu jalankan lagi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara memperkecil gambar ke 1 MB?",
+          "a": "Tambahkan gambar, pertahankan batas 1 MB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Apakah 1 MB sama dengan 1.024 KB?",
+          "a": "Pada sebagian sistem, satu megabyte dihitung 1.024 kilobyte, pada yang lain 1.000. Alat ini memakai nilai yang lebih kecil (1.000 KB, atau 1.000.000 byte), sehingga file lolos di keduanya."
+        },
+        {
+          "q": "Apakah ukuran pikselnya ikut mengecil?",
+          "a": "Hanya jika terpaksa. Alat ini menurunkan kualitas lebih dulu dan baru memperkecil ukuran piksel jika batas tidak bisa dicapai dengan cara lain."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "pixels": {
+    "title": "Ubah Ukuran Gambar dalam Piksel - Atur Lebar dan Tinggi",
+    "description": "Ubah ukuran gambar dalam piksel online gratis: masukkan lebar dan tinggi persis, jaga rasio aspek, muat atau pangkas. Tanpa daftar, gambar tetap di perangkat.",
+    "h1": "Ubah ukuran gambar dalam piksel",
+    "intro": "Tetapkan lebar dan tinggi gambar yang persis dalam piksel, untuk situs web, formulir pendaftaran, thumbnail, atau postingan media sosial. Tambahkan gambar, ketik ukurannya, lalu unduh hasilnya. Rasio aspek dikunci secara bawaan, jadi tidak ada yang terlihat melar.",
+    "blurb": "Atur lebar dan tinggi persis dalam piksel.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret gambar ke halaman ini, pilih dari perangkat Anda, atau tempel. Anda bisa menambahkan banyak sekaligus."
+      },
+      {
+        "title": "Masukkan lebar dan tinggi",
+        "text": "Ketik lebar, tinggi, atau keduanya. Biarkan Kunci rasio aspek menyala agar gambar tidak melar. Jika Anda mengisi keduanya, pilih apakah gambar dimuatkan, dipangkas, atau diregangkan."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar. Unduh tiap gambar satu per satu atau ambil semuanya dalam satu file ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengubah ukuran dalam piksel",
+    "tips": [
+      "Perkecil gambar kapan pun bisa. Memperbesar tidak menambah detail, jadi gambar yang diperbesar terlihat buram.",
+      "Isi lebarnya saja untuk menjaga proporsi. Tingginya mengikuti secara otomatis.",
+      "Untuk mengisi ukuran persis seperti 1080 x 1080 piksel tanpa bilah kosong, pilih Pangkas untuk mengisi kotak. Untuk mempertahankan seluruh gambar, pilih Muat di dalam kotak.",
+      "Banyak formulir juga menyebut ukuran file. Aktifkan Batasi ukuran file untuk memenuhi kedua batas sekaligus."
+    ],
+    "detailsTitle": "Hubungan antara piksel dan ukuran file",
+    "details": [
+      "Piksel adalah titik terkecil dari sebuah gambar. Semakin banyak piksel berarti semakin banyak detail dan file yang lebih besar, itulah sebabnya foto ponsel 4000 piksel jauh lebih besar daripada yang 1000 piksel. Untuk layar, lebar 1200 sampai 2000 piksel biasanya sudah lebih dari cukup.",
+      "Alat ini memakai filter pengubah ukuran berkualitas tinggi, jadi gambar yang diperkecil tetap tajam. Alat ini bekerja di perangkat Anda, untuk satu gambar atau ratusan sekaligus."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengubah ukuran gambar ke ukuran piksel tertentu?",
+          "a": "Tambahkan gambar, ketik lebar dan tinggi di bagian Ukuran, lalu tekan Ubah ukuran gambar. Pastikan satuannya diatur ke px."
+        },
+        {
+          "q": "Bagaimana menjaga proporsi saat mengubah ukuran?",
+          "a": "Biarkan Kunci rasio aspek menyala dan isi lebarnya saja atau tingginya saja. Sisi yang lain mengikuti secara otomatis."
+        },
+        {
+          "q": "Bisakah saya mengubah banyak gambar ke ukuran piksel yang sama?",
+          "a": "Bisa. Tambahkan semuanya, masukkan ukurannya sekali, lalu unduh hasilnya satu per satu atau sebagai file ZIP."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "bulk": {
+    "title": "Ubah Ukuran Banyak Foto Sekaligus - Resize Massal Gratis",
+    "description": "Ubah ukuran ratusan foto sekaligus ke satu ukuran atau batas file, lalu unduh ZIP. Resize massal gratis, tanpa daftar, dan privat di browser Anda.",
+    "h1": "Ubah ukuran banyak gambar sekaligus",
+    "intro": "Ubah ukuran banyak gambar sekaligus. Tambahkan satu folder penuh foto, pilih satu ukuran atau satu batas ukuran file untuk semuanya, lalu unduh hasilnya sebagai satu file ZIP. Semuanya berlangsung di perangkat Anda, jadi tanpa unggah dan tanpa menunggu.",
+    "blurb": "Ubah ukuran banyak foto sekaligus dan unduh ZIP.",
+    "steps": [
+      {
+        "title": "Tambahkan semua gambar Anda",
+        "text": "Seret banyak foto ke halaman ini, pilih dari perangkat Anda, atau tempel. Anda bisa menambahkan hingga 500 sekaligus."
+      },
+      {
+        "title": "Pilih satu ukuran untuk semua",
+        "text": "Pilih Preset, masukkan lebar dan tinggi, persentase, atau ukuran file maksimum. Pengaturan yang sama diterapkan ke setiap gambar."
+      },
+      {
+        "title": "Ubah ukuran dan unduh ZIP",
+        "text": "Tekan Ubah ukuran gambar. Unduh gambar satu per satu atau semuanya sekaligus dalam satu file ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengubah ukuran banyak gambar",
+    "tips": [
+      "Gunakan persentase, misalnya 50 persen, jika gambar Anda berukuran berbeda-beda dan Anda ingin menjaga proporsinya.",
+      "Aktifkan Batasi ukuran file jika setiap gambar harus tetap di bawah batas yang sama, misalnya 200 KB.",
+      "Kumpulan yang sangat besar memakai memori perangkat Anda. Jika jadi lambat, bagi gambar menjadi kelompok berisi 100 sampai 200.",
+      "Periksa dulu beberapa hasil pertama sebelum mengunduh semuanya, dan gunakan Ubah pengaturan jika ingin menyesuaikan lalu menjalankannya lagi."
+    ],
+    "detailsTitle": "Mengapa mengubah ukuran massal di perangkat sendiri?",
+    "details": [
+      "Pengubah ukuran massal online biasanya mengharuskan Anda mengunggah setiap gambar ke server, menunggu pemrosesan, lalu mengunduh filenya lagi. Di sini pekerjaannya dilakukan browser Anda, sehingga foto dalam jumlah besar tetap privat dan langsung diproses.",
+      "Tidak ada batas berapa kali Anda bisa memakainya, tanpa watermark, dan tanpa akun. Gambar dengan ukuran berbeda dalam satu kumpulan tidak masalah, karena pengaturan yang sama diterapkan ke masing-masing secara terpisah."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Berapa banyak gambar yang bisa diubah ukurannya sekaligus?",
+          "a": "Anda bisa menambahkan hingga 500 gambar sekaligus. Untuk lebih banyak, jalankan beberapa kumpulan."
+        },
+        {
+          "q": "Bisakah semua gambar diubah ke ukuran yang sama?",
+          "a": "Bisa. Pilih ukuran, persentase, atau batas ukuran file sekali saja, dan itu diterapkan ke setiap gambar dalam kumpulan."
+        },
+        {
+          "q": "Bisakah saya mengunduh semuanya sekaligus?",
+          "a": "Bisa. Gunakan Unduh semua (ZIP) untuk mendapatkan satu file ZIP berisi setiap gambar yang sudah diubah ukurannya."
+        },
+        {
+          "q": "Apakah foto saya diunggah ke server?",
+          "a": "Tidak. Setiap gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "jpgToWebp": {
+    "title": "Konverter JPG ke WebP - Online Gratis, Tanpa Unggah",
+    "description": "Konversi JPG ke WebP online di browser untuk file lebih kecil dan halaman lebih cepat. Gratis, tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
+    "h1": "Konversi JPG ke WebP",
+    "intro": "File WebP biasanya lebih kecil daripada JPG pada kualitas yang mirip, sehingga situs web dimuat lebih cepat. Tambahkan gambar JPG Anda dan unduh file WebP dalam hitungan detik. Tidak ada yang diunggah: konversi berlangsung di perangkat Anda.",
+    "blurb": "Ubah gambar JPG menjadi file WebP yang lebih kecil.",
+    "steps": [
+      {
+        "title": "Tambahkan file JPG Anda",
+        "text": "Seret satu atau banyak gambar JPG ke halaman ini, atau pilih dari ponsel atau komputer Anda."
+      },
+      {
+        "title": "Periksa formatnya",
+        "text": "WebP sudah terpilih sebagai format hasil. Pilih kualitas jika Anda ingin file yang lebih kecil atau lebih tajam."
+      },
+      {
+        "title": "Konversi dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh tiap WebP, atau semuanya sebagai ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi JPG ke WebP",
+    "tips": [
+      "Kualitas 75 sampai 85 biasanya menghasilkan file yang jelas lebih kecil daripada JPG-nya tanpa perbedaan yang terlihat.",
+      "Simpan file JPG aslinya. Sebagian program lama dan formulir unggah tidak menerima WebP.",
+      "Mengonversi JPG yang sudah dikompres berat tidak mengembalikan kualitas yang hilang.",
+      "Tambahkan banyak gambar sekaligus dan unduh bersama-sama sebagai file ZIP."
+    ],
+    "detailsTitle": "Mengapa mengonversi JPG ke WebP?",
+    "details": [
+      "WebP adalah format gambar modern yang bisa ditampilkan semua browser terkini. Untuk foto, WebP sering membuat file sekitar seperempat sampai sepertiga lebih kecil daripada JPG pada kualitas yang mirip, sehingga menghemat bandwidth dan mempercepat halaman.",
+      "Sebelum mengganti gambar di situs web, pastikan tempat Anda memakainya menerima WebP. Program email, sebagian printer, dan banyak formulir unggah masih meminta JPG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Apakah WebP lebih baik daripada JPG?",
+          "a": "Untuk situs web, biasanya ya: file WebP lebih kecil pada kualitas yang mirip. Untuk berbagi dan mengunggah, JPG masih diterima di lebih banyak tempat."
+        },
+        {
+          "q": "Apakah kualitasnya sama setelah dikonversi?",
+          "a": "Hampir. Kedua format bersifat lossy, jadi kualitas WebP yang tinggi menjaga gambar tetap terlihat sama sementara filenya lebih kecil."
+        },
+        {
+          "q": "Bisakah mengonversi JPG ke WebP di ponsel?",
+          "a": "Bisa. Berfungsi di browser ponsel modern mana pun, tanpa perlu memasang aplikasi."
+        },
+        {
+          "q": "Apakah gratis?",
+          "a": "Ya. Tanpa pendaftaran, tanpa watermark, dan tanpa batas jumlah gambar."
+        }
+      ]
+    }
+  },
+  "pngToWebp": {
+    "title": "Konverter PNG ke WebP - Online Gratis, Tanpa Unggah",
+    "description": "Konversi PNG ke WebP online di browser: file jauh lebih kecil dan transparansi tetap ada. Gratis, tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
+    "h1": "Konversi PNG ke WebP",
+    "intro": "File PNG bisa sangat besar, terutama untuk foto dan tangkapan layar. WebP juga mempertahankan transparansi dan biasanya jauh lebih kecil. Tambahkan gambar PNG Anda dan unduh file WebP dalam hitungan detik. Tidak ada yang diunggah: konversi berlangsung di perangkat Anda.",
+    "blurb": "Ubah gambar PNG menjadi file WebP yang jauh lebih kecil.",
+    "steps": [
+      {
+        "title": "Tambahkan file PNG Anda",
+        "text": "Seret satu atau banyak gambar PNG ke halaman ini, atau pilih dari ponsel atau komputer Anda."
+      },
+      {
+        "title": "Periksa formatnya",
+        "text": "WebP sudah terpilih sebagai format hasil. Pilih kualitas jika Anda ingin file yang lebih kecil atau lebih tajam."
+      },
+      {
+        "title": "Konversi dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh tiap WebP, atau semuanya sebagai ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi PNG ke WebP",
+    "tips": [
+      "Area transparan tetap transparan di WebP, jadi logo dan gambar potongan tetap mempertahankan bentuknya.",
+      "Kualitas 80 sampai 90 terlihat hampir sama dengan PNG untuk foto, dengan file yang jauh lebih kecil.",
+      "Simpan PNG aslinya jika Anda butuh salinan lossless. WebP pada kualitas yang lebih rendah membuang sebagian detail halus.",
+      "Tambahkan banyak gambar sekaligus dan unduh bersama-sama sebagai file ZIP."
+    ],
+    "detailsTitle": "Mengapa mengonversi PNG ke WebP?",
+    "details": [
+      "PNG menyimpan setiap piksel dengan persis, itulah sebabnya foto yang disimpan sebagai PNG bisa lima sampai sepuluh kali lebih besar daripada foto yang sama dalam format lossy. WebP memberi file yang jauh lebih kecil dan tetap mendukung area transparan.",
+      "Sebelum mengganti gambar di situs web, pastikan tempat Anda memakainya menerima WebP. Program email, sebagian printer, dan banyak formulir unggah masih meminta JPG atau PNG."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Apakah WebP mempertahankan latar belakang transparan pada PNG saya?",
+          "a": "Ya. Area transparan pada PNG tetap transparan di file WebP."
+        },
+        {
+          "q": "Seberapa kecil WebP dibandingkan PNG?",
+          "a": "Untuk foto, sering kali beberapa kali lebih kecil. Untuk logo dan tangkapan layar yang sederhana, selisihnya lebih kecil."
+        },
+        {
+          "q": "Bisakah mengonversi PNG ke WebP di ponsel?",
+          "a": "Bisa. Berfungsi di browser ponsel modern mana pun, tanpa perlu memasang aplikasi."
+        },
+        {
+          "q": "Apakah gratis?",
+          "a": "Ya. Tanpa pendaftaran, tanpa watermark, dan tanpa batas jumlah gambar."
+        }
+      ]
+    }
   }
 }

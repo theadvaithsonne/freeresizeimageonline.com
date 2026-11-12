@@ -1,24 +1,34 @@
-# Addresses to submit for indexing (generated 2026-11-11 from https://freeresizeimageonline.com/sitemap.xml, 480 pages)
+# Addresses to submit for indexing (updated 2026-11-12 from https://freeresizeimageonline.com/sitemap.xml, 640 pages)
 #
 # Google Search Console: paste ONE address in the top search bar (URL inspection) -> Request indexing. Google allows about 10 requests a day,
-# so use one batch per day. Also add the sitemap once: Sitemaps -> https://freeresizeimageonline.com/sitemap.xml (Google then finds all 480 pages by itself).
-# Bing Webmaster Tools: add the sitemap, and paste many addresses at once under Submit URLs.
+# so use one batch per day (the first batches are the most searched pages). Also add the sitemap once: Sitemaps -> https://freeresizeimageonline.com/sitemap.xml
+# (Google then finds all 640 pages by itself). Bing Webmaster Tools: add the sitemap, and paste many addresses at once under Submit URLs.
 
 ## Day 1 (Google)
 https://freeresizeimageonline.com/
-https://freeresizeimageonline.com/resize-image-to-kb/
-https://freeresizeimageonline.com/resize-image-to-50kb/
 https://freeresizeimageonline.com/resize-image-to-20kb/
 https://freeresizeimageonline.com/resize-image-to-100kb/
+https://freeresizeimageonline.com/resize-image-to-50kb/
 https://freeresizeimageonline.com/resize-image-to-200kb/
+https://freeresizeimageonline.com/resize-image-to-1mb/
+https://freeresizeimageonline.com/resize-image-to-30kb/
+https://freeresizeimageonline.com/resize-image-to-kb/
+https://freeresizeimageonline.com/resize-image-in-pixels/
+https://freeresizeimageonline.com/resize-image-to-10kb/
+
+## Day 2 (Google)
+https://freeresizeimageonline.com/resize-image-to-500kb/
+https://freeresizeimageonline.com/bulk-image-resizer/
+https://freeresizeimageonline.com/compress-image/
+https://freeresizeimageonline.com/convert-image/
+https://freeresizeimageonline.com/jpg-to-webp/
+https://freeresizeimageonline.com/png-to-webp/
 https://freeresizeimageonline.com/passport-photo-size/
 https://freeresizeimageonline.com/resize-image-in-cm/
 https://freeresizeimageonline.com/resize-signature/
 https://freeresizeimageonline.com/social-media-image-sizes/
 
-## Day 2 (Google)
-https://freeresizeimageonline.com/compress-image/
-https://freeresizeimageonline.com/convert-image/
+## Day 3 (Google)
 https://freeresizeimageonline.com/png-to-jpg/
 https://freeresizeimageonline.com/jpg-to-png/
 https://freeresizeimageonline.com/webp-to-jpg/
@@ -27,10 +37,10 @@ https://freeresizeimageonline.com/guides/
 https://freeresizeimageonline.com/guides/reduce-image-size/
 https://freeresizeimageonline.com/guides/jpg-vs-png-vs-webp/
 https://freeresizeimageonline.com/guides/photo-size-for-online-forms/
-
-## Day 3 (Google)
 https://freeresizeimageonline.com/about/
 https://freeresizeimageonline.com/contact/
+
+## Day 4 (Google)
 https://freeresizeimageonline.com/privacy/
 https://freeresizeimageonline.com/terms/
 https://freeresizeimageonline.com/hi/
@@ -39,10 +49,10 @@ https://freeresizeimageonline.com/pt-br/
 https://freeresizeimageonline.com/fr/
 https://freeresizeimageonline.com/de/
 https://freeresizeimageonline.com/id/
-
-## Day 4 (Google)
 https://freeresizeimageonline.com/ar/
 https://freeresizeimageonline.com/ru/
+
+## Day 5 (Google)
 https://freeresizeimageonline.com/tr/
 https://freeresizeimageonline.com/ja/
 https://freeresizeimageonline.com/ko/
@@ -51,13 +61,13 @@ https://freeresizeimageonline.com/it/
 https://freeresizeimageonline.com/th/
 https://freeresizeimageonline.com/pl/
 https://freeresizeimageonline.com/nl/
-
-## Day 5 (Google)
 https://freeresizeimageonline.com/bn/
 https://freeresizeimageonline.com/ur/
+
+## Day 6 (Google)
 https://freeresizeimageonline.com/zh-cn/
 
-## Everything (all 480 pages, for Bing Submit URLs; sitemap order)
+## Everything (all 640 pages, for Bing Submit URLs; sitemap order)
 https://freeresizeimageonline.com/
 https://freeresizeimageonline.com/hi/
 https://freeresizeimageonline.com/es/
@@ -198,6 +208,26 @@ https://freeresizeimageonline.com/nl/compress-image/
 https://freeresizeimageonline.com/bn/compress-image/
 https://freeresizeimageonline.com/ur/compress-image/
 https://freeresizeimageonline.com/zh-cn/compress-image/
+https://freeresizeimageonline.com/resize-image-to-10kb/
+https://freeresizeimageonline.com/hi/resize-image-to-10kb/
+https://freeresizeimageonline.com/es/resize-image-to-10kb/
+https://freeresizeimageonline.com/pt-br/resize-image-to-10kb/
+https://freeresizeimageonline.com/fr/resize-image-to-10kb/
+https://freeresizeimageonline.com/de/resize-image-to-10kb/
+https://freeresizeimageonline.com/id/resize-image-to-10kb/
+https://freeresizeimageonline.com/ar/resize-image-to-10kb/
+https://freeresizeimageonline.com/ru/resize-image-to-10kb/
+https://freeresizeimageonline.com/tr/resize-image-to-10kb/
+https://freeresizeimageonline.com/ja/resize-image-to-10kb/
+https://freeresizeimageonline.com/ko/resize-image-to-10kb/
+https://freeresizeimageonline.com/vi/resize-image-to-10kb/
+https://freeresizeimageonline.com/it/resize-image-to-10kb/
+https://freeresizeimageonline.com/th/resize-image-to-10kb/
+https://freeresizeimageonline.com/pl/resize-image-to-10kb/
+https://freeresizeimageonline.com/nl/resize-image-to-10kb/
+https://freeresizeimageonline.com/bn/resize-image-to-10kb/
+https://freeresizeimageonline.com/ur/resize-image-to-10kb/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-10kb/
 https://freeresizeimageonline.com/resize-image-to-20kb/
 https://freeresizeimageonline.com/hi/resize-image-to-20kb/
 https://freeresizeimageonline.com/es/resize-image-to-20kb/
@@ -218,6 +248,26 @@ https://freeresizeimageonline.com/nl/resize-image-to-20kb/
 https://freeresizeimageonline.com/bn/resize-image-to-20kb/
 https://freeresizeimageonline.com/ur/resize-image-to-20kb/
 https://freeresizeimageonline.com/zh-cn/resize-image-to-20kb/
+https://freeresizeimageonline.com/resize-image-to-30kb/
+https://freeresizeimageonline.com/hi/resize-image-to-30kb/
+https://freeresizeimageonline.com/es/resize-image-to-30kb/
+https://freeresizeimageonline.com/pt-br/resize-image-to-30kb/
+https://freeresizeimageonline.com/fr/resize-image-to-30kb/
+https://freeresizeimageonline.com/de/resize-image-to-30kb/
+https://freeresizeimageonline.com/id/resize-image-to-30kb/
+https://freeresizeimageonline.com/ar/resize-image-to-30kb/
+https://freeresizeimageonline.com/ru/resize-image-to-30kb/
+https://freeresizeimageonline.com/tr/resize-image-to-30kb/
+https://freeresizeimageonline.com/ja/resize-image-to-30kb/
+https://freeresizeimageonline.com/ko/resize-image-to-30kb/
+https://freeresizeimageonline.com/vi/resize-image-to-30kb/
+https://freeresizeimageonline.com/it/resize-image-to-30kb/
+https://freeresizeimageonline.com/th/resize-image-to-30kb/
+https://freeresizeimageonline.com/pl/resize-image-to-30kb/
+https://freeresizeimageonline.com/nl/resize-image-to-30kb/
+https://freeresizeimageonline.com/bn/resize-image-to-30kb/
+https://freeresizeimageonline.com/ur/resize-image-to-30kb/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-30kb/
 https://freeresizeimageonline.com/resize-image-to-50kb/
 https://freeresizeimageonline.com/hi/resize-image-to-50kb/
 https://freeresizeimageonline.com/es/resize-image-to-50kb/
@@ -278,6 +328,46 @@ https://freeresizeimageonline.com/nl/resize-image-to-200kb/
 https://freeresizeimageonline.com/bn/resize-image-to-200kb/
 https://freeresizeimageonline.com/ur/resize-image-to-200kb/
 https://freeresizeimageonline.com/zh-cn/resize-image-to-200kb/
+https://freeresizeimageonline.com/resize-image-to-500kb/
+https://freeresizeimageonline.com/hi/resize-image-to-500kb/
+https://freeresizeimageonline.com/es/resize-image-to-500kb/
+https://freeresizeimageonline.com/pt-br/resize-image-to-500kb/
+https://freeresizeimageonline.com/fr/resize-image-to-500kb/
+https://freeresizeimageonline.com/de/resize-image-to-500kb/
+https://freeresizeimageonline.com/id/resize-image-to-500kb/
+https://freeresizeimageonline.com/ar/resize-image-to-500kb/
+https://freeresizeimageonline.com/ru/resize-image-to-500kb/
+https://freeresizeimageonline.com/tr/resize-image-to-500kb/
+https://freeresizeimageonline.com/ja/resize-image-to-500kb/
+https://freeresizeimageonline.com/ko/resize-image-to-500kb/
+https://freeresizeimageonline.com/vi/resize-image-to-500kb/
+https://freeresizeimageonline.com/it/resize-image-to-500kb/
+https://freeresizeimageonline.com/th/resize-image-to-500kb/
+https://freeresizeimageonline.com/pl/resize-image-to-500kb/
+https://freeresizeimageonline.com/nl/resize-image-to-500kb/
+https://freeresizeimageonline.com/bn/resize-image-to-500kb/
+https://freeresizeimageonline.com/ur/resize-image-to-500kb/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-500kb/
+https://freeresizeimageonline.com/resize-image-to-1mb/
+https://freeresizeimageonline.com/hi/resize-image-to-1mb/
+https://freeresizeimageonline.com/es/resize-image-to-1mb/
+https://freeresizeimageonline.com/pt-br/resize-image-to-1mb/
+https://freeresizeimageonline.com/fr/resize-image-to-1mb/
+https://freeresizeimageonline.com/de/resize-image-to-1mb/
+https://freeresizeimageonline.com/id/resize-image-to-1mb/
+https://freeresizeimageonline.com/ar/resize-image-to-1mb/
+https://freeresizeimageonline.com/ru/resize-image-to-1mb/
+https://freeresizeimageonline.com/tr/resize-image-to-1mb/
+https://freeresizeimageonline.com/ja/resize-image-to-1mb/
+https://freeresizeimageonline.com/ko/resize-image-to-1mb/
+https://freeresizeimageonline.com/vi/resize-image-to-1mb/
+https://freeresizeimageonline.com/it/resize-image-to-1mb/
+https://freeresizeimageonline.com/th/resize-image-to-1mb/
+https://freeresizeimageonline.com/pl/resize-image-to-1mb/
+https://freeresizeimageonline.com/nl/resize-image-to-1mb/
+https://freeresizeimageonline.com/bn/resize-image-to-1mb/
+https://freeresizeimageonline.com/ur/resize-image-to-1mb/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-1mb/
 https://freeresizeimageonline.com/resize-signature/
 https://freeresizeimageonline.com/hi/resize-signature/
 https://freeresizeimageonline.com/es/resize-signature/
@@ -298,6 +388,46 @@ https://freeresizeimageonline.com/nl/resize-signature/
 https://freeresizeimageonline.com/bn/resize-signature/
 https://freeresizeimageonline.com/ur/resize-signature/
 https://freeresizeimageonline.com/zh-cn/resize-signature/
+https://freeresizeimageonline.com/resize-image-in-pixels/
+https://freeresizeimageonline.com/hi/resize-image-in-pixels/
+https://freeresizeimageonline.com/es/resize-image-in-pixels/
+https://freeresizeimageonline.com/pt-br/resize-image-in-pixels/
+https://freeresizeimageonline.com/fr/resize-image-in-pixels/
+https://freeresizeimageonline.com/de/resize-image-in-pixels/
+https://freeresizeimageonline.com/id/resize-image-in-pixels/
+https://freeresizeimageonline.com/ar/resize-image-in-pixels/
+https://freeresizeimageonline.com/ru/resize-image-in-pixels/
+https://freeresizeimageonline.com/tr/resize-image-in-pixels/
+https://freeresizeimageonline.com/ja/resize-image-in-pixels/
+https://freeresizeimageonline.com/ko/resize-image-in-pixels/
+https://freeresizeimageonline.com/vi/resize-image-in-pixels/
+https://freeresizeimageonline.com/it/resize-image-in-pixels/
+https://freeresizeimageonline.com/th/resize-image-in-pixels/
+https://freeresizeimageonline.com/pl/resize-image-in-pixels/
+https://freeresizeimageonline.com/nl/resize-image-in-pixels/
+https://freeresizeimageonline.com/bn/resize-image-in-pixels/
+https://freeresizeimageonline.com/ur/resize-image-in-pixels/
+https://freeresizeimageonline.com/zh-cn/resize-image-in-pixels/
+https://freeresizeimageonline.com/bulk-image-resizer/
+https://freeresizeimageonline.com/hi/bulk-image-resizer/
+https://freeresizeimageonline.com/es/bulk-image-resizer/
+https://freeresizeimageonline.com/pt-br/bulk-image-resizer/
+https://freeresizeimageonline.com/fr/bulk-image-resizer/
+https://freeresizeimageonline.com/de/bulk-image-resizer/
+https://freeresizeimageonline.com/id/bulk-image-resizer/
+https://freeresizeimageonline.com/ar/bulk-image-resizer/
+https://freeresizeimageonline.com/ru/bulk-image-resizer/
+https://freeresizeimageonline.com/tr/bulk-image-resizer/
+https://freeresizeimageonline.com/ja/bulk-image-resizer/
+https://freeresizeimageonline.com/ko/bulk-image-resizer/
+https://freeresizeimageonline.com/vi/bulk-image-resizer/
+https://freeresizeimageonline.com/it/bulk-image-resizer/
+https://freeresizeimageonline.com/th/bulk-image-resizer/
+https://freeresizeimageonline.com/pl/bulk-image-resizer/
+https://freeresizeimageonline.com/nl/bulk-image-resizer/
+https://freeresizeimageonline.com/bn/bulk-image-resizer/
+https://freeresizeimageonline.com/ur/bulk-image-resizer/
+https://freeresizeimageonline.com/zh-cn/bulk-image-resizer/
 https://freeresizeimageonline.com/png-to-jpg/
 https://freeresizeimageonline.com/hi/png-to-jpg/
 https://freeresizeimageonline.com/es/png-to-jpg/
@@ -358,6 +488,46 @@ https://freeresizeimageonline.com/nl/webp-to-jpg/
 https://freeresizeimageonline.com/bn/webp-to-jpg/
 https://freeresizeimageonline.com/ur/webp-to-jpg/
 https://freeresizeimageonline.com/zh-cn/webp-to-jpg/
+https://freeresizeimageonline.com/jpg-to-webp/
+https://freeresizeimageonline.com/hi/jpg-to-webp/
+https://freeresizeimageonline.com/es/jpg-to-webp/
+https://freeresizeimageonline.com/pt-br/jpg-to-webp/
+https://freeresizeimageonline.com/fr/jpg-to-webp/
+https://freeresizeimageonline.com/de/jpg-to-webp/
+https://freeresizeimageonline.com/id/jpg-to-webp/
+https://freeresizeimageonline.com/ar/jpg-to-webp/
+https://freeresizeimageonline.com/ru/jpg-to-webp/
+https://freeresizeimageonline.com/tr/jpg-to-webp/
+https://freeresizeimageonline.com/ja/jpg-to-webp/
+https://freeresizeimageonline.com/ko/jpg-to-webp/
+https://freeresizeimageonline.com/vi/jpg-to-webp/
+https://freeresizeimageonline.com/it/jpg-to-webp/
+https://freeresizeimageonline.com/th/jpg-to-webp/
+https://freeresizeimageonline.com/pl/jpg-to-webp/
+https://freeresizeimageonline.com/nl/jpg-to-webp/
+https://freeresizeimageonline.com/bn/jpg-to-webp/
+https://freeresizeimageonline.com/ur/jpg-to-webp/
+https://freeresizeimageonline.com/zh-cn/jpg-to-webp/
+https://freeresizeimageonline.com/png-to-webp/
+https://freeresizeimageonline.com/hi/png-to-webp/
+https://freeresizeimageonline.com/es/png-to-webp/
+https://freeresizeimageonline.com/pt-br/png-to-webp/
+https://freeresizeimageonline.com/fr/png-to-webp/
+https://freeresizeimageonline.com/de/png-to-webp/
+https://freeresizeimageonline.com/id/png-to-webp/
+https://freeresizeimageonline.com/ar/png-to-webp/
+https://freeresizeimageonline.com/ru/png-to-webp/
+https://freeresizeimageonline.com/tr/png-to-webp/
+https://freeresizeimageonline.com/ja/png-to-webp/
+https://freeresizeimageonline.com/ko/png-to-webp/
+https://freeresizeimageonline.com/vi/png-to-webp/
+https://freeresizeimageonline.com/it/png-to-webp/
+https://freeresizeimageonline.com/th/png-to-webp/
+https://freeresizeimageonline.com/pl/png-to-webp/
+https://freeresizeimageonline.com/nl/png-to-webp/
+https://freeresizeimageonline.com/bn/png-to-webp/
+https://freeresizeimageonline.com/ur/png-to-webp/
+https://freeresizeimageonline.com/zh-cn/png-to-webp/
 https://freeresizeimageonline.com/faq/
 https://freeresizeimageonline.com/hi/faq/
 https://freeresizeimageonline.com/es/faq/

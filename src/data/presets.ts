@@ -158,7 +158,7 @@ export const PRESET_GROUPS: PresetGroup[] = [
   },
   {
     id: 'forms',
-    presets: [kb(10), kb(20), kb(50), kb(100), kb(200), kb(500), kb(1024)],
+    presets: [kb(10), kb(20), kb(30), kb(50), kb(100), kb(200), kb(500), kb(1024)],
   },
   {
     id: 'marketplaces',

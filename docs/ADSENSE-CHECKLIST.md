@@ -10,9 +10,9 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 | Requirement | Status |
 |---|---|
 | Publisher is 18+, owns the site, can edit its HTML | **You** confirm. Site is yours; the code snippet, `google-adsense-account` meta tag and `ads.txt` are live for verification |
-| Own, high-quality content | Done: original how-to text, tips, an explanatory section, FAQ and size tables on 14 tool pages, plus 3 written guides and a guides index, all in 20 languages. Every page that shows ads has 700 to 1,000+ words (the guides index 350) |
+| Own, high-quality content | Done: original how-to text, tips, an explanatory section, FAQ and size tables on 22 tool pages, plus 3 written guides and a guides index, all in 20 languages. Every page that shows ads has 700 to 1,000+ words (the guides index 350) |
 | Site language supported | Done: all 20 languages are on Google's supported-language list |
-| Working, finished site | Done: live over HTTPS, 481 pages (24 pages x 20 languages + 404), no placeholder text |
+| Working, finished site | Done: live over HTTPS, 641 pages (32 pages x 20 languages + 404), no placeholder text |
 
 ## 2. Required pages and disclosures
 | Requirement | Status |
@@ -78,7 +78,7 @@ Legend: **Done** = implemented and live. **You** = only the account owner can do
 
 Checked on the deployed build and the live site:
 
-- Ads only on pages with real content: home, 14 tool pages, FAQ and 3 guides in all 20 languages (481 pages). No ads on About, Contact, Privacy, Terms, the guides index or the 404 page.
+- Ads only on pages with real content: home, 22 tool pages, FAQ and 3 guides in all 20 languages (641 pages). No ads on About, Contact, Privacy, Terms, the guides index or the 404 page.
 - Content amount on ad pages: 573-2,140 words per page in space-separated languages (home 755 in English after the FAQ moved to its own page), at least 1,829 characters in Japanese, Chinese and Thai.
 - Privacy page (all 20 languages) discloses Google/third-party cookies for ads, opt-out links (Google Ads Settings, aboutads.info, How Google uses information), EEA/UK/CH consent, US state choices, Cloudflare and the live statistics. Footer on every page links to About, Contact, Privacy and Terms.
 - Ad boxes: label "Advertisement" (translated) only; the right column is sticky only within Google's rules for sticky ads (see above); no arrows or "support us" wording anywhere; no ad above the tool; right column 85 px from the nearest tappable element, in-page boxes 125 px or more from the Download buttons (about 108 px from the last link on guide and FAQ pages after this check); at most two ad boxes visible at once; ad code only created inside visible boxes.

@@ -1,0 +1,10 @@
+---
+import ToolPage from '../../components/content/ToolPage.astro';
+import { languageStaticPaths } from '../../i18n';
+
+export function getStaticPaths() {
+  return languageStaticPaths();
+}
+const { lang } = Astro.props;
+---
+<ToolPage lang={lang} pageKey="kb30" preset="kb-30" format="jpeg" />
