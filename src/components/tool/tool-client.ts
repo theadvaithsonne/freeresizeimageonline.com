@@ -16,8 +16,11 @@ import {
   fromPixelsExact,
   lockedCounterpart,
   looksLikeImage,
+  previewEdge,
+  previewSize,
   processImage,
   runBatch,
+  showsResultAsIs,
   toPixels,
   zipFiles,
   type BatchItem,
@@ -36,8 +39,10 @@ import { formatBytes, formatNumber } from '../../i18n/format';
 interface ToolItem extends BatchItem<File> {
   /** Small thumbnail of the original (object URL). */
   thumbUrl?: string;
-  /** Preview of the resized result (object URL), only for modest sizes. */
+  /** Preview of the resized result (object URL): the result itself when it is modest, else a sharp scaled-down copy of it. */
   previewUrl?: string;
+  /** A scaled-down preview of a big result has been asked for (so it is made once, not on every update of the card). */
+  previewQueued?: boolean;
   /** Row in the setup list. */
   el?: HTMLElement;
   /** Card in the results grid. */
@@ -45,8 +50,6 @@ interface ToolItem extends BatchItem<File> {
 }
 
 const MAX_FILES = 500;
-/** Results above this many pixels are previewed with the small thumbnail instead (saves memory with big batches). */
-const PREVIEW_MAX_PIXELS = 2_500_000;
 
 export function initTool(root: HTMLElement): void {
   const data = JSON.parse(root.querySelector('[data-tool-data]')!.textContent || '{}') as {
@@ -142,6 +145,7 @@ export function initTool(root: HTMLElement): void {
   let lockedSide: 'w' | 'h' = 'w';
   let currentUnit: LengthUnit = 'px';
   let thumbChain: Promise<void> = Promise.resolve();
+  let previewChain: Promise<void> = Promise.resolve(); // big results are scaled down one at a time (one decoded image in memory)
 
   // --- helpers ------------------------------------------------------------------------------
   const say = (message: string) => {
@@ -435,6 +439,44 @@ export function initTool(root: HTMLElement): void {
   function revokePreview(item: ToolItem) {
     if (item.previewUrl) URL.revokeObjectURL(item.previewUrl);
     item.previewUrl = undefined;
+    item.previewQueued = false;
+  }
+
+  /**
+   * The picture of a big result card: the result scaled down to a sharp preview (the card is at most a few hundred pixels wide,
+   * but the 160 px thumbnail of the original is far too small for it and looked very blurry). The download is never touched:
+   * it is always the full-size result. Without a preview (the browser cannot decode it) the thumbnail stays.
+   */
+  async function makePreview(item: ToolItem) {
+    const result = item.result;
+    if (!result || item.status !== 'done' || item.previewUrl || !items.includes(item)) return;
+    try {
+      const { width, height } = previewSize(result.width, result.height, previewEdge(items.length));
+      let bitmap: ImageBitmap;
+      try {
+        bitmap = await createImageBitmap(result.blob, { resizeWidth: width, resizeHeight: height, resizeQuality: 'high' });
+      } catch {
+        bitmap = await createImageBitmap(result.blob); // a browser without the resize options
+      }
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d')!;
+      ctx.imageSmoothingQuality = 'high';
+      ctx.drawImage(bitmap, 0, 0, width, height);
+      bitmap.close();
+      // JPEG stays JPEG; anything else may have transparent parts, which WebP keeps (a browser that cannot write WebP gives a PNG)
+      const type = result.blob.type === 'image/jpeg' ? 'image/jpeg' : 'image/webp';
+      const blob: Blob | null = await new Promise((resolve) => canvas.toBlob(resolve, type, 0.9));
+      canvas.width = 0;
+      // the card may have been removed, or the images resized again, while this was working
+      if (blob && items.includes(item) && item.result === result && !item.previewUrl) {
+        item.previewUrl = URL.createObjectURL(blob);
+        updateCard(item);
+      }
+    } catch {
+      /* no preview: the thumbnail stays */
+    }
   }
 
   function updateRow(item: ToolItem) {
@@ -476,8 +518,13 @@ export function initTool(root: HTMLElement): void {
       badge.classList.toggle('rcard__badge--larger', !change.smaller);
       download.hidden = false;
       download.textContent = downloadLabel(item);
-      if (!item.previewUrl && r.width * r.height <= PREVIEW_MAX_PIXELS) {
-        item.previewUrl = URL.createObjectURL(r.blob);
+      if (!item.previewUrl) {
+        if (showsResultAsIs(r.width, r.height)) {
+          item.previewUrl = URL.createObjectURL(r.blob);
+        } else if (!item.previewQueued) {
+          item.previewQueued = true; // meanwhile the thumbnail shows
+          previewChain = previewChain.then(() => makePreview(item));
+        }
       }
       const source = item.previewUrl ?? item.thumbUrl;
       if (source && img.src !== source) img.src = source;

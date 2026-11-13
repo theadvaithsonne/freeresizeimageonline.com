@@ -10,6 +10,7 @@
 export * from './types';
 export { toPixels, fromPixels, fromPixelsExact, lockedCounterpart, dpiForUnitChange } from './units';
 export { planResize } from './geometry';
+export { previewEdge, previewSize, showsResultAsIs } from './preview';
 export { fitToTargetSize } from './target-size';
 export { createEncoder, type Encoder } from './encoder';
 export { processImage } from './pipeline';
