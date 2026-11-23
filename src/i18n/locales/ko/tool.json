@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "PDF가 준비되었어요",
-        "info": "{pages}페이지, {size}"
+        "info": "{pages}페이지, {size}",
+        "page": "{n}페이지"
       },
       "errors": {
         "empty": "먼저 이미지를 하나 이상 추가해 주세요.",

@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "PDF готов",
-        "info": "{pages} стр., {size}"
+        "info": "{pages} стр., {size}",
+        "page": "Страница {n}"
       },
       "errors": {
         "empty": "Сначала добавьте хотя бы одну картинку.",

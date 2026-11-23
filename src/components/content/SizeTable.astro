@@ -8,11 +8,13 @@ import { toPixels } from '../../engine/units';
 interface Props {
   lang: string;
   kind: 'documents' | 'social';
+  /** Only the presets of these names (a single platform's page, for example ['Instagram']). Everything when left out. */
+  only?: string[];
 }
-const { lang, kind } = Astro.props;
+const { lang, kind, only } = Astro.props;
 const words = subtree(lang, 'tool.presets.words') as Record<string, string>;
 const group = PRESET_GROUPS.find((g) => g.id === kind)!;
-const rows = group.presets.filter((p): p is SizePreset => p.kind === 'size');
+const rows = group.presets.filter((p): p is SizePreset => p.kind === 'size' && (!only || only.includes(p.name ?? '')));
 
 function pixels(p: SizePreset): string {
   const w = toPixels(p.width, p.unit, p.dpi);

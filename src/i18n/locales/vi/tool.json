@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "PDF của bạn đã sẵn sàng",
-        "info": "{pages} trang, {size}"
+        "info": "{pages} trang, {size}",
+        "page": "Trang {n}"
       },
       "errors": {
         "empty": "Hãy thêm ít nhất một ảnh trước.",

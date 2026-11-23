@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "PDF 已准备好",
-        "info": "{pages} 页，{size}"
+        "info": "{pages} 页，{size}",
+        "page": "第 {n} 页"
       },
       "errors": {
         "empty": "请先添加至少一张图片。",

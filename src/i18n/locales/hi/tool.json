@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "आपकी PDF तैयार है",
-        "info": "{pages} पेज, {size}"
+        "info": "{pages} पेज, {size}",
+        "page": "पृष्ठ {n}"
       },
       "errors": {
         "empty": "पहले कम से कम एक तस्वीर जोड़ें।",

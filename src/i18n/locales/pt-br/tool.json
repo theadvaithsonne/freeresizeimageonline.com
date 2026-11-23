@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "Seu PDF está pronto",
-        "info": "Páginas: {pages} · {size}"
+        "info": "Páginas: {pages} · {size}",
+        "page": "Página {n}"
       },
       "errors": {
         "empty": "Adicione pelo menos uma imagem primeiro.",

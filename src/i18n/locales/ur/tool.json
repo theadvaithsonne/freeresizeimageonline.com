@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "آپ کی PDF تیار ہے",
-        "info": "{pages} صفحات، {size}"
+        "info": "{pages} صفحات، {size}",
+        "page": "صفحہ {n}"
       },
       "errors": {
         "empty": "پہلے کم از کم ایک تصویر شامل کریں۔",

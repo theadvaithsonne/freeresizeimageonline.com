@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "PDF Anda sudah siap",
-        "info": "{pages} halaman, {size}"
+        "info": "{pages} halaman, {size}",
+        "page": "Halaman {n}"
       },
       "errors": {
         "empty": "Tambahkan setidaknya satu gambar terlebih dahulu.",

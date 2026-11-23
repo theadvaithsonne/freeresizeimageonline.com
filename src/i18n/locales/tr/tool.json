@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "PDF'niz hazır",
-        "info": "{pages} sayfa, {size}"
+        "info": "{pages} sayfa, {size}",
+        "page": "Sayfa {n}"
       },
       "errors": {
         "empty": "Önce en az bir resim ekleyin.",

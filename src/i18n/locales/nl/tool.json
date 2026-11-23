@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "Je PDF is klaar",
-        "info": "{pages} pagina’s, {size}"
+        "info": "{pages} pagina’s, {size}",
+        "page": "Pagina {n}"
       },
       "errors": {
         "empty": "Voeg eerst minstens één afbeelding toe.",

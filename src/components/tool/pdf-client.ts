@@ -2,7 +2,7 @@
  * Browser logic of the "images to PDF" widget: add pictures, put them in order, choose the page, create one PDF.
  * Nothing is uploaded: pictures are read with the engine, turned into JPEGs on a canvas and written into a PDF here.
  */
-import { buildPdf, decodeImage, downloadBlob, looksLikeImage, type PdfOptions, type PdfPicture } from '../../engine';
+import { buildPdf, decodeImage, downloadBlob, looksLikeImage, planPage, type PdfOptions, type PdfPicture } from '../../engine';
 import { baseName } from '../../engine/naming';
 import { formatBytes, formatNumber } from '../../i18n/format';
 import { LIST_THUMBNAIL_EDGE, makeThumbnail } from './thumbnail';
@@ -22,6 +22,8 @@ const QUALITY = {
   low: { quality: 0.65, side: 1754 },
 } as const;
 const MARGIN = { none: 0, small: 18, big: 36 } as const;
+/** Width in pixels of a finished-page preview: sharp when shown about 170 px wide on a screen with twice the pixel density. */
+const PAGE_PREVIEW_WIDTH = 420;
 
 export function initPdf(root: HTMLElement): void {
   const data = JSON.parse(root.querySelector('[data-pdf-data]')!.textContent || '{}') as { lang: string; text: Record<string, unknown> };
@@ -61,6 +63,12 @@ export function initPdf(root: HTMLElement): void {
   const backButton = q<HTMLButtonElement>('[data-back]');
   const againButton = q<HTMLButtonElement>('[data-again]');
   const overlay = root.querySelector<HTMLElement>('[data-drop-overlay]');
+  const pagesBox = q('[data-pages-box]');
+  const pagesTitle = q('[data-pages-title]');
+  const pagesList = q('[data-pages]');
+  const pageTemplate = q<HTMLTemplateElement>('[data-page-template]');
+  const previewUrls: string[] = [];
+  let previewToken = 0;
 
   const items: PdfItem[] = [];
   let nextId = 1;
@@ -235,6 +243,7 @@ export function initPdf(root: HTMLElement): void {
       resultView.hidden = false;
       root.dataset.view = 'result';
       resultView.querySelector<HTMLElement>('[data-result-title]')?.focus();
+      void renderPagePreviews(pictures.slice(), options); // the loop below clears `pictures`; the previews keep their own list
     } catch {
       showError(tx('pdf.errors.failed'));
     } finally {
@@ -244,7 +253,62 @@ export function initPdf(root: HTMLElement): void {
     }
   }
 
+  /**
+   * The strip of finished pages under the Download button: every page drawn the way it is in the PDF (page size, direction, margin,
+   * the picture placed and scaled exactly as planPage says), one after the other so only one big picture is decoded at a time.
+   */
+  async function renderPagePreviews(pictures: PdfPicture[], options: PdfOptions) {
+    clearPagePreviews(); // also invalidates a render that is still running
+    const token = previewToken;
+    pagesBox.hidden = false;
+    pagesTitle.textContent = tx('pdf.list.title', { count: formatNumber(lang, pictures.length, 0) });
+    const cells = pictures.map((picture, i) => {
+      const cell = pageTemplate.content.firstElementChild!.cloneNode(true) as HTMLElement;
+      const plan = planPage(picture, options);
+      cell.querySelector<HTMLElement>('.pg__sheet')!.style.aspectRatio = `${plan.pageWidth} / ${plan.pageHeight}`; // no jump when the picture arrives
+      cell.querySelector<HTMLElement>('[data-caption]')!.textContent = tx('pdf.result.page', { n: formatNumber(lang, i + 1, 0) });
+      pagesList.append(cell);
+      return { cell, plan };
+    });
+    for (let i = 0; i < pictures.length; i++) {
+      if (token !== previewToken) return; // the pages were changed or the result was closed meanwhile
+      try {
+        const { plan } = cells[i]!;
+        const picture = await createImageBitmap(new Blob([pictures[i]!.jpeg as BlobPart], { type: 'image/jpeg' }));
+        const scale = PAGE_PREVIEW_WIDTH / plan.pageWidth;
+        const canvas = document.createElement('canvas');
+        canvas.width = PAGE_PREVIEW_WIDTH;
+        canvas.height = Math.max(1, Math.round(plan.pageHeight * scale));
+        const c = canvas.getContext('2d')!;
+        c.fillStyle = '#ffffff';
+        c.fillRect(0, 0, canvas.width, canvas.height);
+        c.imageSmoothingQuality = 'high';
+        // planPage measures from the bottom edge (PDF), a canvas from the top
+        c.drawImage(picture, plan.x * scale, (plan.pageHeight - plan.y - plan.height) * scale, plan.width * scale, plan.height * scale);
+        picture.close();
+        const blob: Blob | null = await new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg', 0.88));
+        canvas.width = 0;
+        if (blob && token === previewToken) {
+          const url = URL.createObjectURL(blob);
+          previewUrls.push(url);
+          cells[i]!.cell.querySelector('img')!.src = url;
+        }
+      } catch {
+        /* no preview for this page: the PDF itself is fine */
+      }
+    }
+  }
+
+  function clearPagePreviews() {
+    previewToken++;
+    for (const url of previewUrls) URL.revokeObjectURL(url);
+    previewUrls.length = 0;
+    pagesList.replaceChildren();
+    pagesBox.hidden = true;
+  }
+
   function showSetup() {
+    clearPagePreviews();
     resultView.hidden = true;
     setupView.hidden = false;
     root.dataset.view = 'setup';

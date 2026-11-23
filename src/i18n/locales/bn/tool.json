@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "আপনার PDF তৈরি",
-        "info": "{pages}টি পৃষ্ঠা, {size}"
+        "info": "{pages}টি পৃষ্ঠা, {size}",
+        "page": "পৃষ্ঠা {n}"
       },
       "errors": {
         "empty": "আগে অন্তত একটি ছবি যোগ করুন।",

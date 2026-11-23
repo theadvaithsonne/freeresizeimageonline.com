@@ -150,7 +150,8 @@
       },
       "result": {
         "title": "Twój plik PDF jest gotowy",
-        "info": "Liczba stron: {pages}, rozmiar: {size}"
+        "info": "Liczba stron: {pages}, rozmiar: {size}",
+        "page": "Strona {n}"
       },
       "errors": {
         "empty": "Najpierw dodaj co najmniej jedno zdjęcie.",

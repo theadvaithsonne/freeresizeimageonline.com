@@ -1,0 +1,80 @@
+---
+/** Reference table: the size of common paper formats in pixels at the usual DPI values (computed, never typed in by hand). */
+import { t } from '../../i18n';
+import { formatNumber } from '../../i18n/format';
+import { toPixels } from '../../engine/units';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+type Unit = 'mm' | 'in';
+const DPIS = [72, 96, 150, 300, 600];
+const PAPERS: { name: string; w: number; h: number; unit: Unit }[] = [
+  { name: 'A3', w: 297, h: 420, unit: 'mm' },
+  { name: 'A4', w: 210, h: 297, unit: 'mm' },
+  { name: 'A5', w: 148, h: 210, unit: 'mm' },
+  { name: 'A6', w: 105, h: 148, unit: 'mm' },
+  { name: 'B5', w: 176, h: 250, unit: 'mm' },
+  { name: 'US Letter', w: 8.5, h: 11, unit: 'in' },
+  { name: 'US Legal', w: 8.5, h: 14, unit: 'in' },
+  { name: 'Tabloid', w: 11, h: 17, unit: 'in' },
+];
+const px = (r: (typeof PAPERS)[number], dpi: number) =>
+  `${formatNumber(lang, toPixels(r.w, r.unit, dpi), 0)} × ${formatNumber(lang, toPixels(r.h, r.unit, dpi), 0)}`;
+---
+<div class="table-wrap" role="region" tabindex="0" aria-label={t(lang, 'tool.calc.table.size')}>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">{t(lang, 'tool.calc.table.size')}</th>
+        <th scope="col">{t(lang, 'tool.calc.table.dimensions')}</th>
+        {DPIS.map((d) => <th scope="col" dir="ltr">{d} DPI</th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {
+        PAPERS.map((r) => (
+          <tr>
+            <th scope="row" dir="ltr">{r.name}</th>
+            <td dir="ltr">{`${formatNumber(lang, r.w, 2)} × ${formatNumber(lang, r.h, 2)} ${r.unit}`}</td>
+            {DPIS.map((d) => <td dir="ltr">{px(r, d)}</td>)}
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .table-wrap {
+    overflow-x: auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--step--1);
+  }
+  th,
+  td {
+    padding: var(--space-3) var(--space-4);
+    text-align: start;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  thead th {
+    background: var(--surface-2);
+    font-weight: 700;
+  }
+  tbody tr:last-child th,
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+  tbody th {
+    font-weight: 650;
+  }
+</style>

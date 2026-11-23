@@ -93,6 +93,10 @@ const qualities = [
       <button type="button" class="btn btn--ghost" data-back>{t(lang, 'tool.results.back')}</button>
       <button type="button" class="btn btn--ghost" data-again>{t(lang, 'tool.pdf.actions.again')}</button>
     </div>
+    <div class="result__pages" data-pages-box hidden>
+      <h3 class="result__pages-title" data-pages-title></h3>
+      <ol class="pages" data-pages></ol>
+    </div>
   </div>
 
   <div class="visually-hidden" aria-live="polite" data-live></div>
@@ -120,6 +124,15 @@ const qualities = [
           <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none" /></svg>
         </button>
       </div>
+    </li>
+  </template>
+
+  <template data-page-template>
+    <li class="pg">
+      <figure class="pg__fig">
+        <div class="pg__sheet"><img alt="" decoding="async" /></div>
+        <figcaption class="pg__cap" data-caption></figcaption>
+      </figure>
     </li>
   </template>
 
@@ -448,6 +461,51 @@ const qualities = [
     flex-wrap: wrap;
     gap: var(--space-3);
     margin-top: var(--space-3);
+  }
+
+  /* The finished pages, drawn the way they are in the PDF (page size, margin, direction) */
+  .result__pages {
+    width: 100%;
+    margin-top: var(--space-5);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--border);
+  }
+  .result__pages-title {
+    margin: 0 0 var(--space-4);
+    font-size: var(--step-1);
+  }
+  .pages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+    gap: var(--space-5) var(--space-4);
+    align-items: start;
+  }
+  .pg__fig {
+    margin: 0;
+    display: grid;
+    gap: 8px;
+  }
+  .pg__sheet {
+    width: 100%;
+    background: #ffffff; /* a PDF page is white, also in the dark theme */
+    border: 1px solid var(--border-strong);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .pg__sheet img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .pg__cap {
+    text-align: center;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
   }
 
   /* drop files anywhere: the whole window says so */
