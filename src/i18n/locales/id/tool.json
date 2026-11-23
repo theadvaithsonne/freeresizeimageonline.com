@@ -113,6 +113,82 @@
       "limitNote": "PNG tidak bisa diperkecil agar muat dalam batas ukuran file Anda. Pilih JPG atau WebP agar batas tersebut terpenuhi.",
       "progress": "Kemajuan pengubahan ukuran"
     },
-    "noscript": "JavaScript diperlukan untuk mengubah ukuran gambar di browser Anda. Silakan aktifkan."
+    "noscript": "JavaScript diperlukan untuk mengubah ukuran gambar di browser Anda. Silakan aktifkan.",
+    "pdf": {
+      "aria": "Gambar ke PDF",
+      "hint": "Tambahkan beberapa gambar untuk dijadikan satu PDF. Setiap gambar menjadi satu halaman.",
+      "options": {
+        "title": "Opsi PDF",
+        "pageSize": "Ukuran halaman",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Sama seperti gambar",
+        "orientation": "Arah halaman",
+        "auto": "Otomatis",
+        "portrait": "Potret",
+        "landscape": "Lanskap",
+        "margin": "Margin",
+        "none": "Tanpa margin",
+        "small": "Margin kecil",
+        "big": "Margin besar",
+        "quality": "Kualitas gambar",
+        "high": "Kualitas tinggi",
+        "balanced": "Seimbang",
+        "low": "File kecil",
+        "qualityNote": "Kualitas lebih tinggi menyimpan lebih banyak detail dan membuat PDF lebih besar."
+      },
+      "actions": {
+        "create": "Buat PDF",
+        "working": "Menambahkan halaman {done} dari {total}...",
+        "download": "Unduh PDF",
+        "again": "Buat PDF lainnya"
+      },
+      "list": {
+        "title": "Halaman ({count})",
+        "up": "Pindahkan {name} ke atas",
+        "down": "Pindahkan {name} ke bawah"
+      },
+      "result": {
+        "title": "PDF Anda sudah siap",
+        "info": "{pages} halaman, {size}"
+      },
+      "errors": {
+        "empty": "Tambahkan setidaknya satu gambar terlebih dahulu.",
+        "unreadable": "{name} tidak bisa dibaca sebagai gambar.",
+        "failed": "PDF tidak bisa dibuat. Coba lagi dengan gambar yang lebih sedikit atau lebih kecil."
+      }
+    },
+    "calc": {
+      "aria": "Konverter ukuran",
+      "title": "Konversi ukuran",
+      "width": "Lebar",
+      "height": "Tinggi (opsional)",
+      "invalid": "Masukkan angka yang lebih besar dari nol.",
+      "from": "Dari",
+      "to": "Ke",
+      "swap": "Tukar satuan",
+      "dpi": "DPI (titik per inci)",
+      "dpiNote": "300 DPI adalah nilai yang lazim untuk cetak. Layar memakai 72 atau 96.",
+      "result": "Hasil",
+      "empty": "Ketik ukuran untuk melihat hasilnya.",
+      "copy": "Salin",
+      "copied": "Tersalin",
+      "resizeLink": "Resize gambar ke ukuran ini",
+      "units": {
+        "px": "Piksel (px)",
+        "cm": "Sentimeter (cm)",
+        "mm": "Milimeter (mm)",
+        "in": "Inci (in)"
+      },
+      "table": {
+        "title": "Ukuran umum dalam piksel pada {dpi} DPI",
+        "size": "Ukuran",
+        "dimensions": "Lebar × tinggi",
+        "pixels": "Piksel",
+        "passport": "Foto paspor",
+        "print": "Cetak foto",
+        "card": "Kartu nama"
+      }
+    }
   }
 }

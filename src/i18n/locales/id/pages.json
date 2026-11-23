@@ -1,30 +1,39 @@
 {
   "nav": {
     "home": "Pengubah ukuran gambar",
-    "kb": "Ubah ukuran ke KB",
+    "kb": "Resize foto ke KB",
     "cm": "Ubah ukuran dalam cm, mm, atau inci",
     "passport": "Ukuran foto paspor",
     "social": "Ukuran media sosial",
-    "convert": "Konversi gambar",
-    "compress": "Kompres gambar",
-    "kb20": "Ubah ukuran ke 20 KB",
-    "kb50": "Ubah ukuran ke 50 KB",
-    "kb100": "Ubah ukuran ke 100 KB",
-    "kb200": "Ubah ukuran ke 200 KB",
+    "convert": "Ubah format gambar",
+    "compress": "Kompres foto dan gambar",
+    "kb20": "Resize foto 20 KB",
+    "kb50": "Resize foto 50 KB",
+    "kb100": "Resize foto 100 KB",
+    "kb200": "Resize foto 200 KB",
     "signature": "Ubah ukuran tanda tangan",
     "pngToJpg": "PNG ke JPG",
     "jpgToPng": "JPG ke PNG",
     "webpToJpg": "WebP ke JPG",
     "faq": "FAQ",
     "homePage": "Beranda",
-    "kb10": "Ubah ukuran ke 10 KB",
-    "kb30": "Ubah ukuran ke 30 KB",
-    "kb500": "Ubah ukuran ke 500 KB",
-    "mb1": "Ubah ukuran ke 1 MB",
-    "pixels": "Ubah ukuran dalam piksel",
-    "bulk": "Ubah ukuran banyak gambar",
+    "kb10": "Resize foto 10 KB",
+    "kb30": "Resize foto 30 KB",
+    "kb500": "Resize foto 500 KB",
+    "mb1": "Resize foto 1 MB",
+    "pixels": "Resize dalam pixel",
+    "bulk": "Resize foto sekaligus",
     "jpgToWebp": "JPG ke WebP",
-    "pngToWebp": "PNG ke WebP"
+    "pngToWebp": "PNG ke WebP",
+    "kb300": "Resize foto 300 KB",
+    "mb2": "Resize foto 2 MB",
+    "imageToPdf": "Gambar ke PDF",
+    "jpgToPdf": "JPG ke PDF",
+    "pngToPdf": "PNG ke PDF",
+    "cmToPx": "cm ke pixel",
+    "inToPx": "Inch ke pixel",
+    "mmToPx": "mm ke pixel",
+    "pxToCm": "Pixel ke cm"
   },
   "common": {
     "howTo": "Cara menggunakan",
@@ -113,9 +122,9 @@
     }
   },
   "kb": {
-    "title": "Kecilkan Foto ke 10KB, 20KB, 50KB, 100KB, 200KB",
-    "description": "Ubah ukuran gambar ke KB online gratis: kecilkan foto ke 10, 20, 30, 50, 100, 200, atau 500 KB untuk formulir dan unggahan. Tanpa daftar, tetap privat.",
-    "h1": "Ubah ukuran gambar ke KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "title": "Resize Foto ke KB - 50KB, 100KB, 200KB, 500KB Gratis",
+    "description": "Resize foto ke KB online gratis: kecilkan ukuran foto jadi 10, 20, 50, 100, 200, atau 500 KB untuk formulir dan unggahan. Tanpa daftar, tetap privat.",
+    "h1": "Resize foto ke KB (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Banyak formulir online, portal ujian, dan situs lowongan kerja menolak foto di atas batas ukuran tertentu, seperti 50 KB atau 200 KB. Alat ini memperkecil gambar Anda sesuai batas yang dipilih sambil menjaga kualitas sebaik mungkin.",
     "steps": [
       {
@@ -163,8 +172,8 @@
   },
   "cm": {
     "title": "Ubah Ukuran Foto dalam cm, mm, atau Inci - Gratis",
-    "description": "Ubah ukuran gambar dalam cm online gratis: atur ukuran pasti foto dalam sentimeter, milimeter, atau inci dengan DPI yang tepat. Tanpa daftar, dan tetap privat.",
-    "h1": "Ubah ukuran gambar dalam cm, mm, atau inci",
+    "description": "Ubah ukuran foto dalam cm online gratis: atur ukuran pasti dalam cm, mm, atau inci dengan DPI tepat, cocok untuk pas foto 3x4 dan 4x6. Tanpa daftar, privat.",
+    "h1": "Ubah ukuran foto dalam cm, mm, atau inci",
     "intro": "Pencetakan dan formulir resmi sering meminta ukuran dalam sentimeter atau inci, bukan piksel. Masukkan ukuran dan DPI, lalu alat ini menghitung pikselnya untuk Anda.",
     "steps": [
       {
@@ -212,7 +221,7 @@
   },
   "passport": {
     "title": "Ukuran Foto Paspor dan Visa per Negara - Resize Gratis",
-    "description": "Ukuran foto paspor dan visa per negara dalam mm, inci, dan piksel, plus alat gratis untuk menyesuaikan ukuran foto Anda, termasuk 2x2 inci dan 35x45 mm.",
+    "description": "Ukuran foto paspor dan visa per negara dalam mm, inci, dan pixel, termasuk 2x2 inci, 35x45 mm, dan visa China, plus alat gratis untuk resize foto Anda.",
     "h1": "Ukuran foto paspor dan visa",
     "intro": "Setiap negara meminta ukuran foto yang berbeda. Pilih negara Anda di daftar Preset untuk memangkas dan mengubah ukuran foto Anda ke dimensi yang persis pada 300 DPI.",
     "note": "Aturan bisa berubah, dan setiap pengajuan bisa menambahkan persyaratan sendiri seperti warna latar, ukuran kepala, atau tanpa kacamata. Selalu periksa petunjuk resmi sebelum mengirim. Alat ini hanya mengatur ukuran; alat ini tidak memeriksa ukuran kepala atau latar belakang.",
@@ -262,9 +271,9 @@
     ]
   },
   "social": {
-    "title": "Ukuran Gambar Media Sosial - Resize untuk Instagram, YouTube",
-    "description": "Ukuran gambar media sosial untuk Instagram, Facebook, YouTube, X, LinkedIn, dan Pinterest, plus alat gratis untuk menyesuaikan gambar agar muat tanpa dipangkas.",
-    "h1": "Ukuran gambar media sosial",
+    "title": "Ukuran Gambar Instagram, YouTube, WhatsApp - Resize Gratis",
+    "description": "Ukuran gambar Instagram, thumbnail YouTube, foto profil WhatsApp, Facebook, X, LinkedIn, dan Pinterest, plus alat gratis untuk resize agar pas tanpa terpotong.",
+    "h1": "Ukuran gambar Instagram, YouTube, dan media sosial lainnya",
     "intro": "Postingan terlihat paling bagus jika gambarnya sudah berbentuk tepat. Pilih platform di daftar Preset, dan alat ini memangkas serta mengubah ukuran gambar Anda agar sesuai.",
     "note": "Platform memperbarui rekomendasinya dari waktu ke waktu. Ini adalah ukuran yang banyak dipakai dan cocok dengan format saat ini.",
     "tableTitle": "Ukuran menurut platform",
@@ -312,9 +321,9 @@
     ]
   },
   "convert": {
-    "title": "Konversi Gambar JPG, PNG, WebP - Konverter Online Gratis",
-    "description": "Konversi gambar antara JPG, PNG, dan WebP online gratis. Tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur. Jalan di ponsel maupun komputer.",
-    "h1": "Konversi gambar antara JPG, PNG, dan WebP",
+    "title": "Ubah Format Gambar ke JPG, PNG, WebP - Konverter Gratis",
+    "description": "Ubah format gambar atau convert foto antara JPG, PNG, dan WebP online gratis. Tanpa daftar, tanpa unggah, kualitas bisa diatur. Jalan di ponsel dan komputer.",
+    "h1": "Ubah format gambar ke JPG, PNG, atau WebP",
     "intro": "Pilih format yang Anda butuhkan, dan alat ini mengonversi setiap gambar yang Anda tambahkan. Tidak ada yang diunggah.",
     "steps": [
       {
@@ -357,9 +366,9 @@
     ]
   },
   "compress": {
-    "title": "Kompres Gambar Online - Perkecil Ukuran Foto Gratis",
-    "description": "Kompres gambar online gratis: perkecil foto tanpa kehilangan kualitas yang terlihat, atau kecilkan gambar ke batas KB tertentu. Tanpa daftar, tanpa unggah.",
-    "h1": "Kompres gambar online",
+    "title": "Kompres Foto dan Gambar Online Gratis - Perkecil Ukuran",
+    "description": "Kompres foto dan gambar online gratis: perkecil ukuran gambar tanpa mengurangi kualitas, atau kecilkan ke batas KB tertentu. Tanpa daftar, tanpa unggah.",
+    "h1": "Kompres foto dan gambar online",
     "intro": "Gambar yang lebih kecil dimuat lebih cepat, muat di email, dan menghemat penyimpanan. Alat ini mengenkode ulang gambar Anda dengan kompresor modern dan memungkinkan Anda menetapkan tingkat kualitas atau ukuran file maksimum.",
     "steps": [
       {
@@ -407,9 +416,9 @@
     "convert": "Konverter"
   },
   "kb20": {
-    "title": "Kecilkan Foto ke 20KB Online - Resize Gratis",
-    "description": "Kecilkan foto ke 20KB online gratis: perkecil foto atau tanda tangan ke 20 KB atau kurang di browser. Tanpa daftar, dan gambar Anda tidak keluar dari perangkat.",
-    "h1": "Ubah ukuran gambar ke 20 KB",
+    "title": "Resize Foto 20KB Online - Kecilkan Foto ke 20 KB Gratis",
+    "description": "Resize foto 20KB online gratis: kecilkan foto atau tanda tangan ke 20 KB atau kurang di browser. Tanpa daftar, tanpa unggah, dan gambar Anda tetap privat.",
+    "h1": "Resize foto ke 20 KB",
     "intro": "Batas 20 KB umum dipakai untuk pas foto kecil dan tanda tangan pada formulir ujian, lowongan kerja, dan layanan pemerintah. Tambahkan gambar Anda, lalu alat ini menurunkan kualitas langkah demi langkah dan memperkecil dimensi hanya jika perlu, sampai file di bawah 20 KB (20.000 byte).",
     "blurb": "Foto atau tanda tangan di bawah 20 KB.",
     "steps": [
@@ -460,9 +469,9 @@
     }
   },
   "kb50": {
-    "title": "Kecilkan Foto ke 50KB Online - Resize Gratis",
-    "description": "Kecilkan foto ke 50KB online gratis: kompres foto ke 50 KB atau kurang untuk formulir ujian, portal lowongan kerja, dan unggahan KTP. Tanpa daftar, privat.",
-    "h1": "Ubah ukuran gambar ke 50 KB",
+    "title": "Kompres Foto 50KB Online - Resize Foto ke 50 KB Gratis",
+    "description": "Kompres foto 50KB online gratis: resize foto ke 50 KB atau kurang untuk formulir pendaftaran, lamaran kerja, dan unggahan KTP. Tanpa daftar, tetap privat.",
+    "h1": "Kompres foto ke 50 KB",
     "intro": "50 KB adalah salah satu batas yang paling sering diminta untuk pas foto pada formulir pendaftaran online. Halaman ini menetapkan batasnya untuk Anda: tambahkan foto, lalu unduh JPG di bawah 50 KB (50.000 byte) yang tetap tajam.",
     "blurb": "Foto di bawah 50 KB untuk formulir dan portal.",
     "steps": [
@@ -513,9 +522,9 @@
     }
   },
   "kb100": {
-    "title": "Kecilkan Foto ke 100KB Online - Kompres Gambar Gratis",
-    "description": "Kecilkan foto ke 100KB online gratis: perkecil gambar ke 100 KB atau kurang untuk lamaran kerja, KYC, dan unggah dokumen. Tanpa daftar, dan sepenuhnya privat.",
-    "h1": "Ubah ukuran gambar ke 100 KB",
+    "title": "Kecilkan Foto 100KB Online - Resize Foto ke 100 KB Gratis",
+    "description": "Kecilkan foto 100KB online gratis: resize foto ke 100 KB atau kurang untuk lamaran kerja, KYC, dan unggah dokumen. Tanpa daftar, dan sepenuhnya privat.",
+    "h1": "Kecilkan foto ke 100 KB",
     "intro": "100 KB adalah batas umum untuk foto lamaran, hasil pindai KTP, dan foto profil. Tambahkan gambar Anda dan dapatkan JPG di bawah 100 KB (100.000 byte) dengan kualitas tertinggi yang masih muat.",
     "blurb": "Gambar di bawah 100 KB untuk lamaran dan KYC.",
     "steps": [
@@ -566,9 +575,9 @@
     }
   },
   "kb200": {
-    "title": "Kecilkan Foto ke 200KB Online - Kompres Gambar Gratis",
-    "description": "Kecilkan foto ke 200KB online gratis: kompres gambar ke 200 KB atau kurang untuk visa, KYC, dan unggahan layanan pemerintah. Tanpa daftar, dan privat.",
-    "h1": "Ubah ukuran gambar ke 200 KB",
+    "title": "Resize Foto 200KB Online - Kompres Foto ke 200 KB Gratis",
+    "description": "Resize foto 200KB online gratis: kompres foto ke 200 KB atau kurang untuk pendaftaran CPNS, visa, KYC, dan unggahan dokumen. Tanpa daftar, dan privat.",
+    "h1": "Resize foto ke 200 KB",
     "intro": "200 KB adalah batas atas yang umum untuk foto visa, dokumen KYC, dan unggahan layanan pemerintah. Tambahkan gambar Anda dan unduh JPG di bawah 200 KB (200.000 byte) yang menyimpan sebanyak mungkin detail.",
     "blurb": "Gambar di bawah 200 KB untuk visa dan layanan pemerintah.",
     "steps": [
@@ -672,9 +681,9 @@
     }
   },
   "pngToJpg": {
-    "title": "Konverter PNG ke JPG - Online Gratis, Tanpa Unggah",
-    "description": "Konversi PNG ke JPG online gratis: ubah gambar PNG menjadi file JPG yang lebih kecil di browser. Tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
-    "h1": "Konversi PNG ke JPG",
+    "title": "PNG ke JPG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "PNG ke JPG online gratis: ubah gambar PNG jadi file JPG yang lebih kecil langsung di browser. Tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
+    "h1": "PNG ke JPG online",
     "intro": "Ubah gambar PNG menjadi file JPG yang lebih kecil dalam satu langkah. JPG diterima hampir di mana saja dan jauh lebih kecil untuk foto. Tambahkan file PNG Anda, tekan tombolnya, lalu unduh file JPG-nya, atau satu ZIP berisi semuanya.",
     "blurb": "Ubah file PNG menjadi JPG yang lebih kecil.",
     "steps": [
@@ -725,9 +734,9 @@
     }
   },
   "jpgToPng": {
-    "title": "Konverter JPG ke PNG - Online Gratis, Tanpa Unggah",
-    "description": "Konversi JPG ke PNG online gratis di browser. Tanpa daftar, tanpa unggah, dan tanpa watermark, serta jalan di ponsel maupun komputer.",
-    "h1": "Konversi JPG ke PNG",
+    "title": "JPG ke PNG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "JPG ke PNG online gratis: konversi gambar JPG ke PNG langsung di browser. Tanpa daftar, tanpa unggah, tanpa watermark, dan jalan di ponsel maupun komputer.",
+    "h1": "JPG ke PNG online",
     "intro": "Butuh PNG untuk logo, aplikasi desain, atau formulir yang tidak menerima JPG? Tambahkan file JPG Anda dan unduh file PNG lossless dalam satu langkah. Semuanya berjalan di browser Anda.",
     "blurb": "Ubah file JPG menjadi PNG lossless.",
     "steps": [
@@ -778,9 +787,9 @@
     }
   },
   "webpToJpg": {
-    "title": "Konverter WebP ke JPG - Online Gratis, Tanpa Unggah",
-    "description": "Konversi WebP ke JPG online gratis: ubah gambar WebP menjadi JPG yang bisa dibuka di mana saja. Tanpa daftar, tanpa unggah, jalan di ponsel maupun komputer.",
-    "h1": "Konversi WebP ke JPG",
+    "title": "WebP ke JPG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "WebP ke JPG online gratis: ubah gambar WebP jadi JPG yang bisa dibuka di mana saja, langsung di browser. Tanpa daftar, tanpa unggah, jalan di ponsel.",
+    "h1": "WebP ke JPG online",
     "intro": "Situs web sering menyimpan gambar sebagai WebP, tetapi banyak program, printer, dan formulir unggah hanya menerima JPG. Tambahkan gambar WebP Anda dan unduh file JPG yang bisa dibuka di mana saja.",
     "blurb": "Ubah gambar WebP menjadi JPG yang bisa dibuka di mana saja.",
     "steps": [
@@ -838,9 +847,9 @@
     "jump": "Langsung ke"
   },
   "kb10": {
-    "title": "Kecilkan Foto ke 10KB Online - Resize Gratis",
-    "description": "Kecilkan foto ke 10KB online gratis: perkecil foto atau tanda tangan ke 10 KB atau kurang di browser. Tanpa daftar, tanpa unggah, dan gambar Anda tetap privat.",
-    "h1": "Ubah ukuran gambar ke 10 KB",
+    "title": "Resize Foto 10KB Online - Kecilkan Foto ke 10 KB Gratis",
+    "description": "Resize foto 10KB online gratis: kecilkan foto atau tanda tangan ke 10 KB atau kurang di browser. Tanpa daftar, tanpa unggah, dan gambar Anda tetap privat.",
+    "h1": "Resize foto ke 10 KB",
     "intro": "10 KB adalah batas yang sangat kecil, umum untuk tanda tangan, thumbnail, dan kolom foto kecil pada formulir pendaftaran. Halaman ini menetapkan batas 10 KB untuk Anda: tambahkan gambar, lalu unduh JPG di bawah 10 KB (10.000 byte).",
     "blurb": "Tanda tangan atau foto kecil di bawah 10 KB.",
     "steps": [
@@ -891,9 +900,9 @@
     }
   },
   "kb30": {
-    "title": "Kecilkan Foto ke 30KB Online - Resize Gratis",
-    "description": "Kecilkan foto ke 30KB online gratis: kompres foto atau tanda tangan ke 30 KB atau kurang untuk formulir dan portal ujian. Tanpa daftar, tetap di perangkat.",
-    "h1": "Ubah ukuran gambar ke 30 KB",
+    "title": "Kompres Foto 30KB Online - Resize Foto ke 30 KB Gratis",
+    "description": "Kompres foto 30KB online gratis: resize foto atau tanda tangan ke 30 KB atau kurang untuk formulir dan portal ujian. Tanpa daftar, tetap di perangkat Anda.",
+    "h1": "Kompres foto ke 30 KB",
     "intro": "Batas 30 KB umum pada formulir pendaftaran ujian, lowongan kerja, dan instansi pemerintah, tempat foto dan tanda tangan diunggah di kolom terpisah. Halaman ini menetapkan batasnya untuk Anda: tambahkan foto, lalu unduh JPG di bawah 30 KB (30.000 byte).",
     "blurb": "Foto di bawah 30 KB untuk formulir pendaftaran.",
     "steps": [
@@ -944,9 +953,9 @@
     }
   },
   "kb500": {
-    "title": "Kecilkan Foto ke 500KB Online - Kompres Gambar Gratis",
-    "description": "Kecilkan foto ke 500KB online gratis: kompres foto ke 500 KB atau kurang untuk email, lamaran kerja, dan unggahan, tetap tajam. Tanpa daftar, privat.",
-    "h1": "Ubah ukuran gambar ke 500 KB",
+    "title": "Resize Foto 500KB Online - Kompres Foto ke 500 KB Gratis",
+    "description": "Resize foto 500KB online gratis: kompres foto ke 500 KB atau kurang untuk email, lamaran kerja, dan unggahan, tetap tajam. Tanpa daftar, tanpa unggah, privat.",
+    "h1": "Resize foto ke 500 KB",
     "intro": "500 KB adalah batas yang umum untuk lampiran email, lamaran kerja, dan formulir unggah yang tetap menginginkan gambar yang bagus. Halaman ini menetapkan batasnya untuk Anda: tambahkan gambar, lalu unduh file di bawah 500 KB (500.000 byte) yang tetap tajam.",
     "blurb": "Gambar di bawah 500 KB yang tetap tajam.",
     "steps": [
@@ -997,9 +1006,9 @@
     }
   },
   "mb1": {
-    "title": "Kecilkan Foto ke 1MB Online - Kompres Gambar Gratis",
-    "description": "Kecilkan foto ke 1MB online gratis: perkecil foto ke 1 MB atau kurang untuk email, formulir, dan unggahan tanpa penurunan terlihat. Tanpa daftar, privat.",
-    "h1": "Ubah ukuran gambar ke 1 MB",
+    "title": "Resize Foto 1 MB Online - Kompres Foto ke 1MB Gratis",
+    "description": "Resize foto 1 MB online gratis: kecilkan foto ke 1MB atau kurang untuk email, formulir, dan unggahan tanpa penurunan kualitas terlihat. Tanpa daftar, privat.",
+    "h1": "Resize foto ke 1 MB",
     "intro": "Batas 1 MB umum pada layanan email, formulir pendaftaran, dan situs yang menerima unggahan foto. Halaman ini menetapkan batasnya untuk Anda: tambahkan gambar, lalu unduh file di bawah 1 MB (1.000.000 byte) yang tetap terlihat tajam.",
     "blurb": "Gambar di bawah 1 MB untuk email dan unggahan.",
     "steps": [
@@ -1050,9 +1059,9 @@
     }
   },
   "pixels": {
-    "title": "Ubah Ukuran Gambar dalam Piksel - Atur Lebar dan Tinggi",
-    "description": "Ubah ukuran gambar dalam piksel online gratis: masukkan lebar dan tinggi persis, jaga rasio aspek, muat atau pangkas. Tanpa daftar, gambar tetap di perangkat.",
-    "h1": "Ubah ukuran gambar dalam piksel",
+    "title": "Resize Foto dalam Pixel - Atur Lebar dan Tinggi Gambar",
+    "description": "Resize foto dalam pixel online gratis: masukkan lebar dan tinggi persis, jaga rasio aspek, muat atau pangkas. Tanpa daftar, foto tetap di perangkat.",
+    "h1": "Resize foto dalam pixel",
     "intro": "Tetapkan lebar dan tinggi gambar yang persis dalam piksel, untuk situs web, formulir pendaftaran, thumbnail, atau postingan media sosial. Tambahkan gambar, ketik ukurannya, lalu unduh hasilnya. Rasio aspek dikunci secara bawaan, jadi tidak ada yang terlihat melar.",
     "blurb": "Atur lebar dan tinggi persis dalam piksel.",
     "steps": [
@@ -1103,9 +1112,9 @@
     }
   },
   "bulk": {
-    "title": "Ubah Ukuran Banyak Foto Sekaligus - Resize Massal Gratis",
-    "description": "Ubah ukuran ratusan foto sekaligus ke satu ukuran atau batas file, lalu unduh ZIP. Resize massal gratis, tanpa daftar, dan privat di browser Anda.",
-    "h1": "Ubah ukuran banyak gambar sekaligus",
+    "title": "Resize Foto Sekaligus - Ubah Ukuran Banyak Foto Gratis",
+    "description": "Resize foto sekaligus: ubah ukuran ratusan foto ke satu ukuran atau batas file, lalu unduh ZIP. Resize massal gratis, tanpa daftar, dan privat di browser Anda.",
+    "h1": "Resize banyak foto sekaligus",
     "intro": "Ubah ukuran banyak gambar sekaligus. Tambahkan satu folder penuh foto, pilih satu ukuran atau satu batas ukuran file untuk semuanya, lalu unduh hasilnya sebagai satu file ZIP. Semuanya berlangsung di perangkat Anda, jadi tanpa unggah dan tanpa menunggu.",
     "blurb": "Ubah ukuran banyak foto sekaligus dan unduh ZIP.",
     "steps": [
@@ -1156,9 +1165,9 @@
     }
   },
   "jpgToWebp": {
-    "title": "Konverter JPG ke WebP - Online Gratis, Tanpa Unggah",
-    "description": "Konversi JPG ke WebP online di browser untuk file lebih kecil dan halaman lebih cepat. Gratis, tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
-    "h1": "Konversi JPG ke WebP",
+    "title": "JPG ke WebP - Konversi Online Gratis, Tanpa Unggah",
+    "description": "JPG ke WebP online gratis: konversi dan kompres JPG ke WebP di browser untuk file lebih kecil dan halaman lebih cepat. Tanpa daftar, tanpa unggah.",
+    "h1": "JPG ke WebP online",
     "intro": "File WebP biasanya lebih kecil daripada JPG pada kualitas yang mirip, sehingga situs web dimuat lebih cepat. Tambahkan gambar JPG Anda dan unduh file WebP dalam hitungan detik. Tidak ada yang diunggah: konversi berlangsung di perangkat Anda.",
     "blurb": "Ubah gambar JPG menjadi file WebP yang lebih kecil.",
     "steps": [
@@ -1209,9 +1218,9 @@
     }
   },
   "pngToWebp": {
-    "title": "Konverter PNG ke WebP - Online Gratis, Tanpa Unggah",
-    "description": "Konversi PNG ke WebP online di browser: file jauh lebih kecil dan transparansi tetap ada. Gratis, tanpa daftar, tanpa unggah, dan kualitasnya bisa Anda atur.",
-    "h1": "Konversi PNG ke WebP",
+    "title": "PNG ke WebP - Konversi Online Gratis, Tanpa Unggah",
+    "description": "PNG ke WebP online gratis: konversi PNG ke WebP di browser, file jauh lebih kecil dan transparansi tetap ada. Tanpa daftar, tanpa unggah, kualitas bisa diatur.",
+    "h1": "PNG ke WebP online",
     "intro": "File PNG bisa sangat besar, terutama untuk foto dan tangkapan layar. WebP juga mempertahankan transparansi dan biasanya jauh lebih kecil. Tambahkan gambar PNG Anda dan unduh file WebP dalam hitungan detik. Tidak ada yang diunggah: konversi berlangsung di perangkat Anda.",
     "blurb": "Ubah gambar PNG menjadi file WebP yang jauh lebih kecil.",
     "steps": [
@@ -1257,6 +1266,496 @@
         {
           "q": "Apakah gratis?",
           "a": "Ya. Tanpa pendaftaran, tanpa watermark, dan tanpa batas jumlah gambar."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Resize Foto 300KB Online - Kompres Foto ke 300 KB Gratis",
+    "description": "Resize foto 300KB online gratis: kecilkan foto ke 300 KB atau kurang untuk formulir dan unggahan, tetap tajam. Tanpa daftar, tetap di perangkat Anda.",
+    "h1": "Resize foto ke 300 KB",
+    "intro": "Banyak formulir pendaftaran, portal ujian, dan situs web meminta foto maksimal 300 KB. Halaman ini menetapkan batas itu untuk Anda: tambahkan gambar, lalu unduh file di bawah 300 KB yang tetap terlihat jelas.",
+    "blurb": "Gambar di bawah 300 KB untuk formulir dan unggahan.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto ponsel yang besar tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 300 KB",
+        "text": "300 KB sudah terpilih. Alat ini menghitungnya sebagai 300.000 byte, jadi file lolos di sistem yang menghitung 1 KB sebagai 1.000 byte maupun yang menghitung 1.024 byte."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 300 KB",
+    "tips": [
+      "Pilih JPG untuk foto. Foto yang disimpan sebagai PNG biasanya beberapa kali lebih besar untuk gambar yang sama.",
+      "Jika formulir juga meminta ukuran piksel yang persis, atur lebar dan tinggi lebih dulu, lalu biarkan batas 300 KB tetap aktif.",
+      "Foto ponsel selebar 4000 piksel tidak muat di 300 KB dengan kualitas tinggi. Biarkan alat ini menurunkan ukuran piksel sedikit agar hasilnya lebih tajam daripada jika hanya kualitas yang diturunkan.",
+      "Tambahkan beberapa foto sekaligus untuk mengubah ukurannya dengan batas yang sama, lalu unduh satu file ZIP."
+    ],
+    "detailsTitle": "Arti 300 KB untuk sebuah foto",
+    "details": [
+      "Tiga ratus kilobyte kurang sedikit dari sepertiga megabyte. JPG sebesar itu dapat memuat foto sekitar 1500 x 1000 piksel dengan detail yang bagus, tergantung gambarnya. Itu lebih dari cukup untuk formulir, unggahan KTP, atau halaman web.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasil yang persis sebelum Anda mengunduh. Jika formulir meminta file yang lebih kecil, pilih batas yang lebih rendah seperti 200 KB atau 100 KB lalu jalankan lagi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengecilkan gambar ke 300 KB?",
+          "a": "Tambahkan gambar, biarkan batas 300 KB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Apakah gambarnya jadi terlihat lebih buruk?",
+          "a": "Sedikit, karena file yang lebih kecil menyimpan lebih sedikit detail. Alat ini memilih kualitas terbaik yang masih muat, sehingga Anda mendapat gambar paling tajam di bawah 300 KB."
+        },
+        {
+          "q": "Bagaimana jika file saya sudah di bawah 300 KB?",
+          "a": "Berarti sudah cukup kecil. Pilih batas yang lebih rendah hanya jika formulir membutuhkannya."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Resize Foto 2 MB Online - Kompres Foto ke 2MB Gratis",
+    "description": "Resize foto 2 MB online gratis: kecilkan foto ke 2MB atau kurang untuk email, formulir, dan unggahan tanpa penurunan kualitas terlihat. Tanpa daftar, privat.",
+    "h1": "Resize foto ke 2 MB",
+    "intro": "Layanan email, formulir pendaftaran, dan halaman unggah sering menerima gambar hingga 2 MB, sedangkan foto ponsel biasanya lebih besar. Tambahkan gambar, lalu unduh file di bawah 2 MB (2.000.000 byte) yang tetap terlihat tajam.",
+    "blurb": "Gambar di bawah 2 MB untuk email dan unggahan.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto berukuran 5 sampai 10 MB tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 2 MB",
+        "text": "2 MB sudah terpilih. Alat ini menghitungnya sebagai 2.000.000 byte, jadi file lolos di sistem yang menghitung 2.000 KB maupun yang menghitung 2.048 KB."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 2 MB",
+    "tips": [
+      "Kebanyakan foto ponsel masa kini berukuran 3 sampai 10 MB. Batas dua megabyte biasanya bisa dicapai dengan menurunkan kualitas sedikit, tanpa perbedaan yang terlihat di layar.",
+      "Foto paling pas sebagai JPG atau WebP. Foto yang disimpan sebagai PNG biasanya beberapa kali lebih besar.",
+      "Untuk mengirim banyak foto dalam satu email, tambahkan semuanya sekaligus lalu unduh file ZIP-nya.",
+      "Tangkapan layar dan logo lebih baik sebagai PNG: ukurannya sudah kecil dan tepinya tetap tajam."
+    ],
+    "detailsTitle": "Arti 2 MB untuk sebuah foto",
+    "details": [
+      "Dua megabyte adalah 2.000 kilobyte. JPG sebesar itu dapat memuat foto sekitar 3000 x 2000 piksel dengan detail yang sangat bagus, tergantung gambarnya, dan itu lebih dari yang ditampilkan kebanyakan layar.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasil yang persis sebelum Anda mengunduh. Ukuran piksel baru diturunkan jika batas tidak bisa dicapai hanya dengan kualitas."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara memperkecil gambar ke 2 MB?",
+          "a": "Tambahkan gambar, pertahankan batas 2 MB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Apakah 2 MB sama dengan 2.048 KB?",
+          "a": "Pada sebagian sistem, satu megabyte dihitung 1.024 kilobyte, pada yang lain 1.000. Alat ini memakai nilai yang lebih kecil (2.000 KB, atau 2.000.000 byte), sehingga file lolos di keduanya."
+        },
+        {
+          "q": "Apakah ukuran pikselnya ikut mengecil?",
+          "a": "Hanya jika terpaksa. Alat ini menurunkan kualitas lebih dulu dan baru memperkecil ukuran piksel jika batas tidak bisa dicapai dengan cara lain."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Gambar ke PDF Online Gratis - Gabung Foto Jadi Satu PDF",
+    "description": "Gambar ke PDF online gratis: gabungkan foto JPG, PNG, dan WebP jadi satu PDF di browser. Pilih A4 atau Letter. Tanpa daftar, tanpa unggah, tanpa watermark.",
+    "h1": "Gambar ke PDF online",
+    "intro": "Ubah satu gambar atau banyak gambar menjadi satu PDF. Tambahkan gambar, atur urutannya sesuai keinginan, pilih ukuran halaman, lalu unduh PDF-nya. PDF dibuat di perangkat Anda, jadi gambar tidak pernah diunggah, tidak ada watermark, dan tidak ada batas berapa kali Anda memakainya.",
+    "blurb": "Gabungkan gambar jadi satu PDF, di perangkat Anda.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret gambar JPG, PNG, WebP, GIF, atau BMP ke halaman ini, atau pilih dari perangkat Anda. Setiap gambar menjadi satu halaman."
+      },
+      {
+        "title": "Atur urutan halaman dan pilih opsi",
+        "text": "Gunakan tanda panah untuk memindahkan halaman ke atas atau ke bawah. Pilih A4, US Letter, atau ukuran gambar, serta margin dan kualitasnya."
+      },
+      {
+        "title": "Buat dan unduh",
+        "text": "Tekan Buat PDF lalu unduh filenya. File ini bisa dibuka di pembaca PDF mana pun."
+      }
+    ],
+    "tipsTitle": "Tips membuat PDF yang bagus dari gambar",
+    "tips": [
+      "Pilih A4 atau US Letter untuk dokumen yang mungkin Anda cetak. Pilih “Sama seperti gambar” jika PDF hanya untuk dilihat di layar.",
+      "Untuk file kecil (misalnya untuk dikirim lewat email), pilih “File kecil”. Untuk hasil pindai teks dan tangkapan layar, pilih “Kualitas tinggi”.",
+      "Foto yang diambil secara potret atau lanskap otomatis diputar ke posisi yang benar, berdasarkan informasi yang disimpan ponsel Anda di dalam gambar.",
+      "Area transparan pada gambar PNG dan WebP menjadi putih, karena disimpan sebagai halaman JPEG.",
+      "Butuh PDF di bawah batas ukuran tertentu? Perkecil dulu gambarnya dengan alat “Resize foto ke KB”, lalu gabungkan di sini."
+    ],
+    "detailsTitle": "Cara PDF dibuat",
+    "details": [
+      "Setiap gambar ditempatkan di halamannya sendiri, di tengah dan tidak pernah diregangkan. Dengan A4 atau US Letter, halaman otomatis menjadi lanskap jika gambarnya lebih lebar daripada tinggi (atau Anda bisa menentukan arahnya sendiri). Dengan “Sama seperti gambar”, halaman persis berbentuk seperti gambarnya.",
+      "PDF ditulis oleh browser Anda. Gambar dibaca di perangkat Anda, disimpan sebagai halaman JPEG, lalu dikemas ke dalam file PDF, dan tidak ada yang dikirim ke server. Anda bisa menambahkan hingga 100 gambar ke satu PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengubah gambar ke PDF?",
+          "a": "Tambahkan gambar, atur urutannya, pilih ukuran halaman, lalu tekan Buat PDF. Setelah itu unduh PDF-nya."
+        },
+        {
+          "q": "Bagaimana cara menggabungkan beberapa foto jadi satu PDF?",
+          "a": "Tambahkan semua foto sekaligus. Masing-masing menjadi satu halaman, dan tanda panah di samping tiap gambar mengubah urutannya sebelum Anda membuat PDF."
+        },
+        {
+          "q": "Apakah ada batas jumlah halaman atau ukuran file?",
+          "a": "Anda bisa menambahkan hingga 100 gambar ke satu PDF. Tidak ada batas harian dan tidak ada watermark. Ukuran PDF tergantung pada gambar Anda dan kualitas yang dipilih."
+        },
+        {
+          "q": "Apakah bisa dipakai di ponsel?",
+          "a": "Bisa. Pilih foto dari galeri atau file, atur urutannya, lalu unduh PDF-nya. Berfungsi di browser ponsel modern mana pun."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. PDF dibuat di perangkat Anda dan gambar Anda tidak pernah meninggalkannya."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "JPG ke PDF - Konversi Online Gratis, Tanpa Unggah",
+    "description": "JPG ke PDF online gratis: ubah satu atau banyak foto JPG jadi PDF di browser. Pilih A4 atau Letter. Tanpa daftar, tanpa unggah, tanpa watermark.",
+    "h1": "JPG ke PDF online",
+    "intro": "Buat PDF dari foto JPG Anda. Tambahkan satu gambar atau banyak, atur urutannya dengan benar, lalu unduh satu file PDF. Prosesnya berjalan di perangkat Anda, jadi tidak ada yang diunggah dan tidak ada watermark.",
+    "blurb": "Ubah foto JPG jadi satu file PDF.",
+    "steps": [
+      {
+        "title": "Tambahkan file JPG Anda",
+        "text": "Seret satu atau banyak gambar JPG ke halaman ini, atau pilih dari perangkat Anda. Setiap gambar menjadi satu halaman."
+      },
+      {
+        "title": "Atur urutan halaman dan pilih opsi",
+        "text": "Gunakan tanda panah untuk mengubah urutan. Pilih A4, US Letter, atau ukuran gambar, serta margin dan kualitasnya."
+      },
+      {
+        "title": "Buat dan unduh",
+        "text": "Tekan Buat PDF lalu unduh filenya. File ini bisa dibuka di pembaca PDF mana pun."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi JPG ke PDF",
+    "tips": [
+      "Dengan “Kualitas tinggi”, foto Anda mempertahankan hampir seluruh detailnya, jadi PDF terlihat seperti gambar di ponsel Anda.",
+      "Foto ponsel bisa berukuran beberapa MB per file. Pilih “File kecil” jika PDF harus dikirim lewat email atau diunggah ke formulir.",
+      "Foto yang diambil tegak atau menyamping otomatis diputar ke posisi yang benar.",
+      "Untuk memindai dokumen dengan ponsel, foto tiap halaman, tambahkan foto-foto itu di sini sesuai urutan, lalu buat PDF-nya."
+    ],
+    "detailsTitle": "JPG ke PDF tanpa aplikasi",
+    "details": [
+      "Halaman PDF bisa memuat gambar JPG secara langsung, sehingga konversi berjalan cepat dan hasilnya mirip dengan foto Anda. Pilih A4 atau US Letter jika PDF mungkin akan dicetak, atau “Sama seperti gambar” untuk PDF yang tiap halamannya hanya berisi gambar.",
+      "PDF dibuat di browser Anda. Foto Anda tidak pernah diunggah, jadi aman untuk KTP, struk, dan gambar pribadi lainnya. Anda bisa menambahkan hingga 100 gambar ke satu PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengonversi JPG ke PDF?",
+          "a": "Tambahkan gambar JPG Anda, atur urutannya, lalu tekan Buat PDF. Setelah itu unduh PDF-nya."
+        },
+        {
+          "q": "Bisakah beberapa file JPG dijadikan satu PDF?",
+          "a": "Bisa. Tambahkan semuanya sekaligus. Setiap gambar menjadi satu halaman dan Anda bisa mengubah urutannya dengan tanda panah."
+        },
+        {
+          "q": "Apakah mengonversi JPG ke PDF menurunkan kualitas?",
+          "a": "Nyaris tidak. Dengan “Kualitas tinggi”, gambar dipertahankan hampir dengan detail penuh. Pilih “File kecil” hanya jika Anda butuh PDF yang lebih kecil."
+        },
+        {
+          "q": "Bagaimana membuat PDF di bawah 1 MB atau 200 KB?",
+          "a": "Pilih “File kecil” dan tambahkan lebih sedikit gambar per PDF. Jika masih terlalu besar, perkecil dulu tiap gambar dengan alat “Resize foto ke KB”."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "PNG ke PDF - Konversi Online Gratis, Tanpa Unggah",
+    "description": "PNG ke PDF online gratis: ubah tangkapan layar dan gambar PNG jadi satu PDF di browser. Pilih A4 atau Letter. Tanpa daftar, tanpa unggah, tanpa watermark.",
+    "h1": "PNG ke PDF online",
+    "intro": "Buat PDF dari gambar PNG dan tangkapan layar Anda. Tambahkan satu gambar atau banyak, atur urutannya dengan benar, lalu unduh satu PDF. Prosesnya berjalan di perangkat Anda, jadi tidak ada yang diunggah dan tidak ada watermark.",
+    "blurb": "Ubah gambar PNG dan tangkapan layar jadi PDF.",
+    "steps": [
+      {
+        "title": "Tambahkan file PNG Anda",
+        "text": "Seret satu atau banyak gambar PNG ke halaman ini, atau pilih dari perangkat Anda. Setiap gambar menjadi satu halaman."
+      },
+      {
+        "title": "Atur urutan halaman dan pilih opsi",
+        "text": "Gunakan tanda panah untuk mengubah urutan. Pilih A4, US Letter, atau ukuran gambar, serta margin dan kualitasnya."
+      },
+      {
+        "title": "Buat dan unduh",
+        "text": "Tekan Buat PDF lalu unduh filenya. File ini bisa dibuka di pembaca PDF mana pun."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi PNG ke PDF",
+    "tips": [
+      "Area transparan pada PNG menjadi putih di PDF.",
+      "Untuk tangkapan layar dengan teks kecil, pilih “Kualitas tinggi” agar hurufnya tetap tajam.",
+      "File PNG bisa besar. Pilih “File kecil” jika PDF harus dikirim lewat email, atau pilih “Seimbang” untuk perpaduan antara ketajaman dan ukuran.",
+      "Agar bentuk tangkapan layar tetap persis, pilih “Sama seperti gambar” sebagai ukuran halaman."
+    ],
+    "detailsTitle": "Nasib PNG di dalam PDF",
+    "details": [
+      "Setiap PNG digambar di atas latar putih dan disimpan di dalam PDF sebagai gambar JPEG pada kualitas yang Anda pilih, jadi dengan “Kualitas tinggi” tangkapan layar atau grafik terlihat seperti di layar. Pilih A4 atau US Letter jika PDF mungkin akan dicetak, atau “Sama seperti gambar” untuk halaman yang persis berbentuk seperti gambarnya.",
+      "PDF dibuat di browser Anda. Gambar Anda tidak pernah diunggah, jadi aman untuk dokumen pribadi dan tangkapan layar. Anda bisa menambahkan hingga 100 gambar ke satu PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengonversi PNG ke PDF?",
+          "a": "Tambahkan gambar PNG Anda, atur urutannya, lalu tekan Buat PDF. Setelah itu unduh PDF-nya."
+        },
+        {
+          "q": "Bisakah beberapa file PNG digabung jadi satu PDF?",
+          "a": "Bisa. Tambahkan semuanya sekaligus. Setiap gambar menjadi satu halaman dan Anda bisa mengubah urutannya dengan tanda panah."
+        },
+        {
+          "q": "Apa yang terjadi pada PNG transparan?",
+          "a": "Area transparan diisi warna putih, karena gambar disimpan pada halaman putih."
+        },
+        {
+          "q": "Apakah teks di tangkapan layar saya tetap tajam?",
+          "a": "Ya, dengan “Kualitas tinggi”. Gambar dipertahankan hampir dengan detail penuh."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "CM ke Pixel - Kalkulator Konversi Gratis (300 DPI)",
+    "description": "Konversi cm ke pixel online gratis: ketik ukuran dalam sentimeter, pilih DPI, dan dapatkan ukuran pixel yang persis. Cocok untuk cetak, pas foto, dan formulir.",
+    "h1": "Konversi cm ke pixel",
+    "intro": "Ketik ukuran dalam sentimeter dan lihat berapa pikselnya pada DPI pilihan Anda. Kalkulator ini juga menampilkan ukuran cetak yang umum dalam piksel dan menyediakan tautan ke pengubah ukuran gambar gratis, sehingga Anda bisa membuat gambar persis berukuran itu.",
+    "blurb": "Konversi sentimeter ke piksel pada DPI berapa pun.",
+    "steps": [
+      {
+        "title": "Masukkan ukuran dalam cm",
+        "text": "Ketik lebar, dan tinggi jika Anda perlu. Satuannya sudah diatur ke sentimeter."
+      },
+      {
+        "title": "Pilih DPI",
+        "text": "Gunakan 300 untuk cetak, 96 untuk layar, atau angka apa pun yang diminta formulir. Hasilnya berubah saat Anda mengetik."
+      },
+      {
+        "title": "Baca pikselnya dan resize",
+        "text": "Salin hasilnya, atau buka pengubah ukuran gambar dan masukkan pikselnya agar gambar Anda berukuran sebesar itu."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi cm ke piksel",
+    "tips": [
+      "Sebuah gambar tidak punya ukuran dalam sentimeter sampai dicetak atau ditempatkan di dokumen. DPI menentukan berapa piksel yang muat dalam satu sentimeter.",
+      "Gunakan 300 DPI untuk cetakan yang tajam, 150 DPI untuk draf, dan 72 atau 96 DPI untuk layar.",
+      "Jika formulir memberi ukuran dalam cm tanpa menyebut DPI, 300 DPI adalah pilihan yang lazim untuk foto.",
+      "Isi lebar dan tinggi sekaligus untuk mendapatkan kedua sisinya. Gunakan tombol tukar untuk mengonversi ke arah sebaliknya."
+    ],
+    "detailsTitle": "Cara mengonversi cm ke piksel",
+    "details": [
+      "Rumusnya: piksel = sentimeter ÷ 2,54 × DPI, karena satu inci sama dengan 2,54 sentimeter. Pada 300 DPI satu sentimeter sekitar 118 piksel, pada 96 DPI sekitar 38 piksel, dan pada 72 DPI sekitar 28 piksel. Jadi 10 cm sekitar 1181 piksel pada 300 DPI.",
+      "Ukuran foto dalam sentimeter mengikuti aturan yang sama: cetakan 10 × 15 cm sekitar 1181 × 1772 piksel pada 300 DPI. Konverter ini membulatkan piksel ke bilangan bulat, karena gambar tidak bisa memiliki sebagian piksel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Satu cm berapa piksel?",
+          "a": "Pada 300 DPI, 1 cm sekitar 118 piksel. Pada 96 DPI sekitar 38 piksel, dan pada 72 DPI sekitar 28 piksel."
+        },
+        {
+          "q": "Bagaimana cara mengonversi cm ke piksel?",
+          "a": "Bagi sentimeter dengan 2,54 lalu kalikan dengan DPI. Atau ketik ukurannya ke kalkulator di atas dan hitungannya dilakukan untuk Anda."
+        },
+        {
+          "q": "DPI berapa yang sebaiknya saya pakai?",
+          "a": "Pakai 300 untuk mencetak serta untuk foto paspor atau foto identitas, dan 72 atau 96 untuk gambar yang hanya ditampilkan di layar."
+        },
+        {
+          "q": "Apakah DPI mengubah gambar saya?",
+          "a": "Tidak. DPI hanya menentukan seberapa besar gambar saat dicetak. Ubah ukuran gambarnya sendiri dengan pengubah ukuran gambar."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Inch ke Pixel - Kalkulator Konversi Gratis",
+    "description": "Konversi inch ke pixel online gratis: ketik ukuran dalam inci, pilih DPI, dan dapatkan ukuran pixel persis untuk cetak foto dan formulir. Tanpa unggah.",
+    "h1": "Konversi inch ke pixel",
+    "intro": "Ketik ukuran dalam inci dan lihat berapa pikselnya pada DPI pilihan Anda. Kalkulator ini juga menampilkan ukuran cetak yang umum dalam piksel dan menyediakan tautan ke pengubah ukuran gambar gratis, sehingga Anda bisa membuat gambar persis berukuran itu.",
+    "blurb": "Konversi inci ke piksel pada DPI berapa pun.",
+    "steps": [
+      {
+        "title": "Masukkan ukuran dalam inci",
+        "text": "Ketik lebar, dan tinggi jika Anda perlu. Satuannya sudah diatur ke inci."
+      },
+      {
+        "title": "Pilih DPI",
+        "text": "Gunakan 300 untuk cetak, 96 untuk layar, atau angka apa pun yang diminta formulir. Hasilnya berubah saat Anda mengetik."
+      },
+      {
+        "title": "Baca pikselnya dan resize",
+        "text": "Salin hasilnya, atau buka pengubah ukuran gambar dan masukkan pikselnya agar gambar Anda berukuran sebesar itu."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi inci ke piksel",
+    "tips": [
+      "Piksel = inci × DPI. Pada 300 DPI setiap inci adalah 300 piksel.",
+      "Cetak foto 4 × 6 inci membutuhkan 1200 × 1800 piksel pada 300 DPI, dan pas foto paspor 2 × 2 inci membutuhkan 600 × 600.",
+      "Sebuah gambar tidak punya ukuran dalam inci sampai dicetak. DPI menentukan berapa piksel yang muat dalam satu inci.",
+      "Gunakan tombol tukar untuk mengonversi piksel ke inci."
+    ],
+    "detailsTitle": "Cara mengonversi inci ke piksel",
+    "details": [
+      "Rumusnya: piksel = inci × DPI. Pada 300 DPI, yang lazim dipakai untuk mencetak, 1 inci adalah 300 piksel. Pada 96 DPI, standar layar di browser, 1 inci adalah 96 piksel, dan pada 72 DPI adalah 72 piksel.",
+      "Halaman US Letter berukuran 8,5 × 11 inci adalah 2550 × 3300 piksel pada 300 DPI, dan cetakan 5 × 7 inci adalah 1500 × 2100 piksel. Konverter ini membulatkan piksel ke bilangan bulat, karena gambar tidak bisa memiliki sebagian piksel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Satu inci berapa piksel?",
+          "a": "Tergantung DPI: 300 piksel pada 300 DPI, 96 piksel pada 96 DPI, dan 72 piksel pada 72 DPI."
+        },
+        {
+          "q": "Foto 4x6 inci berapa piksel?",
+          "a": "Pada 300 DPI, foto 4 × 6 inci adalah 1200 × 1800 piksel."
+        },
+        {
+          "q": "DPI berapa yang sebaiknya saya pakai?",
+          "a": "Pakai 300 untuk mencetak, dan 72 atau 96 untuk gambar yang hanya ditampilkan di layar."
+        },
+        {
+          "q": "Apakah DPI mengubah gambar saya?",
+          "a": "Tidak. DPI hanya menentukan seberapa besar gambar saat dicetak. Ubah ukuran gambarnya sendiri dengan pengubah ukuran gambar."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "MM ke Pixel - Kalkulator Konversi Gratis (300 DPI)",
+    "description": "Konversi mm ke pixel online gratis: ketik ukuran dalam milimeter, pilih DPI, dan dapatkan ukuran pixel persis untuk foto paspor dan formulir. Tanpa unggah.",
+    "h1": "Konversi mm ke pixel",
+    "intro": "Ketik ukuran dalam milimeter dan lihat berapa pikselnya pada DPI pilihan Anda. Berguna untuk foto paspor dan foto identitas, yang ukurannya diberikan dalam milimeter. Kalkulator ini menyediakan tautan ke pengubah ukuran gambar gratis, sehingga Anda bisa membuat gambar persis berukuran itu.",
+    "blurb": "Konversi milimeter ke piksel pada DPI berapa pun.",
+    "steps": [
+      {
+        "title": "Masukkan ukuran dalam mm",
+        "text": "Ketik lebar, dan tinggi jika Anda perlu. Satuannya sudah diatur ke milimeter."
+      },
+      {
+        "title": "Pilih DPI",
+        "text": "Gunakan 300 untuk cetak, 96 untuk layar, atau angka apa pun yang diminta formulir. Hasilnya berubah saat Anda mengetik."
+      },
+      {
+        "title": "Baca pikselnya dan resize",
+        "text": "Salin hasilnya, atau buka pengubah ukuran gambar dan masukkan pikselnya agar gambar Anda berukuran sebesar itu."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi mm ke piksel",
+    "tips": [
+      "Foto paspor berukuran 35 × 45 mm adalah 413 × 531 piksel pada 300 DPI.",
+      "Sebuah gambar tidak punya ukuran dalam milimeter sampai dicetak. DPI menentukan berapa piksel yang muat dalam satu milimeter.",
+      "Gunakan 300 DPI untuk cetakan yang tajam, dan 72 atau 96 DPI untuk gambar yang hanya ditampilkan di layar.",
+      "Isi lebar dan tinggi sekaligus untuk mendapatkan kedua sisinya. Gunakan tombol tukar untuk mengonversi piksel ke milimeter."
+    ],
+    "detailsTitle": "Cara mengonversi mm ke piksel",
+    "details": [
+      "Rumusnya: piksel = milimeter ÷ 25,4 × DPI, karena satu inci sama dengan 25,4 milimeter. Pada 300 DPI satu milimeter sekitar 11,8 piksel, pada 96 DPI sekitar 3,8 piksel, dan pada 72 DPI sekitar 2,8 piksel.",
+      "Kertas A4 berukuran 210 × 297 mm adalah 2480 × 3508 piksel pada 300 DPI. Konverter ini membulatkan piksel ke bilangan bulat, karena gambar tidak bisa memiliki sebagian piksel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Satu mm berapa piksel?",
+          "a": "Pada 300 DPI, 1 mm sekitar 11,8 piksel. Pada 96 DPI sekitar 3,8 piksel, dan pada 72 DPI sekitar 2,8 piksel."
+        },
+        {
+          "q": "Foto 35x45 mm berapa piksel?",
+          "a": "Pada 300 DPI, foto paspor 35 × 45 mm adalah 413 × 531 piksel."
+        },
+        {
+          "q": "DPI berapa yang sebaiknya saya pakai?",
+          "a": "Pakai 300 untuk mencetak serta untuk foto paspor atau foto identitas, dan 72 atau 96 untuk gambar yang hanya ditampilkan di layar."
+        },
+        {
+          "q": "Apakah DPI mengubah gambar saya?",
+          "a": "Tidak. DPI hanya menentukan seberapa besar gambar saat dicetak. Ubah ukuran gambarnya sendiri dengan pengubah ukuran gambar."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Pixel ke CM - Kalkulator Konversi Gratis (DPI)",
+    "description": "Konversi pixel ke cm online gratis: ketik pixel, pilih DPI, dan dapatkan ukuran cetak dalam cm, mm, atau inci. Berjalan di perangkat Anda, tanpa daftar.",
+    "h1": "Konversi pixel ke cm",
+    "intro": "Ketik ukuran dalam piksel dan lihat seberapa besar ukuran cetaknya dalam sentimeter pada DPI Anda. Kalkulator ini juga menampilkan ukuran cetak yang umum dalam piksel dan menyediakan tautan ke pengubah ukuran gambar gratis.",
+    "blurb": "Konversi piksel ke sentimeter pada DPI berapa pun.",
+    "steps": [
+      {
+        "title": "Masukkan ukuran dalam piksel",
+        "text": "Ketik lebar, dan tinggi jika Anda perlu. Satuannya sudah diatur ke piksel."
+      },
+      {
+        "title": "Pilih DPI",
+        "text": "Gunakan 300 untuk cetak, 96 untuk layar, atau angka yang dipakai printer atau formulir Anda. Hasilnya berubah saat Anda mengetik."
+      },
+      {
+        "title": "Baca ukurannya",
+        "text": "Ukuran muncul dalam sentimeter. Ganti satuannya ke milimeter atau inci jika Anda mau."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi piksel ke cm",
+    "tips": [
+      "Gambar yang sama tercetak dalam ukuran berbeda: DPI lebih tinggi berarti cetakan lebih kecil dan lebih tajam.",
+      "Untuk cetakan yang bagus, pakai minimal 300 DPI. Gambar 1200 × 1800 piksel tercetak berukuran 4 × 6 inci (10,2 × 15,2 cm) pada 300 DPI.",
+      "Di layar, nilai yang lazim adalah 96 DPI, jadi 1920 piksel lebarnya sekitar 50,8 cm pada pengaturan itu.",
+      "Gunakan tombol tukar untuk mengonversi sentimeter ke piksel."
+    ],
+    "detailsTitle": "Cara mengonversi piksel ke cm",
+    "details": [
+      "Rumusnya: sentimeter = piksel ÷ DPI × 2,54, karena satu inci sama dengan 2,54 sentimeter. Pada 300 DPI, 1000 piksel sekitar 8,47 cm. Pada 96 DPI, 1000 piksel yang sama sekitar 26,46 cm.",
+      "Gambar tidak punya ukuran nyata sampai dicetak, dan DPI-lah yang menghubungkan piksel dengan sentimeter. Jika formulir meminta ukuran dalam sentimeter dan Anda hanya tahu pikselnya, 300 DPI adalah nilai yang lazim untuk foto."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 piksel berapa cm?",
+          "a": "Pada 300 DPI, 1000 piksel sekitar 8,47 cm. Pada 96 DPI sekitar 26,46 cm."
+        },
+        {
+          "q": "Bagaimana cara mengonversi piksel ke cm?",
+          "a": "Bagi piksel dengan DPI lalu kalikan dengan 2,54. Atau ketik pikselnya ke kalkulator di atas dan hitungannya dilakukan untuk Anda."
+        },
+        {
+          "q": "DPI berapa yang sebaiknya saya pakai?",
+          "a": "Pakai 300 untuk mencetak, dan 72 atau 96 untuk gambar yang hanya ditampilkan di layar."
+        },
+        {
+          "q": "Apakah DPI mengubah gambar saya?",
+          "a": "Tidak. DPI hanya menentukan seberapa besar gambar saat dicetak. Ubah ukuran gambarnya sendiri dengan pengubah ukuran gambar."
         }
       ]
     }

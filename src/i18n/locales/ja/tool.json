@@ -113,6 +113,82 @@
       "limitNote": "PNGは、ファイルサイズの制限に合わせて小さくすることができません。制限を守るには、JPGまたはWebPを選んでください。",
       "progress": "リサイズの進行状況"
     },
-    "noscript": "ブラウザで画像をリサイズするには、JavaScriptが必要です。JavaScriptを有効にしてください。"
+    "noscript": "ブラウザで画像をリサイズするには、JavaScriptが必要です。JavaScriptを有効にしてください。",
+    "pdf": {
+      "aria": "画像をPDFにするツール",
+      "hint": "複数の画像を追加して、1つのPDFを作ります。1枚の画像が1ページになります。",
+      "options": {
+        "title": "PDFのオプション",
+        "pageSize": "ページサイズ",
+        "a4": "A4",
+        "letter": "USレター",
+        "fit": "画像と同じ",
+        "orientation": "ページの向き",
+        "auto": "自動",
+        "portrait": "縦",
+        "landscape": "横",
+        "margin": "余白",
+        "none": "余白なし",
+        "small": "狭い余白",
+        "big": "広い余白",
+        "quality": "画質",
+        "high": "高画質",
+        "balanced": "バランス",
+        "low": "小さいファイル",
+        "qualityNote": "画質を上げると、細部がより多く残りますが、PDFは大きくなります。"
+      },
+      "actions": {
+        "create": "PDFを作成",
+        "working": "{total}ページ中{done}ページ目を追加中...",
+        "download": "PDFをダウンロード",
+        "again": "別のPDFを作る"
+      },
+      "list": {
+        "title": "ページ（{count}）",
+        "up": "{name}を上へ移動",
+        "down": "{name}を下へ移動"
+      },
+      "result": {
+        "title": "PDFができました",
+        "info": "{pages}ページ、{size}"
+      },
+      "errors": {
+        "empty": "先に画像を1枚以上追加してください。",
+        "unreadable": "{name}を画像として読み込めませんでした。",
+        "failed": "PDFを作成できませんでした。枚数を減らすか、画像を小さくして、もう一度お試しください。"
+      }
+    },
+    "calc": {
+      "aria": "サイズ変換ツール",
+      "title": "サイズを変換",
+      "width": "幅",
+      "height": "高さ（省略可）",
+      "invalid": "0より大きい数値を入力してください。",
+      "from": "変換前",
+      "to": "変換後",
+      "swap": "単位を入れ替える",
+      "dpi": "DPI（1インチあたりのドット数）",
+      "dpiNote": "印刷では300 DPIがよく使われます。画面では72または96です。",
+      "result": "結果",
+      "empty": "サイズを入力すると、結果が表示されます。",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "resizeLink": "この大きさに画像をリサイズ",
+      "units": {
+        "px": "ピクセル（px）",
+        "cm": "センチメートル（cm）",
+        "mm": "ミリメートル（mm）",
+        "in": "インチ（in）"
+      },
+      "table": {
+        "title": "{dpi} DPIでよく使うサイズのピクセル数",
+        "size": "サイズ",
+        "dimensions": "幅 × 高さ",
+        "pixels": "ピクセル",
+        "passport": "パスポート写真",
+        "print": "写真プリント",
+        "card": "名刺"
+      }
+    }
   }
 }

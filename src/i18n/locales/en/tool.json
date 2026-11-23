@@ -113,6 +113,82 @@
       "limitNote": "PNG cannot be made smaller to fit your file size limit. Choose JPG or WebP to keep it.",
       "progress": "Resizing progress"
     },
-    "noscript": "JavaScript is needed to resize images in your browser. Please turn it on."
+    "noscript": "JavaScript is needed to resize images in your browser. Please turn it on.",
+    "pdf": {
+      "aria": "Images to PDF",
+      "hint": "Add several pictures to make one PDF. Each picture becomes a page.",
+      "options": {
+        "title": "PDF options",
+        "pageSize": "Page size",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Same as the image",
+        "orientation": "Page direction",
+        "auto": "Automatic",
+        "portrait": "Portrait",
+        "landscape": "Landscape",
+        "margin": "Margin",
+        "none": "No margin",
+        "small": "Small margin",
+        "big": "Big margin",
+        "quality": "Picture quality",
+        "high": "High quality",
+        "balanced": "Balanced",
+        "low": "Small file",
+        "qualityNote": "Higher quality keeps more detail and makes a bigger PDF."
+      },
+      "actions": {
+        "create": "Create PDF",
+        "working": "Adding page {done} of {total}...",
+        "download": "Download PDF",
+        "again": "Make another PDF"
+      },
+      "list": {
+        "title": "Pages ({count})",
+        "up": "Move {name} up",
+        "down": "Move {name} down"
+      },
+      "result": {
+        "title": "Your PDF is ready",
+        "info": "{pages} pages, {size}"
+      },
+      "errors": {
+        "empty": "Add at least one picture first.",
+        "unreadable": "{name} could not be read as an image.",
+        "failed": "The PDF could not be created. Please try again with fewer or smaller pictures."
+      }
+    },
+    "calc": {
+      "aria": "Size converter",
+      "title": "Convert a size",
+      "width": "Width",
+      "height": "Height (optional)",
+      "invalid": "Please enter a number greater than zero.",
+      "from": "From",
+      "to": "To",
+      "swap": "Swap the units",
+      "dpi": "DPI (dots per inch)",
+      "dpiNote": "300 DPI is the usual value for print. Screens use 72 or 96.",
+      "result": "Result",
+      "empty": "Type a size to see the result.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "resizeLink": "Resize an image to this size",
+      "units": {
+        "px": "Pixels (px)",
+        "cm": "Centimetres (cm)",
+        "mm": "Millimetres (mm)",
+        "in": "Inches (in)"
+      },
+      "table": {
+        "title": "Common sizes in pixels at {dpi} DPI",
+        "size": "Size",
+        "dimensions": "Width × height",
+        "pixels": "Pixels",
+        "passport": "Passport photo",
+        "print": "Photo print",
+        "card": "Business card"
+      }
+    }
   }
 }

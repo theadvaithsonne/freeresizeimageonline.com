@@ -113,6 +113,82 @@
       "limitNote": "PNG 无法缩小到符合您的文件大小限制。请改选 JPG 或 WebP，以保留该限制。",
       "progress": "调整进度"
     },
-    "noscript": "需要启用 JavaScript，才能在浏览器中调整图片大小。请开启 JavaScript。"
+    "noscript": "需要启用 JavaScript，才能在浏览器中调整图片大小。请开启 JavaScript。",
+    "pdf": {
+      "aria": "图片转 PDF",
+      "hint": "添加多张图片即可制作一个 PDF。每张图片会成为一页。",
+      "options": {
+        "title": "PDF 选项",
+        "pageSize": "页面大小",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "与图片相同",
+        "orientation": "页面方向",
+        "auto": "自动",
+        "portrait": "纵向",
+        "landscape": "横向",
+        "margin": "页边距",
+        "none": "无页边距",
+        "small": "小页边距",
+        "big": "大页边距",
+        "quality": "图片质量",
+        "high": "高质量",
+        "balanced": "均衡",
+        "low": "小文件",
+        "qualityNote": "质量越高，保留的细节越多，PDF 也越大。"
+      },
+      "actions": {
+        "create": "生成 PDF",
+        "working": "正在添加第 {done} 页，共 {total} 页...",
+        "download": "下载 PDF",
+        "again": "再制作一个 PDF"
+      },
+      "list": {
+        "title": "页面（{count}）",
+        "up": "将 {name} 上移",
+        "down": "将 {name} 下移"
+      },
+      "result": {
+        "title": "PDF 已准备好",
+        "info": "{pages} 页，{size}"
+      },
+      "errors": {
+        "empty": "请先添加至少一张图片。",
+        "unreadable": "无法将 {name} 作为图片读取。",
+        "failed": "无法生成 PDF。请减少图片数量或使用更小的图片后重试。"
+      }
+    },
+    "calc": {
+      "aria": "尺寸换算器",
+      "title": "换算尺寸",
+      "width": "宽度",
+      "height": "高度（可选）",
+      "invalid": "请输入大于零的数字。",
+      "from": "从",
+      "to": "到",
+      "swap": "交换单位",
+      "dpi": "DPI（每英寸点数）",
+      "dpiNote": "300 DPI 是打印的常用值。屏幕使用 72 或 96。",
+      "result": "结果",
+      "empty": "输入尺寸即可查看结果。",
+      "copy": "复制",
+      "copied": "已复制",
+      "resizeLink": "把图片调整到此尺寸",
+      "units": {
+        "px": "像素（px）",
+        "cm": "厘米（cm）",
+        "mm": "毫米（mm）",
+        "in": "英寸（in）"
+      },
+      "table": {
+        "title": "{dpi} DPI 下的常见尺寸（像素）",
+        "size": "尺寸",
+        "dimensions": "宽 × 高",
+        "pixels": "像素",
+        "passport": "护照照片",
+        "print": "照片打印",
+        "card": "名片"
+      }
+    }
   }
 }

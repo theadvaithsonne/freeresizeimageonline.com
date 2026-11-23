@@ -24,7 +24,16 @@
     "pixels": "Resize in pixels",
     "bulk": "Bulk image resizer",
     "jpgToWebp": "JPG to WebP",
-    "pngToWebp": "PNG to WebP"
+    "pngToWebp": "PNG to WebP",
+    "kb300": "Resize to 300 KB",
+    "mb2": "Resize to 2 MB",
+    "imageToPdf": "Image to PDF",
+    "jpgToPdf": "JPG to PDF",
+    "pngToPdf": "PNG to PDF",
+    "cmToPx": "cm to pixels",
+    "inToPx": "Inches to pixels",
+    "mmToPx": "mm to pixels",
+    "pxToCm": "Pixels to cm"
   },
   "common": {
     "howTo": "How to use it",
@@ -1257,6 +1266,496 @@
         {
           "q": "Is it free?",
           "a": "Yes. There is no signup, no watermark and no limit on the number of pictures."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Resize Image to 300KB Online - Free Image Compressor",
+    "description": "Resize image to 300KB online free: reduce a photo to 300 KB or less for forms and uploads, keeping it sharp. No signup, and it stays on your device.",
+    "h1": "Resize image to 300 KB",
+    "intro": "Many application forms, exam portals and websites ask for a photo of at most 300 KB. This page sets that limit for you: add your image and download a file under 300 KB that still looks clear.",
+    "blurb": "Get an image under 300 KB for forms and uploads.",
+    "steps": [
+      {
+        "title": "Add your image",
+        "text": "Drag it here or choose it from your device. Large phone photos are fine."
+      },
+      {
+        "title": "Keep the 300 KB limit",
+        "text": "300 KB is preselected. The tool counts it as 300,000 bytes, so the file passes on systems that count 1 KB as 1,000 bytes and on those that count 1,024."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the file. The result shows its exact size."
+      }
+    ],
+    "tipsTitle": "Tips for staying under 300 KB",
+    "tips": [
+      "Choose JPG for photos. A photo saved as PNG is usually several times larger for the same picture.",
+      "If the form also asks for exact pixel sizes, set the width and height first, then keep the 300 KB limit on.",
+      "A phone photo of 4000 pixels wide does not fit 300 KB at high quality. Let the tool lower the pixel size a little for a sharper result than quality alone would give.",
+      "Add several photos at once to resize them all with the same limit, then download one ZIP file."
+    ],
+    "detailsTitle": "What 300 KB means for a photo",
+    "details": [
+      "Three hundred kilobytes is a bit less than a third of a megabyte. A JPG of that size can hold a photo of roughly 1500 by 1000 pixels with good detail, depending on the picture. That is plenty for a form, an ID upload or a web page.",
+      "The tool tries the highest quality that fits and shows you the exact result size before you download. If the form wants a smaller file, choose a lower limit such as 200 KB or 100 KB and run it again."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I reduce an image to 300 KB?",
+          "a": "Add the image, keep the 300 KB limit that is preselected and press Resize images. The tool finds the highest quality that fits."
+        },
+        {
+          "q": "Will the picture look worse?",
+          "a": "A little, because a smaller file holds less detail. The tool picks the best quality that still fits, so you get the sharpest picture under 300 KB."
+        },
+        {
+          "q": "What if my file is already under 300 KB?",
+          "a": "Then it is already small enough. Only choose a lower limit if the form needs one."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Resize Image to 2MB Online - Free Image Compressor",
+    "description": "Resize image to 2MB online free: reduce a photo to 2 MB or less for email, forms and uploads with almost no visible loss. No signup, stays on your device.",
+    "h1": "Resize image to 2 MB",
+    "intro": "Email services, application forms and upload pages often accept images up to 2 MB, and phone photos are usually bigger. Add your image and download a file under 2 MB (2,000,000 bytes) that still looks sharp.",
+    "blurb": "Get an image under 2 MB for email and uploads.",
+    "steps": [
+      {
+        "title": "Add your image",
+        "text": "Drag it here or choose it from your device. Photos of 5 to 10 MB are fine."
+      },
+      {
+        "title": "Keep the 2 MB limit",
+        "text": "2 MB is preselected. The tool counts it as 2,000,000 bytes, so the file passes on systems that count 2,000 KB and on those that count 2,048 KB."
+      },
+      {
+        "title": "Resize and download",
+        "text": "Press Resize images and download the file. The result shows its exact size."
+      }
+    ],
+    "tipsTitle": "Tips for staying under 2 MB",
+    "tips": [
+      "Most modern phone photos are 3 to 10 MB. Two megabytes is usually reachable by lowering the quality a little, with no visible difference on a screen.",
+      "Photos fit best as JPG or WebP. A photo saved as PNG is usually several times larger.",
+      "To send many photos in one email, add them all at once and download the ZIP file.",
+      "Screenshots and logos are better as PNG: they are small already and keep sharp edges."
+    ],
+    "detailsTitle": "What 2 MB means for a photo",
+    "details": [
+      "Two megabytes is 2,000 kilobytes. A JPG of that size can hold a photo of around 3000 by 2000 pixels with very good detail, depending on the picture, which is more than most screens show.",
+      "The tool tries the highest quality that fits and shows you the exact result size before you download. It lowers the pixel size only when the limit cannot be reached by quality alone."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I reduce an image to 2 MB?",
+          "a": "Add the image, keep the 2 MB limit that is preselected and press Resize images. The tool finds the highest quality that fits."
+        },
+        {
+          "q": "Is 2 MB the same as 2,048 KB?",
+          "a": "On some systems a megabyte counts as 1,024 kilobytes, on others as 1,000. The tool uses the smaller value (2,000 KB, or 2,000,000 bytes), so the file passes on both."
+        },
+        {
+          "q": "Does the picture get smaller in pixels?",
+          "a": "Only if it has to. The tool lowers the quality first and reduces the pixel size only when the limit cannot be reached otherwise."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Image to PDF Converter - Free, Combine Photos Online",
+    "description": "Convert images to PDF online free: combine JPG, PNG and WebP photos into one PDF in your browser. Choose A4 or Letter. No signup, no upload, no watermark.",
+    "h1": "Image to PDF",
+    "intro": "Turn one picture or many into a single PDF. Add your images, put them in the order you want, choose the page size and download the PDF. It is made on your device, so your pictures are never uploaded, and there is no watermark and no limit on how often you use it.",
+    "blurb": "Combine pictures into one PDF, on your device.",
+    "steps": [
+      {
+        "title": "Add your images",
+        "text": "Drag JPG, PNG, WebP, GIF or BMP pictures onto the page, or choose them from your device. Each picture becomes one page."
+      },
+      {
+        "title": "Order the pages and choose the options",
+        "text": "Use the arrows to move a page up or down. Pick A4, US Letter or the size of the image, the margin and the quality."
+      },
+      {
+        "title": "Create and download",
+        "text": "Press Create PDF and download the file. It opens in any PDF reader."
+      }
+    ],
+    "tipsTitle": "Tips for making a good PDF from images",
+    "tips": [
+      "Pick A4 or US Letter for documents you may print. Pick \"Same as the image\" when the PDF is only meant for the screen.",
+      "For a small file (for example to send by email), choose \"Small file\". For scans of text and screenshots, choose \"High quality\".",
+      "Photos taken in portrait or landscape are turned the right way up automatically, using the information your phone stored in the picture.",
+      "Transparent areas of PNG and WebP pictures become white, because they are stored as JPEG pages.",
+      "Need the PDF under a size limit? Make the pictures smaller first with the \"Resize to KB\" tool, then combine them here."
+    ],
+    "detailsTitle": "How the PDF is made",
+    "details": [
+      "Each picture is placed on its own page, centred and never stretched. With A4 or US Letter, the page turns to landscape on its own when the picture is wider than it is tall (or you can fix the orientation yourself). With \"Same as the image\", the page has exactly the shape of the picture.",
+      "The PDF is written by your browser. Your pictures are read on your device, saved as JPEG pages and packed into the PDF file, and nothing is sent to a server. You can add up to 100 pictures to one PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I convert images to PDF?",
+          "a": "Add your pictures, put them in order, choose the page size and press Create PDF. Then download the PDF."
+        },
+        {
+          "q": "How do I combine several photos into one PDF?",
+          "a": "Add all the photos at once. Each one becomes a page, and the arrows next to each picture change the order before you create the PDF."
+        },
+        {
+          "q": "Is there a limit on pages or file size?",
+          "a": "You can add up to 100 pictures to one PDF. There is no daily limit and no watermark. The size of the PDF depends on your pictures and the quality you choose."
+        },
+        {
+          "q": "Does it work on a phone?",
+          "a": "Yes. Choose photos from your gallery or files, order them and download the PDF. It works in any modern phone browser."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The PDF is made on your device and your pictures never leave it."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "JPG to PDF Converter - Free Online, No Upload",
+    "description": "Convert JPG to PDF online free: turn one or many JPG photos into a PDF in your browser. Choose A4 or Letter, keep the order. No signup, no upload, no watermark.",
+    "h1": "Convert JPG to PDF",
+    "intro": "Make a PDF from your JPG photos. Add one picture or many, put them in the right order and download a single PDF file. It works on your device, so nothing is uploaded and there is no watermark.",
+    "blurb": "Turn JPG photos into one PDF file.",
+    "steps": [
+      {
+        "title": "Add your JPG files",
+        "text": "Drag one or many JPG pictures onto the page, or choose them from your device. Each picture becomes one page."
+      },
+      {
+        "title": "Order the pages and choose the options",
+        "text": "Use the arrows to change the order. Pick A4, US Letter or the size of the image, the margin and the quality."
+      },
+      {
+        "title": "Create and download",
+        "text": "Press Create PDF and download the file. It opens in any PDF reader."
+      }
+    ],
+    "tipsTitle": "Tips for converting JPG to PDF",
+    "tips": [
+      "With \"High quality\" your photos keep nearly all their detail, so the PDF looks like the pictures on your phone.",
+      "Phone photos can be several MB each. Choose \"Small file\" if the PDF has to be sent by email or uploaded to a form.",
+      "Photos taken upright or sideways are turned the right way up automatically.",
+      "To scan a document with your phone, take a photo of each page, add the photos here in order and create the PDF."
+    ],
+    "detailsTitle": "JPG to PDF without an app",
+    "details": [
+      "A PDF page can hold a JPG picture directly, which keeps the conversion quick and the result close to your photo. Pick A4 or US Letter if you may print the PDF, or \"Same as the image\" for a PDF that is just a picture on every page.",
+      "The PDF is made in your browser. Your photos are never uploaded, so it is safe for IDs, receipts and other private pictures. You can add up to 100 pictures to one PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I convert JPG to PDF?",
+          "a": "Add your JPG pictures, put them in order and press Create PDF. Then download the PDF."
+        },
+        {
+          "q": "Can I put several JPG files into one PDF?",
+          "a": "Yes. Add them all at once. Each picture becomes a page and you can change the order with the arrows."
+        },
+        {
+          "q": "Does converting JPG to PDF lose quality?",
+          "a": "Hardly. With \"High quality\" the pictures are kept at nearly their full detail. Choose \"Small file\" only when you need a smaller PDF."
+        },
+        {
+          "q": "How do I make a PDF under 1 MB or 200 KB?",
+          "a": "Choose \"Small file\" and add fewer pictures per PDF. If it is still too big, reduce each picture first with the \"Resize to KB\" tool."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "PNG to PDF Converter - Free Online, No Upload",
+    "description": "Convert PNG to PDF online free: turn screenshots and PNG pictures into one PDF in your browser. Choose A4 or Letter. No signup, no upload, no watermark.",
+    "h1": "Convert PNG to PDF",
+    "intro": "Make a PDF from your PNG pictures and screenshots. Add one image or many, put them in the right order and download a single PDF. It works on your device, so nothing is uploaded and there is no watermark.",
+    "blurb": "Turn PNG pictures and screenshots into a PDF.",
+    "steps": [
+      {
+        "title": "Add your PNG files",
+        "text": "Drag one or many PNG pictures onto the page, or choose them from your device. Each picture becomes one page."
+      },
+      {
+        "title": "Order the pages and choose the options",
+        "text": "Use the arrows to change the order. Pick A4, US Letter or the size of the image, the margin and the quality."
+      },
+      {
+        "title": "Create and download",
+        "text": "Press Create PDF and download the file. It opens in any PDF reader."
+      }
+    ],
+    "tipsTitle": "Tips for converting PNG to PDF",
+    "tips": [
+      "Transparent areas of a PNG become white in the PDF.",
+      "For screenshots with small text, choose \"High quality\" so the letters stay sharp.",
+      "PNG files can be large. Choose \"Small file\" if the PDF has to be emailed, or pick \"Balanced\" for a mix of sharpness and size.",
+      "To keep the shape of a screenshot exactly, choose \"Same as the image\" as the page size."
+    ],
+    "detailsTitle": "What happens to a PNG in a PDF",
+    "details": [
+      "Each PNG is drawn on a white background and saved inside the PDF as a JPEG picture at the quality you choose, so with \"High quality\" a screenshot or a chart looks as it did on the screen. Pick A4 or US Letter if you may print the PDF, or \"Same as the image\" for a page that has exactly the shape of the picture.",
+      "The PDF is made in your browser. Your pictures are never uploaded, so it is safe for private documents and screenshots. You can add up to 100 pictures to one PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How do I convert PNG to PDF?",
+          "a": "Add your PNG pictures, put them in order and press Create PDF. Then download the PDF."
+        },
+        {
+          "q": "Can I combine several PNG files into one PDF?",
+          "a": "Yes. Add them all at once. Each picture becomes a page and you can change the order with the arrows."
+        },
+        {
+          "q": "What happens to a transparent PNG?",
+          "a": "The transparent areas are filled with white, because the picture is stored on a white page."
+        },
+        {
+          "q": "Will the text in my screenshot stay sharp?",
+          "a": "Yes, with \"High quality\". It keeps the picture at nearly its full detail."
+        },
+        {
+          "q": "Is my picture uploaded?",
+          "a": "No. The picture is processed on your device and never uploaded."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "CM to Pixels Converter - Free Calculator (300 DPI)",
+    "description": "Convert cm to pixels online free: type centimetres, pick the DPI and get the exact pixel size. Works for print, passport photos and forms. Runs on your device.",
+    "h1": "Convert cm to pixels",
+    "intro": "Type a size in centimetres and see how many pixels it is at your DPI. The calculator also shows common print sizes in pixels and links to the free image resizer, so you can make the picture exactly that size.",
+    "blurb": "Convert centimetres to pixels at any DPI.",
+    "steps": [
+      {
+        "title": "Enter the size in cm",
+        "text": "Type the width, and the height if you need it. The unit is already set to centimetres."
+      },
+      {
+        "title": "Choose the DPI",
+        "text": "Use 300 for print, 96 for a screen, or any number the form asks for. The result changes as you type."
+      },
+      {
+        "title": "Read the pixels and resize",
+        "text": "Copy the result, or open the image resizer and enter the pixels to make your picture that size."
+      }
+    ],
+    "tipsTitle": "Tips for converting cm to pixels",
+    "tips": [
+      "A picture has no size in centimetres until it is printed or placed in a document. The DPI decides how many pixels fit in one centimetre.",
+      "Use 300 DPI for a sharp print, 150 DPI for a draft, and 72 or 96 DPI for screens.",
+      "If a form gives a size in cm and no DPI, 300 DPI is the usual choice for photos.",
+      "Type both width and height to get both sides at once. Use the swap button to convert the other way."
+    ],
+    "detailsTitle": "How to convert cm to pixels",
+    "details": [
+      "The formula is pixels = centimetres ÷ 2.54 × DPI, because one inch is 2.54 centimetres. At 300 DPI one centimetre is about 118 pixels, at 96 DPI about 38 pixels, and at 72 DPI about 28 pixels. So 10 cm is about 1181 pixels at 300 DPI.",
+      "Photo sizes in centimetres follow the same rule: a 10 × 15 cm print is about 1181 × 1772 pixels at 300 DPI. The converter rounds pixels to whole numbers, because a picture cannot have a part of a pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How many pixels is 1 cm?",
+          "a": "At 300 DPI, 1 cm is about 118 pixels. At 96 DPI it is about 38 pixels, and at 72 DPI about 28 pixels."
+        },
+        {
+          "q": "How do I convert cm to pixels?",
+          "a": "Divide the centimetres by 2.54 and multiply by the DPI. Or type the size into the calculator above and it does it for you."
+        },
+        {
+          "q": "Which DPI should I use?",
+          "a": "Use 300 for printing and passport or ID photos, and 72 or 96 for pictures that are only shown on a screen."
+        },
+        {
+          "q": "Does the DPI change my picture?",
+          "a": "No. The DPI only decides how big the picture is when it is printed. Resize the picture itself with the image resizer."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Inches to Pixels Converter - Free Calculator",
+    "description": "Convert inches to pixels online free: type inches, pick the DPI and get the exact pixel size for print photos, documents and forms. Runs on your device.",
+    "h1": "Convert inches to pixels",
+    "intro": "Type a size in inches and see how many pixels it is at your DPI. The calculator also shows common print sizes in pixels and links to the free image resizer, so you can make the picture exactly that size.",
+    "blurb": "Convert inches to pixels at any DPI.",
+    "steps": [
+      {
+        "title": "Enter the size in inches",
+        "text": "Type the width, and the height if you need it. The unit is already set to inches."
+      },
+      {
+        "title": "Choose the DPI",
+        "text": "Use 300 for print, 96 for a screen, or any number the form asks for. The result changes as you type."
+      },
+      {
+        "title": "Read the pixels and resize",
+        "text": "Copy the result, or open the image resizer and enter the pixels to make your picture that size."
+      }
+    ],
+    "tipsTitle": "Tips for converting inches to pixels",
+    "tips": [
+      "Pixels = inches × DPI. At 300 DPI every inch is 300 pixels.",
+      "A 4 × 6 inch photo print needs 1200 × 1800 pixels at 300 DPI, and a 2 × 2 inch passport photo needs 600 × 600.",
+      "A picture has no size in inches until it is printed. The DPI decides how many pixels fit into one inch.",
+      "Use the swap button to convert pixels to inches."
+    ],
+    "detailsTitle": "How to convert inches to pixels",
+    "details": [
+      "The formula is pixels = inches × DPI. At 300 DPI, which is the usual choice for printing, 1 inch is 300 pixels. At 96 DPI, the standard of a screen in a browser, 1 inch is 96 pixels, and at 72 DPI it is 72 pixels.",
+      "A US Letter page of 8.5 × 11 inches is 2550 × 3300 pixels at 300 DPI, and a 5 × 7 inch print is 1500 × 2100 pixels. The converter rounds pixels to whole numbers, because a picture cannot have a part of a pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How many pixels is 1 inch?",
+          "a": "It depends on the DPI: 300 pixels at 300 DPI, 96 pixels at 96 DPI and 72 pixels at 72 DPI."
+        },
+        {
+          "q": "How many pixels is a 4x6 inch photo?",
+          "a": "At 300 DPI a 4 × 6 inch photo is 1200 × 1800 pixels."
+        },
+        {
+          "q": "Which DPI should I use?",
+          "a": "Use 300 for printing, and 72 or 96 for pictures that are only shown on a screen."
+        },
+        {
+          "q": "Does the DPI change my picture?",
+          "a": "No. The DPI only decides how big the picture is when it is printed. Resize the picture itself with the image resizer."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "MM to Pixels Converter - Free Calculator (300 DPI)",
+    "description": "Convert mm to pixels online free: type millimetres, pick the DPI and get the exact pixel size for passport photos, ID photos and forms. Runs on your device.",
+    "h1": "Convert mm to pixels",
+    "intro": "Type a size in millimetres and see how many pixels it is at your DPI. Handy for passport and ID photos, which are given in millimetres. The calculator links to the free image resizer, so you can make the picture exactly that size.",
+    "blurb": "Convert millimetres to pixels at any DPI.",
+    "steps": [
+      {
+        "title": "Enter the size in mm",
+        "text": "Type the width, and the height if you need it. The unit is already set to millimetres."
+      },
+      {
+        "title": "Choose the DPI",
+        "text": "Use 300 for print, 96 for a screen, or any number the form asks for. The result changes as you type."
+      },
+      {
+        "title": "Read the pixels and resize",
+        "text": "Copy the result, or open the image resizer and enter the pixels to make your picture that size."
+      }
+    ],
+    "tipsTitle": "Tips for converting mm to pixels",
+    "tips": [
+      "A passport photo of 35 × 45 mm is 413 × 531 pixels at 300 DPI.",
+      "A picture has no size in millimetres until it is printed. The DPI decides how many pixels fit into one millimetre.",
+      "Use 300 DPI for a sharp print, and 72 or 96 DPI for pictures that are only shown on a screen.",
+      "Type both width and height to get both sides at once. Use the swap button to convert pixels to millimetres."
+    ],
+    "detailsTitle": "How to convert mm to pixels",
+    "details": [
+      "The formula is pixels = millimetres ÷ 25.4 × DPI, because one inch is 25.4 millimetres. At 300 DPI one millimetre is about 11.8 pixels, at 96 DPI about 3.8 pixels, and at 72 DPI about 2.8 pixels.",
+      "An A4 sheet of 210 × 297 mm is 2480 × 3508 pixels at 300 DPI. The converter rounds pixels to whole numbers, because a picture cannot have a part of a pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How many pixels is 1 mm?",
+          "a": "At 300 DPI, 1 mm is about 11.8 pixels. At 96 DPI it is about 3.8 pixels, and at 72 DPI about 2.8 pixels."
+        },
+        {
+          "q": "How many pixels is a 35x45 mm photo?",
+          "a": "At 300 DPI a 35 × 45 mm passport photo is 413 × 531 pixels."
+        },
+        {
+          "q": "Which DPI should I use?",
+          "a": "Use 300 for printing and passport or ID photos, and 72 or 96 for pictures that are only shown on a screen."
+        },
+        {
+          "q": "Does the DPI change my picture?",
+          "a": "No. The DPI only decides how big the picture is when it is printed. Resize the picture itself with the image resizer."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Pixels to CM Converter - Free Calculator (DPI)",
+    "description": "Convert pixels to cm online free: type pixels, pick the DPI and get the print size in centimetres, millimetres or inches. Runs on your device, no signup.",
+    "h1": "Convert pixels to cm",
+    "intro": "Type a size in pixels and see how big it prints in centimetres at your DPI. The calculator also shows common print sizes in pixels and links to the free image resizer.",
+    "blurb": "Convert pixels to centimetres at any DPI.",
+    "steps": [
+      {
+        "title": "Enter the size in pixels",
+        "text": "Type the width, and the height if you need it. The unit is already set to pixels."
+      },
+      {
+        "title": "Choose the DPI",
+        "text": "Use 300 for print, 96 for a screen, or the number your printer or form uses. The result changes as you type."
+      },
+      {
+        "title": "Read the size",
+        "text": "The size appears in centimetres. Change the unit to millimetres or inches if you prefer."
+      }
+    ],
+    "tipsTitle": "Tips for converting pixels to cm",
+    "tips": [
+      "The same picture prints at different sizes: more DPI means a smaller, sharper print.",
+      "For a good print, use at least 300 DPI. A picture of 1200 × 1800 pixels prints at 4 × 6 inches (10.2 × 15.2 cm) at 300 DPI.",
+      "On a screen the usual value is 96 DPI, so 1920 pixels is about 50.8 cm wide at that setting.",
+      "Use the swap button to convert centimetres to pixels."
+    ],
+    "detailsTitle": "How to convert pixels to cm",
+    "details": [
+      "The formula is centimetres = pixels ÷ DPI × 2.54, because one inch is 2.54 centimetres. At 300 DPI, 1000 pixels is about 8.47 cm. At 96 DPI the same 1000 pixels is about 26.46 cm.",
+      "A picture has no real size until it is printed, and the DPI is what links pixels to centimetres. If a form asks for a size in centimetres and you only know the pixels, 300 DPI is the usual value for photos."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "How many cm is 1000 pixels?",
+          "a": "At 300 DPI, 1000 pixels is about 8.47 cm. At 96 DPI it is about 26.46 cm."
+        },
+        {
+          "q": "How do I convert pixels to cm?",
+          "a": "Divide the pixels by the DPI and multiply by 2.54. Or type the pixels into the calculator above and it does it for you."
+        },
+        {
+          "q": "Which DPI should I use?",
+          "a": "Use 300 for printing, and 72 or 96 for pictures that are only shown on a screen."
+        },
+        {
+          "q": "Does the DPI change my picture?",
+          "a": "No. The DPI only decides how big the picture is when it is printed. Resize the picture itself with the image resizer."
         }
       ]
     }

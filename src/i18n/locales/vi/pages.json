@@ -24,7 +24,16 @@
     "pixels": "Đổi kích thước ảnh theo pixel",
     "bulk": "Đổi kích thước ảnh hàng loạt",
     "jpgToWebp": "JPG sang WebP",
-    "pngToWebp": "PNG sang WebP"
+    "pngToWebp": "PNG sang WebP",
+    "kb300": "Giảm ảnh xuống 300 KB",
+    "mb2": "Giảm ảnh xuống 2 MB",
+    "imageToPdf": "Ảnh sang PDF",
+    "jpgToPdf": "JPG sang PDF",
+    "pngToPdf": "PNG sang PDF",
+    "cmToPx": "cm sang pixel",
+    "inToPx": "Inch sang pixel",
+    "mmToPx": "mm sang pixel",
+    "pxToCm": "Pixel sang cm"
   },
   "common": {
     "howTo": "Cách sử dụng",
@@ -113,9 +122,9 @@
     }
   },
   "kb": {
-    "title": "Giảm dung lượng ảnh xuống KB - 10, 20, 50, 100, 200 KB",
-    "description": "Giảm dung lượng ảnh xuống KB online miễn phí: thu nhỏ ảnh còn 10, 20, 30, 50, 100, 200 hoặc 500 KB để nộp biểu mẫu, tải lên. Không cần đăng ký, ảnh riêng tư.",
-    "h1": "Giảm dung lượng ảnh xuống KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "title": "Giảm dung lượng ảnh online - Xuống 20, 50, 100, 200 KB",
+    "description": "Giảm dung lượng ảnh online miễn phí: giảm KB ảnh xuống 10, 20, 50, 100, 200 hoặc 500 KB để nộp hồ sơ, biểu mẫu mà ảnh vẫn nét. Không cần đăng ký, ảnh riêng tư.",
+    "h1": "Giảm dung lượng ảnh online, giảm KB ảnh (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Nhiều biểu mẫu online, cổng thi và trang tuyển dụng từ chối ảnh vượt quá giới hạn dung lượng như 50 KB hoặc 200 KB. Công cụ này thu nhỏ ảnh của bạn cho vừa giới hạn đã chọn, đồng thời giữ chất lượng tốt nhất có thể.",
     "steps": [
       {
@@ -162,9 +171,9 @@
     ]
   },
   "cm": {
-    "title": "Đổi kích thước ảnh theo cm, mm, inch - Miễn phí online",
-    "description": "Đổi kích thước ảnh theo cm online miễn phí: đặt chính xác kích thước ảnh theo centimet, milimet hoặc inch với DPI phù hợp. Không cần đăng ký, ảnh luôn riêng tư.",
-    "h1": "Đổi kích thước ảnh theo cm, mm hoặc inch",
+    "title": "Đổi kích thước ảnh theo cm, mm, inch - Ảnh 3x4, 4x6",
+    "description": "Đổi kích thước ảnh theo cm online miễn phí: đặt đúng kích thước ảnh 3x4, 4x6 theo cm, mm, inch, đổi cm sang pixel theo DPI. Không cần đăng ký, ảnh riêng tư.",
+    "h1": "Đổi kích thước ảnh theo cm, mm hoặc inch (ảnh 3x4, 4x6)",
     "intro": "In ảnh và các biểu mẫu chính thức thường yêu cầu kích thước theo centimet hoặc inch thay vì pixel. Bạn chỉ cần nhập kích thước và DPI, công cụ sẽ tự tính ra số pixel.",
     "steps": [
       {
@@ -211,8 +220,8 @@
     ]
   },
   "passport": {
-    "title": "Kích thước ảnh hộ chiếu, visa theo quốc gia - Đổi miễn phí",
-    "description": "Kích thước ảnh hộ chiếu và visa theo quốc gia tính bằng mm, inch và pixel, kèm công cụ miễn phí để đổi kích thước ảnh cho khớp, gồm cả 2x2 inch và 35x45 mm.",
+    "title": "Kích thước ảnh hộ chiếu, visa - Bao nhiêu pixel, mm, inch",
+    "description": "Kích thước ảnh hộ chiếu và ảnh visa theo quốc gia, bao nhiêu mm, inch và pixel (35x45 mm, 2x2 inch), kèm công cụ miễn phí để đổi kích thước ảnh cho khớp.",
     "h1": "Kích thước ảnh hộ chiếu và visa",
     "intro": "Mỗi quốc gia yêu cầu một kích thước ảnh khác nhau. Hãy chọn quốc gia của bạn trong danh sách Mẫu có sẵn để cắt và đổi kích thước ảnh đúng số đo ở mức 300 DPI.",
     "note": "Quy định có thể thay đổi, và mỗi hồ sơ có thể có thêm yêu cầu riêng như màu nền, kích thước đầu hoặc không đeo kính. Hãy luôn kiểm tra hướng dẫn chính thức trước khi nộp. Công cụ này chỉ đặt kích thước; nó không kiểm tra kích thước đầu hay màu nền.",
@@ -262,9 +271,9 @@
     ]
   },
   "social": {
-    "title": "Kích thước ảnh mạng xã hội - Instagram, YouTube, Facebook",
-    "description": "Kích thước ảnh mạng xã hội cho Instagram, Facebook, YouTube, X, LinkedIn và Pinterest, kèm công cụ miễn phí để đổi kích thước ảnh cho vừa khung mà không bị cắt.",
-    "h1": "Kích thước ảnh mạng xã hội",
+    "title": "Kích thước ảnh Facebook, Instagram, YouTube - Đổi online",
+    "description": "Kích thước ảnh Facebook, Instagram, thumbnail YouTube, X, LinkedIn và Pinterest, kèm công cụ miễn phí đổi kích thước ảnh mạng xã hội vừa khung, không bị cắt.",
+    "h1": "Kích thước ảnh Facebook, Instagram, YouTube và mạng xã hội",
     "intro": "Bài đăng đẹp nhất khi ảnh đã có đúng tỷ lệ. Hãy chọn một nền tảng trong danh sách Mẫu có sẵn, công cụ sẽ cắt và đổi kích thước ảnh cho khớp.",
     "note": "Các nền tảng thỉnh thoảng cập nhật khuyến nghị của họ. Đây là những kích thước được dùng rộng rãi và phù hợp với các định dạng hiện nay.",
     "tableTitle": "Kích thước theo nền tảng",
@@ -312,8 +321,8 @@
     ]
   },
   "convert": {
-    "title": "Chuyển đổi ảnh JPG, PNG, WebP - Miễn phí online",
-    "description": "Chuyển đổi ảnh giữa JPG, PNG và WebP online miễn phí. Không cần đăng ký, không tải lên và bạn tự chọn chất lượng. Dùng được trên điện thoại và máy tính.",
+    "title": "Chuyển đổi ảnh JPG, PNG, WebP - Đổi đuôi ảnh online",
+    "description": "Chuyển đổi ảnh giữa JPG, PNG và WebP, đổi đuôi ảnh online miễn phí. Không cần đăng ký, không tải lên, tự chọn chất lượng. Dùng được trên điện thoại và máy tính.",
     "h1": "Chuyển đổi ảnh giữa JPG, PNG và WebP",
     "intro": "Chọn định dạng bạn cần, công cụ sẽ chuyển đổi mọi ảnh bạn thêm vào. Không có gì được tải lên.",
     "steps": [
@@ -358,7 +367,7 @@
   },
   "compress": {
     "title": "Nén ảnh online - Giảm dung lượng ảnh miễn phí",
-    "description": "Nén ảnh online miễn phí: làm ảnh nhẹ hơn mà không mất chất lượng nhìn thấy được, hoặc giảm ảnh xuống một mức KB nhất định. Không cần đăng ký, không tải lên.",
+    "description": "Nén ảnh online miễn phí: làm ảnh JPG, PNG nhẹ hơn mà vẫn nét, hoặc nén ảnh dưới 1MB, 200KB. Không cần đăng ký, không tải lên, ảnh không rời thiết bị.",
     "h1": "Nén ảnh online",
     "intro": "Ảnh nhẹ hơn thì tải nhanh hơn, gửi email dễ hơn và tiết kiệm bộ nhớ. Công cụ mã hóa lại ảnh của bạn bằng các bộ nén hiện đại và cho phép bạn đặt mức chất lượng hoặc dung lượng tệp tối đa.",
     "steps": [
@@ -460,9 +469,9 @@
     }
   },
   "kb50": {
-    "title": "Giảm dung lượng ảnh xuống 50KB online - Miễn phí",
-    "description": "Giảm dung lượng ảnh xuống 50KB online miễn phí: nén ảnh còn 50 KB trở xuống cho biểu mẫu thi, cổng tuyển dụng, tải giấy tờ. Không cần đăng ký, riêng tư.",
-    "h1": "Giảm dung lượng ảnh xuống 50 KB",
+    "title": "Giảm dung lượng ảnh xuống dưới 50KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh dưới 50KB online miễn phí: nén ảnh JPG còn 50 KB trở xuống cho biểu mẫu thi, cổng tuyển dụng, tải giấy tờ. Không cần đăng ký, riêng tư.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 50 KB",
     "intro": "50 KB là một trong những giới hạn được yêu cầu nhiều nhất cho ảnh thẻ cỡ hộ chiếu trên các biểu mẫu đăng ký online. Trang này đặt sẵn giới hạn cho bạn: thêm ảnh rồi tải về tệp JPG dưới 50 KB (50.000 byte) mà vẫn rõ nét.",
     "blurb": "Đưa ảnh xuống dưới 50 KB cho biểu mẫu và cổng thông tin.",
     "steps": [
@@ -513,9 +522,9 @@
     }
   },
   "kb100": {
-    "title": "Giảm dung lượng ảnh xuống 100KB - Nén ảnh online",
-    "description": "Giảm dung lượng ảnh xuống 100KB online miễn phí: thu nhỏ ảnh còn 100 KB trở xuống để nộp hồ sơ xin việc, KYC và tải tài liệu. Không cần đăng ký, riêng tư.",
-    "h1": "Giảm dung lượng ảnh xuống 100 KB",
+    "title": "Giảm dung lượng ảnh xuống dưới 100KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh xuống dưới 100KB online miễn phí, nén ảnh JPG dưới 100 KB để nộp hồ sơ xin việc, KYC, tải tài liệu. Không cần đăng ký, ảnh riêng tư.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 100 KB",
     "intro": "100 KB là giới hạn thường gặp với ảnh hồ sơ, bản quét giấy tờ tùy thân và ảnh đại diện. Thêm ảnh của bạn để nhận tệp JPG dưới 100 KB (100.000 byte) với chất lượng cao nhất vẫn vừa giới hạn.",
     "blurb": "Đưa ảnh xuống dưới 100 KB cho hồ sơ và KYC.",
     "steps": [
@@ -566,9 +575,9 @@
     }
   },
   "kb200": {
-    "title": "Giảm dung lượng ảnh xuống 200KB - Nén ảnh online",
-    "description": "Giảm dung lượng ảnh xuống 200KB online miễn phí: nén ảnh còn 200 KB trở xuống cho visa, KYC và cổng dịch vụ công. Không cần đăng ký, chạy trong trình duyệt.",
-    "h1": "Giảm dung lượng ảnh xuống 200 KB",
+    "title": "Giảm dung lượng ảnh xuống dưới 200KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh dưới 200KB online miễn phí: nén ảnh JPG còn 200 KB trở xuống cho visa, KYC và cổng dịch vụ công. Không cần đăng ký, chạy trong trình duyệt.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 200 KB",
     "intro": "200 KB là giới hạn trên thường gặp với ảnh visa, giấy tờ KYC và hồ sơ gửi cơ quan nhà nước. Thêm ảnh của bạn và tải về tệp JPG dưới 200 KB (200.000 byte) giữ được nhiều chi tiết nhất có thể.",
     "blurb": "Đưa ảnh xuống dưới 200 KB cho visa và hồ sơ hành chính.",
     "steps": [
@@ -619,9 +628,9 @@
     }
   },
   "signature": {
-    "title": "Đổi kích thước chữ ký online - Ảnh chữ ký 10-20KB",
-    "description": "Đổi kích thước chữ ký online miễn phí: thu nhỏ ảnh chữ ký xuống 10 KB hoặc 20 KB và số pixel cụ thể cho biểu mẫu. Không cần đăng ký, ảnh không rời thiết bị.",
-    "h1": "Đổi kích thước ảnh chữ ký",
+    "title": "Chỉnh kích thước ảnh chữ ký online - Giảm còn 10-20KB",
+    "description": "Chỉnh kích thước ảnh chữ ký online miễn phí: giảm ảnh chữ ký xuống 10 KB hoặc 20 KB và số pixel cụ thể cho biểu mẫu. Không cần đăng ký, ảnh không rời thiết bị.",
+    "h1": "Chỉnh kích thước ảnh chữ ký",
     "intro": "Biểu mẫu online thường cần một ảnh chữ ký nhỏ và rõ: vài KB, và thường có chiều rộng và chiều cao cố định. Hãy thêm ảnh chụp hoặc bản quét chữ ký của bạn để nhận tệp đạt cả dung lượng lẫn kích thước pixel.",
     "blurb": "Đổi kích thước chữ ký theo dung lượng biểu mẫu yêu cầu.",
     "steps": [
@@ -673,7 +682,7 @@
   },
   "pngToJpg": {
     "title": "Chuyển PNG sang JPG online - Miễn phí, không tải lên",
-    "description": "Chuyển PNG sang JPG online miễn phí: biến ảnh PNG thành tệp JPG nhẹ hơn ngay trong trình duyệt. Không cần đăng ký, không tải lên và bạn tự chọn chất lượng.",
+    "description": "Chuyển PNG sang JPG online miễn phí, chuyển hàng loạt ảnh PNG thành JPG nhẹ hơn ngay trong trình duyệt. Không cần đăng ký, không tải lên, tự chọn chất lượng.",
     "h1": "Chuyển PNG sang JPG",
     "intro": "Biến ảnh PNG thành tệp JPG nhẹ hơn chỉ trong một bước. JPG được chấp nhận hầu như ở mọi nơi và nhẹ hơn nhiều với ảnh chụp. Thêm các tệp PNG, nhấn nút rồi tải về các tệp JPG, hoặc một tệp ZIP chứa tất cả.",
     "blurb": "Biến ảnh PNG thành tệp JPG nhẹ hơn.",
@@ -726,7 +735,7 @@
   },
   "jpgToPng": {
     "title": "Chuyển JPG sang PNG online - Miễn phí, không tải lên",
-    "description": "Chuyển JPG sang PNG online miễn phí ngay trong trình duyệt. Không cần đăng ký, không tải lên, không có watermark, dùng được trên điện thoại và máy tính.",
+    "description": "Chuyển JPG sang PNG online miễn phí, đổi jpg sang png hàng loạt trong trình duyệt. Không cần đăng ký, không tải lên, không watermark, dùng trên điện thoại.",
     "h1": "Chuyển JPG sang PNG",
     "intro": "Cần PNG cho logo, công cụ thiết kế hoặc biểu mẫu không nhận JPG? Hãy thêm các tệp JPG và tải về tệp PNG không làm giảm chất lượng chỉ trong một bước. Mọi thứ chạy ngay trong trình duyệt.",
     "blurb": "Biến ảnh JPG thành tệp PNG không làm giảm chất lượng.",
@@ -779,7 +788,7 @@
   },
   "webpToJpg": {
     "title": "Chuyển WebP sang JPG online - Miễn phí, không tải lên",
-    "description": "Chuyển WebP sang JPG online miễn phí: biến ảnh WebP thành tệp JPG mở được ở mọi nơi. Không cần đăng ký, không tải lên, dùng được trên điện thoại và máy tính.",
+    "description": "Chuyển WebP sang JPG online miễn phí, đổi webp sang jpg hàng loạt để mở được ở mọi nơi. Không cần đăng ký, không tải lên, dùng được trên điện thoại và máy tính.",
     "h1": "Chuyển WebP sang JPG",
     "intro": "Các website thường lưu ảnh dưới dạng WebP, nhưng nhiều phần mềm, máy in và biểu mẫu tải lên chỉ nhận JPG. Hãy thêm ảnh WebP và tải về các tệp JPG mở được ở mọi nơi.",
     "blurb": "Biến ảnh WebP thành tệp JPG mở được ở mọi nơi.",
@@ -944,9 +953,9 @@
     }
   },
   "kb500": {
-    "title": "Giảm dung lượng ảnh xuống 500KB - Nén ảnh online",
-    "description": "Giảm dung lượng ảnh xuống 500KB online miễn phí: nén ảnh còn 500 KB trở xuống cho email, hồ sơ xin việc và tải lên mà vẫn nét. Không cần đăng ký, riêng tư.",
-    "h1": "Giảm dung lượng ảnh xuống 500 KB",
+    "title": "Giảm dung lượng ảnh xuống dưới 500KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh dưới 500KB online miễn phí: nén ảnh JPG còn 500 KB trở xuống cho email, hồ sơ xin việc, tải lên mà vẫn nét. Không cần đăng ký, riêng tư.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 500 KB",
     "intro": "500 KB là giới hạn thường gặp với tệp đính kèm email, hồ sơ xin việc và các biểu mẫu tải lên vẫn muốn ảnh đẹp. Trang này đặt sẵn giới hạn cho bạn: thêm ảnh rồi tải về tệp dưới 500 KB (500.000 byte) mà vẫn sắc nét.",
     "blurb": "Đưa ảnh xuống dưới 500 KB mà vẫn sắc nét.",
     "steps": [
@@ -997,9 +1006,9 @@
     }
   },
   "mb1": {
-    "title": "Giảm dung lượng ảnh xuống 1MB - Nén ảnh online",
-    "description": "Giảm dung lượng ảnh xuống 1MB online miễn phí: nén ảnh còn 1 MB trở xuống cho email, biểu mẫu, tải lên mà vẫn nét. Không cần đăng ký, ảnh không rời thiết bị.",
-    "h1": "Giảm dung lượng ảnh xuống 1 MB",
+    "title": "Giảm dung lượng ảnh xuống dưới 1MB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh xuống dưới 1MB online miễn phí: nén ảnh JPG dưới 1 MB cho email, biểu mẫu, tải lên mà vẫn nét. Không cần đăng ký, ảnh không rời thiết bị.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 1 MB",
     "intro": "Giới hạn 1 MB thường gặp ở dịch vụ email, biểu mẫu đăng ký và các website cho phép tải ảnh lên. Trang này đặt sẵn giới hạn cho bạn: thêm ảnh rồi tải về tệp dưới 1 MB (1.000.000 byte) mà vẫn sắc nét.",
     "blurb": "Đưa ảnh xuống dưới 1 MB để gửi email và tải lên.",
     "steps": [
@@ -1050,8 +1059,8 @@
     }
   },
   "pixels": {
-    "title": "Đổi kích thước ảnh theo pixel - Đặt chiều rộng, chiều cao",
-    "description": "Đổi kích thước ảnh theo pixel online miễn phí: nhập chính xác chiều rộng, chiều cao, giữ tỷ lệ, vừa khung hoặc cắt ảnh. Không cần đăng ký, ảnh luôn riêng tư.",
+    "title": "Đổi kích thước ảnh theo pixel - Resize ảnh online",
+    "description": "Đổi kích thước ảnh theo pixel online miễn phí: resize ảnh đúng chiều rộng, chiều cao như 1920x1080, 512x512, giữ tỷ lệ hoặc cắt. Không cần đăng ký, riêng tư.",
     "h1": "Đổi kích thước ảnh theo pixel",
     "intro": "Đặt chính xác chiều rộng và chiều cao của ảnh theo pixel, cho website, biểu mẫu đăng ký, ảnh thu nhỏ hoặc bài đăng mạng xã hội. Thêm ảnh, nhập kích thước rồi tải kết quả về. Tỷ lệ khung hình được khóa theo mặc định nên ảnh không bị kéo giãn.",
     "blurb": "Đặt chính xác chiều rộng và chiều cao theo pixel.",
@@ -1103,9 +1112,9 @@
     }
   },
   "bulk": {
-    "title": "Đổi kích thước ảnh hàng loạt - Miễn phí online",
-    "description": "Đổi kích thước ảnh hàng loạt: xử lý hàng trăm ảnh cùng lúc về một kích thước hoặc giới hạn dung lượng, tải về ZIP. Miễn phí, không cần đăng ký, riêng tư.",
-    "h1": "Đổi kích thước ảnh hàng loạt",
+    "title": "Resize ảnh hàng loạt online - Đổi kích thước nhiều ảnh",
+    "description": "Resize ảnh hàng loạt online: đổi kích thước ảnh hàng loạt, hàng trăm ảnh cùng lúc về một kích thước hoặc giới hạn KB, tải về ZIP. Miễn phí, không cần đăng ký.",
+    "h1": "Resize ảnh hàng loạt - đổi kích thước nhiều ảnh cùng lúc",
     "intro": "Đổi kích thước nhiều ảnh chỉ trong một lần. Thêm cả thư mục ảnh, chọn một kích thước hoặc một giới hạn dung lượng cho tất cả rồi tải kết quả về trong một tệp ZIP. Mọi thứ diễn ra trên thiết bị của bạn, nên không phải tải lên và không phải chờ đợi.",
     "blurb": "Đổi kích thước nhiều ảnh cùng lúc và tải về tệp ZIP.",
     "steps": [
@@ -1257,6 +1266,496 @@
         {
           "q": "Có miễn phí không?",
           "a": "Có. Không cần đăng ký, không có watermark và không giới hạn số ảnh."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Giảm dung lượng ảnh xuống dưới 300KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh dưới 300KB online miễn phí: nén ảnh JPG còn 300 KB trở xuống cho biểu mẫu, tải lên mà vẫn nét. Không cần đăng ký, ảnh không rời thiết bị.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 300 KB",
+    "intro": "Nhiều biểu mẫu đăng ký, cổng thi và website yêu cầu ảnh nặng tối đa 300 KB. Trang này đặt sẵn giới hạn đó cho bạn: thêm ảnh rồi tải về tệp dưới 300 KB mà vẫn rõ nét.",
+    "blurb": "Đưa ảnh xuống dưới 300 KB cho biểu mẫu và tải lên.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh điện thoại lớn vẫn xử lý được."
+      },
+      {
+        "title": "Giữ giới hạn 300 KB",
+        "text": "Mức 300 KB đã được chọn sẵn. Công cụ tính mức đó là 300.000 byte, nên tệp đạt yêu cầu ở cả hệ thống tính 1 KB là 1.000 byte lẫn hệ thống tính 1.024 byte."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải tệp về. Kết quả hiển thị dung lượng chính xác."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh luôn dưới 300 KB",
+    "tips": [
+      "Hãy chọn JPG cho ảnh chụp. Ảnh chụp lưu dưới dạng PNG thường nặng gấp nhiều lần dù là cùng một bức ảnh.",
+      "Nếu biểu mẫu còn yêu cầu kích thước pixel cụ thể, hãy nhập chiều rộng và chiều cao trước, rồi giữ nguyên giới hạn 300 KB.",
+      "Ảnh điện thoại rộng 4000 pixel không thể vừa 300 KB ở chất lượng cao. Hãy để công cụ giảm bớt số pixel một chút, ảnh sẽ nét hơn so với chỉ hạ chất lượng.",
+      "Thêm nhiều ảnh cùng lúc để đổi kích thước tất cả với cùng một giới hạn, rồi tải về một tệp ZIP."
+    ],
+    "detailsTitle": "300 KB nghĩa là gì với một bức ảnh",
+    "details": [
+      "Ba trăm kilobyte là chưa đến một phần ba megabyte. Một ảnh JPG cỡ đó có thể chứa bức ảnh khoảng 1500 x 1000 pixel với chi tiết tốt, tùy từng ảnh. Như vậy là quá đủ cho biểu mẫu, ảnh giấy tờ tải lên hay một trang web.",
+      "Công cụ thử mức chất lượng cao nhất vẫn vừa giới hạn và cho bạn thấy dung lượng kết quả chính xác trước khi tải xuống. Nếu biểu mẫu cần tệp nhỏ hơn, hãy chọn giới hạn thấp hơn như 200 KB hoặc 100 KB rồi chạy lại."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 300 KB?",
+          "a": "Thêm ảnh, giữ giới hạn 300 KB đã được chọn sẵn rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng cao nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "Ảnh có bị xấu đi không?",
+          "a": "Có một chút, vì tệp nhỏ hơn thì chứa ít chi tiết hơn. Công cụ chọn chất lượng tốt nhất vẫn vừa giới hạn, nên bạn có được ảnh nét nhất dưới 300 KB."
+        },
+        {
+          "q": "Nếu ảnh của tôi đã dưới 300 KB thì sao?",
+          "a": "Vậy là ảnh đã đủ nhỏ rồi. Chỉ chọn giới hạn thấp hơn nếu biểu mẫu yêu cầu."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Giảm dung lượng ảnh xuống dưới 2MB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh xuống dưới 2MB online miễn phí: nén ảnh JPG còn 2 MB trở xuống cho email, biểu mẫu, tải lên mà gần như không giảm nét. Không cần đăng ký.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 2 MB",
+    "intro": "Dịch vụ email, biểu mẫu đăng ký và trang tải lên thường chỉ nhận ảnh tối đa 2 MB, trong khi ảnh điện thoại thường nặng hơn. Thêm ảnh rồi tải về tệp dưới 2 MB (2.000.000 byte) mà vẫn sắc nét.",
+    "blurb": "Đưa ảnh xuống dưới 2 MB để gửi email và tải lên.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh nặng từ 5 đến 10 MB vẫn xử lý được."
+      },
+      {
+        "title": "Giữ giới hạn 2 MB",
+        "text": "Mức 2 MB đã được chọn sẵn. Công cụ tính mức đó là 2.000.000 byte, nên tệp đạt yêu cầu ở cả hệ thống tính 2.000 KB lẫn hệ thống tính 2.048 KB."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải tệp về. Kết quả hiển thị dung lượng chính xác."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh luôn dưới 2 MB",
+    "tips": [
+      "Hầu hết ảnh điện thoại hiện nay nặng từ 3 đến 10 MB. Thường chỉ cần hạ chất lượng một chút là xuống được 2 MB, mà trên màn hình không thấy khác biệt.",
+      "Ảnh chụp tốt nhất khi lưu dưới dạng JPG hoặc WebP. Ảnh chụp lưu dưới dạng PNG thường nặng gấp nhiều lần.",
+      "Để gửi nhiều ảnh trong một email, hãy thêm tất cả cùng lúc rồi tải về tệp ZIP.",
+      "Ảnh chụp màn hình và logo nên để dạng PNG: chúng vốn đã nhẹ và giữ được cạnh sắc nét."
+    ],
+    "detailsTitle": "2 MB nghĩa là gì với một bức ảnh",
+    "details": [
+      "Hai megabyte là 2.000 kilobyte. Một ảnh JPG cỡ đó có thể chứa bức ảnh khoảng 3000 x 2000 pixel với chi tiết rất tốt, tùy từng ảnh, nhiều hơn hầu hết màn hình hiển thị được.",
+      "Công cụ thử mức chất lượng cao nhất vẫn vừa giới hạn và cho bạn thấy dung lượng kết quả chính xác trước khi tải xuống. Công cụ chỉ giảm số pixel khi không thể đạt giới hạn chỉ bằng cách hạ chất lượng."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 2 MB?",
+          "a": "Thêm ảnh, giữ giới hạn 2 MB đã được chọn sẵn rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng cao nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "2 MB có bằng 2.048 KB không?",
+          "a": "Một số hệ thống tính một megabyte là 1.024 kilobyte, số khác tính là 1.000. Công cụ dùng giá trị nhỏ hơn (2.000 KB, tức 2.000.000 byte), nên tệp đạt yêu cầu ở cả hai cách tính."
+        },
+        {
+          "q": "Ảnh có bị nhỏ đi về số pixel không?",
+          "a": "Chỉ khi thật sự cần. Công cụ hạ chất lượng trước và chỉ giảm số pixel khi không còn cách nào khác để đạt giới hạn."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Chuyển ảnh sang PDF online - Miễn phí, ghép nhiều ảnh",
+    "description": "Chuyển ảnh sang PDF online miễn phí: ghép ảnh JPG, PNG, WebP thành một tệp PDF ngay trong trình duyệt. Chọn A4 hoặc Letter. Không tải lên, không watermark.",
+    "h1": "Chuyển ảnh sang PDF",
+    "intro": "Biến một hoặc nhiều ảnh thành một tệp PDF duy nhất. Thêm ảnh, sắp xếp theo thứ tự bạn muốn, chọn khổ giấy rồi tải PDF về. Tệp được tạo ngay trên thiết bị nên ảnh không bao giờ bị tải lên, không có watermark và không giới hạn số lần dùng.",
+    "blurb": "Ghép ảnh thành một tệp PDF, ngay trên thiết bị của bạn.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh JPG, PNG, WebP, GIF hoặc BMP vào trang, hoặc chọn từ thiết bị. Mỗi ảnh sẽ thành một trang."
+      },
+      {
+        "title": "Sắp xếp trang và chọn tùy chọn",
+        "text": "Dùng các mũi tên để chuyển một trang lên hoặc xuống. Chọn A4, US Letter hoặc “Theo kích thước ảnh”, rồi chọn lề và chất lượng ảnh."
+      },
+      {
+        "title": "Tạo và tải xuống",
+        "text": "Nhấn Tạo PDF rồi tải tệp về. Tệp mở được bằng mọi trình đọc PDF."
+      }
+    ],
+    "tipsTitle": "Mẹo để tạo PDF đẹp từ ảnh",
+    "tips": [
+      "Chọn A4 hoặc US Letter nếu bạn có thể cần in. Chọn “Theo kích thước ảnh” khi PDF chỉ để xem trên màn hình.",
+      "Muốn tệp nhẹ (ví dụ để gửi email), hãy chọn “Tệp nhẹ”. Với ảnh quét chữ và ảnh chụp màn hình, hãy chọn “Chất lượng cao”.",
+      "Ảnh chụp dọc hay ngang đều tự được xoay đúng chiều, dựa trên thông tin điện thoại lưu trong ảnh.",
+      "Vùng trong suốt của ảnh PNG và WebP sẽ chuyển thành màu trắng, vì ảnh được lưu thành các trang JPEG.",
+      "Cần PDF dưới một giới hạn dung lượng? Hãy giảm kích thước ảnh trước bằng công cụ “Giảm ảnh xuống KB”, rồi ghép lại ở đây."
+    ],
+    "detailsTitle": "PDF được tạo như thế nào",
+    "details": [
+      "Mỗi ảnh được đặt trên một trang riêng, căn giữa và không bị kéo giãn. Với A4 hoặc US Letter, trang tự chuyển sang nằm ngang khi ảnh rộng hơn cao (hoặc bạn tự chọn hướng trang). Với “Theo kích thước ảnh”, trang có đúng hình dạng của ảnh.",
+      "PDF được tạo bởi trình duyệt của bạn. Ảnh được đọc ngay trên thiết bị, lưu thành các trang JPEG rồi đóng gói vào tệp PDF, và không có gì được gửi lên máy chủ. Bạn có thể thêm tối đa 100 ảnh vào một PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển ảnh sang PDF?",
+          "a": "Thêm ảnh, sắp xếp thứ tự, chọn khổ giấy rồi nhấn Tạo PDF. Sau đó tải PDF về."
+        },
+        {
+          "q": "Làm sao ghép nhiều ảnh thành một PDF?",
+          "a": "Thêm tất cả ảnh cùng lúc. Mỗi ảnh sẽ thành một trang, và các mũi tên cạnh mỗi ảnh giúp đổi thứ tự trước khi bạn tạo PDF."
+        },
+        {
+          "q": "Có giới hạn số trang hoặc dung lượng tệp không?",
+          "a": "Bạn có thể thêm tối đa 100 ảnh vào một PDF. Không giới hạn theo ngày và không có watermark. Dung lượng PDF phụ thuộc vào ảnh của bạn và mức chất lượng bạn chọn."
+        },
+        {
+          "q": "Có dùng được trên điện thoại không?",
+          "a": "Có. Chọn ảnh từ thư viện hoặc tệp, sắp xếp rồi tải PDF về. Công cụ chạy được trên mọi trình duyệt điện thoại hiện đại."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. PDF được tạo ngay trên thiết bị và ảnh của bạn không bao giờ rời khỏi đó."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "Chuyển JPG sang PDF online - Miễn phí, không tải lên",
+    "description": "Chuyển JPG sang PDF online miễn phí: biến một hoặc nhiều ảnh JPG thành PDF ngay trong trình duyệt. Chọn A4 hoặc Letter. Không tải lên, không watermark.",
+    "h1": "Chuyển JPG sang PDF",
+    "intro": "Tạo PDF từ ảnh JPG của bạn. Thêm một hoặc nhiều ảnh, sắp xếp đúng thứ tự rồi tải về một tệp PDF duy nhất. Công cụ chạy ngay trên thiết bị nên không có gì bị tải lên và không có watermark.",
+    "blurb": "Biến ảnh JPG thành một tệp PDF.",
+    "steps": [
+      {
+        "title": "Thêm tệp JPG của bạn",
+        "text": "Kéo một hoặc nhiều ảnh JPG vào trang, hoặc chọn từ thiết bị. Mỗi ảnh sẽ thành một trang."
+      },
+      {
+        "title": "Sắp xếp trang và chọn tùy chọn",
+        "text": "Dùng các mũi tên để đổi thứ tự. Chọn A4, US Letter hoặc “Theo kích thước ảnh”, rồi chọn lề và chất lượng ảnh."
+      },
+      {
+        "title": "Tạo và tải xuống",
+        "text": "Nhấn Tạo PDF rồi tải tệp về. Tệp mở được bằng mọi trình đọc PDF."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển JPG sang PDF",
+    "tips": [
+      "Với “Chất lượng cao”, ảnh giữ gần như toàn bộ chi tiết nên PDF trông giống ảnh trên điện thoại của bạn.",
+      "Ảnh điện thoại có thể nặng vài MB mỗi ảnh. Hãy chọn “Tệp nhẹ” nếu PDF cần gửi email hoặc tải lên biểu mẫu.",
+      "Ảnh chụp dọc hay ngang đều tự được xoay đúng chiều.",
+      "Để quét tài liệu bằng điện thoại, hãy chụp từng trang, thêm các ảnh vào đây theo thứ tự rồi tạo PDF."
+    ],
+    "detailsTitle": "Chuyển JPG sang PDF không cần cài ứng dụng",
+    "details": [
+      "Một trang PDF có thể chứa trực tiếp ảnh JPG, nên việc chuyển đổi diễn ra nhanh và kết quả gần như giống ảnh gốc. Chọn A4 hoặc US Letter nếu bạn có thể cần in PDF, hoặc “Theo kích thước ảnh” để mỗi trang của PDF chỉ là một bức ảnh.",
+      "PDF được tạo ngay trong trình duyệt. Ảnh của bạn không bao giờ được tải lên, nên bạn có thể yên tâm với giấy tờ tùy thân, hóa đơn và các ảnh riêng tư khác. Bạn có thể thêm tối đa 100 ảnh vào một PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển JPG sang PDF?",
+          "a": "Thêm ảnh JPG, sắp xếp thứ tự rồi nhấn Tạo PDF. Sau đó tải PDF về."
+        },
+        {
+          "q": "Tôi có thể gộp nhiều tệp JPG vào một PDF không?",
+          "a": "Được. Thêm tất cả cùng lúc. Mỗi ảnh sẽ thành một trang và bạn có thể đổi thứ tự bằng các mũi tên."
+        },
+        {
+          "q": "Chuyển JPG sang PDF có làm giảm chất lượng không?",
+          "a": "Gần như không. Với “Chất lượng cao”, ảnh được giữ ở mức gần như đầy đủ chi tiết. Chỉ chọn “Tệp nhẹ” khi bạn cần PDF nhỏ hơn."
+        },
+        {
+          "q": "Làm sao tạo PDF dưới 1 MB hoặc 200 KB?",
+          "a": "Chọn “Tệp nhẹ” và thêm ít ảnh hơn vào mỗi PDF. Nếu vẫn quá lớn, hãy giảm từng ảnh trước bằng công cụ “Giảm ảnh xuống KB”."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "Chuyển PNG sang PDF online - Miễn phí, không tải lên",
+    "description": "Chuyển PNG sang PDF online miễn phí: biến ảnh PNG và ảnh chụp màn hình thành PDF ngay trong trình duyệt. Chọn A4 hoặc Letter. Không tải lên, không watermark.",
+    "h1": "Chuyển PNG sang PDF",
+    "intro": "Tạo PDF từ ảnh PNG và ảnh chụp màn hình của bạn. Thêm một hoặc nhiều ảnh, sắp xếp đúng thứ tự rồi tải về một tệp PDF duy nhất. Công cụ chạy ngay trên thiết bị nên không có gì bị tải lên và không có watermark.",
+    "blurb": "Biến ảnh PNG và ảnh chụp màn hình thành PDF.",
+    "steps": [
+      {
+        "title": "Thêm tệp PNG của bạn",
+        "text": "Kéo một hoặc nhiều ảnh PNG vào trang, hoặc chọn từ thiết bị. Mỗi ảnh sẽ thành một trang."
+      },
+      {
+        "title": "Sắp xếp trang và chọn tùy chọn",
+        "text": "Dùng các mũi tên để đổi thứ tự. Chọn A4, US Letter hoặc “Theo kích thước ảnh”, rồi chọn lề và chất lượng ảnh."
+      },
+      {
+        "title": "Tạo và tải xuống",
+        "text": "Nhấn Tạo PDF rồi tải tệp về. Tệp mở được bằng mọi trình đọc PDF."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển PNG sang PDF",
+    "tips": [
+      "Vùng trong suốt của ảnh PNG sẽ chuyển thành màu trắng trong PDF.",
+      "Với ảnh chụp màn hình có chữ nhỏ, hãy chọn “Chất lượng cao” để chữ luôn sắc nét.",
+      "Tệp PNG có thể rất nặng. Hãy chọn “Tệp nhẹ” nếu PDF cần gửi email, hoặc “Cân bằng” để vừa nét vừa gọn.",
+      "Để giữ đúng hình dạng của ảnh chụp màn hình, hãy chọn “Theo kích thước ảnh” làm khổ giấy."
+    ],
+    "detailsTitle": "Điều gì xảy ra với ảnh PNG trong PDF",
+    "details": [
+      "Mỗi ảnh PNG được vẽ trên nền trắng và lưu vào PDF dưới dạng ảnh JPEG ở mức chất lượng bạn chọn, nên với “Chất lượng cao”, ảnh chụp màn hình hay biểu đồ trông giống như trên màn hình. Chọn A4 hoặc US Letter nếu bạn có thể cần in PDF, hoặc “Theo kích thước ảnh” để trang có đúng hình dạng của ảnh.",
+      "PDF được tạo ngay trong trình duyệt. Ảnh của bạn không bao giờ được tải lên, nên bạn có thể yên tâm với tài liệu và ảnh chụp màn hình riêng tư. Bạn có thể thêm tối đa 100 ảnh vào một PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển PNG sang PDF?",
+          "a": "Thêm ảnh PNG, sắp xếp thứ tự rồi nhấn Tạo PDF. Sau đó tải PDF về."
+        },
+        {
+          "q": "Tôi có thể ghép nhiều tệp PNG thành một PDF không?",
+          "a": "Được. Thêm tất cả cùng lúc. Mỗi ảnh sẽ thành một trang và bạn có thể đổi thứ tự bằng các mũi tên."
+        },
+        {
+          "q": "Ảnh PNG trong suốt sẽ ra sao?",
+          "a": "Vùng trong suốt được lấp bằng màu trắng, vì ảnh được lưu trên một trang nền trắng."
+        },
+        {
+          "q": "Chữ trong ảnh chụp màn hình có còn sắc nét không?",
+          "a": "Có, với “Chất lượng cao”. Ảnh được giữ ở mức gần như đầy đủ chi tiết."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "Đổi cm sang pixel online - Công cụ miễn phí (300 DPI)",
+    "description": "Đổi cm sang pixel online miễn phí: nhập số cm, chọn DPI và nhận ngay kích thước pixel chính xác cho in ấn, ảnh hộ chiếu và biểu mẫu. Chạy ngay trên thiết bị.",
+    "h1": "Đổi cm sang pixel",
+    "intro": "Nhập kích thước theo centimet và xem nó bằng bao nhiêu pixel ở mức DPI của bạn. Công cụ cũng hiển thị các cỡ in phổ biến theo pixel và có liên kết đến công cụ đổi kích thước ảnh miễn phí, để bạn đưa ảnh về đúng kích thước đó.",
+    "blurb": "Quy đổi centimet sang pixel ở mọi mức DPI.",
+    "steps": [
+      {
+        "title": "Nhập kích thước theo cm",
+        "text": "Nhập chiều rộng, và chiều cao nếu cần. Đơn vị đã được đặt sẵn là centimet."
+      },
+      {
+        "title": "Chọn DPI",
+        "text": "Dùng 300 để in, 96 cho màn hình, hoặc số mà biểu mẫu yêu cầu. Kết quả thay đổi ngay khi bạn gõ."
+      },
+      {
+        "title": "Xem số pixel và đổi kích thước",
+        "text": "Sao chép kết quả, hoặc mở công cụ đổi kích thước ảnh và nhập số pixel để đưa ảnh về đúng kích thước đó."
+      }
+    ],
+    "tipsTitle": "Mẹo khi đổi cm sang pixel",
+    "tips": [
+      "Một bức ảnh không có kích thước tính bằng centimet cho đến khi được in hoặc đặt vào một tài liệu. DPI quyết định có bao nhiêu pixel nằm trong một centimet.",
+      "Dùng 300 DPI để in sắc nét, 150 DPI cho bản nháp, và 72 hoặc 96 DPI cho màn hình.",
+      "Nếu biểu mẫu cho kích thước theo cm mà không nói DPI, 300 DPI là lựa chọn thường dùng cho ảnh.",
+      "Nhập cả chiều rộng và chiều cao để có cả hai cạnh cùng lúc. Dùng nút đảo đơn vị để quy đổi theo chiều ngược lại."
+    ],
+    "detailsTitle": "Cách đổi cm sang pixel",
+    "details": [
+      "Công thức là pixel = centimet ÷ 2,54 × DPI, vì một inch bằng 2,54 centimet. Ở 300 DPI, một centimet là khoảng 118 pixel, ở 96 DPI khoảng 38 pixel, và ở 72 DPI khoảng 28 pixel. Vì vậy 10 cm là khoảng 1181 pixel ở 300 DPI.",
+      "Kích thước ảnh in theo centimet cũng theo quy tắc đó: ảnh in 10 × 15 cm là khoảng 1181 × 1772 pixel ở 300 DPI. Công cụ làm tròn pixel thành số nguyên, vì một bức ảnh không thể có một phần của pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1 cm bằng bao nhiêu pixel?",
+          "a": "Ở 300 DPI, 1 cm là khoảng 118 pixel. Ở 96 DPI là khoảng 38 pixel, và ở 72 DPI khoảng 28 pixel."
+        },
+        {
+          "q": "Làm sao đổi cm sang pixel?",
+          "a": "Chia số centimet cho 2,54 rồi nhân với DPI. Hoặc nhập kích thước vào công cụ ở trên, công cụ sẽ tính giúp bạn."
+        },
+        {
+          "q": "Nên dùng DPI bao nhiêu?",
+          "a": "Dùng 300 để in và cho ảnh hộ chiếu, ảnh giấy tờ, còn 72 hoặc 96 cho ảnh chỉ hiển thị trên màn hình."
+        },
+        {
+          "q": "DPI có làm thay đổi ảnh của tôi không?",
+          "a": "Không. DPI chỉ quyết định ảnh lớn bao nhiêu khi in. Hãy đổi kích thước chính bức ảnh bằng công cụ đổi kích thước ảnh."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Đổi inch sang pixel online - Công cụ miễn phí",
+    "description": "Đổi inch sang pixel online miễn phí: nhập số inch, chọn DPI và nhận ngay kích thước pixel chính xác cho ảnh in, tài liệu và biểu mẫu. Chạy ngay trên thiết bị.",
+    "h1": "Đổi inch sang pixel",
+    "intro": "Nhập kích thước theo inch và xem nó bằng bao nhiêu pixel ở mức DPI của bạn. Công cụ cũng hiển thị các cỡ in phổ biến theo pixel và có liên kết đến công cụ đổi kích thước ảnh miễn phí, để bạn đưa ảnh về đúng kích thước đó.",
+    "blurb": "Quy đổi inch sang pixel ở mọi mức DPI.",
+    "steps": [
+      {
+        "title": "Nhập kích thước theo inch",
+        "text": "Nhập chiều rộng, và chiều cao nếu cần. Đơn vị đã được đặt sẵn là inch."
+      },
+      {
+        "title": "Chọn DPI",
+        "text": "Dùng 300 để in, 96 cho màn hình, hoặc số mà biểu mẫu yêu cầu. Kết quả thay đổi ngay khi bạn gõ."
+      },
+      {
+        "title": "Xem số pixel và đổi kích thước",
+        "text": "Sao chép kết quả, hoặc mở công cụ đổi kích thước ảnh và nhập số pixel để đưa ảnh về đúng kích thước đó."
+      }
+    ],
+    "tipsTitle": "Mẹo khi đổi inch sang pixel",
+    "tips": [
+      "Pixel = inch × DPI. Ở 300 DPI, mỗi inch là 300 pixel.",
+      "Ảnh in 4 × 6 inch cần 1200 × 1800 pixel ở 300 DPI, và ảnh hộ chiếu 2 × 2 inch cần 600 × 600.",
+      "Một bức ảnh không có kích thước tính bằng inch cho đến khi được in. DPI quyết định có bao nhiêu pixel nằm trong một inch.",
+      "Dùng nút đảo đơn vị để quy đổi pixel sang inch."
+    ],
+    "detailsTitle": "Cách đổi inch sang pixel",
+    "details": [
+      "Công thức là pixel = inch × DPI. Ở 300 DPI, mức thường dùng để in, 1 inch là 300 pixel. Ở 96 DPI, chuẩn của màn hình trong trình duyệt, 1 inch là 96 pixel, và ở 72 DPI là 72 pixel.",
+      "Một trang giấy US Letter cỡ 8,5 × 11 inch là 2550 × 3300 pixel ở 300 DPI, còn ảnh in 5 × 7 inch là 1500 × 2100 pixel. Công cụ làm tròn pixel thành số nguyên, vì một bức ảnh không thể có một phần của pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1 inch bằng bao nhiêu pixel?",
+          "a": "Tùy vào DPI: 300 pixel ở 300 DPI, 96 pixel ở 96 DPI và 72 pixel ở 72 DPI."
+        },
+        {
+          "q": "Ảnh 4x6 inch bằng bao nhiêu pixel?",
+          "a": "Ở 300 DPI, ảnh 4 × 6 inch là 1200 × 1800 pixel."
+        },
+        {
+          "q": "Nên dùng DPI bao nhiêu?",
+          "a": "Dùng 300 để in, còn 72 hoặc 96 cho ảnh chỉ hiển thị trên màn hình."
+        },
+        {
+          "q": "DPI có làm thay đổi ảnh của tôi không?",
+          "a": "Không. DPI chỉ quyết định ảnh lớn bao nhiêu khi in. Hãy đổi kích thước chính bức ảnh bằng công cụ đổi kích thước ảnh."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "Đổi mm sang pixel online - Công cụ miễn phí (300 DPI)",
+    "description": "Đổi mm sang pixel online miễn phí: nhập số mm, chọn DPI và nhận ngay kích thước pixel cho ảnh hộ chiếu, ảnh thẻ và biểu mẫu. Chạy ngay trên thiết bị của bạn.",
+    "h1": "Đổi mm sang pixel",
+    "intro": "Nhập kích thước theo milimet và xem nó bằng bao nhiêu pixel ở mức DPI của bạn. Rất tiện cho ảnh hộ chiếu và ảnh thẻ, vốn được cho theo milimet. Công cụ có liên kết đến công cụ đổi kích thước ảnh miễn phí, để bạn đưa ảnh về đúng kích thước đó.",
+    "blurb": "Quy đổi milimet sang pixel ở mọi mức DPI.",
+    "steps": [
+      {
+        "title": "Nhập kích thước theo mm",
+        "text": "Nhập chiều rộng, và chiều cao nếu cần. Đơn vị đã được đặt sẵn là milimet."
+      },
+      {
+        "title": "Chọn DPI",
+        "text": "Dùng 300 để in, 96 cho màn hình, hoặc số mà biểu mẫu yêu cầu. Kết quả thay đổi ngay khi bạn gõ."
+      },
+      {
+        "title": "Xem số pixel và đổi kích thước",
+        "text": "Sao chép kết quả, hoặc mở công cụ đổi kích thước ảnh và nhập số pixel để đưa ảnh về đúng kích thước đó."
+      }
+    ],
+    "tipsTitle": "Mẹo khi đổi mm sang pixel",
+    "tips": [
+      "Ảnh hộ chiếu 35 × 45 mm là 413 × 531 pixel ở 300 DPI.",
+      "Một bức ảnh không có kích thước tính bằng milimet cho đến khi được in. DPI quyết định có bao nhiêu pixel nằm trong một milimet.",
+      "Dùng 300 DPI để in sắc nét, và 72 hoặc 96 DPI cho ảnh chỉ hiển thị trên màn hình.",
+      "Nhập cả chiều rộng và chiều cao để có cả hai cạnh cùng lúc. Dùng nút đảo đơn vị để quy đổi pixel sang milimet."
+    ],
+    "detailsTitle": "Cách đổi mm sang pixel",
+    "details": [
+      "Công thức là pixel = milimet ÷ 25,4 × DPI, vì một inch bằng 25,4 milimet. Ở 300 DPI, một milimet là khoảng 11,8 pixel, ở 96 DPI khoảng 3,8 pixel, và ở 72 DPI khoảng 2,8 pixel.",
+      "Một tờ giấy A4 cỡ 210 × 297 mm là 2480 × 3508 pixel ở 300 DPI. Công cụ làm tròn pixel thành số nguyên, vì một bức ảnh không thể có một phần của pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1 mm bằng bao nhiêu pixel?",
+          "a": "Ở 300 DPI, 1 mm là khoảng 11,8 pixel. Ở 96 DPI là khoảng 3,8 pixel, và ở 72 DPI khoảng 2,8 pixel."
+        },
+        {
+          "q": "Ảnh 35x45 mm bằng bao nhiêu pixel?",
+          "a": "Ở 300 DPI, ảnh hộ chiếu 35 × 45 mm là 413 × 531 pixel."
+        },
+        {
+          "q": "Nên dùng DPI bao nhiêu?",
+          "a": "Dùng 300 để in và cho ảnh hộ chiếu, ảnh giấy tờ, còn 72 hoặc 96 cho ảnh chỉ hiển thị trên màn hình."
+        },
+        {
+          "q": "DPI có làm thay đổi ảnh của tôi không?",
+          "a": "Không. DPI chỉ quyết định ảnh lớn bao nhiêu khi in. Hãy đổi kích thước chính bức ảnh bằng công cụ đổi kích thước ảnh."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Chuyển pixel sang cm online - Công cụ miễn phí (DPI)",
+    "description": "Chuyển pixel sang cm online miễn phí: nhập số pixel, chọn DPI và nhận kích thước in theo cm, mm hoặc inch. Chạy ngay trên thiết bị, không cần đăng ký.",
+    "h1": "Chuyển pixel sang cm",
+    "intro": "Nhập kích thước theo pixel và xem ảnh in ra lớn bao nhiêu centimet ở mức DPI của bạn. Công cụ cũng hiển thị các cỡ in phổ biến theo pixel và có liên kết đến công cụ đổi kích thước ảnh miễn phí.",
+    "blurb": "Quy đổi pixel sang centimet ở mọi mức DPI.",
+    "steps": [
+      {
+        "title": "Nhập kích thước theo pixel",
+        "text": "Nhập chiều rộng, và chiều cao nếu cần. Đơn vị đã được đặt sẵn là pixel."
+      },
+      {
+        "title": "Chọn DPI",
+        "text": "Dùng 300 để in, 96 cho màn hình, hoặc số mà máy in hay biểu mẫu của bạn dùng. Kết quả thay đổi ngay khi bạn gõ."
+      },
+      {
+        "title": "Xem kích thước",
+        "text": "Kích thước hiện ra theo centimet. Đổi đơn vị sang milimet hoặc inch nếu bạn muốn."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển pixel sang cm",
+    "tips": [
+      "Cùng một bức ảnh sẽ in ra các kích thước khác nhau: DPI càng cao thì bản in càng nhỏ và càng nét.",
+      "Để in đẹp, hãy dùng ít nhất 300 DPI. Ảnh 1200 × 1800 pixel in ra khổ 4 × 6 inch (10,2 × 15,2 cm) ở 300 DPI.",
+      "Trên màn hình, giá trị thường dùng là 96 DPI, nên 1920 pixel rộng khoảng 50,8 cm ở thiết lập đó.",
+      "Dùng nút đảo đơn vị để quy đổi centimet sang pixel."
+    ],
+    "detailsTitle": "Cách chuyển pixel sang cm",
+    "details": [
+      "Công thức là centimet = pixel ÷ DPI × 2,54, vì một inch bằng 2,54 centimet. Ở 300 DPI, 1000 pixel là khoảng 8,47 cm. Ở 96 DPI, cũng 1000 pixel đó là khoảng 26,46 cm.",
+      "Một bức ảnh không có kích thước thật cho đến khi được in, và DPI là thứ nối pixel với centimet. Nếu biểu mẫu yêu cầu kích thước theo centimet mà bạn chỉ biết số pixel, 300 DPI là giá trị thường dùng cho ảnh."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 pixel bằng bao nhiêu cm?",
+          "a": "Ở 300 DPI, 1000 pixel là khoảng 8,47 cm. Ở 96 DPI là khoảng 26,46 cm."
+        },
+        {
+          "q": "Làm sao chuyển pixel sang cm?",
+          "a": "Chia số pixel cho DPI rồi nhân với 2,54. Hoặc nhập số pixel vào công cụ ở trên, công cụ sẽ tính giúp bạn."
+        },
+        {
+          "q": "Nên dùng DPI bao nhiêu?",
+          "a": "Dùng 300 để in, còn 72 hoặc 96 cho ảnh chỉ hiển thị trên màn hình."
+        },
+        {
+          "q": "DPI có làm thay đổi ảnh của tôi không?",
+          "a": "Không. DPI chỉ quyết định ảnh lớn bao nhiêu khi in. Hãy đổi kích thước chính bức ảnh bằng công cụ đổi kích thước ảnh."
         }
       ]
     }

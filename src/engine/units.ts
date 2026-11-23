@@ -59,6 +59,28 @@ export function fromPixels(px: number, unit: LengthUnit, dpi: number): number {
   return Math.round(value * 100) / 100;
 }
 
+/** A length in one unit as a length in another, unrounded. `dpi` only matters when one side is pixels. */
+export function convertLength(value: number, from: LengthUnit, to: LengthUnit, dpi: number): number {
+  if (from === to) return value;
+  let px: number;
+  switch (from) {
+    case 'px':
+      px = value;
+      break;
+    case 'in':
+      px = value * dpi;
+      break;
+    case 'cm':
+      px = (value / CM_PER_INCH) * dpi;
+      break;
+    case 'mm':
+      px = (value / MM_PER_INCH) * dpi;
+      break;
+  }
+  // going through pixels cancels the DPI out when both sides are physical lengths
+  return fromPixelsExact(px, to, dpi);
+}
+
 /**
  * The DPI to use when the unit changes. Leaving pixels with a screen-like DPI (below 150, such as the 96 left
  * by a pixel preset) switches to print DPI 300 BEFORE converting, so "1080 px" becomes "9.14 cm at 300 DPI" and

@@ -1,0 +1,346 @@
+---
+/**
+ * Size converter: cm, mm, inches <-> pixels at a chosen DPI, with a table of common sizes. Pure arithmetic in the browser
+ * (calc-client.ts). Texts come from tool.calc.* in the page language.
+ */
+import { t, localizedPath } from '../../i18n';
+
+type Unit = 'px' | 'cm' | 'mm' | 'in';
+interface Props {
+  lang: string;
+  from: Unit;
+  to: Unit;
+  dpi?: number;
+}
+const { lang, from, to, dpi = 300 } = Astro.props;
+const units: Unit[] = ['px', 'cm', 'mm', 'in'];
+const unitLabel = (u: Unit) => t(lang, `tool.calc.units.${u}` as 'tool.calc.units.px');
+const dpiChoices = [72, 96, 150, 300, 600];
+const rows: { name: string; w: number; h: number; unit: Unit }[] = [
+  { name: t(lang, 'tool.calc.table.passport'), w: 35, h: 45, unit: 'mm' },
+  { name: t(lang, 'tool.calc.table.passport'), w: 2, h: 2, unit: 'in' },
+  { name: t(lang, 'tool.calc.table.print'), w: 4, h: 6, unit: 'in' },
+  { name: t(lang, 'tool.calc.table.print'), w: 5, h: 7, unit: 'in' },
+  { name: 'A4', w: 210, h: 297, unit: 'mm' },
+  { name: 'A5', w: 148, h: 210, unit: 'mm' },
+  { name: 'US Letter', w: 8.5, h: 11, unit: 'in' },
+  { name: t(lang, 'tool.calc.table.card'), w: 3.5, h: 2, unit: 'in' },
+];
+const dimText = (r: (typeof rows)[number]) => `${r.w} × ${r.h} ${r.unit}`;
+// The input says "Height (optional)"; the result row only needs "Height" (drops a trailing bracket in any language)
+const heightResultLabel = t(lang, 'tool.calc.height').replace(/\s*[(（][^)）]*[)）]\s*$/, '');
+---
+<section class="calc" data-calc aria-label={t(lang, 'tool.calc.aria')}>
+  <div class="calc__grid">
+    <form class="calc__form card" novalidate onsubmit="return false">
+      <h2 class="calc__title">{t(lang, 'tool.calc.title')}</h2>
+      <div class="pair">
+        <div class="field">
+          <label for="calc-width">{t(lang, 'tool.calc.width')}</label>
+          <input id="calc-width" type="text" inputmode="decimal" autocomplete="off" data-width placeholder="0" />
+        </div>
+        <div class="field">
+          <label for="calc-height">{t(lang, 'tool.calc.height')}</label>
+          <input id="calc-height" type="text" inputmode="decimal" autocomplete="off" data-height placeholder="0" />
+        </div>
+      </div>
+      <p class="field__error" role="alert" data-error hidden>{t(lang, 'tool.calc.invalid')}</p>
+
+      <div class="units">
+        <div class="field">
+          <label for="calc-from">{t(lang, 'tool.calc.from')}</label>
+          <select id="calc-from" data-from>
+            {units.map((u) => <option value={u} selected={u === from}>{unitLabel(u)}</option>)}
+          </select>
+        </div>
+        <button type="button" class="icon-button" data-swap aria-label={t(lang, 'tool.calc.swap')} title={t(lang, 'tool.calc.swap')}>
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+            <path d="M7 4L3 8l4 4M3 8h14M17 20l4-4-4-4M21 16H7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          </svg>
+        </button>
+        <div class="field">
+          <label for="calc-to">{t(lang, 'tool.calc.to')}</label>
+          <select id="calc-to" data-to>
+            {units.map((u) => <option value={u} data-short={u} selected={u === to}>{unitLabel(u)}</option>)}
+          </select>
+        </div>
+      </div>
+
+      <div class="field" data-dpi-field>
+        <label for="calc-dpi">{t(lang, 'tool.calc.dpi')}</label>
+        <input id="calc-dpi" type="text" inputmode="numeric" autocomplete="off" data-dpi value={dpi} />
+        <div class="chips">
+          {dpiChoices.map((d) => <button type="button" class="chip" data-dpi-choice={d}>{d}</button>)}
+        </div>
+        <p class="field__note">{t(lang, 'tool.calc.dpiNote')}</p>
+      </div>
+    </form>
+
+    <div class="calc__result card" aria-live="polite">
+      <h2 class="calc__title">{t(lang, 'tool.calc.result')}</h2>
+      <div class="out" data-out hidden>
+        <p class="out__row"><span class="out__label">{t(lang, 'tool.calc.width')}</span> <strong class="out__value" data-out-width></strong> <span class="out__unit" data-out-unit></span></p>
+        <p class="out__row" data-out-height-row hidden><span class="out__label">{heightResultLabel}</span> <strong class="out__value" data-out-height></strong> <span class="out__unit" data-out-unit-2></span></p>
+        <div class="out__actions">
+          <button type="button" class="btn btn--ghost" data-copy data-label={t(lang, 'tool.calc.copy')} data-done={t(lang, 'tool.calc.copied')} disabled>{t(lang, 'tool.calc.copy')}</button>
+          <a class="btn" href={localizedPath(lang, '/resize-image-in-pixels/')}>{t(lang, 'tool.calc.resizeLink')}</a>
+        </div>
+      </div>
+      <p class="calc__empty" data-empty>{t(lang, 'tool.calc.empty')}</p>
+    </div>
+  </div>
+
+  <section class="sizes">
+    <h2 data-table-title data-template={t(lang, 'tool.calc.table.title')}>{t(lang, 'tool.calc.table.title').replace('{dpi}', String(dpi))}</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">{t(lang, 'tool.calc.table.size')}</th>
+            <th scope="col">{t(lang, 'tool.calc.table.dimensions')}</th>
+            <th scope="col">{t(lang, 'tool.calc.table.pixels')}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map((r) => (
+              <tr data-row data-w={r.w} data-h={r.h} data-unit={r.unit}>
+                <th scope="row"><button type="button" class="linklike" data-use>{r.name}</button></th>
+                <td class="num" dir="ltr">{dimText(r)}</td>
+                <td class="num" dir="ltr" data-px></td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="visually-hidden" aria-live="polite" data-live></div>
+  <script type="application/json" data-calc-data set:html={JSON.stringify({ lang })} />
+</section>
+
+<script>
+  import { initCalc } from './calc-client';
+  document.querySelectorAll<HTMLElement>('[data-calc]').forEach((root) => initCalc(root));
+</script>
+
+<style>
+  .calc__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-5);
+    align-items: start;
+  }
+  @container page (min-width: 40rem) {
+    .calc__grid {
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    }
+  }
+  .calc__form,
+  .calc__result {
+    padding: clamp(18px, 2.6vh, 28px);
+    display: grid;
+    gap: 18px;
+    border-radius: var(--radius-lg);
+    min-width: 0;
+  }
+  .calc__title {
+    margin: 0;
+    font-size: var(--step-1);
+    font-weight: 800;
+  }
+  .pair {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-3);
+  }
+  .units {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: var(--space-2);
+    align-items: end;
+  }
+  .field {
+    display: grid;
+    gap: 6px;
+    min-width: 0;
+  }
+  .field label {
+    font-size: var(--step-0);
+    font-weight: 700;
+    color: var(--text-strong);
+  }
+  /* Phones: From, the swap button and To one under the other, so long unit names fit */
+  @media (max-width: 30rem) {
+    .units {
+      grid-template-columns: minmax(0, 1fr);
+      justify-items: stretch;
+    }
+    .units .icon-button {
+      justify-self: center;
+      margin: 0;
+      transform: rotate(90deg);
+    }
+  }
+  .field input,
+  .field select {
+    width: 100%;
+    min-height: 50px;
+    padding: 8px 15px;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-md);
+    font: inherit;
+    font-size: var(--step-0);
+  }
+  .field input:hover,
+  .field select:hover {
+    border-color: color-mix(in srgb, var(--accent) 50%, var(--border-strong));
+  }
+  .field input:focus,
+  .field select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: var(--ring);
+  }
+  .field__note {
+    margin: 0;
+    font-size: var(--step--1);
+    line-height: 1.45;
+    color: var(--text-muted);
+  }
+  .field__error {
+    margin: 0;
+    padding: 12px 16px;
+    background: var(--danger-soft);
+    border: 2px solid var(--danger);
+    border-radius: var(--radius-lg);
+    font-weight: 650;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .chip {
+    min-width: 3.25rem;
+    min-height: 44px;
+    padding: 6px 14px;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-full);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .chip:hover {
+    background: var(--surface-2);
+    color: var(--text-strong);
+  }
+  .icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 4px;
+    border: 0;
+    border-radius: var(--radius-full);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+  }
+  .icon-button:hover {
+    background: var(--surface-2);
+    color: var(--text-strong);
+  }
+
+  /* Result */
+  .out {
+    display: grid;
+    gap: var(--space-3);
+  }
+  .out__row {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 12px;
+  }
+  .out__label {
+    min-width: 4.5rem;
+    color: var(--text-muted);
+    font-weight: 700;
+  }
+  .out__value {
+    font-size: var(--step-4, 2.25rem);
+    line-height: 1.1;
+    color: var(--text-strong);
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+  }
+  .out__unit {
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .out__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-2);
+  }
+  .calc__empty {
+    margin: 0;
+    color: var(--text-muted);
+  }
+  .out:not([hidden]) ~ .calc__empty {
+    display: none;
+  }
+
+  /* Common sizes */
+  .sizes {
+    margin-top: var(--space-6);
+  }
+  .sizes h2 {
+    font-size: var(--step-2);
+  }
+  .table-wrap {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 12px 14px;
+    text-align: start;
+    border-bottom: 1px solid var(--border);
+  }
+  thead th {
+    font-size: var(--step--1);
+    color: var(--text-muted);
+    border-bottom: 2px solid var(--border-strong);
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .linklike {
+    background: none;
+    border: 0;
+    padding: 0;
+    min-height: 44px;
+    color: var(--accent);
+    font: inherit;
+    font-weight: 700;
+    text-align: start;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+</style>

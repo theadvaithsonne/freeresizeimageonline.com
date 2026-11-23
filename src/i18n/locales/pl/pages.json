@@ -24,7 +24,16 @@
     "pixels": "Zmiana rozmiaru w pikselach",
     "bulk": "Masowa zmiana rozmiaru zdjęć",
     "jpgToWebp": "JPG na WebP",
-    "pngToWebp": "PNG na WebP"
+    "pngToWebp": "PNG na WebP",
+    "kb300": "Zmniejsz zdjęcie do 300 KB",
+    "mb2": "Zmniejsz zdjęcie do 2 MB",
+    "imageToPdf": "Zdjęcie na PDF",
+    "jpgToPdf": "JPG na PDF",
+    "pngToPdf": "PNG na PDF",
+    "cmToPx": "Cm na piksele",
+    "inToPx": "Cale na piksele",
+    "mmToPx": "Mm na piksele",
+    "pxToCm": "Piksele na cm"
   },
   "common": {
     "howTo": "Jak z tego korzystać",
@@ -113,9 +122,9 @@
     }
   },
   "kb": {
-    "title": "Zmniejsz zdjęcie do KB online - 10, 20, 50, 100, 200 KB",
-    "description": "Zmień rozmiar zdjęcia w KB online za darmo: zmniejsz je do 10, 20, 30, 50, 100, 200 lub 500 KB do formularzy i wysyłania. Bez rejestracji, prywatnie.",
-    "h1": "Zmień rozmiar obrazu do KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "title": "Zmniejsz rozmiar zdjęcia w KB online - 20, 50, 100, 200 KB",
+    "description": "Zmniejsz rozmiar zdjęcia w KB online za darmo: zmniejsz zdjęcie do 10, 20, 30, 50, 100, 200 lub 500 KB do formularzy i wysyłania. Bez rejestracji, prywatnie.",
+    "h1": "Zmniejsz rozmiar zdjęcia do KB (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Wiele formularzy online, portali egzaminacyjnych i serwisów z ofertami pracy odrzuca zdjęcia powyżej limitu, takiego jak 50 KB lub 200 KB. To narzędzie zmniejsza obraz do wybranego limitu, zachowując jak najwięcej jakości.",
     "steps": [
       {
@@ -162,9 +171,9 @@
     ]
   },
   "cm": {
-    "title": "Zmień rozmiar obrazu w cm, mm lub calach - za darmo",
-    "description": "Zmień rozmiar zdjęcia w cm online za darmo: ustaw dokładny rozmiar w centymetrach, milimetrach lub calach z odpowiednim DPI. Bez rejestracji, prywatnie.",
-    "h1": "Zmień rozmiar obrazu w cm, mm lub calach",
+    "title": "Zmiana rozmiaru zdjęcia w cm, mm lub calach - za darmo",
+    "description": "Zmiana rozmiaru zdjęcia w cm online za darmo: ustaw dokładny rozmiar w centymetrach, milimetrach lub calach z odpowiednim DPI. Bez rejestracji, prywatnie.",
+    "h1": "Zmiana rozmiaru zdjęcia w cm, mm lub calach",
     "intro": "Druk i oficjalne formularze często wymagają rozmiaru w centymetrach lub calach, a nie w pikselach. Wpisz rozmiar i DPI, a narzędzie samo przeliczy piksele.",
     "steps": [
       {
@@ -211,9 +220,9 @@
     ]
   },
   "passport": {
-    "title": "Rozmiar zdjęcia do paszportu i wizy według kraju - za darmo",
-    "description": "Rozmiary zdjęć do paszportu i wizy według kraju w mm, calach i pikselach oraz darmowe narzędzie do dopasowania zdjęcia, także 2x2 cale i 35x45 mm.",
-    "h1": "Rozmiar zdjęcia do paszportu i wizy",
+    "title": "Rozmiar zdjęcia do paszportu, dowodu i wizy - za darmo",
+    "description": "Rozmiar zdjęcia do paszportu, dowodu osobistego i wizy według kraju w mm, calach i pikselach oraz darmowe narzędzie do dopasowania zdjęcia, np. 35x45 mm.",
+    "h1": "Rozmiar zdjęcia do paszportu, dowodu i wizy",
     "intro": "Różne kraje wymagają różnych rozmiarów zdjęć. Wybierz swój kraj na liście Gotowy rozmiar, aby przyciąć zdjęcie i zmienić jego rozmiar do dokładnych wymiarów przy 300 DPI.",
     "note": "Przepisy się zmieniają, a każdy wniosek może mieć własne wymagania, takie jak kolor tła, wielkość głowy czy brak okularów. Przed wysłaniem zawsze sprawdź oficjalne instrukcje. To narzędzie ustawia tylko rozmiar; nie sprawdza wielkości głowy ani tła.",
     "tableTitle": "Popularne rozmiary zdjęć",
@@ -262,9 +271,9 @@
     ]
   },
   "social": {
-    "title": "Rozmiary zdjęć na social media: Instagram, YouTube, Facebook",
-    "description": "Rozmiary obrazów na social media: Instagram, Facebook, YouTube, X, LinkedIn i Pinterest oraz darmowe narzędzie do dopasowania obrazu bez przycinania.",
-    "h1": "Rozmiary obrazów do social mediów",
+    "title": "Rozmiar zdjęcia na Instagram, Facebook i YouTube - za darmo",
+    "description": "Rozmiar zdjęcia na Instagram (post, relacja), Facebook, miniaturki YouTube, X, LinkedIn i Pinterest oraz darmowe narzędzie do dopasowania bez przycinania.",
+    "h1": "Rozmiar zdjęcia na Instagram, Facebook i YouTube",
     "intro": "Posty wyglądają najlepiej, gdy obraz ma już odpowiedni kształt. Wybierz platformę na liście Gotowy rozmiar, a narzędzie przytnie obraz i zmieni jego rozmiar.",
     "note": "Platformy co jakiś czas aktualizują swoje zalecenia. To powszechnie stosowane rozmiary, które dobrze działają z obecnymi formatami.",
     "tableTitle": "Rozmiary według platformy",
@@ -312,9 +321,9 @@
     ]
   },
   "convert": {
-    "title": "Konwersja obrazów JPG, PNG i WebP - darmowy konwerter",
-    "description": "Konwertuj obrazy między JPG, PNG i WebP online za darmo. Bez rejestracji, bez wysyłania plików, z wyborem jakości. Działa na telefonie i komputerze.",
-    "h1": "Konwertuj obrazy między JPG, PNG i WebP",
+    "title": "Konwerter obrazów online - JPG, PNG i WebP, za darmo",
+    "description": "Konwerter obrazów online za darmo: konwertuj zdjęcia na JPG, PNG lub WebP w przeglądarce. Bez rejestracji i wysyłania plików, z wyborem jakości.",
+    "h1": "Konwertuj zdjęcia na JPG, PNG lub WebP online",
     "intro": "Wybierz potrzebny format, a narzędzie przekonwertuje każdy dodany obraz. Nic nie jest wysyłane na serwer.",
     "steps": [
       {
@@ -358,8 +367,8 @@
   },
   "compress": {
     "title": "Kompresja zdjęć online - zmniejsz rozmiar zdjęcia za darmo",
-    "description": "Kompresja zdjęć online za darmo: zmniejsz zdjęcia bez widocznej utraty jakości lub do wybranego limitu w KB. Bez rejestracji, nic nie jest wysyłane.",
-    "h1": "Kompresuj obrazy online",
+    "description": "Kompresja zdjęć online za darmo: zmniejsz wagę i rozmiar zdjęcia bez widocznej utraty jakości lub do limitu w KB. Bez rejestracji, nic nie jest wysyłane.",
+    "h1": "Kompresja zdjęć online",
     "intro": "Mniejsze obrazy wczytują się szybciej, mieszczą się w e-mailach i oszczędzają miejsce. Narzędzie ponownie koduje Twoje obrazy nowoczesnymi kompresorami i pozwala ustawić poziom jakości lub maksymalny rozmiar pliku.",
     "steps": [
       {
@@ -408,8 +417,8 @@
   },
   "kb20": {
     "title": "Zmniejsz zdjęcie do 20 KB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 20 KB online za darmo: zdjęcie lub podpis o rozmiarze 20 KB albo mniejszym, w przeglądarce. Bez rejestracji, obraz nie opuszcza urządzenia.",
-    "h1": "Zmień rozmiar zdjęcia do 20 KB",
+    "description": "Zmniejsz zdjęcie do 20 KB online za darmo: zmniejsz rozmiar zdjęcia lub podpisu do 20 KB albo mniej. Bez rejestracji, obraz nie opuszcza urządzenia.",
+    "h1": "Zmniejsz zdjęcie do 20 KB",
     "intro": "Limit 20 KB często pojawia się przy małych zdjęciach paszportowych i podpisach w formularzach egzaminacyjnych, rekrutacyjnych i urzędowych. Dodaj obraz, a narzędzie krok po kroku obniża jakość, a wymiary zmniejsza tylko wtedy, gdy musi, aż plik będzie mniejszy niż 20 KB (20 000 bajtów).",
     "blurb": "Zmniejsz zdjęcie lub podpis poniżej 20 KB.",
     "steps": [
@@ -461,8 +470,8 @@
   },
   "kb50": {
     "title": "Zmniejsz zdjęcie do 50 KB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 50 KB online za darmo: do formularzy egzaminacyjnych, portali pracy i dokumentów. Bez rejestracji, prywatnie, w przeglądarce.",
-    "h1": "Zmień rozmiar zdjęcia do 50 KB",
+    "description": "Zmniejsz zdjęcie do 50 KB online za darmo: zmniejsz rozmiar zdjęcia do formularzy egzaminacyjnych, portali pracy i dokumentów. Bez rejestracji, prywatnie.",
+    "h1": "Zmniejsz zdjęcie do 50 KB",
     "intro": "50 KB to jeden z najczęściej wymaganych limitów dla zdjęć paszportowych w formularzach online. Ta strona ustawia limit za Ciebie: dodaj zdjęcie i pobierz plik JPG mniejszy niż 50 KB (50 000 bajtów), który nadal wygląda ostro.",
     "blurb": "Zdjęcie poniżej 50 KB do formularzy i portali.",
     "steps": [
@@ -514,8 +523,8 @@
   },
   "kb100": {
     "title": "Zmniejsz zdjęcie do 100 KB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 100 KB online za darmo: zmniejsz obraz do 100 KB lub mniej do podań o pracę, KYC i wysyłania dokumentów. Bez rejestracji, w pełni prywatnie.",
-    "h1": "Zmień rozmiar zdjęcia do 100 KB",
+    "description": "Zmniejsz zdjęcie do 100 KB online za darmo: zmniejsz rozmiar zdjęcia do 100 KB lub mniej do podań o pracę, KYC i dokumentów. Bez rejestracji, w pełni prywatnie.",
+    "h1": "Zmniejsz zdjęcie do 100 KB",
     "intro": "100 KB to częsty limit dla zdjęć do podań, skanów dokumentów tożsamości i zdjęć profilowych. Dodaj obraz i pobierz plik JPG mniejszy niż 100 KB (100 000 bajtów) w najwyższej jakości, jaka się zmieści.",
     "blurb": "Obraz poniżej 100 KB do podań i weryfikacji KYC.",
     "steps": [
@@ -567,8 +576,8 @@
   },
   "kb200": {
     "title": "Zmniejsz zdjęcie do 200 KB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 200 KB online za darmo: skompresuj obraz do 200 KB lub mniej do wniosków wizowych, KYC i urzędowych. Bez rejestracji, działa w przeglądarce.",
-    "h1": "Zmień rozmiar zdjęcia do 200 KB",
+    "description": "Zmniejsz zdjęcie do 200 KB online za darmo: zmniejsz rozmiar zdjęcia do 200 KB lub mniej do wniosków wizowych i KYC. Bez rejestracji, w przeglądarce.",
+    "h1": "Zmniejsz zdjęcie do 200 KB",
     "intro": "200 KB to typowy górny limit dla zdjęć wizowych, dokumentów KYC i plików wysyłanych do urzędów. Dodaj obraz i pobierz plik JPG mniejszy niż 200 KB (200 000 bajtów), który zachowuje jak najwięcej szczegółów.",
     "blurb": "Obraz poniżej 200 KB do wiz i wniosków urzędowych.",
     "steps": [
@@ -672,9 +681,9 @@
     }
   },
   "pngToJpg": {
-    "title": "Konwerter PNG na JPG - za darmo, online, bez wysyłania",
-    "description": "Konwertuj PNG na JPG online za darmo: zamień obrazy PNG w mniejsze pliki JPG w przeglądarce. Bez rejestracji, bez wysyłania plików, z wyborem jakości.",
-    "h1": "Konwertuj PNG na JPG",
+    "title": "PNG na JPG online - konwerter za darmo, bez wysyłania",
+    "description": "PNG na JPG online za darmo: zamień obrazy PNG w mniejsze pliki JPG w przeglądarce. Konwerter bez rejestracji i bez wysyłania plików, z wyborem jakości.",
+    "h1": "PNG na JPG - konwerter online",
     "intro": "Zamień obrazy PNG w mniejsze pliki JPG w jednym kroku. JPG jest akceptowany prawie wszędzie i jest znacznie mniejszy dla zdjęć. Dodaj pliki PNG, kliknij przycisk i pobierz pliki JPG albo archiwum ZIP ze wszystkimi.",
     "blurb": "Zamień pliki PNG w mniejsze pliki JPG.",
     "steps": [
@@ -725,9 +734,9 @@
     }
   },
   "jpgToPng": {
-    "title": "Konwerter JPG na PNG - za darmo, online, bez wysyłania",
-    "description": "Konwertuj JPG na PNG online za darmo w przeglądarce. Bez rejestracji, bez wysyłania plików i bez znaku wodnego. Działa na telefonie i komputerze.",
-    "h1": "Konwertuj JPG na PNG",
+    "title": "JPG na PNG online - konwerter za darmo, bez wysyłania",
+    "description": "JPG na PNG online za darmo w przeglądarce. Konwerter bez rejestracji, bez wysyłania plików i bez znaku wodnego. Działa na telefonie i komputerze.",
+    "h1": "JPG na PNG - konwerter online",
     "intro": "Potrzebujesz PNG do logo, programu graficznego albo formularza, który nie przyjmuje JPG? Dodaj pliki JPG i pobierz bezstratne pliki PNG w jednym kroku. Wszystko działa w Twojej przeglądarce.",
     "blurb": "Zamień pliki JPG w bezstratne pliki PNG.",
     "steps": [
@@ -778,9 +787,9 @@
     }
   },
   "webpToJpg": {
-    "title": "Konwerter WebP na JPG - za darmo, online, bez wysyłania",
-    "description": "Konwertuj WebP na JPG online za darmo: zamień obrazy WebP w pliki JPG, które otworzą się wszędzie. Bez rejestracji i wysyłania, na telefonie i komputerze.",
-    "h1": "Konwertuj WebP na JPG",
+    "title": "WebP na JPG online - konwerter za darmo, bez wysyłania",
+    "description": "WebP na JPG online za darmo: zamień obrazy WebP w pliki JPG, które otworzą się wszędzie. Konwerter bez rejestracji i wysyłania, na telefonie i komputerze.",
+    "h1": "WebP na JPG - konwerter online",
     "intro": "Strony internetowe często zapisują obrazy jako WebP, ale wiele programów, drukarek i formularzy przyjmuje tylko JPG. Dodaj obrazy WebP i pobierz pliki JPG, które otworzą się wszędzie.",
     "blurb": "Zamień obrazy WebP w pliki JPG, które otworzą się wszędzie.",
     "steps": [
@@ -839,8 +848,8 @@
   },
   "kb10": {
     "title": "Zmniejsz zdjęcie do 10 KB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 10 KB online za darmo: zdjęcie lub podpis o rozmiarze 10 KB albo mniejszym, w przeglądarce. Bez rejestracji, bez wysyłania, prywatnie.",
-    "h1": "Zmień rozmiar zdjęcia do 10 KB",
+    "description": "Zmniejsz zdjęcie do 10 KB online za darmo: zmniejsz rozmiar zdjęcia lub podpisu do 10 KB albo mniej, w przeglądarce. Bez rejestracji, bez wysyłania, prywatnie.",
+    "h1": "Zmniejsz zdjęcie do 10 KB",
     "intro": "10 KB to bardzo mały limit, spotykany przy podpisach, miniaturach i małych polach na zdjęcie w formularzach zgłoszeniowych. Ta strona ustawia limit 10 KB za Ciebie: dodaj zdjęcie i pobierz plik JPG mniejszy niż 10 KB (10 000 bajtów).",
     "blurb": "Zmniejsz podpis lub małe zdjęcie poniżej 10 KB.",
     "steps": [
@@ -892,8 +901,8 @@
   },
   "kb30": {
     "title": "Zmniejsz zdjęcie do 30 KB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 30 KB online za darmo: zdjęcie lub podpis do 30 KB albo mniej do formularzy i portali egzaminacyjnych. Bez rejestracji, prywatnie.",
-    "h1": "Zmień rozmiar zdjęcia do 30 KB",
+    "description": "Zmniejsz zdjęcie do 30 KB online za darmo: zmniejsz rozmiar zdjęcia lub podpisu do 30 KB do formularzy i portali egzaminacyjnych. Bez rejestracji, prywatnie.",
+    "h1": "Zmniejsz zdjęcie do 30 KB",
     "intro": "Limit 30 KB często pojawia się w formularzach egzaminacyjnych, rekrutacyjnych i urzędowych, gdzie zdjęcie i podpis wysyła się w osobnych polach. Ta strona ustawia limit za Ciebie: dodaj zdjęcie i pobierz plik JPG mniejszy niż 30 KB (30 000 bajtów).",
     "blurb": "Zdjęcie poniżej 30 KB do formularzy zgłoszeniowych.",
     "steps": [
@@ -945,8 +954,8 @@
   },
   "kb500": {
     "title": "Zmniejsz zdjęcie do 500 KB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 500 KB online za darmo: do e-maila, podań o pracę i wysyłania, z zachowaniem ostrości. Bez rejestracji, prywatnie, w przeglądarce.",
-    "h1": "Zmień rozmiar zdjęcia do 500 KB",
+    "description": "Zmniejsz zdjęcie do 500 KB online za darmo: zmniejsz rozmiar zdjęcia do e-maila, podań o pracę i wysyłania, z zachowaniem ostrości. Bez rejestracji, prywatnie.",
+    "h1": "Zmniejsz zdjęcie do 500 KB",
     "intro": "500 KB to częsty limit dla załączników e-mail, podań o pracę i formularzy, w których zdjęcie nadal ma dobrze wyglądać. Ta strona ustawia limit za Ciebie: dodaj obraz i pobierz plik mniejszy niż 500 KB (500 000 bajtów), który zachowuje ostrość.",
     "blurb": "Obraz poniżej 500 KB, który zachowuje ostrość.",
     "steps": [
@@ -998,8 +1007,8 @@
   },
   "mb1": {
     "title": "Zmniejsz zdjęcie do 1 MB online - za darmo",
-    "description": "Zmniejsz zdjęcie do 1 MB online za darmo: do e-maila, formularzy i wysyłania bez widocznej straty. Bez rejestracji, zdjęcie zostaje na Twoim urządzeniu.",
-    "h1": "Zmień rozmiar zdjęcia do 1 MB",
+    "description": "Zmniejsz zdjęcie do 1 MB online za darmo: zmniejsz rozmiar zdjęcia do e-maila, formularzy i wysyłania. Bez rejestracji, zdjęcie zostaje na Twoim urządzeniu.",
+    "h1": "Zmniejsz zdjęcie do 1 MB",
     "intro": "Limit 1 MB jest częsty w serwisach e-mail, formularzach zgłoszeniowych i na stronach, które przyjmują zdjęcia. Ta strona ustawia limit za Ciebie: dodaj obraz i pobierz plik mniejszy niż 1 MB (1 000 000 bajtów), który nadal wygląda ostro.",
     "blurb": "Obraz poniżej 1 MB do e-maila i wysyłania.",
     "steps": [
@@ -1050,9 +1059,9 @@
     }
   },
   "pixels": {
-    "title": "Zmień rozmiar zdjęcia w pikselach online - za darmo",
-    "description": "Zmień rozmiar zdjęcia w pikselach online za darmo: wpisz szerokość i wysokość, zachowaj proporcje, dopasuj lub przytnij. Bez rejestracji, prywatnie.",
-    "h1": "Zmień rozmiar zdjęcia w pikselach",
+    "title": "Zmiana rozmiaru zdjęcia w pikselach online - za darmo",
+    "description": "Zmiana rozmiaru zdjęcia w pikselach online za darmo: wpisz szerokość i wysokość w px, zachowaj proporcje, dopasuj lub przytnij. Bez rejestracji, prywatnie.",
+    "h1": "Zmiana rozmiaru zdjęcia w pikselach",
     "intro": "Ustaw dokładną szerokość i wysokość obrazu w pikselach, do strony internetowej, formularza, miniatury lub posta w mediach społecznościowych. Dodaj obraz, wpisz rozmiar i pobierz wynik. Proporcje są domyślnie zablokowane, więc nic nie wygląda na rozciągnięte.",
     "blurb": "Ustaw dokładną szerokość i wysokość w pikselach.",
     "steps": [
@@ -1104,7 +1113,7 @@
   },
   "bulk": {
     "title": "Masowa zmiana rozmiaru zdjęć online - za darmo",
-    "description": "Masowa zmiana rozmiaru zdjęć: setki zdjęć naraz do jednego wymiaru lub limitu pliku i pobranie ZIP. Za darmo, bez rejestracji, prywatnie w przeglądarce.",
+    "description": "Masowa zmiana rozmiaru zdjęć online, także hurtowo: setki zdjęć naraz do jednego wymiaru lub limitu pliku, pobranie ZIP. Za darmo, bez rejestracji, prywatnie.",
     "h1": "Masowa zmiana rozmiaru zdjęć",
     "intro": "Zmień rozmiar wielu zdjęć za jednym razem. Dodaj cały folder zdjęć, wybierz jeden rozmiar lub jeden limit rozmiaru pliku dla wszystkich i pobierz wyniki jako jeden plik ZIP. Wszystko dzieje się na Twoim urządzeniu, więc nie ma wysyłania ani czekania.",
     "blurb": "Zmień rozmiar wielu zdjęć naraz i pobierz ZIP.",
@@ -1156,9 +1165,9 @@
     }
   },
   "jpgToWebp": {
-    "title": "Konwerter JPG na WebP - za darmo, online, bez wysyłania",
-    "description": "Konwertuj JPG na WebP online w przeglądarce, aby uzyskać mniejsze pliki i szybsze strony. Za darmo, bez rejestracji, bez wysyłania, z wyborem jakości.",
-    "h1": "Konwertuj JPG na WebP",
+    "title": "JPG na WebP online - konwerter za darmo, bez wysyłania",
+    "description": "Konwersja JPG na WebP online w przeglądarce: mniejsze pliki i szybsze strony. Darmowy konwerter, bez rejestracji, bez wysyłania, z wyborem jakości.",
+    "h1": "JPG na WebP - konwerter online",
     "intro": "Pliki WebP są zwykle mniejsze niż JPG przy podobnej jakości, dzięki czemu strony internetowe wczytują się szybciej. Dodaj zdjęcia JPG i pobierz pliki WebP w kilka sekund. Nic nie jest wysyłane: konwersja odbywa się na Twoim urządzeniu.",
     "blurb": "Zamień zdjęcia JPG w mniejsze pliki WebP.",
     "steps": [
@@ -1209,9 +1218,9 @@
     }
   },
   "pngToWebp": {
-    "title": "Konwerter PNG na WebP - za darmo, online, bez wysyłania",
-    "description": "Konwertuj PNG na WebP online w przeglądarce: znacznie mniejsze pliki i zachowana przezroczystość. Za darmo, bez rejestracji, bez wysyłania, z wyborem jakości.",
-    "h1": "Konwertuj PNG na WebP",
+    "title": "PNG na WebP online - konwerter za darmo, bez wysyłania",
+    "description": "PNG na WebP online w przeglądarce: znacznie mniejsze pliki i zachowana przezroczystość. Konwerter za darmo, bez rejestracji, bez wysyłania, z wyborem jakości.",
+    "h1": "PNG na WebP - konwerter online",
     "intro": "Pliki PNG mogą być bardzo duże, zwłaszcza w przypadku zdjęć i zrzutów ekranu. WebP też zachowuje przezroczystość i jest zwykle znacznie mniejszy. Dodaj obrazy PNG i pobierz pliki WebP w kilka sekund. Nic nie jest wysyłane: konwersja odbywa się na Twoim urządzeniu.",
     "blurb": "Zamień obrazy PNG w znacznie mniejsze pliki WebP.",
     "steps": [
@@ -1257,6 +1266,496 @@
         {
           "q": "Czy to jest darmowe?",
           "a": "Tak. Bez rejestracji, bez znaku wodnego i bez limitu liczby obrazów."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Zmniejsz zdjęcie do 300 KB online - za darmo",
+    "description": "Zmniejsz zdjęcie do 300 KB online za darmo: zmniejsz rozmiar zdjęcia do 300 KB lub mniej do formularzy i wysyłania. Bez rejestracji, w przeglądarce.",
+    "h1": "Zmniejsz zdjęcie do 300 KB",
+    "intro": "Wiele formularzy zgłoszeniowych, portali egzaminacyjnych i stron internetowych wymaga zdjęcia o rozmiarze najwyżej 300 KB. Ta strona ustawia limit za Ciebie: dodaj obraz i pobierz plik mniejszy niż 300 KB, który nadal wygląda wyraźnie.",
+    "blurb": "Obraz poniżej 300 KB do formularzy i wysyłania.",
+    "steps": [
+      {
+        "title": "Dodaj obraz",
+        "text": "Przeciągnij go tutaj albo wybierz na urządzeniu. Duże zdjęcia z telefonu nie są problemem."
+      },
+      {
+        "title": "Zostaw limit 300 KB",
+        "text": "Limit 300 KB jest już wybrany. Narzędzie liczy go jako 300 000 bajtów, więc plik przejdzie zarówno w systemach, które liczą 1 KB jako 1000 bajtów, jak i w tych, które liczą 1024."
+      },
+      {
+        "title": "Zmień rozmiar i pobierz",
+        "text": "Kliknij Zmień rozmiar i pobierz plik. Wynik pokazuje jego dokładny rozmiar."
+      }
+    ],
+    "tipsTitle": "Wskazówki, jak zmieścić się w 300 KB",
+    "tips": [
+      "Do zdjęć wybierz JPG. Zdjęcie zapisane jako PNG jest zwykle kilka razy większe przy tym samym obrazie.",
+      "Jeśli formularz wymaga też dokładnych wymiarów w pikselach, najpierw ustaw szerokość i wysokość, a potem zostaw włączony limit 300 KB.",
+      "Zdjęcie z telefonu o szerokości 4000 pikseli nie zmieści się w 300 KB w wysokiej jakości. Pozwól narzędziu nieco zmniejszyć wymiary w pikselach, a wynik będzie ostrzejszy, niż dałaby sama jakość.",
+      "Dodaj kilka zdjęć naraz, aby zmienić rozmiar wszystkich z tym samym limitem, a potem pobierz jeden plik ZIP."
+    ],
+    "detailsTitle": "Co oznacza 300 KB dla zdjęcia",
+    "details": [
+      "Trzysta kilobajtów to nieco mniej niż jedna trzecia megabajta. JPG o takim rozmiarze może zawierać zdjęcie o wymiarach około 1500 na 1000 pikseli z dobrą ilością szczegółów, zależnie od obrazu. To w zupełności wystarcza do formularza, wysłania dokumentu tożsamości lub strony internetowej.",
+      "Narzędzie wybiera najwyższą jakość, która się mieści, i pokazuje dokładny rozmiar wyniku przed pobraniem. Jeśli formularz wymaga mniejszego pliku, wybierz niższy limit, na przykład 200 KB lub 100 KB, i uruchom ponownie."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Jak zmniejszyć obraz do 300 KB?",
+          "a": "Dodaj obraz, zostaw wybrany limit 300 KB i kliknij Zmień rozmiar. Narzędzie znajdzie najwyższą jakość, która się mieści."
+        },
+        {
+          "q": "Czy obraz będzie wyglądał gorzej?",
+          "a": "Trochę, bo mniejszy plik zawiera mniej szczegółów. Narzędzie wybiera najlepszą jakość, która jeszcze się mieści, więc dostajesz najostrzejszy obraz poniżej 300 KB."
+        },
+        {
+          "q": "Co jeśli mój plik ma już mniej niż 300 KB?",
+          "a": "Wtedy jest już wystarczająco mały. Wybierz niższy limit tylko wtedy, gdy wymaga go formularz."
+        },
+        {
+          "q": "Czy moje zdjęcie jest wysyłane na serwer?",
+          "a": "Nie. Zdjęcie jest przetwarzane na Twoim urządzeniu i nigdy nie jest wysyłane."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Zmniejsz zdjęcie do 2 MB online - za darmo",
+    "description": "Zmniejsz zdjęcie do 2 MB online za darmo: zmniejsz rozmiar zdjęcia do 2 MB lub mniej do e-maila, formularzy i wysyłania. Bez rejestracji, w przeglądarce.",
+    "h1": "Zmniejsz zdjęcie do 2 MB",
+    "intro": "Serwisy e-mail, formularze zgłoszeniowe i strony z wysyłaniem plików często przyjmują obrazy do 2 MB, a zdjęcia z telefonu są zwykle większe. Dodaj obraz i pobierz plik mniejszy niż 2 MB (2 000 000 bajtów), który nadal wygląda ostro.",
+    "blurb": "Obraz poniżej 2 MB do e-maila i wysyłania.",
+    "steps": [
+      {
+        "title": "Dodaj obraz",
+        "text": "Przeciągnij go tutaj albo wybierz na urządzeniu. Zdjęcia o rozmiarze od 5 do 10 MB nie są problemem."
+      },
+      {
+        "title": "Zostaw limit 2 MB",
+        "text": "Limit 2 MB jest już wybrany. Narzędzie liczy go jako 2 000 000 bajtów, więc plik przejdzie zarówno w systemach, które liczą 2000 KB, jak i w tych, które liczą 2048 KB."
+      },
+      {
+        "title": "Zmień rozmiar i pobierz",
+        "text": "Kliknij Zmień rozmiar i pobierz plik. Wynik pokazuje jego dokładny rozmiar."
+      }
+    ],
+    "tipsTitle": "Wskazówki, jak zmieścić się w 2 MB",
+    "tips": [
+      "Większość nowoczesnych zdjęć z telefonu ma od 3 do 10 MB. Dwa megabajty zwykle da się osiągnąć, lekko obniżając jakość, bez widocznej różnicy na ekranie.",
+      "Zdjęcia najlepiej mieszczą się jako JPG lub WebP. Zdjęcie zapisane jako PNG jest zwykle kilka razy większe.",
+      "Aby wysłać e-mailem wiele zdjęć, dodaj je wszystkie naraz i pobierz plik ZIP.",
+      "Zrzuty ekranu i logo lepiej zapisać jako PNG: są już małe i zachowują ostre krawędzie."
+    ],
+    "detailsTitle": "Co oznacza 2 MB dla zdjęcia",
+    "details": [
+      "Dwa megabajty to 2000 kilobajtów. JPG o takim rozmiarze może zawierać zdjęcie o wymiarach około 3000 na 2000 pikseli z bardzo dobrą ilością szczegółów, zależnie od obrazu, czyli więcej, niż pokazuje większość ekranów.",
+      "Narzędzie wybiera najwyższą jakość, która się mieści, i pokazuje dokładny rozmiar wyniku przed pobraniem. Zmniejsza wymiary w pikselach tylko wtedy, gdy limitu nie da się osiągnąć samą jakością."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Jak zmniejszyć obraz do 2 MB?",
+          "a": "Dodaj obraz, zostaw wybrany limit 2 MB i kliknij Zmień rozmiar. Narzędzie znajdzie najwyższą jakość, która się mieści."
+        },
+        {
+          "q": "Czy 2 MB to to samo co 2048 KB?",
+          "a": "W niektórych systemach megabajt to 1024 kilobajty, w innych 1000. Narzędzie używa mniejszej wartości (2000 KB, czyli 2 000 000 bajtów), więc plik przejdzie w obu przypadkach."
+        },
+        {
+          "q": "Czy obraz zmniejszy się w pikselach?",
+          "a": "Tylko wtedy, gdy będzie to konieczne. Narzędzie najpierw obniża jakość i zmniejsza wymiary w pikselach tylko wtedy, gdy limitu nie da się osiągnąć inaczej."
+        },
+        {
+          "q": "Czy moje zdjęcie jest wysyłane na serwer?",
+          "a": "Nie. Zdjęcie jest przetwarzane na Twoim urządzeniu i nigdy nie jest wysyłane."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Zdjęcie na PDF online - konwerter za darmo",
+    "description": "Zdjęcie na PDF online za darmo: połącz zdjęcia JPG, PNG i WebP w jeden PDF w przeglądarce. Wybierz A4 lub Letter. Bez rejestracji, wysyłania i znaku wodnego.",
+    "h1": "Zdjęcie na PDF - konwerter online",
+    "intro": "Zamień jedno zdjęcie lub wiele w jeden plik PDF. Dodaj obrazy, ustaw je w wybranej kolejności, wybierz rozmiar strony i pobierz PDF. Plik powstaje na Twoim urządzeniu, więc zdjęcia nigdy nie są wysyłane, a do tego nie ma znaku wodnego ani limitu użycia.",
+    "blurb": "Połącz zdjęcia w jeden plik PDF, na swoim urządzeniu.",
+    "steps": [
+      {
+        "title": "Dodaj obrazy",
+        "text": "Przeciągnij zdjęcia JPG, PNG, WebP, GIF lub BMP na stronę albo wybierz je na urządzeniu. Każde zdjęcie staje się jedną stroną."
+      },
+      {
+        "title": "Ustaw kolejność stron i wybierz opcje",
+        "text": "Strzałkami przesuń stronę w górę lub w dół. Wybierz A4, US Letter albo rozmiar obrazu, margines i jakość."
+      },
+      {
+        "title": "Utwórz i pobierz",
+        "text": "Kliknij Utwórz PDF i pobierz plik. Otworzy się w każdym czytniku PDF."
+      }
+    ],
+    "tipsTitle": "Wskazówki, jak zrobić dobry PDF ze zdjęć",
+    "tips": [
+      "Wybierz A4 lub US Letter dla dokumentów, które możesz wydrukować. Wybierz „Taki sam jak obraz”, gdy PDF ma być tylko oglądany na ekranie.",
+      "Aby uzyskać mały plik (na przykład do wysłania e-mailem), wybierz „Mały plik”. Do skanów tekstu i zrzutów ekranu wybierz „Wysoka jakość”.",
+      "Zdjęcia zrobione w pionie lub w poziomie są automatycznie obracane właściwą stroną do góry, na podstawie informacji, które telefon zapisał w zdjęciu.",
+      "Przezroczyste obszary obrazów PNG i WebP stają się białe, ponieważ są zapisywane jako strony JPEG.",
+      "Potrzebujesz PDF poniżej limitu rozmiaru? Najpierw zmniejsz zdjęcia narzędziem „Zmiana rozmiaru do KB”, a potem połącz je tutaj."
+    ],
+    "detailsTitle": "Jak powstaje plik PDF",
+    "details": [
+      "Każde zdjęcie trafia na osobną stronę, wyśrodkowane i nigdy nie rozciągnięte. Przy A4 lub US Letter strona sama obraca się do poziomu, gdy zdjęcie jest szersze niż wyższe (albo możesz ustawić orientację ręcznie). Przy opcji „Taki sam jak obraz” strona ma dokładnie taki kształt jak zdjęcie.",
+      "PDF jest tworzony przez Twoją przeglądarkę. Zdjęcia są odczytywane na Twoim urządzeniu, zapisywane jako strony JPEG i pakowane do pliku PDF, a nic nie jest wysyłane na serwer. Do jednego pliku PDF możesz dodać do 100 zdjęć."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Jak zamienić zdjęcia na PDF?",
+          "a": "Dodaj zdjęcia, ustaw ich kolejność, wybierz rozmiar strony i kliknij Utwórz PDF. Potem pobierz plik PDF."
+        },
+        {
+          "q": "Jak połączyć kilka zdjęć w jeden PDF?",
+          "a": "Dodaj wszystkie zdjęcia naraz. Każde stanie się stroną, a strzałki obok zdjęć zmieniają kolejność przed utworzeniem PDF."
+        },
+        {
+          "q": "Czy jest limit stron lub rozmiaru pliku?",
+          "a": "Do jednego pliku PDF możesz dodać do 100 zdjęć. Nie ma dziennego limitu ani znaku wodnego. Rozmiar PDF zależy od zdjęć i wybranej jakości."
+        },
+        {
+          "q": "Czy działa na telefonie?",
+          "a": "Tak. Wybierz zdjęcia z galerii lub plików, ustaw ich kolejność i pobierz PDF. Działa w każdej nowoczesnej przeglądarce w telefonie."
+        },
+        {
+          "q": "Czy moje zdjęcie jest wysyłane na serwer?",
+          "a": "Nie. PDF powstaje na Twoim urządzeniu, a zdjęcia nigdy go nie opuszczają."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "JPG na PDF online - konwerter za darmo, bez wysyłania",
+    "description": "JPG na PDF online za darmo: zamień jedno lub wiele zdjęć JPG w PDF w przeglądarce. Wybierz A4 lub Letter, zachowaj kolejność. Bez rejestracji i znaku wodnego.",
+    "h1": "JPG na PDF - konwerter online",
+    "intro": "Zrób plik PDF ze zdjęć JPG. Dodaj jedno zdjęcie lub wiele, ustaw je we właściwej kolejności i pobierz jeden plik PDF. Działa na Twoim urządzeniu, więc nic nie jest wysyłane i nie ma znaku wodnego.",
+    "blurb": "Zamień zdjęcia JPG w jeden plik PDF.",
+    "steps": [
+      {
+        "title": "Dodaj pliki JPG",
+        "text": "Przeciągnij jedno lub wiele zdjęć JPG na stronę albo wybierz je na urządzeniu. Każde zdjęcie staje się jedną stroną."
+      },
+      {
+        "title": "Ustaw kolejność stron i wybierz opcje",
+        "text": "Strzałkami zmień kolejność. Wybierz A4, US Letter albo rozmiar obrazu, margines i jakość."
+      },
+      {
+        "title": "Utwórz i pobierz",
+        "text": "Kliknij Utwórz PDF i pobierz plik. Otworzy się w każdym czytniku PDF."
+      }
+    ],
+    "tipsTitle": "Wskazówki dotyczące zamiany JPG na PDF",
+    "tips": [
+      "Przy opcji „Wysoka jakość” zdjęcia zachowują prawie wszystkie szczegóły, więc PDF wygląda jak zdjęcia w telefonie.",
+      "Zdjęcia z telefonu mogą mieć po kilka MB każde. Wybierz „Mały plik”, jeśli PDF trzeba wysłać e-mailem lub przesłać w formularzu.",
+      "Zdjęcia zrobione w pionie lub w poziomie są automatycznie obracane właściwą stroną do góry.",
+      "Aby zeskanować dokument telefonem, zrób zdjęcie każdej strony, dodaj zdjęcia tutaj po kolei i utwórz PDF."
+    ],
+    "detailsTitle": "JPG na PDF bez aplikacji",
+    "details": [
+      "Strona PDF może zawierać obraz JPG bezpośrednio, dzięki czemu konwersja jest szybka, a wynik zbliżony do zdjęcia. Wybierz A4 lub US Letter, jeśli możesz drukować PDF, albo „Taki sam jak obraz”, aby każda strona PDF była po prostu zdjęciem.",
+      "PDF powstaje w Twojej przeglądarce. Zdjęcia nigdy nie są wysyłane, więc to bezpieczne rozwiązanie dla dokumentów tożsamości, paragonów i innych prywatnych zdjęć. Do jednego pliku PDF możesz dodać do 100 zdjęć."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Jak zamienić JPG na PDF?",
+          "a": "Dodaj zdjęcia JPG, ustaw je w kolejności i kliknij Utwórz PDF. Potem pobierz plik PDF."
+        },
+        {
+          "q": "Czy mogę umieścić kilka plików JPG w jednym PDF?",
+          "a": "Tak. Dodaj je wszystkie naraz. Każde zdjęcie stanie się stroną, a kolejność zmienisz strzałkami."
+        },
+        {
+          "q": "Czy zamiana JPG na PDF obniża jakość?",
+          "a": "Prawie wcale. Przy opcji „Wysoka jakość” zdjęcia zachowują prawie pełną ilość szczegółów. Wybierz „Mały plik” tylko wtedy, gdy potrzebujesz mniejszego PDF."
+        },
+        {
+          "q": "Jak zrobić PDF poniżej 1 MB lub 200 KB?",
+          "a": "Wybierz „Mały plik” i dodaj mniej zdjęć do jednego PDF. Jeśli nadal jest za duży, najpierw zmniejsz każde zdjęcie narzędziem „Zmiana rozmiaru do KB”."
+        },
+        {
+          "q": "Czy moje zdjęcie jest wysyłane na serwer?",
+          "a": "Nie. Zdjęcie jest przetwarzane na Twoim urządzeniu i nigdy nie jest wysyłane."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "PNG na PDF online - konwerter za darmo, bez wysyłania",
+    "description": "PNG na PDF online za darmo: zamień zrzuty ekranu i obrazy PNG w jeden PDF w przeglądarce. Wybierz A4 lub Letter. Bez rejestracji, wysyłania i znaku wodnego.",
+    "h1": "PNG na PDF - konwerter online",
+    "intro": "Zrób plik PDF z obrazów PNG i zrzutów ekranu. Dodaj jeden obraz lub wiele, ustaw je we właściwej kolejności i pobierz jeden plik PDF. Działa na Twoim urządzeniu, więc nic nie jest wysyłane i nie ma znaku wodnego.",
+    "blurb": "Zamień obrazy PNG i zrzuty ekranu w PDF.",
+    "steps": [
+      {
+        "title": "Dodaj pliki PNG",
+        "text": "Przeciągnij jeden lub wiele obrazów PNG na stronę albo wybierz je na urządzeniu. Każdy obraz staje się jedną stroną."
+      },
+      {
+        "title": "Ustaw kolejność stron i wybierz opcje",
+        "text": "Strzałkami zmień kolejność. Wybierz A4, US Letter albo rozmiar obrazu, margines i jakość."
+      },
+      {
+        "title": "Utwórz i pobierz",
+        "text": "Kliknij Utwórz PDF i pobierz plik. Otworzy się w każdym czytniku PDF."
+      }
+    ],
+    "tipsTitle": "Wskazówki dotyczące zamiany PNG na PDF",
+    "tips": [
+      "Przezroczyste obszary obrazu PNG stają się w PDF białe.",
+      "Przy zrzutach ekranu z drobnym tekstem wybierz „Wysoka jakość”, aby litery pozostały ostre.",
+      "Pliki PNG mogą być duże. Wybierz „Mały plik”, jeśli PDF trzeba wysłać e-mailem, albo „Zrównoważona”, aby połączyć ostrość z rozmiarem.",
+      "Aby dokładnie zachować kształt zrzutu ekranu, jako rozmiar strony wybierz „Taki sam jak obraz”."
+    ],
+    "detailsTitle": "Co dzieje się z PNG w pliku PDF",
+    "details": [
+      "Każdy PNG jest rysowany na białym tle i zapisywany w PDF jako obraz JPEG w wybranej jakości, więc przy opcji „Wysoka jakość” zrzut ekranu lub wykres wygląda tak, jak na ekranie. Wybierz A4 lub US Letter, jeśli możesz drukować PDF, albo „Taki sam jak obraz” dla strony o dokładnie takim kształcie jak obraz.",
+      "PDF powstaje w Twojej przeglądarce. Obrazy nigdy nie są wysyłane, więc to bezpieczne rozwiązanie dla prywatnych dokumentów i zrzutów ekranu. Do jednego pliku PDF możesz dodać do 100 obrazów."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Jak zamienić PNG na PDF?",
+          "a": "Dodaj obrazy PNG, ustaw je w kolejności i kliknij Utwórz PDF. Potem pobierz plik PDF."
+        },
+        {
+          "q": "Czy mogę połączyć kilka plików PNG w jeden PDF?",
+          "a": "Tak. Dodaj je wszystkie naraz. Każdy obraz stanie się stroną, a kolejność zmienisz strzałkami."
+        },
+        {
+          "q": "Co się dzieje z przezroczystym PNG?",
+          "a": "Przezroczyste obszary są wypełniane kolorem białym, ponieważ obraz jest zapisywany na białej stronie."
+        },
+        {
+          "q": "Czy tekst na moim zrzucie ekranu pozostanie ostry?",
+          "a": "Tak, przy opcji „Wysoka jakość”. Obraz zachowuje prawie pełną ilość szczegółów."
+        },
+        {
+          "q": "Czy mój obraz jest wysyłany na serwer?",
+          "a": "Nie. Obraz jest przetwarzany na Twoim urządzeniu i nigdy nie jest wysyłany."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "CM na piksele - kalkulator online za darmo (300 DPI)",
+    "description": "CM na piksele online za darmo: wpisz centymetry, wybierz DPI i uzyskaj dokładny rozmiar w pikselach. Do druku, zdjęć do paszportu i formularzy.",
+    "h1": "Przelicz cm na piksele",
+    "intro": "Wpisz rozmiar w centymetrach i zobacz, ile to pikseli przy Twoim DPI. Kalkulator pokazuje też popularne rozmiary wydruków w pikselach i prowadzi do darmowego narzędzia do zmiany rozmiaru zdjęć, aby obraz miał dokładnie taki rozmiar.",
+    "blurb": "Przelicz centymetry na piksele przy dowolnym DPI.",
+    "steps": [
+      {
+        "title": "Wpisz rozmiar w cm",
+        "text": "Wpisz szerokość, a w razie potrzeby także wysokość. Jednostka jest już ustawiona na centymetry."
+      },
+      {
+        "title": "Wybierz DPI",
+        "text": "Użyj 300 do druku, 96 do ekranu albo wartości podanej w formularzu. Wynik zmienia się podczas pisania."
+      },
+      {
+        "title": "Odczytaj piksele i zmień rozmiar",
+        "text": "Skopiuj wynik albo otwórz narzędzie do zmiany rozmiaru zdjęć i wpisz piksele, aby obraz miał taki rozmiar."
+      }
+    ],
+    "tipsTitle": "Wskazówki dotyczące przeliczania cm na piksele",
+    "tips": [
+      "Obraz nie ma rozmiaru w centymetrach, dopóki nie zostanie wydrukowany lub umieszczony w dokumencie. DPI decyduje o tym, ile pikseli mieści się w jednym centymetrze.",
+      "Użyj 300 DPI do ostrego wydruku, 150 DPI do wersji roboczej oraz 72 lub 96 DPI do ekranów.",
+      "Jeśli formularz podaje rozmiar w cm bez DPI, dla zdjęć zwykle wybiera się 300 DPI.",
+      "Wpisz szerokość i wysokość, aby uzyskać oba boki naraz. Przyciskiem zamiany jednostek przeliczysz w drugą stronę."
+    ],
+    "detailsTitle": "Jak przeliczyć cm na piksele",
+    "details": [
+      "Wzór to piksele = centymetry ÷ 2,54 × DPI, ponieważ jeden cal to 2,54 centymetra. Przy 300 DPI jeden centymetr to około 118 pikseli, przy 96 DPI około 38 pikseli, a przy 72 DPI około 28 pikseli. Zatem 10 cm to około 1181 pikseli przy 300 DPI.",
+      "Rozmiary zdjęć w centymetrach podlegają tej samej zasadzie: odbitka 10 × 15 cm to około 1181 × 1772 pikseli przy 300 DPI. Przelicznik zaokrągla piksele do liczb całkowitych, ponieważ obraz nie może mieć części piksela."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Ile pikseli ma 1 cm?",
+          "a": "Przy 300 DPI 1 cm to około 118 pikseli. Przy 96 DPI to około 38 pikseli, a przy 72 DPI około 28 pikseli."
+        },
+        {
+          "q": "Jak przeliczyć cm na piksele?",
+          "a": "Podziel centymetry przez 2,54 i pomnóż przez DPI. Możesz też wpisać rozmiar w kalkulatorze powyżej, a on zrobi to za Ciebie."
+        },
+        {
+          "q": "Którego DPI użyć?",
+          "a": "Użyj 300 do druku oraz zdjęć do paszportu i dowodu, a 72 lub 96 do obrazów wyświetlanych tylko na ekranie."
+        },
+        {
+          "q": "Czy DPI zmienia moje zdjęcie?",
+          "a": "Nie. DPI decyduje tylko o tym, jak duży będzie obraz po wydrukowaniu. Rozmiar samego obrazu zmienisz narzędziem do zmiany rozmiaru."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Cale na piksele - kalkulator online za darmo",
+    "description": "Cale na piksele online za darmo: wpisz cale, wybierz DPI i uzyskaj dokładny rozmiar w pikselach dla odbitek, dokumentów i formularzy. Na Twoim urządzeniu.",
+    "h1": "Przelicz cale na piksele",
+    "intro": "Wpisz rozmiar w calach i zobacz, ile to pikseli przy Twoim DPI. Kalkulator pokazuje też popularne rozmiary wydruków w pikselach i prowadzi do darmowego narzędzia do zmiany rozmiaru zdjęć, aby obraz miał dokładnie taki rozmiar.",
+    "blurb": "Przelicz cale na piksele przy dowolnym DPI.",
+    "steps": [
+      {
+        "title": "Wpisz rozmiar w calach",
+        "text": "Wpisz szerokość, a w razie potrzeby także wysokość. Jednostka jest już ustawiona na cale."
+      },
+      {
+        "title": "Wybierz DPI",
+        "text": "Użyj 300 do druku, 96 do ekranu albo wartości podanej w formularzu. Wynik zmienia się podczas pisania."
+      },
+      {
+        "title": "Odczytaj piksele i zmień rozmiar",
+        "text": "Skopiuj wynik albo otwórz narzędzie do zmiany rozmiaru zdjęć i wpisz piksele, aby obraz miał taki rozmiar."
+      }
+    ],
+    "tipsTitle": "Wskazówki dotyczące przeliczania cali na piksele",
+    "tips": [
+      "Piksele = cale × DPI. Przy 300 DPI każdy cal to 300 pikseli.",
+      "Odbitka zdjęcia 4 × 6 cali wymaga 1200 × 1800 pikseli przy 300 DPI, a zdjęcie paszportowe 2 × 2 cale wymaga 600 × 600.",
+      "Obraz nie ma rozmiaru w calach, dopóki nie zostanie wydrukowany. DPI decyduje o tym, ile pikseli mieści się w jednym calu.",
+      "Przyciskiem zamiany jednostek przeliczysz piksele na cale."
+    ],
+    "detailsTitle": "Jak przeliczyć cale na piksele",
+    "details": [
+      "Wzór to piksele = cale × DPI. Przy 300 DPI, czyli typowej wartości do druku, 1 cal to 300 pikseli. Przy 96 DPI, standardzie ekranu w przeglądarce, 1 cal to 96 pikseli, a przy 72 DPI to 72 piksele.",
+      "Strona US Letter o wymiarach 8,5 × 11 cali to 2550 × 3300 pikseli przy 300 DPI, a odbitka 5 × 7 cali to 1500 × 2100 pikseli. Przelicznik zaokrągla piksele do liczb całkowitych, ponieważ obraz nie może mieć części piksela."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Ile pikseli ma 1 cal?",
+          "a": "To zależy od DPI: 300 pikseli przy 300 DPI, 96 pikseli przy 96 DPI i 72 piksele przy 72 DPI."
+        },
+        {
+          "q": "Ile pikseli ma zdjęcie 4x6 cali?",
+          "a": "Przy 300 DPI zdjęcie 4 × 6 cali to 1200 × 1800 pikseli."
+        },
+        {
+          "q": "Którego DPI użyć?",
+          "a": "Użyj 300 do druku, a 72 lub 96 do obrazów wyświetlanych tylko na ekranie."
+        },
+        {
+          "q": "Czy DPI zmienia moje zdjęcie?",
+          "a": "Nie. DPI decyduje tylko o tym, jak duży będzie obraz po wydrukowaniu. Rozmiar samego obrazu zmienisz narzędziem do zmiany rozmiaru."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "MM na piksele - kalkulator online za darmo (300 DPI)",
+    "description": "MM na piksele online za darmo: wpisz milimetry, wybierz DPI i uzyskaj dokładny rozmiar w pikselach do zdjęć paszportowych, zdjęć do dowodu i formularzy.",
+    "h1": "Przelicz mm na piksele",
+    "intro": "Wpisz rozmiar w milimetrach i zobacz, ile to pikseli przy Twoim DPI. Przydatne przy zdjęciach do paszportu i dowodu, których rozmiar podaje się w milimetrach. Kalkulator prowadzi do darmowego narzędzia do zmiany rozmiaru zdjęć, aby obraz miał dokładnie taki rozmiar.",
+    "blurb": "Przelicz milimetry na piksele przy dowolnym DPI.",
+    "steps": [
+      {
+        "title": "Wpisz rozmiar w mm",
+        "text": "Wpisz szerokość, a w razie potrzeby także wysokość. Jednostka jest już ustawiona na milimetry."
+      },
+      {
+        "title": "Wybierz DPI",
+        "text": "Użyj 300 do druku, 96 do ekranu albo wartości podanej w formularzu. Wynik zmienia się podczas pisania."
+      },
+      {
+        "title": "Odczytaj piksele i zmień rozmiar",
+        "text": "Skopiuj wynik albo otwórz narzędzie do zmiany rozmiaru zdjęć i wpisz piksele, aby obraz miał taki rozmiar."
+      }
+    ],
+    "tipsTitle": "Wskazówki dotyczące przeliczania mm na piksele",
+    "tips": [
+      "Zdjęcie paszportowe 35 × 45 mm to 413 × 531 pikseli przy 300 DPI.",
+      "Obraz nie ma rozmiaru w milimetrach, dopóki nie zostanie wydrukowany. DPI decyduje o tym, ile pikseli mieści się w jednym milimetrze.",
+      "Użyj 300 DPI do ostrego wydruku, a 72 lub 96 DPI do obrazów wyświetlanych tylko na ekranie.",
+      "Wpisz szerokość i wysokość, aby uzyskać oba boki naraz. Przyciskiem zamiany jednostek przeliczysz piksele na milimetry."
+    ],
+    "detailsTitle": "Jak przeliczyć mm na piksele",
+    "details": [
+      "Wzór to piksele = milimetry ÷ 25,4 × DPI, ponieważ jeden cal to 25,4 milimetra. Przy 300 DPI jeden milimetr to około 11,8 piksela, przy 96 DPI około 3,8 piksela, a przy 72 DPI około 2,8 piksela.",
+      "Arkusz A4 o wymiarach 210 × 297 mm to 2480 × 3508 pikseli przy 300 DPI. Przelicznik zaokrągla piksele do liczb całkowitych, ponieważ obraz nie może mieć części piksela."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Ile pikseli ma 1 mm?",
+          "a": "Przy 300 DPI 1 mm to około 11,8 piksela. Przy 96 DPI to około 3,8 piksela, a przy 72 DPI około 2,8 piksela."
+        },
+        {
+          "q": "Ile pikseli ma zdjęcie 35x45 mm?",
+          "a": "Przy 300 DPI zdjęcie paszportowe 35 × 45 mm to 413 × 531 pikseli."
+        },
+        {
+          "q": "Którego DPI użyć?",
+          "a": "Użyj 300 do druku oraz zdjęć do paszportu i dowodu, a 72 lub 96 do obrazów wyświetlanych tylko na ekranie."
+        },
+        {
+          "q": "Czy DPI zmienia moje zdjęcie?",
+          "a": "Nie. DPI decyduje tylko o tym, jak duży będzie obraz po wydrukowaniu. Rozmiar samego obrazu zmienisz narzędziem do zmiany rozmiaru."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Piksele na cm - kalkulator online za darmo (DPI)",
+    "description": "Piksele na cm online za darmo: wpisz piksele, wybierz DPI i uzyskaj rozmiar wydruku w centymetrach, milimetrach lub calach. Bez rejestracji, w przeglądarce.",
+    "h1": "Przelicz piksele na cm",
+    "intro": "Wpisz rozmiar w pikselach i zobacz, jak duży będzie wydruk w centymetrach przy Twoim DPI. Kalkulator pokazuje też popularne rozmiary wydruków w pikselach i prowadzi do darmowego narzędzia do zmiany rozmiaru zdjęć.",
+    "blurb": "Przelicz piksele na centymetry przy dowolnym DPI.",
+    "steps": [
+      {
+        "title": "Wpisz rozmiar w pikselach",
+        "text": "Wpisz szerokość, a w razie potrzeby także wysokość. Jednostka jest już ustawiona na piksele."
+      },
+      {
+        "title": "Wybierz DPI",
+        "text": "Użyj 300 do druku, 96 do ekranu albo wartości używanej przez drukarkę lub formularz. Wynik zmienia się podczas pisania."
+      },
+      {
+        "title": "Odczytaj rozmiar",
+        "text": "Rozmiar pojawi się w centymetrach. Zmień jednostkę na milimetry lub cale, jeśli wolisz."
+      }
+    ],
+    "tipsTitle": "Wskazówki dotyczące przeliczania pikseli na cm",
+    "tips": [
+      "To samo zdjęcie drukuje się w różnych rozmiarach: wyższe DPI oznacza mniejszy, ostrzejszy wydruk.",
+      "Do dobrego wydruku użyj co najmniej 300 DPI. Obraz 1200 × 1800 pikseli drukuje się w rozmiarze 4 × 6 cali (10,2 × 15,2 cm) przy 300 DPI.",
+      "Na ekranie typowa wartość to 96 DPI, więc 1920 pikseli to przy tym ustawieniu około 50,8 cm szerokości.",
+      "Przyciskiem zamiany jednostek przeliczysz centymetry na piksele."
+    ],
+    "detailsTitle": "Jak przeliczyć piksele na cm",
+    "details": [
+      "Wzór to centymetry = piksele ÷ DPI × 2,54, ponieważ jeden cal to 2,54 centymetra. Przy 300 DPI 1000 pikseli to około 8,47 cm. Przy 96 DPI te same 1000 pikseli to około 26,46 cm.",
+      "Obraz nie ma prawdziwego rozmiaru, dopóki nie zostanie wydrukowany, a DPI łączy piksele z centymetrami. Jeśli formularz wymaga rozmiaru w centymetrach, a znasz tylko piksele, dla zdjęć zwykle wybiera się 300 DPI."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Ile cm ma 1000 pikseli?",
+          "a": "Przy 300 DPI 1000 pikseli to około 8,47 cm. Przy 96 DPI to około 26,46 cm."
+        },
+        {
+          "q": "Jak przeliczyć piksele na cm?",
+          "a": "Podziel piksele przez DPI i pomnóż przez 2,54. Możesz też wpisać piksele w kalkulatorze powyżej, a on zrobi to za Ciebie."
+        },
+        {
+          "q": "Którego DPI użyć?",
+          "a": "Użyj 300 do druku, a 72 lub 96 do obrazów wyświetlanych tylko na ekranie."
+        },
+        {
+          "q": "Czy DPI zmienia moje zdjęcie?",
+          "a": "Nie. DPI decyduje tylko o tym, jak duży będzie obraz po wydrukowaniu. Rozmiar samego obrazu zmienisz narzędziem do zmiany rozmiaru."
         }
       ]
     }

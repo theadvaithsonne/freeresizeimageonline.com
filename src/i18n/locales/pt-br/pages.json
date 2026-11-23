@@ -1,30 +1,39 @@
 {
   "nav": {
     "home": "Redimensionar imagem",
-    "kb": "Redimensionar para KB",
+    "kb": "Reduzir para KB",
     "cm": "Redimensionar em cm, mm ou polegadas",
     "passport": "Tamanho de foto de passaporte",
     "social": "Tamanhos para redes sociais",
     "convert": "Converter imagens",
     "compress": "Comprimir imagens",
-    "kb20": "Redimensionar para 20 KB",
-    "kb50": "Redimensionar para 50 KB",
-    "kb100": "Redimensionar para 100 KB",
-    "kb200": "Redimensionar para 200 KB",
+    "kb20": "Reduzir para 20 KB",
+    "kb50": "Reduzir para 50 KB",
+    "kb100": "Reduzir para 100 KB",
+    "kb200": "Reduzir para 200 KB",
     "signature": "Redimensionar assinatura",
     "pngToJpg": "PNG para JPG",
     "jpgToPng": "JPG para PNG",
     "webpToJpg": "WebP para JPG",
     "faq": "FAQ",
     "homePage": "Início",
-    "kb10": "Redimensionar para 10 KB",
-    "kb30": "Redimensionar para 30 KB",
-    "kb500": "Redimensionar para 500 KB",
-    "mb1": "Redimensionar para 1 MB",
+    "kb10": "Reduzir para 10 KB",
+    "kb30": "Reduzir para 30 KB",
+    "kb500": "Reduzir para 500 KB",
+    "mb1": "Reduzir para 1 MB",
     "pixels": "Redimensionar em pixels",
     "bulk": "Redimensionar imagens em lote",
     "jpgToWebp": "JPG para WebP",
-    "pngToWebp": "PNG para WebP"
+    "pngToWebp": "PNG para WebP",
+    "kb300": "Reduzir para 300 KB",
+    "mb2": "Reduzir para 2 MB",
+    "imageToPdf": "Imagem para PDF",
+    "jpgToPdf": "JPG para PDF",
+    "pngToPdf": "PNG para PDF",
+    "cmToPx": "cm para pixels",
+    "inToPx": "Polegadas para pixels",
+    "mmToPx": "mm para pixels",
+    "pxToCm": "Pixels para cm"
   },
   "common": {
     "howTo": "Como usar",
@@ -113,9 +122,9 @@
     }
   },
   "kb": {
-    "title": "Reduzir Imagem em KB Online - 10, 20, 50, 100, 200 KB",
-    "description": "Redimensione imagem em KB online grátis: reduza uma foto para 10, 20, 30, 50, 100, 200 ou 500 KB para formulários e envios. Sem cadastro e privado.",
-    "h1": "Redimensionar imagem para KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "title": "Reduzir Imagem para KB Online - 20, 50, 70, 100, 200 KB",
+    "description": "Reduzir imagem para KB online grátis: diminua uma foto para 10, 30, 50, 100, 200 ou 500 KB, ou digite o limite que precisar, como 70 KB. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para KB (20 KB, 50 KB, 70 KB, 100 KB, 200 KB)",
     "intro": "Muitos formulários online, portais de concursos e sites de vagas rejeitam fotos acima de um limite de tamanho, como 50 KB ou 200 KB. Esta ferramenta reduz sua imagem para caber no limite que você escolher, mantendo o máximo de qualidade possível.",
     "steps": [
       {
@@ -162,8 +171,8 @@
     ]
   },
   "cm": {
-    "title": "Redimensionar Imagem em cm, mm ou Polegadas - Grátis",
-    "description": "Redimensione imagem em cm online grátis: defina o tamanho exato de uma foto em centímetros, milímetros ou polegadas com o DPI certo. Sem cadastro e privado.",
+    "title": "Redimensionar Imagem em cm Online - mm e Polegadas Grátis",
+    "description": "Redimensionar imagem em cm online grátis: defina o tamanho exato de uma foto, como 3x4 cm, em cm, mm ou polegadas, com o DPI certo. Sem cadastro e privado.",
     "h1": "Redimensionar imagem em cm, mm ou polegadas",
     "intro": "Impressões e formulários oficiais costumam pedir o tamanho em centímetros ou polegadas, em vez de pixels. Digite o tamanho e o DPI, e a ferramenta calcula os pixels para você.",
     "steps": [
@@ -211,8 +220,8 @@
     ]
   },
   "passport": {
-    "title": "Tamanho de Foto para Passaporte e Visto - Redimensionar",
-    "description": "Tamanho de foto de passaporte e visto por país em mm, polegadas e pixels, com uma ferramenta grátis para ajustar sua foto, incluindo 2x2 polegadas e 35x45 mm.",
+    "title": "Tamanho de Foto para Passaporte e Visto Americano 5x5",
+    "description": "Tamanho de foto para passaporte e visto por país, em cm, mm e pixels, como 5x5 cm (visto americano) e 35x45 mm, com ferramenta grátis para ajustar a foto.",
     "h1": "Tamanho de foto para passaporte e visto",
     "intro": "Cada país pede um tamanho de foto diferente. Escolha o seu país na lista Predefinição para cortar e redimensionar sua foto nas dimensões exatas, a 300 DPI.",
     "note": "As regras mudam, e cada pedido pode ter exigências próprias, como cor do fundo, tamanho da cabeça ou não usar óculos. Sempre confira as instruções oficiais antes de enviar. Esta ferramenta só define o tamanho; ela não verifica o tamanho da cabeça nem o fundo.",
@@ -262,9 +271,9 @@
     ]
   },
   "social": {
-    "title": "Tamanhos de Imagem para Redes Sociais - Instagram, YouTube",
-    "description": "Tamanhos de imagem para Instagram, Facebook, YouTube, X, LinkedIn e Pinterest, e uma ferramenta grátis para ajustar sua imagem sem cortar.",
-    "h1": "Tamanhos de imagem para redes sociais",
+    "title": "Tamanho de Imagem para Instagram, YouTube e WhatsApp",
+    "description": "Tamanho de imagem para Instagram (feed e story), Facebook, YouTube (thumbnail), WhatsApp, X e LinkedIn, e ferramenta grátis para ajustar a imagem sem cortar.",
+    "h1": "Tamanho de imagem para redes sociais",
     "intro": "As publicações ficam melhores quando a imagem já tem o formato certo. Escolha uma plataforma na lista Predefinição e a ferramenta corta e redimensiona sua imagem para combinar.",
     "note": "As plataformas atualizam suas recomendações de tempos em tempos. Estes são tamanhos muito usados que funcionam bem com os formatos atuais.",
     "tableTitle": "Tamanhos por plataforma",
@@ -312,9 +321,9 @@
     ]
   },
   "convert": {
-    "title": "Converter Imagens JPG, PNG e WebP - Conversor Online Grátis",
-    "description": "Converta imagens entre JPG, PNG e WebP online e grátis. Sem cadastro, sem upload, e você escolhe a qualidade. Funciona em celulares e computadores.",
-    "h1": "Converta imagens entre JPG, PNG e WebP",
+    "title": "Converter Imagem para JPG, PNG ou WebP - Online Grátis",
+    "description": "Converter imagem online grátis entre JPG, PNG e WebP, sem cadastro e sem upload, com a qualidade que você escolher. Funciona em celulares e computadores.",
+    "h1": "Converter imagem para JPG, PNG ou WebP",
     "intro": "Escolha o formato de que você precisa e a ferramenta converte todas as imagens que você adicionar. Nada é enviado.",
     "steps": [
       {
@@ -359,7 +368,7 @@
   "compress": {
     "title": "Comprimir Imagem Online - Reduzir Tamanho da Foto Grátis",
     "description": "Comprimir imagem online grátis: deixe as fotos menores sem perder qualidade visível ou reduza a imagem até um limite em KB. Sem cadastro e sem upload.",
-    "h1": "Comprima imagens online",
+    "h1": "Comprimir imagem online grátis",
     "intro": "Imagens menores carregam mais rápido, cabem em e-mails e economizam espaço. A ferramenta recodifica suas imagens com compressores modernos e permite definir um nível de qualidade ou um tamanho máximo de arquivo.",
     "steps": [
       {
@@ -407,9 +416,9 @@
     "convert": "Conversores"
   },
   "kb20": {
-    "title": "Reduzir Imagem para 20KB Online - Redimensionar Grátis",
-    "description": "Reduza imagem para 20KB online grátis: diminua uma foto ou assinatura para 20 KB ou menos no navegador. Sem cadastro, e sua imagem nunca sai do seu dispositivo.",
-    "h1": "Redimensionar imagem para 20 KB",
+    "title": "Reduzir Imagem para 20KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 20KB online grátis: diminua uma foto ou assinatura para 20 KB ou menos no navegador. Sem cadastro, e a imagem nunca sai do seu dispositivo.",
+    "h1": "Reduzir imagem para 20 KB",
     "intro": "Um limite de 20 KB é comum para fotos pequenas de passaporte e assinaturas em formulários de provas, vagas de emprego e órgãos públicos. Adicione sua imagem e a ferramenta reduz a qualidade aos poucos, e só diminui a imagem se for preciso, até o arquivo ficar abaixo de 20 KB (20.000 bytes).",
     "blurb": "Deixe uma foto ou assinatura abaixo de 20 KB.",
     "steps": [
@@ -460,9 +469,9 @@
     }
   },
   "kb50": {
-    "title": "Reduzir Imagem para 50KB Online - Redimensionar Grátis",
-    "description": "Reduza imagem para 50KB online grátis: comprima uma foto para 50 KB ou menos para formulários de provas, portais de vagas e documentos. Sem cadastro, privado.",
-    "h1": "Redimensionar imagem para 50 KB",
+    "title": "Reduzir Imagem para 50KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 50KB online grátis: comprima uma foto para 50 KB ou menos para concursos, vagas de emprego e documentos. Sem cadastro, privado.",
+    "h1": "Reduzir imagem para 50 KB",
     "intro": "50 KB é um dos limites mais pedidos para fotos tipo passaporte em formulários de inscrição online. Esta página já define o limite para você: adicione sua foto e baixe um JPG com menos de 50 KB (50.000 bytes) que continua nítido.",
     "blurb": "Deixe uma foto abaixo de 50 KB para formulários e portais.",
     "steps": [
@@ -513,9 +522,9 @@
     }
   },
   "kb100": {
-    "title": "Reduzir Imagem para 100KB Online - Redimensionar Grátis",
-    "description": "Reduza imagem para 100KB online grátis: diminua uma imagem para 100 KB ou menos para vagas de emprego, KYC e documentos. Sem cadastro e totalmente privado.",
-    "h1": "Redimensionar imagem para 100 KB",
+    "title": "Reduzir Imagem para 100KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 100KB online grátis: diminua uma imagem para 100 KB ou menos para vagas de emprego, concursos e documentos. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para 100 KB",
     "intro": "100 KB é um limite comum para fotos de candidatura, documentos digitalizados e fotos de perfil. Adicione sua imagem e obtenha um JPG com menos de 100 KB (100.000 bytes) na maior qualidade que couber.",
     "blurb": "Deixe uma imagem abaixo de 100 KB para candidaturas e KYC.",
     "steps": [
@@ -566,9 +575,9 @@
     }
   },
   "kb200": {
-    "title": "Reduzir Imagem para 200KB Online - Redimensionar Grátis",
-    "description": "Reduza imagem para 200KB online grátis: comprima uma imagem para 200 KB ou menos para visto, KYC e órgãos públicos. Sem cadastro, e roda no seu navegador.",
-    "h1": "Redimensionar imagem para 200 KB",
+    "title": "Reduzir Imagem para 200KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 200KB online grátis: comprima uma imagem para 200 KB ou menos para visto, concursos e órgãos públicos. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para 200 KB",
     "intro": "200 KB é um limite máximo típico para fotos de visto, documentos de KYC e envios a órgãos públicos. Adicione sua imagem e baixe um JPG com menos de 200 KB (200.000 bytes) que mantém o máximo de detalhes possível.",
     "blurb": "Deixe uma imagem abaixo de 200 KB para visto e órgãos públicos.",
     "steps": [
@@ -619,8 +628,8 @@
     }
   },
   "signature": {
-    "title": "Redimensionar Assinatura Online - Foto para 10-20KB",
-    "description": "Redimensionar assinatura online grátis: reduza uma assinatura para 10 KB ou 20 KB e um tamanho em pixels para formulários. Sem cadastro, e fica no dispositivo.",
+    "title": "Redimensionar Assinatura Online - Imagem de 10 a 20 KB",
+    "description": "Redimensionar assinatura online grátis: reduza uma imagem de assinatura para 10 KB ou 20 KB e um tamanho em pixels, para formulários e portais como o gov.br.",
     "h1": "Redimensionar imagem de assinatura",
     "intro": "Formulários online costumam pedir uma imagem pequena e nítida da sua assinatura: poucos KB e, muitas vezes, largura e altura fixas. Adicione uma foto ou digitalização da sua assinatura e obtenha um arquivo que atende ao tamanho em KB e ao tamanho em pixels.",
     "blurb": "Redimensione uma assinatura para o tamanho que o formulário pede.",
@@ -673,7 +682,7 @@
   },
   "pngToJpg": {
     "title": "Converter PNG para JPG - Online, Grátis e sem Upload",
-    "description": "Converter PNG para JPG online grátis: transforme imagens PNG em arquivos JPG menores no navegador. Sem cadastro, sem upload, e você escolhe a qualidade.",
+    "description": "Converter PNG para JPG online grátis: transforme PNG em JPG menor, em alta qualidade, no navegador. Sem cadastro, sem upload, e funciona no celular e no PC.",
     "h1": "Converter PNG para JPG",
     "intro": "Transforme imagens PNG em arquivos JPG menores em um só passo. O JPG é aceito em quase todo lugar e é bem menor para fotos. Adicione seus arquivos PNG, clique no botão e baixe os arquivos JPG, ou um ZIP com todos eles.",
     "blurb": "Transforme arquivos PNG em arquivos JPG menores.",
@@ -726,7 +735,7 @@
   },
   "jpgToPng": {
     "title": "Converter JPG para PNG - Online, Grátis e sem Upload",
-    "description": "Converter JPG para PNG online grátis no navegador. Sem cadastro, sem upload e sem marca d'água, e funciona em celulares e computadores.",
+    "description": "Converter JPG para PNG online grátis, sem perder qualidade e direto no navegador. Sem cadastro, sem upload e sem marca d'água, e funciona no celular e no PC.",
     "h1": "Converter JPG para PNG",
     "intro": "Precisa de um PNG para um logotipo, um programa de design ou um formulário que não aceita JPG? Adicione seus arquivos JPG e baixe arquivos PNG sem perdas em um só passo. Tudo roda no seu navegador.",
     "blurb": "Transforme arquivos JPG em arquivos PNG sem perdas.",
@@ -838,9 +847,9 @@
     "jump": "Ir para"
   },
   "kb10": {
-    "title": "Reduzir Imagem para 10KB Online - Redimensionar Grátis",
-    "description": "Reduza imagem para 10KB online grátis: diminua uma foto ou assinatura para 10 KB ou menos no navegador. Sem cadastro, sem upload, e sua imagem fica privada.",
-    "h1": "Redimensionar imagem para 10 KB",
+    "title": "Reduzir Imagem para 10KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 10KB online grátis: diminua uma foto ou assinatura para 10 KB ou menos no navegador. Sem cadastro, sem upload, e sua imagem fica privada.",
+    "h1": "Reduzir imagem para 10 KB",
     "intro": "10 KB é um limite muito pequeno, comum para assinaturas, miniaturas e campos de foto pequena em formulários de inscrição. Esta página já define o limite de 10 KB para você: adicione sua imagem e baixe um JPG com menos de 10 KB (10.000 bytes).",
     "blurb": "Deixe uma assinatura ou foto pequena abaixo de 10 KB.",
     "steps": [
@@ -891,9 +900,9 @@
     }
   },
   "kb30": {
-    "title": "Reduzir Imagem para 30KB Online - Redimensionar Grátis",
-    "description": "Reduza imagem para 30KB online grátis: comprima uma foto ou assinatura para 30 KB ou menos para formulários e provas. Sem cadastro, e fica no seu dispositivo.",
-    "h1": "Redimensionar imagem para 30 KB",
+    "title": "Reduzir Imagem para 30KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 30KB online grátis: comprima uma foto ou assinatura para 30 KB ou menos para formulários e concursos. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para 30 KB",
     "intro": "Um limite de 30 KB é comum em formulários de provas, vagas de emprego e órgãos públicos, nos quais a foto e a assinatura são enviadas em campos separados. Esta página já define o limite para você: adicione sua imagem e baixe um JPG com menos de 30 KB (30.000 bytes).",
     "blurb": "Deixe uma foto abaixo de 30 KB para formulários de inscrição.",
     "steps": [
@@ -944,9 +953,9 @@
     }
   },
   "kb500": {
-    "title": "Reduzir Imagem para 500KB Online - Compressor Grátis",
-    "description": "Reduza imagem para 500KB online grátis: comprima uma foto para 500 KB ou menos para e-mail, vagas de emprego e envios, mantendo a nitidez. Sem cadastro.",
-    "h1": "Redimensionar imagem para 500 KB",
+    "title": "Reduzir Imagem para 500KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 500KB online grátis: comprima uma foto para 500 KB ou menos para e-mail, vagas de emprego e envios, mantendo a nitidez. Sem cadastro.",
+    "h1": "Reduzir imagem para 500 KB",
     "intro": "500 KB é um limite comum para anexos de e-mail, candidaturas de emprego e formulários de envio que ainda querem uma imagem bonita. Esta página já define o limite para você: adicione sua imagem e baixe um arquivo com menos de 500 KB (500.000 bytes) que continua nítido.",
     "blurb": "Deixe uma imagem abaixo de 500 KB e mantenha a nitidez.",
     "steps": [
@@ -997,9 +1006,9 @@
     }
   },
   "mb1": {
-    "title": "Reduzir Imagem para 1MB Online - Compressor Grátis",
-    "description": "Reduza imagem para 1MB online grátis: diminua uma foto para 1 MB ou menos para e-mail, formulários e envios, sem perda visível. Sem cadastro, e fica privada.",
-    "h1": "Redimensionar imagem para 1 MB",
+    "title": "Reduzir Imagem para 1MB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 1MB online grátis: diminua uma foto para 1 MB ou menos (ou 2 MB, digitando o limite) para e-mail e envios. Sem cadastro, privado.",
+    "h1": "Reduzir imagem para 1 MB",
     "intro": "Um limite de 1 MB é comum em serviços de e-mail, formulários de inscrição e sites que aceitam envio de fotos. Esta página já define o limite para você: adicione sua imagem e baixe um arquivo com menos de 1 MB (1.000.000 bytes) que continua nítido.",
     "blurb": "Deixe uma imagem abaixo de 1 MB para e-mail e envios.",
     "steps": [
@@ -1051,7 +1060,7 @@
   },
   "pixels": {
     "title": "Redimensionar Imagem em Pixels Online - Largura e Altura",
-    "description": "Redimensione imagem em pixels online grátis: digite a largura e a altura exatas, mantenha a proporção, ajuste ou corte. Sem cadastro, e fica no seu dispositivo.",
+    "description": "Redimensionar imagem em pixels online grátis: digite a largura e a altura exatas (como 3000x3000), mantenha a proporção, ajuste ou corte. Sem cadastro, privado.",
     "h1": "Redimensionar imagem em pixels",
     "intro": "Defina a largura e a altura exatas de uma imagem em pixels, para um site, um formulário de inscrição, uma miniatura ou uma publicação em rede social. Adicione sua imagem, digite o tamanho e baixe o resultado. A proporção vem travada por padrão, então nada fica esticado.",
     "blurb": "Defina a largura e a altura exatas em pixels.",
@@ -1104,7 +1113,7 @@
   },
   "bulk": {
     "title": "Redimensionar Imagens em Lote - Várias Fotos Grátis",
-    "description": "Redimensione imagens em lote: altere centenas de fotos de uma vez para um só tamanho ou limite de arquivo e baixe um ZIP. Grátis, sem cadastro e privado.",
+    "description": "Redimensionar imagens em lote online: várias fotos ao mesmo tempo, para um só tamanho ou limite de KB, e baixe um ZIP. Grátis, sem cadastro e privado.",
     "h1": "Redimensionar imagens em lote",
     "intro": "Redimensione muitas imagens de uma só vez. Adicione uma pasta inteira de fotos, escolha um tamanho ou um limite de tamanho de arquivo para todas e baixe os resultados em um único arquivo ZIP. Tudo acontece no seu dispositivo, então não há upload nem espera.",
     "blurb": "Redimensione várias fotos em lote e baixe um ZIP.",
@@ -1157,7 +1166,7 @@
   },
   "jpgToWebp": {
     "title": "Converter JPG para WebP - Online, Grátis e sem Upload",
-    "description": "Converta JPG para WebP online no navegador para ter arquivos menores e páginas mais rápidas. Grátis, sem cadastro, sem upload, e você escolhe a qualidade.",
+    "description": "Converter JPG para WebP online no navegador para ter arquivos menores e páginas mais rápidas. Grátis, sem cadastro, sem upload, e você escolhe a qualidade.",
     "h1": "Converter JPG para WebP",
     "intro": "Os arquivos WebP costumam ser menores que os JPG com qualidade parecida, o que faz os sites carregarem mais rápido. Adicione suas imagens JPG e baixe arquivos WebP em segundos. Nada é enviado: a conversão acontece no seu dispositivo.",
     "blurb": "Transforme imagens JPG em arquivos WebP menores.",
@@ -1210,7 +1219,7 @@
   },
   "pngToWebp": {
     "title": "Converter PNG para WebP - Online, Grátis e sem Upload",
-    "description": "Converta PNG para WebP online no navegador: arquivos bem menores e com transparência mantida. Grátis, sem cadastro, sem upload, e você escolhe a qualidade.",
+    "description": "Converter PNG para WebP online no navegador: arquivos bem menores e com transparência mantida. Grátis, sem cadastro, sem upload, e você escolhe a qualidade.",
     "h1": "Converter PNG para WebP",
     "intro": "Arquivos PNG podem ser muito grandes, principalmente fotos e capturas de tela. O WebP também mantém a transparência e costuma ser bem menor. Adicione suas imagens PNG e baixe arquivos WebP em segundos. Nada é enviado: a conversão acontece no seu dispositivo.",
     "blurb": "Transforme imagens PNG em arquivos WebP bem menores.",
@@ -1257,6 +1266,496 @@
         {
           "q": "É grátis?",
           "a": "Sim. Não há cadastro, marca d'água nem limite de imagens."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Reduzir Imagem para 300KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 300KB online grátis: comprima uma foto para 300 KB ou menos para formulários e envios, mantendo a nitidez. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para 300 KB",
+    "intro": "Muitos formulários de inscrição, portais de provas e sites pedem uma foto de no máximo 300 KB. Esta página já define esse limite para você: adicione sua imagem e baixe um arquivo com menos de 300 KB que continua nítido.",
+    "blurb": "Deixe uma imagem abaixo de 300 KB para formulários e envios.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos grandes de celular não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 300 KB",
+        "text": "300 KB já vem selecionado. A ferramenta conta 300 KB como 300.000 bytes, então o arquivo passa nos sistemas que contam 1 KB como 1.000 bytes e nos que contam 1.024."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 300 KB",
+    "tips": [
+      "Escolha JPG para fotos. Uma foto salva como PNG costuma ser várias vezes maior para a mesma imagem.",
+      "Se o formulário também pedir dimensões exatas em pixels, defina primeiro a largura e a altura e depois mantenha o limite de 300 KB ativado.",
+      "Uma foto de celular com 4000 pixels de largura não cabe em 300 KB em alta qualidade. Deixe a ferramenta diminuir um pouco o tamanho em pixels para obter um resultado mais nítido do que a qualidade sozinha permitiria.",
+      "Adicione várias fotos de uma vez para redimensionar todas com o mesmo limite e baixe um único arquivo ZIP."
+    ],
+    "detailsTitle": "O que 300 KB significa para uma foto",
+    "details": [
+      "Trezentos quilobytes é um pouco menos que um terço de um megabyte. Um JPG desse tamanho pode conter uma foto de cerca de 1500 por 1000 pixels com bons detalhes, dependendo da imagem. É mais que suficiente para um formulário, o envio de um documento de identidade ou uma página da web.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho exato do resultado antes de você baixar. Se o formulário pedir um arquivo menor, escolha um limite mais baixo, como 200 KB ou 100 KB, e execute de novo."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 300 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 300 KB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "A imagem vai ficar pior?",
+          "a": "Um pouco, porque um arquivo menor guarda menos detalhes. A ferramenta escolhe a melhor qualidade que ainda cabe, então você obtém a imagem mais nítida possível abaixo de 300 KB."
+        },
+        {
+          "q": "E se meu arquivo já tem menos de 300 KB?",
+          "a": "Então ele já é pequeno o bastante. Só escolha um limite mais baixo se o formulário exigir."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Diminuir Imagem para 2MB - Reduzir Foto Online Grátis",
+    "description": "Diminuir imagem para 2MB online grátis: reduza uma foto para 2 MB ou menos para e-mail, formulários e envios, quase sem perda visível. Sem cadastro e privado.",
+    "h1": "Diminuir imagem para 2 MB",
+    "intro": "Serviços de e-mail, formulários de inscrição e páginas de envio costumam aceitar imagens de até 2 MB, e as fotos de celular geralmente são maiores. Adicione sua imagem e baixe um arquivo com menos de 2 MB (2.000.000 bytes) que continua nítido.",
+    "blurb": "Deixe uma imagem abaixo de 2 MB para e-mail e envios.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos de 5 a 10 MB não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 2 MB",
+        "text": "2 MB já vem selecionado. A ferramenta conta 2 MB como 2.000.000 bytes, então o arquivo passa nos sistemas que contam 2.000 KB e nos que contam 2.048 KB."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 2 MB",
+    "tips": [
+      "A maioria das fotos de celular atuais tem de 3 a 10 MB. Chegar a dois megabytes costuma ser possível diminuindo um pouco a qualidade, sem diferença visível na tela.",
+      "As fotos cabem melhor como JPG ou WebP. Uma foto salva como PNG costuma ser várias vezes maior.",
+      "Para enviar muitas fotos em um só e-mail, adicione todas de uma vez e baixe o arquivo ZIP.",
+      "Capturas de tela e logotipos ficam melhores em PNG: já são pequenos e mantêm as bordas nítidas."
+    ],
+    "detailsTitle": "O que 2 MB significa para uma foto",
+    "details": [
+      "Dois megabytes são 2.000 quilobytes. Um JPG desse tamanho pode conter uma foto de cerca de 3000 por 2000 pixels com ótimos detalhes, dependendo da imagem, mais do que a maioria das telas mostra.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho exato do resultado antes de você baixar. Ela só diminui o tamanho em pixels quando o limite não pode ser atingido apenas com a qualidade."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 2 MB?",
+          "a": "Adicione a imagem, mantenha o limite de 2 MB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "2 MB é o mesmo que 2.048 KB?",
+          "a": "Em alguns sistemas um megabyte conta como 1.024 quilobytes, em outros como 1.000. A ferramenta usa o valor menor (2.000 KB, ou 2.000.000 bytes), então o arquivo passa nos dois."
+        },
+        {
+          "q": "A imagem fica menor em pixels?",
+          "a": "Só se for preciso. A ferramenta reduz primeiro a qualidade e só diminui o tamanho em pixels quando não é possível chegar ao limite de outra forma."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Converter Imagem em PDF - Imagem para PDF Online Grátis",
+    "description": "Converter imagem em PDF online grátis: junte fotos JPG, PNG e WebP em um só PDF no navegador. Escolha A4 ou Carta. Sem cadastro, sem upload e sem marca d'água.",
+    "h1": "Converter imagem em PDF",
+    "intro": "Transforme uma ou várias imagens em um único PDF. Adicione suas imagens, coloque-as na ordem que quiser, escolha o tamanho da página e baixe o PDF. Ele é criado no seu dispositivo, então suas imagens nunca são enviadas, e não há marca d'água nem limite de uso.",
+    "blurb": "Junte imagens em um só PDF, no seu dispositivo.",
+    "steps": [
+      {
+        "title": "Adicione suas imagens",
+        "text": "Arraste imagens JPG, PNG, WebP, GIF ou BMP para a página ou escolha-as no seu dispositivo. Cada imagem vira uma página."
+      },
+      {
+        "title": "Ordene as páginas e escolha as opções",
+        "text": "Use as setas para mover uma página para cima ou para baixo. Escolha A4, Carta (EUA) ou o tamanho da imagem, a margem e a qualidade."
+      },
+      {
+        "title": "Crie e baixe",
+        "text": "Clique em Criar PDF e baixe o arquivo. Ele abre em qualquer leitor de PDF."
+      }
+    ],
+    "tipsTitle": "Dicas para fazer um bom PDF com imagens",
+    "tips": [
+      "Escolha A4 ou Carta (EUA) para documentos que você pode imprimir. Escolha “Igual à imagem” quando o PDF for só para ver na tela.",
+      "Para um arquivo pequeno (por exemplo, para enviar por e-mail), escolha “Arquivo pequeno”. Para digitalizações de texto e capturas de tela, escolha “Alta qualidade”.",
+      "Fotos tiradas em retrato ou paisagem são giradas automaticamente para a posição certa, usando a informação que o celular guardou na imagem.",
+      "As áreas transparentes de imagens PNG e WebP ficam brancas, porque elas são guardadas como páginas JPEG.",
+      "Precisa do PDF abaixo de um limite de tamanho? Diminua antes as imagens com a ferramenta “Reduzir para KB” e depois junte-as aqui."
+    ],
+    "detailsTitle": "Como o PDF é criado",
+    "details": [
+      "Cada imagem é colocada em uma página própria, centralizada e sem ser esticada. Com A4 ou Carta (EUA), a página muda sozinha para paisagem quando a imagem é mais larga do que alta (ou você pode definir a orientação). Com “Igual à imagem”, a página tem exatamente o formato da imagem.",
+      "O PDF é criado pelo seu navegador. Suas imagens são lidas no seu dispositivo, salvas como páginas JPEG e reunidas no arquivo PDF, e nada é enviado a um servidor. Você pode adicionar até 100 imagens em um PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter imagens em PDF?",
+          "a": "Adicione suas imagens, coloque-as em ordem, escolha o tamanho da página e clique em Criar PDF. Depois baixe o PDF."
+        },
+        {
+          "q": "Como juntar várias fotos em um só PDF?",
+          "a": "Adicione todas as fotos de uma vez. Cada uma vira uma página, e as setas ao lado de cada imagem mudam a ordem antes de você criar o PDF."
+        },
+        {
+          "q": "Existe limite de páginas ou de tamanho do arquivo?",
+          "a": "Você pode adicionar até 100 imagens em um PDF. Não há limite diário nem marca d'água. O tamanho do PDF depende das suas imagens e da qualidade que você escolher."
+        },
+        {
+          "q": "Funciona no celular?",
+          "a": "Sim. Escolha fotos da galeria ou dos arquivos, coloque-as em ordem e baixe o PDF. Funciona em qualquer navegador moderno de celular."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. O PDF é criado no seu dispositivo e suas imagens nunca saem dele."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "JPG para PDF - Converter e Juntar Fotos Online Grátis",
+    "description": "Converter JPG para PDF online grátis: transforme fotos JPG em PDF no navegador. Escolha A4 ou Carta e a ordem. Sem cadastro, sem upload e sem marca d'água.",
+    "h1": "Converter JPG para PDF",
+    "intro": "Crie um PDF com suas fotos JPG. Adicione uma imagem ou várias, coloque-as na ordem certa e baixe um único arquivo PDF. Funciona no seu dispositivo, então nada é enviado e não há marca d'água.",
+    "blurb": "Transforme fotos JPG em um só arquivo PDF.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos JPG",
+        "text": "Arraste uma ou várias imagens JPG para a página ou escolha-as no seu dispositivo. Cada imagem vira uma página."
+      },
+      {
+        "title": "Ordene as páginas e escolha as opções",
+        "text": "Use as setas para mudar a ordem. Escolha A4, Carta (EUA) ou o tamanho da imagem, a margem e a qualidade."
+      },
+      {
+        "title": "Crie e baixe",
+        "text": "Clique em Criar PDF e baixe o arquivo. Ele abre em qualquer leitor de PDF."
+      }
+    ],
+    "tipsTitle": "Dicas para converter JPG em PDF",
+    "tips": [
+      "Com “Alta qualidade”, suas fotos mantêm quase todos os detalhes, e o PDF fica igual às imagens do seu celular.",
+      "Fotos de celular podem ter vários MB cada. Escolha “Arquivo pequeno” se o PDF precisar ser enviado por e-mail ou anexado a um formulário.",
+      "Fotos tiradas em pé ou deitadas são giradas automaticamente para a posição certa.",
+      "Para digitalizar um documento com o celular, tire uma foto de cada página, adicione as fotos aqui em ordem e crie o PDF."
+    ],
+    "detailsTitle": "JPG para PDF sem instalar aplicativo",
+    "details": [
+      "Uma página de PDF pode conter diretamente uma imagem JPG, o que deixa a conversão rápida e o resultado próximo da sua foto. Escolha A4 ou Carta (EUA) se for imprimir o PDF, ou “Igual à imagem” para um PDF que seja apenas uma imagem em cada página.",
+      "O PDF é criado no seu navegador. Suas fotos nunca são enviadas, então é seguro para documentos de identidade, recibos e outras imagens privadas. Você pode adicionar até 100 imagens em um PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter JPG para PDF?",
+          "a": "Adicione suas imagens JPG, coloque-as em ordem e clique em Criar PDF. Depois baixe o PDF."
+        },
+        {
+          "q": "Posso colocar vários arquivos JPG em um só PDF?",
+          "a": "Sim. Adicione todos de uma vez. Cada imagem vira uma página e você pode mudar a ordem com as setas."
+        },
+        {
+          "q": "Converter JPG para PDF faz perder qualidade?",
+          "a": "Quase nada. Com “Alta qualidade”, as imagens são mantidas com quase todo o detalhe. Escolha “Arquivo pequeno” só quando precisar de um PDF menor."
+        },
+        {
+          "q": "Como fazer um PDF com menos de 1 MB ou 200 KB?",
+          "a": "Escolha “Arquivo pequeno” e coloque menos imagens em cada PDF. Se ainda ficar grande, diminua antes cada imagem com a ferramenta “Reduzir para KB”."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "PNG para PDF - Converter Imagem PNG Online Grátis",
+    "description": "Converter PNG para PDF online grátis: junte capturas de tela e fotos PNG em PDF no navegador. Escolha A4 ou Carta. Sem cadastro, sem upload e sem marca d'água.",
+    "h1": "Converter PNG para PDF",
+    "intro": "Crie um PDF com suas imagens PNG e capturas de tela. Adicione uma imagem ou várias, coloque-as na ordem certa e baixe um único PDF. Funciona no seu dispositivo, então nada é enviado e não há marca d'água.",
+    "blurb": "Transforme imagens PNG e capturas de tela em um PDF.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos PNG",
+        "text": "Arraste uma ou várias imagens PNG para a página ou escolha-as no seu dispositivo. Cada imagem vira uma página."
+      },
+      {
+        "title": "Ordene as páginas e escolha as opções",
+        "text": "Use as setas para mudar a ordem. Escolha A4, Carta (EUA) ou o tamanho da imagem, a margem e a qualidade."
+      },
+      {
+        "title": "Crie e baixe",
+        "text": "Clique em Criar PDF e baixe o arquivo. Ele abre em qualquer leitor de PDF."
+      }
+    ],
+    "tipsTitle": "Dicas para converter PNG em PDF",
+    "tips": [
+      "As áreas transparentes de um PNG ficam brancas no PDF.",
+      "Para capturas de tela com texto pequeno, escolha “Alta qualidade” para que as letras continuem nítidas.",
+      "Arquivos PNG podem ser grandes. Escolha “Arquivo pequeno” se o PDF precisar ser enviado por e-mail, ou “Equilibrada” para uma mistura de nitidez e tamanho.",
+      "Para manter exatamente o formato de uma captura de tela, escolha “Igual à imagem” como tamanho da página."
+    ],
+    "detailsTitle": "O que acontece com um PNG em um PDF",
+    "details": [
+      "Cada PNG é desenhado sobre um fundo branco e guardado no PDF como uma imagem JPEG na qualidade que você escolher, então com “Alta qualidade” uma captura de tela ou um gráfico fica como era na tela. Escolha A4 ou Carta (EUA) se for imprimir o PDF, ou “Igual à imagem” para uma página com exatamente o formato da imagem.",
+      "O PDF é criado no seu navegador. Suas imagens nunca são enviadas, então é seguro para documentos particulares e capturas de tela. Você pode adicionar até 100 imagens em um PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter PNG para PDF?",
+          "a": "Adicione suas imagens PNG, coloque-as em ordem e clique em Criar PDF. Depois baixe o PDF."
+        },
+        {
+          "q": "Posso juntar vários arquivos PNG em um só PDF?",
+          "a": "Sim. Adicione todos de uma vez. Cada imagem vira uma página e você pode mudar a ordem com as setas."
+        },
+        {
+          "q": "O que acontece com um PNG transparente?",
+          "a": "As áreas transparentes são preenchidas com branco, porque a imagem é guardada em uma página branca."
+        },
+        {
+          "q": "O texto da minha captura de tela continua nítido?",
+          "a": "Sim, com “Alta qualidade”. Ela mantém a imagem com quase todo o detalhe."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "CM para Pixels - Conversor e Calculadora Grátis (300 DPI)",
+    "description": "Converter cm para pixels online grátis: digite os cm, escolha o DPI e veja o tamanho exato em pixels. Para impressão, fotos de passaporte e formulários.",
+    "h1": "Converter cm para pixels",
+    "intro": "Digite um tamanho em centímetros e veja quantos pixels ele tem no seu DPI. A calculadora também mostra tamanhos de impressão comuns em pixels e leva ao redimensionador de imagens grátis, para você deixar a imagem exatamente nesse tamanho.",
+    "blurb": "Converta centímetros em pixels em qualquer DPI.",
+    "steps": [
+      {
+        "title": "Digite o tamanho em cm",
+        "text": "Digite a largura e, se precisar, a altura. A unidade já vem definida em centímetros."
+      },
+      {
+        "title": "Escolha o DPI",
+        "text": "Use 300 para impressão, 96 para tela ou o número que o formulário pedir. O resultado muda enquanto você digita."
+      },
+      {
+        "title": "Veja os pixels e redimensione",
+        "text": "Copie o resultado ou abra o redimensionador de imagens e digite os pixels para deixar sua imagem nesse tamanho."
+      }
+    ],
+    "tipsTitle": "Dicas para converter cm em pixels",
+    "tips": [
+      "Uma imagem não tem tamanho em centímetros até ser impressa ou colocada em um documento. O DPI define quantos pixels cabem em um centímetro.",
+      "Use 300 DPI para uma impressão nítida, 150 DPI para um rascunho e 72 ou 96 DPI para telas.",
+      "Se um formulário dá o tamanho em cm e não informa o DPI, 300 DPI é a escolha usual para fotos.",
+      "Digite a largura e a altura para obter os dois lados de uma vez. Use o botão de inverter para converter no sentido contrário."
+    ],
+    "detailsTitle": "Como converter cm em pixels",
+    "details": [
+      "A fórmula é pixels = centímetros ÷ 2,54 × DPI, porque uma polegada tem 2,54 centímetros. A 300 DPI, um centímetro tem cerca de 118 pixels; a 96 DPI, cerca de 38 pixels; e a 72 DPI, cerca de 28 pixels. Assim, 10 cm são cerca de 1181 pixels a 300 DPI.",
+      "Os tamanhos de foto em centímetros seguem a mesma regra: uma impressão de 10 × 15 cm tem cerca de 1181 × 1772 pixels a 300 DPI. O conversor arredonda os pixels para números inteiros, porque uma imagem não pode ter parte de um pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Quantos pixels tem 1 cm?",
+          "a": "A 300 DPI, 1 cm tem cerca de 118 pixels. A 96 DPI, cerca de 38 pixels, e a 72 DPI, cerca de 28 pixels."
+        },
+        {
+          "q": "Como converter cm em pixels?",
+          "a": "Divida os centímetros por 2,54 e multiplique pelo DPI. Ou digite o tamanho na calculadora acima, que faz isso por você."
+        },
+        {
+          "q": "Qual DPI devo usar?",
+          "a": "Use 300 para impressão e para fotos de passaporte ou de documento, e 72 ou 96 para imagens que só aparecem na tela."
+        },
+        {
+          "q": "O DPI muda minha imagem?",
+          "a": "Não. O DPI só define o tamanho da imagem quando ela é impressa. Redimensione a imagem em si com o redimensionador de imagens."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Polegadas para Pixels - Conversor e Calculadora Grátis",
+    "description": "Converter polegadas para pixels online grátis: digite o tamanho, escolha o DPI e veja os pixels exatos para fotos impressas, documentos e formulários.",
+    "h1": "Converter polegadas para pixels",
+    "intro": "Digite um tamanho em polegadas e veja quantos pixels ele tem no seu DPI. A calculadora também mostra tamanhos de impressão comuns em pixels e leva ao redimensionador de imagens grátis, para você deixar a imagem exatamente nesse tamanho.",
+    "blurb": "Converta polegadas em pixels em qualquer DPI.",
+    "steps": [
+      {
+        "title": "Digite o tamanho em polegadas",
+        "text": "Digite a largura e, se precisar, a altura. A unidade já vem definida em polegadas."
+      },
+      {
+        "title": "Escolha o DPI",
+        "text": "Use 300 para impressão, 96 para tela ou o número que o formulário pedir. O resultado muda enquanto você digita."
+      },
+      {
+        "title": "Veja os pixels e redimensione",
+        "text": "Copie o resultado ou abra o redimensionador de imagens e digite os pixels para deixar sua imagem nesse tamanho."
+      }
+    ],
+    "tipsTitle": "Dicas para converter polegadas em pixels",
+    "tips": [
+      "Pixels = polegadas × DPI. A 300 DPI, cada polegada tem 300 pixels.",
+      "Uma foto impressa de 4 × 6 polegadas precisa de 1200 × 1800 pixels a 300 DPI, e uma foto de passaporte de 2 × 2 polegadas precisa de 600 × 600.",
+      "Uma imagem não tem tamanho em polegadas até ser impressa. O DPI define quantos pixels cabem em uma polegada.",
+      "Use o botão de inverter para converter pixels em polegadas."
+    ],
+    "detailsTitle": "Como converter polegadas em pixels",
+    "details": [
+      "A fórmula é pixels = polegadas × DPI. A 300 DPI, que é o valor usual para impressão, 1 polegada tem 300 pixels. A 96 DPI, o padrão de uma tela no navegador, 1 polegada tem 96 pixels, e a 72 DPI, 72 pixels.",
+      "Uma página Carta (EUA) de 8,5 × 11 polegadas tem 2550 × 3300 pixels a 300 DPI, e uma impressão de 5 × 7 polegadas tem 1500 × 2100 pixels. O conversor arredonda os pixels para números inteiros, porque uma imagem não pode ter parte de um pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Quantos pixels tem 1 polegada?",
+          "a": "Depende do DPI: 300 pixels a 300 DPI, 96 pixels a 96 DPI e 72 pixels a 72 DPI."
+        },
+        {
+          "q": "Quantos pixels tem uma foto de 4x6 polegadas?",
+          "a": "A 300 DPI, uma foto de 4 × 6 polegadas tem 1200 × 1800 pixels."
+        },
+        {
+          "q": "Qual DPI devo usar?",
+          "a": "Use 300 para impressão e 72 ou 96 para imagens que só aparecem na tela."
+        },
+        {
+          "q": "O DPI muda minha imagem?",
+          "a": "Não. O DPI só define o tamanho da imagem quando ela é impressa. Redimensione a imagem em si com o redimensionador de imagens."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "MM para Pixels - Conversor e Calculadora Grátis (300 DPI)",
+    "description": "Converter mm para pixels online grátis: digite os mm, escolha o DPI e veja o tamanho exato em pixels para fotos de passaporte, documentos e formulários.",
+    "h1": "Converter mm para pixels",
+    "intro": "Digite um tamanho em milímetros e veja quantos pixels ele tem no seu DPI. Útil para fotos de passaporte e de documento, cujo tamanho é dado em milímetros. A calculadora leva ao redimensionador de imagens grátis, para você deixar a imagem exatamente nesse tamanho.",
+    "blurb": "Converta milímetros em pixels em qualquer DPI.",
+    "steps": [
+      {
+        "title": "Digite o tamanho em mm",
+        "text": "Digite a largura e, se precisar, a altura. A unidade já vem definida em milímetros."
+      },
+      {
+        "title": "Escolha o DPI",
+        "text": "Use 300 para impressão, 96 para tela ou o número que o formulário pedir. O resultado muda enquanto você digita."
+      },
+      {
+        "title": "Veja os pixels e redimensione",
+        "text": "Copie o resultado ou abra o redimensionador de imagens e digite os pixels para deixar sua imagem nesse tamanho."
+      }
+    ],
+    "tipsTitle": "Dicas para converter mm em pixels",
+    "tips": [
+      "Uma foto de passaporte de 35 × 45 mm tem 413 × 531 pixels a 300 DPI.",
+      "Uma imagem não tem tamanho em milímetros até ser impressa. O DPI define quantos pixels cabem em um milímetro.",
+      "Use 300 DPI para uma impressão nítida e 72 ou 96 DPI para imagens que só aparecem na tela.",
+      "Digite a largura e a altura para obter os dois lados de uma vez. Use o botão de inverter para converter pixels em milímetros."
+    ],
+    "detailsTitle": "Como converter mm em pixels",
+    "details": [
+      "A fórmula é pixels = milímetros ÷ 25,4 × DPI, porque uma polegada tem 25,4 milímetros. A 300 DPI, um milímetro tem cerca de 11,8 pixels; a 96 DPI, cerca de 3,8 pixels; e a 72 DPI, cerca de 2,8 pixels.",
+      "Uma folha A4 de 210 × 297 mm tem 2480 × 3508 pixels a 300 DPI. O conversor arredonda os pixels para números inteiros, porque uma imagem não pode ter parte de um pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Quantos pixels tem 1 mm?",
+          "a": "A 300 DPI, 1 mm tem cerca de 11,8 pixels. A 96 DPI, cerca de 3,8 pixels, e a 72 DPI, cerca de 2,8 pixels."
+        },
+        {
+          "q": "Quantos pixels tem uma foto de 35x45 mm?",
+          "a": "A 300 DPI, uma foto de passaporte de 35 × 45 mm tem 413 × 531 pixels."
+        },
+        {
+          "q": "Qual DPI devo usar?",
+          "a": "Use 300 para impressão e para fotos de passaporte ou de documento, e 72 ou 96 para imagens que só aparecem na tela."
+        },
+        {
+          "q": "O DPI muda minha imagem?",
+          "a": "Não. O DPI só define o tamanho da imagem quando ela é impressa. Redimensione a imagem em si com o redimensionador de imagens."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Pixels para CM - Conversor e Calculadora Grátis (DPI)",
+    "description": "Converter pixels para cm online grátis: digite os pixels, escolha o DPI e veja o tamanho de impressão em centímetros, milímetros ou polegadas. Sem cadastro.",
+    "h1": "Converter pixels para cm",
+    "intro": "Digite um tamanho em pixels e veja quantos centímetros ele tem quando impresso no seu DPI. A calculadora também mostra tamanhos de impressão comuns em pixels e leva ao redimensionador de imagens grátis.",
+    "blurb": "Converta pixels em centímetros em qualquer DPI.",
+    "steps": [
+      {
+        "title": "Digite o tamanho em pixels",
+        "text": "Digite a largura e, se precisar, a altura. A unidade já vem definida em pixels."
+      },
+      {
+        "title": "Escolha o DPI",
+        "text": "Use 300 para impressão, 96 para tela ou o número que sua impressora ou formulário usa. O resultado muda enquanto você digita."
+      },
+      {
+        "title": "Veja o tamanho",
+        "text": "O tamanho aparece em centímetros. Mude a unidade para milímetros ou polegadas, se preferir."
+      }
+    ],
+    "tipsTitle": "Dicas para converter pixels em cm",
+    "tips": [
+      "A mesma imagem é impressa em tamanhos diferentes: mais DPI significa uma impressão menor e mais nítida.",
+      "Para uma boa impressão, use pelo menos 300 DPI. Uma imagem de 1200 × 1800 pixels é impressa em 4 × 6 polegadas (10,2 × 15,2 cm) a 300 DPI.",
+      "Em uma tela, o valor usual é 96 DPI, então 1920 pixels têm cerca de 50,8 cm de largura nessa configuração.",
+      "Use o botão de inverter para converter centímetros em pixels."
+    ],
+    "detailsTitle": "Como converter pixels em cm",
+    "details": [
+      "A fórmula é centímetros = pixels ÷ DPI × 2,54, porque uma polegada tem 2,54 centímetros. A 300 DPI, 1000 pixels são cerca de 8,47 cm. A 96 DPI, os mesmos 1000 pixels são cerca de 26,46 cm.",
+      "Uma imagem não tem tamanho real até ser impressa, e o DPI é o que liga pixels a centímetros. Se um formulário pede um tamanho em centímetros e você só sabe os pixels, 300 DPI é o valor usual para fotos."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Quantos cm tem 1000 pixels?",
+          "a": "A 300 DPI, 1000 pixels são cerca de 8,47 cm. A 96 DPI, cerca de 26,46 cm."
+        },
+        {
+          "q": "Como converter pixels em cm?",
+          "a": "Divida os pixels pelo DPI e multiplique por 2,54. Ou digite os pixels na calculadora acima, que faz isso por você."
+        },
+        {
+          "q": "Qual DPI devo usar?",
+          "a": "Use 300 para impressão e 72 ou 96 para imagens que só aparecem na tela."
+        },
+        {
+          "q": "O DPI muda minha imagem?",
+          "a": "Não. O DPI só define o tamanho da imagem quando ela é impressa. Redimensione a imagem em si com o redimensionador de imagens."
         }
       ]
     }

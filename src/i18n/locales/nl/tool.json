@@ -113,6 +113,82 @@
       "limitNote": "Een PNG kan niet kleiner worden gemaakt om binnen je limiet voor de bestandsgrootte te blijven. Kies JPG of WebP om de limiet te halen.",
       "progress": "Voortgang van het formaat wijzigen"
     },
-    "noscript": "JavaScript is nodig om afbeeldingen in je browser te verkleinen. Schakel het in."
+    "noscript": "JavaScript is nodig om afbeeldingen in je browser te verkleinen. Schakel het in.",
+    "pdf": {
+      "aria": "Afbeeldingen naar PDF",
+      "hint": "Voeg meerdere afbeeldingen toe om één PDF te maken. Elke afbeelding wordt een pagina.",
+      "options": {
+        "title": "PDF-opties",
+        "pageSize": "Paginaformaat",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Zoals de afbeelding",
+        "orientation": "Paginarichting",
+        "auto": "Automatisch",
+        "portrait": "Staand",
+        "landscape": "Liggend",
+        "margin": "Marge",
+        "none": "Geen marge",
+        "small": "Kleine marge",
+        "big": "Grote marge",
+        "quality": "Afbeeldingskwaliteit",
+        "high": "Hoge kwaliteit",
+        "balanced": "Gebalanceerd",
+        "low": "Klein bestand",
+        "qualityNote": "Hogere kwaliteit behoudt meer details en geeft een grotere PDF."
+      },
+      "actions": {
+        "create": "PDF maken",
+        "working": "Pagina {done} van {total} toevoegen...",
+        "download": "PDF downloaden",
+        "again": "Nog een PDF maken"
+      },
+      "list": {
+        "title": "Pagina’s ({count})",
+        "up": "{name} omhoog verplaatsen",
+        "down": "{name} omlaag verplaatsen"
+      },
+      "result": {
+        "title": "Je PDF is klaar",
+        "info": "{pages} pagina’s, {size}"
+      },
+      "errors": {
+        "empty": "Voeg eerst minstens één afbeelding toe.",
+        "unreadable": "{name} kon niet als afbeelding worden gelezen.",
+        "failed": "De PDF kon niet worden gemaakt. Probeer het opnieuw met minder of kleinere afbeeldingen."
+      }
+    },
+    "calc": {
+      "aria": "Formaatomrekenaar",
+      "title": "Een formaat omrekenen",
+      "width": "Breedte",
+      "height": "Hoogte (optioneel)",
+      "invalid": "Voer een getal groter dan nul in.",
+      "from": "Van",
+      "to": "Naar",
+      "swap": "Eenheden omwisselen",
+      "dpi": "DPI (dots per inch)",
+      "dpiNote": "300 DPI is de gangbare waarde voor afdrukken. Schermen gebruiken 72 of 96.",
+      "result": "Resultaat",
+      "empty": "Typ een formaat om het resultaat te zien.",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "resizeLink": "Afbeelding op dit formaat brengen",
+      "units": {
+        "px": "Pixels (px)",
+        "cm": "Centimeters (cm)",
+        "mm": "Millimeters (mm)",
+        "in": "Inch (in)"
+      },
+      "table": {
+        "title": "Veelgebruikte formaten in pixels bij {dpi} DPI",
+        "size": "Formaat",
+        "dimensions": "Breedte × hoogte",
+        "pixels": "Pixels",
+        "passport": "Pasfoto",
+        "print": "Fotoafdruk",
+        "card": "Visitekaartje"
+      }
+    }
   }
 }

@@ -1,8 +1,8 @@
-# Addresses to submit for indexing (updated 2026-11-12 from https://freeresizeimageonline.com/sitemap.xml, 640 pages)
+# Addresses to submit for indexing (updated 2026-11-23 from https://freeresizeimageonline.com/sitemap.xml, 820 pages)
 #
 # Google Search Console: paste ONE address in the top search bar (URL inspection) -> Request indexing. Google allows about 10 requests a day,
 # so use one batch per day (the first batches are the most searched pages). Also add the sitemap once: Sitemaps -> https://freeresizeimageonline.com/sitemap.xml
-# (Google then finds all 640 pages by itself). Bing Webmaster Tools: add the sitemap, and paste many addresses at once under Submit URLs.
+# (Google then finds all 820 pages by itself). Bing Webmaster Tools: add the sitemap, and paste many addresses at once under Submit URLs.
 
 ## Day 1 (Google)
 https://freeresizeimageonline.com/
@@ -708,3 +708,221 @@ https://freeresizeimageonline.com/nl/terms/
 https://freeresizeimageonline.com/bn/terms/
 https://freeresizeimageonline.com/ur/terms/
 https://freeresizeimageonline.com/zh-cn/terms/
+
+# ---- Wave 2 (2026-11-23): image to PDF, size converters, 300 KB and 2 MB. 180 new addresses, 10 a day, after the days above ----
+
+## Day 7 (Google)
+https://freeresizeimageonline.com/image-to-pdf/
+https://freeresizeimageonline.com/jpg-to-pdf/
+https://freeresizeimageonline.com/png-to-pdf/
+https://freeresizeimageonline.com/cm-to-pixels/
+https://freeresizeimageonline.com/inches-to-pixels/
+https://freeresizeimageonline.com/mm-to-pixels/
+https://freeresizeimageonline.com/pixels-to-cm/
+https://freeresizeimageonline.com/resize-image-to-300kb/
+https://freeresizeimageonline.com/resize-image-to-2mb/
+https://freeresizeimageonline.com/pt-br/image-to-pdf/
+
+## Day 8 (Google)
+https://freeresizeimageonline.com/pt-br/jpg-to-pdf/
+https://freeresizeimageonline.com/pt-br/png-to-pdf/
+https://freeresizeimageonline.com/pt-br/cm-to-pixels/
+https://freeresizeimageonline.com/pt-br/inches-to-pixels/
+https://freeresizeimageonline.com/pt-br/mm-to-pixels/
+https://freeresizeimageonline.com/pt-br/pixels-to-cm/
+https://freeresizeimageonline.com/pt-br/resize-image-to-300kb/
+https://freeresizeimageonline.com/pt-br/resize-image-to-2mb/
+https://freeresizeimageonline.com/nl/image-to-pdf/
+https://freeresizeimageonline.com/nl/jpg-to-pdf/
+
+## Day 9 (Google)
+https://freeresizeimageonline.com/nl/png-to-pdf/
+https://freeresizeimageonline.com/nl/cm-to-pixels/
+https://freeresizeimageonline.com/nl/inches-to-pixels/
+https://freeresizeimageonline.com/nl/mm-to-pixels/
+https://freeresizeimageonline.com/nl/pixels-to-cm/
+https://freeresizeimageonline.com/nl/resize-image-to-300kb/
+https://freeresizeimageonline.com/nl/resize-image-to-2mb/
+https://freeresizeimageonline.com/fr/image-to-pdf/
+https://freeresizeimageonline.com/fr/jpg-to-pdf/
+https://freeresizeimageonline.com/fr/png-to-pdf/
+
+## Day 10 (Google)
+https://freeresizeimageonline.com/fr/cm-to-pixels/
+https://freeresizeimageonline.com/fr/inches-to-pixels/
+https://freeresizeimageonline.com/fr/mm-to-pixels/
+https://freeresizeimageonline.com/fr/pixels-to-cm/
+https://freeresizeimageonline.com/fr/resize-image-to-300kb/
+https://freeresizeimageonline.com/fr/resize-image-to-2mb/
+https://freeresizeimageonline.com/pl/image-to-pdf/
+https://freeresizeimageonline.com/pl/jpg-to-pdf/
+https://freeresizeimageonline.com/pl/png-to-pdf/
+https://freeresizeimageonline.com/pl/cm-to-pixels/
+
+## Day 11 (Google)
+https://freeresizeimageonline.com/pl/inches-to-pixels/
+https://freeresizeimageonline.com/pl/mm-to-pixels/
+https://freeresizeimageonline.com/pl/pixels-to-cm/
+https://freeresizeimageonline.com/pl/resize-image-to-300kb/
+https://freeresizeimageonline.com/pl/resize-image-to-2mb/
+https://freeresizeimageonline.com/tr/image-to-pdf/
+https://freeresizeimageonline.com/tr/jpg-to-pdf/
+https://freeresizeimageonline.com/tr/png-to-pdf/
+https://freeresizeimageonline.com/tr/cm-to-pixels/
+https://freeresizeimageonline.com/tr/inches-to-pixels/
+
+## Day 12 (Google)
+https://freeresizeimageonline.com/tr/mm-to-pixels/
+https://freeresizeimageonline.com/tr/pixels-to-cm/
+https://freeresizeimageonline.com/tr/resize-image-to-300kb/
+https://freeresizeimageonline.com/tr/resize-image-to-2mb/
+https://freeresizeimageonline.com/hi/image-to-pdf/
+https://freeresizeimageonline.com/hi/jpg-to-pdf/
+https://freeresizeimageonline.com/hi/png-to-pdf/
+https://freeresizeimageonline.com/hi/cm-to-pixels/
+https://freeresizeimageonline.com/hi/inches-to-pixels/
+https://freeresizeimageonline.com/hi/mm-to-pixels/
+
+## Day 13 (Google)
+https://freeresizeimageonline.com/hi/pixels-to-cm/
+https://freeresizeimageonline.com/hi/resize-image-to-300kb/
+https://freeresizeimageonline.com/hi/resize-image-to-2mb/
+https://freeresizeimageonline.com/ja/image-to-pdf/
+https://freeresizeimageonline.com/ja/jpg-to-pdf/
+https://freeresizeimageonline.com/ja/png-to-pdf/
+https://freeresizeimageonline.com/ja/cm-to-pixels/
+https://freeresizeimageonline.com/ja/inches-to-pixels/
+https://freeresizeimageonline.com/ja/mm-to-pixels/
+https://freeresizeimageonline.com/ja/pixels-to-cm/
+
+## Day 14 (Google)
+https://freeresizeimageonline.com/ja/resize-image-to-300kb/
+https://freeresizeimageonline.com/ja/resize-image-to-2mb/
+https://freeresizeimageonline.com/vi/image-to-pdf/
+https://freeresizeimageonline.com/vi/jpg-to-pdf/
+https://freeresizeimageonline.com/vi/png-to-pdf/
+https://freeresizeimageonline.com/vi/cm-to-pixels/
+https://freeresizeimageonline.com/vi/inches-to-pixels/
+https://freeresizeimageonline.com/vi/mm-to-pixels/
+https://freeresizeimageonline.com/vi/pixels-to-cm/
+https://freeresizeimageonline.com/vi/resize-image-to-300kb/
+
+## Day 15 (Google)
+https://freeresizeimageonline.com/vi/resize-image-to-2mb/
+https://freeresizeimageonline.com/th/image-to-pdf/
+https://freeresizeimageonline.com/th/jpg-to-pdf/
+https://freeresizeimageonline.com/th/png-to-pdf/
+https://freeresizeimageonline.com/th/cm-to-pixels/
+https://freeresizeimageonline.com/th/inches-to-pixels/
+https://freeresizeimageonline.com/th/mm-to-pixels/
+https://freeresizeimageonline.com/th/pixels-to-cm/
+https://freeresizeimageonline.com/th/resize-image-to-300kb/
+https://freeresizeimageonline.com/th/resize-image-to-2mb/
+
+## Day 16 (Google)
+https://freeresizeimageonline.com/bn/image-to-pdf/
+https://freeresizeimageonline.com/bn/jpg-to-pdf/
+https://freeresizeimageonline.com/bn/png-to-pdf/
+https://freeresizeimageonline.com/bn/cm-to-pixels/
+https://freeresizeimageonline.com/bn/inches-to-pixels/
+https://freeresizeimageonline.com/bn/mm-to-pixels/
+https://freeresizeimageonline.com/bn/pixels-to-cm/
+https://freeresizeimageonline.com/bn/resize-image-to-300kb/
+https://freeresizeimageonline.com/bn/resize-image-to-2mb/
+https://freeresizeimageonline.com/de/image-to-pdf/
+
+## Day 17 (Google)
+https://freeresizeimageonline.com/de/jpg-to-pdf/
+https://freeresizeimageonline.com/de/png-to-pdf/
+https://freeresizeimageonline.com/de/cm-to-pixels/
+https://freeresizeimageonline.com/de/inches-to-pixels/
+https://freeresizeimageonline.com/de/mm-to-pixels/
+https://freeresizeimageonline.com/de/pixels-to-cm/
+https://freeresizeimageonline.com/de/resize-image-to-300kb/
+https://freeresizeimageonline.com/de/resize-image-to-2mb/
+https://freeresizeimageonline.com/es/image-to-pdf/
+https://freeresizeimageonline.com/es/jpg-to-pdf/
+
+## Day 18 (Google)
+https://freeresizeimageonline.com/es/png-to-pdf/
+https://freeresizeimageonline.com/es/cm-to-pixels/
+https://freeresizeimageonline.com/es/inches-to-pixels/
+https://freeresizeimageonline.com/es/mm-to-pixels/
+https://freeresizeimageonline.com/es/pixels-to-cm/
+https://freeresizeimageonline.com/es/resize-image-to-300kb/
+https://freeresizeimageonline.com/es/resize-image-to-2mb/
+https://freeresizeimageonline.com/id/image-to-pdf/
+https://freeresizeimageonline.com/id/jpg-to-pdf/
+https://freeresizeimageonline.com/id/png-to-pdf/
+
+## Day 19 (Google)
+https://freeresizeimageonline.com/id/cm-to-pixels/
+https://freeresizeimageonline.com/id/inches-to-pixels/
+https://freeresizeimageonline.com/id/mm-to-pixels/
+https://freeresizeimageonline.com/id/pixels-to-cm/
+https://freeresizeimageonline.com/id/resize-image-to-300kb/
+https://freeresizeimageonline.com/id/resize-image-to-2mb/
+https://freeresizeimageonline.com/it/image-to-pdf/
+https://freeresizeimageonline.com/it/jpg-to-pdf/
+https://freeresizeimageonline.com/it/png-to-pdf/
+https://freeresizeimageonline.com/it/cm-to-pixels/
+
+## Day 20 (Google)
+https://freeresizeimageonline.com/it/inches-to-pixels/
+https://freeresizeimageonline.com/it/mm-to-pixels/
+https://freeresizeimageonline.com/it/pixels-to-cm/
+https://freeresizeimageonline.com/it/resize-image-to-300kb/
+https://freeresizeimageonline.com/it/resize-image-to-2mb/
+https://freeresizeimageonline.com/ko/image-to-pdf/
+https://freeresizeimageonline.com/ko/jpg-to-pdf/
+https://freeresizeimageonline.com/ko/png-to-pdf/
+https://freeresizeimageonline.com/ko/cm-to-pixels/
+https://freeresizeimageonline.com/ko/inches-to-pixels/
+
+## Day 21 (Google)
+https://freeresizeimageonline.com/ko/mm-to-pixels/
+https://freeresizeimageonline.com/ko/pixels-to-cm/
+https://freeresizeimageonline.com/ko/resize-image-to-300kb/
+https://freeresizeimageonline.com/ko/resize-image-to-2mb/
+https://freeresizeimageonline.com/ru/image-to-pdf/
+https://freeresizeimageonline.com/ru/jpg-to-pdf/
+https://freeresizeimageonline.com/ru/png-to-pdf/
+https://freeresizeimageonline.com/ru/cm-to-pixels/
+https://freeresizeimageonline.com/ru/inches-to-pixels/
+https://freeresizeimageonline.com/ru/mm-to-pixels/
+
+## Day 22 (Google)
+https://freeresizeimageonline.com/ru/pixels-to-cm/
+https://freeresizeimageonline.com/ru/resize-image-to-300kb/
+https://freeresizeimageonline.com/ru/resize-image-to-2mb/
+https://freeresizeimageonline.com/ar/image-to-pdf/
+https://freeresizeimageonline.com/ar/jpg-to-pdf/
+https://freeresizeimageonline.com/ar/png-to-pdf/
+https://freeresizeimageonline.com/ar/cm-to-pixels/
+https://freeresizeimageonline.com/ar/inches-to-pixels/
+https://freeresizeimageonline.com/ar/mm-to-pixels/
+https://freeresizeimageonline.com/ar/pixels-to-cm/
+
+## Day 23 (Google)
+https://freeresizeimageonline.com/ar/resize-image-to-300kb/
+https://freeresizeimageonline.com/ar/resize-image-to-2mb/
+https://freeresizeimageonline.com/ur/image-to-pdf/
+https://freeresizeimageonline.com/ur/jpg-to-pdf/
+https://freeresizeimageonline.com/ur/png-to-pdf/
+https://freeresizeimageonline.com/ur/cm-to-pixels/
+https://freeresizeimageonline.com/ur/inches-to-pixels/
+https://freeresizeimageonline.com/ur/mm-to-pixels/
+https://freeresizeimageonline.com/ur/pixels-to-cm/
+https://freeresizeimageonline.com/ur/resize-image-to-300kb/
+
+## Day 24 (Google)
+https://freeresizeimageonline.com/ur/resize-image-to-2mb/
+https://freeresizeimageonline.com/zh-cn/image-to-pdf/
+https://freeresizeimageonline.com/zh-cn/jpg-to-pdf/
+https://freeresizeimageonline.com/zh-cn/png-to-pdf/
+https://freeresizeimageonline.com/zh-cn/cm-to-pixels/
+https://freeresizeimageonline.com/zh-cn/inches-to-pixels/
+https://freeresizeimageonline.com/zh-cn/mm-to-pixels/
+https://freeresizeimageonline.com/zh-cn/pixels-to-cm/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-300kb/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-2mb/

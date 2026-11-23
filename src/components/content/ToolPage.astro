@@ -5,6 +5,8 @@
  */
 import Layout from '../../layouts/Layout.astro';
 import ResizerTool from '../tool/ResizerTool.astro';
+import PdfTool from '../tool/PdfTool.astro';
+import CalcTool from '../tool/CalcTool.astro';
 import Sections from './Sections.astro';
 import SizeTable from './SizeTable.astro';
 import { SITE } from '../../config/site';
@@ -21,8 +23,13 @@ interface Props {
   dpi?: number;
   mode?: 'dimensions' | 'percent' | 'keep';
   table?: 'documents' | 'social';
+  /** Which widget the page shows: the resizer (default), the images-to-PDF maker or the size converter. */
+  tool?: 'resizer' | 'pdf' | 'calc';
+  /** Size converter only: the unit the page starts from and the one it converts to. */
+  calcFrom?: 'px' | 'cm' | 'mm' | 'in';
+  calcTo?: 'px' | 'cm' | 'mm' | 'in';
 }
-const { lang, pageKey, preset, format, unit, dpi, mode, table } = Astro.props;
+const { lang, pageKey, preset, format, unit, dpi, mode, table, tool = 'resizer', calcFrom = 'cm', calcTo = 'px' } = Astro.props;
 const route = TOOL_ROUTES.find((r) => r.key === pageKey)!;
 const p = (suffix: string) => t(lang, `${pageKey}.${suffix}` as MessageKey);
 
@@ -47,7 +54,7 @@ const appLd = {
   name: p('h1'),
   url: pageUrl,
   description: p('description'),
-  applicationCategory: 'MultimediaApplication',
+  applicationCategory: tool === 'calc' ? 'UtilitiesApplication' : 'MultimediaApplication',
   operatingSystem: 'Any',
   browserRequirements: 'Requires a modern web browser',
   inLanguage: getLanguage(lang).htmlLang,
@@ -74,7 +81,9 @@ const breadcrumbLd = {
   <h1>{p('h1')}</h1>
   <p class="lead">{p('intro')}</p>
 
-  <ResizerTool lang={lang} preset={preset} format={format} unit={unit} dpi={dpi} mode={mode} />
+  {tool === 'pdf' && <PdfTool lang={lang} />}
+  {tool === 'calc' && <CalcTool lang={lang} from={calcFrom} to={calcTo} dpi={dpi} />}
+  {tool === 'resizer' && <ResizerTool lang={lang} preset={preset} format={format} unit={unit} dpi={dpi} mode={mode} />}
 
   <Sections
     lang={lang}

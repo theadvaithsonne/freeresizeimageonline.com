@@ -8,7 +8,7 @@
  *   encoder.dispose();
  */
 export * from './types';
-export { toPixels, fromPixels, fromPixelsExact, lockedCounterpart, dpiForUnitChange } from './units';
+export { toPixels, fromPixels, fromPixelsExact, convertLength, lockedCounterpart, dpiForUnitChange } from './units';
 export { planResize } from './geometry';
 export { previewEdge, previewSize, showsResultAsIs } from './preview';
 export { fitToTargetSize } from './target-size';
@@ -20,3 +20,4 @@ export { zipFiles } from './zip';
 export { downloadBlob } from './download';
 export { decodeImage, looksLikeImage } from './decode';
 export { outputName, formatFromMime } from './naming';
+export { buildPdf, planPage, type PdfOptions, type PdfPicture, type PdfPageSize, type PdfOrientation } from './pdf';

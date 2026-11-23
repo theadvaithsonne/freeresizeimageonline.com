@@ -113,6 +113,82 @@
       "limitNote": "Bei PNG lässt sich die Datei nicht auf Ihre Größenbegrenzung verkleinern. Wählen Sie JPG oder WebP, um sie einzuhalten.",
       "progress": "Fortschritt der Größenänderung"
     },
-    "noscript": "Für die Größenänderung in Ihrem Browser wird JavaScript benötigt. Bitte schalten Sie es ein."
+    "noscript": "Für die Größenänderung in Ihrem Browser wird JavaScript benötigt. Bitte schalten Sie es ein.",
+    "pdf": {
+      "aria": "Bilder in PDF umwandeln",
+      "hint": "Fügen Sie mehrere Bilder hinzu, um ein PDF zu erstellen. Jedes Bild wird eine Seite.",
+      "options": {
+        "title": "PDF-Optionen",
+        "pageSize": "Seitengröße",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Wie das Bild",
+        "orientation": "Seitenausrichtung",
+        "auto": "Automatisch",
+        "portrait": "Hochformat",
+        "landscape": "Querformat",
+        "margin": "Rand",
+        "none": "Kein Rand",
+        "small": "Kleiner Rand",
+        "big": "Großer Rand",
+        "quality": "Bildqualität",
+        "high": "Hohe Qualität",
+        "balanced": "Ausgewogen",
+        "low": "Kleine Datei",
+        "qualityNote": "Höhere Qualität behält mehr Details und ergibt ein größeres PDF."
+      },
+      "actions": {
+        "create": "PDF erstellen",
+        "working": "Seite {done} von {total} wird hinzugefügt...",
+        "download": "PDF herunterladen",
+        "again": "Weiteres PDF erstellen"
+      },
+      "list": {
+        "title": "Seiten ({count})",
+        "up": "{name} nach oben verschieben",
+        "down": "{name} nach unten verschieben"
+      },
+      "result": {
+        "title": "Ihr PDF ist fertig",
+        "info": "{pages} Seiten, {size}"
+      },
+      "errors": {
+        "empty": "Fügen Sie zuerst mindestens ein Bild hinzu.",
+        "unreadable": "{name} konnte nicht als Bild gelesen werden.",
+        "failed": "Das PDF konnte nicht erstellt werden. Bitte versuchen Sie es mit weniger oder kleineren Bildern erneut."
+      }
+    },
+    "calc": {
+      "aria": "Größenrechner",
+      "title": "Größe umrechnen",
+      "width": "Breite",
+      "height": "Höhe (optional)",
+      "invalid": "Bitte geben Sie eine Zahl größer als null ein.",
+      "from": "Von",
+      "to": "Nach",
+      "swap": "Einheiten tauschen",
+      "dpi": "DPI (Punkte pro Zoll)",
+      "dpiNote": "300 DPI ist der übliche Wert für den Druck. Bildschirme verwenden 72 oder 96.",
+      "result": "Ergebnis",
+      "empty": "Geben Sie eine Größe ein, um das Ergebnis zu sehen.",
+      "copy": "Kopieren",
+      "copied": "Kopiert",
+      "resizeLink": "Bild auf diese Größe bringen",
+      "units": {
+        "px": "Pixel (px)",
+        "cm": "Zentimeter (cm)",
+        "mm": "Millimeter (mm)",
+        "in": "Zoll (in)"
+      },
+      "table": {
+        "title": "Gängige Größen in Pixeln bei {dpi} DPI",
+        "size": "Größe",
+        "dimensions": "Breite × Höhe",
+        "pixels": "Pixel",
+        "passport": "Passfoto",
+        "print": "Fotoabzug",
+        "card": "Visitenkarte"
+      }
+    }
   }
 }

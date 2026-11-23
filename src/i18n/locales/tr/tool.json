@@ -113,6 +113,82 @@
       "limitNote": "PNG, dosya boyutu sınırınıza sığacak kadar küçültülemez. Sınıra uymak için JPG veya WebP seçin.",
       "progress": "Boyutlandırma ilerlemesi"
     },
-    "noscript": "Resimleri tarayıcınızda boyutlandırmak için JavaScript gerekir. Lütfen JavaScript'i açın."
+    "noscript": "Resimleri tarayıcınızda boyutlandırmak için JavaScript gerekir. Lütfen JavaScript'i açın.",
+    "pdf": {
+      "aria": "Resimleri PDF'ye çevirme",
+      "hint": "Tek bir PDF yapmak için birkaç resim ekleyin. Her resim bir sayfa olur.",
+      "options": {
+        "title": "PDF seçenekleri",
+        "pageSize": "Sayfa boyutu",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Resmin boyutunda",
+        "orientation": "Sayfa yönü",
+        "auto": "Otomatik",
+        "portrait": "Dikey",
+        "landscape": "Yatay",
+        "margin": "Kenar boşluğu",
+        "none": "Boşluk yok",
+        "small": "Küçük boşluk",
+        "big": "Büyük boşluk",
+        "quality": "Resim kalitesi",
+        "high": "Yüksek kalite",
+        "balanced": "Dengeli",
+        "low": "Küçük dosya",
+        "qualityNote": "Daha yüksek kalite daha fazla ayrıntıyı korur ve PDF'yi büyütür."
+      },
+      "actions": {
+        "create": "PDF oluştur",
+        "working": "Sayfa ekleniyor: {done} / {total}...",
+        "download": "PDF'yi indir",
+        "again": "Başka bir PDF oluştur"
+      },
+      "list": {
+        "title": "Sayfalar ({count})",
+        "up": "{name} dosyasını yukarı taşı",
+        "down": "{name} dosyasını aşağı taşı"
+      },
+      "result": {
+        "title": "PDF'niz hazır",
+        "info": "{pages} sayfa, {size}"
+      },
+      "errors": {
+        "empty": "Önce en az bir resim ekleyin.",
+        "unreadable": "{name} resim olarak okunamadı.",
+        "failed": "PDF oluşturulamadı. Lütfen daha az sayıda veya daha küçük resimle yeniden deneyin."
+      }
+    },
+    "calc": {
+      "aria": "Boyut dönüştürücü",
+      "title": "Boyutu dönüştür",
+      "width": "Genişlik",
+      "height": "Yükseklik (isteğe bağlı)",
+      "invalid": "Lütfen sıfırdan büyük bir sayı girin.",
+      "from": "Şundan",
+      "to": "Şuna",
+      "swap": "Birimleri değiştir",
+      "dpi": "DPI (inç başına nokta)",
+      "dpiNote": "Baskı için olağan değer 300 DPI'dır. Ekranlar 72 veya 96 kullanır.",
+      "result": "Sonuç",
+      "empty": "Sonucu görmek için bir boyut yazın.",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "resizeLink": "Resmi bu boyuta getir",
+      "units": {
+        "px": "Piksel (px)",
+        "cm": "Santimetre (cm)",
+        "mm": "Milimetre (mm)",
+        "in": "İnç (in)"
+      },
+      "table": {
+        "title": "{dpi} DPI'da yaygın boyutlar (piksel olarak)",
+        "size": "Boyut",
+        "dimensions": "Genişlik × yükseklik",
+        "pixels": "Piksel",
+        "passport": "Pasaport fotoğrafı",
+        "print": "Fotoğraf baskısı",
+        "card": "Kartvizit"
+      }
+    }
   }
 }

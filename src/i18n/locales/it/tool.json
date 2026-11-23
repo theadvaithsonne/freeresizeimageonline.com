@@ -113,6 +113,82 @@
       "limitNote": "Il PNG non può essere rimpicciolito per rientrare nel limite di peso del file. Scegli JPG o WebP per rispettarlo.",
       "progress": "Avanzamento del ridimensionamento"
     },
-    "noscript": "Per ridimensionare le immagini nel tuo browser serve JavaScript. Attivalo, per favore."
+    "noscript": "Per ridimensionare le immagini nel tuo browser serve JavaScript. Attivalo, per favore.",
+    "pdf": {
+      "aria": "Da immagini a PDF",
+      "hint": "Aggiungi più immagini per creare un unico PDF. Ogni immagine diventa una pagina.",
+      "options": {
+        "title": "Opzioni PDF",
+        "pageSize": "Dimensione della pagina",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Come l'immagine",
+        "orientation": "Orientamento della pagina",
+        "auto": "Automatico",
+        "portrait": "Verticale",
+        "landscape": "Orizzontale",
+        "margin": "Margine",
+        "none": "Nessun margine",
+        "small": "Margine piccolo",
+        "big": "Margine grande",
+        "quality": "Qualità delle immagini",
+        "high": "Alta qualità",
+        "balanced": "Equilibrata",
+        "low": "File leggero",
+        "qualityNote": "Una qualità più alta conserva più dettagli e dà un PDF più pesante."
+      },
+      "actions": {
+        "create": "Crea PDF",
+        "working": "Aggiunta della pagina {done} di {total}...",
+        "download": "Scarica il PDF",
+        "again": "Crea un altro PDF"
+      },
+      "list": {
+        "title": "Pagine ({count})",
+        "up": "Sposta {name} in alto",
+        "down": "Sposta {name} in basso"
+      },
+      "result": {
+        "title": "Il tuo PDF è pronto",
+        "info": "{pages} pagine, {size}"
+      },
+      "errors": {
+        "empty": "Aggiungi prima almeno un'immagine.",
+        "unreadable": "Non è stato possibile leggere {name} come immagine.",
+        "failed": "Non è stato possibile creare il PDF. Riprova con meno immagini o con immagini più piccole."
+      }
+    },
+    "calc": {
+      "aria": "Convertitore di misure",
+      "title": "Converti una misura",
+      "width": "Larghezza",
+      "height": "Altezza (facoltativa)",
+      "invalid": "Inserisci un numero maggiore di zero.",
+      "from": "Da",
+      "to": "A",
+      "swap": "Scambia le unità",
+      "dpi": "DPI (punti per pollice)",
+      "dpiNote": "Per la stampa il valore abituale è 300 DPI. Gli schermi usano 72 o 96.",
+      "result": "Risultato",
+      "empty": "Scrivi una misura per vedere il risultato.",
+      "copy": "Copia",
+      "copied": "Copiato",
+      "resizeLink": "Ridimensiona un'immagine a questa misura",
+      "units": {
+        "px": "Pixel (px)",
+        "cm": "Centimetri (cm)",
+        "mm": "Millimetri (mm)",
+        "in": "Pollici (in)"
+      },
+      "table": {
+        "title": "Misure comuni in pixel a {dpi} DPI",
+        "size": "Misura",
+        "dimensions": "Larghezza × altezza",
+        "pixels": "Pixel",
+        "passport": "Foto passaporto",
+        "print": "Stampa fotografica",
+        "card": "Biglietto da visita"
+      }
+    }
   }
 }

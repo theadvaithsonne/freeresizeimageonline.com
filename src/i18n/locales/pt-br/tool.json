@@ -113,6 +113,82 @@
       "limitNote": "Não é possível reduzir um PNG para caber no seu limite de tamanho. Escolha JPG ou WebP para manter o limite.",
       "progress": "Progresso do redimensionamento"
     },
-    "noscript": "É preciso ativar o JavaScript para redimensionar imagens no navegador. Ative-o e tente de novo."
+    "noscript": "É preciso ativar o JavaScript para redimensionar imagens no navegador. Ative-o e tente de novo.",
+    "pdf": {
+      "aria": "Imagens para PDF",
+      "hint": "Adicione várias imagens para criar um só PDF. Cada imagem vira uma página.",
+      "options": {
+        "title": "Opções do PDF",
+        "pageSize": "Tamanho da página",
+        "a4": "A4",
+        "letter": "Carta (EUA)",
+        "fit": "Igual à imagem",
+        "orientation": "Orientação da página",
+        "auto": "Automática",
+        "portrait": "Retrato",
+        "landscape": "Paisagem",
+        "margin": "Margem",
+        "none": "Sem margem",
+        "small": "Margem pequena",
+        "big": "Margem grande",
+        "quality": "Qualidade da imagem",
+        "high": "Alta qualidade",
+        "balanced": "Equilibrada",
+        "low": "Arquivo pequeno",
+        "qualityNote": "Mais qualidade mantém mais detalhes e deixa o PDF maior."
+      },
+      "actions": {
+        "create": "Criar PDF",
+        "working": "Adicionando a página {done} de {total}...",
+        "download": "Baixar PDF",
+        "again": "Criar outro PDF"
+      },
+      "list": {
+        "title": "Páginas ({count})",
+        "up": "Mover {name} para cima",
+        "down": "Mover {name} para baixo"
+      },
+      "result": {
+        "title": "Seu PDF está pronto",
+        "info": "Páginas: {pages} · {size}"
+      },
+      "errors": {
+        "empty": "Adicione pelo menos uma imagem primeiro.",
+        "unreadable": "Não foi possível ler {name} como imagem.",
+        "failed": "Não foi possível criar o PDF. Tente de novo com menos imagens ou com imagens menores."
+      }
+    },
+    "calc": {
+      "aria": "Conversor de tamanho",
+      "title": "Converter um tamanho",
+      "width": "Largura",
+      "height": "Altura (opcional)",
+      "invalid": "Digite um número maior que zero.",
+      "from": "De",
+      "to": "Para",
+      "swap": "Inverter as unidades",
+      "dpi": "DPI (pontos por polegada)",
+      "dpiNote": "300 DPI é o valor usual para impressão. As telas usam 72 ou 96.",
+      "result": "Resultado",
+      "empty": "Digite um tamanho para ver o resultado.",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "resizeLink": "Redimensionar uma imagem para este tamanho",
+      "units": {
+        "px": "Pixels (px)",
+        "cm": "Centímetros (cm)",
+        "mm": "Milímetros (mm)",
+        "in": "Polegadas (in)"
+      },
+      "table": {
+        "title": "Tamanhos comuns em pixels a {dpi} DPI",
+        "size": "Tamanho",
+        "dimensions": "Largura × altura",
+        "pixels": "Pixels",
+        "passport": "Foto de passaporte",
+        "print": "Foto impressa",
+        "card": "Cartão de visita"
+      }
+    }
   }
 }

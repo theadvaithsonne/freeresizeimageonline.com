@@ -113,6 +113,82 @@
       "limitNote": "PNG는 파일 용량 제한에 맞게 줄일 수 없습니다. 제한을 지키려면 JPG나 WebP를 선택하세요.",
       "progress": "크기 조절 진행 상황"
     },
-    "noscript": "브라우저에서 이미지 크기를 조절하려면 JavaScript가 필요합니다. JavaScript를 켜 주세요."
+    "noscript": "브라우저에서 이미지 크기를 조절하려면 JavaScript가 필요합니다. JavaScript를 켜 주세요.",
+    "pdf": {
+      "aria": "이미지를 PDF로 변환",
+      "hint": "사진 여러 장을 추가하면 PDF 하나로 만들어요. 이미지 한 장이 한 페이지가 됩니다.",
+      "options": {
+        "title": "PDF 옵션",
+        "pageSize": "페이지 크기",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "이미지와 같은 크기",
+        "orientation": "페이지 방향",
+        "auto": "자동",
+        "portrait": "세로",
+        "landscape": "가로",
+        "margin": "여백",
+        "none": "여백 없음",
+        "small": "좁은 여백",
+        "big": "넓은 여백",
+        "quality": "이미지 품질",
+        "high": "고화질",
+        "balanced": "균형",
+        "low": "작은 용량",
+        "qualityNote": "품질이 높을수록 디테일이 더 많이 유지되고 PDF도 커집니다."
+      },
+      "actions": {
+        "create": "PDF 만들기",
+        "working": "{total}페이지 중 {done}페이지 추가 중...",
+        "download": "PDF 다운로드",
+        "again": "PDF 하나 더 만들기"
+      },
+      "list": {
+        "title": "페이지 ({count})",
+        "up": "{name} 위로 이동",
+        "down": "{name} 아래로 이동"
+      },
+      "result": {
+        "title": "PDF가 준비되었어요",
+        "info": "{pages}페이지, {size}"
+      },
+      "errors": {
+        "empty": "먼저 이미지를 하나 이상 추가해 주세요.",
+        "unreadable": "{name}을(를) 이미지로 읽을 수 없습니다.",
+        "failed": "PDF를 만들지 못했습니다. 이미지 수를 줄이거나 더 작은 이미지로 다시 시도해 주세요."
+      }
+    },
+    "calc": {
+      "aria": "크기 변환기",
+      "title": "크기 변환",
+      "width": "가로",
+      "height": "세로 (선택)",
+      "invalid": "0보다 큰 숫자를 입력해 주세요.",
+      "from": "변환 전",
+      "to": "변환 후",
+      "swap": "단위 바꾸기",
+      "dpi": "DPI (인치당 점 수)",
+      "dpiNote": "인쇄에는 보통 300 DPI를 씁니다. 화면은 72 또는 96 DPI를 사용합니다.",
+      "result": "결과",
+      "empty": "크기를 입력하면 결과가 표시됩니다.",
+      "copy": "복사",
+      "copied": "복사됨",
+      "resizeLink": "이 크기로 이미지 크기 조절",
+      "units": {
+        "px": "픽셀 (px)",
+        "cm": "센티미터 (cm)",
+        "mm": "밀리미터 (mm)",
+        "in": "인치 (in)"
+      },
+      "table": {
+        "title": "{dpi} DPI에서 자주 쓰는 크기 (픽셀)",
+        "size": "크기",
+        "dimensions": "가로 × 세로",
+        "pixels": "픽셀",
+        "passport": "여권 사진",
+        "print": "인화 사진",
+        "card": "명함"
+      }
+    }
   }
 }

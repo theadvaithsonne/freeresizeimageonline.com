@@ -24,7 +24,16 @@
     "pixels": "Größe in Pixeln ändern",
     "bulk": "Mehrere Bilder verkleinern",
     "jpgToWebp": "JPG in WebP umwandeln",
-    "pngToWebp": "PNG in WebP umwandeln"
+    "pngToWebp": "PNG in WebP umwandeln",
+    "kb300": "Auf 300 KB verkleinern",
+    "mb2": "Auf 2 MB verkleinern",
+    "imageToPdf": "Bild in PDF umwandeln",
+    "jpgToPdf": "JPG in PDF umwandeln",
+    "pngToPdf": "PNG in PDF umwandeln",
+    "cmToPx": "cm in Pixel",
+    "inToPx": "Zoll in Pixel",
+    "mmToPx": "mm in Pixel",
+    "pxToCm": "Pixel in cm"
   },
   "common": {
     "howTo": "So funktioniert es",
@@ -113,8 +122,8 @@
     }
   },
   "kb": {
-    "title": "Bild auf KB verkleinern online - 10, 20, 50, 100, 200 KB",
-    "description": "Bild in KB online kostenlos verkleinern: Foto auf 10, 20, 30, 50, 100, 200 oder 500 KB bringen, für Formulare und Uploads. Ohne Anmeldung, privat.",
+    "title": "Bild auf KB verkleinern online - 20, 50, 100, 200, 300 KB",
+    "description": "Bild auf KB online kostenlos verkleinern: Foto auf 10, 20, 50, 100, 200, 500 KB oder eine eigene Größe wie 300 KB bringen. Ohne Anmeldung, privat.",
     "h1": "Bild auf KB verkleinern (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Viele Online-Formulare, Prüfungsportale und Jobbörsen lehnen Fotos über einer Größengrenze wie 50 KB oder 200 KB ab. Dieses Tool verkleinert Ihr Bild auf die gewählte Grenze und behält dabei so viel Qualität wie möglich.",
     "steps": [
@@ -163,7 +172,7 @@
   },
   "cm": {
     "title": "Bildgröße in cm, mm oder Zoll ändern - kostenlos online",
-    "description": "Bildgröße in cm online kostenlos ändern: genaue Größe eines Fotos in Zentimetern, Millimetern oder Zoll mit dem richtigen DPI-Wert. Ohne Anmeldung, privat.",
+    "description": "Bildgröße in cm online kostenlos ändern: Foto in Zentimetern, Millimetern oder Zoll einstellen, das Tool rechnet mit DPI in Pixel um. Ohne Anmeldung, privat.",
     "h1": "Bildgröße in cm, mm oder Zoll ändern",
     "intro": "Für Druck und amtliche Formulare wird die Größe oft in Zentimetern oder Zoll statt in Pixeln verlangt. Geben Sie die Größe und die DPI ein, und das Tool berechnet die Pixel für Sie.",
     "steps": [
@@ -211,9 +220,9 @@
     ]
   },
   "passport": {
-    "title": "Passfoto- und Visumfoto-Größe nach Land - kostenlos ändern",
-    "description": "Größen für Passfotos und Visumfotos nach Land in mm, Zoll und Pixeln, plus ein kostenloses Tool, um Ihr Foto anzupassen, auch für 2 x 2 Zoll und 35 x 45 mm.",
-    "h1": "Passfoto- und Visumfoto-Größe",
+    "title": "Passbild-Größe und Visumfoto-Größe nach Land - kostenlos",
+    "description": "Passbild-Größe und Passfoto-Größe nach Land in mm, Zoll und Pixeln (35 x 45 mm, 2 x 2 Zoll), plus ein kostenloses Tool, um Ihr Foto anzupassen.",
+    "h1": "Passbild-Größe und Visumfoto-Größe",
     "intro": "Verschiedene Länder verlangen unterschiedliche Fotogrößen. Wählen Sie Ihr Land in der Vorlagenliste, um Ihr Foto bei 300 DPI auf die genauen Abmessungen zuzuschneiden und zu skalieren.",
     "note": "Die Regeln ändern sich, und jeder Antrag kann eigene Anforderungen stellen, etwa zu Hintergrundfarbe, Kopfgröße oder keine Brille. Prüfen Sie vor dem Einreichen immer die offiziellen Vorgaben. Dieses Tool legt nur die Größe fest; Kopfgröße und Hintergrund prüft es nicht.",
     "tableTitle": "Gängige Fotogrößen",
@@ -262,9 +271,9 @@
     ]
   },
   "social": {
-    "title": "Bildgrößen für soziale Medien - Instagram, YouTube, Facebook",
-    "description": "Bildgrößen für Instagram, Facebook, YouTube, X, LinkedIn und Pinterest, plus ein kostenloses Tool, um Ihr Bild ohne Zuschneiden einzupassen.",
-    "h1": "Bildgrößen für soziale Medien",
+    "title": "Bildgröße für Instagram, YouTube, WhatsApp und Facebook",
+    "description": "Bildgröße für Instagram, Facebook, YouTube Thumbnail, WhatsApp Profilbild, X, LinkedIn und Pinterest, plus ein kostenloses Tool zum passenden Zuschneiden.",
+    "h1": "Bildgröße für Instagram, YouTube, WhatsApp und Facebook",
     "intro": "Beiträge wirken am besten, wenn das Bild schon die richtige Form hat. Wählen Sie eine Plattform in der Vorlagenliste, und das Tool schneidet Ihr Bild passend zu und ändert die Größe.",
     "note": "Die Plattformen aktualisieren ihre Empfehlungen von Zeit zu Zeit. Dies sind weit verbreitete Größen, die mit den aktuellen Formaten gut funktionieren.",
     "tableTitle": "Größen nach Plattform",
@@ -312,9 +321,9 @@
     ]
   },
   "convert": {
-    "title": "JPG, PNG und WebP konvertieren - kostenloser Bildkonverter",
-    "description": "Bilder online kostenlos zwischen JPG, PNG und WebP konvertieren. Ohne Anmeldung, ohne Upload, mit frei wählbarer Qualität. Für Smartphone und Computer.",
-    "h1": "Bilder zwischen JPG, PNG und WebP konvertieren",
+    "title": "Bild konvertieren online - JPG, PNG und WebP, kostenlos",
+    "description": "Bild online kostenlos konvertieren und umwandeln: zwischen JPG, PNG und WebP, ohne Anmeldung, ohne Upload, mit frei wählbarer Qualität. Für Smartphone und PC.",
+    "h1": "Bild konvertieren: JPG, PNG und WebP umwandeln",
     "intro": "Wählen Sie das gewünschte Format, und das Tool konvertiert jedes Bild, das Sie hinzufügen. Es wird nichts hochgeladen.",
     "steps": [
       {
@@ -357,9 +366,9 @@
     ]
   },
   "compress": {
-    "title": "Bilder online komprimieren - Fotogröße kostenlos reduzieren",
-    "description": "Bilder online kostenlos komprimieren: Fotos ohne sichtbaren Qualitätsverlust verkleinern oder auf ein KB-Limit bringen. Ohne Anmeldung, ohne Upload.",
-    "h1": "Bilder online komprimieren",
+    "title": "Bild komprimieren online - kostenlos, ohne Anmeldung",
+    "description": "Bild online kostenlos komprimieren: Fotos ohne sichtbaren Qualitätsverlust verkleinern oder auf ein KB-Limit bringen. Ohne Anmeldung, ohne Upload.",
+    "h1": "Bild komprimieren online",
     "intro": "Kleinere Bilder laden schneller, passen in E-Mails und sparen Speicherplatz. Das Tool kodiert Ihre Bilder mit modernen Kompressoren neu und lässt Sie eine Qualitätsstufe oder eine maximale Dateigröße festlegen.",
     "steps": [
       {
@@ -514,7 +523,7 @@
   },
   "kb100": {
     "title": "Bild auf 100 KB verkleinern - Foto kostenlos online",
-    "description": "Bild auf 100 KB online kostenlos verkleinern: auf 100 KB oder weniger, für Bewerbungen, KYC und Dokument-Uploads. Ohne Anmeldung und vollständig privat.",
+    "description": "Bild auf 100 KB online kostenlos verkleinern oder komprimieren: auf 100 KB oder weniger, für Bewerbungen, KYC und Dokument-Uploads. Ohne Anmeldung, privat.",
     "h1": "Bild auf 100 KB verkleinern",
     "intro": "100 KB ist ein gängiges Limit für Bewerbungsfotos, gescannte Ausweise und Profilbilder. Fügen Sie Ihr Bild hinzu und erhalten Sie ein JPG unter 100 KB (100.000 Byte) in der höchsten Qualität, die passt.",
     "blurb": "Bild für Bewerbungen und KYC unter 100 KB bringen.",
@@ -726,7 +735,7 @@
   },
   "jpgToPng": {
     "title": "JPG in PNG umwandeln - kostenlos, ohne Upload",
-    "description": "JPG in PNG online kostenlos im Browser umwandeln. Ohne Anmeldung, ohne Upload und ohne Wasserzeichen, auf Smartphone und Computer.",
+    "description": "JPG in PNG online kostenlos umwandeln: JPG-Bilder im Browser in PNG konvertieren. Ohne Anmeldung, ohne Upload, ohne Wasserzeichen, auf Smartphone und PC.",
     "h1": "JPG in PNG umwandeln",
     "intro": "Sie brauchen ein PNG für ein Logo, ein Grafikprogramm oder ein Formular, das kein JPG akzeptiert? Fügen Sie Ihre JPG-Dateien hinzu und laden Sie in einem Schritt verlustfreie PNG-Dateien herunter. Alles läuft in Ihrem Browser.",
     "blurb": "JPG-Dateien in verlustfreie PNG-Dateien umwandeln.",
@@ -779,7 +788,7 @@
   },
   "webpToJpg": {
     "title": "WebP in JPG umwandeln - kostenlos, ohne Upload",
-    "description": "WebP in JPG online kostenlos umwandeln: JPG-Dateien, die sich überall öffnen lassen. Ohne Anmeldung, ohne Upload, auf Smartphone und Computer.",
+    "description": "WebP in JPG online kostenlos umwandeln und konvertieren: JPG-Dateien, die sich überall öffnen lassen. Ohne Anmeldung, ohne Upload, auf Smartphone und Computer.",
     "h1": "WebP in JPG umwandeln",
     "intro": "Websites speichern Bilder oft als WebP, aber viele Programme, Drucker und Upload-Formulare akzeptieren nur JPG. Fügen Sie Ihre WebP-Bilder hinzu und laden Sie JPG-Dateien herunter, die sich überall öffnen lassen.",
     "blurb": "WebP-Bilder in JPG-Dateien umwandeln, die überall funktionieren.",
@@ -1050,9 +1059,9 @@
     }
   },
   "pixels": {
-    "title": "Bildgröße in Pixeln ändern - Breite und Höhe festlegen",
-    "description": "Bildgröße in Pixeln online kostenlos ändern: exakte Breite und Höhe eingeben, Seitenverhältnis beibehalten, einpassen oder zuschneiden. Ohne Anmeldung, privat.",
-    "h1": "Bildgröße in Pixeln ändern",
+    "title": "Bildgröße in Pixel ändern - Breite und Höhe, kostenlos",
+    "description": "Bildgröße in Pixel online kostenlos ändern: exakte Breite und Höhe eingeben, ohne Verzerrung einpassen oder zuschneiden. Ohne Anmeldung, privat.",
+    "h1": "Bildgröße in Pixel ändern",
     "intro": "Legen Sie die exakte Breite und Höhe eines Bildes in Pixeln fest, für eine Website, ein Antragsformular, ein Vorschaubild oder einen Beitrag in sozialen Medien. Fügen Sie Ihr Bild hinzu, geben Sie die Größe ein und laden Sie das Ergebnis herunter. Das Seitenverhältnis ist standardmäßig gesperrt, daher wirkt nichts gestreckt.",
     "blurb": "Exakte Breite und Höhe in Pixeln festlegen.",
     "steps": [
@@ -1103,9 +1112,9 @@
     }
   },
   "bulk": {
-    "title": "Mehrere Bilder gleichzeitig verkleinern - Batch, kostenlos",
-    "description": "Mehrere Bilder gleichzeitig verkleinern: Hunderte Fotos auf eine Größe oder ein Dateilimit bringen und als ZIP laden. Kostenlos, ohne Anmeldung, privat.",
-    "h1": "Mehrere Bilder gleichzeitig verkleinern",
+    "title": "Mehrere Bilder verkleinern - gleichzeitig, online, kostenlos",
+    "description": "Mehrere Bilder gleichzeitig verkleinern: Hunderte Fotos online auf eine Größe oder ein Dateilimit bringen und als ZIP laden. Kostenlos, ohne Anmeldung, privat.",
+    "h1": "Mehrere Bilder verkleinern – gleichzeitig und kostenlos",
     "intro": "Verkleinern Sie viele Bilder in einem Rutsch. Fügen Sie einen ganzen Ordner mit Fotos hinzu, wählen Sie eine Größe oder ein Dateigrößen-Limit für alle und laden Sie die Ergebnisse als eine ZIP-Datei herunter. Alles geschieht auf Ihrem Gerät, es gibt also keinen Upload und keine Wartezeit.",
     "blurb": "Viele Fotos auf einmal verkleinern und als ZIP herunterladen.",
     "steps": [
@@ -1157,7 +1166,7 @@
   },
   "jpgToWebp": {
     "title": "JPG in WebP umwandeln - kostenlos, ohne Upload",
-    "description": "JPG in WebP online im Browser umwandeln: kleinere Dateien und schnellere Seiten. Kostenlos, ohne Anmeldung, ohne Upload und mit frei wählbarer Qualität.",
+    "description": "JPG in WebP online im Browser umwandeln und konvertieren: kleinere Dateien, schnellere Seiten. Kostenlos, ohne Anmeldung, ohne Upload, Qualität frei wählbar.",
     "h1": "JPG in WebP umwandeln",
     "intro": "WebP-Dateien sind bei ähnlicher Qualität meist kleiner als JPG-Dateien, wodurch Websites schneller laden. Fügen Sie Ihre JPG-Bilder hinzu und laden Sie in Sekunden WebP-Dateien herunter. Es wird nichts hochgeladen: Die Umwandlung geschieht auf Ihrem Gerät.",
     "blurb": "JPG-Bilder in kleinere WebP-Dateien umwandeln.",
@@ -1210,7 +1219,7 @@
   },
   "pngToWebp": {
     "title": "PNG in WebP umwandeln - kostenlos, ohne Upload",
-    "description": "PNG in WebP online im Browser umwandeln: viel kleinere Dateien, Transparenz bleibt erhalten. Kostenlos, ohne Anmeldung, ohne Upload, Qualität frei wählbar.",
+    "description": "PNG in WebP online im Browser umwandeln und konvertieren: viel kleinere Dateien, Transparenz bleibt erhalten. Kostenlos, ohne Anmeldung und Upload.",
     "h1": "PNG in WebP umwandeln",
     "intro": "PNG-Dateien können sehr groß sein, vor allem bei Fotos und Screenshots. WebP behält auch die Transparenz und ist meist viel kleiner. Fügen Sie Ihre PNG-Bilder hinzu und laden Sie in Sekunden WebP-Dateien herunter. Es wird nichts hochgeladen: Die Umwandlung geschieht auf Ihrem Gerät.",
     "blurb": "PNG-Bilder in viel kleinere WebP-Dateien umwandeln.",
@@ -1257,6 +1266,496 @@
         {
           "q": "Ist es kostenlos?",
           "a": "Ja. Es gibt keine Anmeldung, kein Wasserzeichen und keine Begrenzung der Bildanzahl."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Bild auf 300 KB verkleinern - Foto kostenlos online",
+    "description": "Bild auf 300 KB online kostenlos verkleinern: Foto für Formulare und Uploads auf 300 KB oder weniger bringen, scharf. Ohne Anmeldung, bleibt auf Ihrem Gerät.",
+    "h1": "Bild auf 300 KB verkleinern",
+    "intro": "Viele Antragsformulare, Prüfungsportale und Websites verlangen ein Foto mit höchstens 300 KB. Diese Seite stellt das Limit für Sie ein: Fügen Sie Ihr Bild hinzu und laden Sie eine Datei unter 300 KB herunter, die weiterhin klar aussieht.",
+    "blurb": "Bild für Formulare und Uploads unter 300 KB bringen.",
+    "steps": [
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Große Smartphone-Fotos sind kein Problem."
+      },
+      {
+        "title": "300-KB-Limit beibehalten",
+        "text": "300 KB ist bereits voreingestellt. Das Tool rechnet 300 KB als 300.000 Byte, sodass die Datei auf Systemen durchgeht, die 1 KB als 1.000 Byte zählen, und auf solchen, die 1.024 zählen."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Datei herunter. Das Ergebnis zeigt seine genaue Größe."
+      }
+    ],
+    "tipsTitle": "Tipps, um unter 300 KB zu bleiben",
+    "tips": [
+      "Wählen Sie JPG für Fotos. Ein als PNG gespeichertes Foto ist beim selben Bild meist um ein Vielfaches größer.",
+      "Verlangt das Formular auch exakte Pixelmaße, stellen Sie zuerst Breite und Höhe ein und lassen Sie dann das Limit von 300 KB eingeschaltet.",
+      "Ein Smartphone-Foto mit 4000 Pixeln Breite passt in hoher Qualität nicht in 300 KB. Lassen Sie das Tool die Pixelgröße etwas senken, dann wird das Ergebnis schärfer, als es die Qualität allein erreichen würde.",
+      "Fügen Sie mehrere Fotos auf einmal hinzu, um alle mit demselben Limit zu verkleinern, und laden Sie dann eine ZIP-Datei herunter."
+    ],
+    "detailsTitle": "Was 300 KB für ein Foto bedeutet",
+    "details": [
+      "Dreihundert Kilobyte sind etwas weniger als ein Drittel Megabyte. Ein JPG dieser Größe fasst je nach Bild ein Foto mit etwa 1500 × 1000 Pixeln und guten Details. Das reicht für ein Formular, einen Ausweis-Upload oder eine Webseite.",
+      "Das Tool sucht die höchste Qualität, die passt, und zeigt Ihnen vor dem Herunterladen die genaue Größe des Ergebnisses. Verlangt das Formular eine kleinere Datei, wählen Sie ein niedrigeres Limit wie 200 KB oder 100 KB und starten Sie erneut."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie verkleinere ich ein Bild auf 300 KB?",
+          "a": "Fügen Sie das Bild hinzu, lassen Sie das voreingestellte Limit von 300 KB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool findet die höchste Qualität, die passt."
+        },
+        {
+          "q": "Sieht das Bild danach schlechter aus?",
+          "a": "Ein wenig, denn eine kleinere Datei enthält weniger Details. Das Tool wählt die beste Qualität, die noch passt, sodass Sie das schärfste Bild unter 300 KB erhalten."
+        },
+        {
+          "q": "Was ist, wenn meine Datei schon unter 300 KB liegt?",
+          "a": "Dann ist sie bereits klein genug. Wählen Sie nur dann ein niedrigeres Limit, wenn das Formular es verlangt."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Bild auf 2 MB verkleinern - kostenlos online",
+    "description": "Bild auf 2 MB online kostenlos verkleinern: Foto für E-Mail, Formulare und Uploads auf 2 MB oder weniger bringen, ohne sichtbaren Verlust. Ohne Anmeldung.",
+    "h1": "Bild auf 2 MB verkleinern",
+    "intro": "E-Mail-Dienste, Antragsformulare und Upload-Seiten akzeptieren oft Bilder bis 2 MB, Smartphone-Fotos sind meist größer. Fügen Sie Ihr Bild hinzu und laden Sie eine Datei unter 2 MB (2.000.000 Byte) herunter, die weiterhin scharf aussieht.",
+    "blurb": "Bild für E-Mail und Uploads unter 2 MB bringen.",
+    "steps": [
+      {
+        "title": "Bild hinzufügen",
+        "text": "Ziehen Sie es hierher oder wählen Sie es von Ihrem Gerät aus. Fotos mit 5 bis 10 MB sind kein Problem."
+      },
+      {
+        "title": "2-MB-Limit beibehalten",
+        "text": "2 MB ist bereits voreingestellt. Das Tool rechnet 2 MB als 2.000.000 Byte, sodass die Datei auf Systemen durchgeht, die 2.000 KB zählen, und auf solchen, die 2.048 KB zählen."
+      },
+      {
+        "title": "Verkleinern und herunterladen",
+        "text": "Klicken Sie auf „Größe ändern“ und laden Sie die Datei herunter. Das Ergebnis zeigt seine genaue Größe."
+      }
+    ],
+    "tipsTitle": "Tipps, um unter 2 MB zu bleiben",
+    "tips": [
+      "Die meisten aktuellen Smartphone-Fotos sind 3 bis 10 MB groß. Zwei Megabyte lassen sich meist erreichen, wenn Sie die Qualität etwas senken, ohne sichtbaren Unterschied auf dem Bildschirm.",
+      "Fotos passen am besten als JPG oder WebP. Ein als PNG gespeichertes Foto ist meist um ein Vielfaches größer.",
+      "Um viele Fotos in einer E-Mail zu senden, fügen Sie alle auf einmal hinzu und laden Sie die ZIP-Datei herunter.",
+      "Screenshots und Logos sind als PNG besser aufgehoben: Sie sind schon klein und behalten scharfe Kanten."
+    ],
+    "detailsTitle": "Was 2 MB für ein Foto bedeutet",
+    "details": [
+      "Zwei Megabyte sind 2.000 Kilobyte. Ein JPG dieser Größe fasst je nach Bild ein Foto mit etwa 3000 × 2000 Pixeln und sehr guten Details, mehr als die meisten Bildschirme anzeigen.",
+      "Das Tool sucht die höchste Qualität, die passt, und zeigt Ihnen vor dem Herunterladen die genaue Größe des Ergebnisses. Die Pixelgröße verringert es nur, wenn sich das Limit allein mit der Qualität nicht erreichen lässt."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie verkleinere ich ein Bild auf 2 MB?",
+          "a": "Fügen Sie das Bild hinzu, lassen Sie das voreingestellte Limit von 2 MB ausgewählt und klicken Sie auf „Größe ändern“. Das Tool findet die höchste Qualität, die passt."
+        },
+        {
+          "q": "Sind 2 MB dasselbe wie 2.048 KB?",
+          "a": "Auf manchen Systemen zählt ein Megabyte 1.024 Kilobyte, auf anderen 1.000. Das Tool verwendet den kleineren Wert (2.000 KB oder 2.000.000 Byte), sodass die Datei in beiden Fällen durchgeht."
+        },
+        {
+          "q": "Wird das Bild auch in Pixeln kleiner?",
+          "a": "Nur wenn es sein muss. Das Tool senkt zuerst die Qualität und verringert die Pixelgröße nur, wenn sich das Limit anders nicht erreichen lässt."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Bild in PDF umwandeln - kostenlos online, ohne Upload",
+    "description": "Bild in PDF online kostenlos umwandeln: JPG-, PNG- und WebP-Bilder im Browser zu einem PDF zusammenfügen. Ohne Anmeldung, Upload und Wasserzeichen.",
+    "h1": "Bild in PDF umwandeln",
+    "intro": "Machen Sie aus einem oder mehreren Bildern ein einziges PDF. Fügen Sie Ihre Bilder hinzu, bringen Sie sie in die gewünschte Reihenfolge, wählen Sie die Seitengröße und laden Sie das PDF herunter. Es entsteht auf Ihrem Gerät, Ihre Bilder werden also nie hochgeladen, es gibt kein Wasserzeichen und keine Begrenzung, wie oft Sie es nutzen.",
+    "blurb": "Bilder auf Ihrem Gerät zu einem PDF zusammenfügen.",
+    "steps": [
+      {
+        "title": "Bilder hinzufügen",
+        "text": "Ziehen Sie JPG-, PNG-, WebP-, GIF- oder BMP-Bilder auf die Seite oder wählen Sie sie von Ihrem Gerät aus. Jedes Bild wird eine Seite."
+      },
+      {
+        "title": "Seiten ordnen und Optionen wählen",
+        "text": "Verschieben Sie eine Seite mit den Pfeilen nach oben oder unten. Wählen Sie A4, US Letter oder „Wie das Bild“, außerdem den Rand und die Qualität."
+      },
+      {
+        "title": "PDF erstellen und herunterladen",
+        "text": "Klicken Sie auf „PDF erstellen“ und laden Sie die Datei herunter. Sie lässt sich mit jedem PDF-Reader öffnen."
+      }
+    ],
+    "tipsTitle": "Tipps für ein gutes PDF aus Bildern",
+    "tips": [
+      "Wählen Sie A4 oder US Letter für Dokumente, die Sie vielleicht drucken. Wählen Sie „Wie das Bild“, wenn das PDF nur für den Bildschirm gedacht ist.",
+      "Für eine kleine Datei (zum Beispiel zum Versenden per E-Mail) wählen Sie „Kleine Datei“. Für Scans von Text und für Screenshots wählen Sie „Hohe Qualität“.",
+      "Hoch oder quer aufgenommene Fotos werden automatisch richtig herum gedreht, anhand der Angaben, die Ihr Smartphone im Bild gespeichert hat.",
+      "Transparente Bereiche von PNG- und WebP-Bildern werden weiß, weil sie als JPEG-Seiten gespeichert werden.",
+      "Das PDF soll unter ein Größenlimit passen? Verkleinern Sie die Bilder zuerst mit dem Tool „Auf KB verkleinern“ und fügen Sie sie dann hier zusammen."
+    ],
+    "detailsTitle": "So entsteht das PDF",
+    "details": [
+      "Jedes Bild kommt auf eine eigene Seite, zentriert und nie verzerrt. Bei A4 oder US Letter wechselt die Seite von selbst ins Querformat, wenn das Bild breiter als hoch ist (oder Sie legen die Ausrichtung selbst fest). Bei „Wie das Bild“ hat die Seite genau die Form des Bildes.",
+      "Das PDF wird von Ihrem Browser erstellt. Ihre Bilder werden auf Ihrem Gerät gelesen, als JPEG-Seiten gespeichert und in die PDF-Datei gepackt, und es wird nichts an einen Server gesendet. Sie können bis zu 100 Bilder zu einem PDF hinzufügen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie wandle ich Bilder in PDF um?",
+          "a": "Fügen Sie Ihre Bilder hinzu, bringen Sie sie in Reihenfolge, wählen Sie die Seitengröße und klicken Sie auf „PDF erstellen“. Laden Sie dann das PDF herunter."
+        },
+        {
+          "q": "Wie füge ich mehrere Fotos zu einem PDF zusammen?",
+          "a": "Fügen Sie alle Fotos auf einmal hinzu. Jedes wird eine Seite, und mit den Pfeilen neben jedem Bild ändern Sie die Reihenfolge, bevor Sie das PDF erstellen."
+        },
+        {
+          "q": "Gibt es eine Begrenzung für Seiten oder Dateigröße?",
+          "a": "Sie können bis zu 100 Bilder zu einem PDF hinzufügen. Es gibt kein Tageslimit und kein Wasserzeichen. Die Größe des PDF hängt von Ihren Bildern und der gewählten Qualität ab."
+        },
+        {
+          "q": "Funktioniert es auf dem Smartphone?",
+          "a": "Ja. Wählen Sie Fotos aus Ihrer Galerie oder Ihren Dateien, ordnen Sie sie und laden Sie das PDF herunter. Es funktioniert in jedem aktuellen Smartphone-Browser."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das PDF wird auf Ihrem Gerät erstellt, und Ihre Bilder verlassen es nie."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "JPG in PDF umwandeln - kostenlos, ohne Upload",
+    "description": "JPG in PDF online kostenlos umwandeln: ein oder mehrere JPG-Fotos im Browser zu einem PDF machen. A4 oder US Letter. Ohne Anmeldung, Upload und Wasserzeichen.",
+    "h1": "JPG in PDF umwandeln",
+    "intro": "Machen Sie aus Ihren JPG-Fotos ein PDF. Fügen Sie ein Bild oder viele hinzu, bringen Sie sie in die richtige Reihenfolge und laden Sie eine einzige PDF-Datei herunter. Es läuft auf Ihrem Gerät, also wird nichts hochgeladen, und es gibt kein Wasserzeichen.",
+    "blurb": "JPG-Fotos in eine PDF-Datei umwandeln.",
+    "steps": [
+      {
+        "title": "JPG-Dateien hinzufügen",
+        "text": "Ziehen Sie ein oder mehrere JPG-Bilder auf die Seite oder wählen Sie sie von Ihrem Gerät aus. Jedes Bild wird eine Seite."
+      },
+      {
+        "title": "Seiten ordnen und Optionen wählen",
+        "text": "Ändern Sie die Reihenfolge mit den Pfeilen. Wählen Sie A4, US Letter oder „Wie das Bild“, außerdem den Rand und die Qualität."
+      },
+      {
+        "title": "PDF erstellen und herunterladen",
+        "text": "Klicken Sie auf „PDF erstellen“ und laden Sie die Datei herunter. Sie lässt sich mit jedem PDF-Reader öffnen."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umwandeln von JPG in PDF",
+    "tips": [
+      "Mit „Hohe Qualität“ behalten Ihre Fotos fast alle Details, sodass das PDF aussieht wie die Bilder auf Ihrem Smartphone.",
+      "Smartphone-Fotos können jeweils mehrere MB groß sein. Wählen Sie „Kleine Datei“, wenn das PDF per E-Mail gesendet oder in ein Formular hochgeladen werden soll.",
+      "Hoch oder quer aufgenommene Fotos werden automatisch richtig herum gedreht.",
+      "Um ein Dokument mit dem Smartphone zu scannen, fotografieren Sie jede Seite, fügen die Fotos hier der Reihe nach hinzu und erstellen das PDF."
+    ],
+    "detailsTitle": "JPG in PDF umwandeln ohne App",
+    "details": [
+      "Eine PDF-Seite kann ein JPG-Bild direkt aufnehmen. Das hält die Umwandlung schnell und das Ergebnis nah an Ihrem Foto. Wählen Sie A4 oder US Letter, wenn Sie das PDF vielleicht drucken, oder „Wie das Bild“ für ein PDF, das auf jeder Seite einfach ein Bild zeigt.",
+      "Das PDF entsteht in Ihrem Browser. Ihre Fotos werden nie hochgeladen, daher ist es auch für Ausweise, Belege und andere private Bilder sicher. Sie können bis zu 100 Bilder zu einem PDF hinzufügen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie wandle ich JPG in PDF um?",
+          "a": "Fügen Sie Ihre JPG-Bilder hinzu, bringen Sie sie in Reihenfolge und klicken Sie auf „PDF erstellen“. Laden Sie dann das PDF herunter."
+        },
+        {
+          "q": "Kann ich mehrere JPG-Dateien in ein PDF packen?",
+          "a": "Ja. Fügen Sie alle auf einmal hinzu. Jedes Bild wird eine Seite, und mit den Pfeilen ändern Sie die Reihenfolge."
+        },
+        {
+          "q": "Geht beim Umwandeln von JPG in PDF Qualität verloren?",
+          "a": "Kaum. Mit „Hohe Qualität“ bleiben die Bilder fast in vollem Detail erhalten. Wählen Sie „Kleine Datei“ nur, wenn Sie ein kleineres PDF brauchen."
+        },
+        {
+          "q": "Wie bekomme ich ein PDF unter 1 MB oder 200 KB?",
+          "a": "Wählen Sie „Kleine Datei“ und fügen Sie weniger Bilder pro PDF hinzu. Ist es immer noch zu groß, verkleinern Sie jedes Bild zuerst mit dem Tool „Auf KB verkleinern“."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "PNG in PDF umwandeln - kostenlos, ohne Upload",
+    "description": "PNG in PDF online kostenlos umwandeln: Screenshots und PNG-Bilder im Browser zu einem PDF machen. A4 oder US Letter. Ohne Anmeldung, Upload und Wasserzeichen.",
+    "h1": "PNG in PDF umwandeln",
+    "intro": "Machen Sie aus Ihren PNG-Bildern und Screenshots ein PDF. Fügen Sie ein Bild oder viele hinzu, bringen Sie sie in die richtige Reihenfolge und laden Sie ein einziges PDF herunter. Es läuft auf Ihrem Gerät, also wird nichts hochgeladen, und es gibt kein Wasserzeichen.",
+    "blurb": "PNG-Bilder und Screenshots in ein PDF umwandeln.",
+    "steps": [
+      {
+        "title": "PNG-Dateien hinzufügen",
+        "text": "Ziehen Sie ein oder mehrere PNG-Bilder auf die Seite oder wählen Sie sie von Ihrem Gerät aus. Jedes Bild wird eine Seite."
+      },
+      {
+        "title": "Seiten ordnen und Optionen wählen",
+        "text": "Ändern Sie die Reihenfolge mit den Pfeilen. Wählen Sie A4, US Letter oder „Wie das Bild“, außerdem den Rand und die Qualität."
+      },
+      {
+        "title": "PDF erstellen und herunterladen",
+        "text": "Klicken Sie auf „PDF erstellen“ und laden Sie die Datei herunter. Sie lässt sich mit jedem PDF-Reader öffnen."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umwandeln von PNG in PDF",
+    "tips": [
+      "Transparente Bereiche eines PNG werden im PDF weiß.",
+      "Bei Screenshots mit kleinem Text wählen Sie „Hohe Qualität“, damit die Buchstaben scharf bleiben.",
+      "PNG-Dateien können groß sein. Wählen Sie „Kleine Datei“, wenn das PDF per E-Mail gesendet werden soll, oder „Ausgewogen“ für eine Mischung aus Schärfe und Größe.",
+      "Damit ein Screenshot genau seine Form behält, wählen Sie „Wie das Bild“ als Seitengröße."
+    ],
+    "detailsTitle": "Was mit einem PNG im PDF passiert",
+    "details": [
+      "Jedes PNG wird auf einen weißen Hintergrund gezeichnet und in der gewählten Qualität als JPEG-Bild im PDF gespeichert, sodass ein Screenshot oder ein Diagramm mit „Hohe Qualität“ so aussieht wie auf dem Bildschirm. Wählen Sie A4 oder US Letter, wenn Sie das PDF vielleicht drucken, oder „Wie das Bild“ für eine Seite, die genau die Form des Bildes hat.",
+      "Das PDF entsteht in Ihrem Browser. Ihre Bilder werden nie hochgeladen, daher ist es auch für private Dokumente und Screenshots sicher. Sie können bis zu 100 Bilder zu einem PDF hinzufügen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie wandle ich PNG in PDF um?",
+          "a": "Fügen Sie Ihre PNG-Bilder hinzu, bringen Sie sie in Reihenfolge und klicken Sie auf „PDF erstellen“. Laden Sie dann das PDF herunter."
+        },
+        {
+          "q": "Kann ich mehrere PNG-Dateien zu einem PDF zusammenfügen?",
+          "a": "Ja. Fügen Sie alle auf einmal hinzu. Jedes Bild wird eine Seite, und mit den Pfeilen ändern Sie die Reihenfolge."
+        },
+        {
+          "q": "Was passiert mit einem transparenten PNG?",
+          "a": "Die transparenten Bereiche werden mit Weiß gefüllt, weil das Bild auf einer weißen Seite gespeichert wird."
+        },
+        {
+          "q": "Bleibt der Text in meinem Screenshot scharf?",
+          "a": "Ja, mit „Hohe Qualität“. Das Bild bleibt dabei fast in vollem Detail erhalten."
+        },
+        {
+          "q": "Wird mein Bild hochgeladen?",
+          "a": "Nein. Das Bild wird auf Ihrem Gerät verarbeitet und nie hochgeladen."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "cm in Pixel umrechnen - kostenloser Rechner (300 DPI)",
+    "description": "cm in Pixel online kostenlos umrechnen: Zentimeter eingeben, DPI wählen und die genaue Pixelgröße erhalten. Für Druck, Passfotos und Formulare. Ohne Upload.",
+    "h1": "cm in Pixel umrechnen",
+    "intro": "Geben Sie eine Größe in Zentimetern ein und sehen Sie, wie viele Pixel das bei Ihren DPI sind. Der Rechner zeigt auch gängige Druckgrößen in Pixeln und verweist auf das kostenlose Bildgrößen-Tool, damit Sie das Bild genau auf diese Größe bringen.",
+    "blurb": "Zentimeter bei beliebigen DPI in Pixel umrechnen.",
+    "steps": [
+      {
+        "title": "Größe in cm eingeben",
+        "text": "Geben Sie die Breite ein, bei Bedarf auch die Höhe. Die Einheit ist bereits auf Zentimeter eingestellt."
+      },
+      {
+        "title": "DPI wählen",
+        "text": "Verwenden Sie 300 für den Druck, 96 für einen Bildschirm oder eine beliebige Zahl, die das Formular verlangt. Das Ergebnis ändert sich beim Tippen."
+      },
+      {
+        "title": "Pixel ablesen und Größe ändern",
+        "text": "Kopieren Sie das Ergebnis oder öffnen Sie das Bildgrößen-Tool und geben Sie die Pixel ein, um Ihr Bild auf diese Größe zu bringen."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umrechnen von cm in Pixel",
+    "tips": [
+      "Ein Bild hat keine Größe in Zentimetern, bis es gedruckt oder in ein Dokument eingefügt wird. Die DPI bestimmen, wie viele Pixel auf einen Zentimeter passen.",
+      "Verwenden Sie 300 DPI für einen scharfen Druck, 150 DPI für einen Entwurf und 72 oder 96 DPI für Bildschirme.",
+      "Nennt ein Formular eine Größe in cm ohne DPI, sind 300 DPI bei Fotos der übliche Wert.",
+      "Geben Sie Breite und Höhe ein, um beide Seiten auf einmal zu erhalten. Mit der Schaltfläche zum Tauschen der Einheiten rechnen Sie in die andere Richtung um."
+    ],
+    "detailsTitle": "So rechnen Sie cm in Pixel um",
+    "details": [
+      "Die Formel lautet Pixel = Zentimeter ÷ 2,54 × DPI, weil ein Zoll 2,54 Zentimeter hat. Bei 300 DPI ist ein Zentimeter etwa 118 Pixel, bei 96 DPI etwa 38 Pixel und bei 72 DPI etwa 28 Pixel. So sind 10 cm bei 300 DPI etwa 1181 Pixel.",
+      "Fotogrößen in Zentimetern folgen derselben Regel: Ein Abzug mit 10 × 15 cm hat bei 300 DPI etwa 1181 × 1772 Pixel. Der Rechner rundet Pixel auf ganze Zahlen, weil ein Bild keinen Teil eines Pixels haben kann."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie viele Pixel sind 1 cm?",
+          "a": "Bei 300 DPI sind 1 cm etwa 118 Pixel. Bei 96 DPI sind es etwa 38 Pixel und bei 72 DPI etwa 28 Pixel."
+        },
+        {
+          "q": "Wie rechne ich cm in Pixel um?",
+          "a": "Teilen Sie die Zentimeter durch 2,54 und multiplizieren Sie mit den DPI. Oder geben Sie die Größe oben in den Rechner ein, der das für Sie erledigt."
+        },
+        {
+          "q": "Welche DPI sollte ich verwenden?",
+          "a": "Verwenden Sie 300 für den Druck sowie für Pass- und Ausweisfotos und 72 oder 96 für Bilder, die nur auf einem Bildschirm angezeigt werden."
+        },
+        {
+          "q": "Ändern die DPI mein Bild?",
+          "a": "Nein. Die DPI bestimmen nur, wie groß das Bild beim Drucken wird. Ändern Sie das Bild selbst mit dem Bildgrößen-Tool."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Zoll in Pixel umrechnen - kostenloser Rechner (DPI)",
+    "description": "Zoll in Pixel online kostenlos umrechnen: Zoll eingeben, DPI wählen und die genaue Pixelgröße für Fotoabzüge, Dokumente und Formulare erhalten. Ohne Upload.",
+    "h1": "Zoll in Pixel umrechnen",
+    "intro": "Geben Sie eine Größe in Zoll ein und sehen Sie, wie viele Pixel das bei Ihren DPI sind. Der Rechner zeigt auch gängige Druckgrößen in Pixeln und verweist auf das kostenlose Bildgrößen-Tool, damit Sie das Bild genau auf diese Größe bringen.",
+    "blurb": "Zoll bei beliebigen DPI in Pixel umrechnen.",
+    "steps": [
+      {
+        "title": "Größe in Zoll eingeben",
+        "text": "Geben Sie die Breite ein, bei Bedarf auch die Höhe. Die Einheit ist bereits auf Zoll eingestellt."
+      },
+      {
+        "title": "DPI wählen",
+        "text": "Verwenden Sie 300 für den Druck, 96 für einen Bildschirm oder eine beliebige Zahl, die das Formular verlangt. Das Ergebnis ändert sich beim Tippen."
+      },
+      {
+        "title": "Pixel ablesen und Größe ändern",
+        "text": "Kopieren Sie das Ergebnis oder öffnen Sie das Bildgrößen-Tool und geben Sie die Pixel ein, um Ihr Bild auf diese Größe zu bringen."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umrechnen von Zoll in Pixel",
+    "tips": [
+      "Pixel = Zoll × DPI. Bei 300 DPI ist jeder Zoll 300 Pixel.",
+      "Ein Fotoabzug mit 4 × 6 Zoll braucht bei 300 DPI 1200 × 1800 Pixel, ein Passfoto mit 2 × 2 Zoll 600 × 600.",
+      "Ein Bild hat keine Größe in Zoll, bis es gedruckt wird. Die DPI bestimmen, wie viele Pixel auf einen Zoll passen.",
+      "Mit der Schaltfläche zum Tauschen der Einheiten rechnen Sie Pixel in Zoll um."
+    ],
+    "detailsTitle": "So rechnen Sie Zoll in Pixel um",
+    "details": [
+      "Die Formel lautet Pixel = Zoll × DPI. Bei 300 DPI, dem üblichen Wert für den Druck, ist 1 Zoll gleich 300 Pixel. Bei 96 DPI, dem Standard eines Bildschirms im Browser, ist 1 Zoll gleich 96 Pixel und bei 72 DPI gleich 72 Pixel.",
+      "Eine Seite im Format US Letter mit 8,5 × 11 Zoll hat bei 300 DPI 2550 × 3300 Pixel, ein Abzug mit 5 × 7 Zoll hat 1500 × 2100 Pixel. Der Rechner rundet Pixel auf ganze Zahlen, weil ein Bild keinen Teil eines Pixels haben kann."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie viele Pixel sind 1 Zoll?",
+          "a": "Das hängt von den DPI ab: 300 Pixel bei 300 DPI, 96 Pixel bei 96 DPI und 72 Pixel bei 72 DPI."
+        },
+        {
+          "q": "Wie viele Pixel hat ein Foto mit 4x6 Zoll?",
+          "a": "Bei 300 DPI hat ein Foto mit 4 × 6 Zoll 1200 × 1800 Pixel."
+        },
+        {
+          "q": "Welche DPI sollte ich verwenden?",
+          "a": "Verwenden Sie 300 für den Druck und 72 oder 96 für Bilder, die nur auf einem Bildschirm angezeigt werden."
+        },
+        {
+          "q": "Ändern die DPI mein Bild?",
+          "a": "Nein. Die DPI bestimmen nur, wie groß das Bild beim Drucken wird. Ändern Sie das Bild selbst mit dem Bildgrößen-Tool."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "mm in Pixel umrechnen - kostenloser Rechner (300 DPI)",
+    "description": "mm in Pixel online kostenlos umrechnen: Millimeter eingeben, DPI wählen und die genaue Pixelgröße für Passfotos und Formulare erhalten. Läuft auf Ihrem Gerät.",
+    "h1": "mm in Pixel umrechnen",
+    "intro": "Geben Sie eine Größe in Millimetern ein und sehen Sie, wie viele Pixel das bei Ihren DPI sind. Praktisch für Pass- und Ausweisfotos, die in Millimetern angegeben werden. Der Rechner verweist auf das kostenlose Bildgrößen-Tool, damit Sie das Bild genau auf diese Größe bringen.",
+    "blurb": "Millimeter bei beliebigen DPI in Pixel umrechnen.",
+    "steps": [
+      {
+        "title": "Größe in mm eingeben",
+        "text": "Geben Sie die Breite ein, bei Bedarf auch die Höhe. Die Einheit ist bereits auf Millimeter eingestellt."
+      },
+      {
+        "title": "DPI wählen",
+        "text": "Verwenden Sie 300 für den Druck, 96 für einen Bildschirm oder eine beliebige Zahl, die das Formular verlangt. Das Ergebnis ändert sich beim Tippen."
+      },
+      {
+        "title": "Pixel ablesen und Größe ändern",
+        "text": "Kopieren Sie das Ergebnis oder öffnen Sie das Bildgrößen-Tool und geben Sie die Pixel ein, um Ihr Bild auf diese Größe zu bringen."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umrechnen von mm in Pixel",
+    "tips": [
+      "Ein Passfoto mit 35 × 45 mm hat bei 300 DPI 413 × 531 Pixel.",
+      "Ein Bild hat keine Größe in Millimetern, bis es gedruckt wird. Die DPI bestimmen, wie viele Pixel auf einen Millimeter passen.",
+      "Verwenden Sie 300 DPI für einen scharfen Druck und 72 oder 96 DPI für Bilder, die nur auf einem Bildschirm angezeigt werden.",
+      "Geben Sie Breite und Höhe ein, um beide Seiten auf einmal zu erhalten. Mit der Schaltfläche zum Tauschen der Einheiten rechnen Sie Pixel in Millimeter um."
+    ],
+    "detailsTitle": "So rechnen Sie mm in Pixel um",
+    "details": [
+      "Die Formel lautet Pixel = Millimeter ÷ 25,4 × DPI, weil ein Zoll 25,4 Millimeter hat. Bei 300 DPI ist ein Millimeter etwa 11,8 Pixel, bei 96 DPI etwa 3,8 Pixel und bei 72 DPI etwa 2,8 Pixel.",
+      "Ein A4-Blatt mit 210 × 297 mm hat bei 300 DPI 2480 × 3508 Pixel. Der Rechner rundet Pixel auf ganze Zahlen, weil ein Bild keinen Teil eines Pixels haben kann."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie viele Pixel sind 1 mm?",
+          "a": "Bei 300 DPI sind 1 mm etwa 11,8 Pixel. Bei 96 DPI sind es etwa 3,8 Pixel und bei 72 DPI etwa 2,8 Pixel."
+        },
+        {
+          "q": "Wie viele Pixel hat ein Foto mit 35x45 mm?",
+          "a": "Bei 300 DPI hat ein Passfoto mit 35 × 45 mm 413 × 531 Pixel."
+        },
+        {
+          "q": "Welche DPI sollte ich verwenden?",
+          "a": "Verwenden Sie 300 für den Druck sowie für Pass- und Ausweisfotos und 72 oder 96 für Bilder, die nur auf einem Bildschirm angezeigt werden."
+        },
+        {
+          "q": "Ändern die DPI mein Bild?",
+          "a": "Nein. Die DPI bestimmen nur, wie groß das Bild beim Drucken wird. Ändern Sie das Bild selbst mit dem Bildgrößen-Tool."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Pixel in cm umrechnen - kostenloser Rechner (DPI)",
+    "description": "Pixel in cm online kostenlos umrechnen: Pixel eingeben, DPI wählen und die Druckgröße in cm, mm oder Zoll erhalten. Ohne Anmeldung, ohne Upload.",
+    "h1": "Pixel in cm umrechnen",
+    "intro": "Geben Sie eine Größe in Pixeln ein und sehen Sie, wie groß sie bei Ihren DPI in Zentimetern gedruckt wird. Der Rechner zeigt auch gängige Druckgrößen in Pixeln und verweist auf das kostenlose Bildgrößen-Tool.",
+    "blurb": "Pixel bei beliebigen DPI in Zentimeter umrechnen.",
+    "steps": [
+      {
+        "title": "Größe in Pixeln eingeben",
+        "text": "Geben Sie die Breite ein, bei Bedarf auch die Höhe. Die Einheit ist bereits auf Pixel eingestellt."
+      },
+      {
+        "title": "DPI wählen",
+        "text": "Verwenden Sie 300 für den Druck, 96 für einen Bildschirm oder die Zahl, die Ihr Drucker oder das Formular verwendet. Das Ergebnis ändert sich beim Tippen."
+      },
+      {
+        "title": "Größe ablesen",
+        "text": "Die Größe erscheint in Zentimetern. Stellen Sie die Einheit auf Millimeter oder Zoll um, wenn Sie das möchten."
+      }
+    ],
+    "tipsTitle": "Tipps zum Umrechnen von Pixeln in cm",
+    "tips": [
+      "Dasselbe Bild wird in unterschiedlichen Größen gedruckt: Mehr DPI bedeuten einen kleineren, schärferen Druck.",
+      "Für einen guten Druck verwenden Sie mindestens 300 DPI. Ein Bild mit 1200 × 1800 Pixeln wird bei 300 DPI mit 4 × 6 Zoll (10,2 × 15,2 cm) gedruckt.",
+      "Auf einem Bildschirm ist 96 DPI der übliche Wert, daher sind 1920 Pixel bei dieser Einstellung etwa 50,8 cm breit.",
+      "Mit der Schaltfläche zum Tauschen der Einheiten rechnen Sie Zentimeter in Pixel um."
+    ],
+    "detailsTitle": "So rechnen Sie Pixel in cm um",
+    "details": [
+      "Die Formel lautet Zentimeter = Pixel ÷ DPI × 2,54, weil ein Zoll 2,54 Zentimeter hat. Bei 300 DPI sind 1000 Pixel etwa 8,47 cm. Bei 96 DPI sind dieselben 1000 Pixel etwa 26,46 cm.",
+      "Ein Bild hat keine echte Größe, bis es gedruckt wird, und die DPI verbinden Pixel mit Zentimetern. Verlangt ein Formular eine Größe in Zentimetern und Sie kennen nur die Pixel, sind 300 DPI der übliche Wert für Fotos."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wie viele cm sind 1000 Pixel?",
+          "a": "Bei 300 DPI sind 1000 Pixel etwa 8,47 cm. Bei 96 DPI sind es etwa 26,46 cm."
+        },
+        {
+          "q": "Wie rechne ich Pixel in cm um?",
+          "a": "Teilen Sie die Pixel durch die DPI und multiplizieren Sie mit 2,54. Oder geben Sie die Pixel oben in den Rechner ein, der das für Sie erledigt."
+        },
+        {
+          "q": "Welche DPI sollte ich verwenden?",
+          "a": "Verwenden Sie 300 für den Druck und 72 oder 96 für Bilder, die nur auf einem Bildschirm angezeigt werden."
+        },
+        {
+          "q": "Ändern die DPI mein Bild?",
+          "a": "Nein. Die DPI bestimmen nur, wie groß das Bild beim Drucken wird. Ändern Sie das Bild selbst mit dem Bildgrößen-Tool."
         }
       ]
     }

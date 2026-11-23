@@ -1,30 +1,39 @@
 {
   "nav": {
     "home": "Redimensionner une image",
-    "kb": "Redimensionner en KB",
+    "kb": "Compresser en Ko",
     "cm": "Redimensionner en cm, mm ou pouces",
-    "passport": "Taille des photos de passeport",
+    "passport": "Taille photo passeport",
     "social": "Tailles pour les réseaux sociaux",
     "convert": "Convertir des images",
     "compress": "Compresser des images",
-    "kb20": "Redimensionner à 20 KB",
-    "kb50": "Redimensionner à 50 KB",
-    "kb100": "Redimensionner à 100 KB",
-    "kb200": "Redimensionner à 200 KB",
+    "kb20": "Compresser à 20 Ko",
+    "kb50": "Compresser à 50 Ko",
+    "kb100": "Compresser à 100 Ko",
+    "kb200": "Compresser à 200 Ko",
     "signature": "Redimensionner la signature",
     "pngToJpg": "Convertir PNG en JPG",
     "jpgToPng": "Convertir JPG en PNG",
     "webpToJpg": "Convertir WebP en JPG",
     "faq": "FAQ",
     "homePage": "Accueil",
-    "kb10": "Redimensionner à 10 KB",
-    "kb30": "Redimensionner à 30 KB",
-    "kb500": "Redimensionner à 500 KB",
-    "mb1": "Redimensionner à 1 MB",
+    "kb10": "Compresser à 10 Ko",
+    "kb30": "Compresser à 30 Ko",
+    "kb500": "Compresser à 500 Ko",
+    "mb1": "Compresser à 1 Mo",
     "pixels": "Redimensionner en pixels",
-    "bulk": "Redimensionner en lot",
+    "bulk": "Plusieurs images en même temps",
     "jpgToWebp": "Convertir JPG en WebP",
-    "pngToWebp": "Convertir PNG en WebP"
+    "pngToWebp": "Convertir PNG en WebP",
+    "kb300": "Compresser à 300 Ko",
+    "mb2": "Compresser à 2 Mo",
+    "imageToPdf": "Image en PDF",
+    "jpgToPdf": "JPG en PDF",
+    "pngToPdf": "PNG en PDF",
+    "cmToPx": "cm en pixels",
+    "inToPx": "Pouces en pixels",
+    "mmToPx": "mm en pixels",
+    "pxToCm": "Pixels en cm"
   },
   "common": {
     "howTo": "Comment l'utiliser",
@@ -113,9 +122,9 @@
     }
   },
   "kb": {
-    "title": "Réduire une image en KB ou Ko - 10, 20, 50, 100, 200 KB",
-    "description": "Redimensionnez une image en KB (Ko) : réduisez une photo à 10, 20, 30, 50, 100, 200 ou 500 KB pour vos formulaires. Gratuit, sans inscription, privé.",
-    "h1": "Redimensionner une image en KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "title": "Compresser une image en Ko - 10, 20, 50, 100, 200 Ko",
+    "description": "Compressez ou réduisez une image en Ko : 10, 20, 30, 50, 100, 200 ou 500 Ko pour vos formulaires et démarches. Gratuit, sans inscription, en ligne et privé.",
+    "h1": "Compresser une image en Ko (20 Ko, 50 Ko, 100 Ko, 200 Ko)",
     "intro": "De nombreux formulaires en ligne, portails d'examens et sites d'emploi refusent les photos au-delà d'une limite de taille, comme 50 KB ou 200 KB. Cet outil réduit votre image pour respecter la limite choisie tout en gardant le plus de qualité possible.",
     "steps": [
       {
@@ -163,7 +172,7 @@
   },
   "cm": {
     "title": "Redimensionner une image en cm, mm ou pouces - Gratuit",
-    "description": "Redimensionnez une image en cm, mm ou pouces : fixez la taille exacte d'une photo avec le bon DPI. Gratuit, sans inscription, et vos images restent privées.",
+    "description": "Redimensionnez une image ou une photo en cm, mm ou pouces pour l'impression : fixez la taille exacte avec le bon DPI. Gratuit, sans inscription, images privées.",
     "h1": "Redimensionner une image en cm, mm ou pouces",
     "intro": "Pour l'impression et les formulaires officiels, on demande souvent une taille en centimètres ou en pouces plutôt qu'en pixels. Saisissez la taille et le DPI : l'outil calcule les pixels pour vous.",
     "steps": [
@@ -211,9 +220,9 @@
     ]
   },
   "passport": {
-    "title": "Taille photo passeport et visa par pays - Redimensionner",
-    "description": "Taille des photos de passeport et de visa par pays en mm, pouces et pixels, avec un outil gratuit pour adapter votre photo, dont 2x2 pouces et 35x45 mm.",
-    "h1": "Taille des photos de passeport et de visa",
+    "title": "Taille photo passeport, visa et identité par pays",
+    "description": "Taille photo passeport, visa et photo d'identité par pays en mm, pouces et pixels, avec un outil gratuit pour adapter votre photo : 35x45 mm, 2x2 pouces, etc.",
+    "h1": "Taille photo passeport, visa et identité",
     "intro": "Selon les pays, la taille de photo demandée diffère. Choisissez votre pays dans la liste Préréglage pour recadrer et redimensionner votre photo aux dimensions exactes à 300 DPI.",
     "note": "Les règles changent et chaque démarche peut ajouter ses propres exigences, comme la couleur du fond, la taille de la tête ou l'interdiction des lunettes. Vérifiez toujours les consignes officielles avant d'envoyer votre dossier. Cet outil définit seulement la taille ; il ne vérifie ni la taille de la tête ni le fond.",
     "tableTitle": "Tailles de photo courantes",
@@ -262,9 +271,9 @@
     ]
   },
   "social": {
-    "title": "Tailles d'images pour réseaux sociaux - Instagram, YouTube",
-    "description": "Tailles d'images pour Instagram, Facebook, YouTube, X, LinkedIn et Pinterest, avec un outil gratuit pour adapter votre image sans la recadrer.",
-    "h1": "Tailles d'images pour les réseaux sociaux",
+    "title": "Taille image Instagram, miniature YouTube et Facebook",
+    "description": "Taille image pour Instagram, Facebook, YouTube (miniature), X, LinkedIn et Pinterest, avec un outil gratuit pour adapter votre image sans la recadrer.",
+    "h1": "Taille image Instagram, YouTube et réseaux sociaux",
     "intro": "Une publication rend mieux quand l'image a déjà les bonnes proportions. Choisissez une plateforme dans la liste Préréglage et l'outil recadre et redimensionne votre image en conséquence.",
     "note": "Les plateformes mettent à jour leurs recommandations de temps en temps. Ces tailles sont très utilisées et conviennent bien aux formats actuels.",
     "tableTitle": "Tailles par plateforme",
@@ -312,9 +321,9 @@
     ]
   },
   "convert": {
-    "title": "Convertir des images JPG, PNG, WebP - Convertisseur gratuit",
-    "description": "Convertissez des images entre JPG, PNG et WebP en ligne, gratuitement. Sans inscription, sans envoi de fichier, qualité au choix, sur téléphone ou ordinateur.",
-    "h1": "Convertir des images entre JPG, PNG et WebP",
+    "title": "Convertir une image en JPG, PNG ou WebP - Gratuit",
+    "description": "Convertissez une image en JPG, PNG ou WebP en ligne, gratuitement : sans inscription ni envoi de fichier, qualité au choix, sur téléphone ou ordinateur.",
+    "h1": "Convertir une image en JPG, PNG ou WebP",
     "intro": "Choisissez le format dont vous avez besoin et l'outil convertit chaque image ajoutée. Rien n'est envoyé sur un serveur.",
     "steps": [
       {
@@ -358,7 +367,7 @@
   },
   "compress": {
     "title": "Compresser une image en ligne - Réduire le poids d'une photo",
-    "description": "Compressez une image en ligne gratuitement : allégez vos photos sans perte visible, ou réduisez-les à une limite en KB. Sans inscription, rien n'est envoyé.",
+    "description": "Compressez une image en ligne gratuitement : allégez vos photos sans perte visible ou réduisez-les à une limite en Ko. Sans inscription, rien n'est envoyé.",
     "h1": "Compresser des images en ligne",
     "intro": "Des images plus légères se chargent plus vite, passent dans les e-mails et économisent de l'espace de stockage. L'outil réencode vos images avec des compresseurs modernes et vous laisse fixer un niveau de qualité ou une taille de fichier maximale.",
     "steps": [
@@ -407,9 +416,9 @@
     "convert": "Convertisseurs"
   },
   "kb20": {
-    "title": "Réduire une image à 20 KB en ligne - Gratuit",
-    "description": "Redimensionnez une image à 20 KB (20 Ko) gratuitement : réduisez une photo ou une signature dans votre navigateur. Sans inscription, l'image reste privée.",
-    "h1": "Redimensionner une image à 20 KB",
+    "title": "Compresser une image à 20 Ko en ligne - Gratuit",
+    "description": "Compressez une image à 20 Ko ou moins gratuitement : réduisez une photo ou une signature dans votre navigateur. Sans inscription, l'image reste privée.",
+    "h1": "Compresser une image à 20 Ko",
     "intro": "Une limite de 20 KB est courante pour les petites photos d'identité et les signatures sur les formulaires d'examen, d'emploi et d'administration. Ajoutez votre image : l'outil baisse la qualité par étapes, et ne réduit les dimensions que si c'est nécessaire, jusqu'à ce que le fichier pèse moins de 20 KB (20 000 octets).",
     "blurb": "Une photo ou une signature de moins de 20 KB.",
     "steps": [
@@ -460,9 +469,9 @@
     }
   },
   "kb50": {
-    "title": "Réduire une image à 50 KB en ligne - Gratuit",
-    "description": "Réduisez une image à 50 KB (50 Ko) ou moins pour les formulaires d'examen, les portails d'emploi et les pièces d'identité. Gratuit, sans inscription, privé.",
-    "h1": "Redimensionner une image à 50 KB",
+    "title": "Compresser une image à 50 Ko en ligne - Gratuit",
+    "description": "Compressez une image à 50 Ko ou moins (JPG, JPEG, PNG) pour les formulaires d'examen, les portails d'emploi et les pièces d'identité. Gratuit, sans inscription.",
+    "h1": "Compresser une image à 50 Ko",
     "intro": "50 KB est l'une des limites les plus demandées pour les photos d'identité sur les formulaires de candidature en ligne. Cette page règle la limite à votre place : ajoutez votre photo et téléchargez un JPG de moins de 50 KB (50 000 octets) qui reste net.",
     "blurb": "Une photo de moins de 50 KB pour formulaires et portails.",
     "steps": [
@@ -513,9 +522,9 @@
     }
   },
   "kb100": {
-    "title": "Réduire une image à 100 KB en ligne - Gratuit",
-    "description": "Réduisez une image à 100 KB (100 Ko) ou moins pour vos candidatures, dossiers KYC et envois de documents. Gratuit, sans inscription, entièrement privé.",
-    "h1": "Redimensionner une image à 100 KB",
+    "title": "Compresser une image à 100 Ko en ligne - Gratuit",
+    "description": "Compressez une image à 100 Ko ou moins gratuitement : candidatures, dossiers KYC et envois de documents. Réduire une photo JPG, sans inscription, sans envoi.",
+    "h1": "Compresser une image à 100 Ko",
     "intro": "100 KB est une limite courante pour les photos de candidature, les pièces d'identité scannées et les photos de profil. Ajoutez votre image et obtenez un JPG de moins de 100 KB (100 000 octets) avec la meilleure qualité possible.",
     "blurb": "Une image de moins de 100 KB pour candidatures et KYC.",
     "steps": [
@@ -566,9 +575,9 @@
     }
   },
   "kb200": {
-    "title": "Réduire une image à 200 KB en ligne - Gratuit",
-    "description": "Compressez une image à 200 KB (200 Ko) ou moins pour vos visas, dossiers KYC et démarches administratives. Gratuit, sans inscription, dans le navigateur.",
-    "h1": "Redimensionner une image à 200 KB",
+    "title": "Compresser une image à 200 Ko en ligne - Gratuit",
+    "description": "Compressez une image ou une photo à moins de 200 Ko pour vos visas, dossiers KYC et démarches administratives. Gratuit, sans inscription, dans le navigateur.",
+    "h1": "Compresser une image à 200 Ko",
     "intro": "200 KB est une limite maximale typique pour les photos de visa, les documents KYC et les envois administratifs. Ajoutez votre image et téléchargez un JPG de moins de 200 KB (200 000 octets) qui garde un maximum de détails.",
     "blurb": "Une image de moins de 200 KB pour visas et démarches officielles.",
     "steps": [
@@ -619,8 +628,8 @@
     }
   },
   "signature": {
-    "title": "Redimensionner une signature en ligne - 10 à 20 KB",
-    "description": "Redimensionnez une signature en ligne : réduisez l'image à 10 ou 20 KB et à une taille en pixels précise pour vos formulaires. Gratuit, sans inscription, privé.",
+    "title": "Redimensionner une signature en ligne - 10 à 20 Ko",
+    "description": "Redimensionnez une signature en ligne : compressez l'image à 10 ou 20 Ko et à une taille en pixels précise pour vos formulaires. Gratuit, sans inscription.",
     "h1": "Redimensionner une image de signature",
     "intro": "Les formulaires en ligne demandent généralement une image de signature petite et nette : quelques KB, et souvent une largeur et une hauteur fixes. Ajoutez une photo ou un scan de votre signature et obtenez un fichier qui respecte à la fois le poids et la taille en pixels.",
     "blurb": "Réduisez une signature au poids demandé par le formulaire.",
@@ -672,8 +681,8 @@
     }
   },
   "pngToJpg": {
-    "title": "Convertisseur PNG en JPG gratuit - Sans envoi de fichier",
-    "description": "Convertissez un PNG en JPG gratuitement : transformez vos images PNG en JPG plus légers dans votre navigateur. Sans inscription, sans envoi, qualité au choix.",
+    "title": "Convertir PNG en JPG gratuit - Sans envoi de fichier",
+    "description": "Convertir PNG en JPG gratuitement avec ce convertisseur en ligne : images plus légères, qualité au choix. Sans inscription ni envoi, dans votre navigateur.",
     "h1": "Convertir PNG en JPG",
     "intro": "Transformez vos images PNG en fichiers JPG plus légers en une seule étape. Le JPG est accepté presque partout et pèse bien moins pour les photos. Ajoutez vos fichiers PNG, cliquez sur le bouton et téléchargez les JPG, ou un ZIP qui les contient tous.",
     "blurb": "Transformez vos PNG en JPG plus légers.",
@@ -725,8 +734,8 @@
     }
   },
   "jpgToPng": {
-    "title": "Convertisseur JPG en PNG gratuit - Sans envoi de fichier",
-    "description": "Convertissez un JPG en PNG gratuitement dans votre navigateur. Sans inscription, sans envoi de fichier et sans filigrane, sur téléphone comme sur ordinateur.",
+    "title": "Convertir JPG en PNG gratuit - Sans envoi de fichier",
+    "description": "Convertir JPG en PNG gratuitement avec ce convertisseur en ligne. Sans inscription, sans envoi de fichier et sans filigrane, sur téléphone ou ordinateur.",
     "h1": "Convertir JPG en PNG",
     "intro": "Besoin d'un PNG pour un logo, un outil de création ou un formulaire qui n'accepte pas le JPG ? Ajoutez vos fichiers JPG et téléchargez des PNG sans perte en une seule étape. Tout se passe dans votre navigateur.",
     "blurb": "Transformez vos JPG en PNG sans perte.",
@@ -778,8 +787,8 @@
     }
   },
   "webpToJpg": {
-    "title": "Convertisseur WebP en JPG gratuit - Sans envoi de fichier",
-    "description": "Convertissez un WebP en JPG gratuitement : transformez vos images WebP en JPG lisibles partout. Sans inscription ni envoi, sur téléphone comme sur ordinateur.",
+    "title": "Convertir WebP en JPG gratuit - Sans envoi de fichier",
+    "description": "Convertir WebP en JPG gratuitement : transformez vos images WebP en JPG lisibles partout. Sans inscription ni envoi, sur téléphone ou ordinateur.",
     "h1": "Convertir WebP en JPG",
     "intro": "Les sites web enregistrent souvent leurs images en WebP, mais de nombreux logiciels, imprimantes et formulaires d'envoi n'acceptent que le JPG. Ajoutez vos images WebP et téléchargez des fichiers JPG qui s'ouvrent partout.",
     "blurb": "Transformez vos WebP en JPG lisibles partout.",
@@ -838,9 +847,9 @@
     "jump": "Aller à"
   },
   "kb10": {
-    "title": "Réduire une image à 10 KB en ligne - Gratuit",
-    "description": "Réduisez une photo ou une signature à 10 KB (10 Ko) ou moins dans votre navigateur. Gratuit, sans inscription, sans envoi : votre image reste privée.",
-    "h1": "Redimensionner une image à 10 KB",
+    "title": "Compresser une image à 10 Ko en ligne - Gratuit",
+    "description": "Compressez une photo ou une signature à 10 Ko ou moins, ou réduisez une image à 10 Ko. Gratuit, sans inscription, sans envoi : l'image reste privée.",
+    "h1": "Compresser une image à 10 Ko",
     "intro": "10 KB est une limite très basse, courante pour les signatures, les miniatures et les petites photos des formulaires de candidature. Cette page règle la limite à votre place : ajoutez votre image et téléchargez un JPG de moins de 10 KB (10 000 octets).",
     "blurb": "Une signature ou une petite photo de moins de 10 KB.",
     "steps": [
@@ -891,9 +900,9 @@
     }
   },
   "kb30": {
-    "title": "Réduire une image à 30 KB en ligne - Gratuit",
-    "description": "Compressez une photo ou une signature à 30 KB (30 Ko) ou moins pour vos formulaires et portails d'examen. Gratuit, sans inscription, sur votre appareil.",
-    "h1": "Redimensionner une image à 30 KB",
+    "title": "Compresser une image à 30 Ko en ligne - Gratuit",
+    "description": "Compressez une photo ou une signature à 30 Ko ou moins pour vos formulaires et portails d'examen. Réduire une image à 30 Ko : gratuit, sans inscription.",
+    "h1": "Compresser une image à 30 Ko",
     "intro": "Une limite de 30 KB est courante sur les formulaires d'examen, d'emploi et d'administration, où la photo et la signature sont envoyées dans des champs séparés. Cette page règle la limite à votre place : ajoutez votre image et téléchargez un JPG de moins de 30 KB (30 000 octets).",
     "blurb": "Une photo de moins de 30 KB pour les formulaires de candidature.",
     "steps": [
@@ -944,9 +953,9 @@
     }
   },
   "kb500": {
-    "title": "Réduire une image à 500 KB en ligne - Gratuit",
-    "description": "Compressez une photo à 500 KB (500 Ko) ou moins pour vos e-mails, candidatures et envois, en la gardant nette. Gratuit, sans inscription, privé.",
-    "h1": "Redimensionner une image à 500 KB",
+    "title": "Compresser une image à 500 Ko en ligne - Gratuit",
+    "description": "Compressez une photo à 500 Ko ou moins pour vos e-mails, candidatures et envois, en la gardant nette. Réduire une image : gratuit, sans inscription, privé.",
+    "h1": "Compresser une image à 500 Ko",
     "intro": "500 KB est une limite courante pour les pièces jointes d'e-mail, les candidatures et les formulaires d'envoi qui veulent encore une belle image. Cette page règle la limite à votre place : ajoutez votre image et téléchargez un fichier de moins de 500 KB (500 000 octets) qui reste net.",
     "blurb": "Une image de moins de 500 KB, tout en restant nette.",
     "steps": [
@@ -997,9 +1006,9 @@
     }
   },
   "mb1": {
-    "title": "Réduire une image à 1 MB en ligne - Gratuit",
-    "description": "Réduisez une photo à 1 MB (1 Mo) ou moins pour vos e-mails, formulaires et envois, sans perte visible. Gratuit, sans inscription, sur votre appareil.",
-    "h1": "Redimensionner une image à 1 MB",
+    "title": "Compresser une image à 1 Mo en ligne - Gratuit",
+    "description": "Compressez une image à 1 Mo ou moins pour vos e-mails, formulaires et envois, sans perte visible. Réduire une photo JPG : gratuit, sans inscription, privé.",
+    "h1": "Compresser une image à 1 Mo",
     "intro": "Une limite de 1 MB est courante sur les messageries, les formulaires de candidature et les sites qui acceptent des photos. Cette page règle la limite à votre place : ajoutez votre image et téléchargez un fichier de moins de 1 MB (1 000 000 octets) qui reste net.",
     "blurb": "Une image de moins de 1 MB pour e-mails et envois.",
     "steps": [
@@ -1051,7 +1060,7 @@
   },
   "pixels": {
     "title": "Redimensionner une image en pixels - Largeur et hauteur",
-    "description": "Redimensionnez une image en pixels : saisissez la largeur et la hauteur exactes, gardez les proportions, ajustez ou recadrez. Gratuit, sans inscription, privé.",
+    "description": "Redimensionnez une image en pixels (px) : saisissez la largeur et la hauteur exactes, gardez les proportions, ajustez ou recadrez. Gratuit, sans inscription.",
     "h1": "Redimensionner une image en pixels",
     "intro": "Définissez la largeur et la hauteur exactes d'une image en pixels, pour un site web, un formulaire, une miniature ou une publication sur les réseaux sociaux. Ajoutez votre image, saisissez la taille et téléchargez le résultat. Les proportions sont verrouillées par défaut : rien n'est étiré.",
     "blurb": "Fixez la largeur et la hauteur exactes en pixels.",
@@ -1103,9 +1112,9 @@
     }
   },
   "bulk": {
-    "title": "Redimensionner plusieurs images à la fois - Gratuit",
-    "description": "Redimensionnez des centaines de photos en lot à la même taille ou au même poids, puis téléchargez un ZIP. Gratuit, sans inscription, privé dans le navigateur.",
-    "h1": "Redimensionner plusieurs images à la fois",
+    "title": "Redimensionner plusieurs images en même temps - Gratuit",
+    "description": "Redimensionnez plusieurs images en même temps, en masse ou en lot : même taille ou même poids pour des centaines de photos, en ZIP. Gratuit, sans inscription.",
+    "h1": "Redimensionner plusieurs images en même temps",
     "intro": "Redimensionnez de nombreuses images en une seule fois. Ajoutez un dossier entier de photos, choisissez une taille ou une limite de poids pour toutes et téléchargez les résultats dans un seul fichier ZIP. Tout se passe sur votre appareil : pas d'envoi, pas d'attente.",
     "blurb": "Redimensionnez beaucoup de photos d'un coup et téléchargez un ZIP.",
     "steps": [
@@ -1156,8 +1165,8 @@
     }
   },
   "jpgToWebp": {
-    "title": "Convertisseur JPG en WebP gratuit - Sans envoi de fichier",
-    "description": "Convertissez un JPG en WebP dans votre navigateur : fichiers plus légers, pages plus rapides. Gratuit, sans inscription, sans envoi, avec choix de la qualité.",
+    "title": "Convertir JPG en WebP gratuit - Sans envoi de fichier",
+    "description": "Convertir JPG en WebP dans votre navigateur avec ce convertisseur gratuit : fichiers plus légers, pages plus rapides. Sans inscription, sans envoi.",
     "h1": "Convertir JPG en WebP",
     "intro": "Les fichiers WebP sont généralement plus légers que les JPG à qualité comparable, ce qui fait charger les sites plus vite. Ajoutez vos images JPG et téléchargez des fichiers WebP en quelques secondes. Rien n'est envoyé : la conversion se fait sur votre appareil.",
     "blurb": "Transformez vos JPG en WebP plus légers.",
@@ -1209,8 +1218,8 @@
     }
   },
   "pngToWebp": {
-    "title": "Convertisseur PNG en WebP gratuit - Sans envoi de fichier",
-    "description": "Convertissez un PNG en WebP dans votre navigateur : fichiers bien plus légers, transparence conservée. Gratuit, sans inscription, sans envoi, qualité au choix.",
+    "title": "Convertir PNG en WebP gratuit - Sans envoi de fichier",
+    "description": "Convertir PNG en WebP dans votre navigateur avec ce convertisseur gratuit : fichiers bien plus légers, transparence conservée. Sans inscription, sans envoi.",
     "h1": "Convertir PNG en WebP",
     "intro": "Les fichiers PNG peuvent être très lourds, surtout pour les photos et les captures d'écran. Le WebP conserve aussi la transparence et est généralement bien plus léger. Ajoutez vos images PNG et téléchargez des fichiers WebP en quelques secondes. Rien n'est envoyé : la conversion se fait sur votre appareil.",
     "blurb": "Transformez vos PNG en WebP bien plus légers.",
@@ -1257,6 +1266,496 @@
         {
           "q": "Est-ce gratuit ?",
           "a": "Oui. Il n'y a ni inscription, ni filigrane, ni limite au nombre d'images."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Compresser une image à 300 Ko en ligne - Gratuit",
+    "description": "Compressez une image ou une photo à 300 Ko ou moins pour vos formulaires et envois, en gardant un rendu net. Gratuit, sans inscription, rien n'est envoyé.",
+    "h1": "Compresser une image à 300 Ko",
+    "intro": "De nombreux formulaires de candidature, portails d'examen et sites demandent une photo de 300 Ko au maximum. Cette page règle la limite à votre place : ajoutez votre image et téléchargez un fichier de moins de 300 Ko qui reste net.",
+    "blurb": "Une image de moins de 300 Ko pour formulaires et envois.",
+    "steps": [
+      {
+        "title": "Ajoutez votre image",
+        "text": "Glissez-la ici ou choisissez-la depuis votre appareil. Les grandes photos de téléphone ne posent aucun problème."
+      },
+      {
+        "title": "Gardez la limite de 300 Ko",
+        "text": "La limite de 300 Ko est présélectionnée. L'outil la compte comme 300 000 octets : le fichier passe donc sur les systèmes qui comptent 1 Ko comme 1 000 octets comme sur ceux qui en comptent 1 024."
+      },
+      {
+        "title": "Redimensionnez et téléchargez",
+        "text": "Cliquez sur Redimensionner les images et téléchargez le fichier. Le résultat affiche sa taille exacte."
+      }
+    ],
+    "tipsTitle": "Conseils pour rester sous 300 Ko",
+    "tips": [
+      "Choisissez le JPG pour les photos. Une photo enregistrée en PNG est généralement plusieurs fois plus lourde pour la même image.",
+      "Si le formulaire demande aussi des dimensions précises en pixels, saisissez d'abord la largeur et la hauteur, puis gardez la limite de 300 Ko activée.",
+      "Une photo de téléphone de 4000 pixels de large ne tient pas dans 300 Ko en haute qualité. Laissez l'outil réduire un peu les dimensions : le résultat sera plus net qu'avec la seule baisse de qualité.",
+      "Ajoutez plusieurs photos d'un coup pour les réduire toutes avec la même limite, puis téléchargez un seul fichier ZIP."
+    ],
+    "detailsTitle": "Ce que représentent 300 Ko pour une photo",
+    "details": [
+      "300 kilooctets, c'est un peu moins d'un tiers de mégaoctet. Un JPG de cette taille peut contenir une photo d'environ 1500 × 1000 pixels avec de bons détails, selon l'image. C'est largement suffisant pour un formulaire, l'envoi d'une pièce d'identité ou une page web.",
+      "L'outil cherche la meilleure qualité qui rentre dans la limite et affiche la taille exacte du résultat avant le téléchargement. Si le formulaire veut un fichier plus léger, choisissez une limite plus basse, comme 200 Ko ou 100 Ko, et relancez."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Comment réduire une image à 300 Ko ?",
+          "a": "Ajoutez l'image, gardez la limite de 300 Ko présélectionnée et cliquez sur Redimensionner les images. L'outil trouve la meilleure qualité qui rentre dans la limite."
+        },
+        {
+          "q": "L'image sera-t-elle de moins bonne qualité ?",
+          "a": "Un peu, car un fichier plus léger contient moins de détails. L'outil choisit la meilleure qualité qui rentre dans la limite : vous obtenez donc l'image la plus nette possible sous 300 Ko."
+        },
+        {
+          "q": "Et si mon fichier fait déjà moins de 300 Ko ?",
+          "a": "Alors il est déjà assez léger. Ne choisissez une limite plus basse que si le formulaire l'exige."
+        },
+        {
+          "q": "Mon image est-elle envoyée ?",
+          "a": "Non. L'image est traitée sur votre appareil et n'est jamais envoyée."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Compresser une image à 2 Mo en ligne - Gratuit",
+    "description": "Compressez une image à 2 Mo ou moins pour vos e-mails, formulaires et envois, presque sans perte visible. Gratuit, sans inscription, reste sur votre appareil.",
+    "h1": "Compresser une image à 2 Mo",
+    "intro": "Les messageries, les formulaires de candidature et les pages d'envoi acceptent souvent des images jusqu'à 2 Mo, alors que les photos de téléphone sont généralement plus lourdes. Ajoutez votre image et téléchargez un fichier de moins de 2 Mo (2 000 000 octets) qui reste net.",
+    "blurb": "Une image de moins de 2 Mo pour e-mails et envois.",
+    "steps": [
+      {
+        "title": "Ajoutez votre image",
+        "text": "Glissez-la ici ou choisissez-la depuis votre appareil. Les photos de 5 à 10 Mo ne posent aucun problème."
+      },
+      {
+        "title": "Gardez la limite de 2 Mo",
+        "text": "La limite de 2 Mo est présélectionnée. L'outil la compte comme 2 000 000 octets : le fichier passe donc sur les systèmes qui comptent 2 000 Ko comme sur ceux qui comptent 2 048 Ko."
+      },
+      {
+        "title": "Redimensionnez et téléchargez",
+        "text": "Cliquez sur Redimensionner les images et téléchargez le fichier. Le résultat affiche sa taille exacte."
+      }
+    ],
+    "tipsTitle": "Conseils pour rester sous 2 Mo",
+    "tips": [
+      "La plupart des photos de téléphone récentes pèsent de 3 à 10 Mo. On atteint généralement 2 Mo en baissant un peu la qualité, sans différence visible sur un écran.",
+      "Les photos tiennent le mieux en JPG ou en WebP. Une photo enregistrée en PNG est généralement plusieurs fois plus lourde.",
+      "Pour envoyer beaucoup de photos dans un même e-mail, ajoutez-les toutes d'un coup et téléchargez le fichier ZIP.",
+      "Les captures d'écran et les logos sont préférables en PNG : ils sont déjà légers et gardent des contours nets."
+    ],
+    "detailsTitle": "Ce que représentent 2 Mo pour une photo",
+    "details": [
+      "Deux mégaoctets font 2 000 kilooctets. Un JPG de cette taille peut contenir une photo d'environ 3000 × 2000 pixels avec de très bons détails, selon l'image, ce qui dépasse ce qu'affichent la plupart des écrans.",
+      "L'outil cherche la meilleure qualité qui rentre dans la limite et affiche la taille exacte du résultat avant le téléchargement. Il ne réduit les dimensions que si la limite ne peut pas être atteinte par la qualité seule."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Comment réduire une image à 2 Mo ?",
+          "a": "Ajoutez l'image, gardez la limite de 2 Mo présélectionnée et cliquez sur Redimensionner les images. L'outil trouve la meilleure qualité qui rentre dans la limite."
+        },
+        {
+          "q": "2 Mo, est-ce la même chose que 2 048 Ko ?",
+          "a": "Sur certains systèmes, un mégaoctet vaut 1 024 kilooctets, sur d'autres 1 000. L'outil utilise la plus petite valeur (2 000 Ko, soit 2 000 000 octets) : le fichier passe donc dans les deux cas."
+        },
+        {
+          "q": "L'image est-elle réduite en pixels ?",
+          "a": "Seulement si nécessaire. L'outil baisse d'abord la qualité et ne réduit les dimensions que si la limite ne peut pas être atteinte autrement."
+        },
+        {
+          "q": "Mon image est-elle envoyée ?",
+          "a": "Non. L'image est traitée sur votre appareil et n'est jamais envoyée."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Image en PDF gratuit - Convertir et fusionner en ligne",
+    "description": "Convertissez des images en PDF gratuitement : fusionnez des photos JPG, PNG et WebP dans votre navigateur. A4 ou Letter, sans inscription ni filigrane.",
+    "h1": "Convertir une image en PDF",
+    "intro": "Transformez une image ou plusieurs en un seul PDF. Ajoutez vos images, placez-les dans l'ordre voulu, choisissez le format de page et téléchargez le PDF. Il est créé sur votre appareil : vos images ne sont jamais envoyées, il n'y a pas de filigrane et aucune limite d'utilisation.",
+    "blurb": "Réunissez des images dans un seul PDF, sur votre appareil.",
+    "steps": [
+      {
+        "title": "Ajoutez vos images",
+        "text": "Glissez des images JPG, PNG, WebP, GIF ou BMP sur la page, ou choisissez-les depuis votre appareil. Chaque image devient une page."
+      },
+      {
+        "title": "Ordonnez les pages et choisissez les options",
+        "text": "Utilisez les flèches pour monter ou descendre une page. Choisissez A4, US Letter ou la taille de l'image, la marge et la qualité."
+      },
+      {
+        "title": "Créez et téléchargez",
+        "text": "Cliquez sur Créer le PDF et téléchargez le fichier. Il s'ouvre dans n'importe quel lecteur PDF."
+      }
+    ],
+    "tipsTitle": "Conseils pour réussir un PDF à partir d'images",
+    "tips": [
+      "Choisissez A4 ou US Letter pour les documents que vous pourriez imprimer. Choisissez « Identique à l'image » quand le PDF n'est destiné qu'à l'écran.",
+      "Pour un fichier léger (par exemple à envoyer par e-mail), choisissez « Fichier léger ». Pour les scans de texte et les captures d'écran, choisissez « Haute qualité ».",
+      "Les photos prises en mode portrait ou paysage sont remises automatiquement dans le bon sens, grâce aux informations que votre téléphone a enregistrées dans l'image.",
+      "Les zones transparentes des images PNG et WebP deviennent blanches, car elles sont enregistrées en pages JPEG.",
+      "Besoin d'un PDF sous une limite de taille ? Allégez d'abord les images avec l'outil « Compresser en Ko », puis réunissez-les ici."
+    ],
+    "detailsTitle": "Comment le PDF est créé",
+    "details": [
+      "Chaque image est placée sur sa propre page, centrée et jamais étirée. Avec A4 ou US Letter, la page passe toute seule en paysage quand l'image est plus large que haute (vous pouvez aussi fixer l'orientation vous-même). Avec « Identique à l'image », la page a exactement la forme de l'image.",
+      "Le PDF est créé par votre navigateur. Vos images sont lues sur votre appareil, enregistrées en pages JPEG et intégrées au fichier PDF, sans rien envoyer à un serveur. Vous pouvez ajouter jusqu'à 100 images dans un même PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Comment convertir des images en PDF ?",
+          "a": "Ajoutez vos images, placez-les dans l'ordre, choisissez le format de page et cliquez sur Créer le PDF. Téléchargez ensuite le PDF."
+        },
+        {
+          "q": "Comment fusionner plusieurs photos en un seul PDF ?",
+          "a": "Ajoutez toutes les photos d'un coup. Chacune devient une page, et les flèches à côté de chaque image modifient l'ordre avant la création du PDF."
+        },
+        {
+          "q": "Y a-t-il une limite de pages ou de taille de fichier ?",
+          "a": "Vous pouvez ajouter jusqu'à 100 images dans un même PDF. Il n'y a ni limite quotidienne ni filigrane. Le poids du PDF dépend de vos images et de la qualité choisie."
+        },
+        {
+          "q": "Est-ce que ça marche sur téléphone ?",
+          "a": "Oui. Choisissez des photos dans votre galerie ou vos fichiers, ordonnez-les et téléchargez le PDF. Cela fonctionne dans tout navigateur de téléphone récent."
+        },
+        {
+          "q": "Mon image est-elle envoyée ?",
+          "a": "Non. Le PDF est créé sur votre appareil et vos images ne le quittent jamais."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "JPG en PDF gratuit - Convertir en ligne, sans envoi",
+    "description": "Convertissez JPG en PDF gratuitement : transformez une ou plusieurs photos en PDF dans votre navigateur. A4 ou Letter, sans inscription ni filigrane.",
+    "h1": "Convertir JPG en PDF",
+    "intro": "Créez un PDF à partir de vos photos JPG. Ajoutez une ou plusieurs images, placez-les dans le bon ordre et téléchargez un seul fichier PDF. Tout se passe sur votre appareil : rien n'est envoyé et il n'y a pas de filigrane.",
+    "blurb": "Transformez des photos JPG en un seul PDF.",
+    "steps": [
+      {
+        "title": "Ajoutez vos fichiers JPG",
+        "text": "Glissez une ou plusieurs images JPG sur la page, ou choisissez-les depuis votre appareil. Chaque image devient une page."
+      },
+      {
+        "title": "Ordonnez les pages et choisissez les options",
+        "text": "Utilisez les flèches pour changer l'ordre. Choisissez A4, US Letter ou la taille de l'image, la marge et la qualité."
+      },
+      {
+        "title": "Créez et téléchargez",
+        "text": "Cliquez sur Créer le PDF et téléchargez le fichier. Il s'ouvre dans n'importe quel lecteur PDF."
+      }
+    ],
+    "tipsTitle": "Conseils pour convertir JPG en PDF",
+    "tips": [
+      "Avec « Haute qualité », vos photos gardent presque tous leurs détails : le PDF ressemble aux images de votre téléphone.",
+      "Une photo de téléphone peut peser plusieurs Mo. Choisissez « Fichier léger » si le PDF doit être envoyé par e-mail ou déposé dans un formulaire.",
+      "Les photos prises à la verticale ou sur le côté sont remises automatiquement dans le bon sens.",
+      "Pour numériser un document avec votre téléphone, photographiez chaque page, ajoutez les photos ici dans l'ordre et créez le PDF."
+    ],
+    "detailsTitle": "JPG en PDF sans application",
+    "details": [
+      "Une page PDF peut contenir directement une image JPG, ce qui rend la conversion rapide et le résultat proche de votre photo. Choisissez A4 ou US Letter si vous pensez imprimer le PDF, ou « Identique à l'image » pour un PDF où chaque page n'est qu'une image.",
+      "Le PDF est créé dans votre navigateur. Vos photos ne sont jamais envoyées : vous pouvez donc l'utiliser pour des pièces d'identité, des reçus et d'autres images privées. Vous pouvez ajouter jusqu'à 100 images dans un même PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Comment convertir un JPG en PDF ?",
+          "a": "Ajoutez vos images JPG, placez-les dans l'ordre et cliquez sur Créer le PDF. Téléchargez ensuite le PDF."
+        },
+        {
+          "q": "Puis-je mettre plusieurs fichiers JPG dans un seul PDF ?",
+          "a": "Oui. Ajoutez-les tous d'un coup. Chaque image devient une page et vous pouvez changer l'ordre avec les flèches."
+        },
+        {
+          "q": "La conversion de JPG en PDF fait-elle perdre en qualité ?",
+          "a": "Très peu. Avec « Haute qualité », les images gardent presque tous leurs détails. Ne choisissez « Fichier léger » que si vous avez besoin d'un PDF plus petit."
+        },
+        {
+          "q": "Comment obtenir un PDF de moins de 1 Mo ou de 200 Ko ?",
+          "a": "Choisissez « Fichier léger » et ajoutez moins d'images par PDF. S'il est encore trop lourd, réduisez d'abord chaque image avec l'outil « Compresser en Ko »."
+        },
+        {
+          "q": "Mon image est-elle envoyée ?",
+          "a": "Non. L'image est traitée sur votre appareil et n'est jamais envoyée."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "PNG en PDF gratuit - Convertir en ligne, sans envoi",
+    "description": "Convertissez PNG en PDF gratuitement : transformez captures d'écran et images PNG en PDF dans votre navigateur. A4 ou Letter, sans inscription ni filigrane.",
+    "h1": "Convertir PNG en PDF",
+    "intro": "Créez un PDF à partir de vos images PNG et captures d'écran. Ajoutez une ou plusieurs images, placez-les dans le bon ordre et téléchargez un seul PDF. Tout se passe sur votre appareil : rien n'est envoyé et il n'y a pas de filigrane.",
+    "blurb": "Transformez des images PNG et des captures d'écran en PDF.",
+    "steps": [
+      {
+        "title": "Ajoutez vos fichiers PNG",
+        "text": "Glissez une ou plusieurs images PNG sur la page, ou choisissez-les depuis votre appareil. Chaque image devient une page."
+      },
+      {
+        "title": "Ordonnez les pages et choisissez les options",
+        "text": "Utilisez les flèches pour changer l'ordre. Choisissez A4, US Letter ou la taille de l'image, la marge et la qualité."
+      },
+      {
+        "title": "Créez et téléchargez",
+        "text": "Cliquez sur Créer le PDF et téléchargez le fichier. Il s'ouvre dans n'importe quel lecteur PDF."
+      }
+    ],
+    "tipsTitle": "Conseils pour convertir PNG en PDF",
+    "tips": [
+      "Les zones transparentes d'un PNG deviennent blanches dans le PDF.",
+      "Pour les captures d'écran avec du petit texte, choisissez « Haute qualité » afin que les lettres restent nettes.",
+      "Les fichiers PNG peuvent être lourds. Choisissez « Fichier léger » si le PDF doit être envoyé par e-mail, ou « Équilibrée » pour un compromis entre netteté et poids.",
+      "Pour conserver exactement la forme d'une capture d'écran, choisissez « Identique à l'image » comme format de page."
+    ],
+    "detailsTitle": "Que devient un PNG dans un PDF ?",
+    "details": [
+      "Chaque PNG est dessiné sur un fond blanc, puis enregistré dans le PDF sous forme d'image JPEG à la qualité que vous choisissez : avec « Haute qualité », une capture d'écran ou un graphique ressemble à ce que vous voyiez à l'écran. Choisissez A4 ou US Letter si vous pensez imprimer le PDF, ou « Identique à l'image » pour une page qui a exactement la forme de l'image.",
+      "Le PDF est créé dans votre navigateur. Vos images ne sont jamais envoyées : vous pouvez donc l'utiliser pour des documents et des captures d'écran privés. Vous pouvez ajouter jusqu'à 100 images dans un même PDF."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Comment convertir un PNG en PDF ?",
+          "a": "Ajoutez vos images PNG, placez-les dans l'ordre et cliquez sur Créer le PDF. Téléchargez ensuite le PDF."
+        },
+        {
+          "q": "Puis-je fusionner plusieurs fichiers PNG en un seul PDF ?",
+          "a": "Oui. Ajoutez-les tous d'un coup. Chaque image devient une page et vous pouvez changer l'ordre avec les flèches."
+        },
+        {
+          "q": "Que devient un PNG transparent ?",
+          "a": "Les zones transparentes sont remplies de blanc, car l'image est enregistrée sur une page blanche."
+        },
+        {
+          "q": "Le texte de ma capture d'écran restera-t-il net ?",
+          "a": "Oui, avec « Haute qualité ». L'image est conservée avec presque tous ses détails."
+        },
+        {
+          "q": "Mon image est-elle envoyée ?",
+          "a": "Non. L'image est traitée sur votre appareil et n'est jamais envoyée."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "Convertir cm en pixels - Calculateur gratuit (300 DPI)",
+    "description": "Convertissez cm en pixels gratuitement : saisissez des centimètres, choisissez le DPI et obtenez la taille en pixels pour l'impression et les formulaires.",
+    "h1": "Convertir cm en pixels",
+    "intro": "Saisissez une taille en centimètres et voyez combien de pixels elle représente à votre DPI. Le calculateur affiche aussi les formats d'impression courants en pixels et renvoie vers le redimensionneur d'images gratuit, pour donner à votre image exactement cette taille.",
+    "blurb": "Convertissez des centimètres en pixels pour n'importe quel DPI.",
+    "steps": [
+      {
+        "title": "Saisissez la taille en cm",
+        "text": "Saisissez la largeur, et la hauteur si besoin. L'unité est déjà réglée sur les centimètres."
+      },
+      {
+        "title": "Choisissez le DPI",
+        "text": "Utilisez 300 pour l'impression, 96 pour un écran, ou le nombre demandé par le formulaire. Le résultat change au fur et à mesure de votre saisie."
+      },
+      {
+        "title": "Lisez les pixels et redimensionnez",
+        "text": "Copiez le résultat, ou ouvrez le redimensionneur d'images et saisissez les pixels pour donner cette taille à votre image."
+      }
+    ],
+    "tipsTitle": "Conseils pour convertir cm en pixels",
+    "tips": [
+      "Une image n'a pas de taille en centimètres tant qu'elle n'est pas imprimée ou placée dans un document. C'est le DPI qui décide combien de pixels tiennent dans un centimètre.",
+      "Utilisez 300 DPI pour une impression nette, 150 DPI pour un brouillon, et 72 ou 96 DPI pour les écrans.",
+      "Si un formulaire donne une taille en cm sans DPI, 300 DPI est le choix habituel pour les photos.",
+      "Saisissez la largeur et la hauteur pour obtenir les deux côtés d'un coup. Utilisez le bouton d'inversion pour convertir dans l'autre sens."
+    ],
+    "detailsTitle": "Comment convertir cm en pixels",
+    "details": [
+      "La formule est pixels = centimètres ÷ 2,54 × DPI, car un pouce fait 2,54 centimètres. À 300 DPI, un centimètre fait environ 118 pixels, à 96 DPI environ 38 pixels, et à 72 DPI environ 28 pixels. Ainsi, 10 cm font environ 1181 pixels à 300 DPI.",
+      "Les formats photo en centimètres suivent la même règle : un tirage de 10 × 15 cm fait environ 1181 × 1772 pixels à 300 DPI. Le convertisseur arrondit les pixels à l'entier, car une image ne peut pas avoir une fraction de pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Combien de pixels fait 1 cm ?",
+          "a": "À 300 DPI, 1 cm fait environ 118 pixels. À 96 DPI, environ 38 pixels, et à 72 DPI, environ 28 pixels."
+        },
+        {
+          "q": "Comment convertir cm en pixels ?",
+          "a": "Divisez les centimètres par 2,54 et multipliez par le DPI. Ou saisissez la taille dans le calculateur ci-dessus : il le fait pour vous."
+        },
+        {
+          "q": "Quel DPI utiliser ?",
+          "a": "Utilisez 300 pour l'impression et les photos d'identité ou de passeport, et 72 ou 96 pour les images qui ne s'affichent que sur un écran."
+        },
+        {
+          "q": "Le DPI modifie-t-il mon image ?",
+          "a": "Non. Le DPI décide seulement de la taille de l'image à l'impression. Redimensionnez l'image elle-même avec le redimensionneur d'images."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Convertir pouces en pixels - Calculateur gratuit",
+    "description": "Convertissez pouces en pixels gratuitement : saisissez des pouces, choisissez le DPI et obtenez la taille exacte en pixels pour tirages photo et formulaires.",
+    "h1": "Convertir pouces en pixels",
+    "intro": "Saisissez une taille en pouces et voyez combien de pixels elle représente à votre DPI. Le calculateur affiche aussi les formats d'impression courants en pixels et renvoie vers le redimensionneur d'images gratuit, pour donner à votre image exactement cette taille.",
+    "blurb": "Convertissez des pouces en pixels pour n'importe quel DPI.",
+    "steps": [
+      {
+        "title": "Saisissez la taille en pouces",
+        "text": "Saisissez la largeur, et la hauteur si besoin. L'unité est déjà réglée sur les pouces."
+      },
+      {
+        "title": "Choisissez le DPI",
+        "text": "Utilisez 300 pour l'impression, 96 pour un écran, ou le nombre demandé par le formulaire. Le résultat change au fur et à mesure de votre saisie."
+      },
+      {
+        "title": "Lisez les pixels et redimensionnez",
+        "text": "Copiez le résultat, ou ouvrez le redimensionneur d'images et saisissez les pixels pour donner cette taille à votre image."
+      }
+    ],
+    "tipsTitle": "Conseils pour convertir pouces en pixels",
+    "tips": [
+      "Pixels = pouces × DPI. À 300 DPI, chaque pouce fait 300 pixels.",
+      "Un tirage photo de 4 × 6 pouces demande 1200 × 1800 pixels à 300 DPI, et une photo de passeport de 2 × 2 pouces en demande 600 × 600.",
+      "Une image n'a pas de taille en pouces tant qu'elle n'est pas imprimée. C'est le DPI qui décide combien de pixels tiennent dans un pouce.",
+      "Utilisez le bouton d'inversion pour convertir des pixels en pouces."
+    ],
+    "detailsTitle": "Comment convertir pouces en pixels",
+    "details": [
+      "La formule est pixels = pouces × DPI. À 300 DPI, le choix habituel pour l'impression, 1 pouce fait 300 pixels. À 96 DPI, la valeur standard d'un écran dans un navigateur, 1 pouce fait 96 pixels, et à 72 DPI il en fait 72.",
+      "Une page US Letter de 8,5 × 11 pouces fait 2550 × 3300 pixels à 300 DPI, et un tirage de 5 × 7 pouces fait 1500 × 2100 pixels. Le convertisseur arrondit les pixels à l'entier, car une image ne peut pas avoir une fraction de pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Combien de pixels fait 1 pouce ?",
+          "a": "Cela dépend du DPI : 300 pixels à 300 DPI, 96 pixels à 96 DPI et 72 pixels à 72 DPI."
+        },
+        {
+          "q": "Combien de pixels fait une photo de 4x6 pouces ?",
+          "a": "À 300 DPI, une photo de 4 × 6 pouces fait 1200 × 1800 pixels."
+        },
+        {
+          "q": "Quel DPI utiliser ?",
+          "a": "Utilisez 300 pour l'impression, et 72 ou 96 pour les images qui ne s'affichent que sur un écran."
+        },
+        {
+          "q": "Le DPI modifie-t-il mon image ?",
+          "a": "Non. Le DPI décide seulement de la taille de l'image à l'impression. Redimensionnez l'image elle-même avec le redimensionneur d'images."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "Convertir mm en pixels - Calculateur gratuit (300 DPI)",
+    "description": "Convertissez mm en pixels gratuitement : saisissez des millimètres, choisissez le DPI et obtenez la taille en pixels pour photos d'identité et formulaires.",
+    "h1": "Convertir mm en pixels",
+    "intro": "Saisissez une taille en millimètres et voyez combien de pixels elle représente à votre DPI. Pratique pour les photos d'identité et de passeport, dont la taille est donnée en millimètres. Le calculateur renvoie vers le redimensionneur d'images gratuit, pour donner à votre image exactement cette taille.",
+    "blurb": "Convertissez des millimètres en pixels pour n'importe quel DPI.",
+    "steps": [
+      {
+        "title": "Saisissez la taille en mm",
+        "text": "Saisissez la largeur, et la hauteur si besoin. L'unité est déjà réglée sur les millimètres."
+      },
+      {
+        "title": "Choisissez le DPI",
+        "text": "Utilisez 300 pour l'impression, 96 pour un écran, ou le nombre demandé par le formulaire. Le résultat change au fur et à mesure de votre saisie."
+      },
+      {
+        "title": "Lisez les pixels et redimensionnez",
+        "text": "Copiez le résultat, ou ouvrez le redimensionneur d'images et saisissez les pixels pour donner cette taille à votre image."
+      }
+    ],
+    "tipsTitle": "Conseils pour convertir mm en pixels",
+    "tips": [
+      "Une photo de passeport de 35 × 45 mm fait 413 × 531 pixels à 300 DPI.",
+      "Une image n'a pas de taille en millimètres tant qu'elle n'est pas imprimée. C'est le DPI qui décide combien de pixels tiennent dans un millimètre.",
+      "Utilisez 300 DPI pour une impression nette, et 72 ou 96 DPI pour les images qui ne s'affichent que sur un écran.",
+      "Saisissez la largeur et la hauteur pour obtenir les deux côtés d'un coup. Utilisez le bouton d'inversion pour convertir des pixels en millimètres."
+    ],
+    "detailsTitle": "Comment convertir mm en pixels",
+    "details": [
+      "La formule est pixels = millimètres ÷ 25,4 × DPI, car un pouce fait 25,4 millimètres. À 300 DPI, un millimètre fait environ 11,8 pixels, à 96 DPI environ 3,8 pixels, et à 72 DPI environ 2,8 pixels.",
+      "Une feuille A4 de 210 × 297 mm fait 2480 × 3508 pixels à 300 DPI. Le convertisseur arrondit les pixels à l'entier, car une image ne peut pas avoir une fraction de pixel."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Combien de pixels fait 1 mm ?",
+          "a": "À 300 DPI, 1 mm fait environ 11,8 pixels. À 96 DPI, environ 3,8 pixels, et à 72 DPI, environ 2,8 pixels."
+        },
+        {
+          "q": "Combien de pixels fait une photo de 35x45 mm ?",
+          "a": "À 300 DPI, une photo de passeport de 35 × 45 mm fait 413 × 531 pixels."
+        },
+        {
+          "q": "Quel DPI utiliser ?",
+          "a": "Utilisez 300 pour l'impression et les photos d'identité ou de passeport, et 72 ou 96 pour les images qui ne s'affichent que sur un écran."
+        },
+        {
+          "q": "Le DPI modifie-t-il mon image ?",
+          "a": "Non. Le DPI décide seulement de la taille de l'image à l'impression. Redimensionnez l'image elle-même avec le redimensionneur d'images."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Convertir pixels en cm - Calculateur gratuit (DPI)",
+    "description": "Convertissez pixels en cm gratuitement : saisissez des pixels, choisissez le DPI et obtenez la taille d'impression en cm, mm ou pouces. Sans inscription.",
+    "h1": "Convertir pixels en cm",
+    "intro": "Saisissez une taille en pixels et voyez quelle taille elle atteint à l'impression, en centimètres, à votre DPI. Le calculateur affiche aussi les formats d'impression courants en pixels et renvoie vers le redimensionneur d'images gratuit.",
+    "blurb": "Convertissez des pixels en centimètres pour n'importe quel DPI.",
+    "steps": [
+      {
+        "title": "Saisissez la taille en pixels",
+        "text": "Saisissez la largeur, et la hauteur si besoin. L'unité est déjà réglée sur les pixels."
+      },
+      {
+        "title": "Choisissez le DPI",
+        "text": "Utilisez 300 pour l'impression, 96 pour un écran, ou le nombre qu'utilise votre imprimante ou votre formulaire. Le résultat change au fur et à mesure de votre saisie."
+      },
+      {
+        "title": "Lisez la taille",
+        "text": "La taille s'affiche en centimètres. Changez l'unité pour des millimètres ou des pouces si vous préférez."
+      }
+    ],
+    "tipsTitle": "Conseils pour convertir pixels en cm",
+    "tips": [
+      "La même image s'imprime à des tailles différentes : plus le DPI est élevé, plus le tirage est petit et net.",
+      "Pour une bonne impression, utilisez au moins 300 DPI. Une image de 1200 × 1800 pixels s'imprime en 4 × 6 pouces (10,2 × 15,2 cm) à 300 DPI.",
+      "Sur un écran, la valeur habituelle est 96 DPI : 1920 pixels font donc environ 50,8 cm de large avec ce réglage.",
+      "Utilisez le bouton d'inversion pour convertir des centimètres en pixels."
+    ],
+    "detailsTitle": "Comment convertir pixels en cm",
+    "details": [
+      "La formule est centimètres = pixels ÷ DPI × 2,54, car un pouce fait 2,54 centimètres. À 300 DPI, 1000 pixels font environ 8,47 cm. À 96 DPI, les mêmes 1000 pixels font environ 26,46 cm.",
+      "Une image n'a pas de taille réelle tant qu'elle n'est pas imprimée, et c'est le DPI qui relie les pixels aux centimètres. Si un formulaire demande une taille en centimètres et que vous ne connaissez que les pixels, 300 DPI est la valeur habituelle pour les photos."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Combien de cm font 1000 pixels ?",
+          "a": "À 300 DPI, 1000 pixels font environ 8,47 cm. À 96 DPI, environ 26,46 cm."
+        },
+        {
+          "q": "Comment convertir pixels en cm ?",
+          "a": "Divisez les pixels par le DPI et multipliez par 2,54. Ou saisissez les pixels dans le calculateur ci-dessus : il le fait pour vous."
+        },
+        {
+          "q": "Quel DPI utiliser ?",
+          "a": "Utilisez 300 pour l'impression, et 72 ou 96 pour les images qui ne s'affichent que sur un écran."
+        },
+        {
+          "q": "Le DPI modifie-t-il mon image ?",
+          "a": "Non. Le DPI décide seulement de la taille de l'image à l'impression. Redimensionnez l'image elle-même avec le redimensionneur d'images."
         }
       ]
     }

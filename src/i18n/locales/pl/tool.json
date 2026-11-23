@@ -113,6 +113,82 @@
       "limitNote": "PNG nie da się zmniejszyć tak, aby mieścił się w limicie rozmiaru pliku. Aby zachować limit, wybierz JPG lub WebP.",
       "progress": "Postęp zmiany rozmiaru"
     },
-    "noscript": "Do zmiany rozmiaru obrazów w przeglądarce potrzebny jest JavaScript. Włącz go."
+    "noscript": "Do zmiany rozmiaru obrazów w przeglądarce potrzebny jest JavaScript. Włącz go.",
+    "pdf": {
+      "aria": "Zdjęcia na PDF",
+      "hint": "Dodaj kilka zdjęć, aby utworzyć jeden plik PDF. Każde zdjęcie staje się stroną.",
+      "options": {
+        "title": "Opcje PDF",
+        "pageSize": "Rozmiar strony",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Taki sam jak obraz",
+        "orientation": "Orientacja strony",
+        "auto": "Automatyczna",
+        "portrait": "Pionowa",
+        "landscape": "Pozioma",
+        "margin": "Margines",
+        "none": "Bez marginesu",
+        "small": "Mały margines",
+        "big": "Duży margines",
+        "quality": "Jakość obrazu",
+        "high": "Wysoka jakość",
+        "balanced": "Zrównoważona",
+        "low": "Mały plik",
+        "qualityNote": "Wyższa jakość zachowuje więcej szczegółów i daje większy plik PDF."
+      },
+      "actions": {
+        "create": "Utwórz PDF",
+        "working": "Dodawanie strony {done} z {total}...",
+        "download": "Pobierz PDF",
+        "again": "Utwórz kolejny PDF"
+      },
+      "list": {
+        "title": "Strony ({count})",
+        "up": "Przesuń {name} w górę",
+        "down": "Przesuń {name} w dół"
+      },
+      "result": {
+        "title": "Twój plik PDF jest gotowy",
+        "info": "Liczba stron: {pages}, rozmiar: {size}"
+      },
+      "errors": {
+        "empty": "Najpierw dodaj co najmniej jedno zdjęcie.",
+        "unreadable": "Nie udało się odczytać pliku {name} jako obrazu.",
+        "failed": "Nie udało się utworzyć pliku PDF. Spróbuj ponownie z mniejszą liczbą lub mniejszymi zdjęciami."
+      }
+    },
+    "calc": {
+      "aria": "Przelicznik rozmiarów",
+      "title": "Przelicz rozmiar",
+      "width": "Szerokość",
+      "height": "Wysokość (opcjonalnie)",
+      "invalid": "Wpisz liczbę większą od zera.",
+      "from": "Z",
+      "to": "Na",
+      "swap": "Zamień jednostki",
+      "dpi": "DPI (punkty na cal)",
+      "dpiNote": "300 DPI to typowa wartość do druku. Ekrany używają 72 lub 96.",
+      "result": "Wynik",
+      "empty": "Wpisz rozmiar, aby zobaczyć wynik.",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano",
+      "resizeLink": "Zmień rozmiar zdjęcia do tych wymiarów",
+      "units": {
+        "px": "Piksele (px)",
+        "cm": "Centymetry (cm)",
+        "mm": "Milimetry (mm)",
+        "in": "Cale (in)"
+      },
+      "table": {
+        "title": "Typowe rozmiary w pikselach przy {dpi} DPI",
+        "size": "Rozmiar",
+        "dimensions": "Szerokość × wysokość",
+        "pixels": "Piksele",
+        "passport": "Zdjęcie paszportowe",
+        "print": "Odbitka zdjęcia",
+        "card": "Wizytówka"
+      }
+    }
   }
 }

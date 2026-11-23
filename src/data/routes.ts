@@ -25,7 +25,16 @@ export type ToolKey =
   | 'jpgToPng'
   | 'webpToJpg'
   | 'jpgToWebp'
-  | 'pngToWebp';
+  | 'pngToWebp'
+  | 'kb300'
+  | 'mb2'
+  | 'imageToPdf'
+  | 'jpgToPdf'
+  | 'pngToPdf'
+  | 'cmToPx'
+  | 'inToPx'
+  | 'mmToPx'
+  | 'pxToCm';
 
 /** Heading under which a page is listed in the menu and the footer (text: "navGroups.<group>"). */
 export type NavGroup = 'tools' | 'sizes' | 'convert';
@@ -50,6 +59,7 @@ export const TOOL_ROUTES: ToolRoute[] = [
   { key: 'social', path: '/social-media-image-sizes/', group: 'tools', strip: true },
   { key: 'convert', path: '/convert-image/', group: 'convert', strip: true },
   { key: 'compress', path: '/compress-image/', group: 'tools', strip: true },
+  { key: 'imageToPdf', path: '/image-to-pdf/', group: 'convert', strip: true },
   // Dedicated landing pages for the most searched tasks (listed in the menu and the footer).
   { key: 'kb10', path: '/resize-image-to-10kb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'kb20', path: '/resize-image-to-20kb/', group: 'sizes', strip: false, parent: 'kb' },
@@ -59,6 +69,8 @@ export const TOOL_ROUTES: ToolRoute[] = [
   { key: 'kb200', path: '/resize-image-to-200kb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'kb500', path: '/resize-image-to-500kb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'mb1', path: '/resize-image-to-1mb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'kb300', path: '/resize-image-to-300kb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'mb2', path: '/resize-image-to-2mb/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'signature', path: '/resize-signature/', group: 'sizes', strip: false, parent: 'kb' },
   { key: 'pixels', path: '/resize-image-in-pixels/', group: 'tools', strip: false, parent: 'home' },
   { key: 'bulk', path: '/bulk-image-resizer/', group: 'tools', strip: false, parent: 'home' },
@@ -67,6 +79,13 @@ export const TOOL_ROUTES: ToolRoute[] = [
   { key: 'webpToJpg', path: '/webp-to-jpg/', group: 'convert', strip: false, parent: 'convert' },
   { key: 'jpgToWebp', path: '/jpg-to-webp/', group: 'convert', strip: false, parent: 'convert' },
   { key: 'pngToWebp', path: '/png-to-webp/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'jpgToPdf', path: '/jpg-to-pdf/', group: 'convert', strip: false, parent: 'imageToPdf' },
+  { key: 'pngToPdf', path: '/png-to-pdf/', group: 'convert', strip: false, parent: 'imageToPdf' },
+  // Size converters (cm, mm, inches and pixels)
+  { key: 'cmToPx', path: '/cm-to-pixels/', group: 'tools', strip: false, parent: 'cm' },
+  { key: 'inToPx', path: '/inches-to-pixels/', group: 'tools', strip: false, parent: 'cm' },
+  { key: 'mmToPx', path: '/mm-to-pixels/', group: 'tools', strip: false, parent: 'cm' },
+  { key: 'pxToCm', path: '/pixels-to-cm/', group: 'tools', strip: false, parent: 'cm' },
 ];
 
 export const NAV_GROUPS: NavGroup[] = ['tools', 'sizes', 'convert'];

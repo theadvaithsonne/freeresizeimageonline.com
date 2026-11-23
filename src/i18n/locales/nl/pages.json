@@ -3,7 +3,7 @@
     "home": "Formaat wijzigen",
     "kb": "Verkleinen naar KB",
     "cm": "Formaat in cm, mm of inch",
-    "passport": "Pasfotoformaat",
+    "passport": "Pasfoto formaat",
     "social": "Formaten voor sociale media",
     "convert": "Afbeeldingen converteren",
     "compress": "Afbeeldingen comprimeren",
@@ -24,7 +24,16 @@
     "pixels": "Formaat in pixels",
     "bulk": "Afbeeldingen in bulk verkleinen",
     "jpgToWebp": "JPG naar WebP",
-    "pngToWebp": "PNG naar WebP"
+    "pngToWebp": "PNG naar WebP",
+    "kb300": "Verkleinen naar 300 KB",
+    "mb2": "Verkleinen naar 2 MB",
+    "imageToPdf": "Foto naar PDF",
+    "jpgToPdf": "JPG naar PDF",
+    "pngToPdf": "PNG naar PDF",
+    "cmToPx": "cm naar pixels",
+    "inToPx": "Inch naar pixels",
+    "mmToPx": "mm naar pixels",
+    "pxToCm": "Pixels naar cm"
   },
   "common": {
     "howTo": "Zo werkt het",
@@ -113,9 +122,9 @@
     }
   },
   "kb": {
-    "title": "Afbeelding verkleinen naar KB - 10, 20, 50, 100, 200 KB",
-    "description": "Afbeelding verkleinen naar KB, gratis online: breng een foto terug tot 10, 20, 30, 50, 100, 200 of 500 KB voor formulieren en uploads. Zonder account en privé.",
-    "h1": "Afbeelding verkleinen naar KB (20 KB, 50 KB, 100 KB, 200 KB)",
+    "title": "Foto verkleinen naar KB - 20, 50, 100, 200 KB gratis",
+    "description": "Foto verkleinen naar KB, gratis online: breng een afbeelding terug tot 10, 20, 30, 50, 100, 200 of 500 KB voor formulieren en uploads. Zonder account en privé.",
+    "h1": "Foto verkleinen naar KB (20 KB, 50 KB, 100 KB, 200 KB)",
     "intro": "Veel online formulieren, examenportalen en vacaturesites weigeren foto’s boven een limiet zoals 50 KB of 200 KB. Deze tool verkleint je afbeelding zodat hij binnen de gekozen limiet past en zoveel mogelijk kwaliteit behoudt.",
     "steps": [
       {
@@ -162,9 +171,9 @@
     ]
   },
   "cm": {
-    "title": "Afbeeldingsformaat wijzigen in cm, mm of inch - Gratis",
-    "description": "Afbeelding verkleinen in cm gratis: stel het exacte formaat van een foto in centimeters, millimeters of inches in met de juiste DPI. Zonder account, privé.",
-    "h1": "Formaat van afbeelding wijzigen in cm, mm of inch",
+    "title": "Foto formaat aanpassen in cm, mm of inch - Gratis online",
+    "description": "Foto formaat aanpassen in cm gratis: stel de exacte afmetingen in centimeters, millimeters of inches in met de juiste DPI. Zonder account, privé.",
+    "h1": "Foto formaat aanpassen in cm, mm of inch",
     "intro": "Voor afdrukken en officiële formulieren is vaak een formaat in centimeters of inches nodig in plaats van pixels. Voer het formaat en de DPI in, en de tool rekent de pixels voor je uit.",
     "steps": [
       {
@@ -211,9 +220,9 @@
     ]
   },
   "passport": {
-    "title": "Pasfoto- en visumfotoformaat per land - Gratis aanpassen",
-    "description": "Pasfoto- en visumfotoformaat per land in mm, inches en pixels, met een gratis tool om je foto op het juiste formaat te brengen, ook 2x2 inch en 35x45 mm.",
-    "h1": "Formaat van pasfoto en visumfoto",
+    "title": "Pasfoto formaat per land in mm, pixels en inch - Gratis",
+    "description": "Pasfoto formaat per land in mm, inches en pixels, plus een gratis tool om je foto op het juiste formaat te brengen, ook voor visum, 2x2 inch en 35x45 mm.",
+    "h1": "Pasfoto formaat en visumfoto formaat per land",
     "intro": "Elk land vraagt om een ander fotoformaat. Kies je land in de lijst Voorinstelling om je foto op 300 DPI bij te snijden en te verkleinen naar de exacte afmetingen.",
     "note": "Regels veranderen en elke aanvraag kan eigen eisen stellen, zoals achtergrondkleur, hoofdgrootte of geen bril. Controleer altijd de officiële instructies voordat je indient. Deze tool stelt alleen het formaat in; hij controleert de hoofdgrootte of achtergrond niet.",
     "tableTitle": "Gangbare fotoformaten",
@@ -262,9 +271,9 @@
     ]
   },
   "social": {
-    "title": "Afbeeldingsformaten voor sociale media - Instagram, YouTube",
-    "description": "Afbeeldingsformaten voor Instagram, Facebook, YouTube, X, LinkedIn en Pinterest, plus een gratis tool om je afbeelding passend te maken zonder bij te snijden.",
-    "h1": "Afbeeldingsformaten voor sociale media",
+    "title": "Instagram foto formaat, YouTube, WhatsApp - Gratis",
+    "description": "Instagram foto formaat, YouTube thumbnail en WhatsApp profielfoto, plus Facebook, X, LinkedIn en Pinterest, met een gratis tool om je foto passend te maken.",
+    "h1": "Foto formaat voor Instagram, YouTube en andere sociale media",
     "intro": "Berichten zien er het best uit als de afbeelding al de juiste vorm heeft. Kies een platform in de lijst Voorinstelling en de tool snijdt je afbeelding bij en past het formaat aan.",
     "note": "Platforms passen hun aanbevelingen van tijd tot tijd aan. Dit zijn veelgebruikte formaten die goed werken met de huidige indelingen.",
     "tableTitle": "Formaten per platform",
@@ -312,9 +321,9 @@
     ]
   },
   "convert": {
-    "title": "JPG, PNG en WebP converteren - Gratis online converter",
-    "description": "Converteer afbeeldingen tussen JPG, PNG en WebP, gratis online. Zonder account, zonder upload en je kiest zelf de kwaliteit. Werkt op telefoons en computers.",
-    "h1": "Afbeeldingen converteren tussen JPG, PNG en WebP",
+    "title": "Afbeelding converteren - JPG, PNG en WebP gratis online",
+    "description": "Foto of afbeelding converteren tussen JPG, PNG en WebP, gratis online. Zonder account, zonder upload, je kiest zelf de kwaliteit. Werkt op telefoon en computer.",
+    "h1": "Afbeelding converteren naar JPG, PNG of WebP",
     "intro": "Kies de gewenste indeling en de tool converteert elke afbeelding die je toevoegt. Er wordt niets geüpload.",
     "steps": [
       {
@@ -357,9 +366,9 @@
     ]
   },
   "compress": {
-    "title": "Afbeelding comprimeren online - Foto verkleinen gratis",
-    "description": "Afbeelding comprimeren gratis: maak foto’s kleiner zonder zichtbaar kwaliteitsverlies of tot een vaste limiet in KB. Zonder account, niets wordt geüpload.",
-    "h1": "Afbeeldingen online comprimeren",
+    "title": "Foto comprimeren online - Afbeelding comprimeren gratis",
+    "description": "Foto comprimeren gratis: maak een afbeelding kleiner zonder zichtbaar kwaliteitsverlies, of tot een vaste limiet in KB of MB. Zonder account, geen upload.",
+    "h1": "Foto comprimeren online",
     "intro": "Kleinere afbeeldingen laden sneller, passen in e-mails en besparen opslagruimte. De tool codeert je afbeeldingen opnieuw met moderne compressie en laat je een kwaliteitsniveau of een maximale bestandsgrootte instellen.",
     "steps": [
       {
@@ -407,9 +416,9 @@
     "convert": "Converters"
   },
   "kb20": {
-    "title": "Afbeelding verkleinen naar 20KB - Gratis online tool",
-    "description": "Afbeelding verkleinen naar 20KB gratis: maak een foto of handtekening 20 KB of kleiner in je browser. Zonder account, en je afbeelding blijft op je apparaat.",
-    "h1": "Afbeelding verkleinen naar 20 KB",
+    "title": "Foto verkleinen naar 20 KB - Gratis online tool",
+    "description": "Foto verkleinen naar 20 KB gratis: maak een foto of afbeelding 20 KB of kleiner, ook een handtekening. Zonder account, en je bestand blijft op je apparaat.",
+    "h1": "Foto verkleinen naar 20 KB",
     "intro": "Een limiet van 20 KB is gebruikelijk voor kleine pasfoto’s en handtekeningen bij examen-, sollicitatie- en overheidsformulieren. Voeg je afbeelding toe en de tool verlaagt stap voor stap de kwaliteit, en maakt de afbeelding alleen kleiner als het niet anders kan, totdat het bestand onder 20 KB (20.000 bytes) blijft.",
     "blurb": "Breng een foto of handtekening onder 20 KB.",
     "steps": [
@@ -460,9 +469,9 @@
     }
   },
   "kb50": {
-    "title": "Afbeelding verkleinen naar 50KB - Gratis online tool",
-    "description": "Afbeelding verkleinen naar 50KB gratis: comprimeer een foto tot max. 50 KB voor examenformulieren, sollicitatieportalen en ID-uploads. Zonder account, privé.",
-    "h1": "Afbeelding verkleinen naar 50 KB",
+    "title": "Foto verkleinen naar 50 KB - Gratis online tool",
+    "description": "Foto verkleinen naar 50 KB gratis: comprimeer een foto of afbeelding tot max. 50 KB voor examenformulieren, sollicitaties en ID-uploads. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 50 KB",
     "intro": "50 KB is een van de meest gevraagde limieten voor pasfoto’s op online aanmeldformulieren. Deze pagina stelt de limiet voor je in: voeg je foto toe en download een JPG onder 50 KB (50.000 bytes) die er nog scherp uitziet.",
     "blurb": "Breng een foto onder 50 KB voor formulieren en portalen.",
     "steps": [
@@ -513,9 +522,9 @@
     }
   },
   "kb100": {
-    "title": "Afbeelding verkleinen naar 100KB - Gratis comprimeren",
-    "description": "Afbeelding verkleinen naar 100KB gratis: maak een afbeelding 100 KB of kleiner voor sollicitaties, KYC en documentuploads. Zonder account en volledig privé.",
-    "h1": "Afbeelding verkleinen naar 100 KB",
+    "title": "Foto verkleinen naar 100 KB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 100 KB gratis: maak een foto of afbeelding 100 KB of kleiner voor sollicitaties, KYC en documentuploads. Zonder account en volledig privé.",
+    "h1": "Foto verkleinen naar 100 KB",
     "intro": "100 KB is een gangbare limiet voor foto’s bij aanvragen, gescande ID’s en profielfoto’s. Voeg je afbeelding toe en krijg een JPG onder 100 KB (100.000 bytes) met de hoogste kwaliteit die past.",
     "blurb": "Breng een afbeelding onder 100 KB voor aanvragen en KYC.",
     "steps": [
@@ -566,9 +575,9 @@
     }
   },
   "kb200": {
-    "title": "Afbeelding verkleinen naar 200KB - Gratis comprimeren",
-    "description": "Afbeelding verkleinen naar 200KB gratis: maak een afbeelding 200 KB of kleiner voor visum-, KYC- en overheidsuploads. Zonder account, werkt in je browser.",
-    "h1": "Afbeelding verkleinen naar 200 KB",
+    "title": "Foto verkleinen naar 200 KB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 200 KB gratis: maak een foto of afbeelding 200 KB of kleiner voor visum-, KYC- en overheidsuploads. Zonder account, werkt in je browser.",
+    "h1": "Foto verkleinen naar 200 KB",
     "intro": "200 KB is een gebruikelijke bovengrens voor visumfoto’s, KYC-documenten en overheidsuploads. Voeg je afbeelding toe en download een JPG onder 200 KB (200.000 bytes) die zoveel mogelijk details behoudt.",
     "blurb": "Breng een afbeelding onder 200 KB voor visum en overheid.",
     "steps": [
@@ -673,7 +682,7 @@
   },
   "pngToJpg": {
     "title": "PNG naar JPG converter - Gratis online, zonder upload",
-    "description": "PNG naar JPG converteren gratis: zet PNG-afbeeldingen in je browser om in kleinere JPG-bestanden. Zonder account, zonder upload, je kiest zelf de kwaliteit.",
+    "description": "PNG naar JPG omzetten of converteren, gratis online in je browser: kleinere JPG-bestanden, zonder account en zonder upload. Je kiest zelf de kwaliteit.",
     "h1": "PNG naar JPG converteren",
     "intro": "Zet PNG-afbeeldingen in één stap om naar kleinere JPG-bestanden. JPG wordt bijna overal geaccepteerd en is voor foto’s veel kleiner. Voeg je PNG-bestanden toe, druk op de knop en download de JPG-bestanden, of een ZIP met alle bestanden.",
     "blurb": "Zet PNG-bestanden om naar kleinere JPG-bestanden.",
@@ -726,7 +735,7 @@
   },
   "jpgToPng": {
     "title": "JPG naar PNG converter - Gratis online, zonder upload",
-    "description": "JPG naar PNG converteren, gratis online in je browser. Zonder account, zonder upload en zonder watermerk, en het werkt op telefoons en computers.",
+    "description": "JPG naar PNG omzetten of converteren, gratis online in je browser. Zonder account, zonder upload en zonder watermerk, en het werkt op telefoons en computers.",
     "h1": "JPG naar PNG converteren",
     "intro": "Heb je een PNG nodig voor een logo, een ontwerptool of een formulier dat geen JPG accepteert? Voeg je JPG-bestanden toe en download in één stap verliesvrije PNG-bestanden. Alles draait in je browser.",
     "blurb": "Zet JPG-bestanden om naar verliesvrije PNG-bestanden.",
@@ -779,7 +788,7 @@
   },
   "webpToJpg": {
     "title": "WebP naar JPG converter - Gratis online, zonder upload",
-    "description": "WebP naar JPG converteren gratis: zet WebP-afbeeldingen om in JPG-bestanden die overal openen. Zonder account, zonder upload, op telefoon en computer.",
+    "description": "WebP naar JPG omzetten of converteren, gratis: maak van WebP-afbeeldingen JPG-bestanden die overal openen. Zonder account, zonder upload, ook op je telefoon.",
     "h1": "WebP naar JPG converteren",
     "intro": "Websites slaan afbeeldingen vaak op als WebP, maar veel programma’s, printers en uploadformulieren accepteren alleen JPG. Voeg je WebP-afbeeldingen toe en download JPG-bestanden die overal openen.",
     "blurb": "Zet WebP-afbeeldingen om naar JPG-bestanden die overal openen.",
@@ -838,9 +847,9 @@
     "jump": "Ga naar"
   },
   "kb10": {
-    "title": "Afbeelding verkleinen naar 10KB - Gratis online tool",
-    "description": "Afbeelding verkleinen naar 10KB gratis: maak een foto of handtekening 10 KB of kleiner in je browser. Zonder account, zonder upload, blijft privé.",
-    "h1": "Afbeelding verkleinen naar 10 KB",
+    "title": "Foto verkleinen naar 10 KB - Gratis online tool",
+    "description": "Foto verkleinen naar 10 KB gratis: maak een foto of afbeelding 10 KB of kleiner, ook een handtekening. Zonder account, zonder upload, alles blijft privé.",
+    "h1": "Foto verkleinen naar 10 KB",
     "intro": "10 KB is een zeer kleine limiet, gangbaar voor handtekeningen, thumbnails en kleine fotovelden op aanmeldformulieren. Deze pagina stelt de limiet van 10 KB voor je in: voeg je afbeelding toe en download een JPG onder 10 KB (10.000 bytes).",
     "blurb": "Breng een handtekening of kleine foto onder 10 KB.",
     "steps": [
@@ -891,9 +900,9 @@
     }
   },
   "kb30": {
-    "title": "Afbeelding verkleinen naar 30KB - Gratis online tool",
-    "description": "Afbeelding verkleinen naar 30KB gratis: comprimeer een foto of handtekening tot 30 KB of minder voor formulieren en examenportalen. Zonder account, privé.",
-    "h1": "Afbeelding verkleinen naar 30 KB",
+    "title": "Foto verkleinen naar 30 KB - Gratis online tool",
+    "description": "Foto verkleinen naar 30 KB gratis: comprimeer een foto of afbeelding tot 30 KB of minder voor formulieren en examenportalen. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 30 KB",
     "intro": "Een limiet van 30 KB is gangbaar op aanmeldformulieren voor examens, banen en overheidsdiensten, waar de foto en de handtekening in aparte velden worden geüpload. Deze pagina stelt de limiet voor je in: voeg je afbeelding toe en download een JPG onder 30 KB (30.000 bytes).",
     "blurb": "Breng een foto onder 30 KB voor aanmeldformulieren.",
     "steps": [
@@ -944,9 +953,9 @@
     }
   },
   "kb500": {
-    "title": "Afbeelding verkleinen naar 500KB - Gratis comprimeren",
-    "description": "Afbeelding verkleinen naar 500KB gratis: comprimeer een foto tot 500 KB voor e-mail, sollicitaties en uploads en houd hem scherp. Zonder account, privé.",
-    "h1": "Afbeelding verkleinen naar 500 KB",
+    "title": "Foto verkleinen naar 500 KB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 500 KB gratis: comprimeer een foto of afbeelding tot 500 KB voor e-mail en uploads en houd hem scherp. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 500 KB",
     "intro": "500 KB is een gangbare limiet voor e-mailbijlagen, sollicitaties en uploadformulieren die nog steeds een mooie afbeelding willen. Deze pagina stelt de limiet voor je in: voeg je afbeelding toe en download een bestand onder 500 KB (500.000 bytes) dat scherp blijft.",
     "blurb": "Breng een afbeelding onder 500 KB en houd hem scherp.",
     "steps": [
@@ -997,9 +1006,9 @@
     }
   },
   "mb1": {
-    "title": "Afbeelding verkleinen naar 1MB - Gratis comprimeren",
-    "description": "Afbeelding verkleinen naar 1MB gratis: verklein een foto tot 1 MB of minder voor e-mail, formulieren en uploads zonder zichtbaar verlies. Zonder account, privé.",
-    "h1": "Afbeelding verkleinen naar 1 MB",
+    "title": "Foto verkleinen naar 1 MB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 1 MB gratis: maak een foto of afbeelding kleiner dan 1 MB voor e-mail en uploads, zonder zichtbaar verlies. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 1 MB",
     "intro": "Een limiet van 1 MB is gangbaar bij e-maildiensten, aanvraagformulieren en websites waar je foto’s kunt uploaden. Deze pagina stelt de limiet voor je in: voeg je afbeelding toe en download een bestand onder 1 MB (1.000.000 bytes) dat er nog scherp uitziet.",
     "blurb": "Breng een afbeelding onder 1 MB voor e-mail en uploads.",
     "steps": [
@@ -1051,7 +1060,7 @@
   },
   "pixels": {
     "title": "Afbeelding verkleinen in pixels - Breedte en hoogte",
-    "description": "Afbeelding verkleinen in pixels gratis: voer de exacte breedte en hoogte in, behoud de verhouding, pas in of snijd bij. Zonder account, blijft op je apparaat.",
+    "description": "Foto of afbeelding verkleinen in pixels gratis: voer de exacte breedte en hoogte in, behoud de verhouding, pas in of snijd bij. Zonder account, privé.",
     "h1": "Afbeelding verkleinen in pixels",
     "intro": "Stel de exacte breedte en hoogte van een afbeelding in pixels in, voor een website, een aanmeldformulier, een thumbnail of een bericht op sociale media. Voeg je afbeelding toe, typ het formaat en download het resultaat. De verhouding is standaard vergrendeld, dus er wordt niets uitgerekt.",
     "blurb": "Stel de exacte breedte en hoogte in pixels in.",
@@ -1103,9 +1112,9 @@
     }
   },
   "bulk": {
-    "title": "Afbeeldingen in bulk verkleinen - Gratis online",
-    "description": "Afbeeldingen in bulk verkleinen: verklein honderden foto’s tegelijk naar één formaat of bestandsgrootte en download een ZIP. Gratis, zonder account, privé.",
-    "h1": "Afbeeldingen in bulk verkleinen",
+    "title": "Meerdere foto's tegelijk verkleinen - Bulk, gratis online",
+    "description": "Meerdere foto's tegelijk verkleinen: honderden foto's in bulk naar één formaat of bestandsgrootte, en download een ZIP. Gratis, zonder account, privé.",
+    "h1": "Meerdere foto's tegelijk verkleinen",
     "intro": "Verklein veel afbeeldingen in één keer. Voeg een hele map met foto’s toe, kies één formaat of één limiet voor de bestandsgrootte voor allemaal en download de resultaten als één ZIP-bestand. Alles gebeurt op je apparaat, dus er is geen upload en je hoeft niet te wachten.",
     "blurb": "Verklein veel foto’s tegelijk en download een ZIP.",
     "steps": [
@@ -1157,7 +1166,7 @@
   },
   "jpgToWebp": {
     "title": "JPG naar WebP converter - Gratis online, zonder upload",
-    "description": "JPG naar WebP converteren in je browser voor kleinere bestanden en snellere pagina’s. Gratis, zonder account, zonder upload en je kiest zelf de kwaliteit.",
+    "description": "JPG naar WebP omzetten of converteren in je browser voor kleinere bestanden en snellere sites. Gratis, zonder account, zonder upload, kwaliteit naar keuze.",
     "h1": "JPG naar WebP converteren",
     "intro": "WebP-bestanden zijn bij vergelijkbare kwaliteit meestal kleiner dan JPG-bestanden, waardoor websites sneller laden. Voeg je JPG-afbeeldingen toe en download in een paar seconden WebP-bestanden. Er wordt niets geüpload: de conversie gebeurt op je apparaat.",
     "blurb": "Zet JPG-afbeeldingen om naar kleinere WebP-bestanden.",
@@ -1257,6 +1266,496 @@
         {
           "q": "Is het gratis?",
           "a": "Ja. Je hoeft je niet aan te melden, er is geen watermerk en er is geen limiet aan het aantal afbeeldingen."
+        }
+      ]
+    }
+  },
+  "kb300": {
+    "title": "Foto verkleinen naar 300 KB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 300 KB gratis: maak een foto of afbeelding 300 KB of kleiner voor formulieren en uploads en houd hem scherp. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 300 KB",
+    "intro": "Veel aanvraagformulieren, examenportalen en websites vragen om een foto van maximaal 300 KB. Deze pagina stelt die limiet voor je in: voeg je afbeelding toe en download een bestand onder 300 KB dat er nog duidelijk uitziet.",
+    "blurb": "Breng een afbeelding onder 300 KB voor formulieren en uploads.",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat. Grote telefoonfoto’s zijn geen probleem."
+      },
+      {
+        "title": "Houd de limiet van 300 KB aan",
+        "text": "300 KB is al ingesteld. De tool rekent dit als 300.000 bytes, zodat het bestand wordt geaccepteerd op systemen die 1 KB als 1.000 bytes rekenen en op systemen die 1.024 rekenen."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen en download het bestand. Het resultaat toont de exacte grootte."
+      }
+    ],
+    "tipsTitle": "Tips om onder 300 KB te blijven",
+    "tips": [
+      "Kies JPG voor foto’s. Een foto die als PNG is opgeslagen, is meestal meerdere keren groter bij dezelfde afbeelding.",
+      "Vraagt het formulier ook om exacte afmetingen in pixels? Stel dan eerst de breedte en hoogte in en laat daarna de limiet van 300 KB aan staan.",
+      "Een telefoonfoto van 4000 pixels breed past niet in 300 KB met hoge kwaliteit. Laat de tool het formaat in pixels iets verkleinen: dat geeft een scherper resultaat dan alleen de kwaliteit verlagen.",
+      "Voeg meerdere foto’s tegelijk toe om ze allemaal met dezelfde limiet te verkleinen en download dan één ZIP-bestand."
+    ],
+    "detailsTitle": "Wat 300 KB betekent voor een foto",
+    "details": [
+      "Driehonderd kilobyte is iets minder dan een derde megabyte. Een JPG van die grootte kan een foto van ongeveer 1500 bij 1000 pixels met goede details bevatten, afhankelijk van de afbeelding. Dat is ruim genoeg voor een formulier, een ID-upload of een webpagina.",
+      "De tool probeert de hoogste kwaliteit die past en toont de exacte grootte van het resultaat voordat je downloadt. Wil een formulier een kleiner bestand, kies dan een lagere limiet zoals 200 KB of 100 KB en probeer het opnieuw."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe verklein ik een afbeelding naar 300 KB?",
+          "a": "Voeg de afbeelding toe, laat de limiet van 300 KB staan en druk op Formaat wijzigen. De tool zoekt de hoogste kwaliteit die past."
+        },
+        {
+          "q": "Ziet de afbeelding er daarna slechter uit?",
+          "a": "Een beetje, want een kleiner bestand bevat minder details. De tool kiest de beste kwaliteit die nog past, dus je krijgt de scherpste afbeelding onder 300 KB."
+        },
+        {
+          "q": "Wat als mijn bestand al kleiner is dan 300 KB?",
+          "a": "Dan is het al klein genoeg. Kies alleen een lagere limiet als het formulier die vraagt."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "mb2": {
+    "title": "Foto verkleinen naar 2 MB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 2 MB gratis: maak een foto of afbeelding kleiner dan 2 MB voor e-mail en uploads, zonder zichtbaar verlies. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 2 MB",
+    "intro": "E-maildiensten, aanvraagformulieren en uploadpagina’s accepteren vaak afbeeldingen tot 2 MB, en telefoonfoto’s zijn meestal groter. Voeg je afbeelding toe en download een bestand onder 2 MB (2.000.000 bytes) dat er nog scherp uitziet.",
+    "blurb": "Breng een afbeelding onder 2 MB voor e-mail en uploads.",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat. Foto’s van 5 tot 10 MB zijn geen probleem."
+      },
+      {
+        "title": "Houd de limiet van 2 MB aan",
+        "text": "2 MB is al ingesteld. De tool rekent dit als 2.000.000 bytes, zodat het bestand wordt geaccepteerd op systemen die 2.000 KB rekenen en op systemen die 2.048 KB rekenen."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen en download het bestand. Het resultaat toont de exacte grootte."
+      }
+    ],
+    "tipsTitle": "Tips om onder 2 MB te blijven",
+    "tips": [
+      "De meeste moderne telefoonfoto’s zijn 3 tot 10 MB. Twee megabyte haal je meestal door de kwaliteit iets te verlagen, zonder zichtbaar verschil op een scherm.",
+      "Foto’s passen het best in een kleiner bestand als JPG of WebP. Een foto die als PNG is opgeslagen, is meestal meerdere keren groter.",
+      "Wil je veel foto’s in één e-mail versturen, voeg ze dan allemaal tegelijk toe en download het ZIP-bestand.",
+      "Schermafbeeldingen en logo’s kun je beter als PNG bewaren: ze zijn al klein en houden scherpe randen."
+    ],
+    "detailsTitle": "Wat 2 MB betekent voor een foto",
+    "details": [
+      "Twee megabyte is 2.000 kilobyte. Een JPG van die grootte kan een foto van ongeveer 3000 bij 2000 pixels met zeer goede details bevatten, afhankelijk van de afbeelding, en dat is meer dan de meeste schermen tonen.",
+      "De tool probeert de hoogste kwaliteit die past en toont de exacte grootte van het resultaat voordat je downloadt. Het formaat in pixels wordt alleen verkleind als de limiet met de kwaliteit alleen niet haalbaar is."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe verklein ik een afbeelding naar 2 MB?",
+          "a": "Voeg de afbeelding toe, laat de limiet van 2 MB staan en druk op Formaat wijzigen. De tool zoekt de hoogste kwaliteit die past."
+        },
+        {
+          "q": "Is 2 MB hetzelfde als 2.048 KB?",
+          "a": "Op sommige systemen is een megabyte 1.024 kilobyte, op andere 1.000. De tool gebruikt de kleinere waarde (2.000 KB, oftewel 2.000.000 bytes), zodat het bestand op beide wordt geaccepteerd."
+        },
+        {
+          "q": "Wordt de afbeelding ook kleiner in pixels?",
+          "a": "Alleen als het moet. De tool verlaagt eerst de kwaliteit en verkleint de pixels pas als de limiet anders niet haalbaar is."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "imageToPdf": {
+    "title": "Foto naar PDF omzetten - Afbeelding naar PDF gratis",
+    "description": "Foto naar PDF omzetten, gratis online: combineer JPG-, PNG- en WebP-afbeeldingen tot één PDF in je browser. Kies A4 of Letter. Geen upload, geen watermerk.",
+    "h1": "Foto naar PDF omzetten",
+    "intro": "Zet één afbeelding of meerdere afbeeldingen om in één PDF. Voeg je afbeeldingen toe, zet ze in de gewenste volgorde, kies het paginaformaat en download de PDF. Alles gebeurt op je apparaat, dus je afbeeldingen worden nooit geüpload, en er is geen watermerk en geen limiet op hoe vaak je het gebruikt.",
+    "blurb": "Voeg afbeeldingen samen tot één PDF, op je apparaat.",
+    "steps": [
+      {
+        "title": "Voeg je afbeeldingen toe",
+        "text": "Sleep JPG-, PNG-, WebP-, GIF- of BMP-afbeeldingen naar de pagina, of kies ze op je apparaat. Elke afbeelding wordt een pagina."
+      },
+      {
+        "title": "Zet de pagina’s in volgorde en kies de opties",
+        "text": "Verplaats een pagina met de pijltjes omhoog of omlaag. Kies A4, US Letter of het formaat van de afbeelding, de marge en de kwaliteit."
+      },
+      {
+        "title": "Maken en downloaden",
+        "text": "Druk op PDF maken en download het bestand. Het opent in elke PDF-lezer."
+      }
+    ],
+    "tipsTitle": "Tips voor een goede PDF van afbeeldingen",
+    "tips": [
+      "Kies A4 of US Letter voor documenten die je misschien afdrukt. Kies “Zoals de afbeelding” als de PDF alleen voor op het scherm bedoeld is.",
+      "Wil je een klein bestand (bijvoorbeeld om te mailen), kies dan “Klein bestand”. Voor scans van tekst en schermafbeeldingen kies je “Hoge kwaliteit”.",
+      "Foto’s die staand of liggend zijn genomen, worden automatisch goed gedraaid aan de hand van de gegevens die je telefoon in de afbeelding heeft opgeslagen.",
+      "Doorzichtige delen van PNG- en WebP-afbeeldingen worden wit, omdat ze als JPEG-pagina’s worden opgeslagen.",
+      "Moet de PDF onder een bepaalde grootte blijven? Verklein de afbeeldingen dan eerst met de tool “Verkleinen naar KB” en voeg ze daarna hier samen."
+    ],
+    "detailsTitle": "Zo wordt de PDF gemaakt",
+    "details": [
+      "Elke afbeelding komt op een eigen pagina, gecentreerd en nooit uitgerekt. Bij A4 of US Letter draait de pagina vanzelf naar liggend als de afbeelding breder is dan hoog (of je kiest de richting zelf). Bij “Zoals de afbeelding” heeft de pagina precies de vorm van de afbeelding.",
+      "De PDF wordt door je browser gemaakt. Je afbeeldingen worden op je apparaat gelezen, als JPEG-pagina’s opgeslagen en in het PDF-bestand verpakt, en er wordt niets naar een server gestuurd. Je kunt tot 100 afbeeldingen aan één PDF toevoegen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe zet ik afbeeldingen om naar PDF?",
+          "a": "Voeg je afbeeldingen toe, zet ze in volgorde, kies het paginaformaat en druk op PDF maken. Download daarna de PDF."
+        },
+        {
+          "q": "Hoe voeg ik meerdere foto’s samen tot één PDF?",
+          "a": "Voeg alle foto’s tegelijk toe. Elke foto wordt een pagina en met de pijltjes naast elke afbeelding wijzig je de volgorde voordat je de PDF maakt."
+        },
+        {
+          "q": "Is er een limiet voor pagina’s of bestandsgrootte?",
+          "a": "Je kunt tot 100 afbeeldingen aan één PDF toevoegen. Er is geen dagelijkse limiet en geen watermerk. De grootte van de PDF hangt af van je afbeeldingen en de kwaliteit die je kiest."
+        },
+        {
+          "q": "Werkt het op een telefoon?",
+          "a": "Ja. Kies foto’s uit je galerij of bestanden, zet ze in volgorde en download de PDF. Het werkt in elke moderne telefoonbrowser."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De PDF wordt op je apparaat gemaakt en je afbeeldingen verlaten het nooit."
+        }
+      ]
+    }
+  },
+  "jpgToPdf": {
+    "title": "JPG naar PDF converter - Gratis online, zonder upload",
+    "description": "JPG naar PDF omzetten of converteren, gratis online in je browser: maak van één of meer JPG-foto’s een PDF. Kies A4 of Letter. Geen upload, geen watermerk.",
+    "h1": "JPG naar PDF converteren",
+    "intro": "Maak een PDF van je JPG-foto’s. Voeg één afbeelding of meerdere toe, zet ze in de juiste volgorde en download één PDF-bestand. Het werkt op je apparaat, dus er wordt niets geüpload en er staat geen watermerk op.",
+    "blurb": "Zet JPG-foto’s om in één PDF-bestand.",
+    "steps": [
+      {
+        "title": "Voeg je JPG-bestanden toe",
+        "text": "Sleep één of meer JPG-afbeeldingen naar de pagina of kies ze op je apparaat. Elke afbeelding wordt een pagina."
+      },
+      {
+        "title": "Zet de pagina’s in volgorde en kies de opties",
+        "text": "Wijzig de volgorde met de pijltjes. Kies A4, US Letter of het formaat van de afbeelding, de marge en de kwaliteit."
+      },
+      {
+        "title": "Maken en downloaden",
+        "text": "Druk op PDF maken en download het bestand. Het opent in elke PDF-lezer."
+      }
+    ],
+    "tipsTitle": "Tips voor het converteren van JPG naar PDF",
+    "tips": [
+      "Met “Hoge kwaliteit” behouden je foto’s bijna al hun details, zodat de PDF eruitziet als de foto’s op je telefoon.",
+      "Telefoonfoto’s kunnen elk enkele MB groot zijn. Kies “Klein bestand” als de PDF per e-mail moet worden verstuurd of naar een formulier moet worden geüpload.",
+      "Foto’s die rechtop of op hun kant zijn genomen, worden automatisch goed gedraaid.",
+      "Wil je een document scannen met je telefoon, maak dan van elke pagina een foto, voeg de foto’s hier op volgorde toe en maak de PDF."
+    ],
+    "detailsTitle": "JPG naar PDF zonder app",
+    "details": [
+      "Een PDF-pagina kan een JPG-afbeelding rechtstreeks bevatten, waardoor de conversie snel gaat en het resultaat dicht bij je foto blijft. Kies A4 of US Letter als je de PDF misschien afdrukt, of “Zoals de afbeelding” voor een PDF die op elke pagina gewoon een afbeelding is.",
+      "De PDF wordt in je browser gemaakt. Je foto’s worden nooit geüpload, dus het is veilig voor ID-kaarten, bonnetjes en andere privéfoto’s. Je kunt tot 100 afbeeldingen aan één PDF toevoegen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe converteer ik JPG naar PDF?",
+          "a": "Voeg je JPG-afbeeldingen toe, zet ze in volgorde en druk op PDF maken. Download daarna de PDF."
+        },
+        {
+          "q": "Kan ik meerdere JPG-bestanden in één PDF zetten?",
+          "a": "Ja. Voeg ze allemaal tegelijk toe. Elke afbeelding wordt een pagina en je wijzigt de volgorde met de pijltjes."
+        },
+        {
+          "q": "Gaat er kwaliteit verloren bij het converteren van JPG naar PDF?",
+          "a": "Nauwelijks. Met “Hoge kwaliteit” blijven de afbeeldingen op bijna volle detail behouden. Kies “Klein bestand” alleen als je een kleinere PDF nodig hebt."
+        },
+        {
+          "q": "Hoe maak ik een PDF onder 1 MB of 200 KB?",
+          "a": "Kies “Klein bestand” en voeg minder afbeeldingen per PDF toe. Is het nog te groot, verklein dan eerst elke afbeelding met de tool “Verkleinen naar KB”."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "pngToPdf": {
+    "title": "PNG naar PDF converter - Gratis online, zonder upload",
+    "description": "PNG naar PDF omzetten of converteren, gratis online in je browser: maak van schermafbeeldingen en PNG-bestanden één PDF. Kies A4 of Letter. Geen upload.",
+    "h1": "PNG naar PDF converteren",
+    "intro": "Maak een PDF van je PNG-afbeeldingen en schermafbeeldingen. Voeg één afbeelding of meerdere toe, zet ze in de juiste volgorde en download één PDF. Het werkt op je apparaat, dus er wordt niets geüpload en er staat geen watermerk op.",
+    "blurb": "Zet PNG-afbeeldingen en schermafbeeldingen om in een PDF.",
+    "steps": [
+      {
+        "title": "Voeg je PNG-bestanden toe",
+        "text": "Sleep één of meer PNG-afbeeldingen naar de pagina of kies ze op je apparaat. Elke afbeelding wordt een pagina."
+      },
+      {
+        "title": "Zet de pagina’s in volgorde en kies de opties",
+        "text": "Wijzig de volgorde met de pijltjes. Kies A4, US Letter of het formaat van de afbeelding, de marge en de kwaliteit."
+      },
+      {
+        "title": "Maken en downloaden",
+        "text": "Druk op PDF maken en download het bestand. Het opent in elke PDF-lezer."
+      }
+    ],
+    "tipsTitle": "Tips voor het converteren van PNG naar PDF",
+    "tips": [
+      "Doorzichtige delen van een PNG worden wit in de PDF.",
+      "Kies “Hoge kwaliteit” voor schermafbeeldingen met kleine tekst, zodat de letters scherp blijven.",
+      "PNG-bestanden kunnen groot zijn. Kies “Klein bestand” als de PDF per e-mail moet worden verstuurd, of “Gebalanceerd” voor een mix van scherpte en grootte.",
+      "Wil je de vorm van een schermafbeelding precies behouden, kies dan “Zoals de afbeelding” als paginaformaat."
+    ],
+    "detailsTitle": "Wat er met een PNG in een PDF gebeurt",
+    "details": [
+      "Elke PNG wordt op een witte achtergrond getekend en als JPEG-afbeelding in de PDF opgeslagen met de kwaliteit die je kiest, zodat een schermafbeelding of grafiek met “Hoge kwaliteit” eruitziet zoals op het scherm. Kies A4 of US Letter als je de PDF misschien afdrukt, of “Zoals de afbeelding” voor een pagina die precies de vorm van de afbeelding heeft.",
+      "De PDF wordt in je browser gemaakt. Je afbeeldingen worden nooit geüpload, dus het is veilig voor privédocumenten en schermafbeeldingen. Je kunt tot 100 afbeeldingen aan één PDF toevoegen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe converteer ik PNG naar PDF?",
+          "a": "Voeg je PNG-afbeeldingen toe, zet ze in volgorde en druk op PDF maken. Download daarna de PDF."
+        },
+        {
+          "q": "Kan ik meerdere PNG-bestanden samenvoegen tot één PDF?",
+          "a": "Ja. Voeg ze allemaal tegelijk toe. Elke afbeelding wordt een pagina en je wijzigt de volgorde met de pijltjes."
+        },
+        {
+          "q": "Wat gebeurt er met een doorzichtige PNG?",
+          "a": "De doorzichtige delen worden met wit gevuld, omdat de afbeelding op een witte pagina wordt opgeslagen."
+        },
+        {
+          "q": "Blijft de tekst in mijn schermafbeelding scherp?",
+          "a": "Ja, met “Hoge kwaliteit”. De afbeelding blijft dan op bijna volle detail behouden."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "cmToPx": {
+    "title": "Cm naar pixels omrekenen - Gratis calculator (300 DPI)",
+    "description": "Cm naar pixels omrekenen, gratis online: typ centimeters, kies de DPI en zie direct de exacte pixelgrootte. Voor afdrukken, pasfoto’s en formulieren.",
+    "h1": "Cm naar pixels omrekenen",
+    "intro": "Typ een formaat in centimeters en zie hoeveel pixels dat is bij jouw DPI. De calculator toont ook veelgebruikte afdrukformaten in pixels en verwijst naar de gratis afbeeldingsverkleiner, zodat je de afbeelding precies op dat formaat kunt brengen.",
+    "blurb": "Reken centimeters om naar pixels bij elke DPI.",
+    "steps": [
+      {
+        "title": "Voer het formaat in cm in",
+        "text": "Typ de breedte, en de hoogte als je die nodig hebt. De eenheid staat al op centimeters."
+      },
+      {
+        "title": "Kies de DPI",
+        "text": "Gebruik 300 voor afdrukken, 96 voor een scherm, of elk getal dat het formulier vraagt. Het resultaat verandert terwijl je typt."
+      },
+      {
+        "title": "Lees de pixels af en pas het formaat aan",
+        "text": "Kopieer het resultaat, of open de afbeeldingsverkleiner en voer de pixels in om je afbeelding op dat formaat te brengen."
+      }
+    ],
+    "tipsTitle": "Tips voor het omrekenen van cm naar pixels",
+    "tips": [
+      "Een afbeelding heeft geen formaat in centimeters totdat hij wordt afgedrukt of in een document wordt geplaatst. De DPI bepaalt hoeveel pixels er in één centimeter passen.",
+      "Gebruik 300 DPI voor een scherpe afdruk, 150 DPI voor een concept en 72 of 96 DPI voor schermen.",
+      "Geeft een formulier een formaat in cm zonder DPI, dan is 300 DPI voor foto’s de gebruikelijke keuze.",
+      "Typ zowel de breedte als de hoogte om beide zijden tegelijk te krijgen. Met de wisselknop reken je de andere kant op om."
+    ],
+    "detailsTitle": "Zo reken je cm om naar pixels",
+    "details": [
+      "De formule is pixels = centimeters ÷ 2,54 × DPI, omdat één inch 2,54 centimeter is. Bij 300 DPI is één centimeter ongeveer 118 pixels, bij 96 DPI ongeveer 38 pixels en bij 72 DPI ongeveer 28 pixels. Dus 10 cm is ongeveer 1181 pixels bij 300 DPI.",
+      "Fotoformaten in centimeters volgen dezelfde regel: een afdruk van 10 × 15 cm is bij 300 DPI ongeveer 1181 × 1772 pixels. De omrekenaar rondt pixels af op hele getallen, omdat een afbeelding geen deel van een pixel kan hebben."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoeveel pixels is 1 cm?",
+          "a": "Bij 300 DPI is 1 cm ongeveer 118 pixels. Bij 96 DPI is het ongeveer 38 pixels en bij 72 DPI ongeveer 28 pixels."
+        },
+        {
+          "q": "Hoe reken ik cm om naar pixels?",
+          "a": "Deel de centimeters door 2,54 en vermenigvuldig met de DPI. Of typ het formaat in de calculator hierboven en die doet het voor je."
+        },
+        {
+          "q": "Welke DPI moet ik gebruiken?",
+          "a": "Gebruik 300 voor afdrukken en voor pasfoto’s, en 72 of 96 voor afbeeldingen die alleen op een scherm worden getoond."
+        },
+        {
+          "q": "Verandert de DPI mijn afbeelding?",
+          "a": "Nee. De DPI bepaalt alleen hoe groot de afbeelding is als hij wordt afgedrukt. Wijzig het formaat van de afbeelding zelf met de afbeeldingsverkleiner."
+        }
+      ]
+    }
+  },
+  "inToPx": {
+    "title": "Inch naar pixels omrekenen - Gratis calculator (DPI)",
+    "description": "Inch naar pixels omrekenen, gratis online: typ inches, kies de DPI en zie direct de exacte pixelgrootte voor fotoafdrukken, documenten en formulieren.",
+    "h1": "Inch naar pixels omrekenen",
+    "intro": "Typ een formaat in inches en zie hoeveel pixels dat is bij jouw DPI. De calculator toont ook veelgebruikte afdrukformaten in pixels en verwijst naar de gratis afbeeldingsverkleiner, zodat je de afbeelding precies op dat formaat kunt brengen.",
+    "blurb": "Reken inches om naar pixels bij elke DPI.",
+    "steps": [
+      {
+        "title": "Voer het formaat in inches in",
+        "text": "Typ de breedte, en de hoogte als je die nodig hebt. De eenheid staat al op inches."
+      },
+      {
+        "title": "Kies de DPI",
+        "text": "Gebruik 300 voor afdrukken, 96 voor een scherm, of elk getal dat het formulier vraagt. Het resultaat verandert terwijl je typt."
+      },
+      {
+        "title": "Lees de pixels af en pas het formaat aan",
+        "text": "Kopieer het resultaat, of open de afbeeldingsverkleiner en voer de pixels in om je afbeelding op dat formaat te brengen."
+      }
+    ],
+    "tipsTitle": "Tips voor het omrekenen van inches naar pixels",
+    "tips": [
+      "Pixels = inches × DPI. Bij 300 DPI is elke inch 300 pixels.",
+      "Een fotoafdruk van 4 × 6 inch heeft bij 300 DPI 1200 × 1800 pixels nodig, en een pasfoto van 2 × 2 inch 600 × 600.",
+      "Een afbeelding heeft geen formaat in inches totdat hij wordt afgedrukt. De DPI bepaalt hoeveel pixels er in één inch passen.",
+      "Met de wisselknop reken je pixels om naar inches."
+    ],
+    "detailsTitle": "Zo reken je inches om naar pixels",
+    "details": [
+      "De formule is pixels = inches × DPI. Bij 300 DPI, de gangbare keuze voor afdrukken, is 1 inch 300 pixels. Bij 96 DPI, de standaard van een scherm in een browser, is 1 inch 96 pixels en bij 72 DPI is het 72 pixels.",
+      "Een pagina in US Letter-formaat van 8,5 × 11 inch is bij 300 DPI 2550 × 3300 pixels, en een afdruk van 5 × 7 inch is 1500 × 2100 pixels. De omrekenaar rondt pixels af op hele getallen, omdat een afbeelding geen deel van een pixel kan hebben."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoeveel pixels is 1 inch?",
+          "a": "Dat hangt af van de DPI: 300 pixels bij 300 DPI, 96 pixels bij 96 DPI en 72 pixels bij 72 DPI."
+        },
+        {
+          "q": "Hoeveel pixels is een foto van 4x6 inch?",
+          "a": "Bij 300 DPI is een foto van 4 × 6 inch 1200 × 1800 pixels."
+        },
+        {
+          "q": "Welke DPI moet ik gebruiken?",
+          "a": "Gebruik 300 voor afdrukken, en 72 of 96 voor afbeeldingen die alleen op een scherm worden getoond."
+        },
+        {
+          "q": "Verandert de DPI mijn afbeelding?",
+          "a": "Nee. De DPI bepaalt alleen hoe groot de afbeelding is als hij wordt afgedrukt. Wijzig het formaat van de afbeelding zelf met de afbeeldingsverkleiner."
+        }
+      ]
+    }
+  },
+  "mmToPx": {
+    "title": "Mm naar pixels omrekenen - Gratis calculator (300 DPI)",
+    "description": "Mm naar pixels omrekenen, gratis online: typ millimeters, kies de DPI en zie direct de exacte pixelgrootte voor pasfoto’s, ID-foto’s en formulieren.",
+    "h1": "Mm naar pixels omrekenen",
+    "intro": "Typ een formaat in millimeters en zie hoeveel pixels dat is bij jouw DPI. Handig voor pasfoto’s, waarvan het formaat in millimeters wordt opgegeven. De calculator verwijst naar de gratis afbeeldingsverkleiner, zodat je de afbeelding precies op dat formaat kunt brengen.",
+    "blurb": "Reken millimeters om naar pixels bij elke DPI.",
+    "steps": [
+      {
+        "title": "Voer het formaat in mm in",
+        "text": "Typ de breedte, en de hoogte als je die nodig hebt. De eenheid staat al op millimeters."
+      },
+      {
+        "title": "Kies de DPI",
+        "text": "Gebruik 300 voor afdrukken, 96 voor een scherm, of elk getal dat het formulier vraagt. Het resultaat verandert terwijl je typt."
+      },
+      {
+        "title": "Lees de pixels af en pas het formaat aan",
+        "text": "Kopieer het resultaat, of open de afbeeldingsverkleiner en voer de pixels in om je afbeelding op dat formaat te brengen."
+      }
+    ],
+    "tipsTitle": "Tips voor het omrekenen van mm naar pixels",
+    "tips": [
+      "Een pasfoto van 35 × 45 mm is 413 × 531 pixels bij 300 DPI.",
+      "Een afbeelding heeft geen formaat in millimeters totdat hij wordt afgedrukt. De DPI bepaalt hoeveel pixels er in één millimeter passen.",
+      "Gebruik 300 DPI voor een scherpe afdruk, en 72 of 96 DPI voor afbeeldingen die alleen op een scherm worden getoond.",
+      "Typ zowel de breedte als de hoogte om beide zijden tegelijk te krijgen. Met de wisselknop reken je pixels om naar millimeters."
+    ],
+    "detailsTitle": "Zo reken je mm om naar pixels",
+    "details": [
+      "De formule is pixels = millimeters ÷ 25,4 × DPI, omdat één inch 25,4 millimeter is. Bij 300 DPI is één millimeter ongeveer 11,8 pixels, bij 96 DPI ongeveer 3,8 pixels en bij 72 DPI ongeveer 2,8 pixels.",
+      "Een A4-vel van 210 × 297 mm is bij 300 DPI 2480 × 3508 pixels. De omrekenaar rondt pixels af op hele getallen, omdat een afbeelding geen deel van een pixel kan hebben."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoeveel pixels is 1 mm?",
+          "a": "Bij 300 DPI is 1 mm ongeveer 11,8 pixels. Bij 96 DPI is het ongeveer 3,8 pixels en bij 72 DPI ongeveer 2,8 pixels."
+        },
+        {
+          "q": "Hoeveel pixels is een foto van 35x45 mm?",
+          "a": "Bij 300 DPI is een pasfoto van 35 × 45 mm 413 × 531 pixels."
+        },
+        {
+          "q": "Welke DPI moet ik gebruiken?",
+          "a": "Gebruik 300 voor afdrukken en voor pasfoto’s, en 72 of 96 voor afbeeldingen die alleen op een scherm worden getoond."
+        },
+        {
+          "q": "Verandert de DPI mijn afbeelding?",
+          "a": "Nee. De DPI bepaalt alleen hoe groot de afbeelding is als hij wordt afgedrukt. Wijzig het formaat van de afbeelding zelf met de afbeeldingsverkleiner."
+        }
+      ]
+    }
+  },
+  "pxToCm": {
+    "title": "Pixels naar cm omrekenen - Gratis calculator (DPI)",
+    "description": "Pixels naar cm omrekenen, gratis online: typ pixels, kies de DPI en zie het afdrukformaat in centimeters, millimeters of inches. Op je apparaat, zonder account.",
+    "h1": "Pixels naar cm omrekenen",
+    "intro": "Typ een formaat in pixels en zie hoe groot het wordt afgedrukt in centimeters bij jouw DPI. De calculator toont ook veelgebruikte afdrukformaten in pixels en verwijst naar de gratis afbeeldingsverkleiner.",
+    "blurb": "Reken pixels om naar centimeters bij elke DPI.",
+    "steps": [
+      {
+        "title": "Voer het formaat in pixels in",
+        "text": "Typ de breedte, en de hoogte als je die nodig hebt. De eenheid staat al op pixels."
+      },
+      {
+        "title": "Kies de DPI",
+        "text": "Gebruik 300 voor afdrukken, 96 voor een scherm, of het getal dat je printer of formulier gebruikt. Het resultaat verandert terwijl je typt."
+      },
+      {
+        "title": "Lees het formaat af",
+        "text": "Het formaat verschijnt in centimeters. Zet de eenheid op millimeters of inches als je dat liever hebt."
+      }
+    ],
+    "tipsTitle": "Tips voor het omrekenen van pixels naar cm",
+    "tips": [
+      "Dezelfde afbeelding wordt op verschillende formaten afgedrukt: meer DPI betekent een kleinere, scherpere afdruk.",
+      "Gebruik voor een goede afdruk minstens 300 DPI. Een afbeelding van 1200 × 1800 pixels wordt bij 300 DPI afgedrukt op 4 × 6 inch (10,2 × 15,2 cm).",
+      "Op een scherm is 96 DPI de gebruikelijke waarde, dus 1920 pixels is bij die instelling ongeveer 50,8 cm breed.",
+      "Met de wisselknop reken je centimeters om naar pixels."
+    ],
+    "detailsTitle": "Zo reken je pixels om naar cm",
+    "details": [
+      "De formule is centimeters = pixels ÷ DPI × 2,54, omdat één inch 2,54 centimeter is. Bij 300 DPI is 1000 pixels ongeveer 8,47 cm. Bij 96 DPI is dezelfde 1000 pixels ongeveer 26,46 cm.",
+      "Een afbeelding heeft pas een echt formaat als hij wordt afgedrukt, en de DPI is wat pixels en centimeters met elkaar verbindt. Vraagt een formulier om een formaat in centimeters en ken je alleen de pixels, dan is 300 DPI voor foto’s de gebruikelijke waarde."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoeveel cm is 1000 pixels?",
+          "a": "Bij 300 DPI is 1000 pixels ongeveer 8,47 cm. Bij 96 DPI is het ongeveer 26,46 cm."
+        },
+        {
+          "q": "Hoe reken ik pixels om naar cm?",
+          "a": "Deel de pixels door de DPI en vermenigvuldig met 2,54. Of typ de pixels in de calculator hierboven en die doet het voor je."
+        },
+        {
+          "q": "Welke DPI moet ik gebruiken?",
+          "a": "Gebruik 300 voor afdrukken, en 72 of 96 voor afbeeldingen die alleen op een scherm worden getoond."
+        },
+        {
+          "q": "Verandert de DPI mijn afbeelding?",
+          "a": "Nee. De DPI bepaalt alleen hoe groot de afbeelding is als hij wordt afgedrukt. Wijzig het formaat van de afbeelding zelf met de afbeeldingsverkleiner."
         }
       ]
     }

@@ -14,7 +14,7 @@ earn links from other sites. Both lists are below.
 | Structured data | `WebSite`, `SoftwareApplication`, `WebApplication`, `FAQPage`, `BreadcrumbList`, `Article` (guides) |
 | Internal links | Every page links to every tool page, guide and the FAQ (menu on phones, header tabs and strip on wide screens, footer, "popular tasks", "more free tools"), so crawlers find everything in one step |
 | Speed and quality | Lighthouse mobile: performance 98-100, accessibility 100, SEO 100. Layout does not jump. No analytics or tracking cookies |
-| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (640 URLs with alternates). The 404 page is `noindex` |
+| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (820 URLs with alternates). The 404 page is `noindex` |
 | IndexNow | `scripts/indexnow.mjs` tells Bing, Yandex, Seznam and Naver about all pages after a deploy (the key file is in `public/`) |
 
 ## What you need to do (once)
@@ -73,3 +73,30 @@ What was built from it:
 Honest expectations: a brand-new domain normally shows no impressions for the first days to weeks; Google must crawl and trust it first.
 What speeds it up: sitemap submitted in Search Console and Bing, "Request indexing" for the main pages (docs/indexing-urls.txt), a few real
 links from other sites (directories, social posts, forums where the tool really helps), and patience.
+
+## Search Console readout and wave 2 (2026-11-23)
+
+Numbers (Search Console, about two weeks after launch): 21 clicks, 3.84K impressions, CTR 0.5 %, average position 45, 98 countries, 367 pages with
+impressions, 1 external link (7,765 internal). Clicks come from the thinly contested language markets (Bangladesh 5, Vietnam 4, Japan 3, Thailand 2);
+the big markets (Brazil 583 impressions, India 330, Netherlands 316, France 196, Poland 152, Turkey 133) show the site but at positions that get no clicks.
+Meaning: indexing works; what is missing is ranking (position 45 is page 5) and authority (almost no links).
+
+What was done:
+1. Every language's titles, descriptions and h1 of home + 22 pages were retuned from real autocomplete data for that market (hl/gl per language,
+   about 80 requests each; the phrase lists are kept by the person who runs the research, one file per language). Examples of what the data changed:
+   Portuguese "reduzir imagem para X kb" instead of "redimensionar"; French "compresser image à X Ko"; Dutch "foto verkleinen"; Polish "zdjęcie",
+   converters as "png na jpg"; Turkish "fotoğraf 50 kb yapma" and "vesikalık fotoğraf boyutu"; Japanese "画像を50KB以下にする"; Indonesian "resize foto",
+   "pixel"; Urdu and Hindi in mixed Latin + native script because that is how they are typed.
+2. New tools and pages, all 20 languages, all in the browser:
+   - Image to PDF (+ JPG to PDF, PNG to PDF landing pages): pictures in any order, A4 / US Letter / same-as-image pages, margin and quality choice, up to 100
+     pictures. The PDF is written by `src/engine/pdf.ts` (no library). The strongest unserved topic in every language checked.
+   - Size converters: cm to pixels, inches to pixels, mm to pixels, pixels to cm (DPI-aware, with a table of common sizes). Typed in every market.
+   - Resize to 300 KB and to 2 MB (typed in German, French, Polish, Portuguese and Vietnamese).
+3. Not built yet, ranked by how many markets type it: HEIC to JPG (needs a WebAssembly decoder; check the licence first), crop image, rotate image,
+   remove photo metadata (EXIF), 4x6 passport print sheet; local size pages (Brazil 3x4 cm and 70 KB, Vietnam 3x4 and 4x6 cm, Turkey 50x60 mm biometric,
+   India Aadhaar and Bangladesh job-form 300x300 / 300x80, Pakistan CNIC, Korea ID sizes); Zalo, VK, LINE and TikTok presets.
+
+What moves the numbers from here (honest): position 45 to the top 10 needs links from other sites and time, not more copy. Do these by hand:
+sitemap + "Request indexing" in Search Console and Bing, a handful of real directory / community posts (alternative-to lists, Product Hunt-style launch,
+forums where people ask "how to reduce photo to 50 kb"), and share the language pages with people in those markets. Re-read Search Console
+(Performance > Queries) every two weeks and retune titles of pages that have impressions but no clicks.

@@ -113,6 +113,82 @@
       "limitNote": "Không thể làm PNG nhẹ hơn để vừa giới hạn dung lượng tệp của bạn. Hãy chọn JPG hoặc WebP để giữ giới hạn đó.",
       "progress": "Tiến độ đổi kích thước"
     },
-    "noscript": "Cần bật JavaScript để đổi kích thước ảnh ngay trong trình duyệt. Vui lòng bật JavaScript."
+    "noscript": "Cần bật JavaScript để đổi kích thước ảnh ngay trong trình duyệt. Vui lòng bật JavaScript.",
+    "pdf": {
+      "aria": "Công cụ chuyển ảnh sang PDF",
+      "hint": "Thêm nhiều ảnh để tạo một tệp PDF. Mỗi ảnh sẽ thành một trang.",
+      "options": {
+        "title": "Tùy chọn PDF",
+        "pageSize": "Khổ giấy",
+        "a4": "A4",
+        "letter": "US Letter",
+        "fit": "Theo kích thước ảnh",
+        "orientation": "Hướng trang",
+        "auto": "Tự động",
+        "portrait": "Dọc",
+        "landscape": "Ngang",
+        "margin": "Lề",
+        "none": "Không lề",
+        "small": "Lề nhỏ",
+        "big": "Lề lớn",
+        "quality": "Chất lượng ảnh",
+        "high": "Chất lượng cao",
+        "balanced": "Cân bằng",
+        "low": "Tệp nhẹ",
+        "qualityNote": "Chất lượng càng cao thì giữ được càng nhiều chi tiết và PDF càng nặng."
+      },
+      "actions": {
+        "create": "Tạo PDF",
+        "working": "Đang thêm trang {done}/{total}...",
+        "download": "Tải PDF xuống",
+        "again": "Tạo PDF khác"
+      },
+      "list": {
+        "title": "Các trang ({count})",
+        "up": "Chuyển {name} lên",
+        "down": "Chuyển {name} xuống"
+      },
+      "result": {
+        "title": "PDF của bạn đã sẵn sàng",
+        "info": "{pages} trang, {size}"
+      },
+      "errors": {
+        "empty": "Hãy thêm ít nhất một ảnh trước.",
+        "unreadable": "Không thể đọc {name} như một ảnh.",
+        "failed": "Không tạo được PDF. Vui lòng thử lại với ít ảnh hơn hoặc ảnh nhỏ hơn."
+      }
+    },
+    "calc": {
+      "aria": "Công cụ quy đổi kích thước",
+      "title": "Quy đổi kích thước",
+      "width": "Chiều rộng",
+      "height": "Chiều cao (không bắt buộc)",
+      "invalid": "Vui lòng nhập một số lớn hơn 0.",
+      "from": "Từ",
+      "to": "Sang",
+      "swap": "Đảo đơn vị",
+      "dpi": "DPI (số điểm trên mỗi inch)",
+      "dpiNote": "300 DPI là giá trị thường dùng để in. Màn hình dùng 72 hoặc 96.",
+      "result": "Kết quả",
+      "empty": "Nhập một kích thước để xem kết quả.",
+      "copy": "Sao chép",
+      "copied": "Đã sao chép",
+      "resizeLink": "Đổi kích thước ảnh theo số đo này",
+      "units": {
+        "px": "Pixel (px)",
+        "cm": "Centimet (cm)",
+        "mm": "Milimet (mm)",
+        "in": "Inch (in)"
+      },
+      "table": {
+        "title": "Các kích thước thông dụng tính bằng pixel ở {dpi} DPI",
+        "size": "Kích thước",
+        "dimensions": "Rộng × cao",
+        "pixels": "Pixel",
+        "passport": "Ảnh hộ chiếu",
+        "print": "Ảnh in",
+        "card": "Danh thiếp"
+      }
+    }
   }
 }
