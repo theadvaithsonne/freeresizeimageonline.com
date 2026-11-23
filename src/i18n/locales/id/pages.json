@@ -33,7 +33,23 @@
     "cmToPx": "cm ke pixel",
     "inToPx": "Inch ke pixel",
     "mmToPx": "mm ke pixel",
-    "pxToCm": "Pixel ke cm"
+    "pxToCm": "Pixel ke cm",
+    "webpToPng": "WebP ke PNG",
+    "gifToJpg": "GIF ke JPG",
+    "bmpToJpg": "BMP ke JPG",
+    "avifToJpg": "AVIF ke JPG",
+    "jfifToJpg": "JFIF ke JPG",
+    "kb150": "Resize foto 150 KB",
+    "mb5": "Resize foto 5 MB",
+    "kb15": "Resize foto 15 KB",
+    "kb25": "Resize foto 25 KB",
+    "pxToIn": "Pixel ke inch",
+    "pxToMm": "Pixel ke mm",
+    "paperPx": "Ukuran kertas dalam pixel",
+    "instagramSize": "Ukuran gambar Instagram",
+    "youtubeSize": "Ukuran thumbnail YouTube",
+    "facebookSize": "Ukuran gambar Facebook",
+    "whatsappSize": "Ukuran foto profil WhatsApp"
   },
   "common": {
     "howTo": "Cara menggunakan",
@@ -1756,6 +1772,864 @@
         {
           "q": "Apakah DPI mengubah gambar saya?",
           "a": "Tidak. DPI hanya menentukan seberapa besar gambar saat dicetak. Ubah ukuran gambarnya sendiri dengan pengubah ukuran gambar."
+        }
+      ]
+    }
+  },
+  "webpToPng": {
+    "title": "WebP ke PNG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "WebP ke PNG online gratis: ubah gambar WebP jadi file PNG langsung di browser dan pertahankan transparansinya. Tanpa daftar, tanpa unggah, tanpa batas.",
+    "h1": "Ubah WebP ke PNG",
+    "intro": "Ubah gambar WebP menjadi file PNG yang bisa dibuka di program apa pun. Bagian yang transparan tetap transparan. Tambahkan file WebP Anda, tekan tombolnya, lalu unduh file PNG-nya, atau satu ZIP berisi semuanya.",
+    "blurb": "Ubah gambar WebP menjadi file PNG.",
+    "steps": [
+      {
+        "title": "Tambahkan file WebP Anda",
+        "text": "Seret satu atau banyak gambar WebP ke halaman ini, atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Periksa formatnya",
+        "text": "PNG sudah terpilih sebagai format hasil. Ukuran gambar tidak berubah."
+      },
+      {
+        "title": "Konversi dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh tiap file PNG, atau semuanya sebagai ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi WebP ke PNG",
+    "tips": [
+      "PNG menyimpan setiap piksel dengan persis, jadi PNG biasanya lebih besar daripada WebP asalnya. Itu wajar.",
+      "Bagian WebP yang transparan tetap transparan di PNG, jadi logo dan gambar tanpa latar belakang tetap berbentuk sama.",
+      "Untuk foto biasa, JPG lebih baik jika Anda butuh file yang kecil. PNG paling cocok untuk grafis, tangkapan layar, dan gambar transparan.",
+      "WebP animasi menjadi PNG diam dari frame pertamanya."
+    ],
+    "detailsTitle": "Mengapa mengonversi WebP ke PNG?",
+    "details": [
+      "WebP adalah format yang dibuat untuk web: file kecil dengan kualitas bagus. Namun tidak semua aplikasi penyunting, printer, atau formulir unggah menerimanya. PNG diterima hampir di mana saja dan menyimpan gambar tanpa kehilangan kualitas.",
+      "Konversi berlangsung di perangkat Anda. Tidak ada yang diunggah, jadi aman untuk gambar pribadi, dan jumlah file yang dikonversi tidak dibatasi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengonversi WebP ke PNG?",
+          "a": "Tambahkan file WebP Anda, pastikan PNG menjadi format hasil, lalu tekan Ubah ukuran gambar. Setelah itu unduh file PNG-nya."
+        },
+        {
+          "q": "Apakah PNG-nya mempertahankan transparansi?",
+          "a": "Ya. Bagian WebP yang transparan tetap transparan di PNG."
+        },
+        {
+          "q": "Mengapa PNG lebih besar daripada WebP?",
+          "a": "WebP biasanya dikompres dengan sedikit kehilangan kualitas, sedangkan PNG menyimpan setiap piksel dengan persis. Gambar yang sama memakan lebih banyak ruang sebagai PNG."
+        },
+        {
+          "q": "Bisakah mengonversi banyak file sekaligus?",
+          "a": "Bisa. Tambahkan sebanyak yang Anda mau, hingga 500 sekaligus, lalu unduh satu per satu atau sebagai ZIP."
+        }
+      ]
+    }
+  },
+  "gifToJpg": {
+    "title": "GIF ke JPG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "GIF ke JPG online gratis: ubah gambar GIF jadi file JPG langsung di browser dan atur kualitasnya. Tanpa daftar, tanpa unggah, dan tanpa batas jumlah file.",
+    "h1": "Ubah GIF ke JPG",
+    "intro": "Ubah gambar GIF menjadi file JPG dalam satu langkah. JPG diterima hampir di mana saja dan jauh lebih kecil untuk foto. Tambahkan file GIF Anda, tekan tombolnya, lalu unduh file JPG-nya, atau satu ZIP berisi semuanya.",
+    "blurb": "Ubah gambar GIF menjadi file JPG.",
+    "steps": [
+      {
+        "title": "Tambahkan file GIF Anda",
+        "text": "Seret satu atau banyak gambar GIF ke halaman ini, atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Periksa formatnya",
+        "text": "JPG sudah terpilih sebagai format hasil. Turunkan kualitas untuk file yang lebih kecil."
+      },
+      {
+        "title": "Konversi dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh tiap file JPG, atau semuanya sebagai ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi GIF ke JPG",
+    "tips": [
+      "GIF animasi menjadi satu gambar diam: frame pertamanya. Untuk mempertahankan animasinya, simpan saja file GIF-nya.",
+      "JPG dibuat untuk foto dan biasanya menghasilkan file yang lebih kecil untuk sebuah foto. GIF cocok untuk grafis sederhana dengan sedikit warna.",
+      "Bagian GIF yang transparan menjadi putih, karena JPG tidak bisa transparan.",
+      "Kualitas 80 sampai 90 hampir sama dengan aslinya untuk kebanyakan gambar, dengan file yang lebih kecil."
+    ],
+    "detailsTitle": "GIF atau JPG: apa yang berubah?",
+    "details": [
+      "GIF dibuat untuk grafis kecil dan animasi pendek. Banyak situs web, formulir, dan aplikasi hanya menerima gambar diam seperti JPG, itulah sebabnya GIF sering ditolak.",
+      "Konversi berlangsung di perangkat Anda. Tidak ada yang diunggah, jadi aman untuk gambar pribadi, dan jumlah file yang dikonversi tidak dibatasi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengonversi GIF ke JPG?",
+          "a": "Tambahkan file GIF Anda, pastikan JPG menjadi format hasil, lalu tekan Ubah ukuran gambar. Setelah itu unduh file JPG-nya."
+        },
+        {
+          "q": "Bisakah mengonversi GIF animasi ke JPG?",
+          "a": "Bisa, tetapi hasilnya hanya satu gambar: frame pertama animasinya. JPG tidak bisa bergerak."
+        },
+        {
+          "q": "Apa yang terjadi pada area transparan?",
+          "a": "Area itu diisi warna putih, karena JPG tidak bisa transparan."
+        },
+        {
+          "q": "Bisakah mengonversi banyak file sekaligus?",
+          "a": "Bisa. Tambahkan sebanyak yang Anda mau, hingga 500 sekaligus, lalu unduh satu per satu atau sebagai ZIP."
+        }
+      ]
+    }
+  },
+  "bmpToJpg": {
+    "title": "BMP ke JPG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "BMP ke JPG online gratis: ubah gambar BMP yang besar jadi file JPG kecil langsung di browser dan atur kualitasnya. Tanpa daftar, tanpa unggah, tanpa batas.",
+    "h1": "Ubah BMP ke JPG",
+    "intro": "File BMP sangat besar karena tidak dikompres. Ubah menjadi file JPG yang jauh lebih kecil dan bisa dibuka di mana saja. Tambahkan file BMP Anda, tekan tombolnya, lalu unduh file JPG-nya, atau satu ZIP berisi semuanya.",
+    "blurb": "Ubah file BMP yang besar menjadi file JPG kecil.",
+    "steps": [
+      {
+        "title": "Tambahkan file BMP Anda",
+        "text": "Seret satu atau banyak gambar BMP ke halaman ini, atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Periksa formatnya",
+        "text": "JPG sudah terpilih sebagai format hasil. Turunkan kualitas untuk file yang lebih kecil."
+      },
+      {
+        "title": "Konversi dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh tiap file JPG, atau semuanya sebagai ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi BMP ke JPG",
+    "tips": [
+      "BMP menyimpan setiap piksel tanpa kompresi, jadi foto sebagai JPG sering berukuran sepersepuluhnya atau bahkan kurang.",
+      "Kualitas 85 sampai 90 hampir sama dengan aslinya untuk foto, dengan file yang jauh lebih kecil.",
+      "Untuk tangkapan layar dengan teks tajam atau grafis sederhana, PNG lebih baik. Gunakan dari halaman Ubah format gambar.",
+      "Banyak formulir unggah menolak file BMP. JPG diterima hampir di mana saja."
+    ],
+    "detailsTitle": "Mengapa BMP begitu besar",
+    "details": [
+      "BMP adalah salah satu format gambar tertua. Format ini menuliskan warna setiap piksel satu per satu, sehingga gambar 12 megapiksel memakan sekitar 36 MB. JPG mengompres gambar dan mempertahankan apa yang tertangkap mata, itulah sebabnya file-nya jauh lebih kecil.",
+      "Konversi berlangsung di perangkat Anda. Tidak ada yang diunggah, jadi aman untuk gambar pribadi, dan jumlah file yang dikonversi tidak dibatasi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengonversi BMP ke JPG?",
+          "a": "Tambahkan file BMP Anda, pastikan JPG menjadi format hasil, lalu tekan Ubah ukuran gambar. Setelah itu unduh file JPG-nya."
+        },
+        {
+          "q": "Seberapa kecil JPG dibandingkan BMP?",
+          "a": "Untuk foto, sering sepuluh kali lebih kecil atau lebih. Hasil persisnya ditampilkan di samping setiap gambar."
+        },
+        {
+          "q": "Apakah mengonversi BMP ke JPG menurunkan kualitas?",
+          "a": "Sedikit, karena JPG bersifat lossy. Pada kualitas 85 atau lebih tinggi, perbedaannya jarang terlihat."
+        },
+        {
+          "q": "Bisakah mengonversi banyak file sekaligus?",
+          "a": "Bisa. Tambahkan sebanyak yang Anda mau, hingga 500 sekaligus, lalu unduh satu per satu atau sebagai ZIP."
+        }
+      ]
+    }
+  },
+  "avifToJpg": {
+    "title": "AVIF ke JPG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "AVIF ke JPG online gratis: ubah gambar AVIF jadi file JPG yang bisa dibuka di mana saja, langsung di browser. Tanpa daftar, tanpa unggah, tanpa batas.",
+    "h1": "Ubah AVIF ke JPG",
+    "intro": "AVIF adalah format baru yang belum bisa dibuka oleh banyak program dan situs web. Ubah gambar AVIF menjadi file JPG yang berfungsi di mana saja. Tambahkan file AVIF Anda, tekan tombolnya, lalu unduh file JPG-nya, atau satu ZIP berisi semuanya.",
+    "blurb": "Ubah gambar AVIF menjadi file JPG.",
+    "steps": [
+      {
+        "title": "Tambahkan file AVIF Anda",
+        "text": "Seret satu atau banyak gambar AVIF ke halaman ini, atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Periksa formatnya",
+        "text": "JPG sudah terpilih sebagai format hasil. Turunkan kualitas untuk file yang lebih kecil."
+      },
+      {
+        "title": "Konversi dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh tiap file JPG, atau semuanya sebagai ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi AVIF ke JPG",
+    "tips": [
+      "Browser Anda harus bisa membuka file AVIF. Versi terbaru Chrome, Edge, Firefox, dan Safari bisa. Jika file ditolak, perbarui browser Anda.",
+      "AVIF sangat efisien, jadi JPG-nya biasanya lebih besar daripada AVIF. Turunkan kualitas sedikit jika Anda butuh file yang kecil.",
+      "Bagian AVIF yang transparan menjadi putih, karena JPG tidak bisa transparan. Konversi ke PNG jika Anda butuh transparansinya.",
+      "Kualitas 85 sampai 90 hampir sama dengan aslinya untuk foto."
+    ],
+    "detailsTitle": "Mengapa mengonversi AVIF ke JPG?",
+    "details": [
+      "AVIF mengemas gambar ke dalam file yang sangat kecil, dan situs web mulai memakainya. Namun banyak aplikasi penyunting, printer, ponsel, dan formulir unggah yang masih belum menerimanya. JPG adalah format yang berfungsi di mana saja.",
+      "Konversi berlangsung di perangkat Anda. Tidak ada yang diunggah, jadi aman untuk gambar pribadi, dan jumlah file yang dikonversi tidak dibatasi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengonversi AVIF ke JPG?",
+          "a": "Tambahkan file AVIF Anda, pastikan JPG menjadi format hasil, lalu tekan Ubah ukuran gambar. Setelah itu unduh file JPG-nya."
+        },
+        {
+          "q": "Mengapa file AVIF saya tidak bisa dibuka?",
+          "a": "Alat ini memakai browser Anda untuk membaca gambar. Jika browser Anda sudah lama dan tidak bisa membuka AVIF, perbarui atau coba browser terbaru lainnya."
+        },
+        {
+          "q": "Mengapa JPG lebih besar daripada AVIF?",
+          "a": "AVIF adalah format yang lebih baru dan lebih efisien, jadi gambar yang sama membutuhkan lebih banyak ruang sebagai JPG."
+        },
+        {
+          "q": "Bisakah mengonversi banyak file sekaligus?",
+          "a": "Bisa. Tambahkan sebanyak yang Anda mau, hingga 500 sekaligus, lalu unduh satu per satu atau sebagai ZIP."
+        }
+      ]
+    }
+  },
+  "jfifToJpg": {
+    "title": "JFIF ke JPG - Konversi Online Gratis, Tanpa Unggah",
+    "description": "JFIF ke JPG online gratis: simpan gambar .jfif sebagai file .jpg biasa langsung di browser, agar diterima semua situs. Tanpa daftar, tanpa unggah.",
+    "h1": "Ubah JFIF ke JPG",
+    "intro": "Sebagian unduhan dan browser menyimpan gambar sebagai file .jfif, yang ditolak oleh banyak situs web dan formulir. Ubah menjadi file JPG biasa dalam satu langkah. Tambahkan file JFIF Anda, tekan tombolnya, lalu unduh file JPG-nya, atau satu ZIP berisi semuanya.",
+    "blurb": "Ubah gambar .jfif menjadi file JPG biasa.",
+    "steps": [
+      {
+        "title": "Tambahkan file JFIF Anda",
+        "text": "Seret satu atau banyak gambar JFIF ke halaman ini, atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Periksa formatnya",
+        "text": "JPG sudah terpilih sebagai format hasil. Naikkan kualitas agar gambar semirip mungkin dengan aslinya."
+      },
+      {
+        "title": "Konversi dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh tiap file JPG, atau semuanya sebagai ZIP."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi JFIF ke JPG",
+    "tips": [
+      "JPEG dan JPG adalah format yang sama. Hanya namanya yang berbeda, jadi file .jpg adalah gambar JPEG biasa.",
+      "Gambar disimpan ulang sebagai JPG. Pertahankan kualitas tinggi (90 atau lebih) agar tetap semirip mungkin dengan aslinya.",
+      "Jika formulir meminta file yang kecil, turunkan kualitasnya atau gunakan alat “Resize foto ke KB” setelah konversi.",
+      "Anda bisa menambahkan file .jfif seperti gambar lainnya: seret ke halaman ini atau pilih dari perangkat Anda."
+    ],
+    "detailsTitle": "Apa itu file JFIF?",
+    "details": [
+      "JFIF singkatan dari JPEG File Interchange Format. Ini adalah cara gambar JPEG dibungkus dalam sebuah file, jadi gambar .jfif berisi jenis data yang sama dengan .jpg. Sebagian program dan browser hanya menyimpannya dengan nama .jfif, dan banyak situs tidak menerima nama itu.",
+      "Konversi berlangsung di perangkat Anda. Tidak ada yang diunggah, jadi aman untuk gambar pribadi, dan jumlah file yang dikonversi tidak dibatasi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengonversi JFIF ke JPG?",
+          "a": "Tambahkan file JFIF Anda, pastikan JPG menjadi format hasil, lalu tekan Ubah ukuran gambar. Setelah itu unduh file JPG-nya."
+        },
+        {
+          "q": "Apakah JFIF sama dengan JPG?",
+          "a": "Hampir. JFIF adalah gambar JPEG yang disimpan dengan nama dan ekstensi file lain. Setelah konversi, Anda mendapat file .jpg biasa."
+        },
+        {
+          "q": "Apakah JPEG sama dengan JPG?",
+          "a": "Ya. Keduanya adalah dua ejaan dari format yang sama. Sistem lama memakai nama tiga huruf, itulah sebabnya .jpg ada di samping .jpeg."
+        },
+        {
+          "q": "Bisakah mengonversi banyak file sekaligus?",
+          "a": "Bisa. Tambahkan sebanyak yang Anda mau, hingga 500 sekaligus, lalu unduh satu per satu atau sebagai ZIP."
+        }
+      ]
+    }
+  },
+  "kb150": {
+    "title": "Resize Foto 150KB Online - Kompres Foto ke 150 KB Gratis",
+    "description": "Resize foto 150KB online gratis: kecilkan foto ke 150 KB atau kurang untuk formulir ujian dan portal, tetap tajam. Tanpa daftar, tetap di perangkat Anda.",
+    "h1": "Resize foto ke 150 KB",
+    "intro": "Formulir pendaftaran, portal ujian, dan situs lowongan kerja sering meminta foto maksimal 150 KB. Halaman ini menetapkan batas itu untuk Anda: tambahkan gambar, lalu unduh file di bawah 150 KB yang tetap terlihat jelas.",
+    "blurb": "Gambar di bawah 150 KB untuk formulir dan portal.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto ponsel yang besar tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 150 KB",
+        "text": "150 KB sudah terpilih. Alat ini menghitungnya sebagai 150.000 byte, jadi file lolos di sistem yang menghitung 1 KB sebagai 1.000 byte maupun yang menghitung 1.024."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 150 KB",
+    "tips": [
+      "Pilih JPG untuk foto. Foto yang sama jika disimpan sebagai PNG biasanya beberapa kali lebih besar.",
+      "Jika formulir juga meminta ukuran piksel yang persis, atur lebar dan tinggi lebih dulu, lalu biarkan batas 150 KB tetap aktif.",
+      "Pas foto atau foto potret sekitar 400 x 500 piksel muat di 150 KB dengan detail yang bagus. Foto ponsel yang besar harus dikecilkan ukuran pikselnya agar muat, dan alat ini melakukannya untuk Anda.",
+      "Untuk membuat batas yang sama bagi banyak foto, tambahkan semuanya sekaligus lalu unduh file ZIP-nya."
+    ],
+    "detailsTitle": "Arti 150 KB untuk sebuah foto",
+    "details": [
+      "Seratus lima puluh kilobyte jauh lebih kecil daripada foto ponsel pada umumnya. JPG sebesar itu masih bisa memuat gambar wajah atau dokumen yang jelas pada jumlah piksel yang sedang, dan itulah yang dibutuhkan formulir dan portal.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasil yang persis sebelum Anda mengunduh. Jika formulir meminta file yang lebih kecil lagi, pilih batas yang lebih rendah seperti 100 KB atau 50 KB lalu jalankan lagi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengecilkan gambar ke 150 KB?",
+          "a": "Tambahkan gambar, biarkan batas 150 KB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Apakah gambarnya jadi terlihat lebih buruk?",
+          "a": "Sedikit, karena file yang lebih kecil menyimpan lebih sedikit detail. Alat ini memilih kualitas terbaik yang masih muat, sehingga Anda mendapat gambar paling tajam di bawah 150 KB."
+        },
+        {
+          "q": "Bagaimana jika file saya sudah di bawah 150 KB?",
+          "a": "Berarti sudah cukup kecil. Pilih batas yang lebih rendah hanya jika formulir membutuhkannya."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "mb5": {
+    "title": "Resize Foto 5 MB Online - Kompres Foto ke 5MB Gratis",
+    "description": "Resize foto 5 MB online gratis: kecilkan foto ke 5MB atau kurang untuk email, formulir, dan unggahan tanpa penurunan kualitas terlihat. Tanpa daftar, privat.",
+    "h1": "Resize foto ke 5 MB",
+    "intro": "Layanan email, formulir pendaftaran, dan halaman unggah sering menerima file hingga 5 MB, sedangkan foto dari ponsel atau kamera terbaru bisa lebih besar. Tambahkan gambar, lalu unduh file di bawah 5 MB (5.000.000 byte) yang tetap terlihat tajam.",
+    "blurb": "Gambar di bawah 5 MB untuk email dan unggahan.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto berukuran 8 sampai 20 MB tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 5 MB",
+        "text": "5 MB sudah terpilih. Alat ini menghitungnya sebagai 5.000.000 byte, jadi file lolos di sistem yang menghitung 5.000 KB maupun yang menghitung 5.120 KB."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 5 MB",
+    "tips": [
+      "Foto dari ponsel terbaru sering berukuran 5 sampai 15 MB. Untuk berada di bawah 5 MB biasanya cukup menurunkan kualitas sedikit, yang tidak terlihat di layar.",
+      "Foto paling pas sebagai JPG atau WebP. Foto yang disimpan sebagai PNG biasanya beberapa kali lebih besar.",
+      "Tangkapan layar dan logo lebih baik sebagai PNG: ukurannya sudah kecil dan tepinya tetap tajam.",
+      "Untuk mengirim banyak foto dalam satu email, tambahkan semuanya sekaligus lalu unduh file ZIP-nya."
+    ],
+    "detailsTitle": "Arti 5 MB untuk sebuah foto",
+    "details": [
+      "Lima megabyte adalah 5.000 kilobyte. JPG sebesar itu dapat memuat foto sekitar 4000 x 3000 piksel dengan detail yang sangat bagus, tergantung gambarnya, dan itu lebih dari yang ditampilkan hampir semua layar.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasil yang persis sebelum Anda mengunduh. Ukuran piksel baru diturunkan jika batas tidak bisa dicapai hanya dengan kualitas."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara memperkecil gambar ke 5 MB?",
+          "a": "Tambahkan gambar, biarkan batas 5 MB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Apakah 5 MB sama dengan 5.120 KB?",
+          "a": "Pada sebagian sistem, satu megabyte dihitung 1.024 kilobyte, pada yang lain 1.000. Alat ini memakai nilai yang lebih kecil (5.000 KB, atau 5.000.000 byte), sehingga file lolos di keduanya."
+        },
+        {
+          "q": "Apakah ukuran pikselnya ikut mengecil?",
+          "a": "Hanya jika terpaksa. Alat ini menurunkan kualitas lebih dulu dan baru memperkecil ukuran piksel jika batas tidak bisa dicapai dengan cara lain."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "kb15": {
+    "title": "Resize Foto 15KB Online - Kompres Foto ke 15 KB Gratis",
+    "description": "Resize foto 15KB online gratis: kecilkan foto atau tanda tangan ke 15 KB atau kurang untuk formulir yang ketat, tetap jelas. Tanpa daftar, tanpa unggah.",
+    "h1": "Resize foto ke 15 KB",
+    "intro": "Sebagian formulir hanya menerima gambar yang sangat kecil, seperti tanda tangan atau foto seukuran prangko sebesar 15 KB. Halaman ini menetapkan batas itu untuk Anda: tambahkan gambar, lalu unduh file di bawah 15 KB yang masih terbaca.",
+    "blurb": "Gambar mungil di bawah 15 KB untuk formulir yang ketat.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto besar tidak masalah; alat ini yang mengecilkannya."
+      },
+      {
+        "title": "Pertahankan batas 15 KB",
+        "text": "15 KB sudah terpilih. Alat ini menghitungnya sebagai 15.000 byte, jadi file lolos di sistem yang menghitung 1 KB sebagai 1.000 byte maupun yang menghitung 1.024."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 15 KB",
+    "tips": [
+      "15 KB itu sangat kecil. Alat ini menurunkan kualitas dan, jika perlu, jumlah piksel, sehingga gambar terlihat kecil di layar tetapi tetap terbaca.",
+      "Untuk tanda tangan, pakai latar belakang putih dan tinta gelap. Gambar polos jauh lebih mudah dikompres daripada gambar yang ramai.",
+      "Jika formulir juga meminta ukuran piksel yang persis, atur lebar dan tinggi lebih dulu, lalu biarkan batas 15 KB tetap aktif.",
+      "Pilih JPG. File PNG tidak bisa diperkecil agar muat dalam sebuah batas."
+    ],
+    "detailsTitle": "Arti 15 KB untuk sebuah gambar",
+    "details": [
+      "Lima belas kilobyte itu mungil: foto ponsel biasa ratusan kali lebih besar. Pada ukuran ini sebuah foto harus kecil, kira-kira seukuran thumbnail, sedangkan tanda tangan di atas latar putih muat dengan mudah.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasil yang persis sebelum Anda mengunduh. Jika batas tidak bisa dicapai, alat ini memberi tahu ukuran terkecil yang bisa dibuatnya."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengecilkan gambar ke 15 KB?",
+          "a": "Tambahkan gambar, biarkan batas 15 KB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Mengapa gambar saya terlihat kecil dan buram?",
+          "a": "Pada 15 KB hanya ada sedikit ruang untuk detail. Alat ini memakai kualitas terbaik yang masih muat, dan memperkecil ukuran piksel hanya jika terpaksa."
+        },
+        {
+          "q": "Bisakah tanda tangan dijadikan 15 KB?",
+          "a": "Bisa. Tanda tangan di atas latar putih itu sederhana, jadi sangat mudah dikompres dan tetap terbaca."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "kb25": {
+    "title": "Resize Foto 25KB Online - Kompres Foto ke 25 KB Gratis",
+    "description": "Resize foto 25KB online gratis: kecilkan foto atau tanda tangan ke 25 KB atau kurang untuk formulir dan portal, tetap jelas. Tanpa daftar, di perangkat Anda.",
+    "h1": "Resize foto ke 25 KB",
+    "intro": "Formulir dan portal yang membutuhkan foto atau tanda tangan kecil sering menetapkan batas 25 KB. Halaman ini menetapkannya untuk Anda: tambahkan gambar, lalu unduh file di bawah 25 KB yang tetap terlihat jelas.",
+    "blurb": "Gambar di bawah 25 KB untuk formulir dan portal.",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke sini atau pilih dari perangkat Anda. Foto ponsel yang besar tidak masalah."
+      },
+      {
+        "title": "Pertahankan batas 25 KB",
+        "text": "25 KB sudah terpilih. Alat ini menghitungnya sebagai 25.000 byte, jadi file lolos di sistem yang menghitung 1 KB sebagai 1.000 byte maupun yang menghitung 1.024."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar lalu unduh filenya. Hasilnya menampilkan ukuran persisnya."
+      }
+    ],
+    "tipsTitle": "Tips agar tetap di bawah 25 KB",
+    "tips": [
+      "Pas foto kecil sekitar 200 x 250 piksel biasanya muat di 25 KB. Foto ponsel yang besar harus dikecilkan ukuran pikselnya, dan alat ini melakukannya untuk Anda.",
+      "Untuk tanda tangan, pakai latar belakang putih dan tinta gelap. Gambar polos jauh lebih mudah dikompres daripada gambar yang ramai.",
+      "Jika formulir juga meminta ukuran piksel yang persis, atur lebar dan tinggi lebih dulu, lalu biarkan batas 25 KB tetap aktif.",
+      "Pilih JPG. File PNG tidak bisa diperkecil agar muat dalam sebuah batas."
+    ],
+    "detailsTitle": "Arti 25 KB untuk sebuah gambar",
+    "details": [
+      "Dua puluh lima kilobyte adalah file yang sangat kecil, lebih dari seratus kali lebih kecil daripada foto ponsel biasa. JPG sebesar itu masih bisa memuat wajah atau tanda tangan yang jelas pada jumlah piksel yang kecil, dan itulah yang diperiksa formulir-formulir ini.",
+      "Alat ini mencoba kualitas tertinggi yang masih muat dan menampilkan ukuran hasil yang persis sebelum Anda mengunduh. Jika formulir membutuhkan file yang lebih kecil lagi, pilih 20 KB atau 15 KB lalu jalankan lagi."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bagaimana cara mengecilkan gambar ke 25 KB?",
+          "a": "Tambahkan gambar, biarkan batas 25 KB yang sudah terpilih, lalu tekan Ubah ukuran gambar. Alat ini mencari kualitas tertinggi yang masih muat."
+        },
+        {
+          "q": "Apakah foto 25 KB akan terlihat jelas?",
+          "a": "Pada ukuran kecil seperti pas foto, ya. Gambar yang sangat besar tidak bisa mempertahankan seluruh detailnya dalam 25 KB, jadi alat ini memperkecil ukuran pikselnya jika perlu."
+        },
+        {
+          "q": "Bagaimana jika file saya sudah di bawah 25 KB?",
+          "a": "Berarti sudah cukup kecil. Pilih batas yang lebih rendah hanya jika formulir membutuhkannya."
+        },
+        {
+          "q": "Apakah gambar saya diunggah?",
+          "a": "Tidak. Gambar diproses di perangkat Anda dan tidak pernah diunggah."
+        }
+      ]
+    }
+  },
+  "pxToIn": {
+    "title": "Pixel ke Inch - Kalkulator Konversi Gratis (DPI)",
+    "description": "Konversi pixel ke inch online gratis: ketik pixel, pilih DPI, dan dapatkan ukuran cetak dalam inci. Cocok untuk foto, dokumen, dan layar. Tanpa unggah.",
+    "h1": "Konversi pixel ke inch",
+    "intro": "Ketik ukuran dalam piksel dan lihat berapa inci ukuran cetaknya pada DPI Anda. Kalkulator ini juga menampilkan ukuran cetak yang umum dalam piksel dan menyediakan tautan ke pengubah ukuran gambar gratis.",
+    "blurb": "Konversi piksel ke inci pada DPI berapa pun.",
+    "steps": [
+      {
+        "title": "Masukkan ukuran dalam piksel",
+        "text": "Ketik lebar, dan tinggi jika Anda perlu. Satuannya sudah diatur ke piksel."
+      },
+      {
+        "title": "Pilih DPI",
+        "text": "Gunakan 300 untuk cetak, 96 untuk layar, atau angka yang dipakai printer atau formulir Anda. Hasilnya berubah saat Anda mengetik."
+      },
+      {
+        "title": "Baca ukurannya",
+        "text": "Ukuran muncul dalam inci. Ganti satuannya jika Anda mau yang lain."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi piksel ke inci",
+    "tips": [
+      "Inci = piksel ÷ DPI. Pada 300 DPI setiap 300 piksel menjadi satu inci.",
+      "Gambar 1200 × 1800 piksel tercetak berukuran 4 × 6 inci pada 300 DPI, dan 12,5 × 18,75 inci pada 96 DPI.",
+      "Gambar yang sama berukuran berbeda pada DPI yang berbeda: DPI lebih tinggi berarti cetakan lebih kecil dan lebih tajam.",
+      "Gunakan tombol tukar untuk mengonversi inci ke piksel."
+    ],
+    "detailsTitle": "Cara mengonversi piksel ke inci",
+    "details": [
+      "Rumusnya: inci = piksel ÷ DPI. Pada 300 DPI, yang lazim dipakai untuk mencetak, 1000 piksel adalah 3,33 inci. Pada 96 DPI, standar layar di browser, 1000 piksel yang sama adalah 10,42 inci, dan pada 72 DPI adalah 13,89 inci.",
+      "Gambar tidak punya ukuran nyata sampai dicetak, dan DPI-lah yang menghubungkan piksel dengan inci. Gambar full HD berukuran 1920 × 1080 piksel adalah 6,4 × 3,6 inci pada 300 DPI dan 20 × 11,25 inci pada 96 DPI."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 piksel berapa inci?",
+          "a": "Pada 300 DPI, 1000 piksel sekitar 3,33 inci. Pada 96 DPI sekitar 10,42 inci."
+        },
+        {
+          "q": "Bagaimana cara mengonversi piksel ke inci?",
+          "a": "Bagi piksel dengan DPI. Atau ketik pikselnya ke kalkulator di atas dan hitungannya dilakukan untuk Anda."
+        },
+        {
+          "q": "DPI berapa yang sebaiknya saya pakai?",
+          "a": "Pakai 300 untuk mencetak, dan 72 atau 96 untuk gambar yang hanya ditampilkan di layar."
+        },
+        {
+          "q": "Apakah DPI mengubah gambar saya?",
+          "a": "Tidak. DPI hanya menentukan seberapa besar gambar saat dicetak. Ubah ukuran gambarnya sendiri dengan pengubah ukuran gambar."
+        }
+      ]
+    }
+  },
+  "pxToMm": {
+    "title": "Pixel ke MM - Kalkulator Konversi Gratis (DPI)",
+    "description": "Konversi pixel ke mm online gratis: ketik pixel, pilih DPI, dan dapatkan ukuran cetak dalam milimeter. Berguna untuk foto paspor dan identitas. Tanpa unggah.",
+    "h1": "Konversi pixel ke mm",
+    "intro": "Ketik ukuran dalam piksel dan lihat berapa milimeter ukuran cetaknya pada DPI Anda. Berguna untuk foto paspor dan foto identitas, yang ukurannya diberikan dalam milimeter. Kalkulator ini menyediakan tautan ke pengubah ukuran gambar gratis.",
+    "blurb": "Konversi piksel ke milimeter pada DPI berapa pun.",
+    "steps": [
+      {
+        "title": "Masukkan ukuran dalam piksel",
+        "text": "Ketik lebar, dan tinggi jika Anda perlu. Satuannya sudah diatur ke piksel."
+      },
+      {
+        "title": "Pilih DPI",
+        "text": "Gunakan 300 untuk cetak, 96 untuk layar, atau angka yang dipakai printer atau formulir Anda. Hasilnya berubah saat Anda mengetik."
+      },
+      {
+        "title": "Baca ukurannya",
+        "text": "Ukuran muncul dalam milimeter. Ganti satuannya jika Anda mau yang lain."
+      }
+    ],
+    "tipsTitle": "Tips mengonversi piksel ke mm",
+    "tips": [
+      "Milimeter = piksel ÷ DPI × 25,4. Pada 300 DPI satu piksel sekitar 0,085 mm.",
+      "Foto paspor 413 × 531 piksel berukuran sekitar 35 × 45 mm pada 300 DPI.",
+      "Gambar yang sama berukuran berbeda pada DPI yang berbeda: pada 96 DPI satu piksel sekitar 0,26 mm.",
+      "Gunakan tombol tukar untuk mengonversi milimeter ke piksel."
+    ],
+    "detailsTitle": "Cara mengonversi piksel ke mm",
+    "details": [
+      "Rumusnya: milimeter = piksel ÷ DPI × 25,4, karena satu inci sama dengan 25,4 milimeter. Pada 300 DPI, 1000 piksel sekitar 84,67 mm. Pada 96 DPI, 1000 piksel yang sama sekitar 264,58 mm.",
+      "Gambar tidak punya ukuran nyata sampai dicetak, dan DPI-lah yang menghubungkan piksel dengan milimeter. Jika formulir meminta ukuran dalam milimeter dan Anda hanya tahu pikselnya, 300 DPI adalah nilai yang lazim untuk foto."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 piksel berapa mm?",
+          "a": "Pada 300 DPI, 1000 piksel sekitar 84,67 mm. Pada 96 DPI sekitar 264,58 mm."
+        },
+        {
+          "q": "Bagaimana cara mengonversi piksel ke mm?",
+          "a": "Bagi piksel dengan DPI lalu kalikan dengan 25,4. Atau ketik pikselnya ke kalkulator di atas dan hitungannya dilakukan untuk Anda."
+        },
+        {
+          "q": "DPI berapa yang sebaiknya saya pakai?",
+          "a": "Pakai 300 untuk mencetak serta untuk foto paspor atau foto identitas, dan 72 atau 96 untuk gambar yang hanya ditampilkan di layar."
+        },
+        {
+          "q": "Apakah DPI mengubah gambar saya?",
+          "a": "Tidak. DPI hanya menentukan seberapa besar gambar saat dicetak. Ubah ukuran gambarnya sendiri dengan pengubah ukuran gambar."
+        }
+      ]
+    }
+  },
+  "paperPx": {
+    "title": "Ukuran Kertas A4 dalam Pixel - A5, Letter (72-600 DPI)",
+    "description": "Ukuran A4 dalam pixel pada 72, 96, 150, 300, dan 600 DPI, plus A3, A5, A6, Letter, dan Legal dalam satu tabel, dengan kalkulator gratis. Tanpa unggah.",
+    "h1": "Ukuran kertas dalam pixel (A4, A5, Letter)",
+    "intro": "Berapa pixel ukuran kertas A4? Tergantung DPI-nya. Tabel menampilkan ukuran kertas yang umum dalam piksel pada lima nilai DPI, dan kalkulator mengonversi ukuran lain mana pun.",
+    "blurb": "A4, A5, Letter, dan lainnya dalam piksel pada DPI berapa pun.",
+    "note": "Piksel dibulatkan ke bilangan bulat. Gunakan ukuran ini untuk gambar yang ingin Anda cetak atau tempatkan pada halaman dengan format tersebut.",
+    "tableTitle": "Ukuran kertas dalam piksel",
+    "steps": [
+      {
+        "title": "Temukan ukuran kertas Anda",
+        "text": "Cari A3, A4, A5, A6, B5, Letter, Legal, atau Tabloid di tabel, lalu baca pikselnya di kolom DPI yang Anda butuhkan."
+      },
+      {
+        "title": "Atau masukkan ukuran lain",
+        "text": "Ketik lebar dan tinggi apa pun di kalkulator, pilih DPI, lalu baca hasilnya dalam piksel."
+      },
+      {
+        "title": "Ubah ukuran gambar Anda",
+        "text": "Buka pengubah ukuran gambar, masukkan pikselnya, lalu unduh gambar yang pas dengan halaman."
+      }
+    ],
+    "tipsTitle": "Tips untuk ukuran kertas dalam piksel",
+    "tips": [
+      "A4 pada 300 DPI adalah 2480 × 3508 piksel: ukuran yang dipakai untuk cetakan yang tajam.",
+      "Untuk dokumen yang hanya ditampilkan di layar, A4 pada 96 DPI (794 × 1123 piksel) sudah cukup.",
+      "A4 pada 72 DPI adalah 595 × 842 piksel, ukuran halaman PDF dalam satuan point.",
+      "US Letter lebih pendek dan lebih lebar daripada A4: 2550 × 3300 piksel pada 300 DPI."
+    ],
+    "detailsTitle": "Mengapa kertas tidak punya satu ukuran piksel",
+    "details": [
+      "Kertas punya ukuran nyata dalam milimeter atau inci, sedangkan gambar punya piksel. DPI (dots per inch, titik per inci) yang menghubungkan keduanya: A4 berukuran 210 × 297 mm, yaitu 2480 × 3508 piksel pada 300 DPI tetapi hanya 794 × 1123 piksel pada 96 DPI.",
+      "Seri A ISO membagi dua halaman setiap kali: A4 adalah separuh A3 dan dua kali A5, dan semuanya memiliki proporsi yang sama. US Letter, Legal, dan Tabloid berasal dari satuan inci dan punya proporsi lain."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Berapa ukuran A4 dalam piksel?",
+          "a": "Pada 300 DPI, A4 adalah 2480 × 3508 piksel. Pada 150 DPI adalah 1240 × 1754, pada 96 DPI 794 × 1123, dan pada 72 DPI 595 × 842."
+        },
+        {
+          "q": "Berapa ukuran US Letter dalam piksel?",
+          "a": "Pada 300 DPI, US Letter (8,5 × 11 inci) adalah 2550 × 3300 piksel. Pada 96 DPI adalah 816 × 1056."
+        },
+        {
+          "q": "Berapa ukuran A5 dalam piksel?",
+          "a": "Pada 300 DPI, A5 adalah 1748 × 2480 piksel. Pada 96 DPI adalah 559 × 794."
+        },
+        {
+          "q": "DPI berapa yang sebaiknya saya pakai?",
+          "a": "Pakai 300 untuk mencetak, dan 72 atau 96 untuk gambar yang hanya ditampilkan di layar."
+        }
+      ]
+    }
+  },
+  "instagramSize": {
+    "title": "Ukuran Gambar Instagram: Post, Story, Reel - Resize Gratis",
+    "description": "Ukuran gambar Instagram dalam pixel untuk postingan persegi dan potret, story, dan reel. Resize foto agar pas di Instagram gratis, tanpa unggah dan daftar.",
+    "h1": "Ukuran gambar Instagram",
+    "intro": "Gambar terlihat paling bagus di Instagram jika sudah berbentuk tepat. Pilih ukuran di bawah, dan alat ini mengubah ukuran serta memangkas foto Anda agar sesuai, di perangkat Anda.",
+    "blurb": "Resize foto untuk postingan, story, dan reel Instagram.",
+    "note": "Instagram mengubah tampilannya dari waktu ke waktu. Ini adalah ukuran yang paling banyak dipakai saat ini; bentuknya (1:1, 4:5, dan 9:16) jauh lebih jarang berubah daripada ukuran pikselnya.",
+    "tableTitle": "Ukuran Instagram",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke halaman ini atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Pilih ukuran Instagram",
+        "text": "Buka daftar Preset, masuk ke Media sosial, lalu pilih Instagram postingan (1080x1080 atau 1080x1350) untuk feed, atau Instagram story / reel (1080x1920). Ukuran postingan yang pertama sudah terpilih."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar. Pangkas untuk mengisi kotak sudah terpilih, jadi tidak ada yang melar."
+      }
+    ],
+    "tipsTitle": "Tips untuk gambar Instagram yang tajam",
+    "tips": [
+      "Postingan potret (1080 × 1350 piksel, 4:5) memakan tempat paling banyak di feed, jadi lebih menonjol daripada yang persegi.",
+      "Story dan reel berukuran 1080 × 1920 piksel (9:16). Jauhkan wajah dan teks dari tepi atas dan bawah, karena tombol dan keterangan menutupinya.",
+      "Mulailah dari gambar yang setidaknya sebesar targetnya. Instagram mengompres setiap unggahan, jadi gambar asli yang tajam memberi hasil terbaik.",
+      "Gunakan JPG untuk foto dan PNG untuk grafis dengan teks yang tajam."
+    ],
+    "detailsTitle": "Ukuran dan bentuk gambar Instagram",
+    "details": [
+      "Postingan persegi berukuran 1080 × 1080 piksel (1:1). Postingan potret berukuran 1080 × 1350 piksel (4:5), dan postingan lanskap sekitar 1080 × 566 piksel (1.91:1). Story dan reel memakai seluruh layar ponsel: 1080 × 1920 piksel (9:16). Foto profil sebaiknya minimal 320 × 320 piksel dan ditampilkan sebagai lingkaran.",
+      "Jika gambar berbentuk lain, alat ini bisa memangkasnya untuk mengisi kotak atau memuatnya di dalam kotak. Pilih Muat di dalam kotak untuk mempertahankan seluruh gambar, dengan bilah kosong di sisinya, atau Pangkas untuk mengisi kotak untuk mempertahankan bagian tengah dan memangkas tepinya."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Berapa ukuran terbaik untuk postingan Instagram?",
+          "a": "Gunakan 1080 × 1080 piksel untuk postingan persegi dan 1080 × 1350 piksel untuk postingan potret, yang memakan ruang paling banyak di feed."
+        },
+        {
+          "q": "Berapa ukuran story atau reel Instagram?",
+          "a": "1080 × 1920 piksel, yaitu 9:16, setinggi layar ponsel penuh."
+        },
+        {
+          "q": "Bagaimana cara memposting seluruh foto tanpa dipangkas?",
+          "a": "Pilih ukuran Instagram di Preset, lalu pilih Muat di dalam kotak, bukan Pangkas untuk mengisi kotak. Seluruh gambar tetap terlihat dan tidak ada bagian yang terpotong."
+        },
+        {
+          "q": "Berapa ukuran foto profil Instagram?",
+          "a": "Unggah minimal 320 × 320 piksel. Instagram menampilkannya sebagai lingkaran, jadi letakkan wajah di tengah."
+        }
+      ]
+    }
+  },
+  "youtubeSize": {
+    "title": "Ukuran Thumbnail YouTube: 1280x720 - Resize Gratis",
+    "description": "Ukuran thumbnail YouTube adalah 1280 x 720 pixel (16:9). Resize gambar jadi thumbnail atau banner channel YouTube gratis, tanpa unggah dan tanpa daftar.",
+    "h1": "Ukuran thumbnail YouTube",
+    "intro": "Thumbnail YouTube berukuran 1280 × 720 piksel dengan rasio 16:9. Tambahkan gambar Anda dan alat ini mengubah ukuran serta memangkasnya ke ukuran itu, di perangkat Anda, lalu menampilkan ukuran filenya.",
+    "blurb": "Resize gambar jadi thumbnail atau banner YouTube.",
+    "note": "YouTube memperbarui rekomendasinya dari waktu ke waktu. Ini adalah ukuran yang banyak dipakai dan cocok dengan format saat ini.",
+    "tableTitle": "Ukuran YouTube",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke halaman ini atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Pilih ukuran YouTube",
+        "text": "Buka daftar Preset, masuk ke Media sosial, lalu pilih YouTube thumbnail atau banner. Ukuran thumbnail sudah terpilih."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar. Pangkas untuk mengisi kotak sudah terpilih, jadi tidak ada yang melar."
+      }
+    ],
+    "tipsTitle": "Tips untuk thumbnail YouTube yang bagus",
+    "tips": [
+      "Gunakan 1280 × 720 piksel dan pertahankan bentuk 16:9. Bentuk yang berbeda akan mendapat bilah atau dipangkas.",
+      "Jaga file tetap di bawah 2 MB. Itu sudah lama menjadi batasnya, dan file yang lebih kecil tidak pernah ditolak.",
+      "Jauhkan wajah dan teks dari sudut kanan bawah, tempat durasi video ditampilkan.",
+      "Gunakan JPG untuk foto. PNG lebih baik untuk grafis dengan teks yang tajam, tetapi filenya lebih besar."
+    ],
+    "detailsTitle": "Ukuran gambar YouTube",
+    "details": [
+      "Thumbnail berukuran 1280 × 720 piksel dengan lebar minimal 640 piksel, dalam rasio 16:9. Banner channel berukuran 2560 × 1440 piksel, dan hanya bagian tengahnya yang tampil di semua perangkat, jadi letakkan logo dan teks di tengah. Foto channel paling baik berukuran 800 × 800 piksel.",
+      "Jika thumbnail melebihi batas ukuran file, alat ini bisa menurunkan kualitasnya sampai muat. Pilih Batasi ukuran file dan masukkan 2 MB; kualitas terbaik yang masih muat akan dipilihkan untuk Anda."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Berapa ukuran thumbnail YouTube yang benar?",
+          "a": "1280 × 720 piksel dengan rasio 16:9, dan ukuran file di bawah 2 MB."
+        },
+        {
+          "q": "Berapa ukuran banner channel YouTube?",
+          "a": "2560 × 1440 piksel. Hanya bagian tengah yang terlihat di semua perangkat, jadi letakkan konten penting di tengah."
+        },
+        {
+          "q": "Bagaimana cara membuat thumbnail di bawah 2 MB?",
+          "a": "Ubah ukurannya ke 1280 × 720, lalu aktifkan Batasi ukuran file dan masukkan 2 MB. Alat ini mencari kualitas terbaik yang masih muat."
+        },
+        {
+          "q": "Format file apa yang terbaik untuk thumbnail?",
+          "a": "JPG untuk foto. Ukurannya kecil dan cukup tajam. Pakai PNG hanya jika gambar punya teks tajam atau warna datar dan ukuran file masih memungkinkan."
+        }
+      ]
+    }
+  },
+  "facebookSize": {
+    "title": "Ukuran Gambar Facebook: Cover, Postingan - Resize Gratis",
+    "description": "Ukuran gambar Facebook dalam pixel untuk foto sampul dan postingan. Resize gambar agar pas di Facebook gratis, tanpa unggah dan tanpa daftar, di perangkat Anda.",
+    "h1": "Ukuran gambar Facebook",
+    "intro": "Gambar terlihat paling bagus di Facebook jika sudah berbentuk tepat. Pilih ukuran di bawah, dan alat ini mengubah ukuran serta memangkas gambar Anda agar sesuai, di perangkat Anda.",
+    "blurb": "Resize gambar untuk sampul atau postingan Facebook.",
+    "note": "Facebook mengubah tampilannya dari waktu ke waktu. Ini adalah ukuran yang banyak dipakai dan cocok dengan format saat ini.",
+    "tableTitle": "Ukuran Facebook",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke halaman ini atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Pilih ukuran Facebook",
+        "text": "Buka daftar Preset, masuk ke Media sosial, lalu pilih Facebook postingan atau sampul. Ukuran postingan sudah terpilih."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar. Pangkas untuk mengisi kotak sudah terpilih, jadi tidak ada yang melar."
+      }
+    ],
+    "tipsTitle": "Tips untuk gambar Facebook yang tajam",
+    "tips": [
+      "Foto sampul ditampilkan pada 820 × 312 piksel di komputer dan dengan bentuk yang berbeda di ponsel, jadi letakkan konten penting di tengah.",
+      "Gambar untuk postingan atau tautan yang dibagikan paling cocok pada 1200 × 630 piksel.",
+      "Mulailah dari gambar yang setidaknya sebesar targetnya. Facebook mengompres setiap unggahan, jadi gambar asli yang tajam memberi hasil terbaik.",
+      "Gunakan JPG untuk foto dan PNG untuk grafis dengan teks yang tajam."
+    ],
+    "detailsTitle": "Ukuran dan bentuk gambar Facebook",
+    "details": [
+      "Foto sampul berukuran 820 × 312 piksel di komputer, sedangkan ponsel menampilkannya dengan dipangkas ke bentuk yang berbeda, itulah sebabnya bagian tengah gambar paling penting. Gambar postingan atau tautan yang dibagikan berukuran 1200 × 630 piksel. Foto profil ditampilkan sebagai lingkaran: unggah gambar persegi minimal 320 × 320 piksel dan letakkan wajah di tengah.",
+      "Jika gambar berbentuk lain, alat ini bisa memangkasnya untuk mengisi kotak atau memuatnya di dalam kotak. Pilih Muat di dalam kotak untuk mempertahankan seluruh gambar, dengan bilah kosong di sisinya, atau Pangkas untuk mengisi kotak untuk mempertahankan bagian tengah dan memangkas tepinya."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Berapa ukuran foto sampul Facebook?",
+          "a": "820 × 312 piksel di komputer. Ponsel memangkasnya dengan cara berbeda, jadi letakkan teks dan wajah di tengah."
+        },
+        {
+          "q": "Berapa ukuran gambar postingan Facebook?",
+          "a": "1200 × 630 piksel cocok untuk postingan atau tautan yang dibagikan."
+        },
+        {
+          "q": "Berapa ukuran foto profil Facebook?",
+          "a": "Unggah gambar persegi minimal 320 × 320 piksel. Facebook menampilkannya sebagai lingkaran, jadi letakkan wajah di tengah."
+        },
+        {
+          "q": "Bagaimana cara menghindari pemangkasan di Facebook?",
+          "a": "Pilih ukuran Facebook di Preset, lalu pilih Muat di dalam kotak, bukan Pangkas untuk mengisi kotak. Seluruh gambar tetap terlihat dan tidak ada bagian yang terpotong."
+        }
+      ]
+    }
+  },
+  "whatsappSize": {
+    "title": "Ukuran Foto Profil WhatsApp (DP WA) dan Status - Resize",
+    "description": "Ukuran DP WhatsApp adalah 500 x 500 pixel dan status 1080 x 1920. Resize foto untuk WhatsApp gratis, tanpa unggah dan tanpa daftar, di perangkat Anda.",
+    "h1": "Ukuran foto profil WhatsApp (DP)",
+    "intro": "WhatsApp menampilkan foto profil (DP) Anda sebagai lingkaran, jadi gambar persegi paling cocok. Tambahkan foto Anda dan alat ini memangkas serta mengubah ukurannya ke ukuran yang tepat, di perangkat Anda.",
+    "blurb": "Resize foto untuk DP atau status WhatsApp.",
+    "note": "WhatsApp bisa mengubah cara menampilkan gambar. Ini adalah ukuran yang berfungsi baik saat ini.",
+    "tableTitle": "Ukuran WhatsApp",
+    "steps": [
+      {
+        "title": "Tambahkan gambar Anda",
+        "text": "Seret ke halaman ini atau pilih dari perangkat Anda."
+      },
+      {
+        "title": "Pilih ukuran WhatsApp",
+        "text": "Buka daftar Preset, masuk ke Media sosial, lalu pilih WhatsApp foto profil untuk DP, atau WhatsApp story / reel (1080x1920) untuk status. Ukuran foto profil sudah terpilih."
+      },
+      {
+        "title": "Ubah ukuran dan unduh",
+        "text": "Tekan Ubah ukuran gambar. Pangkas untuk mengisi kotak sudah terpilih, jadi tidak ada yang melar."
+      }
+    ],
+    "tipsTitle": "Tips untuk DP WhatsApp yang bagus",
+    "tips": [
+      "Gunakan gambar persegi 500 × 500 piksel. WhatsApp menampilkannya sebagai lingkaran, jadi letakkan wajah di tengah.",
+      "Gambar status berukuran 1080 × 1920 piksel (9:16), setinggi layar ponsel penuh.",
+      "Gambar yang lebih besar dari yang dibutuhkan akan dikecilkan oleh WhatsApp dan bisa terlihat buram. Mengubah ukurannya lebih dulu memberi Anda kendali atas hasilnya.",
+      "Gunakan JPG untuk foto. Ukurannya kecil dan cukup tajam untuk sebuah DP."
+    ],
+    "detailsTitle": "Ukuran gambar WhatsApp",
+    "details": [
+      "WhatsApp meminta foto profil yang berbentuk persegi. Aplikasi menampilkannya sebagai lingkaran di obrolan dan kontak, jadi sudut-sudut gambar tidak pernah terlihat. Ukuran 500 × 500 piksel tajam di semua layar dan cukup kecil untuk diunggah dengan cepat.",
+      "Jika foto Anda tidak persegi, pilih Pangkas untuk mengisi kotak dan bagian tengah gambar dipertahankan. Pilih Muat di dalam kotak untuk mempertahankan seluruh gambar dengan bilah kosong; WhatsApp lalu memungkinkan Anda menggeser dan memperbesarnya di dalam lingkaran."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Berapa ukuran DP WhatsApp?",
+          "a": "500 × 500 piksel, gambar persegi. WhatsApp menampilkannya sebagai lingkaran."
+        },
+        {
+          "q": "Berapa ukuran gambar status WhatsApp?",
+          "a": "1080 × 1920 piksel (9:16), setinggi layar ponsel penuh."
+        },
+        {
+          "q": "Bagaimana cara membuat foto pas di DP WhatsApp tanpa memotong wajah?",
+          "a": "Pilih ukuran WhatsApp di Preset dan biarkan Pangkas untuk mengisi kotak. Bagian tengah gambar dipertahankan, yang biasanya tempat wajah berada."
+        },
+        {
+          "q": "Mengapa DP saya terlihat buram?",
+          "a": "Gambar yang terlalu kecil akan diregangkan, dan yang terlalu besar akan dikecilkan oleh aplikasi. Ubah ukurannya ke 500 × 500 piksel lebih dulu agar hasilnya tajam."
         }
       ]
     }

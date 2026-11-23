@@ -1,4 +1,4 @@
-# Addresses to submit for indexing (updated 2026-11-23 from https://freeresizeimageonline.com/sitemap.xml, 820 pages)
+# Addresses to submit for indexing (updated 2026-11-24 from https://freeresizeimageonline.com/sitemap.xml, 1,140 pages)
 #
 # Google Search Console: paste ONE address in the top search bar (URL inspection) -> Request indexing. Google allows about 10 requests a day,
 # so use one batch per day (the first batches are the most searched pages). Also add the sitemap once: Sitemaps -> https://freeresizeimageonline.com/sitemap.xml
@@ -926,3 +926,389 @@ https://freeresizeimageonline.com/zh-cn/mm-to-pixels/
 https://freeresizeimageonline.com/zh-cn/pixels-to-cm/
 https://freeresizeimageonline.com/zh-cn/resize-image-to-300kb/
 https://freeresizeimageonline.com/zh-cn/resize-image-to-2mb/
+
+# ---- Wave 3 (2026-11-24): 16 more pages x 20 languages = 320 addresses, 10 a day, English first ----
+
+## Day 25 (Google)
+https://freeresizeimageonline.com/instagram-image-size/
+https://freeresizeimageonline.com/youtube-thumbnail-size/
+https://freeresizeimageonline.com/webp-to-png/
+https://freeresizeimageonline.com/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/whatsapp-dp-size/
+https://freeresizeimageonline.com/facebook-image-size/
+https://freeresizeimageonline.com/pixels-to-inches/
+https://freeresizeimageonline.com/resize-image-to-150kb/
+https://freeresizeimageonline.com/resize-image-to-5mb/
+https://freeresizeimageonline.com/gif-to-jpg/
+
+## Day 26 (Google)
+https://freeresizeimageonline.com/bmp-to-jpg/
+https://freeresizeimageonline.com/avif-to-jpg/
+https://freeresizeimageonline.com/jfif-to-jpg/
+https://freeresizeimageonline.com/pixels-to-mm/
+https://freeresizeimageonline.com/resize-image-to-15kb/
+https://freeresizeimageonline.com/resize-image-to-25kb/
+https://freeresizeimageonline.com/pt-br/instagram-image-size/
+https://freeresizeimageonline.com/pt-br/youtube-thumbnail-size/
+https://freeresizeimageonline.com/pt-br/webp-to-png/
+https://freeresizeimageonline.com/pt-br/paper-sizes-in-pixels/
+
+## Day 27 (Google)
+https://freeresizeimageonline.com/pt-br/whatsapp-dp-size/
+https://freeresizeimageonline.com/pt-br/facebook-image-size/
+https://freeresizeimageonline.com/pt-br/pixels-to-inches/
+https://freeresizeimageonline.com/pt-br/resize-image-to-150kb/
+https://freeresizeimageonline.com/pt-br/resize-image-to-5mb/
+https://freeresizeimageonline.com/pt-br/gif-to-jpg/
+https://freeresizeimageonline.com/pt-br/bmp-to-jpg/
+https://freeresizeimageonline.com/pt-br/avif-to-jpg/
+https://freeresizeimageonline.com/pt-br/jfif-to-jpg/
+https://freeresizeimageonline.com/pt-br/pixels-to-mm/
+
+## Day 28 (Google)
+https://freeresizeimageonline.com/pt-br/resize-image-to-15kb/
+https://freeresizeimageonline.com/pt-br/resize-image-to-25kb/
+https://freeresizeimageonline.com/nl/instagram-image-size/
+https://freeresizeimageonline.com/nl/youtube-thumbnail-size/
+https://freeresizeimageonline.com/nl/webp-to-png/
+https://freeresizeimageonline.com/nl/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/nl/whatsapp-dp-size/
+https://freeresizeimageonline.com/nl/facebook-image-size/
+https://freeresizeimageonline.com/nl/pixels-to-inches/
+https://freeresizeimageonline.com/nl/resize-image-to-150kb/
+
+## Day 29 (Google)
+https://freeresizeimageonline.com/nl/resize-image-to-5mb/
+https://freeresizeimageonline.com/nl/gif-to-jpg/
+https://freeresizeimageonline.com/nl/bmp-to-jpg/
+https://freeresizeimageonline.com/nl/avif-to-jpg/
+https://freeresizeimageonline.com/nl/jfif-to-jpg/
+https://freeresizeimageonline.com/nl/pixels-to-mm/
+https://freeresizeimageonline.com/nl/resize-image-to-15kb/
+https://freeresizeimageonline.com/nl/resize-image-to-25kb/
+https://freeresizeimageonline.com/fr/instagram-image-size/
+https://freeresizeimageonline.com/fr/youtube-thumbnail-size/
+
+## Day 30 (Google)
+https://freeresizeimageonline.com/fr/webp-to-png/
+https://freeresizeimageonline.com/fr/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/fr/whatsapp-dp-size/
+https://freeresizeimageonline.com/fr/facebook-image-size/
+https://freeresizeimageonline.com/fr/pixels-to-inches/
+https://freeresizeimageonline.com/fr/resize-image-to-150kb/
+https://freeresizeimageonline.com/fr/resize-image-to-5mb/
+https://freeresizeimageonline.com/fr/gif-to-jpg/
+https://freeresizeimageonline.com/fr/bmp-to-jpg/
+https://freeresizeimageonline.com/fr/avif-to-jpg/
+
+## Day 31 (Google)
+https://freeresizeimageonline.com/fr/jfif-to-jpg/
+https://freeresizeimageonline.com/fr/pixels-to-mm/
+https://freeresizeimageonline.com/fr/resize-image-to-15kb/
+https://freeresizeimageonline.com/fr/resize-image-to-25kb/
+https://freeresizeimageonline.com/pl/instagram-image-size/
+https://freeresizeimageonline.com/pl/youtube-thumbnail-size/
+https://freeresizeimageonline.com/pl/webp-to-png/
+https://freeresizeimageonline.com/pl/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/pl/whatsapp-dp-size/
+https://freeresizeimageonline.com/pl/facebook-image-size/
+
+## Day 32 (Google)
+https://freeresizeimageonline.com/pl/pixels-to-inches/
+https://freeresizeimageonline.com/pl/resize-image-to-150kb/
+https://freeresizeimageonline.com/pl/resize-image-to-5mb/
+https://freeresizeimageonline.com/pl/gif-to-jpg/
+https://freeresizeimageonline.com/pl/bmp-to-jpg/
+https://freeresizeimageonline.com/pl/avif-to-jpg/
+https://freeresizeimageonline.com/pl/jfif-to-jpg/
+https://freeresizeimageonline.com/pl/pixels-to-mm/
+https://freeresizeimageonline.com/pl/resize-image-to-15kb/
+https://freeresizeimageonline.com/pl/resize-image-to-25kb/
+
+## Day 33 (Google)
+https://freeresizeimageonline.com/tr/instagram-image-size/
+https://freeresizeimageonline.com/tr/youtube-thumbnail-size/
+https://freeresizeimageonline.com/tr/webp-to-png/
+https://freeresizeimageonline.com/tr/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/tr/whatsapp-dp-size/
+https://freeresizeimageonline.com/tr/facebook-image-size/
+https://freeresizeimageonline.com/tr/pixels-to-inches/
+https://freeresizeimageonline.com/tr/resize-image-to-150kb/
+https://freeresizeimageonline.com/tr/resize-image-to-5mb/
+https://freeresizeimageonline.com/tr/gif-to-jpg/
+
+## Day 34 (Google)
+https://freeresizeimageonline.com/tr/bmp-to-jpg/
+https://freeresizeimageonline.com/tr/avif-to-jpg/
+https://freeresizeimageonline.com/tr/jfif-to-jpg/
+https://freeresizeimageonline.com/tr/pixels-to-mm/
+https://freeresizeimageonline.com/tr/resize-image-to-15kb/
+https://freeresizeimageonline.com/tr/resize-image-to-25kb/
+https://freeresizeimageonline.com/hi/instagram-image-size/
+https://freeresizeimageonline.com/hi/youtube-thumbnail-size/
+https://freeresizeimageonline.com/hi/webp-to-png/
+https://freeresizeimageonline.com/hi/paper-sizes-in-pixels/
+
+## Day 35 (Google)
+https://freeresizeimageonline.com/hi/whatsapp-dp-size/
+https://freeresizeimageonline.com/hi/facebook-image-size/
+https://freeresizeimageonline.com/hi/pixels-to-inches/
+https://freeresizeimageonline.com/hi/resize-image-to-150kb/
+https://freeresizeimageonline.com/hi/resize-image-to-5mb/
+https://freeresizeimageonline.com/hi/gif-to-jpg/
+https://freeresizeimageonline.com/hi/bmp-to-jpg/
+https://freeresizeimageonline.com/hi/avif-to-jpg/
+https://freeresizeimageonline.com/hi/jfif-to-jpg/
+https://freeresizeimageonline.com/hi/pixels-to-mm/
+
+## Day 36 (Google)
+https://freeresizeimageonline.com/hi/resize-image-to-15kb/
+https://freeresizeimageonline.com/hi/resize-image-to-25kb/
+https://freeresizeimageonline.com/ja/instagram-image-size/
+https://freeresizeimageonline.com/ja/youtube-thumbnail-size/
+https://freeresizeimageonline.com/ja/webp-to-png/
+https://freeresizeimageonline.com/ja/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/ja/whatsapp-dp-size/
+https://freeresizeimageonline.com/ja/facebook-image-size/
+https://freeresizeimageonline.com/ja/pixels-to-inches/
+https://freeresizeimageonline.com/ja/resize-image-to-150kb/
+
+## Day 37 (Google)
+https://freeresizeimageonline.com/ja/resize-image-to-5mb/
+https://freeresizeimageonline.com/ja/gif-to-jpg/
+https://freeresizeimageonline.com/ja/bmp-to-jpg/
+https://freeresizeimageonline.com/ja/avif-to-jpg/
+https://freeresizeimageonline.com/ja/jfif-to-jpg/
+https://freeresizeimageonline.com/ja/pixels-to-mm/
+https://freeresizeimageonline.com/ja/resize-image-to-15kb/
+https://freeresizeimageonline.com/ja/resize-image-to-25kb/
+https://freeresizeimageonline.com/vi/instagram-image-size/
+https://freeresizeimageonline.com/vi/youtube-thumbnail-size/
+
+## Day 38 (Google)
+https://freeresizeimageonline.com/vi/webp-to-png/
+https://freeresizeimageonline.com/vi/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/vi/whatsapp-dp-size/
+https://freeresizeimageonline.com/vi/facebook-image-size/
+https://freeresizeimageonline.com/vi/pixels-to-inches/
+https://freeresizeimageonline.com/vi/resize-image-to-150kb/
+https://freeresizeimageonline.com/vi/resize-image-to-5mb/
+https://freeresizeimageonline.com/vi/gif-to-jpg/
+https://freeresizeimageonline.com/vi/bmp-to-jpg/
+https://freeresizeimageonline.com/vi/avif-to-jpg/
+
+## Day 39 (Google)
+https://freeresizeimageonline.com/vi/jfif-to-jpg/
+https://freeresizeimageonline.com/vi/pixels-to-mm/
+https://freeresizeimageonline.com/vi/resize-image-to-15kb/
+https://freeresizeimageonline.com/vi/resize-image-to-25kb/
+https://freeresizeimageonline.com/th/instagram-image-size/
+https://freeresizeimageonline.com/th/youtube-thumbnail-size/
+https://freeresizeimageonline.com/th/webp-to-png/
+https://freeresizeimageonline.com/th/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/th/whatsapp-dp-size/
+https://freeresizeimageonline.com/th/facebook-image-size/
+
+## Day 40 (Google)
+https://freeresizeimageonline.com/th/pixels-to-inches/
+https://freeresizeimageonline.com/th/resize-image-to-150kb/
+https://freeresizeimageonline.com/th/resize-image-to-5mb/
+https://freeresizeimageonline.com/th/gif-to-jpg/
+https://freeresizeimageonline.com/th/bmp-to-jpg/
+https://freeresizeimageonline.com/th/avif-to-jpg/
+https://freeresizeimageonline.com/th/jfif-to-jpg/
+https://freeresizeimageonline.com/th/pixels-to-mm/
+https://freeresizeimageonline.com/th/resize-image-to-15kb/
+https://freeresizeimageonline.com/th/resize-image-to-25kb/
+
+## Day 41 (Google)
+https://freeresizeimageonline.com/bn/instagram-image-size/
+https://freeresizeimageonline.com/bn/youtube-thumbnail-size/
+https://freeresizeimageonline.com/bn/webp-to-png/
+https://freeresizeimageonline.com/bn/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/bn/whatsapp-dp-size/
+https://freeresizeimageonline.com/bn/facebook-image-size/
+https://freeresizeimageonline.com/bn/pixels-to-inches/
+https://freeresizeimageonline.com/bn/resize-image-to-150kb/
+https://freeresizeimageonline.com/bn/resize-image-to-5mb/
+https://freeresizeimageonline.com/bn/gif-to-jpg/
+
+## Day 42 (Google)
+https://freeresizeimageonline.com/bn/bmp-to-jpg/
+https://freeresizeimageonline.com/bn/avif-to-jpg/
+https://freeresizeimageonline.com/bn/jfif-to-jpg/
+https://freeresizeimageonline.com/bn/pixels-to-mm/
+https://freeresizeimageonline.com/bn/resize-image-to-15kb/
+https://freeresizeimageonline.com/bn/resize-image-to-25kb/
+https://freeresizeimageonline.com/de/instagram-image-size/
+https://freeresizeimageonline.com/de/youtube-thumbnail-size/
+https://freeresizeimageonline.com/de/webp-to-png/
+https://freeresizeimageonline.com/de/paper-sizes-in-pixels/
+
+## Day 43 (Google)
+https://freeresizeimageonline.com/de/whatsapp-dp-size/
+https://freeresizeimageonline.com/de/facebook-image-size/
+https://freeresizeimageonline.com/de/pixels-to-inches/
+https://freeresizeimageonline.com/de/resize-image-to-150kb/
+https://freeresizeimageonline.com/de/resize-image-to-5mb/
+https://freeresizeimageonline.com/de/gif-to-jpg/
+https://freeresizeimageonline.com/de/bmp-to-jpg/
+https://freeresizeimageonline.com/de/avif-to-jpg/
+https://freeresizeimageonline.com/de/jfif-to-jpg/
+https://freeresizeimageonline.com/de/pixels-to-mm/
+
+## Day 44 (Google)
+https://freeresizeimageonline.com/de/resize-image-to-15kb/
+https://freeresizeimageonline.com/de/resize-image-to-25kb/
+https://freeresizeimageonline.com/es/instagram-image-size/
+https://freeresizeimageonline.com/es/youtube-thumbnail-size/
+https://freeresizeimageonline.com/es/webp-to-png/
+https://freeresizeimageonline.com/es/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/es/whatsapp-dp-size/
+https://freeresizeimageonline.com/es/facebook-image-size/
+https://freeresizeimageonline.com/es/pixels-to-inches/
+https://freeresizeimageonline.com/es/resize-image-to-150kb/
+
+## Day 45 (Google)
+https://freeresizeimageonline.com/es/resize-image-to-5mb/
+https://freeresizeimageonline.com/es/gif-to-jpg/
+https://freeresizeimageonline.com/es/bmp-to-jpg/
+https://freeresizeimageonline.com/es/avif-to-jpg/
+https://freeresizeimageonline.com/es/jfif-to-jpg/
+https://freeresizeimageonline.com/es/pixels-to-mm/
+https://freeresizeimageonline.com/es/resize-image-to-15kb/
+https://freeresizeimageonline.com/es/resize-image-to-25kb/
+https://freeresizeimageonline.com/id/instagram-image-size/
+https://freeresizeimageonline.com/id/youtube-thumbnail-size/
+
+## Day 46 (Google)
+https://freeresizeimageonline.com/id/webp-to-png/
+https://freeresizeimageonline.com/id/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/id/whatsapp-dp-size/
+https://freeresizeimageonline.com/id/facebook-image-size/
+https://freeresizeimageonline.com/id/pixels-to-inches/
+https://freeresizeimageonline.com/id/resize-image-to-150kb/
+https://freeresizeimageonline.com/id/resize-image-to-5mb/
+https://freeresizeimageonline.com/id/gif-to-jpg/
+https://freeresizeimageonline.com/id/bmp-to-jpg/
+https://freeresizeimageonline.com/id/avif-to-jpg/
+
+## Day 47 (Google)
+https://freeresizeimageonline.com/id/jfif-to-jpg/
+https://freeresizeimageonline.com/id/pixels-to-mm/
+https://freeresizeimageonline.com/id/resize-image-to-15kb/
+https://freeresizeimageonline.com/id/resize-image-to-25kb/
+https://freeresizeimageonline.com/it/instagram-image-size/
+https://freeresizeimageonline.com/it/youtube-thumbnail-size/
+https://freeresizeimageonline.com/it/webp-to-png/
+https://freeresizeimageonline.com/it/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/it/whatsapp-dp-size/
+https://freeresizeimageonline.com/it/facebook-image-size/
+
+## Day 48 (Google)
+https://freeresizeimageonline.com/it/pixels-to-inches/
+https://freeresizeimageonline.com/it/resize-image-to-150kb/
+https://freeresizeimageonline.com/it/resize-image-to-5mb/
+https://freeresizeimageonline.com/it/gif-to-jpg/
+https://freeresizeimageonline.com/it/bmp-to-jpg/
+https://freeresizeimageonline.com/it/avif-to-jpg/
+https://freeresizeimageonline.com/it/jfif-to-jpg/
+https://freeresizeimageonline.com/it/pixels-to-mm/
+https://freeresizeimageonline.com/it/resize-image-to-15kb/
+https://freeresizeimageonline.com/it/resize-image-to-25kb/
+
+## Day 49 (Google)
+https://freeresizeimageonline.com/ko/instagram-image-size/
+https://freeresizeimageonline.com/ko/youtube-thumbnail-size/
+https://freeresizeimageonline.com/ko/webp-to-png/
+https://freeresizeimageonline.com/ko/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/ko/whatsapp-dp-size/
+https://freeresizeimageonline.com/ko/facebook-image-size/
+https://freeresizeimageonline.com/ko/pixels-to-inches/
+https://freeresizeimageonline.com/ko/resize-image-to-150kb/
+https://freeresizeimageonline.com/ko/resize-image-to-5mb/
+https://freeresizeimageonline.com/ko/gif-to-jpg/
+
+## Day 50 (Google)
+https://freeresizeimageonline.com/ko/bmp-to-jpg/
+https://freeresizeimageonline.com/ko/avif-to-jpg/
+https://freeresizeimageonline.com/ko/jfif-to-jpg/
+https://freeresizeimageonline.com/ko/pixels-to-mm/
+https://freeresizeimageonline.com/ko/resize-image-to-15kb/
+https://freeresizeimageonline.com/ko/resize-image-to-25kb/
+https://freeresizeimageonline.com/ru/instagram-image-size/
+https://freeresizeimageonline.com/ru/youtube-thumbnail-size/
+https://freeresizeimageonline.com/ru/webp-to-png/
+https://freeresizeimageonline.com/ru/paper-sizes-in-pixels/
+
+## Day 51 (Google)
+https://freeresizeimageonline.com/ru/whatsapp-dp-size/
+https://freeresizeimageonline.com/ru/facebook-image-size/
+https://freeresizeimageonline.com/ru/pixels-to-inches/
+https://freeresizeimageonline.com/ru/resize-image-to-150kb/
+https://freeresizeimageonline.com/ru/resize-image-to-5mb/
+https://freeresizeimageonline.com/ru/gif-to-jpg/
+https://freeresizeimageonline.com/ru/bmp-to-jpg/
+https://freeresizeimageonline.com/ru/avif-to-jpg/
+https://freeresizeimageonline.com/ru/jfif-to-jpg/
+https://freeresizeimageonline.com/ru/pixels-to-mm/
+
+## Day 52 (Google)
+https://freeresizeimageonline.com/ru/resize-image-to-15kb/
+https://freeresizeimageonline.com/ru/resize-image-to-25kb/
+https://freeresizeimageonline.com/ar/instagram-image-size/
+https://freeresizeimageonline.com/ar/youtube-thumbnail-size/
+https://freeresizeimageonline.com/ar/webp-to-png/
+https://freeresizeimageonline.com/ar/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/ar/whatsapp-dp-size/
+https://freeresizeimageonline.com/ar/facebook-image-size/
+https://freeresizeimageonline.com/ar/pixels-to-inches/
+https://freeresizeimageonline.com/ar/resize-image-to-150kb/
+
+## Day 53 (Google)
+https://freeresizeimageonline.com/ar/resize-image-to-5mb/
+https://freeresizeimageonline.com/ar/gif-to-jpg/
+https://freeresizeimageonline.com/ar/bmp-to-jpg/
+https://freeresizeimageonline.com/ar/avif-to-jpg/
+https://freeresizeimageonline.com/ar/jfif-to-jpg/
+https://freeresizeimageonline.com/ar/pixels-to-mm/
+https://freeresizeimageonline.com/ar/resize-image-to-15kb/
+https://freeresizeimageonline.com/ar/resize-image-to-25kb/
+https://freeresizeimageonline.com/ur/instagram-image-size/
+https://freeresizeimageonline.com/ur/youtube-thumbnail-size/
+
+## Day 54 (Google)
+https://freeresizeimageonline.com/ur/webp-to-png/
+https://freeresizeimageonline.com/ur/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/ur/whatsapp-dp-size/
+https://freeresizeimageonline.com/ur/facebook-image-size/
+https://freeresizeimageonline.com/ur/pixels-to-inches/
+https://freeresizeimageonline.com/ur/resize-image-to-150kb/
+https://freeresizeimageonline.com/ur/resize-image-to-5mb/
+https://freeresizeimageonline.com/ur/gif-to-jpg/
+https://freeresizeimageonline.com/ur/bmp-to-jpg/
+https://freeresizeimageonline.com/ur/avif-to-jpg/
+
+## Day 55 (Google)
+https://freeresizeimageonline.com/ur/jfif-to-jpg/
+https://freeresizeimageonline.com/ur/pixels-to-mm/
+https://freeresizeimageonline.com/ur/resize-image-to-15kb/
+https://freeresizeimageonline.com/ur/resize-image-to-25kb/
+https://freeresizeimageonline.com/zh-cn/instagram-image-size/
+https://freeresizeimageonline.com/zh-cn/youtube-thumbnail-size/
+https://freeresizeimageonline.com/zh-cn/webp-to-png/
+https://freeresizeimageonline.com/zh-cn/paper-sizes-in-pixels/
+https://freeresizeimageonline.com/zh-cn/whatsapp-dp-size/
+https://freeresizeimageonline.com/zh-cn/facebook-image-size/
+
+## Day 56 (Google)
+https://freeresizeimageonline.com/zh-cn/pixels-to-inches/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-150kb/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-5mb/
+https://freeresizeimageonline.com/zh-cn/gif-to-jpg/
+https://freeresizeimageonline.com/zh-cn/bmp-to-jpg/
+https://freeresizeimageonline.com/zh-cn/avif-to-jpg/
+https://freeresizeimageonline.com/zh-cn/jfif-to-jpg/
+https://freeresizeimageonline.com/zh-cn/pixels-to-mm/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-15kb/
+https://freeresizeimageonline.com/zh-cn/resize-image-to-25kb/

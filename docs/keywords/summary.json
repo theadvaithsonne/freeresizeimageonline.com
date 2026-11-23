@@ -1,0 +1,773 @@
+{
+ "phrasesRaw": 11069,
+ "phrasesOnTopic": 10881,
+ "clusters": [
+  {
+   "name": "compress / reduce size",
+   "count": 1981,
+   "score": 30233,
+   "gap": false,
+   "page": "/compress-image/",
+   "top": [
+    "compress png size",
+    "reduce image size ezgif",
+    "reduce image size cm and kb",
+    "reduce image size in kb",
+    "reduce image size without losing quality",
+    "compress photo free"
+   ]
+  },
+  {
+   "name": "resize (generic)",
+   "count": 1486,
+   "score": 21358,
+   "gap": false,
+   "page": "/",
+   "top": [
+    "how to resize a picture to kb",
+    "resize image to 1600x1600",
+    "resize photo free",
+    "resize photo online",
+    "resize image exact size",
+    "resize image free"
+   ]
+  },
+  {
+   "name": "exact size KB",
+   "count": 1263,
+   "score": 18898,
+   "gap": false,
+   "page": "/resize-image-to-100kb/",
+   "top": [
+    "resize image to 100kb background change",
+    "how do i resize an image to 50kb",
+    "how to resize image to 100kb",
+    "resize image to 100kb app download",
+    "how do i resize an image to 200kb",
+    "compress image to 100kb"
+   ]
+  },
+  {
+   "name": "image to PDF",
+   "count": 615,
+   "score": 9033,
+   "gap": false,
+   "page": "/image-to-pdf/",
+   "top": [
+    "reduce image size convert pdf",
+    "image to pdf download",
+    "reduce image size and convert to pdf",
+    "combine images into pdf android",
+    "convert image to pdf",
+    "merge images to pdf converter"
+   ]
+  },
+  {
+   "name": "passport / visa / ID photo",
+   "count": 546,
+   "score": 8674,
+   "gap": false,
+   "page": "/passport-photo-size/",
+   "top": [
+    "4x6 passport photo size",
+    "how do i print 4 passport photos on 4x6",
+    "passport size photo dimensions",
+    "passport photo size converter",
+    "passport photo standards",
+    "resize photo to passport size"
+   ]
+  },
+  {
+   "name": "format convert",
+   "count": 319,
+   "score": 4891,
+   "gap": false,
+   "page": "/jpg-to-png/",
+   "top": [
+    "jpg to png converter",
+    "jpg to webp bulk",
+    "jpg to webp bulk converter",
+    "jpg to webp converter",
+    "png to jpg converter",
+    "png to webp bulk"
+   ]
+  },
+  {
+   "name": "DPI and resolution",
+   "count": 252,
+   "score": 4567,
+   "gap": true,
+   "page": "GAP:change-dpi",
+   "top": [
+    "reduce image size dpi",
+    "300 dpi image example",
+    "change dpi of image",
+    "dpi converter change dpi of image online instantly",
+    "photo size in cm and dpi",
+    "resize image in pixels and dpi and kb"
+   ]
+  },
+  {
+   "name": "resize in cm / mm / inches",
+   "count": 266,
+   "score": 4498,
+   "gap": false,
+   "page": "/resize-image-in-cm/",
+   "top": [
+    "resize image in inches",
+    "resize image in mm",
+    "resize picture in mm",
+    "how to measure photo size in mm online",
+    "how to resize image in cm",
+    "how to resize photo in mm"
+   ]
+  },
+  {
+   "name": "resize in pixels",
+   "count": 287,
+   "score": 4436,
+   "gap": false,
+   "page": "/resize-image-in-pixels/",
+   "top": [
+    "how to resize image in length and width",
+    "resize image in pixels and kb",
+    "photo size in pixels and kb",
+    "photo size in pixels converter",
+    "resize image by pixels",
+    "resize image dimensions"
+   ]
+  },
+  {
+   "name": "crop",
+   "count": 285,
+   "score": 4214,
+   "gap": true,
+   "page": "GAP:crop-image",
+   "top": [
+    "circle crop image app",
+    "circle crop image with border",
+    "resize image in canva without cropping",
+    "resize image without cropping",
+    "resize image without cropping canva",
+    "circle crop image and add border"
+   ]
+  },
+  {
+   "name": "India exam and ID photos",
+   "count": 241,
+   "score": 3980,
+   "gap": true,
+   "page": "GAP:india-photo-sizes",
+   "top": [
+    "aadhar card photo size",
+    "aadhar card photo requirements",
+    "indian aadhar card photo size",
+    "pan card photo size",
+    "aadhar card print size",
+    "photo size for exam form"
+   ]
+  },
+  {
+   "name": "exact size MB",
+   "count": 238,
+   "score": 3631,
+   "gap": false,
+   "page": "/resize-image-to-2mb/",
+   "top": [
+    "how do i resize an image to 2mb",
+    "change size of image to 2mb",
+    "how to resize an image to 2mb in photoshop",
+    "compress photo to 1mb",
+    "compress image to 1mb",
+    "change size of image to 1mb"
+   ]
+  },
+  {
+   "name": "bulk",
+   "count": 210,
+   "score": 3448,
+   "gap": false,
+   "page": "/bulk-image-resizer/",
+   "top": [
+    "batch resize images adobe",
+    "batch resize images bridge",
+    "batch resize images canva",
+    "bulk image resizer download",
+    "resize multiple images at once",
+    "batch image resizer download"
+   ]
+  },
+  {
+   "name": "signature",
+   "count": 204,
+   "score": 3291,
+   "gap": false,
+   "page": "/resize-signature/",
+   "top": [
+    "pan card photo size and signature size",
+    "ssc photo size and signature",
+    "change image size email signature",
+    "resize signature for ssc",
+    "size of photo and signature for upsc",
+    "ssc sign and photo size"
+   ]
+  },
+  {
+   "name": "enlarge / upscale",
+   "count": 211,
+   "score": 3243,
+   "gap": true,
+   "page": "GAP:upscale",
+   "top": [
+    "enlarge image ai",
+    "photo editor online ai",
+    "upscale image ai",
+    "increase image size and quality",
+    "upscale image ai free",
+    "upscale image free"
+   ]
+  },
+  {
+   "name": "platform sizes: instagram",
+   "count": 199,
+   "score": 3095,
+   "gap": true,
+   "page": "GAP:instagram-size",
+   "top": [
+    "resize photo for instagram",
+    "resize picture for instagram",
+    "image resizer for instagram",
+    "instagram story size",
+    "instagram story size converter",
+    "resize image for instagram without cropping"
+   ]
+  },
+  {
+   "name": "units",
+   "count": 177,
+   "score": 3062,
+   "gap": false,
+   "page": "/cm-to-pixels/",
+   "top": [
+    "cm to pixels converter",
+    "cm to pixels dpi",
+    "inches to pixels converter",
+    "mm to pixels",
+    "mm to pixels converter",
+    "mm to pixels dpi"
+   ]
+  },
+  {
+   "name": "convert (generic)",
+   "count": 192,
+   "score": 2686,
+   "gap": false,
+   "page": "/convert-image/",
+   "top": [
+    "2x2 photo size converter",
+    "favicon size and format",
+    "favicon size converter",
+    "profile picture size converter",
+    "thumbnail size converter",
+    "convert photo to jpg free"
+   ]
+  },
+  {
+   "name": "HEIC",
+   "count": 169,
+   "score": 2352,
+   "gap": true,
+   "page": "GAP:heic-to-jpg",
+   "top": [
+    "heic to jpg converter",
+    "heic to png converter",
+    "heic to jpg converter free",
+    "heic to png converter free",
+    "heic to jpg android",
+    "heic to jpg converter free download"
+   ]
+  },
+  {
+   "name": "exact size (no page yet)",
+   "count": 210,
+   "score": 2342,
+   "gap": true,
+   "page": "GAP:kb800",
+   "top": [
+    "resize image to 800 kb",
+    "how to resize an image to 400kb",
+    "resize image to 1kb",
+    "convert image to pdf below 150 kb",
+    "reduce image size 5mb",
+    "upscale image ai free 4k"
+   ]
+  },
+  {
+   "name": "platform sizes: youtube",
+   "count": 134,
+   "score": 2115,
+   "gap": true,
+   "page": "GAP:youtube-size",
+   "top": [
+    "youtube thumbnail size aspect ratio",
+    "youtube thumbnail size converter",
+    "youtube thumbnail size editor",
+    "youtube thumbnail size extension",
+    "thumbnail size for youtube",
+    "youtube thumbnail size and ratio"
+   ]
+  },
+  {
+   "name": "rotate / flip",
+   "count": 142,
+   "score": 2050,
+   "gap": true,
+   "page": "GAP:rotate-image",
+   "top": [
+    "flip image css",
+    "rotate image by 90 degree",
+    "flip image",
+    "flip image affinity",
+    "flip image app",
+    "flip image around"
+   ]
+  },
+  {
+   "name": "platform sizes: whatsapp",
+   "count": 111,
+   "score": 1777,
+   "gap": true,
+   "page": "GAP:whatsapp-size",
+   "top": [
+    "whatsapp dp size converter",
+    "reduce picture size for whatsapp dp",
+    "resize image for whatsapp dp without cropping",
+    "whatsapp dp size converter hd quality",
+    "whatsapp profile picture size adjust",
+    "compress photo for whatsapp dp"
+   ]
+  },
+  {
+   "name": "other",
+   "count": 121,
+   "score": 1735,
+   "gap": false,
+   "page": "/",
+   "top": [
+    "photo editor online chatgpt",
+    "photo editor online free",
+    "photo editor online",
+    "photo editor online collage maker",
+    "bmp a jpg",
+    "bmp jpg difference"
+   ]
+  },
+  {
+   "name": "platform sizes: facebook",
+   "count": 93,
+   "score": 1408,
+   "gap": true,
+   "page": "GAP:facebook-size",
+   "top": [
+    "facebook cover photo size all device",
+    "facebook cover photo size dimensions",
+    "resize picture for facebook profile",
+    "facebook cover photo size",
+    "facebook cover photo size aspect ratio",
+    "facebook cover photo size business page"
+   ]
+  },
+  {
+   "name": "EXIF / metadata",
+   "count": 68,
+   "score": 1242,
+   "gap": true,
+   "page": "GAP:remove-exif",
+   "top": [
+    "remove exif data",
+    "how remove metadata from photos",
+    "remove exif data android",
+    "remove metadata from photo android",
+    "remove metadata from photo ai",
+    "can you remove metadata from a photo"
+   ]
+  },
+  {
+   "name": "platform sizes: linkedin",
+   "count": 69,
+   "score": 1149,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "linkedin banner size converter",
+    "linkedin banner size dimensions",
+    "linkedin banner size for company page",
+    "linkedin banner size",
+    "linkedin banner size aspect ratio",
+    "linkedin banner size background"
+   ]
+  },
+  {
+   "name": "format convert: svg to png",
+   "count": 70,
+   "score": 1048,
+   "gap": true,
+   "page": "GAP:svg-to-png",
+   "top": [
+    "svg to png converter",
+    "svg to png converter free",
+    "svg to png converter online",
+    "svg to png free",
+    "svg to png",
+    "svg to png adobe"
+   ]
+  },
+  {
+   "name": "format convert: webp to png",
+   "count": 67,
+   "score": 1034,
+   "gap": true,
+   "page": "GAP:webp-to-png",
+   "top": [
+    "webp to png",
+    "webp to png converter",
+    "webp to png converter free",
+    "webp to png download extension",
+    "webp to png extension",
+    "webp to png free"
+   ]
+  },
+  {
+   "name": "format convert: jpg to jpg",
+   "count": 72,
+   "score": 985,
+   "gap": true,
+   "page": "GAP:jpg-to-jpg",
+   "top": [
+    "jpeg to jpg converter",
+    "jpeg to jpg converter free",
+    "jpeg to jpg adobe",
+    "jpeg to jpg difference",
+    "jpeg to jpg free",
+    "jpeg to jpg"
+   ]
+  },
+  {
+   "name": "platform sizes: shopify",
+   "count": 58,
+   "score": 972,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "shopify image sizes",
+    "shopify image banner size for mobile and desktop",
+    "shopify image size converter",
+    "shopify image sizes recommended by experts",
+    "shopify image banner size dawn",
+    "shopify image size for products"
+   ]
+  },
+  {
+   "name": "format convert: avif to jpg",
+   "count": 55,
+   "score": 851,
+   "gap": true,
+   "page": "GAP:avif-to-jpg",
+   "top": [
+    "avif to jpg converter download",
+    "avif to jpg",
+    "avif to jpg converter",
+    "avif to jpg bulk",
+    "avif to jpg converter free",
+    "avif to jpg adobe"
+   ]
+  },
+  {
+   "name": "paper sizes in pixels",
+   "count": 51,
+   "score": 834,
+   "gap": true,
+   "page": "GAP:paper-sizes-in-pixels",
+   "top": [
+    "a4 size in pixels",
+    "a4 size in pixels divided by 2",
+    "a4 size in pixels canva",
+    "a4 size in pixels digital",
+    "a4 size in pixels divided by 4",
+    "a4 size in pixels power bi"
+   ]
+  },
+  {
+   "name": "format convert: jfif to jpg",
+   "count": 57,
+   "score": 829,
+   "gap": true,
+   "page": "GAP:jfif-to-jpg",
+   "top": [
+    "jfif to jpg converter",
+    "jfif to jpg converter free",
+    "jfif to jpg adobe",
+    "jfif to jpg free",
+    "jfif to jpg",
+    "jfif to jpg bulk"
+   ]
+  },
+  {
+   "name": "format convert: tiff to jpg",
+   "count": 52,
+   "score": 829,
+   "gap": true,
+   "page": "GAP:tiff-to-jpg",
+   "top": [
+    "tiff to jpg converter",
+    "tiff to jpg converter free",
+    "tiff to jpg converter online",
+    "tiff to jpg adobe",
+    "tiff to jpg free",
+    "tiff to jpg"
+   ]
+  },
+  {
+   "name": "units: pixels to inches",
+   "count": 49,
+   "score": 816,
+   "gap": true,
+   "page": "GAP:pixels-to-inches",
+   "top": [
+    "pixels to inches converter",
+    "pixels to inches calculator",
+    "pixels to inches conversion",
+    "pixels to inches excel",
+    "pixels by inches",
+    "pixels to inches"
+   ]
+  },
+  {
+   "name": "units: pixels to mm",
+   "count": 36,
+   "score": 655,
+   "gap": true,
+   "page": "GAP:pixels-to-mm",
+   "top": [
+    "pixels to mm calculator",
+    "how many pixels to a mm",
+    "pixels to mm at 300 dpi",
+    "pixels to mm converter",
+    "pixels to mm dpi",
+    "pixels to mm conversion"
+   ]
+  },
+  {
+   "name": "format convert: gif to jpg",
+   "count": 38,
+   "score": 635,
+   "gap": true,
+   "page": "GAP:gif-to-jpg",
+   "top": [
+    "gif to jpg converter download",
+    "gif to jpg batch converter",
+    "gif to jpg converter",
+    "gif to jpg converter free",
+    "gif to jpg converter online",
+    "gif to jpg frames"
+   ]
+  },
+  {
+   "name": "format convert: bmp to jpg",
+   "count": 34,
+   "score": 592,
+   "gap": true,
+   "page": "GAP:bmp-to-jpg",
+   "top": [
+    "bmp to jpg bulk converter",
+    "bmp to jpg",
+    "bmp to jpg converter",
+    "bmp to jpg converter download",
+    "bmp to jpg converter free",
+    "bmp to jpg converter online free"
+   ]
+  },
+  {
+   "name": "platform sizes: pinterest",
+   "count": 30,
+   "score": 543,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "what is the size of a pinterest pin",
+    "pinterest pin size canva",
+    "pinterest pin ad size",
+    "pinterest pin best size",
+    "pinterest pin design size",
+    "pinterest pin size"
+   ]
+  },
+  {
+   "name": "platform sizes: discord",
+   "count": 32,
+   "score": 470,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "profile picture size discord",
+    "reduce image size discord",
+    "make image size smaller for discord",
+    "discord remove exif data",
+    "make image small enough for discord",
+    "make image smaller discord"
+   ]
+  },
+  {
+   "name": "platform sizes: twitter",
+   "count": 24,
+   "score": 463,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "twitter header size",
+    "twitter header size converter",
+    "twitter header size canva",
+    "twitter header banner size",
+    "twitter header size dimensions",
+    "twitter header size editor"
+   ]
+  },
+  {
+   "name": "platform sizes: reddit",
+   "count": 24,
+   "score": 335,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "reduce image size reddit",
+    "remove metadata from photo before posting to reddit",
+    "does reddit chat remove exif data",
+    "compress png reddit",
+    "does reddit remove exif data",
+    "image compressor reddit"
+   ]
+  },
+  {
+   "name": "platform sizes: amazon",
+   "count": 17,
+   "score": 294,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "what size should amazon images be",
+    "amazon product description image size",
+    "amazon product image size",
+    "best amazon product image size",
+    "amazon product image size in pixels",
+    "amazon product image size requirements"
+   ]
+  },
+  {
+   "name": "format convert: jpg to bmp",
+   "count": 5,
+   "score": 79,
+   "gap": true,
+   "page": "GAP:jpg-to-bmp",
+   "top": [
+    "jpg to bmp app",
+    "jpg to bmp black and white",
+    "convert photo jpg to bmp",
+    "jpg to bmp and resize",
+    "jpg to bmp 24 bit"
+   ]
+  },
+  {
+   "name": "format convert: jpg to gif",
+   "count": 5,
+   "score": 67,
+   "gap": true,
+   "page": "GAP:jpg-to-gif",
+   "top": [
+    "jpg to gif transparent background",
+    "jpg to gif remove background",
+    "jpg to gif telegram bot",
+    "jpg to gif bergerak",
+    "jpg to gif effects"
+   ]
+  },
+  {
+   "name": "platform sizes: etsy",
+   "count": 3,
+   "score": 56,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "thumbnail size etsy",
+    "profile picture size etsy",
+    "thumbnail size for etsy listing"
+   ]
+  },
+  {
+   "name": "platform sizes: twitch",
+   "count": 5,
+   "score": 54,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "image resizer for twitch",
+    "image resizer twitch",
+    "image resizer for twitch emotes",
+    "image compressor for twitch",
+    "resize image for twitch emote"
+   ]
+  },
+  {
+   "name": "platform sizes: tiktok",
+   "count": 4,
+   "score": 47,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "tiktok profile picture size download",
+    "profile picture size for tiktok",
+    "thumbnail size for tiktok",
+    "thumbnail size tiktok"
+   ]
+  },
+  {
+   "name": "platform sizes: telegram",
+   "count": 1,
+   "score": 17,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "does telegram remove exif data"
+   ]
+  },
+  {
+   "name": "format convert: jpg to tiff",
+   "count": 1,
+   "score": 13,
+   "gap": true,
+   "page": "GAP:jpg-to-tiff",
+   "top": [
+    "jpg to tiff dpi"
+   ]
+  },
+  {
+   "name": "platform sizes: ebay",
+   "count": 1,
+   "score": 11,
+   "gap": false,
+   "page": "/social-media-image-sizes/",
+   "top": [
+    "does ebay remove exif data"
+   ]
+  },
+  {
+   "name": "format convert: avif to png",
+   "count": 1,
+   "score": 10,
+   "gap": true,
+   "page": "GAP:avif-to-png",
+   "top": [
+    "image converter avif to png"
+   ]
+  }
+ ]
+}

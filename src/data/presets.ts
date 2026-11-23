@@ -116,6 +116,7 @@ export const PRESET_GROUPS: PresetGroup[] = [
       px('li-banner', 'LinkedIn', 'banner', 1584, 396),
       px('pin', 'Pinterest', 'post', 1000, 1500),
       px('wa-dp', 'WhatsApp', 'profile', 500, 500),
+      px('wa-status', 'WhatsApp', 'story', 1080, 1920),
     ],
   },
   {
@@ -158,7 +159,7 @@ export const PRESET_GROUPS: PresetGroup[] = [
   },
   {
     id: 'forms',
-    presets: [kb(10), kb(20), kb(30), kb(50), kb(100), kb(200), kb(300), kb(500), kb(1024), kb(2048)],
+    presets: [kb(10), kb(15), kb(20), kb(25), kb(30), kb(50), kb(100), kb(150), kb(200), kb(300), kb(500), kb(1024), kb(2048), kb(5120)],
   },
   {
     id: 'marketplaces',

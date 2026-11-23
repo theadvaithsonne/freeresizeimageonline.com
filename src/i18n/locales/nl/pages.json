@@ -33,7 +33,23 @@
     "cmToPx": "cm naar pixels",
     "inToPx": "Inch naar pixels",
     "mmToPx": "mm naar pixels",
-    "pxToCm": "Pixels naar cm"
+    "pxToCm": "Pixels naar cm",
+    "webpToPng": "WebP naar PNG",
+    "gifToJpg": "GIF naar JPG",
+    "bmpToJpg": "BMP naar JPG",
+    "avifToJpg": "AVIF naar JPG",
+    "jfifToJpg": "JFIF naar JPG",
+    "kb150": "Verkleinen naar 150 KB",
+    "mb5": "Verkleinen naar 5 MB",
+    "kb15": "Verkleinen naar 15 KB",
+    "kb25": "Verkleinen naar 25 KB",
+    "pxToIn": "Pixels naar inch",
+    "pxToMm": "Pixels naar mm",
+    "paperPx": "Papierformaten in pixels",
+    "instagramSize": "Instagram foto formaat",
+    "youtubeSize": "YouTube thumbnail formaat",
+    "facebookSize": "Facebook foto formaat",
+    "whatsappSize": "WhatsApp profielfoto formaat"
   },
   "common": {
     "howTo": "Zo werkt het",
@@ -1756,6 +1772,864 @@
         {
           "q": "Verandert de DPI mijn afbeelding?",
           "a": "Nee. De DPI bepaalt alleen hoe groot de afbeelding is als hij wordt afgedrukt. Wijzig het formaat van de afbeelding zelf met de afbeeldingsverkleiner."
+        }
+      ]
+    }
+  },
+  "webpToPng": {
+    "title": "WebP naar PNG converter - Gratis online, zonder upload",
+    "description": "WebP naar PNG omzetten of converteren, gratis: maak van WebP-afbeeldingen PNG-bestanden in je browser en behoud de transparantie. Zonder account, zonder upload.",
+    "h1": "WebP naar PNG converteren",
+    "intro": "Zet WebP-afbeeldingen om naar PNG-bestanden die in elk programma openen. Doorzichtige delen blijven doorzichtig. Voeg je WebP-bestanden toe, druk op de knop en download de PNG-bestanden, of een ZIP met alle bestanden.",
+    "blurb": "Zet WebP-afbeeldingen om naar PNG-bestanden.",
+    "steps": [
+      {
+        "title": "Voeg je WebP-bestanden toe",
+        "text": "Sleep één of meer WebP-afbeeldingen naar de pagina of kies ze op je apparaat."
+      },
+      {
+        "title": "Controleer de indeling",
+        "text": "PNG is al geselecteerd als uitvoerindeling. De afbeeldingen behouden hun formaat."
+      },
+      {
+        "title": "Converteren en downloaden",
+        "text": "Druk op Formaat wijzigen en download elke PNG afzonderlijk, of alles als ZIP."
+      }
+    ],
+    "tipsTitle": "Tips voor het converteren van WebP naar PNG",
+    "tips": [
+      "PNG bewaart elke pixel exact, dus de PNG is meestal groter dan de WebP waaruit hij komt. Dat is normaal.",
+      "Doorzichtige delen van een WebP blijven in de PNG doorzichtig, zodat logo’s en uitgeknipte afbeeldingen hun vorm behouden.",
+      "Voor een gewone foto is JPG de betere keuze als je een klein bestand nodig hebt. PNG is het best voor graphics, schermafbeeldingen en afbeeldingen met transparantie.",
+      "Een geanimeerde WebP wordt een stilstaande PNG van het eerste frame."
+    ],
+    "detailsTitle": "Waarom WebP naar PNG converteren?",
+    "details": [
+      "WebP is een indeling voor het web: kleine bestanden met goede kwaliteit. Maar niet elke bewerker, printer of elk uploadformulier accepteert hem. PNG wordt bijna overal geaccepteerd en bewaart de afbeelding zonder enig verlies.",
+      "De conversie gebeurt op je apparaat. Er wordt niets geüpload, dus het is veilig voor privéfoto’s, en er is geen limiet aan het aantal bestanden dat je converteert."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe converteer ik WebP naar PNG?",
+          "a": "Voeg je WebP-bestanden toe, zorg dat PNG de uitvoerindeling is en druk op Formaat wijzigen. Download daarna de PNG-bestanden."
+        },
+        {
+          "q": "Behoudt de PNG de transparantie?",
+          "a": "Ja. Doorzichtige delen van de WebP blijven in de PNG doorzichtig."
+        },
+        {
+          "q": "Waarom is de PNG groter dan de WebP?",
+          "a": "WebP wordt meestal met een klein verlies gecomprimeerd, terwijl PNG elke pixel exact opslaat. Dezelfde afbeelding neemt als PNG meer ruimte in."
+        },
+        {
+          "q": "Kan ik meerdere bestanden tegelijk converteren?",
+          "a": "Ja. Voeg er zoveel toe als je wilt, tot 500 tegelijk, en download ze één voor één of als ZIP."
+        }
+      ]
+    }
+  },
+  "gifToJpg": {
+    "title": "GIF naar JPG converter - Gratis online, zonder upload",
+    "description": "GIF naar JPG omzetten of converteren, gratis: maak van GIF-afbeeldingen JPG-bestanden in je browser en kies zelf de kwaliteit. Zonder account, zonder upload.",
+    "h1": "GIF naar JPG converteren",
+    "intro": "Zet GIF-afbeeldingen in één stap om naar JPG-bestanden. JPG wordt bijna overal geaccepteerd en is bij foto’s veel kleiner. Voeg je GIF-bestanden toe, druk op de knop en download de JPG-bestanden, of een ZIP met alle bestanden.",
+    "blurb": "Zet GIF-afbeeldingen om naar JPG-bestanden.",
+    "steps": [
+      {
+        "title": "Voeg je GIF-bestanden toe",
+        "text": "Sleep één of meer GIF-afbeeldingen naar de pagina of kies ze op je apparaat."
+      },
+      {
+        "title": "Controleer de indeling",
+        "text": "JPG is al geselecteerd als uitvoerindeling. Verlaag de kwaliteit voor een kleiner bestand."
+      },
+      {
+        "title": "Converteren en downloaden",
+        "text": "Druk op Formaat wijzigen en download elke JPG afzonderlijk, of alles als ZIP."
+      }
+    ],
+    "tipsTitle": "Tips voor het converteren van GIF naar JPG",
+    "tips": [
+      "Een geanimeerde GIF wordt één stilstaande afbeelding: het eerste frame. Wil je de animatie behouden, bewaar dan de GIF.",
+      "JPG is gemaakt voor foto’s en is bij een foto meestal het kleinere bestand. Een GIF past bij eenvoudige graphics met weinig kleuren.",
+      "Doorzichtige delen van een GIF worden wit, omdat een JPG niet doorzichtig kan zijn.",
+      "Een kwaliteit van 80 tot 90 ziet er bij de meeste afbeeldingen bijna hetzelfde uit als het origineel, met een kleiner bestand."
+    ],
+    "detailsTitle": "GIF of JPG: wat verandert er?",
+    "details": [
+      "GIF is gemaakt voor kleine graphics en korte animaties. Veel websites, formulieren en apps accepteren alleen stilstaande afbeeldingen zoals JPG, en daarom wordt een GIF vaak geweigerd.",
+      "De conversie gebeurt op je apparaat. Er wordt niets geüpload, dus het is veilig voor privéfoto’s, en er is geen limiet aan het aantal bestanden dat je converteert."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe converteer ik GIF naar JPG?",
+          "a": "Voeg je GIF-bestanden toe, zorg dat JPG de uitvoerindeling is en druk op Formaat wijzigen. Download daarna de JPG-bestanden."
+        },
+        {
+          "q": "Kan ik een geanimeerde GIF naar JPG converteren?",
+          "a": "Ja, maar je krijgt één afbeelding: het eerste frame van de animatie. Een JPG kan niet bewegen."
+        },
+        {
+          "q": "Wat gebeurt er met doorzichtige gebieden?",
+          "a": "Ze worden met wit gevuld, omdat een JPG niet doorzichtig kan zijn."
+        },
+        {
+          "q": "Kan ik meerdere bestanden tegelijk converteren?",
+          "a": "Ja. Voeg er zoveel toe als je wilt, tot 500 tegelijk, en download ze één voor één of als ZIP."
+        }
+      ]
+    }
+  },
+  "bmpToJpg": {
+    "title": "BMP naar JPG converter - Gratis online, zonder upload",
+    "description": "BMP naar JPG omzetten, gratis: maak van grote BMP-bestanden kleine JPG-bestanden in je browser en kies de kwaliteit. Zonder account, zonder upload.",
+    "h1": "BMP naar JPG converteren",
+    "intro": "BMP-bestanden zijn erg groot omdat ze niet gecomprimeerd zijn. Zet ze om naar JPG-bestanden die veel kleiner zijn en overal openen. Voeg je BMP-bestanden toe, druk op de knop en download de JPG-bestanden, of een ZIP met alle bestanden.",
+    "blurb": "Zet grote BMP-bestanden om naar kleine JPG-bestanden.",
+    "steps": [
+      {
+        "title": "Voeg je BMP-bestanden toe",
+        "text": "Sleep één of meer BMP-afbeeldingen naar de pagina of kies ze op je apparaat."
+      },
+      {
+        "title": "Controleer de indeling",
+        "text": "JPG is al geselecteerd als uitvoerindeling. Verlaag de kwaliteit voor een kleiner bestand."
+      },
+      {
+        "title": "Converteren en downloaden",
+        "text": "Druk op Formaat wijzigen en download elke JPG afzonderlijk, of alles als ZIP."
+      }
+    ],
+    "tipsTitle": "Tips voor het converteren van BMP naar JPG",
+    "tips": [
+      "Een BMP slaat elke pixel zonder compressie op, dus een foto als JPG is vaak tien keer kleiner of nog kleiner.",
+      "Een kwaliteit van 85 tot 90 ziet er bij foto’s bijna hetzelfde uit als het origineel, met een veel kleiner bestand.",
+      "Voor schermafbeeldingen met scherpe tekst of eenvoudige graphics is PNG de betere keuze. Gebruik die via de pagina Afbeeldingen converteren.",
+      "Veel uploadformulieren weigeren BMP-bestanden. Een JPG wordt bijna overal geaccepteerd."
+    ],
+    "detailsTitle": "Waarom een BMP zo groot is",
+    "details": [
+      "BMP is een van de oudste afbeeldingsindelingen. Het schrijft de kleur van elke pixel stuk voor stuk weg, dus een afbeelding van 12 megapixels neemt ongeveer 36 MB in beslag. JPG comprimeert de afbeelding en behoudt wat het oog opmerkt, en daarom wordt het bestand zoveel kleiner.",
+      "De conversie gebeurt op je apparaat. Er wordt niets geüpload, dus het is veilig voor privéfoto’s, en er is geen limiet aan het aantal bestanden dat je converteert."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe converteer ik BMP naar JPG?",
+          "a": "Voeg je BMP-bestanden toe, zorg dat JPG de uitvoerindeling is en druk op Formaat wijzigen. Download daarna de JPG-bestanden."
+        },
+        {
+          "q": "Hoeveel kleiner is een JPG dan een BMP?",
+          "a": "Bij een foto vaak tien keer kleiner of meer. Het exacte resultaat zie je naast elke afbeelding."
+        },
+        {
+          "q": "Vermindert het converteren van BMP naar JPG de kwaliteit?",
+          "a": "Een beetje, want JPG is verliesgevend. Bij een kwaliteit van 85 of hoger is het verschil zelden zichtbaar."
+        },
+        {
+          "q": "Kan ik meerdere bestanden tegelijk converteren?",
+          "a": "Ja. Voeg er zoveel toe als je wilt, tot 500 tegelijk, en download ze één voor één of als ZIP."
+        }
+      ]
+    }
+  },
+  "avifToJpg": {
+    "title": "AVIF naar JPG converter - Gratis online, zonder upload",
+    "description": "AVIF naar JPG omzetten of converteren, gratis: maak van AVIF-afbeeldingen JPG-bestanden die overal openen, in je browser. Zonder account, zonder upload.",
+    "h1": "AVIF naar JPG converteren",
+    "intro": "AVIF is een nieuwe indeling die veel programma’s en websites nog niet kunnen openen. Zet AVIF-afbeeldingen om naar JPG-bestanden die overal werken. Voeg je AVIF-bestanden toe, druk op de knop en download de JPG-bestanden, of een ZIP met alle bestanden.",
+    "blurb": "Zet AVIF-afbeeldingen om naar JPG-bestanden.",
+    "steps": [
+      {
+        "title": "Voeg je AVIF-bestanden toe",
+        "text": "Sleep één of meer AVIF-afbeeldingen naar de pagina of kies ze op je apparaat."
+      },
+      {
+        "title": "Controleer de indeling",
+        "text": "JPG is al geselecteerd als uitvoerindeling. Verlaag de kwaliteit voor een kleiner bestand."
+      },
+      {
+        "title": "Converteren en downloaden",
+        "text": "Druk op Formaat wijzigen en download elke JPG afzonderlijk, of alles als ZIP."
+      }
+    ],
+    "tipsTitle": "Tips voor het converteren van AVIF naar JPG",
+    "tips": [
+      "Je browser moet AVIF-bestanden kunnen openen. Actuele versies van Chrome, Edge, Firefox en Safari kunnen dat. Wordt een bestand geweigerd, werk dan je browser bij.",
+      "AVIF is erg efficiënt, dus de JPG wordt meestal groter dan de AVIF. Verlaag de kwaliteit een beetje als je een klein bestand nodig hebt.",
+      "Doorzichtige delen van een AVIF worden wit, omdat een JPG niet doorzichtig kan zijn. Converteer naar PNG als je de transparantie nodig hebt.",
+      "Een kwaliteit van 85 tot 90 ziet er bij foto’s bijna hetzelfde uit als het origineel."
+    ],
+    "detailsTitle": "Waarom AVIF naar JPG converteren?",
+    "details": [
+      "AVIF stopt een afbeelding in een heel klein bestand, en websites beginnen het te gebruiken. Maar veel bewerkers, printers, telefoons en uploadformulieren accepteren het nog steeds niet. JPG is de indeling die overal werkt.",
+      "De conversie gebeurt op je apparaat. Er wordt niets geüpload, dus het is veilig voor privéfoto’s, en er is geen limiet aan het aantal bestanden dat je converteert."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe converteer ik AVIF naar JPG?",
+          "a": "Voeg je AVIF-bestanden toe, zorg dat JPG de uitvoerindeling is en druk op Formaat wijzigen. Download daarna de JPG-bestanden."
+        },
+        {
+          "q": "Waarom opent mijn AVIF-bestand niet?",
+          "a": "De tool gebruikt je browser om de afbeelding te lezen. Is je browser oud en kan hij AVIF niet openen, werk hem dan bij of probeer een andere actuele browser."
+        },
+        {
+          "q": "Waarom is de JPG groter dan de AVIF?",
+          "a": "AVIF is een nieuwere en efficiëntere indeling, dus dezelfde afbeelding heeft als JPG meer ruimte nodig."
+        },
+        {
+          "q": "Kan ik meerdere bestanden tegelijk converteren?",
+          "a": "Ja. Voeg er zoveel toe als je wilt, tot 500 tegelijk, en download ze één voor één of als ZIP."
+        }
+      ]
+    }
+  },
+  "jfifToJpg": {
+    "title": "JFIF naar JPG converter - Gratis online, zonder upload",
+    "description": "JFIF naar JPG omzetten of converteren, gratis: sla .jfif-afbeeldingen op als gewone .jpg-bestanden in je browser, zodat elke site ze accepteert. Zonder account.",
+    "h1": "JFIF naar JPG converteren",
+    "intro": "Sommige downloads en browsers slaan afbeeldingen op als .jfif-bestanden, die veel websites en formulieren weigeren. Zet ze in één stap om naar gewone JPG-bestanden. Voeg je JFIF-bestanden toe, druk op de knop en download de JPG-bestanden, of een ZIP met alle bestanden.",
+    "blurb": "Zet .jfif-afbeeldingen om naar gewone JPG-bestanden.",
+    "steps": [
+      {
+        "title": "Voeg je JFIF-bestanden toe",
+        "text": "Sleep één of meer JFIF-afbeeldingen naar de pagina of kies ze op je apparaat."
+      },
+      {
+        "title": "Controleer de indeling",
+        "text": "JPG is al geselecteerd als uitvoerindeling. Verhoog de kwaliteit om de afbeelding zo dicht mogelijk bij het origineel te houden."
+      },
+      {
+        "title": "Converteren en downloaden",
+        "text": "Druk op Formaat wijzigen en download elke JPG afzonderlijk, of alles als ZIP."
+      }
+    ],
+    "tipsTitle": "Tips voor het converteren van JFIF naar JPG",
+    "tips": [
+      "JPEG en JPG zijn dezelfde indeling. Alleen de naam is anders, dus een .jpg-bestand is een gewone JPEG-afbeelding.",
+      "De afbeelding wordt opnieuw als JPG opgeslagen. Houd de kwaliteit hoog (90 of meer) om zo dicht mogelijk bij het origineel te blijven.",
+      "Wil een formulier een klein bestand, zet de kwaliteit dan lager of gebruik na de conversie de tool Verkleinen naar KB.",
+      "Je kunt .jfif-bestanden net als elke andere afbeelding toevoegen: sleep ze naar de pagina of kies ze op je apparaat."
+    ],
+    "detailsTitle": "Wat is een JFIF-bestand?",
+    "details": [
+      "JFIF staat voor JPEG File Interchange Format. Het is de manier waarop een JPEG-afbeelding in een bestand wordt verpakt, dus een .jfif-afbeelding bevat dezelfde soort gegevens als een .jpg. Sommige programma’s en browsers slaan het gewoon op onder de naam .jfif, en veel sites accepteren die naam niet.",
+      "De conversie gebeurt op je apparaat. Er wordt niets geüpload, dus het is veilig voor privéfoto’s, en er is geen limiet aan het aantal bestanden dat je converteert."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe converteer ik JFIF naar JPG?",
+          "a": "Voeg je JFIF-bestanden toe, zorg dat JPG de uitvoerindeling is en druk op Formaat wijzigen. Download daarna de JPG-bestanden."
+        },
+        {
+          "q": "Is JFIF hetzelfde als JPG?",
+          "a": "Bijna. JFIF is een JPEG-afbeelding die onder een andere naam en bestandsextensie is opgeslagen. Na de conversie krijg je een gewoon .jpg-bestand."
+        },
+        {
+          "q": "Is JPEG hetzelfde als JPG?",
+          "a": "Ja. Het zijn twee schrijfwijzen van dezelfde indeling. Oudere systemen gebruikten namen van drie letters, en daarom bestaat .jpg naast .jpeg."
+        },
+        {
+          "q": "Kan ik meerdere bestanden tegelijk converteren?",
+          "a": "Ja. Voeg er zoveel toe als je wilt, tot 500 tegelijk, en download ze één voor één of als ZIP."
+        }
+      ]
+    }
+  },
+  "kb150": {
+    "title": "Foto verkleinen naar 150 KB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 150 KB gratis: maak een foto of afbeelding 150 KB of kleiner voor examenformulieren en portalen en houd hem scherp. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 150 KB",
+    "intro": "Aanvraagformulieren, examenportalen en vacaturesites vragen vaak om een foto van maximaal 150 KB. Deze pagina stelt die limiet voor je in: voeg je afbeelding toe en download een bestand onder 150 KB dat er nog duidelijk uitziet.",
+    "blurb": "Breng een afbeelding onder 150 KB voor formulieren en portalen.",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat. Grote telefoonfoto’s zijn geen probleem."
+      },
+      {
+        "title": "Houd de limiet van 150 KB aan",
+        "text": "150 KB is al ingesteld. De tool rekent dit als 150.000 bytes, zodat het bestand wordt geaccepteerd op systemen die 1 KB als 1.000 bytes rekenen en op systemen die 1.024 rekenen."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen en download het bestand. Het resultaat toont de exacte grootte."
+      }
+    ],
+    "tipsTitle": "Tips om onder 150 KB te blijven",
+    "tips": [
+      "Kies JPG voor foto’s. Dezelfde foto als PNG is meestal meerdere keren groter.",
+      "Vraagt het formulier ook om exacte pixels? Stel dan eerst de breedte en hoogte in en laat de limiet van 150 KB aan staan.",
+      "Een pasfoto of portret van ongeveer 400 bij 500 pixels past met goede details in 150 KB. Een grote telefoonfoto moet daarvoor kleiner in pixels worden gemaakt, en dat doet de tool voor je.",
+      "Wil je dezelfde limiet voor meerdere foto’s, voeg ze dan allemaal tegelijk toe en download het ZIP-bestand."
+    ],
+    "detailsTitle": "Wat 150 KB betekent voor een foto",
+    "details": [
+      "Honderdvijftig kilobyte is vele malen kleiner dan een gewone telefoonfoto. Een JPG van deze grootte kan bij een bescheiden aantal pixels nog steeds een duidelijk gezicht of document bevatten, en dat is wat formulieren en portalen nodig hebben.",
+      "De tool probeert de hoogste kwaliteit die past en toont de exacte grootte van het resultaat voordat je downloadt. Wil een formulier een nog kleiner bestand, kies dan een lagere limiet zoals 100 KB of 50 KB en probeer het opnieuw."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe verklein ik een afbeelding naar 150 KB?",
+          "a": "Voeg de afbeelding toe, laat de limiet van 150 KB staan en druk op Formaat wijzigen. De tool zoekt de hoogste kwaliteit die past."
+        },
+        {
+          "q": "Ziet de afbeelding er daarna slechter uit?",
+          "a": "Een beetje, want een kleiner bestand bevat minder details. De tool kiest de beste kwaliteit die nog past, dus je krijgt de scherpste afbeelding onder 150 KB."
+        },
+        {
+          "q": "Wat als mijn bestand al kleiner is dan 150 KB?",
+          "a": "Dan is het al klein genoeg. Kies alleen een lagere limiet als het formulier die vraagt."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "mb5": {
+    "title": "Foto verkleinen naar 5 MB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 5 MB gratis: maak een foto kleiner dan 5 MB voor e-mail, formulieren en uploads, met nauwelijks zichtbaar verlies. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 5 MB",
+    "intro": "E-maildiensten, aanvraagformulieren en uploadpagina’s accepteren vaak bestanden tot 5 MB, en foto’s van een recente telefoon of camera kunnen groter zijn. Voeg je afbeelding toe en download een bestand onder 5 MB (5.000.000 bytes) dat er nog scherp uitziet.",
+    "blurb": "Breng een afbeelding onder 5 MB voor e-mail en uploads.",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat. Foto’s van 8 tot 20 MB zijn geen probleem."
+      },
+      {
+        "title": "Houd de limiet van 5 MB aan",
+        "text": "5 MB is al ingesteld. De tool rekent dit als 5.000.000 bytes, zodat het bestand wordt geaccepteerd op systemen die 5.000 KB rekenen en op systemen die 5.120 KB rekenen."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen en download het bestand. Het resultaat toont de exacte grootte."
+      }
+    ],
+    "tipsTitle": "Tips om onder 5 MB te blijven",
+    "tips": [
+      "Foto’s van recente telefoons zijn vaak 5 tot 15 MB. Om onder 5 MB te komen is meestal maar een kleine kwaliteitsdaling nodig, die je op een scherm niet ziet.",
+      "Foto’s passen het best als JPG of WebP. Een foto die als PNG is opgeslagen, is meestal meerdere keren groter.",
+      "Schermafbeeldingen en logo’s kun je beter als PNG bewaren: ze zijn al klein en houden scherpe randen.",
+      "Wil je veel foto’s in één e-mail versturen, voeg ze dan allemaal tegelijk toe en download het ZIP-bestand."
+    ],
+    "detailsTitle": "Wat 5 MB betekent voor een foto",
+    "details": [
+      "Vijf megabyte is 5.000 kilobyte. Een JPG van die grootte kan, afhankelijk van de afbeelding, een foto van 4000 bij 3000 pixels met zeer goede details bevatten, en dat is meer dan vrijwel elk scherm toont.",
+      "De tool probeert de hoogste kwaliteit die past en toont de exacte grootte van het resultaat voordat je downloadt. Hij verkleint het aantal pixels alleen als de limiet met kwaliteit alleen niet te halen is."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe verklein ik een afbeelding naar 5 MB?",
+          "a": "Voeg de afbeelding toe, laat de limiet van 5 MB staan en druk op Formaat wijzigen. De tool zoekt de hoogste kwaliteit die past."
+        },
+        {
+          "q": "Is 5 MB hetzelfde als 5.120 KB?",
+          "a": "Op sommige systemen is een megabyte 1.024 kilobyte, op andere 1.000. De tool gebruikt de kleinere waarde (5.000 KB, oftewel 5.000.000 bytes), zodat het bestand op beide wordt geaccepteerd."
+        },
+        {
+          "q": "Wordt de afbeelding ook kleiner in pixels?",
+          "a": "Alleen als het moet. De tool verlaagt eerst de kwaliteit en verkleint de pixels pas als de limiet anders niet haalbaar is."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "kb15": {
+    "title": "Foto verkleinen naar 15 KB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 15 KB gratis: maak een foto of handtekening 15 KB of kleiner voor strenge formulieren en houd hem zo duidelijk mogelijk. Zonder account.",
+    "h1": "Foto verkleinen naar 15 KB",
+    "intro": "Sommige formulieren accepteren alleen heel kleine afbeeldingen, zoals een handtekening of een pasfoto van 15 KB. Deze pagina stelt die limiet voor je in: voeg je afbeelding toe en download een bestand onder 15 KB dat nog leesbaar is.",
+    "blurb": "Breng een piepkleine afbeelding onder 15 KB voor strenge formulieren.",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat. Grote foto’s zijn geen probleem; de tool maakt ze kleiner."
+      },
+      {
+        "title": "Houd de limiet van 15 KB aan",
+        "text": "15 KB is al ingesteld. De tool rekent dit als 15.000 bytes, zodat het bestand wordt geaccepteerd op systemen die 1 KB als 1.000 bytes rekenen en op systemen die 1.024 rekenen."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen en download het bestand. Het resultaat toont de exacte grootte."
+      }
+    ],
+    "tipsTitle": "Tips om onder 15 KB te blijven",
+    "tips": [
+      "15 KB is erg klein. De tool verlaagt de kwaliteit en, als dat nodig is, het aantal pixels, zodat de afbeelding op het scherm klein maar leesbaar wordt.",
+      "Gebruik voor een handtekening een witte achtergrond en donkere inkt. Eenvoudige afbeeldingen comprimeren veel beter dan drukke.",
+      "Vraagt het formulier ook om exacte pixels? Stel dan eerst de breedte en hoogte in en laat de limiet van 15 KB aan staan.",
+      "Kies JPG. Een PNG kan niet kleiner worden gemaakt om binnen een limiet te blijven."
+    ],
+    "detailsTitle": "Wat 15 KB betekent voor een afbeelding",
+    "details": [
+      "Vijftien kilobyte is minuscuul: een gewone telefoonfoto is honderden keren groter. Op dit formaat moet een foto klein zijn, ongeveer zo groot als een miniatuur, terwijl een handtekening op een witte achtergrond er makkelijk in past.",
+      "De tool probeert de hoogste kwaliteit die past en toont de exacte grootte van het resultaat voordat je downloadt. Is de limiet niet haalbaar, dan meldt hij de kleinste grootte die hij kon maken."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe verklein ik een afbeelding naar 15 KB?",
+          "a": "Voeg de afbeelding toe, laat de limiet van 15 KB staan en druk op Formaat wijzigen. De tool zoekt de hoogste kwaliteit die past."
+        },
+        {
+          "q": "Waarom ziet mijn afbeelding er klein en zacht uit?",
+          "a": "Bij 15 KB is er heel weinig ruimte voor details. De tool gebruikt de beste kwaliteit die past en maakt de afbeelding alleen kleiner in pixels als het moet."
+        },
+        {
+          "q": "Kan ik een handtekening naar 15 KB brengen?",
+          "a": "Ja. Een handtekening op een witte achtergrond is eenvoudig, dus hij comprimeert heel goed en blijft leesbaar."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "kb25": {
+    "title": "Foto verkleinen naar 25 KB - Gratis comprimeren",
+    "description": "Foto verkleinen naar 25 KB gratis: maak een foto of handtekening 25 KB of kleiner voor formulieren en portalen en houd hem duidelijk. Zonder account, privé.",
+    "h1": "Foto verkleinen naar 25 KB",
+    "intro": "Formulieren en portalen die een kleine foto of handtekening vragen, stellen de limiet vaak op 25 KB. Deze pagina stelt hem voor je in: voeg je afbeelding toe en download een bestand onder 25 KB dat er nog duidelijk uitziet.",
+    "blurb": "Breng een afbeelding onder 25 KB voor formulieren en portalen.",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat. Grote telefoonfoto’s zijn geen probleem."
+      },
+      {
+        "title": "Houd de limiet van 25 KB aan",
+        "text": "25 KB is al ingesteld. De tool rekent dit als 25.000 bytes, zodat het bestand wordt geaccepteerd op systemen die 1 KB als 1.000 bytes rekenen en op systemen die 1.024 rekenen."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen en download het bestand. Het resultaat toont de exacte grootte."
+      }
+    ],
+    "tipsTitle": "Tips om onder 25 KB te blijven",
+    "tips": [
+      "Een kleine pasfoto van ongeveer 200 bij 250 pixels past meestal in 25 KB. Een grote telefoonfoto moet kleiner in pixels worden gemaakt, en dat doet de tool voor je.",
+      "Gebruik voor een handtekening een witte achtergrond en donkere inkt. Eenvoudige afbeeldingen comprimeren veel beter dan drukke.",
+      "Vraagt het formulier ook om exacte pixels? Stel dan eerst de breedte en hoogte in en laat de limiet van 25 KB aan staan.",
+      "Kies JPG. Een PNG kan niet kleiner worden gemaakt om binnen een limiet te blijven."
+    ],
+    "detailsTitle": "Wat 25 KB betekent voor een afbeelding",
+    "details": [
+      "Vijfentwintig kilobyte is een heel klein bestand, ruim honderd keer kleiner dan een gewone telefoonfoto. Een JPG van deze grootte kan bij een klein aantal pixels nog steeds een duidelijk gezicht of een handtekening bevatten, en dat is wat deze formulieren controleren.",
+      "De tool probeert de hoogste kwaliteit die past en toont de exacte grootte van het resultaat voordat je downloadt. Heeft een formulier een nog kleiner bestand nodig, kies dan 20 KB of 15 KB en probeer het opnieuw."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoe verklein ik een afbeelding naar 25 KB?",
+          "a": "Voeg de afbeelding toe, laat de limiet van 25 KB staan en druk op Formaat wijzigen. De tool zoekt de hoogste kwaliteit die past."
+        },
+        {
+          "q": "Ziet een foto van 25 KB er duidelijk uit?",
+          "a": "Bij een klein formaat, zoals een pasfoto, wel. Een heel grote afbeelding kan niet al haar details behouden in 25 KB, dus de tool maakt haar zo nodig kleiner in pixels."
+        },
+        {
+          "q": "Wat als mijn bestand al kleiner is dan 25 KB?",
+          "a": "Dan is het al klein genoeg. Kies alleen een lagere limiet als het formulier die vraagt."
+        },
+        {
+          "q": "Wordt mijn afbeelding geüpload?",
+          "a": "Nee. De afbeelding wordt op je apparaat verwerkt en nooit geüpload."
+        }
+      ]
+    }
+  },
+  "pxToIn": {
+    "title": "Pixels naar inch omrekenen - Gratis calculator (DPI)",
+    "description": "Pixels naar inch omrekenen, gratis online: typ pixels, kies de DPI en zie het afdrukformaat in inch. Voor foto’s, documenten en schermen. Op je apparaat.",
+    "h1": "Pixels naar inch omrekenen",
+    "intro": "Typ een formaat in pixels en zie hoeveel inch het wordt afgedrukt bij jouw DPI. De calculator toont ook veelgebruikte afdrukformaten in pixels en verwijst naar de gratis afbeeldingsverkleiner.",
+    "blurb": "Reken pixels om naar inch bij elke DPI.",
+    "steps": [
+      {
+        "title": "Voer het formaat in pixels in",
+        "text": "Typ de breedte, en de hoogte als je die nodig hebt. De eenheid staat al op pixels."
+      },
+      {
+        "title": "Kies de DPI",
+        "text": "Gebruik 300 voor afdrukken, 96 voor een scherm, of het getal dat je printer of formulier gebruikt. Het resultaat verandert terwijl je typt."
+      },
+      {
+        "title": "Lees het formaat af",
+        "text": "Het formaat verschijnt in inch. Wijzig de eenheid als je er liever een andere hebt."
+      }
+    ],
+    "tipsTitle": "Tips voor het omrekenen van pixels naar inch",
+    "tips": [
+      "Inch = pixels ÷ DPI. Bij 300 DPI vormen 300 pixels samen één inch.",
+      "Een afbeelding van 1200 × 1800 pixels wordt bij 300 DPI afgedrukt op 4 × 6 inch, en bij 96 DPI op 12,5 × 18,75 inch.",
+      "Dezelfde afbeelding heeft bij een andere DPI een ander formaat: meer DPI betekent een kleinere, scherpere afdruk.",
+      "Met de wisselknop reken je inch om naar pixels."
+    ],
+    "detailsTitle": "Zo reken je pixels om naar inch",
+    "details": [
+      "De formule is inch = pixels ÷ DPI. Bij 300 DPI, de gebruikelijke keuze voor afdrukken, is 1000 pixels 3,33 inch. Bij 96 DPI, de standaard van een scherm in een browser, is dezelfde 1000 pixels 10,42 inch, en bij 72 DPI is het 13,89 inch.",
+      "Een afbeelding heeft pas een echt formaat als hij wordt afgedrukt, en de DPI is wat pixels en inch met elkaar verbindt. Een full HD-afbeelding van 1920 × 1080 pixels is bij 300 DPI 6,4 × 3,6 inch en bij 96 DPI 20 × 11,25 inch."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoeveel inch is 1000 pixels?",
+          "a": "Bij 300 DPI is 1000 pixels ongeveer 3,33 inch. Bij 96 DPI is het ongeveer 10,42 inch."
+        },
+        {
+          "q": "Hoe reken ik pixels om naar inch?",
+          "a": "Deel de pixels door de DPI. Of typ de pixels in de calculator hierboven en die doet het voor je."
+        },
+        {
+          "q": "Welke DPI moet ik gebruiken?",
+          "a": "Gebruik 300 voor afdrukken, en 72 of 96 voor afbeeldingen die alleen op een scherm worden getoond."
+        },
+        {
+          "q": "Verandert de DPI mijn afbeelding?",
+          "a": "Nee. De DPI bepaalt alleen hoe groot de afbeelding is als hij wordt afgedrukt. Wijzig het formaat van de afbeelding zelf met de afbeeldingsverkleiner."
+        }
+      ]
+    }
+  },
+  "pxToMm": {
+    "title": "Pixels naar mm omrekenen - Gratis calculator (DPI)",
+    "description": "Pixels naar mm omrekenen, gratis online: typ pixels, kies de DPI en zie het afdrukformaat in millimeters. Handig voor pasfoto’s en ID-foto’s. Op je apparaat.",
+    "h1": "Pixels naar mm omrekenen",
+    "intro": "Typ een formaat in pixels en zie hoeveel millimeter het wordt afgedrukt bij jouw DPI. Handig voor pasfoto’s, waarvan het formaat in millimeters wordt opgegeven. De calculator verwijst naar de gratis afbeeldingsverkleiner.",
+    "blurb": "Reken pixels om naar millimeters bij elke DPI.",
+    "steps": [
+      {
+        "title": "Voer het formaat in pixels in",
+        "text": "Typ de breedte, en de hoogte als je die nodig hebt. De eenheid staat al op pixels."
+      },
+      {
+        "title": "Kies de DPI",
+        "text": "Gebruik 300 voor afdrukken, 96 voor een scherm, of het getal dat je printer of formulier gebruikt. Het resultaat verandert terwijl je typt."
+      },
+      {
+        "title": "Lees het formaat af",
+        "text": "Het formaat verschijnt in millimeters. Wijzig de eenheid als je er liever een andere hebt."
+      }
+    ],
+    "tipsTitle": "Tips voor het omrekenen van pixels naar mm",
+    "tips": [
+      "Millimeters = pixels ÷ DPI × 25,4. Bij 300 DPI is één pixel ongeveer 0,085 mm.",
+      "Een pasfoto van 413 × 531 pixels is bij 300 DPI ongeveer 35 × 45 mm.",
+      "Dezelfde afbeelding heeft bij een andere DPI een ander formaat: bij 96 DPI is één pixel ongeveer 0,26 mm.",
+      "Met de wisselknop reken je millimeters om naar pixels."
+    ],
+    "detailsTitle": "Zo reken je pixels om naar mm",
+    "details": [
+      "De formule is millimeters = pixels ÷ DPI × 25,4, omdat één inch 25,4 millimeter is. Bij 300 DPI is 1000 pixels ongeveer 84,67 mm. Bij 96 DPI is dezelfde 1000 pixels ongeveer 264,58 mm.",
+      "Een afbeelding heeft pas een echt formaat als hij wordt afgedrukt, en de DPI is wat pixels en millimeters met elkaar verbindt. Vraagt een formulier om een formaat in millimeters en ken je alleen de pixels, dan is 300 DPI voor foto’s de gebruikelijke waarde."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Hoeveel mm is 1000 pixels?",
+          "a": "Bij 300 DPI is 1000 pixels ongeveer 84,67 mm. Bij 96 DPI is het ongeveer 264,58 mm."
+        },
+        {
+          "q": "Hoe reken ik pixels om naar mm?",
+          "a": "Deel de pixels door de DPI en vermenigvuldig met 25,4. Of typ de pixels in de calculator hierboven en die doet het voor je."
+        },
+        {
+          "q": "Welke DPI moet ik gebruiken?",
+          "a": "Gebruik 300 voor afdrukken en voor pasfoto’s, en 72 of 96 voor afbeeldingen die alleen op een scherm worden getoond."
+        },
+        {
+          "q": "Verandert de DPI mijn afbeelding?",
+          "a": "Nee. De DPI bepaalt alleen hoe groot de afbeelding is als hij wordt afgedrukt. Wijzig het formaat van de afbeelding zelf met de afbeeldingsverkleiner."
+        }
+      ]
+    }
+  },
+  "paperPx": {
+    "title": "A4 formaat in pixels: papierformaten bij 72 tot 600 DPI",
+    "description": "A4 formaat in pixels bij 72, 96, 150, 300 en 600 DPI, plus A3, A5, A6, Letter en Legal in één tabel, met een gratis calculator. Werkt op je apparaat.",
+    "h1": "Papierformaten in pixels (A4, A5, Letter)",
+    "intro": "Hoeveel pixels is een A4-pagina? Dat hangt af van de DPI. De tabel toont de gangbare papierformaten in pixels bij vijf DPI-waarden, en de calculator rekent elk ander formaat om.",
+    "blurb": "A4, A5, Letter en meer in pixels bij elke DPI.",
+    "note": "Pixels zijn afgerond op hele getallen. Gebruik deze formaten voor afbeeldingen die je wilt afdrukken of op een pagina van dat formaat wilt plaatsen.",
+    "tableTitle": "Papierformaten in pixels",
+    "steps": [
+      {
+        "title": "Zoek je papierformaat op",
+        "text": "Zoek A3, A4, A5, A6, B5, Letter, Legal of Tabloid op in de tabel en lees de pixels af in de kolom met de DPI die je nodig hebt."
+      },
+      {
+        "title": "Of voer een ander formaat in",
+        "text": "Typ een willekeurige breedte en hoogte in de calculator, kies de DPI en lees het resultaat in pixels af."
+      },
+      {
+        "title": "Pas het formaat van je afbeelding aan",
+        "text": "Open de afbeeldingsverkleiner, voer de pixels in en download een afbeelding die op de pagina past."
+      }
+    ],
+    "tipsTitle": "Tips voor papierformaten in pixels",
+    "tips": [
+      "A4 bij 300 DPI is 2480 × 3508 pixels: het formaat voor een scherpe afdruk.",
+      "Voor een document dat alleen op een scherm wordt getoond, is A4 bij 96 DPI (794 × 1123 pixels) genoeg.",
+      "A4 bij 72 DPI is 595 × 842 pixels, het formaat van een PDF-pagina in punten.",
+      "US Letter is korter en breder dan A4: 2550 × 3300 pixels bij 300 DPI."
+    ],
+    "detailsTitle": "Waarom papier geen vast formaat in pixels heeft",
+    "details": [
+      "Papier heeft een echt formaat in millimeters of inch, en een afbeelding heeft pixels. De DPI (dots per inch) verbindt die twee: A4 is 210 × 297 mm, wat bij 300 DPI 2480 × 3508 pixels is, maar bij 96 DPI slechts 794 × 1123 pixels.",
+      "De ISO A-reeks halveert de pagina telkens: A4 is de helft van A3 en twee keer A5, en ze hebben allemaal dezelfde verhoudingen. US Letter, Legal en Tabloid komen van inches en hebben andere verhoudingen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wat is het A4-formaat in pixels?",
+          "a": "Bij 300 DPI is A4 2480 × 3508 pixels. Bij 150 DPI is het 1240 × 1754, bij 96 DPI 794 × 1123 en bij 72 DPI 595 × 842."
+        },
+        {
+          "q": "Wat is het US Letter-formaat in pixels?",
+          "a": "Bij 300 DPI is US Letter (8,5 × 11 inch) 2550 × 3300 pixels. Bij 96 DPI is het 816 × 1056."
+        },
+        {
+          "q": "Wat is het A5-formaat in pixels?",
+          "a": "Bij 300 DPI is A5 1748 × 2480 pixels. Bij 96 DPI is het 559 × 794."
+        },
+        {
+          "q": "Welke DPI moet ik gebruiken?",
+          "a": "Gebruik 300 voor afdrukken en 72 of 96 voor afbeeldingen die alleen op een scherm worden getoond."
+        }
+      ]
+    }
+  },
+  "instagramSize": {
+    "title": "Instagram foto formaat: post, story en reel - Gratis",
+    "description": "Instagram foto formaat in pixels voor vierkante en staande posts, stories en reels. Pas je foto gratis aan voor Instagram, zonder upload en zonder account.",
+    "h1": "Instagram foto formaat",
+    "intro": "Afbeeldingen zien er het best uit op Instagram als ze al de juiste vorm hebben. Kies hieronder het formaat en de tool past je foto aan en snijdt hem bij, op je apparaat.",
+    "blurb": "Pas foto’s aan voor Instagram-posts, stories en reels.",
+    "note": "Instagram past zijn indeling van tijd tot tijd aan. Dit zijn de formaten die nu het meest worden gebruikt; de verhoudingen (1:1, 4:5 en 9:16) veranderen veel minder dan de exacte pixels.",
+    "tableTitle": "Instagram-formaten",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat."
+      },
+      {
+        "title": "Kies het Instagram-formaat",
+        "text": "Open de lijst Voorinstelling, ga naar Sociale media en kies Instagram post (1080x1080 of 1080x1350) voor de feed, of Instagram story / reel (1080x1920). Het eerste postformaat is al geselecteerd."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen. Bijsnijden om het vak te vullen is geselecteerd, dus er wordt niets uitgerekt."
+      }
+    ],
+    "tipsTitle": "Tips voor scherpe Instagram-afbeeldingen",
+    "tips": [
+      "Een staande post (1080 × 1350 pixels, 4:5) neemt de meeste ruimte in de feed in, dus hij valt meer op dan een vierkante.",
+      "Stories en reels zijn 1080 × 1920 pixels (9:16). Houd gezichten en tekst uit de buurt van de boven- en onderrand, want knoppen en bijschriften bedekken die.",
+      "Begin met een afbeelding die minstens zo groot is als het doelformaat. Instagram comprimeert elke upload, dus een scherp origineel geeft het beste resultaat.",
+      "Gebruik JPG voor foto’s en PNG voor graphics met scherpe tekst."
+    ],
+    "detailsTitle": "Instagram-formaten en vormen",
+    "details": [
+      "Een vierkante post is 1080 × 1080 pixels (1:1). Een staande post is 1080 × 1350 pixels (4:5) en een liggende post ongeveer 1080 × 566 pixels (1.91:1). Stories en reels gebruiken het hele telefoonscherm: 1080 × 1920 pixels (9:16). Een profielfoto moet minstens 320 × 320 pixels zijn en wordt als cirkel getoond.",
+      "Heeft een afbeelding een andere vorm, dan kan de tool hem bijsnijden om het vak te vullen of binnen het vak laten passen. Kies Binnen het vak passen om de hele afbeelding te behouden, met lege balken aan de zijkanten, of Bijsnijden om het vak te vullen om het midden te behouden en de randen weg te snijden."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Wat is het beste formaat voor een Instagram-post?",
+          "a": "Gebruik 1080 × 1080 pixels voor een vierkante post en 1080 × 1350 pixels voor een staande post, die de meeste ruimte in de feed inneemt."
+        },
+        {
+          "q": "Welk formaat heeft een Instagram-story of -reel?",
+          "a": "1080 × 1920 pixels, oftewel 9:16, de volledige hoogte van een telefoonscherm."
+        },
+        {
+          "q": "Hoe plaats ik een hele foto zonder bij te snijden?",
+          "a": "Kies het Instagram-formaat onder Voorinstelling en kies daarna Binnen het vak passen in plaats van Bijsnijden om het vak te vullen. De hele afbeelding blijft zichtbaar en er wordt niets weggesneden."
+        },
+        {
+          "q": "Welk formaat heeft een Instagram-profielfoto?",
+          "a": "Upload minstens 320 × 320 pixels. Instagram toont hem als cirkel, dus houd het gezicht in het midden."
+        }
+      ]
+    }
+  },
+  "youtubeSize": {
+    "title": "YouTube thumbnail formaat: 1280x720 - Gratis aanpassen",
+    "description": "YouTube thumbnail formaat is 1280 x 720 pixels (16:9). Pas je afbeelding gratis aan tot een YouTube-thumbnail of kanaalbanner, zonder upload en zonder account.",
+    "h1": "YouTube thumbnail formaat",
+    "intro": "Een YouTube-thumbnail is 1280 × 720 pixels in 16:9. Voeg je afbeelding toe en de tool past het formaat aan en snijdt hem bij, op je apparaat, en toont de bestandsgrootte.",
+    "blurb": "Pas afbeeldingen aan tot een YouTube-thumbnail of banner.",
+    "note": "YouTube past zijn aanbevelingen van tijd tot tijd aan. Dit zijn veelgebruikte formaten die goed werken met de huidige indelingen.",
+    "tableTitle": "YouTube-formaten",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat."
+      },
+      {
+        "title": "Kies het YouTube-formaat",
+        "text": "Open de lijst Voorinstelling, ga naar Sociale media en kies YouTube thumbnail of banner. Het thumbnailformaat is al geselecteerd."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen. Bijsnijden om het vak te vullen is geselecteerd, dus er wordt niets uitgerekt."
+      }
+    ],
+    "tipsTitle": "Tips voor een goede YouTube-thumbnail",
+    "tips": [
+      "Gebruik 1280 × 720 pixels en houd de vorm 16:9. Bij een andere vorm komen er balken of wordt de afbeelding bijgesneden.",
+      "Houd het bestand onder 2 MB. Dat is al lang de limiet, en een kleiner bestand wordt nooit geweigerd.",
+      "Houd gezichten en tekst uit de buurt van de rechterbenedenhoek, waar de lengte van de video wordt getoond.",
+      "Gebruik JPG voor foto’s. PNG is beter voor graphics met scherpe tekst, maar het bestand is groter."
+    ],
+    "detailsTitle": "YouTube-afbeeldingsformaten",
+    "details": [
+      "Een thumbnail is 1280 × 720 pixels met een breedte van minstens 640 pixels, in 16:9. Een kanaalbanner is 2560 × 1440 pixels, en alleen het middelste deel is op elk apparaat zichtbaar, dus houd logo’s en tekst in het midden. Een kanaalafbeelding is het best op 800 × 800 pixels.",
+      "Is een thumbnail groter dan de limiet voor de bestandsgrootte, dan kan de tool de kwaliteit verlagen tot hij past. Kies Bestandsgrootte beperken en voer 2 MB in; de beste kwaliteit die past wordt voor je gekozen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Welk formaat moet een YouTube-thumbnail hebben?",
+          "a": "1280 × 720 pixels in 16:9, met een bestandsgrootte onder 2 MB."
+        },
+        {
+          "q": "Welk formaat heeft een YouTube-kanaalbanner?",
+          "a": "2560 × 1440 pixels. Alleen het midden is op elk apparaat zichtbaar, dus houd belangrijke inhoud in het midden."
+        },
+        {
+          "q": "Hoe maak ik een thumbnail onder 2 MB?",
+          "a": "Wijzig het formaat naar 1280 × 720, zet daarna Bestandsgrootte beperken aan en voer 2 MB in. De tool zoekt de beste kwaliteit die past."
+        },
+        {
+          "q": "Welke bestandsindeling is het best voor een thumbnail?",
+          "a": "JPG voor foto’s. Het is klein en scherp genoeg. Gebruik PNG alleen als de afbeelding scherpe tekst of vlakke kleuren heeft en de bestandsgrootte het toestaat."
+        }
+      ]
+    }
+  },
+  "facebookSize": {
+    "title": "Facebook foto formaat: omslagfoto en post - Gratis",
+    "description": "Facebook foto formaat in pixels voor omslagfoto’s en posts. Pas je afbeelding gratis aan voor Facebook, zonder upload en zonder account, op je apparaat.",
+    "h1": "Facebook foto formaat",
+    "intro": "Afbeeldingen zien er het best uit op Facebook als ze al de juiste vorm hebben. Kies hieronder het formaat en de tool past je afbeelding aan en snijdt hem bij, op je apparaat.",
+    "blurb": "Pas afbeeldingen aan voor een Facebook-omslagfoto of -post.",
+    "note": "Facebook past zijn indeling van tijd tot tijd aan. Dit zijn veelgebruikte formaten die goed werken met de huidige indelingen.",
+    "tableTitle": "Facebook-formaten",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat."
+      },
+      {
+        "title": "Kies het Facebook-formaat",
+        "text": "Open de lijst Voorinstelling, ga naar Sociale media en kies Facebook post of omslag. Het postformaat is al geselecteerd."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen. Bijsnijden om het vak te vullen is geselecteerd, dus er wordt niets uitgerekt."
+      }
+    ],
+    "tipsTitle": "Tips voor scherpe Facebook-afbeeldingen",
+    "tips": [
+      "Een omslagfoto wordt op een computer getoond op 820 × 312 pixels en op een telefoon in een andere vorm, dus houd belangrijke inhoud in het midden.",
+      "Een gedeelde post of linkafbeelding werkt goed op 1200 × 630 pixels.",
+      "Begin met een afbeelding die minstens zo groot is als het doelformaat. Facebook comprimeert elke upload, dus een scherp origineel geeft het beste resultaat.",
+      "Gebruik JPG voor foto’s en PNG voor graphics met scherpe tekst."
+    ],
+    "detailsTitle": "Facebook-formaten en vormen",
+    "details": [
+      "Een omslagfoto is op een computer 820 × 312 pixels, en telefoons tonen hem bijgesneden in een andere vorm, en daarom is het midden van de afbeelding het belangrijkst. Een post of gedeelde linkafbeelding is 1200 × 630 pixels. Een profielfoto wordt als cirkel getoond: upload een vierkante afbeelding van minstens 320 × 320 pixels en houd het gezicht in het midden.",
+      "Heeft een afbeelding een andere vorm, dan kan de tool hem bijsnijden om het vak te vullen of binnen het vak laten passen. Kies Binnen het vak passen om de hele afbeelding te behouden, met lege balken aan de zijkanten, of Bijsnijden om het vak te vullen om het midden te behouden en de randen weg te snijden."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Welk formaat heeft een Facebook-omslagfoto?",
+          "a": "820 × 312 pixels op een computer. Telefoons snijden hem anders bij, dus houd tekst en gezichten in het midden."
+        },
+        {
+          "q": "Welk formaat moet een Facebook-postafbeelding hebben?",
+          "a": "1200 × 630 pixels werkt goed voor een post of een gedeelde link."
+        },
+        {
+          "q": "Welk formaat heeft een Facebook-profielfoto?",
+          "a": "Upload een vierkante afbeelding van minstens 320 × 320 pixels. Facebook toont hem als cirkel, dus houd het gezicht in het midden."
+        },
+        {
+          "q": "Hoe voorkom ik bijsnijden op Facebook?",
+          "a": "Kies het Facebook-formaat onder Voorinstelling en kies daarna Binnen het vak passen in plaats van Bijsnijden om het vak te vullen. De hele afbeelding blijft zichtbaar en er wordt niets weggesneden."
+        }
+      ]
+    }
+  },
+  "whatsappSize": {
+    "title": "WhatsApp profielfoto formaat: 500x500 en status - Gratis",
+    "description": "WhatsApp profielfoto formaat is 500 x 500 pixels en een status 1080 x 1920. Pas je foto gratis aan, zonder upload en zonder account, op je apparaat.",
+    "h1": "WhatsApp profielfoto formaat",
+    "intro": "WhatsApp toont je profielfoto als cirkel, dus een vierkante afbeelding werkt het best. Voeg je foto toe en de tool snijdt hem bij en past het formaat aan, op je apparaat.",
+    "blurb": "Pas foto’s aan voor een WhatsApp-profielfoto of -status.",
+    "note": "WhatsApp kan veranderen hoe afbeeldingen worden getoond. Dit zijn formaten die nu goed werken.",
+    "tableTitle": "WhatsApp-formaten",
+    "steps": [
+      {
+        "title": "Voeg je afbeelding toe",
+        "text": "Sleep hem naar de pagina of kies hem op je apparaat."
+      },
+      {
+        "title": "Kies het WhatsApp-formaat",
+        "text": "Open de lijst Voorinstelling, ga naar Sociale media en kies WhatsApp profielfoto voor je profielfoto, of WhatsApp story / reel (1080x1920) voor een status. Het formaat voor de profielfoto is al geselecteerd."
+      },
+      {
+        "title": "Formaat wijzigen en downloaden",
+        "text": "Druk op Formaat wijzigen. Bijsnijden om het vak te vullen is geselecteerd, dus er wordt niets uitgerekt."
+      }
+    ],
+    "tipsTitle": "Tips voor een goede WhatsApp-profielfoto",
+    "tips": [
+      "Gebruik een vierkante afbeelding van 500 × 500 pixels. WhatsApp toont hem als cirkel, dus houd het gezicht in het midden.",
+      "Een statusafbeelding is 1080 × 1920 pixels (9:16), de volledige hoogte van een telefoonscherm.",
+      "Een grotere afbeelding dan nodig wordt door WhatsApp verkleind en kan er zacht uitzien. Als je hem eerst zelf verkleint, houd je de controle over het resultaat.",
+      "Gebruik JPG voor foto’s. Het is klein en scherp genoeg voor een profielfoto."
+    ],
+    "detailsTitle": "WhatsApp-afbeeldingsformaten",
+    "details": [
+      "WhatsApp vraagt om een vierkante profielfoto. De app toont hem als cirkel in chats en contacten, dus de hoeken van de afbeelding zijn nooit te zien. Een formaat van 500 × 500 pixels is op elk scherm scherp en klein genoeg om snel te uploaden.",
+      "Is je foto niet vierkant, kies dan Bijsnijden om het vak te vullen en het midden van de afbeelding blijft behouden. Kies Binnen het vak passen om de hele afbeelding met lege balken te behouden; WhatsApp laat je hem dan binnen de cirkel verplaatsen en zoomen."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Welk formaat heeft een WhatsApp-profielfoto?",
+          "a": "500 × 500 pixels, een vierkante afbeelding. WhatsApp toont hem als cirkel."
+        },
+        {
+          "q": "Welk formaat heeft een WhatsApp-statusafbeelding?",
+          "a": "1080 × 1920 pixels (9:16), de volledige hoogte van een telefoonscherm."
+        },
+        {
+          "q": "Hoe laat ik mijn foto in de WhatsApp-profielfoto passen zonder mijn gezicht af te snijden?",
+          "a": "Kies het WhatsApp-formaat onder Voorinstelling en laat Bijsnijden om het vak te vullen staan. Het midden van de afbeelding blijft behouden, en daar zit meestal een gezicht."
+        },
+        {
+          "q": "Waarom ziet mijn profielfoto er wazig uit?",
+          "a": "Een afbeelding die te klein is, wordt uitgerekt, en een afbeelding die te groot is, wordt door de app verkleind. Pas het formaat eerst aan naar 500 × 500 pixels voor een scherp resultaat."
         }
       ]
     }

@@ -34,7 +34,23 @@ export type ToolKey =
   | 'cmToPx'
   | 'inToPx'
   | 'mmToPx'
-  | 'pxToCm';
+  | 'pxToCm'
+  | 'webpToPng'
+  | 'gifToJpg'
+  | 'bmpToJpg'
+  | 'avifToJpg'
+  | 'jfifToJpg'
+  | 'pxToIn'
+  | 'pxToMm'
+  | 'paperPx'
+  | 'instagramSize'
+  | 'youtubeSize'
+  | 'facebookSize'
+  | 'whatsappSize'
+  | 'kb150'
+  | 'mb5'
+  | 'kb15'
+  | 'kb25';
 
 /** Heading under which a page is listed in the menu and the footer (text: "navGroups.<group>"). */
 export type NavGroup = 'tools' | 'sizes' | 'convert';
@@ -86,6 +102,24 @@ export const TOOL_ROUTES: ToolRoute[] = [
   { key: 'inToPx', path: '/inches-to-pixels/', group: 'tools', strip: false, parent: 'cm' },
   { key: 'mmToPx', path: '/mm-to-pixels/', group: 'tools', strip: false, parent: 'cm' },
   { key: 'pxToCm', path: '/pixels-to-cm/', group: 'tools', strip: false, parent: 'cm' },
+  { key: 'pxToIn', path: '/pixels-to-inches/', group: 'tools', strip: false, parent: 'cm' },
+  { key: 'pxToMm', path: '/pixels-to-mm/', group: 'tools', strip: false, parent: 'cm' },
+  { key: 'paperPx', path: '/paper-sizes-in-pixels/', group: 'tools', strip: false, parent: 'cm' },
+  // Platform size pages (the resizer with the platform's sizes preset)
+  { key: 'instagramSize', path: '/instagram-image-size/', group: 'tools', strip: false, parent: 'social' },
+  { key: 'youtubeSize', path: '/youtube-thumbnail-size/', group: 'tools', strip: false, parent: 'social' },
+  { key: 'facebookSize', path: '/facebook-image-size/', group: 'tools', strip: false, parent: 'social' },
+  { key: 'whatsappSize', path: '/whatsapp-dp-size/', group: 'tools', strip: false, parent: 'social' },
+  // More format converters and exact file sizes
+  { key: 'webpToPng', path: '/webp-to-png/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'gifToJpg', path: '/gif-to-jpg/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'bmpToJpg', path: '/bmp-to-jpg/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'avifToJpg', path: '/avif-to-jpg/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'jfifToJpg', path: '/jfif-to-jpg/', group: 'convert', strip: false, parent: 'convert' },
+  { key: 'kb15', path: '/resize-image-to-15kb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'kb25', path: '/resize-image-to-25kb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'kb150', path: '/resize-image-to-150kb/', group: 'sizes', strip: false, parent: 'kb' },
+  { key: 'mb5', path: '/resize-image-to-5mb/', group: 'sizes', strip: false, parent: 'kb' },
 ];
 
 export const NAV_GROUPS: NavGroup[] = ['tools', 'sizes', 'convert'];

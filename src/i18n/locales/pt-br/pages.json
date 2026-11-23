@@ -33,7 +33,23 @@
     "cmToPx": "cm para pixels",
     "inToPx": "Polegadas para pixels",
     "mmToPx": "mm para pixels",
-    "pxToCm": "Pixels para cm"
+    "pxToCm": "Pixels para cm",
+    "webpToPng": "WebP para PNG",
+    "gifToJpg": "GIF para JPG",
+    "bmpToJpg": "BMP para JPG",
+    "avifToJpg": "AVIF para JPG",
+    "jfifToJpg": "JFIF para JPG",
+    "kb150": "Reduzir para 150 KB",
+    "mb5": "Reduzir para 5 MB",
+    "kb15": "Reduzir para 15 KB",
+    "kb25": "Reduzir para 25 KB",
+    "pxToIn": "Pixels para polegadas",
+    "pxToMm": "Pixels para mm",
+    "paperPx": "Tamanhos de papel em pixels",
+    "instagramSize": "Tamanho de imagem do Instagram",
+    "youtubeSize": "Tamanho de thumbnail do YouTube",
+    "facebookSize": "Tamanho de imagem do Facebook",
+    "whatsappSize": "Tamanho da foto do WhatsApp"
   },
   "common": {
     "howTo": "Como usar",
@@ -1756,6 +1772,864 @@
         {
           "q": "O DPI muda minha imagem?",
           "a": "Não. O DPI só define o tamanho da imagem quando ela é impressa. Redimensione a imagem em si com o redimensionador de imagens."
+        }
+      ]
+    }
+  },
+  "webpToPng": {
+    "title": "Converter WebP para PNG - Online, Grátis e sem Upload",
+    "description": "Converter WebP para PNG online grátis: transforme imagens WebP em PNG no navegador e mantenha a transparência. Sem cadastro, sem upload e sem limite.",
+    "h1": "Converter WebP para PNG",
+    "intro": "Transforme imagens WebP em arquivos PNG que abrem em qualquer programa. As partes transparentes continuam transparentes. Adicione seus arquivos WebP, clique no botão e baixe os arquivos PNG, ou um ZIP com todos eles.",
+    "blurb": "Transforme imagens WebP em arquivos PNG.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos WebP",
+        "text": "Arraste uma ou várias imagens WebP para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "PNG já vem selecionado como formato de saída. As imagens mantêm o tamanho."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada arquivo PNG, ou todos em um ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para converter WebP em PNG",
+    "tips": [
+      "O PNG preserva cada pixel exatamente, então o PNG costuma ser maior que o WebP de origem. Isso é normal.",
+      "As áreas transparentes de um WebP continuam transparentes no PNG, então logotipos e recortes mantêm o formato.",
+      "Para uma foto comum, o JPG é a melhor escolha quando você precisa de um arquivo pequeno. O PNG é melhor para gráficos, capturas de tela e imagens com transparência.",
+      "Um WebP animado vira um PNG estático com o primeiro quadro."
+    ],
+    "detailsTitle": "Por que converter WebP para PNG?",
+    "details": [
+      "O WebP é um formato feito para a web: arquivos pequenos com boa qualidade. Mas nem todo editor, impressora ou formulário de envio o aceita. O PNG é aceito em quase todo lugar e guarda a imagem sem nenhuma perda.",
+      "A conversão acontece no seu dispositivo. Nada é enviado, então é seguro para imagens privadas, e não há limite para a quantidade de arquivos que você converte."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter WebP para PNG?",
+          "a": "Adicione seus arquivos WebP, confirme que PNG é o formato de saída e clique em Redimensionar imagens. Depois baixe os arquivos PNG."
+        },
+        {
+          "q": "O PNG mantém a transparência?",
+          "a": "Sim. As áreas transparentes do WebP continuam transparentes no PNG."
+        },
+        {
+          "q": "Por que o PNG é maior que o WebP?",
+          "a": "O WebP costuma ser comprimido com uma pequena perda, enquanto o PNG guarda cada pixel exatamente. A mesma imagem ocupa mais espaço como PNG."
+        },
+        {
+          "q": "Posso converter vários arquivos de uma vez?",
+          "a": "Sim. Adicione quantos quiser, até 500 por vez, e baixe um a um ou em um ZIP."
+        }
+      ]
+    }
+  },
+  "gifToJpg": {
+    "title": "Converter GIF para JPG - Online, Grátis e sem Upload",
+    "description": "Converter GIF para JPG online grátis: transforme imagens GIF em JPG no navegador e escolha a qualidade. Sem cadastro, sem upload e sem limite.",
+    "h1": "Converter GIF para JPG",
+    "intro": "Transforme imagens GIF em arquivos JPG em um só passo. O JPG é aceito em quase todo lugar e é bem menor para fotos. Adicione seus arquivos GIF, clique no botão e baixe os arquivos JPG, ou um ZIP com todos eles.",
+    "blurb": "Transforme imagens GIF em arquivos JPG.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos GIF",
+        "text": "Arraste uma ou várias imagens GIF para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "JPG já vem selecionado como formato de saída. Reduza a qualidade para obter um arquivo menor."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada arquivo JPG, ou todos em um ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para converter GIF em JPG",
+    "tips": [
+      "Um GIF animado vira uma única imagem estática: o primeiro quadro. Para manter a animação, guarde o GIF.",
+      "O JPG é feito para fotos e costuma ser o arquivo menor para uma foto. O GIF serve para gráficos simples com poucas cores.",
+      "As áreas transparentes de um GIF ficam brancas, porque o JPG não pode ser transparente.",
+      "Uma qualidade de 80 a 90 fica quase igual ao original na maioria das imagens, com um arquivo menor."
+    ],
+    "detailsTitle": "GIF ou JPG: o que muda?",
+    "details": [
+      "O GIF foi feito para gráficos pequenos e animações curtas. Muitos sites, formulários e aplicativos só aceitam imagens estáticas, como JPG, e por isso um GIF costuma ser recusado.",
+      "A conversão acontece no seu dispositivo. Nada é enviado, então é seguro para imagens privadas, e não há limite para a quantidade de arquivos que você converte."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter GIF para JPG?",
+          "a": "Adicione seus arquivos GIF, confirme que JPG é o formato de saída e clique em Redimensionar imagens. Depois baixe os arquivos JPG."
+        },
+        {
+          "q": "Posso converter um GIF animado para JPG?",
+          "a": "Sim, mas você recebe uma única imagem: o primeiro quadro da animação. Um JPG não se mexe."
+        },
+        {
+          "q": "O que acontece com as áreas transparentes?",
+          "a": "Elas são preenchidas com branco, porque o JPG não pode ser transparente."
+        },
+        {
+          "q": "Posso converter vários arquivos de uma vez?",
+          "a": "Sim. Adicione quantos quiser, até 500 por vez, e baixe um a um ou em um ZIP."
+        }
+      ]
+    }
+  },
+  "bmpToJpg": {
+    "title": "Converter BMP para JPG - Online, Grátis e sem Upload",
+    "description": "Converter BMP para JPG online grátis: transforme BMP grandes em JPG pequenos no navegador e escolha a qualidade. Sem cadastro, sem upload e sem limite.",
+    "h1": "Converter BMP para JPG",
+    "intro": "Arquivos BMP são muito grandes porque não têm compressão. Transforme-os em arquivos JPG, bem menores e que abrem em qualquer lugar. Adicione seus arquivos BMP, clique no botão e baixe os arquivos JPG, ou um ZIP com todos eles.",
+    "blurb": "Transforme BMP grandes em arquivos JPG pequenos.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos BMP",
+        "text": "Arraste uma ou várias imagens BMP para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "JPG já vem selecionado como formato de saída. Reduza a qualidade para obter um arquivo menor."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada arquivo JPG, ou todos em um ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para converter BMP em JPG",
+    "tips": [
+      "Um BMP guarda cada pixel sem compressão, então uma foto em JPG costuma ter um décimo do tamanho, ou até menos.",
+      "Uma qualidade de 85 a 90 fica quase igual ao original em fotos, com um arquivo bem menor.",
+      "Para capturas de tela com texto nítido ou gráficos simples, o PNG é a melhor escolha. Use-o na página Converter imagens.",
+      "Muitos formulários de envio recusam arquivos BMP. Um JPG é aceito em quase todo lugar."
+    ],
+    "detailsTitle": "Por que um BMP é tão grande",
+    "details": [
+      "O BMP é um dos formatos de imagem mais antigos. Ele grava a cor de cada pixel, um por um, então uma imagem de 12 megapixels ocupa cerca de 36 MB. O JPG comprime a imagem e mantém o que o olho percebe, e é por isso que o arquivo fica tão menor.",
+      "A conversão acontece no seu dispositivo. Nada é enviado, então é seguro para imagens privadas, e não há limite para a quantidade de arquivos que você converte."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter BMP para JPG?",
+          "a": "Adicione seus arquivos BMP, confirme que JPG é o formato de saída e clique em Redimensionar imagens. Depois baixe os arquivos JPG."
+        },
+        {
+          "q": "Quanto menor é um JPG em relação a um BMP?",
+          "a": "Em uma foto, muitas vezes dez vezes menor ou mais. O resultado exato aparece ao lado de cada imagem."
+        },
+        {
+          "q": "Converter BMP para JPG reduz a qualidade?",
+          "a": "Um pouco, porque o JPG tem perdas. Com qualidade 85 ou mais, a diferença raramente é visível."
+        },
+        {
+          "q": "Posso converter vários arquivos de uma vez?",
+          "a": "Sim. Adicione quantos quiser, até 500 por vez, e baixe um a um ou em um ZIP."
+        }
+      ]
+    }
+  },
+  "avifToJpg": {
+    "title": "Converter AVIF para JPG - Online, Grátis e sem Upload",
+    "description": "Converter AVIF para JPG online grátis: transforme imagens AVIF em JPG que abrem em qualquer lugar, direto no navegador. Sem cadastro, sem upload e sem limite.",
+    "h1": "Converter AVIF para JPG",
+    "intro": "O AVIF é um formato novo que muitos programas e sites ainda não conseguem abrir. Transforme imagens AVIF em arquivos JPG que funcionam em qualquer lugar. Adicione seus arquivos AVIF, clique no botão e baixe os arquivos JPG, ou um ZIP com todos eles.",
+    "blurb": "Transforme imagens AVIF em arquivos JPG.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos AVIF",
+        "text": "Arraste uma ou várias imagens AVIF para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "JPG já vem selecionado como formato de saída. Reduza a qualidade para obter um arquivo menor."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada arquivo JPG, ou todos em um ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para converter AVIF em JPG",
+    "tips": [
+      "Seu navegador precisa conseguir abrir arquivos AVIF. As versões atuais do Chrome, Edge, Firefox e Safari conseguem. Se um arquivo for recusado, atualize o navegador.",
+      "O AVIF é muito eficiente, então o JPG costuma ficar maior que o AVIF. Reduza um pouco a qualidade se precisar de um arquivo pequeno.",
+      "As áreas transparentes de um AVIF ficam brancas, porque o JPG não pode ser transparente. Converta para PNG se precisar da transparência.",
+      "Uma qualidade de 85 a 90 fica quase igual ao original em fotos."
+    ],
+    "detailsTitle": "Por que converter AVIF para JPG?",
+    "details": [
+      "O AVIF reduz uma imagem a um arquivo muito pequeno, e os sites estão começando a usá-lo. Mas muitos editores, impressoras, celulares e formulários de envio ainda não o aceitam. O JPG é o formato que funciona em qualquer lugar.",
+      "A conversão acontece no seu dispositivo. Nada é enviado, então é seguro para imagens privadas, e não há limite para a quantidade de arquivos que você converte."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter AVIF para JPG?",
+          "a": "Adicione seus arquivos AVIF, confirme que JPG é o formato de saída e clique em Redimensionar imagens. Depois baixe os arquivos JPG."
+        },
+        {
+          "q": "Por que meu arquivo AVIF não abre?",
+          "a": "A ferramenta usa o seu navegador para ler a imagem. Se o navegador for antigo e não abrir AVIF, atualize-o ou tente outro navegador atual."
+        },
+        {
+          "q": "Por que o JPG é maior que o AVIF?",
+          "a": "O AVIF é um formato mais novo e mais eficiente, então a mesma imagem ocupa mais espaço como JPG."
+        },
+        {
+          "q": "Posso converter vários arquivos de uma vez?",
+          "a": "Sim. Adicione quantos quiser, até 500 por vez, e baixe um a um ou em um ZIP."
+        }
+      ]
+    }
+  },
+  "jfifToJpg": {
+    "title": "Converter JFIF para JPG - Online, Grátis e sem Upload",
+    "description": "Converter JFIF para JPG online grátis: salve imagens .jfif como arquivos .jpg comuns no navegador, aceitos em qualquer site. Sem cadastro e sem upload.",
+    "h1": "Converter JFIF para JPG",
+    "intro": "Alguns downloads e navegadores salvam imagens como arquivos .jfif, que muitos sites e formulários recusam. Transforme-os em arquivos JPG comuns em um só passo. Adicione seus arquivos JFIF, clique no botão e baixe os arquivos JPG, ou um ZIP com todos eles.",
+    "blurb": "Transforme imagens .jfif em arquivos JPG comuns.",
+    "steps": [
+      {
+        "title": "Adicione seus arquivos JFIF",
+        "text": "Arraste uma ou várias imagens JFIF para a página ou escolha-as no seu dispositivo."
+      },
+      {
+        "title": "Confira o formato",
+        "text": "JPG já vem selecionado como formato de saída. Aumente a qualidade para manter a imagem o mais próxima possível do original."
+      },
+      {
+        "title": "Converta e baixe",
+        "text": "Clique em Redimensionar imagens e baixe cada arquivo JPG, ou todos em um ZIP."
+      }
+    ],
+    "tipsTitle": "Dicas para converter JFIF em JPG",
+    "tips": [
+      "JPEG e JPG são o mesmo formato. Só o nome muda, então um arquivo .jpg é uma imagem JPEG comum.",
+      "A imagem é salva de novo como JPG. Mantenha a qualidade alta (90 ou mais) para ficar o mais próximo possível do original.",
+      "Se um formulário pedir um arquivo pequeno, reduza a qualidade ou use a ferramenta “Reduzir para KB” depois da conversão.",
+      "Você pode adicionar arquivos .jfif como qualquer outra imagem: arraste-os para a página ou escolha-os no seu dispositivo."
+    ],
+    "detailsTitle": "O que é um arquivo JFIF?",
+    "details": [
+      "JFIF significa JPEG File Interchange Format. É a forma como uma imagem JPEG é embalada em um arquivo, então uma imagem .jfif contém o mesmo tipo de dados que um .jpg. Alguns programas e navegadores simplesmente a salvam com o nome .jfif, e muitos sites não aceitam esse nome.",
+      "A conversão acontece no seu dispositivo. Nada é enviado, então é seguro para imagens privadas, e não há limite para a quantidade de arquivos que você converte."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como converter JFIF para JPG?",
+          "a": "Adicione seus arquivos JFIF, confirme que JPG é o formato de saída e clique em Redimensionar imagens. Depois baixe os arquivos JPG."
+        },
+        {
+          "q": "JFIF é o mesmo que JPG?",
+          "a": "Quase. O JFIF é uma imagem JPEG salva com outro nome e outra extensão de arquivo. Depois da conversão, você recebe um arquivo .jpg comum."
+        },
+        {
+          "q": "JPEG é o mesmo que JPG?",
+          "a": "Sim. São duas grafias do mesmo formato. Sistemas antigos usavam extensões de três letras, e é por isso que existe .jpg ao lado de .jpeg."
+        },
+        {
+          "q": "Posso converter vários arquivos de uma vez?",
+          "a": "Sim. Adicione quantos quiser, até 500 por vez, e baixe um a um ou em um ZIP."
+        }
+      ]
+    }
+  },
+  "kb150": {
+    "title": "Reduzir Imagem para 150KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 150KB online grátis: comprima uma foto para 150 KB ou menos para formulários e portais, mantendo a nitidez. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para 150 KB",
+    "intro": "Formulários de inscrição, portais de provas e sites de vagas costumam pedir uma foto de no máximo 150 KB. Esta página já define esse limite para você: adicione sua imagem e baixe um arquivo com menos de 150 KB que continua nítido.",
+    "blurb": "Deixe uma imagem abaixo de 150 KB para formulários e portais.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos grandes de celular não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 150 KB",
+        "text": "150 KB já vem selecionado. A ferramenta conta 150 KB como 150.000 bytes, então o arquivo passa nos sistemas que contam 1 KB como 1.000 bytes e nos que contam 1.024."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 150 KB",
+    "tips": [
+      "Escolha JPG para fotos. A mesma foto salva como PNG costuma ser muitas vezes maior.",
+      "Se o formulário também pedir dimensões exatas em pixels, defina primeiro a largura e a altura e depois mantenha o limite de 150 KB ativado.",
+      "Uma foto de retrato ou de documento de cerca de 400 por 500 pixels cabe em 150 KB com bons detalhes. Uma foto grande de celular precisa ser diminuída em pixels para caber, e a ferramenta faz isso por você.",
+      "Para aplicar o mesmo limite a várias fotos, adicione todas de uma vez e baixe o arquivo ZIP."
+    ],
+    "detailsTitle": "O que 150 KB significa para uma foto",
+    "details": [
+      "Cento e cinquenta quilobytes é muitas vezes menos que uma foto de celular comum. Um JPG desse tamanho ainda pode conter uma imagem nítida de um rosto ou de um documento com um número moderado de pixels, que é o que formulários e portais precisam.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho exato do resultado antes de você baixar. Se um formulário pedir um arquivo ainda menor, escolha um limite mais baixo, como 100 KB ou 50 KB, e execute de novo."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 150 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 150 KB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "A imagem vai ficar pior?",
+          "a": "Um pouco, porque um arquivo menor guarda menos detalhes. A ferramenta escolhe a melhor qualidade que ainda cabe, então você obtém a imagem mais nítida possível abaixo de 150 KB."
+        },
+        {
+          "q": "E se meu arquivo já tem menos de 150 KB?",
+          "a": "Então ele já é pequeno o bastante. Só escolha um limite mais baixo se o formulário exigir."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "mb5": {
+    "title": "Reduzir Imagem para 5MB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 5MB online grátis: diminua uma foto grande para 5 MB ou menos para e-mail e envios, quase sem perda visível. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para 5 MB",
+    "intro": "Serviços de e-mail, formulários de inscrição e páginas de envio costumam aceitar arquivos de até 5 MB, e as fotos de um celular ou de uma câmera recente podem ser maiores. Adicione sua imagem e baixe um arquivo com menos de 5 MB (5.000.000 bytes) que continua nítido.",
+    "blurb": "Deixe uma imagem abaixo de 5 MB para e-mail e envios.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos de 8 a 20 MB não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 5 MB",
+        "text": "5 MB já vem selecionado. A ferramenta conta 5 MB como 5.000.000 bytes, então o arquivo passa nos sistemas que contam 5.000 KB e nos que contam 5.120 KB."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 5 MB",
+    "tips": [
+      "As fotos de celulares recentes costumam ter de 5 a 15 MB. Chegar a menos de 5 MB normalmente exige só uma pequena queda de qualidade, que você não vai notar na tela.",
+      "As fotos cabem melhor como JPG ou WebP. Uma foto salva como PNG costuma ser várias vezes maior.",
+      "Capturas de tela e logotipos ficam melhores em PNG: já são pequenos e mantêm as bordas nítidas.",
+      "Para enviar muitas fotos em um só e-mail, adicione todas de uma vez e baixe o arquivo ZIP."
+    ],
+    "detailsTitle": "O que 5 MB significa para uma foto",
+    "details": [
+      "Cinco megabytes são 5.000 quilobytes. Um JPG desse tamanho pode conter uma foto de 4000 por 3000 pixels com ótimos detalhes, dependendo da imagem, mais do que quase qualquer tela mostra.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho exato do resultado antes de você baixar. Ela só diminui o tamanho em pixels quando o limite não pode ser atingido apenas com a qualidade."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 5 MB?",
+          "a": "Adicione a imagem, mantenha o limite de 5 MB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "5 MB é o mesmo que 5.120 KB?",
+          "a": "Em alguns sistemas um megabyte conta como 1.024 quilobytes, em outros como 1.000. A ferramenta usa o valor menor (5.000 KB, ou 5.000.000 bytes), então o arquivo passa nos dois."
+        },
+        {
+          "q": "A imagem fica menor em pixels?",
+          "a": "Só se for preciso. A ferramenta reduz primeiro a qualidade e só diminui o tamanho em pixels quando não é possível chegar ao limite de outra forma."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "kb15": {
+    "title": "Reduzir Imagem para 15KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 15KB online grátis: comprima uma foto ou assinatura para 15 KB ou menos para formulários exigentes, com a maior nitidez. Sem cadastro.",
+    "h1": "Reduzir imagem para 15 KB",
+    "intro": "Alguns formulários aceitam apenas imagens muito pequenas, como uma assinatura ou uma foto do tamanho de um selo de 15 KB. Esta página já define esse limite para você: adicione sua imagem e baixe um arquivo com menos de 15 KB que continua legível.",
+    "blurb": "Deixe uma imagem bem pequena, abaixo de 15 KB, para formulários exigentes.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos grandes não são problema; a ferramenta as diminui."
+      },
+      {
+        "title": "Mantenha o limite de 15 KB",
+        "text": "15 KB já vem selecionado. A ferramenta conta 15 KB como 15.000 bytes, então o arquivo passa nos sistemas que contam 1 KB como 1.000 bytes e nos que contam 1.024."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 15 KB",
+    "tips": [
+      "15 KB é muito pouco. A ferramenta reduz a qualidade e, quando preciso, o número de pixels, então a imagem fica pequena na tela, mas legível.",
+      "Para uma assinatura, use fundo branco e tinta escura. Imagens simples comprimem bem melhor que imagens cheias de detalhes.",
+      "Se o formulário também pedir pixels exatos, defina primeiro a largura e a altura e depois mantenha o limite de 15 KB ativado.",
+      "Escolha JPG. Um PNG não pode ser reduzido para caber em um limite."
+    ],
+    "detailsTitle": "O que 15 KB significa para uma imagem",
+    "details": [
+      "Quinze quilobytes é pouquíssimo: uma foto de celular comum é centenas de vezes maior. Com esse tamanho, uma foto precisa ser pequena, mais ou menos do tamanho de uma miniatura, enquanto uma assinatura em fundo branco cabe com facilidade.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho exato do resultado antes de você baixar. Se não for possível atingir o limite, ela informa o menor tamanho que conseguiu gerar."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 15 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 15 KB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "Por que minha imagem fica pequena e borrada?",
+          "a": "Com 15 KB sobra muito pouco espaço para detalhes. A ferramenta usa a melhor qualidade que cabe e só diminui a imagem em pixels quando é preciso."
+        },
+        {
+          "q": "Posso deixar uma assinatura com 15 KB?",
+          "a": "Sim. Uma assinatura em fundo branco é simples, então comprime muito bem e continua legível."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "kb25": {
+    "title": "Reduzir Imagem para 25KB - Diminuir Foto Online Grátis",
+    "description": "Reduzir imagem para 25KB online grátis: comprima uma foto ou assinatura para 25 KB ou menos para formulários e portais, com nitidez. Sem cadastro e privado.",
+    "h1": "Reduzir imagem para 25 KB",
+    "intro": "Formulários e portais que pedem uma foto ou assinatura pequena costumam definir o limite em 25 KB. Esta página já define esse limite para você: adicione sua imagem e baixe um arquivo com menos de 25 KB que continua nítido.",
+    "blurb": "Deixe uma imagem abaixo de 25 KB para formulários e portais.",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a até aqui ou escolha-a no seu dispositivo. Fotos grandes de celular não são problema."
+      },
+      {
+        "title": "Mantenha o limite de 25 KB",
+        "text": "25 KB já vem selecionado. A ferramenta conta 25 KB como 25.000 bytes, então o arquivo passa nos sistemas que contam 1 KB como 1.000 bytes e nos que contam 1.024."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens e baixe o arquivo. O resultado mostra o tamanho exato."
+      }
+    ],
+    "tipsTitle": "Dicas para ficar abaixo de 25 KB",
+    "tips": [
+      "Uma foto pequena, no estilo de passaporte, de cerca de 200 por 250 pixels costuma caber em 25 KB. Uma foto grande de celular precisa ser diminuída em pixels, e a ferramenta faz isso por você.",
+      "Para uma assinatura, use fundo branco e tinta escura. Imagens simples comprimem bem melhor que imagens cheias de detalhes.",
+      "Se o formulário também pedir pixels exatos, defina primeiro a largura e a altura e depois mantenha o limite de 25 KB ativado.",
+      "Escolha JPG. Um PNG não pode ser reduzido para caber em um limite."
+    ],
+    "detailsTitle": "O que 25 KB significa para uma imagem",
+    "details": [
+      "Vinte e cinco quilobytes é um arquivo muito pequeno, mais de cem vezes menor que uma foto de celular comum. Um JPG desse tamanho ainda pode conter um rosto ou uma assinatura nítidos com poucos pixels, que é o que esses formulários verificam.",
+      "A ferramenta tenta a maior qualidade que cabe no limite e mostra o tamanho exato do resultado antes de você baixar. Se um formulário precisar de um arquivo ainda menor, escolha 20 KB ou 15 KB e execute de novo."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Como reduzir uma imagem para 25 KB?",
+          "a": "Adicione a imagem, mantenha o limite de 25 KB que já vem selecionado e clique em Redimensionar imagens. A ferramenta encontra a maior qualidade que cabe no limite."
+        },
+        {
+          "q": "Uma foto de 25 KB fica nítida?",
+          "a": "Em um tamanho pequeno, como uma foto estilo passaporte, sim. Uma imagem muito grande não consegue manter todos os detalhes em 25 KB, então a ferramenta a diminui em pixels quando preciso."
+        },
+        {
+          "q": "E se meu arquivo já tem menos de 25 KB?",
+          "a": "Então ele já é pequeno o bastante. Só escolha um limite mais baixo se o formulário exigir."
+        },
+        {
+          "q": "Minha imagem é enviada?",
+          "a": "Não. A imagem é processada no seu dispositivo e nunca é enviada."
+        }
+      ]
+    }
+  },
+  "pxToIn": {
+    "title": "Pixels para Polegadas - Conversor e Calculadora Grátis",
+    "description": "Converter pixels para polegadas online grátis: digite os pixels, escolha o DPI e veja o tamanho de impressão em polegadas. Para fotos, documentos e telas.",
+    "h1": "Converter pixels para polegadas",
+    "intro": "Digite um tamanho em pixels e veja quantas polegadas ele tem quando impresso no seu DPI. A calculadora também mostra tamanhos de impressão comuns em pixels e leva ao redimensionador de imagens grátis.",
+    "blurb": "Converta pixels em polegadas em qualquer DPI.",
+    "steps": [
+      {
+        "title": "Digite o tamanho em pixels",
+        "text": "Digite a largura e, se precisar, a altura. A unidade já vem definida em pixels."
+      },
+      {
+        "title": "Escolha o DPI",
+        "text": "Use 300 para impressão, 96 para tela ou o número que sua impressora ou formulário usa. O resultado muda enquanto você digita."
+      },
+      {
+        "title": "Veja o tamanho",
+        "text": "O tamanho aparece em polegadas. Mude a unidade se preferir outra."
+      }
+    ],
+    "tipsTitle": "Dicas para converter pixels em polegadas",
+    "tips": [
+      "Polegadas = pixels ÷ DPI. A 300 DPI, cada 300 pixels formam uma polegada.",
+      "Uma imagem de 1200 × 1800 pixels é impressa em 4 × 6 polegadas a 300 DPI e em 12,5 × 18,75 polegadas a 96 DPI.",
+      "A mesma imagem tem tamanhos diferentes em DPI diferentes: mais DPI significa uma impressão menor e mais nítida.",
+      "Use o botão de inverter para converter polegadas em pixels."
+    ],
+    "detailsTitle": "Como converter pixels em polegadas",
+    "details": [
+      "A fórmula é polegadas = pixels ÷ DPI. A 300 DPI, o valor usual para impressão, 1000 pixels são 3,33 polegadas. A 96 DPI, o padrão de uma tela no navegador, os mesmos 1000 pixels são 10,42 polegadas, e a 72 DPI são 13,89 polegadas.",
+      "Uma imagem não tem tamanho real até ser impressa, e o DPI é o que liga pixels a polegadas. Uma imagem full HD de 1920 × 1080 pixels tem 6,4 × 3,6 polegadas a 300 DPI e 20 × 11,25 polegadas a 96 DPI."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Quantas polegadas tem 1000 pixels?",
+          "a": "A 300 DPI, 1000 pixels são cerca de 3,33 polegadas. A 96 DPI, cerca de 10,42 polegadas."
+        },
+        {
+          "q": "Como converter pixels em polegadas?",
+          "a": "Divida os pixels pelo DPI. Ou digite os pixels na calculadora acima, que faz isso por você."
+        },
+        {
+          "q": "Qual DPI devo usar?",
+          "a": "Use 300 para impressão e 72 ou 96 para imagens que só aparecem na tela."
+        },
+        {
+          "q": "O DPI muda minha imagem?",
+          "a": "Não. O DPI só define o tamanho da imagem quando ela é impressa. Redimensione a imagem em si com o redimensionador de imagens."
+        }
+      ]
+    }
+  },
+  "pxToMm": {
+    "title": "Pixels para MM - Conversor e Calculadora Grátis (DPI)",
+    "description": "Converter pixels para mm online grátis: digite os pixels, escolha o DPI e veja o tamanho de impressão em milímetros. Útil para fotos de passaporte e documentos.",
+    "h1": "Converter pixels para mm",
+    "intro": "Digite um tamanho em pixels e veja quantos milímetros ele tem quando impresso no seu DPI. Útil para fotos de passaporte e de documento, cujo tamanho é dado em milímetros. A calculadora leva ao redimensionador de imagens grátis.",
+    "blurb": "Converta pixels em milímetros em qualquer DPI.",
+    "steps": [
+      {
+        "title": "Digite o tamanho em pixels",
+        "text": "Digite a largura e, se precisar, a altura. A unidade já vem definida em pixels."
+      },
+      {
+        "title": "Escolha o DPI",
+        "text": "Use 300 para impressão, 96 para tela ou o número que sua impressora ou formulário usa. O resultado muda enquanto você digita."
+      },
+      {
+        "title": "Veja o tamanho",
+        "text": "O tamanho aparece em milímetros. Mude a unidade se preferir outra."
+      }
+    ],
+    "tipsTitle": "Dicas para converter pixels em mm",
+    "tips": [
+      "Milímetros = pixels ÷ DPI × 25,4. A 300 DPI, um pixel tem cerca de 0,085 mm.",
+      "Uma foto de passaporte de 413 × 531 pixels tem cerca de 35 × 45 mm a 300 DPI.",
+      "A mesma imagem tem tamanhos diferentes em DPI diferentes: a 96 DPI, um pixel tem cerca de 0,26 mm.",
+      "Use o botão de inverter para converter milímetros em pixels."
+    ],
+    "detailsTitle": "Como converter pixels em mm",
+    "details": [
+      "A fórmula é milímetros = pixels ÷ DPI × 25,4, porque uma polegada tem 25,4 milímetros. A 300 DPI, 1000 pixels são cerca de 84,67 mm. A 96 DPI, os mesmos 1000 pixels são cerca de 264,58 mm.",
+      "Uma imagem não tem tamanho real até ser impressa, e o DPI é o que liga pixels a milímetros. Se um formulário pede um tamanho em milímetros e você só sabe os pixels, 300 DPI é o valor usual para fotos."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Quantos mm tem 1000 pixels?",
+          "a": "A 300 DPI, 1000 pixels são cerca de 84,67 mm. A 96 DPI, cerca de 264,58 mm."
+        },
+        {
+          "q": "Como converter pixels em mm?",
+          "a": "Divida os pixels pelo DPI e multiplique por 25,4. Ou digite os pixels na calculadora acima, que faz isso por você."
+        },
+        {
+          "q": "Qual DPI devo usar?",
+          "a": "Use 300 para impressão e para fotos de passaporte ou de documento, e 72 ou 96 para imagens que só aparecem na tela."
+        },
+        {
+          "q": "O DPI muda minha imagem?",
+          "a": "Não. O DPI só define o tamanho da imagem quando ela é impressa. Redimensione a imagem em si com o redimensionador de imagens."
+        }
+      ]
+    }
+  },
+  "paperPx": {
+    "title": "Tamanho A4 em Pixels: A5, Letter e Mais (72 a 600 DPI)",
+    "description": "Tamanho A4 em pixels a 72, 96, 150, 300 e 600 DPI, além de A3, A5, A6, Letter e Legal em uma só tabela, com calculadora grátis. Roda no seu dispositivo.",
+    "h1": "Tamanhos de papel em pixels (A4, A5, Letter)",
+    "intro": "Quantos pixels tem uma página A4? Depende do DPI. A tabela mostra os tamanhos de papel comuns em pixels em cinco valores de DPI, e a calculadora converte qualquer outro tamanho.",
+    "blurb": "A4, A5, Letter e mais em pixels em qualquer DPI.",
+    "note": "Os pixels são arredondados para números inteiros. Use estes tamanhos para imagens que você quer imprimir ou colocar em uma página desse formato.",
+    "tableTitle": "Tamanhos de papel em pixels",
+    "steps": [
+      {
+        "title": "Encontre seu tamanho de papel",
+        "text": "Procure A3, A4, A5, A6, B5, Letter, Legal ou Tabloid na tabela e leia os pixels na coluna do DPI de que você precisa."
+      },
+      {
+        "title": "Ou digite outro tamanho",
+        "text": "Digite qualquer largura e altura na calculadora, escolha o DPI e leia o resultado em pixels."
+      },
+      {
+        "title": "Redimensione sua imagem",
+        "text": "Abra o redimensionador de imagens, digite os pixels e baixe uma imagem que cabe na página."
+      }
+    ],
+    "tipsTitle": "Dicas para tamanhos de papel em pixels",
+    "tips": [
+      "O A4 a 300 DPI tem 2480 × 3508 pixels: o tamanho a usar para uma impressão nítida.",
+      "Para um documento que só aparece na tela, o A4 a 96 DPI (794 × 1123 pixels) basta.",
+      "O A4 a 72 DPI tem 595 × 842 pixels, o tamanho de uma página de PDF em pontos.",
+      "O US Letter é mais curto e mais largo que o A4: 2550 × 3300 pixels a 300 DPI."
+    ],
+    "detailsTitle": "Por que o papel não tem um único tamanho em pixels",
+    "details": [
+      "O papel tem um tamanho real em milímetros ou polegadas, e uma imagem tem pixels. O DPI (pontos por polegada) liga os dois: o A4 tem 210 × 297 mm, o que dá 2480 × 3508 pixels a 300 DPI, mas só 794 × 1123 pixels a 96 DPI.",
+      "A série A da ISO divide a página ao meio a cada passo: o A4 é metade do A3 e o dobro do A5, e todos têm as mesmas proporções. O US Letter, o Legal e o Tabloid vêm de polegadas e têm outras proporções."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Qual é o tamanho do A4 em pixels?",
+          "a": "A 300 DPI, o A4 tem 2480 × 3508 pixels. A 150 DPI são 1240 × 1754, a 96 DPI são 794 × 1123 e a 72 DPI são 595 × 842."
+        },
+        {
+          "q": "Qual é o tamanho do US Letter em pixels?",
+          "a": "A 300 DPI, o US Letter (8,5 × 11 polegadas) tem 2550 × 3300 pixels. A 96 DPI são 816 × 1056."
+        },
+        {
+          "q": "Qual é o tamanho do A5 em pixels?",
+          "a": "A 300 DPI, o A5 tem 1748 × 2480 pixels. A 96 DPI são 559 × 794."
+        },
+        {
+          "q": "Qual DPI devo usar?",
+          "a": "Use 300 para impressão e 72 ou 96 para imagens que só aparecem na tela."
+        }
+      ]
+    }
+  },
+  "instagramSize": {
+    "title": "Tamanho de Imagem para Instagram: Post, Story, Reels",
+    "description": "Tamanhos de imagem do Instagram em pixels para posts quadrados e verticais, stories e reels. Redimensione sua foto grátis, sem upload e sem cadastro.",
+    "h1": "Tamanho de imagem para Instagram",
+    "intro": "As imagens ficam melhores no Instagram quando já têm o formato certo. Escolha o tamanho abaixo e a ferramenta corta e redimensiona sua foto para combinar, no seu dispositivo.",
+    "blurb": "Redimensione fotos para posts, stories e reels do Instagram.",
+    "note": "O Instagram muda o layout de tempos em tempos. Estes são os tamanhos mais usados hoje; os formatos (1:1, 4:5 e 9:16) mudam bem menos que os pixels exatos.",
+    "tableTitle": "Tamanhos do Instagram",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a para a página ou escolha-a no seu dispositivo."
+      },
+      {
+        "title": "Escolha o tamanho do Instagram",
+        "text": "Abra a lista Predefinição, vá até Redes sociais e escolha Instagram · post · 1080x1080 (ou 1080x1350) para o feed, ou Instagram · story / reel · 1080x1920. O primeiro tamanho de post já vem selecionado."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. Cortar para preencher já vem selecionado, então nada é esticado."
+      }
+    ],
+    "tipsTitle": "Dicas para imagens nítidas no Instagram",
+    "tips": [
+      "Um post vertical (1080 × 1350 pixels, 4:5) ocupa mais espaço no feed, então se destaca mais que um quadrado.",
+      "Stories e reels têm 1080 × 1920 pixels (9:16). Mantenha rostos e textos longe das bordas de cima e de baixo, porque botões e legendas as cobrem.",
+      "Comece com uma imagem pelo menos do tamanho final. O Instagram comprime todos os envios, então um original nítido dá o melhor resultado.",
+      "Use JPG para fotos e PNG para gráficos com texto nítido."
+    ],
+    "detailsTitle": "Tamanhos e formatos do Instagram",
+    "details": [
+      "Um post quadrado tem 1080 × 1080 pixels (1:1). Um post vertical tem 1080 × 1350 pixels (4:5), e um post horizontal tem cerca de 1080 × 566 pixels (1.91:1). Stories e reels usam a tela inteira do celular: 1080 × 1920 pixels (9:16). Uma foto de perfil deve ter pelo menos 320 × 320 pixels e aparece como um círculo.",
+      "Se uma imagem tem outro formato, a ferramenta pode cortá-la para preencher a caixa ou ajustá-la dentro da caixa. Escolha Ajustar dentro da caixa para manter a imagem inteira, com barras vazias nas laterais, ou Cortar para preencher a caixa para manter o centro e cortar as bordas."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Qual é o melhor tamanho para um post no Instagram?",
+          "a": "Use 1080 × 1080 pixels para um post quadrado e 1080 × 1350 pixels para um post vertical, que ocupa mais espaço no feed."
+        },
+        {
+          "q": "Qual é o tamanho de um story ou reel do Instagram?",
+          "a": "1080 × 1920 pixels, que é 9:16, a altura inteira da tela de um celular."
+        },
+        {
+          "q": "Como postar uma foto inteira sem cortar?",
+          "a": "Escolha o tamanho do Instagram em Predefinição e depois escolha Ajustar dentro da caixa em vez de Cortar para preencher a caixa. A imagem inteira continua visível e nada é cortado."
+        },
+        {
+          "q": "Qual é o tamanho da foto de perfil do Instagram?",
+          "a": "Envie pelo menos 320 × 320 pixels. O Instagram a mostra como um círculo, então mantenha o rosto no meio."
+        }
+      ]
+    }
+  },
+  "youtubeSize": {
+    "title": "Tamanho de Thumbnail do YouTube: 1280x720 - Grátis",
+    "description": "Tamanho de thumbnail do YouTube: 1280 x 720 pixels (16:9). Redimensione sua imagem para miniatura ou banner do canal grátis, sem upload e sem cadastro.",
+    "h1": "Tamanho de thumbnail do YouTube",
+    "intro": "A miniatura (thumbnail) de um vídeo do YouTube tem 1280 × 720 pixels, em 16:9. Adicione sua imagem e a ferramenta a redimensiona e corta para esse tamanho, no seu dispositivo, e mostra o tamanho do arquivo.",
+    "blurb": "Redimensione imagens para uma miniatura ou um banner do YouTube.",
+    "note": "O YouTube atualiza suas recomendações de tempos em tempos. Estes são tamanhos muito usados que funcionam com os formatos atuais.",
+    "tableTitle": "Tamanhos do YouTube",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a para a página ou escolha-a no seu dispositivo."
+      },
+      {
+        "title": "Escolha o tamanho do YouTube",
+        "text": "Abra a lista Predefinição, vá até Redes sociais e escolha YouTube miniatura ou banner. O tamanho da miniatura já vem selecionado."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. Cortar para preencher já vem selecionado, então nada é esticado."
+      }
+    ],
+    "tipsTitle": "Dicas para uma boa miniatura do YouTube",
+    "tips": [
+      "Use 1280 × 720 pixels e mantenha o formato 16:9. Um formato diferente ganha barras ou é cortado.",
+      "Mantenha o arquivo abaixo de 2 MB. Esse é há muito tempo o limite, e um arquivo menor nunca é recusado.",
+      "Mantenha rostos e textos longe do canto inferior direito, onde aparece a duração do vídeo.",
+      "Use JPG para fotos. O PNG é melhor para gráficos com texto nítido, mas o arquivo é maior."
+    ],
+    "detailsTitle": "Tamanhos de imagem do YouTube",
+    "details": [
+      "Uma miniatura tem 1280 × 720 pixels, com largura mínima de 640 pixels, em 16:9. Um banner de canal tem 2560 × 1440 pixels, e só a parte do meio aparece em todos os dispositivos, então mantenha logotipos e textos no centro. Uma foto de canal fica melhor com 800 × 800 pixels.",
+      "Se uma miniatura passa do limite de tamanho do arquivo, a ferramenta pode reduzir a qualidade até ela caber. Escolha Limitar o tamanho do arquivo e digite 2 MB; a melhor qualidade que cabe é escolhida para você."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Qual deve ser o tamanho de uma miniatura do YouTube?",
+          "a": "1280 × 720 pixels em 16:9, com um arquivo de menos de 2 MB."
+        },
+        {
+          "q": "Qual é o tamanho do banner de um canal do YouTube?",
+          "a": "2560 × 1440 pixels. Só o centro aparece em todos os dispositivos, então mantenha o conteúdo importante no meio."
+        },
+        {
+          "q": "Como deixar uma miniatura com menos de 2 MB?",
+          "a": "Redimensione para 1280 × 720, depois ative Limitar o tamanho do arquivo e digite 2 MB. A ferramenta encontra a melhor qualidade que cabe."
+        },
+        {
+          "q": "Qual formato de arquivo é melhor para uma miniatura?",
+          "a": "JPG para fotos. É pequeno e nítido o bastante. Use PNG só quando a imagem tiver texto nítido ou cores chapadas e o tamanho do arquivo permitir."
+        }
+      ]
+    }
+  },
+  "facebookSize": {
+    "title": "Tamanho de Imagem para Facebook: Capa e Post - Grátis",
+    "description": "Tamanhos de imagem do Facebook em pixels para foto de capa e posts. Redimensione sua imagem para o Facebook grátis, sem upload e sem cadastro.",
+    "h1": "Tamanho de imagem para Facebook",
+    "intro": "As imagens ficam melhores no Facebook quando já têm o formato certo. Escolha o tamanho abaixo e a ferramenta corta e redimensiona sua imagem para combinar, no seu dispositivo.",
+    "blurb": "Redimensione imagens para a capa ou um post do Facebook.",
+    "note": "O Facebook muda o layout de tempos em tempos. Estes são tamanhos muito usados que funcionam com os formatos atuais.",
+    "tableTitle": "Tamanhos do Facebook",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a para a página ou escolha-a no seu dispositivo."
+      },
+      {
+        "title": "Escolha o tamanho do Facebook",
+        "text": "Abra a lista Predefinição, vá até Redes sociais e escolha Facebook post ou capa. O tamanho do post já vem selecionado."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. Cortar para preencher já vem selecionado, então nada é esticado."
+      }
+    ],
+    "tipsTitle": "Dicas para imagens nítidas no Facebook",
+    "tips": [
+      "Uma foto de capa aparece com 820 × 312 pixels no computador e em outro formato no celular, então mantenha o conteúdo importante no meio.",
+      "Uma imagem de post compartilhado ou de link funciona bem com 1200 × 630 pixels.",
+      "Comece com uma imagem pelo menos do tamanho final. O Facebook comprime todos os envios, então um original nítido dá o melhor resultado.",
+      "Use JPG para fotos e PNG para gráficos com texto nítido."
+    ],
+    "detailsTitle": "Tamanhos e formatos do Facebook",
+    "details": [
+      "Uma foto de capa tem 820 × 312 pixels no computador. Os celulares a mostram cortada em outro formato, por isso o meio da imagem é o que mais importa. Uma imagem de post ou de link compartilhado tem 1200 × 630 pixels. A foto de perfil aparece como um círculo: envie uma imagem quadrada de pelo menos 320 × 320 pixels e mantenha o rosto no meio.",
+      "Se uma imagem tem outro formato, a ferramenta pode cortá-la para preencher a caixa ou ajustá-la dentro da caixa. Escolha Ajustar dentro da caixa para manter a imagem inteira, com barras vazias nas laterais, ou Cortar para preencher a caixa para manter o centro e cortar as bordas."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Qual é o tamanho da foto de capa do Facebook?",
+          "a": "820 × 312 pixels no computador. Os celulares a cortam de outra forma, então mantenha textos e rostos no meio."
+        },
+        {
+          "q": "Qual deve ser o tamanho da imagem de um post no Facebook?",
+          "a": "1200 × 630 pixels funciona bem para um post ou um link compartilhado."
+        },
+        {
+          "q": "Qual é o tamanho da foto de perfil do Facebook?",
+          "a": "Envie uma imagem quadrada de pelo menos 320 × 320 pixels. O Facebook a mostra como um círculo, então mantenha o rosto no meio."
+        },
+        {
+          "q": "Como evitar o corte no Facebook?",
+          "a": "Escolha o tamanho do Facebook em Predefinição e depois escolha Ajustar dentro da caixa em vez de Cortar para preencher a caixa. A imagem inteira continua visível e nada é cortado."
+        }
+      ]
+    }
+  },
+  "whatsappSize": {
+    "title": "Tamanho da Foto de Perfil do WhatsApp: 500x500 - Grátis",
+    "description": "Tamanho da foto de perfil do WhatsApp: 500 x 500 pixels; status: 1080 x 1920. Redimensione sua foto para o WhatsApp grátis, sem upload e sem cadastro.",
+    "h1": "Tamanho da foto de perfil do WhatsApp",
+    "intro": "O WhatsApp mostra sua foto de perfil como um círculo, então uma imagem quadrada funciona melhor. Adicione sua foto e a ferramenta a corta e redimensiona para o tamanho certo, no seu dispositivo.",
+    "blurb": "Redimensione fotos para o perfil ou o status do WhatsApp.",
+    "note": "O WhatsApp pode mudar a forma como mostra as imagens. Estes são tamanhos que funcionam bem hoje.",
+    "tableTitle": "Tamanhos do WhatsApp",
+    "steps": [
+      {
+        "title": "Adicione sua imagem",
+        "text": "Arraste-a para a página ou escolha-a no seu dispositivo."
+      },
+      {
+        "title": "Escolha o tamanho do WhatsApp",
+        "text": "Abra a lista Predefinição, vá até Redes sociais e escolha WhatsApp · foto de perfil · 500x500 para a foto de perfil, ou WhatsApp · story / reel · 1080x1920 para um status. O tamanho da foto de perfil já vem selecionado."
+      },
+      {
+        "title": "Redimensione e baixe",
+        "text": "Clique em Redimensionar imagens. Cortar para preencher já vem selecionado, então nada é esticado."
+      }
+    ],
+    "tipsTitle": "Dicas para uma boa foto de perfil no WhatsApp",
+    "tips": [
+      "Use uma imagem quadrada de 500 × 500 pixels. O WhatsApp a mostra como um círculo, então mantenha o rosto no meio.",
+      "Uma imagem de status tem 1080 × 1920 pixels (9:16), a altura inteira da tela de um celular.",
+      "Uma imagem maior que o necessário é diminuída pelo WhatsApp e pode ficar borrada. Redimensioná-la antes dá a você o controle do resultado.",
+      "Use JPG para fotos. É pequeno e nítido o bastante para uma foto de perfil."
+    ],
+    "detailsTitle": "Tamanhos de imagem do WhatsApp",
+    "details": [
+      "O WhatsApp pede uma foto de perfil quadrada. O aplicativo a mostra como um círculo nas conversas e nos contatos, então os cantos da imagem nunca aparecem. Um tamanho de 500 × 500 pixels fica nítido em qualquer tela e é pequeno o bastante para enviar rápido.",
+      "Se sua foto não é quadrada, escolha Cortar para preencher a caixa e o meio da imagem é mantido. Escolha Ajustar dentro da caixa para manter a imagem inteira com barras vazias; o WhatsApp então permite mover e dar zoom nela dentro do círculo."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Qual é o tamanho da foto de perfil do WhatsApp?",
+          "a": "500 × 500 pixels, uma imagem quadrada. O WhatsApp a mostra como um círculo."
+        },
+        {
+          "q": "Qual é o tamanho da imagem de status do WhatsApp?",
+          "a": "1080 × 1920 pixels (9:16), a altura inteira da tela de um celular."
+        },
+        {
+          "q": "Como deixar minha foto no tamanho do WhatsApp sem cortar meu rosto?",
+          "a": "Escolha o tamanho do WhatsApp em Predefinição e mantenha Cortar para preencher. O meio da imagem é mantido, que é onde normalmente fica o rosto."
+        },
+        {
+          "q": "Por que minha foto de perfil fica borrada?",
+          "a": "Uma imagem pequena demais é esticada, e uma grande demais é diminuída pelo aplicativo. Redimensione para 500 × 500 pixels antes para um resultado nítido."
         }
       ]
     }

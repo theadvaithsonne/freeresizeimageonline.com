@@ -14,7 +14,7 @@ earn links from other sites. Both lists are below.
 | Structured data | `WebSite`, `SoftwareApplication`, `WebApplication`, `FAQPage`, `BreadcrumbList`, `Article` (guides) |
 | Internal links | Every page links to every tool page, guide and the FAQ (menu on phones, header tabs and strip on wide screens, footer, "popular tasks", "more free tools"), so crawlers find everything in one step |
 | Speed and quality | Lighthouse mobile: performance 98-100, accessibility 100, SEO 100. Layout does not jump. No analytics or tracking cookies |
-| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (820 URLs with alternates). The 404 page is `noindex` |
+| Crawling | `robots.txt` allows everything and points to `sitemap.xml` (1,140 URLs with alternates). The 404 page is `noindex` |
 | IndexNow | `scripts/indexnow.mjs` tells Bing, Yandex, Seznam and Naver about all pages after a deploy (the key file is in `public/`) |
 
 ## What you need to do (once)
@@ -100,3 +100,15 @@ What moves the numbers from here (honest): position 45 to the top 10 needs links
 sitemap + "Request indexing" in Search Console and Bing, a handful of real directory / community posts (alternative-to lists, Product Hunt-style launch,
 forums where people ask "how to reduce photo to 50 kb"), and share the language pages with people in those markets. Re-read Search Console
 (Performance > Queries) every two weeks and retune titles of pages that have impressions but no clicks.
+
+## Keyword database and wave 3 (2026-11-24)
+
+`docs/keywords/` holds 10,881 real English search phrases (US, India, UK autocomplete) with their topic cluster, the page that serves them and a demand
+score (see its README). The phrases are not pasted into pages (that is spam and can fail the AdSense review); each cluster is answered by a page that does the job.
+
+Built from it, all 20 languages: WebP to PNG, GIF to JPG, BMP to JPG, AVIF to JPG, JFIF to JPG; pixels to inches, pixels to mm, paper sizes in pixels
+(A4, A5, Letter at 72 to 600 DPI); Instagram, YouTube, Facebook and WhatsApp size pages (the resizer with that platform's sizes); resize to 15 KB, 25 KB,
+150 KB and 5 MB. The PDF result screen also shows a strip of the finished pages. Previews everywhere were made sharper (see PLAN.md).
+
+Next, by demand: change DPI (write the density into the file), crop, rotate / flip, remove EXIF, HEIC to JPG (decoder licence first), upscale, India PAN /
+Aadhaar / SSC photo sizes (check the official notices first). SVG to PNG and TIFF to JPG are not possible reliably in a browser.

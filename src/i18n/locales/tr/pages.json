@@ -33,7 +33,23 @@
     "cmToPx": "cm'den piksele",
     "inToPx": "İnçten piksele",
     "mmToPx": "mm'den piksele",
-    "pxToCm": "Pikselden cm'ye"
+    "pxToCm": "Pikselden cm'ye",
+    "webpToPng": "WebP'den PNG'ye",
+    "gifToJpg": "GIF'ten JPG'ye",
+    "bmpToJpg": "BMP'den JPG'ye",
+    "avifToJpg": "AVIF'ten JPG'ye",
+    "jfifToJpg": "JFIF'ten JPG'ye",
+    "kb150": "150 KB'a küçült",
+    "mb5": "5 MB'a küçült",
+    "kb15": "15 KB'a küçült",
+    "kb25": "25 KB'a küçült",
+    "pxToIn": "Pikselden inçe",
+    "pxToMm": "Pikselden mm'ye",
+    "paperPx": "Kağıt boyutları (piksel)",
+    "instagramSize": "Instagram fotoğraf boyutu",
+    "youtubeSize": "YouTube küçük resim boyutu",
+    "facebookSize": "Facebook fotoğraf boyutu",
+    "whatsappSize": "WhatsApp profil boyutu"
   },
   "common": {
     "howTo": "Nasıl kullanılır?",
@@ -1756,6 +1772,864 @@
         {
           "q": "DPI resmimi değiştirir mi?",
           "a": "Hayır. DPI yalnızca resmin yazdırıldığında ne kadar büyük olacağını belirler. Resmin kendisini resim boyutlandırıcıyla boyutlandırın."
+        }
+      ]
+    }
+  },
+  "webpToPng": {
+    "title": "WebP PNG Çevirme - WebP'den PNG'ye Dönüştürücü, Ücretsiz",
+    "description": "WebP PNG çevirme online ücretsiz: WebP resimlerini tarayıcınızda PNG dosyalarına dönüştürün, saydamlık korunur. Kayıt ve yükleme yok, sınır yok.",
+    "h1": "WebP PNG çevirme: WebP'yi PNG'ye dönüştür",
+    "intro": "WebP resimlerini her programda açılan PNG dosyalarına çevirin. Saydam alanlar saydam kalır. WebP dosyalarınızı ekleyin, düğmeye basın ve PNG dosyalarını ya da hepsini içeren bir ZIP'i indirin.",
+    "blurb": "WebP resimlerini PNG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "WebP dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok WebP resmini sayfaya sürükleyin ya da cihazınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak PNG zaten seçili. Resimler boyutlarını korur."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her PNG dosyasını ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "WebP'yi PNG'ye dönüştürme ipuçları",
+    "tips": [
+      "PNG her pikseli olduğu gibi korur; bu yüzden PNG genellikle çıktığı WebP'den büyük olur. Bu normaldir.",
+      "WebP'nin saydam alanları PNG'de de saydam kalır; böylece logolar ve arka planı silinmiş resimler şeklini korur.",
+      "Sıradan bir fotoğrafta küçük bir dosya gerekiyorsa JPG daha iyi bir seçimdir. PNG; grafikler, ekran görüntüleri ve saydamlıklı resimler için en iyisidir.",
+      "Hareketli bir WebP, ilk karesinden oluşan durağan bir PNG olur."
+    ],
+    "detailsTitle": "WebP'yi neden PNG'ye dönüştürmeli?",
+    "details": [
+      "WebP, web için üretilmiş bir biçimdir: iyi kaliteyle küçük dosyalar. Ama her düzenleyici, yazıcı ve yükleme formu onu kabul etmez. PNG hemen her yerde kabul edilir ve resmi hiçbir kayıp olmadan korur.",
+      "Dönüştürme cihazınızda yapılır. Hiçbir şey yüklenmez; bu yüzden özel resimler için güvenlidir ve kaç dosya dönüştüreceğinizin sınırı yoktur."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "WebP'yi PNG'ye nasıl dönüştürürüm?",
+          "a": "WebP dosyalarınızı ekleyin, çıktı biçiminin PNG olduğundan emin olun ve Resimleri boyutlandır düğmesine basın. Sonra PNG dosyalarını indirin."
+        },
+        {
+          "q": "PNG saydamlığı korur mu?",
+          "a": "Evet. WebP'nin saydam alanları PNG'de de saydam kalır."
+        },
+        {
+          "q": "PNG neden WebP'den büyük?",
+          "a": "WebP genellikle küçük bir kayıpla sıkıştırılır; PNG ise her pikseli olduğu gibi saklar. Aynı resim PNG olarak daha fazla yer kaplar."
+        },
+        {
+          "q": "Birçok dosyayı aynı anda dönüştürebilir miyim?",
+          "a": "Evet. Tek seferde 500'e kadar istediğiniz kadar ekleyin ve tek tek ya da ZIP olarak indirin."
+        }
+      ]
+    }
+  },
+  "gifToJpg": {
+    "title": "GIF JPG Çevirme - GIF'ten JPG'ye Dönüştürücü, Ücretsiz",
+    "description": "GIF JPG çevirme online ücretsiz: GIF resimlerini tarayıcınızda JPG dosyalarına dönüştürün, kaliteyi siz seçin. Kayıt ve yükleme yok, sınır yok.",
+    "h1": "GIF JPG çevirme: GIF'i JPG'ye dönüştür",
+    "intro": "GIF resimlerini tek adımda JPG dosyalarına çevirin. JPG hemen her yerde kabul edilir ve fotoğraflarda çok daha küçüktür. GIF dosyalarınızı ekleyin, düğmeye basın ve JPG dosyalarını ya da hepsini içeren bir ZIP'i indirin.",
+    "blurb": "GIF resimlerini JPG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "GIF dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok GIF resmini sayfaya sürükleyin ya da cihazınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak JPG zaten seçili. Daha küçük bir dosya için kaliteyi düşürün."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her JPG dosyasını ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "GIF'i JPG'ye dönüştürme ipuçları",
+    "tips": [
+      "Hareketli bir GIF tek bir durağan resme, yani ilk karesine dönüşür. Animasyonu korumak için GIF'i saklayın.",
+      "JPG fotoğraflar için yapılmıştır ve bir fotoğraf için çoğu zaman daha küçük dosya verir. GIF ise az renkli basit grafiklere uygundur.",
+      "GIF'in saydam alanları beyaz olur, çünkü JPG saydam olamaz.",
+      "Çoğu resimde 80 ile 90 arası kalite, daha küçük bir dosyayla orijinaline neredeyse aynı görünür."
+    ],
+    "detailsTitle": "GIF mi JPG mi: ne değişir?",
+    "details": [
+      "GIF, küçük grafikler ve kısa animasyonlar için yapıldı. Birçok web sitesi, form ve uygulama yalnızca JPG gibi durağan resimleri kabul eder; GIF'in sık sık reddedilmesinin nedeni budur.",
+      "Dönüştürme cihazınızda yapılır. Hiçbir şey yüklenmez; bu yüzden özel resimler için güvenlidir ve kaç dosya dönüştüreceğinizin sınırı yoktur."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "GIF'i JPG'ye nasıl dönüştürürüm?",
+          "a": "GIF dosyalarınızı ekleyin, çıktı biçiminin JPG olduğundan emin olun ve Resimleri boyutlandır düğmesine basın. Sonra JPG dosyalarını indirin."
+        },
+        {
+          "q": "Hareketli bir GIF'i JPG'ye dönüştürebilir miyim?",
+          "a": "Evet, ama tek bir resim elde edersiniz: animasyonun ilk karesi. JPG hareket edemez."
+        },
+        {
+          "q": "Saydam alanlara ne olur?",
+          "a": "Beyazla doldurulurlar, çünkü JPG saydam olamaz."
+        },
+        {
+          "q": "Birçok dosyayı aynı anda dönüştürebilir miyim?",
+          "a": "Evet. Tek seferde 500'e kadar istediğiniz kadar ekleyin ve tek tek ya da ZIP olarak indirin."
+        }
+      ]
+    }
+  },
+  "bmpToJpg": {
+    "title": "BMP JPG Çevirme - BMP'den JPG'ye Dönüştürücü, Ücretsiz",
+    "description": "BMP JPG çevirme online ücretsiz: büyük BMP resimlerini tarayıcınızda küçük JPG dosyalarına dönüştürün, kaliteyi siz seçin. Kayıt ve yükleme yok.",
+    "h1": "BMP JPG çevirme: BMP'yi JPG'ye dönüştür",
+    "intro": "BMP dosyaları sıkıştırılmadığı için çok büyüktür. Onları çok daha küçük ve her yerde açılan JPG dosyalarına çevirin. BMP dosyalarınızı ekleyin, düğmeye basın ve JPG dosyalarını ya da hepsini içeren bir ZIP'i indirin.",
+    "blurb": "Büyük BMP dosyalarını küçük JPG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "BMP dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok BMP resmini sayfaya sürükleyin ya da cihazınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak JPG zaten seçili. Daha küçük bir dosya için kaliteyi düşürün."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her JPG dosyasını ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "BMP'yi JPG'ye dönüştürme ipuçları",
+    "tips": [
+      "BMP her pikseli sıkıştırmadan saklar; bu yüzden bir fotoğraf JPG olarak çoğu zaman on kat, hatta daha da küçüktür.",
+      "Fotoğraflarda 85 ile 90 arası kalite, çok daha küçük bir dosyayla orijinaline neredeyse aynı görünür.",
+      "Keskin yazılı ekran görüntüleri veya basit grafikler için PNG daha iyi bir seçimdir. Bunun için Resim dönüştür sayfasını kullanın.",
+      "Birçok yükleme formu BMP dosyalarını reddeder. JPG ise neredeyse her yerde kabul edilir."
+    ],
+    "detailsTitle": "BMP neden bu kadar büyük?",
+    "details": [
+      "BMP, en eski resim biçimlerinden biridir. Her pikselin rengini tek tek yazar; bu yüzden 12 megapiksellik bir resim yaklaşık 36 MB tutar. JPG resmi sıkıştırır ve gözün fark ettiği her şeyi korur; dosyanın bu kadar çok küçülmesinin nedeni budur.",
+      "Dönüştürme cihazınızda yapılır. Hiçbir şey yüklenmez; bu yüzden özel resimler için güvenlidir ve kaç dosya dönüştüreceğinizin sınırı yoktur."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "BMP'yi JPG'ye nasıl dönüştürürüm?",
+          "a": "BMP dosyalarınızı ekleyin, çıktı biçiminin JPG olduğundan emin olun ve Resimleri boyutlandır düğmesine basın. Sonra JPG dosyalarını indirin."
+        },
+        {
+          "q": "JPG, BMP'den ne kadar küçüktür?",
+          "a": "Fotoğrafta çoğu zaman on kat veya daha fazla. Tam sonuç her resmin yanında gösterilir."
+        },
+        {
+          "q": "BMP'yi JPG'ye dönüştürmek kaliteyi düşürür mü?",
+          "a": "Biraz, çünkü JPG kayıplıdır. 85 ve üzeri kalitede fark nadiren görülür."
+        },
+        {
+          "q": "Birçok dosyayı aynı anda dönüştürebilir miyim?",
+          "a": "Evet. Tek seferde 500'e kadar istediğiniz kadar ekleyin ve tek tek ya da ZIP olarak indirin."
+        }
+      ]
+    }
+  },
+  "avifToJpg": {
+    "title": "AVIF JPG Çevirme - AVIF'ten JPG'ye Dönüştürücü, Ücretsiz",
+    "description": "AVIF JPG çevirme online ücretsiz: AVIF resimlerini tarayıcınızda her yerde açılan JPG dosyalarına dönüştürün. Kayıt ve yükleme yok, sınır yok.",
+    "h1": "AVIF JPG çevirme: AVIF'i JPG'ye dönüştür",
+    "intro": "AVIF, birçok programın ve web sitesinin henüz açamadığı yeni bir biçimdir. AVIF resimlerini her yerde çalışan JPG dosyalarına çevirin. AVIF dosyalarınızı ekleyin, düğmeye basın ve JPG dosyalarını ya da hepsini içeren bir ZIP'i indirin.",
+    "blurb": "AVIF resimlerini JPG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "AVIF dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok AVIF resmini sayfaya sürükleyin ya da cihazınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak JPG zaten seçili. Daha küçük bir dosya için kaliteyi düşürün."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her JPG dosyasını ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "AVIF'i JPG'ye dönüştürme ipuçları",
+    "tips": [
+      "Tarayıcınızın AVIF dosyalarını açabilmesi gerekir. Chrome, Edge, Firefox ve Safari'nin güncel sürümleri açabilir. Bir dosya reddedilirse tarayıcınızı güncelleyin.",
+      "AVIF çok verimlidir; bu yüzden JPG genellikle AVIF'ten büyük olur. Küçük bir dosya gerekiyorsa kaliteyi biraz düşürün.",
+      "AVIF'in saydam alanları beyaz olur, çünkü JPG saydam olamaz. Saydamlığa ihtiyacınız varsa bunun yerine PNG'ye dönüştürün.",
+      "Fotoğraflarda 85 ile 90 arası kalite, orijinaline neredeyse aynı görünür."
+    ],
+    "detailsTitle": "AVIF'i neden JPG'ye dönüştürmeli?",
+    "details": [
+      "AVIF, resmi çok küçük bir dosyaya sığdırır ve web siteleri onu kullanmaya başlıyor. Ama birçok düzenleyici, yazıcı, telefon ve yükleme formu hâlâ kabul etmez. JPG, her yerde çalışan biçimdir.",
+      "Dönüştürme cihazınızda yapılır. Hiçbir şey yüklenmez; bu yüzden özel resimler için güvenlidir ve kaç dosya dönüştüreceğinizin sınırı yoktur."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "AVIF'i JPG'ye nasıl dönüştürürüm?",
+          "a": "AVIF dosyalarınızı ekleyin, çıktı biçiminin JPG olduğundan emin olun ve Resimleri boyutlandır düğmesine basın. Sonra JPG dosyalarını indirin."
+        },
+        {
+          "q": "AVIF dosyam neden açılmıyor?",
+          "a": "Araç resmi okumak için tarayıcınızı kullanır. Tarayıcınız eskiyse ve AVIF açamıyorsa onu güncelleyin ya da güncel başka bir tarayıcı deneyin."
+        },
+        {
+          "q": "JPG neden AVIF'ten büyük?",
+          "a": "AVIF daha yeni ve daha verimli bir biçimdir; bu yüzden aynı resim JPG olarak daha fazla yer kaplar."
+        },
+        {
+          "q": "Birçok dosyayı aynı anda dönüştürebilir miyim?",
+          "a": "Evet. Tek seferde 500'e kadar istediğiniz kadar ekleyin ve tek tek ya da ZIP olarak indirin."
+        }
+      ]
+    }
+  },
+  "jfifToJpg": {
+    "title": "JFIF JPG Çevirme - JFIF'ten JPG'ye Dönüştürücü, Ücretsiz",
+    "description": "JFIF JPG çevirme online ücretsiz: .jfif resimlerini tarayıcınızda normal .jpg dosyası olarak kaydedin, her site kabul etsin. Kayıt ve yükleme yok.",
+    "h1": "JFIF JPG çevirme: JFIF'i JPG'ye dönüştür",
+    "intro": "Bazı indirmeler ve tarayıcılar resimleri, birçok web sitesinin ve formun reddettiği .jfif dosyaları olarak kaydeder. Onları tek adımda normal JPG dosyalarına çevirin. JFIF dosyalarınızı ekleyin, düğmeye basın ve JPG dosyalarını ya da hepsini içeren bir ZIP'i indirin.",
+    "blurb": ".jfif resimlerini normal JPG dosyalarına çevirin.",
+    "steps": [
+      {
+        "title": "JFIF dosyalarınızı ekleyin",
+        "text": "Bir veya birden çok JFIF resmini sayfaya sürükleyin ya da cihazınızdan seçin."
+      },
+      {
+        "title": "Biçimi kontrol edin",
+        "text": "Çıktı biçimi olarak JPG zaten seçili. Resmi orijinaline olabildiğince yakın tutmak için kaliteyi yükseltin."
+      },
+      {
+        "title": "Dönüştürün ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve her JPG dosyasını ayrı ayrı veya hepsini ZIP olarak indirin."
+      }
+    ],
+    "tipsTitle": "JFIF'i JPG'ye dönüştürme ipuçları",
+    "tips": [
+      "JPEG ve JPG aynı biçimdir. Yalnızca ad farklıdır; yani .jpg dosyası normal bir JPEG resmidir.",
+      "Resim yeniden JPG olarak kaydedilir. Orijinale olabildiğince yakın kalmak için kaliteyi yüksek (90 veya üzeri) tutun.",
+      "Bir form küçük bir dosya istiyorsa kaliteyi düşürün ya da dönüştürmeden sonra KB'a küçült aracını kullanın.",
+      ".jfif dosyalarını başka herhangi bir resim gibi ekleyebilirsiniz: sayfaya sürükleyin ya da cihazınızdan seçin."
+    ],
+    "detailsTitle": "JFIF dosyası nedir?",
+    "details": [
+      "JFIF, JPEG File Interchange Format sözcüklerinin kısaltmasıdır. Bir JPEG resminin dosyaya sarılma biçimidir; yani .jfif resmi, .jpg ile aynı tür veriyi taşır. Bazı programlar ve tarayıcılar onu yalnızca .jfif adıyla kaydeder ve birçok site bu adı kabul etmez.",
+      "Dönüştürme cihazınızda yapılır. Hiçbir şey yüklenmez; bu yüzden özel resimler için güvenlidir ve kaç dosya dönüştüreceğinizin sınırı yoktur."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "JFIF'i JPG'ye nasıl dönüştürürüm?",
+          "a": "JFIF dosyalarınızı ekleyin, çıktı biçiminin JPG olduğundan emin olun ve Resimleri boyutlandır düğmesine basın. Sonra JPG dosyalarını indirin."
+        },
+        {
+          "q": "JFIF, JPG ile aynı mı?",
+          "a": "Neredeyse. JFIF, başka bir ad ve dosya uzantısıyla kaydedilmiş bir JPEG resmidir. Dönüştürmeden sonra normal bir .jpg dosyası elde edersiniz."
+        },
+        {
+          "q": "JPEG, JPG ile aynı mı?",
+          "a": "Evet. Aynı biçimin iki yazılışıdır. Eski sistemler üç harfli adlar kullanırdı; .jpeg'in yanında .jpg'nin de bulunmasının nedeni budur."
+        },
+        {
+          "q": "Birçok dosyayı aynı anda dönüştürebilir miyim?",
+          "a": "Evet. Tek seferde 500'e kadar istediğiniz kadar ekleyin ve tek tek ya da ZIP olarak indirin."
+        }
+      ]
+    }
+  },
+  "kb150": {
+    "title": "Fotoğraf 150 KB Düşürme - 150 KB Yapma Online Ücretsiz",
+    "description": "Fotoğraf 150 KB düşürme ücretsiz: sınav portalı ve form yüklemeleri için 150 KB yapın veya altına sıkıştırın. Kayıt yok, tarayıcıda çalışır, net kalır.",
+    "h1": "Fotoğraf 150 KB düşürme (150 KB yapma)",
+    "intro": "Başvuru formları, sınav portalları ve iş siteleri çoğu zaman en fazla 150 KB'lık bir fotoğraf ister. Bu sayfa sınırı sizin için ayarlar: resminizi ekleyin ve yine de net görünen, 150 KB'ın (150.000 bayt) altında bir dosya indirin.",
+    "blurb": "Form ve portal yüklemeleri için resmi 150 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Büyük telefon fotoğrafları sorun değil."
+      },
+      {
+        "title": "150 KB sınırını koruyun",
+        "text": "150 KB önceden seçili. Araç bunu 150.000 bayt sayar; böylece dosya 1 KB'ı 1.000 bayt sayan sistemlerden de 1.024 bayt sayanlardan da geçer."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve dosyayı indirin. Sonuç, tam boyutunu gösterir."
+      }
+    ],
+    "tipsTitle": "150 KB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Fotoğraflar için JPG seçin. PNG olarak kaydedilmiş aynı fotoğraf genellikle kat kat daha büyüktür.",
+      "Form kesin piksel ölçüleri de istiyorsa önce genişliği ve yüksekliği ayarlayın, sonra 150 KB sınırını açık tutun.",
+      "Yaklaşık 400 × 500 piksellik bir portre veya vesikalık fotoğraf, iyi ayrıntıyla 150 KB'a sığar. Büyük bir telefon fotoğrafının sığması için pikselce küçültülmesi gerekir; bunu araç sizin yerinize yapar.",
+      "Aynı sınırı birçok fotoğrafa uygulamak için hepsini aynı anda ekleyin ve ZIP dosyasını indirin."
+    ],
+    "detailsTitle": "150 KB bir fotoğraf için ne anlama gelir?",
+    "details": [
+      "Yüz elli kilobayt, tipik bir telefon fotoğrafından kat kat küçüktür. Bu boyuttaki bir JPG, makul bir piksel sayısında bir yüzün veya belgenin net bir görüntüsünü yine de taşıyabilir; formların ve portalların ihtiyaç duyduğu da budur.",
+      "Araç, sığan en yüksek kaliteyi dener ve indirmeden önce sonucun tam boyutunu gösterir. Bir form daha da küçük bir dosya istiyorsa 100 KB veya 50 KB gibi daha düşük bir sınır seçin ve yeniden çalıştırın."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 150 KB'a nasıl düşürürüm?",
+          "a": "Resmi ekleyin, önceden seçili olan 150 KB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en yüksek kaliteyi bulur."
+        },
+        {
+          "q": "Resim daha kötü görünür mü?",
+          "a": "Biraz, çünkü daha küçük bir dosya daha az ayrıntı taşır. Araç yine de sığan en iyi kaliteyi seçer; böylece 150 KB altındaki en net resmi elde edersiniz."
+        },
+        {
+          "q": "Dosyam zaten 150 KB'ın altındaysa ne olur?",
+          "a": "O zaman zaten yeterince küçüktür. Yalnızca form gerektiriyorsa daha düşük bir sınır seçin."
+        },
+        {
+          "q": "Resmim yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "mb5": {
+    "title": "Fotoğraf 5 MB Yapma - 5 MB Altına Düşürme Ücretsiz",
+    "description": "Fotoğraf 5 MB yapma ve 5 MB altına düşürme ücretsiz: e-posta, form ve yüklemeler için büyük fotoğrafı gözle görülür kayıp olmadan küçültün. Kayıt yok.",
+    "h1": "Fotoğraf 5 MB yapma (5 MB altına düşürme)",
+    "intro": "E-posta hizmetleri, başvuru formları ve yükleme sayfaları çoğu zaman en fazla 5 MB'lık dosyaları kabul eder; yeni telefon veya kamera fotoğrafları ise daha büyük olabilir. Resminizi ekleyin ve yine de net görünen, 5 MB'ın (5.000.000 bayt) altında bir dosya indirin.",
+    "blurb": "E-posta ve yüklemeler için resmi 5 MB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. 8 ile 20 MB'lık fotoğraflar sorun değil."
+      },
+      {
+        "title": "5 MB sınırını koruyun",
+        "text": "Önceden 5 MB seçili. Araç bunu 5.000.000 bayt sayar; böylece dosya 5.000 KB sayan sistemlerden de 5.120 KB sayanlardan da geçer."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve dosyayı indirin. Sonuç, tam boyutunu gösterir."
+      }
+    ],
+    "tipsTitle": "5 MB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Yeni telefonların fotoğrafları çoğu zaman 5 ile 15 MB arasındadır. 5 MB altına inmek genellikle kalitede yalnızca küçük bir düşüş gerektirir; bunu ekranda fark etmezsiniz.",
+      "Fotoğraflar en iyi JPG veya WebP olarak sığar. PNG olarak kaydedilmiş bir fotoğraf genellikle birkaç kat daha büyüktür.",
+      "Ekran görüntüleri ve logolar PNG olarak daha iyidir: zaten küçüktür ve kenarları keskin tutar.",
+      "Tek bir e-postayla çok sayıda fotoğraf göndermek için hepsini aynı anda ekleyin ve ZIP dosyasını indirin."
+    ],
+    "detailsTitle": "5 MB bir fotoğraf için ne anlama gelir?",
+    "details": [
+      "Beş megabayt 5.000 kilobayttır. Bu boyuttaki bir JPG, resme göre değişmekle birlikte 4000 × 3000 piksellik bir fotoğrafı çok iyi ayrıntıyla taşıyabilir; bu da hemen hemen her ekranın gösterdiğinden fazladır.",
+      "Araç, sığan en yüksek kaliteyi dener ve indirmeden önce sonucun tam boyutunu gösterir. Piksel boyutunu yalnızca sınıra kaliteyle tek başına ulaşılamadığında küçültür."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 5 MB'a nasıl düşürürüm?",
+          "a": "Resmi ekleyin, önceden seçili olan 5 MB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en yüksek kaliteyi bulur."
+        },
+        {
+          "q": "5 MB, 5.120 KB ile aynı mı?",
+          "a": "Bazı sistemlerde bir megabayt 1.024 kilobayt, bazılarında 1.000 kilobayt sayılır. Araç küçük olan değeri (5.000 KB veya 5.000.000 bayt) kullanır, böylece dosya her ikisinden de geçer."
+        },
+        {
+          "q": "Resim piksel olarak da küçülür mü?",
+          "a": "Yalnızca zorunluysa. Araç önce kaliteyi düşürür; piksel boyutunu yalnızca sınıra başka türlü ulaşılamıyorsa küçültür."
+        },
+        {
+          "q": "Resmim yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "kb15": {
+    "title": "Fotoğraf 15 KB Yapma - Resim Küçültme Online Ücretsiz",
+    "description": "Fotoğraf 15 KB yapma online ücretsiz: fotoğrafı veya imzayı sıkı yükleme formları için 15 KB veya altına küçültün, net kalsın. Kayıt ve yükleme yok.",
+    "h1": "Fotoğraf 15 KB yapma",
+    "intro": "Bazı formlar yalnızca imza ya da pul boyutunda bir fotoğraf gibi çok küçük resimleri kabul eder; sınır 15 KB'dır. Bu sayfa sınırı sizin için ayarlar: resminizi ekleyin ve yine de okunaklı kalan, 15 KB'ın altında bir dosya indirin.",
+    "blurb": "Sıkı formlar için 15 KB altında küçücük bir resim elde edin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Büyük fotoğraflar sorun değil; araç onları küçültür."
+      },
+      {
+        "title": "15 KB sınırını koruyun",
+        "text": "15 KB önceden seçili. Araç bunu 15.000 bayt sayar; böylece dosya 1 KB'ı 1.000 bayt sayan sistemlerden de 1.024 bayt sayanlardan da geçer."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve dosyayı indirin. Sonuç, tam boyutunu gösterir."
+      }
+    ],
+    "tipsTitle": "15 KB'ın altında kalmak için ipuçları",
+    "tips": [
+      "15 KB çok küçüktür. Araç kaliteyi ve gerekirse piksel sayısını düşürür; böylece resim ekranda küçük ama okunaklı olur.",
+      "İmza için beyaz arka plan ve koyu mürekkep kullanın. Sade resimler, karmaşık olanlardan çok daha iyi sıkışır.",
+      "Form kesin piksel de istiyorsa önce genişliği ve yüksekliği ayarlayın, sonra 15 KB sınırını açık tutun.",
+      "JPG seçin. PNG, bir sınıra sığması için küçültülemez."
+    ],
+    "detailsTitle": "15 KB bir resim için ne anlama gelir?",
+    "details": [
+      "On beş kilobayt çok küçüktür: tipik bir telefon fotoğrafı yüzlerce kat daha büyüktür. Bu boyutta bir fotoğraf ufak olmak zorundadır, yaklaşık bir küçük resim boyutunda; beyaz zemindeki bir imza ise kolayca sığar.",
+      "Araç, sığan en yüksek kaliteyi dener ve indirmeden önce sonucun tam boyutunu gösterir. Sınıra ulaşılamazsa yapabildiği en küçük boyutu size söyler."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 15 KB'a nasıl düşürürüm?",
+          "a": "Resmi ekleyin, önceden seçili olan 15 KB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en yüksek kaliteyi bulur."
+        },
+        {
+          "q": "Resmim neden küçük ve yumuşak görünüyor?",
+          "a": "15 KB'ta ayrıntıya çok az yer vardır. Araç sığan en iyi kaliteyi kullanır ve resmi pikselce yalnızca zorunluysa küçültür."
+        },
+        {
+          "q": "İmzayı 15 KB yapabilir miyim?",
+          "a": "Evet. Beyaz zemindeki bir imza basittir; bu yüzden çok iyi sıkışır ve okunaklı kalır."
+        },
+        {
+          "q": "Resmim yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "kb25": {
+    "title": "Fotoğraf 25 KB Yapma - KB Düşürme Online Ücretsiz",
+    "description": "Fotoğraf 25 KB yapma online ücretsiz: fotoğrafı veya imzayı form ve portallar için 25 KB veya altına küçültün, net kalsın. Kayıt yok, cihazınızda kalır.",
+    "h1": "Fotoğraf 25 KB yapma",
+    "intro": "Küçük bir fotoğraf veya imza isteyen formlar ve portallar sınırı çoğu zaman 25 KB olarak belirler. Bu sayfa sınırı sizin için ayarlar: resminizi ekleyin ve yine de net görünen, 25 KB'ın altında bir dosya indirin.",
+    "blurb": "Form ve portallar için resmi 25 KB altına indirin.",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Buraya sürükleyin veya cihazınızdan seçin. Büyük telefon fotoğrafları sorun değil."
+      },
+      {
+        "title": "25 KB sınırını koruyun",
+        "text": "25 KB önceden seçili. Araç bunu 25.000 bayt sayar; böylece dosya 1 KB'ı 1.000 bayt sayan sistemlerden de 1.024 bayt sayanlardan da geçer."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın ve dosyayı indirin. Sonuç, tam boyutunu gösterir."
+      }
+    ],
+    "tipsTitle": "25 KB'ın altında kalmak için ipuçları",
+    "tips": [
+      "Yaklaşık 200 × 250 piksellik küçük, pasaport tarzı bir fotoğraf genellikle 25 KB'a sığar. Büyük bir telefon fotoğrafının pikselce küçültülmesi gerekir; bunu araç sizin yerinize yapar.",
+      "İmza için beyaz arka plan ve koyu mürekkep kullanın. Sade resimler, karmaşık olanlardan çok daha iyi sıkışır.",
+      "Form kesin piksel de istiyorsa önce genişliği ve yüksekliği ayarlayın, sonra 25 KB sınırını açık tutun.",
+      "JPG seçin. PNG, bir sınıra sığması için küçültülemez."
+    ],
+    "detailsTitle": "25 KB bir resim için ne anlama gelir?",
+    "details": [
+      "Yirmi beş kilobayt çok küçük bir dosyadır; tipik bir telefon fotoğrafından yüz kattan fazla küçüktür. Bu boyuttaki bir JPG, küçük bir piksel sayısında net bir yüzü veya imzayı yine de taşıyabilir; bu tür formların kontrol ettiği de budur.",
+      "Araç, sığan en yüksek kaliteyi dener ve indirmeden önce sonucun tam boyutunu gösterir. Bir form daha da küçük bir dosya istiyorsa 20 KB veya 15 KB seçin ve yeniden çalıştırın."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Bir resmi 25 KB'a nasıl düşürürüm?",
+          "a": "Resmi ekleyin, önceden seçili olan 25 KB sınırı kalsın ve Resimleri boyutlandır düğmesine basın. Araç, sığan en yüksek kaliteyi bulur."
+        },
+        {
+          "q": "25 KB'lık bir fotoğraf net görünür mü?",
+          "a": "Pasaport tarzı bir fotoğraf gibi küçük bir boyutta, evet. Çok büyük bir resim tüm ayrıntısını 25 KB'a sığdıramaz; bu yüzden araç gerektiğinde onu pikselce küçültür."
+        },
+        {
+          "q": "Dosyam zaten 25 KB'ın altındaysa ne olur?",
+          "a": "O zaman zaten yeterince küçüktür. Yalnızca form gerektiriyorsa daha düşük bir sınır seçin."
+        },
+        {
+          "q": "Resmim yükleniyor mu?",
+          "a": "Hayır. Resim cihazınızda işlenir ve hiçbir zaman yüklenmez."
+        }
+      ]
+    }
+  },
+  "pxToIn": {
+    "title": "Piksel İnç Çevirme - Pikselden İnçe Hesaplayıcı (DPI)",
+    "description": "Piksel inç çevirme online ücretsiz: pikseli yazın, DPI değerini seçin, baskı boyutunu inç olarak alın. Fotoğraf, belge ve ekran için, cihazınızda çalışır.",
+    "h1": "Piksel inç çevirme: pikseli inçe dönüştür",
+    "intro": "Piksel olarak bir boyut yazın ve DPI değerinizde kaç inç basıldığını görün. Hesaplayıcı ayrıca yaygın baskı boyutlarını piksel olarak gösterir ve ücretsiz resim boyutlandırıcıya bağlanır.",
+    "blurb": "Pikseli herhangi bir DPI değerinde inçe çevirin.",
+    "steps": [
+      {
+        "title": "Boyutu piksel olarak girin",
+        "text": "Genişliği, gerekirse yüksekliği de yazın. Birim zaten piksel olarak ayarlı."
+      },
+      {
+        "title": "DPI değerini seçin",
+        "text": "Baskı için 300, ekran için 96 veya yazıcınızın ya da formun kullandığı sayıyı seçin. Sonuç yazdıkça değişir."
+      },
+      {
+        "title": "Boyutu okuyun",
+        "text": "Boyut inç olarak görünür. Tercih ederseniz birimi değiştirin."
+      }
+    ],
+    "tipsTitle": "Pikseli inçe çevirme ipuçları",
+    "tips": [
+      "İnç = piksel ÷ DPI. 300 DPI'da her 300 piksel bir inç eder.",
+      "1200 × 1800 piksellik bir resim, 300 DPI'da 4 × 6 inç, 96 DPI'da ise 12,5 × 18,75 inç basılır.",
+      "Aynı resim farklı bir DPI değerinde farklı boyuttadır: DPI ne kadar yüksekse baskı o kadar küçük ve net olur.",
+      "İnçi piksele çevirmek için birimleri değiştir düğmesini kullanın."
+    ],
+    "detailsTitle": "Piksel inçe nasıl çevrilir?",
+    "details": [
+      "Formül şöyledir: inç = piksel ÷ DPI. Baskı için olağan seçim olan 300 DPI'da 1000 piksel 3,33 inçtir. Tarayıcıda bir ekranın standardı olan 96 DPI'da aynı 1000 piksel 10,42 inç, 72 DPI'da ise 13,89 inçtir.",
+      "Bir resmin yazdırılana kadar gerçek bir boyutu yoktur; pikselleri inçe bağlayan şey DPI'dır. 1920 × 1080 piksellik tam HD bir resim, 300 DPI'da 6,4 × 3,6 inç, 96 DPI'da ise 20 × 11,25 inçtir."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 piksel kaç inçtir?",
+          "a": "300 DPI'da 1000 piksel yaklaşık 3,33 inçtir. 96 DPI'da yaklaşık 10,42 inçtir."
+        },
+        {
+          "q": "Piksel inçe nasıl çevrilir?",
+          "a": "Pikseli DPI değerine bölün. Ya da pikselleri yukarıdaki hesaplayıcıya yazın, o sizin yerinize yapar."
+        },
+        {
+          "q": "Hangi DPI değerini kullanmalıyım?",
+          "a": "Baskı için 300, yalnızca ekranda gösterilen resimler için 72 veya 96 kullanın."
+        },
+        {
+          "q": "DPI resmimi değiştirir mi?",
+          "a": "Hayır. DPI yalnızca resmin yazdırıldığında ne kadar büyük olacağını belirler. Resmin kendisini resim boyutlandırıcıyla boyutlandırın."
+        }
+      ]
+    }
+  },
+  "pxToMm": {
+    "title": "Piksel mm Çevirme - Pikselden mm'ye Hesaplayıcı (DPI)",
+    "description": "Piksel mm çevirme online ücretsiz: pikseli yazın, DPI değerini seçin, baskı boyutunu milimetre olarak alın. Vesikalık ve pasaport için, cihazınızda çalışır.",
+    "h1": "Piksel mm çevirme: pikseli mm'ye dönüştür",
+    "intro": "Piksel olarak bir boyut yazın ve DPI değerinizde kaç milimetre basıldığını görün. Milimetre olarak verilen pasaport ve vesikalık fotoğraflar için kullanışlıdır. Hesaplayıcı ücretsiz resim boyutlandırıcıya bağlanır.",
+    "blurb": "Pikseli herhangi bir DPI değerinde milimetreye çevirin.",
+    "steps": [
+      {
+        "title": "Boyutu piksel olarak girin",
+        "text": "Genişliği, gerekirse yüksekliği de yazın. Birim zaten piksel olarak ayarlı."
+      },
+      {
+        "title": "DPI değerini seçin",
+        "text": "Baskı için 300, ekran için 96 veya yazıcınızın ya da formun kullandığı sayıyı seçin. Sonuç yazdıkça değişir."
+      },
+      {
+        "title": "Boyutu okuyun",
+        "text": "Boyut milimetre olarak görünür. Tercih ederseniz birimi değiştirin."
+      }
+    ],
+    "tipsTitle": "Pikseli mm'ye çevirme ipuçları",
+    "tips": [
+      "Milimetre = piksel ÷ DPI × 25,4. 300 DPI'da bir piksel yaklaşık 0,085 mm'dir.",
+      "413 × 531 piksellik bir pasaport fotoğrafı, 300 DPI'da yaklaşık 35 × 45 mm'dir.",
+      "Aynı resim farklı bir DPI değerinde farklı boyuttadır: 96 DPI'da bir piksel yaklaşık 0,26 mm'dir.",
+      "Milimetreyi piksele çevirmek için birimleri değiştir düğmesini kullanın."
+    ],
+    "detailsTitle": "Piksel mm'ye nasıl çevrilir?",
+    "details": [
+      "Formül şöyledir: milimetre = piksel ÷ DPI × 25,4; çünkü bir inç 25,4 milimetredir. 300 DPI'da 1000 piksel yaklaşık 84,67 mm'dir. 96 DPI'da aynı 1000 piksel yaklaşık 264,58 mm'dir.",
+      "Bir resmin yazdırılana kadar gerçek bir boyutu yoktur; pikselleri milimetreye bağlayan şey DPI'dır. Bir form milimetre cinsinden boyut istiyor ve siz yalnızca pikselleri biliyorsanız, fotoğraflar için olağan değer 300 DPI'dır."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 piksel kaç mm'dir?",
+          "a": "300 DPI'da 1000 piksel yaklaşık 84,67 mm'dir. 96 DPI'da yaklaşık 264,58 mm'dir."
+        },
+        {
+          "q": "Piksel mm'ye nasıl çevrilir?",
+          "a": "Pikseli DPI değerine bölün ve 25,4 ile çarpın. Ya da pikselleri yukarıdaki hesaplayıcıya yazın, o sizin yerinize yapar."
+        },
+        {
+          "q": "Hangi DPI değerini kullanmalıyım?",
+          "a": "Baskı ile pasaport veya vesikalık fotoğraflar için 300, yalnızca ekranda gösterilen resimler için 72 veya 96 kullanın."
+        },
+        {
+          "q": "DPI resmimi değiştirir mi?",
+          "a": "Hayır. DPI yalnızca resmin yazdırıldığında ne kadar büyük olacağını belirler. Resmin kendisini resim boyutlandırıcıyla boyutlandırın."
+        }
+      ]
+    }
+  },
+  "paperPx": {
+    "title": "A4 Boyutu Piksel Olarak - A4, A5, Letter (72-600 DPI)",
+    "description": "A4 boyutu piksel olarak: 72, 96, 150, 300 ve 600 DPI'da A4; ayrıca A3, A5, A6, Letter ve Legal tek tabloda, ücretsiz hesaplayıcıyla. Cihazınızda çalışır.",
+    "h1": "Kağıt boyutları piksel olarak (A4, A5, Letter)",
+    "intro": "A4 sayfa kaç pikseldir? Bu, DPI değerine bağlıdır. Tablo yaygın kağıt boyutlarını beş DPI değerinde piksel olarak gösterir; hesaplayıcı da başka herhangi bir boyutu çevirir.",
+    "blurb": "A4, A5, Letter ve daha fazlası, herhangi bir DPI değerinde piksel olarak.",
+    "note": "Pikseller tam sayıya yuvarlanır. Bu boyutları, o formattaki bir sayfaya yazdırmak veya yerleştirmek istediğiniz resimler için kullanın.",
+    "tableTitle": "Kağıt boyutları piksel olarak",
+    "steps": [
+      {
+        "title": "Kağıt boyutunuzu bulun",
+        "text": "Tabloda A3, A4, A5, A6, B5, Letter, Legal veya Tabloid boyutunu bulun ve ihtiyacınız olan DPI sütunundaki pikselleri okuyun."
+      },
+      {
+        "title": "Ya da başka bir boyut girin",
+        "text": "Hesaplayıcıya herhangi bir genişlik ve yükseklik yazın, DPI değerini seçin ve sonucu piksel olarak okuyun."
+      },
+      {
+        "title": "Resminizi boyutlandırın",
+        "text": "Resim boyutlandırıcıyı açın, pikselleri girin ve sayfaya uyan bir resim indirin."
+      }
+    ],
+    "tipsTitle": "Kağıt boyutları için piksel ipuçları",
+    "tips": [
+      "300 DPI'da A4, 2480 × 3508 pikseldir: net bir baskı için kullanılacak boyut.",
+      "Yalnızca ekranda gösterilen bir belge için 96 DPI'da A4 (794 × 1123 piksel) yeterlidir.",
+      "72 DPI'da A4, 595 × 842 pikseldir; bir PDF sayfasının punto cinsinden boyutu.",
+      "US Letter, A4'ten daha kısa ve daha geniştir: 300 DPI'da 2550 × 3300 piksel."
+    ],
+    "detailsTitle": "Kağıdın neden tek bir piksel boyutu yoktur?",
+    "details": [
+      "Kağıdın milimetre veya inç cinsinden gerçek bir boyutu vardır; resmin ise pikseli. İkisini DPI (inç başına nokta) birbirine bağlar: A4, 210 × 297 mm'dir; bu da 300 DPI'da 2480 × 3508 piksel, 96 DPI'da ise yalnızca 794 × 1123 pikseldir.",
+      "ISO A serisi sayfayı her seferinde ikiye böler: A4, A3'ün yarısı ve A5'in iki katıdır; hepsi aynı oranları paylaşır. US Letter, Legal ve Tabloid inçten gelir ve başka oranlara sahiptir."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "A4 boyutu piksel olarak nedir?",
+          "a": "300 DPI'da A4, 2480 × 3508 pikseldir. 150 DPI'da 1240 × 1754, 96 DPI'da 794 × 1123, 72 DPI'da ise 595 × 842'dir."
+        },
+        {
+          "q": "US Letter boyutu piksel olarak nedir?",
+          "a": "300 DPI'da US Letter (8,5 × 11 inç) 2550 × 3300 pikseldir. 96 DPI'da 816 × 1056'dır."
+        },
+        {
+          "q": "A5 boyutu piksel olarak nedir?",
+          "a": "300 DPI'da A5, 1748 × 2480 pikseldir. 96 DPI'da 559 × 794'tür."
+        },
+        {
+          "q": "Hangi DPI değerini kullanmalıyım?",
+          "a": "Baskı için 300, yalnızca ekranda gösterilen resimler için 72 veya 96 kullanın."
+        }
+      ]
+    }
+  },
+  "instagramSize": {
+    "title": "Instagram Fotoğraf Boyutu: Gönderi, Hikaye, Reel - Ücretsiz",
+    "description": "Kare ve dikey gönderiler, hikaye ve reel için Instagram fotoğraf boyutları (piksel). Fotoğrafınızı Instagram'a ücretsiz uydurun; yükleme ve kayıt yok.",
+    "h1": "Instagram fotoğraf boyutu",
+    "intro": "Fotoğraflar, Instagram'da baştan doğru biçimdeyken en iyi görünür. Aşağıdaki boyutu seçin; araç fotoğrafınızı buna göre cihazınızda boyutlandırıp kırpsın.",
+    "blurb": "Instagram gönderi, hikaye ve reelleri için fotoğrafları boyutlandırın.",
+    "note": "Instagram arayüzünü zaman zaman değiştirir. Bunlar şu an en çok kullanılan boyutlardır; oranlar (1:1, 4:5 ve 9:16), tam piksel değerlerinden çok daha az değişir.",
+    "tableTitle": "Instagram boyutları",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "Instagram boyutunu seçin",
+        "text": "Hazır ayar listesini açın, Sosyal medya bölümüne gidin ve akış için Instagram · gönderi (1080x1080 veya 1080x1350) ya da Instagram · hikaye / reel (1080x1920) seçeneğini seçin. İlk gönderi boyutu zaten seçili."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Kutuyu dolduracak şekilde kırp seçili olduğu için hiçbir şey uzatılmaz."
+      }
+    ],
+    "tipsTitle": "Net Instagram fotoğrafları için ipuçları",
+    "tips": [
+      "Dikey bir gönderi (1080 × 1350 piksel, 4:5) akışta en çok yeri kaplar; bu yüzden kare olandan daha çok dikkat çeker.",
+      "Hikaye ve reeller 1080 × 1920 pikseldir (9:16). Yüzleri ve yazıyı üst ve alt kenarlardan uzak tutun; çünkü düğmeler ve açıklamalar buraları örter.",
+      "Hedef boyuttan en az o kadar büyük bir resimle başlayın. Instagram her yüklemeyi sıkıştırır; bu yüzden net bir orijinal en iyi sonucu verir.",
+      "Fotoğraflar için JPG, keskin yazılı grafikler için PNG kullanın."
+    ],
+    "detailsTitle": "Instagram boyutları ve biçimleri",
+    "details": [
+      "Kare bir gönderi 1080 × 1080 pikseldir (1:1). Dikey bir gönderi 1080 × 1350 piksel (4:5), yatay bir gönderi ise yaklaşık 1080 × 566 pikseldir (1.91:1). Hikaye ve reeller telefon ekranının tamamını kullanır: 1080 × 1920 piksel (9:16). Profil fotoğrafı en az 320 × 320 piksel olmalıdır ve daire olarak gösterilir.",
+      "Bir resim başka bir biçimdeyse araç onu kutuyu dolduracak şekilde kırpabilir ya da kutuya sığdırabilir. Resmin tamamını, yanlarda boş çubuklarla birlikte korumak için Kutuya sığdır seçeneğini; ortasını koruyup kenarlarını kesmek için Kutuyu dolduracak şekilde kırp seçeneğini seçin."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Instagram gönderisi için en iyi boyut nedir?",
+          "a": "Kare gönderi için 1080 × 1080 piksel, akışta en çok yeri kaplayan dikey gönderi için 1080 × 1350 piksel kullanın."
+        },
+        {
+          "q": "Instagram hikayesinin veya reelin boyutu nedir?",
+          "a": "1080 × 1920 piksel; bu 9:16 demektir, yani bir telefon ekranının tam yüksekliği."
+        },
+        {
+          "q": "Fotoğrafın tamamını kırpmadan nasıl paylaşırım?",
+          "a": "Hazır ayar listesinden Instagram boyutunu seçin, ardından Kutuyu dolduracak şekilde kırp yerine Kutuya sığdır'ı seçin. Resmin tamamı görünür kalır ve hiçbir yer kesilmez."
+        },
+        {
+          "q": "Instagram profil fotoğrafının boyutu nedir?",
+          "a": "En az 320 × 320 piksel yükleyin. Instagram onu daire olarak gösterir; bu yüzden yüzü ortada tutun."
+        }
+      ]
+    }
+  },
+  "youtubeSize": {
+    "title": "YouTube Küçük Resim Boyutu: 1280x720 - Ücretsiz",
+    "description": "YouTube küçük resim boyutu 1280 x 720 piksel (16:9). Resminizi YouTube küçük resmine veya kanal afişine ücretsiz boyutlandırın; yükleme ve kayıt yok.",
+    "h1": "YouTube küçük resim boyutu",
+    "intro": "YouTube küçük resmi, 16:9 oranında 1280 × 720 pikseldir. Resminizi ekleyin; araç onu cihazınızda bu boyuta getirip kırpar ve dosya boyutunu gösterir.",
+    "blurb": "Resimleri YouTube küçük resmi veya afişi boyutuna getirin.",
+    "note": "YouTube önerilerini zaman zaman günceller. Bunlar, güncel biçimlerle çalışan yaygın olarak kullanılan boyutlardır.",
+    "tableTitle": "YouTube boyutları",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "YouTube boyutunu seçin",
+        "text": "Hazır ayar listesini açın, Sosyal medya bölümüne gidin ve YouTube küçük resim veya afiş seçeneğini seçin. Küçük resim boyutu zaten seçili."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Kutuyu dolduracak şekilde kırp seçili olduğu için hiçbir şey uzatılmaz."
+      }
+    ],
+    "tipsTitle": "İyi bir YouTube küçük resmi için ipuçları",
+    "tips": [
+      "1280 × 720 piksel kullanın ve 16:9 oranını koruyun. Farklı bir oran çubuk alır ya da kırpılır.",
+      "Dosyayı 2 MB'ın altında tutun. Sınır uzun zamandır budur ve daha küçük bir dosya hiçbir zaman reddedilmez.",
+      "Yüzleri ve yazıyı, video süresinin gösterildiği sağ alt köşeden uzak tutun.",
+      "Fotoğraflar için JPG kullanın. PNG, keskin yazılı grafikler için daha iyidir ama dosya daha büyük olur."
+    ],
+    "detailsTitle": "YouTube resim boyutları",
+    "details": [
+      "Küçük resim, 16:9 oranında 1280 × 720 pikseldir; genişliği en az 640 piksel olmalıdır. Kanal afişi 2560 × 1440 pikseldir ve her cihazda yalnızca orta kısmı gösterilir; bu yüzden logoları ve yazıyı ortada tutun. Kanal resmi için en iyi boyut 800 × 800 pikseldir.",
+      "Bir küçük resim dosya boyutu sınırının üzerindeyse araç sığana kadar kaliteyi düşürebilir. Dosya boyutunu sınırla seçeneğini seçip 2 MB girin; sığan en iyi kalite sizin için seçilir."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "YouTube küçük resmi hangi boyutta olmalı?",
+          "a": "16:9 oranında 1280 × 720 piksel; dosya boyutu 2 MB'ın altında olmalı."
+        },
+        {
+          "q": "YouTube kanal afişinin boyutu nedir?",
+          "a": "2560 × 1440 piksel. Her cihazda yalnızca orta kısım görünür; bu yüzden önemli içeriği ortada tutun."
+        },
+        {
+          "q": "Küçük resmi nasıl 2 MB altına düşürürüm?",
+          "a": "1280 × 720'ye boyutlandırın, sonra Dosya boyutunu sınırla seçeneğini açıp 2 MB girin. Araç, sığan en iyi kaliteyi bulur."
+        },
+        {
+          "q": "Küçük resim için en iyi dosya biçimi hangisi?",
+          "a": "Fotoğraflar için JPG. Yeterince küçük ve nettir. PNG'yi yalnızca resimde keskin yazı veya düz renkler varsa ve dosya boyutu izin veriyorsa kullanın."
+        }
+      ]
+    }
+  },
+  "facebookSize": {
+    "title": "Facebook Kapak Fotoğrafı ve Gönderi Boyutu - Ücretsiz",
+    "description": "Facebook kapak fotoğrafı ve gönderi boyutları (piksel). Resminizi Facebook'a uyacak şekilde ücretsiz boyutlandırın; yükleme ve kayıt yok, cihazınızda çalışır.",
+    "h1": "Facebook kapak fotoğrafı ve gönderi boyutu",
+    "intro": "Resimler, Facebook'ta baştan doğru biçimdeyken en iyi görünür. Aşağıdaki boyutu seçin; araç resminizi buna göre cihazınızda boyutlandırıp kırpsın.",
+    "blurb": "Resimleri Facebook kapağı veya gönderisi için boyutlandırın.",
+    "note": "Facebook arayüzünü zaman zaman değiştirir. Bunlar, güncel biçimlerle çalışan yaygın olarak kullanılan boyutlardır.",
+    "tableTitle": "Facebook boyutları",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "Facebook boyutunu seçin",
+        "text": "Hazır ayar listesini açın, Sosyal medya bölümüne gidin ve Facebook gönderi veya kapak seçeneğini seçin. Gönderi boyutu zaten seçili."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Kutuyu dolduracak şekilde kırp seçili olduğu için hiçbir şey uzatılmaz."
+      }
+    ],
+    "tipsTitle": "Net Facebook resimleri için ipuçları",
+    "tips": [
+      "Kapak fotoğrafı bilgisayarda 820 × 312 piksel, telefonda ise farklı bir biçimde gösterilir; bu yüzden önemli içeriği ortada tutun.",
+      "Paylaşılan bir gönderi veya bağlantı resmi 1200 × 630 pikselde iyi çalışır.",
+      "Hedef boyuttan en az o kadar büyük bir resimle başlayın. Facebook her yüklemeyi sıkıştırır; bu yüzden net bir orijinal en iyi sonucu verir.",
+      "Fotoğraflar için JPG, keskin yazılı grafikler için PNG kullanın."
+    ],
+    "detailsTitle": "Facebook boyutları ve biçimleri",
+    "details": [
+      "Kapak fotoğrafı bilgisayarda 820 × 312 pikseldir; telefonlar onu kırpılmış, farklı bir biçimde gösterir. Bu yüzden resmin ortası en çok önem taşır. Bir gönderi veya paylaşılan bağlantı resmi 1200 × 630 pikseldir. Profil fotoğrafı daire olarak gösterilir: en az 320 × 320 piksellik kare bir resim yükleyin ve yüzü ortada tutun.",
+      "Bir resim başka bir biçimdeyse araç onu kutuyu dolduracak şekilde kırpabilir ya da kutuya sığdırabilir. Resmin tamamını, yanlarda boş çubuklarla birlikte korumak için Kutuya sığdır seçeneğini; ortasını koruyup kenarlarını kesmek için Kutuyu dolduracak şekilde kırp seçeneğini seçin."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Facebook kapak fotoğrafının boyutu nedir?",
+          "a": "Bilgisayarda 820 × 312 piksel. Telefonlar onu farklı kırpar; bu yüzden yazıyı ve yüzleri ortada tutun."
+        },
+        {
+          "q": "Facebook gönderi resmi hangi boyutta olmalı?",
+          "a": "Gönderi veya paylaşılan bağlantı için 1200 × 630 piksel iyi çalışır."
+        },
+        {
+          "q": "Facebook profil fotoğrafının boyutu nedir?",
+          "a": "En az 320 × 320 piksellik kare bir resim yükleyin. Facebook onu daire olarak gösterir; bu yüzden yüzü ortada tutun."
+        },
+        {
+          "q": "Facebook'ta kırpılmayı nasıl önlerim?",
+          "a": "Hazır ayar listesinden Facebook boyutunu seçin, ardından Kutuyu dolduracak şekilde kırp yerine Kutuya sığdır'ı seçin. Resmin tamamı görünür kalır ve hiçbir yer kesilmez."
+        }
+      ]
+    }
+  },
+  "whatsappSize": {
+    "title": "WhatsApp Profil Fotoğrafı Boyutu ve Durum - Ücretsiz",
+    "description": "WhatsApp profil fotoğrafı boyutu 500 x 500 piksel, durum 1080 x 1920. Fotoğrafınızı WhatsApp için ücretsiz boyutlandırın; yükleme ve kayıt yok.",
+    "h1": "WhatsApp profil fotoğrafı boyutu",
+    "intro": "WhatsApp profil fotoğrafınızı (DP) daire olarak gösterir; bu yüzden kare bir resim en iyi sonucu verir. Fotoğrafınızı ekleyin; araç onu cihazınızda doğru boyuta kırpıp boyutlandırsın.",
+    "blurb": "Fotoğrafları WhatsApp profil fotoğrafı veya durumu için boyutlandırın.",
+    "note": "WhatsApp resimleri gösterme biçimini değiştirebilir. Bunlar şu anda iyi çalışan boyutlardır.",
+    "tableTitle": "WhatsApp boyutları",
+    "steps": [
+      {
+        "title": "Resminizi ekleyin",
+        "text": "Sayfaya sürükleyin veya cihazınızdan seçin."
+      },
+      {
+        "title": "WhatsApp boyutunu seçin",
+        "text": "Hazır ayar listesini açın, Sosyal medya bölümüne gidin ve profil fotoğrafı için WhatsApp · profil fotoğrafı, durum için WhatsApp · hikaye / reel (1080x1920) seçeneğini seçin. Profil fotoğrafı boyutu zaten seçili."
+      },
+      {
+        "title": "Boyutlandırın ve indirin",
+        "text": "Resimleri boyutlandır düğmesine basın. Kutuyu dolduracak şekilde kırp seçili olduğu için hiçbir şey uzatılmaz."
+      }
+    ],
+    "tipsTitle": "İyi bir WhatsApp profil fotoğrafı için ipuçları",
+    "tips": [
+      "500 × 500 piksellik kare bir resim kullanın. WhatsApp onu daire olarak gösterir; bu yüzden yüzü ortada tutun.",
+      "Durum resmi 1080 × 1920 pikseldir (9:16); bir telefon ekranının tam yüksekliği.",
+      "İhtiyaçtan büyük bir resmi WhatsApp küçültür ve resim bulanık görünebilir. Önce siz boyutlandırırsanız sonuç üzerinde kontrol sizde olur.",
+      "Fotoğraflar için JPG kullanın. Bir profil fotoğrafı için yeterince küçük ve nettir."
+    ],
+    "detailsTitle": "WhatsApp resim boyutları",
+    "details": [
+      "WhatsApp, kare bir profil fotoğrafı ister. Uygulama onu sohbetlerde ve kişilerde daire olarak gösterir; bu yüzden resmin köşeleri hiç görünmez. 500 × 500 piksel boyutu her ekranda nettir ve hızlı yüklenecek kadar küçüktür.",
+      "Fotoğrafınız kare değilse Kutuyu dolduracak şekilde kırp seçeneğini seçin; resmin ortası korunur. Resmin tamamını boş çubuklarla korumak için Kutuya sığdır seçeneğini seçin; WhatsApp o zaman resmi daire içinde taşıyıp yakınlaştırmanıza izin verir."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "WhatsApp profil fotoğrafının boyutu nedir?",
+          "a": "500 × 500 piksel, kare bir resim. WhatsApp onu daire olarak gösterir."
+        },
+        {
+          "q": "WhatsApp durum resminin boyutu nedir?",
+          "a": "1080 × 1920 piksel (9:16), bir telefon ekranının tam yüksekliği."
+        },
+        {
+          "q": "Yüzümü kesmeden fotoğrafımı WhatsApp profil fotoğrafına nasıl sığdırırım?",
+          "a": "Hazır ayar listesinden WhatsApp boyutunu seçin ve Kutuyu dolduracak şekilde kırp seçeneğini koruyun. Resmin ortası korunur; yüz de genellikle oradadır."
+        },
+        {
+          "q": "Profil fotoğrafım neden bulanık görünüyor?",
+          "a": "Çok küçük bir resim uzatılır, çok büyük olan ise uygulama tarafından küçültülür. Net bir sonuç için önce 500 × 500 piksele boyutlandırın."
         }
       ]
     }

@@ -33,7 +33,23 @@
     "cmToPx": "cm sang pixel",
     "inToPx": "Inch sang pixel",
     "mmToPx": "mm sang pixel",
-    "pxToCm": "Pixel sang cm"
+    "pxToCm": "Pixel sang cm",
+    "webpToPng": "WebP sang PNG",
+    "gifToJpg": "GIF sang JPG",
+    "bmpToJpg": "BMP sang JPG",
+    "avifToJpg": "AVIF sang JPG",
+    "jfifToJpg": "JFIF sang JPG",
+    "kb150": "Giảm ảnh xuống 150 KB",
+    "mb5": "Giảm ảnh xuống 5 MB",
+    "kb15": "Giảm ảnh xuống 15 KB",
+    "kb25": "Giảm ảnh xuống 25 KB",
+    "pxToIn": "Pixel sang inch",
+    "pxToMm": "Pixel sang mm",
+    "paperPx": "Khổ giấy theo pixel",
+    "instagramSize": "Kích thước ảnh Instagram",
+    "youtubeSize": "Kích thước thumbnail YouTube",
+    "facebookSize": "Kích thước ảnh Facebook",
+    "whatsappSize": "Ảnh đại diện WhatsApp (DP)"
   },
   "common": {
     "howTo": "Cách sử dụng",
@@ -1756,6 +1772,864 @@
         {
           "q": "DPI có làm thay đổi ảnh của tôi không?",
           "a": "Không. DPI chỉ quyết định ảnh lớn bao nhiêu khi in. Hãy đổi kích thước chính bức ảnh bằng công cụ đổi kích thước ảnh."
+        }
+      ]
+    }
+  },
+  "webpToPng": {
+    "title": "Chuyển WebP sang PNG online - Miễn phí, không tải lên",
+    "description": "Chuyển WebP sang PNG online miễn phí: biến ảnh WebP thành tệp PNG ngay trong trình duyệt và giữ nguyên nền trong suốt. Không cần đăng ký, không tải lên.",
+    "h1": "Chuyển WebP sang PNG",
+    "intro": "Biến ảnh WebP thành tệp PNG mở được trong mọi phần mềm. Các vùng trong suốt vẫn trong suốt. Thêm các tệp WebP, nhấn nút rồi tải về các tệp PNG, hoặc một tệp ZIP chứa tất cả.",
+    "blurb": "Biến ảnh WebP thành tệp PNG.",
+    "steps": [
+      {
+        "title": "Thêm ảnh WebP của bạn",
+        "text": "Kéo một hoặc nhiều ảnh WebP vào trang, hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "PNG đã được chọn sẵn làm định dạng đầu ra. Ảnh giữ nguyên kích thước."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh PNG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển WebP sang PNG",
+    "tips": [
+      "PNG giữ nguyên từng pixel, nên ảnh PNG thường nặng hơn ảnh WebP gốc. Điều đó là bình thường.",
+      "Các vùng trong suốt của ảnh WebP vẫn trong suốt trong PNG, nên logo và ảnh tách nền giữ nguyên hình dạng.",
+      "Với ảnh chụp thông thường, JPG là lựa chọn tốt hơn khi bạn cần tệp nhỏ. PNG phù hợp nhất cho đồ họa, ảnh chụp màn hình và ảnh có nền trong suốt.",
+      "Ảnh WebP động sẽ thành một ảnh PNG tĩnh của khung hình đầu tiên."
+    ],
+    "detailsTitle": "Vì sao nên chuyển WebP sang PNG?",
+    "details": [
+      "WebP là định dạng làm riêng cho web: tệp nhẹ mà chất lượng tốt. Nhưng không phải phần mềm chỉnh sửa, máy in hay biểu mẫu tải lên nào cũng chấp nhận. PNG được chấp nhận ở hầu hết mọi nơi và giữ ảnh nguyên vẹn, không làm mất dữ liệu.",
+      "Việc chuyển đổi diễn ra ngay trên thiết bị của bạn. Không có gì được tải lên nên bạn có thể yên tâm với ảnh riêng tư, và số tệp bạn chuyển đổi không bị giới hạn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển WebP sang PNG?",
+          "a": "Thêm ảnh WebP, đảm bảo PNG là định dạng đầu ra rồi nhấn Đổi kích thước ảnh. Tải ảnh PNG về khi đã xong."
+        },
+        {
+          "q": "PNG có giữ được nền trong suốt không?",
+          "a": "Có. Các vùng trong suốt của ảnh WebP vẫn trong suốt trong ảnh PNG."
+        },
+        {
+          "q": "Vì sao PNG nặng hơn WebP?",
+          "a": "WebP thường được nén có mất một chút dữ liệu, còn PNG lưu chính xác từng pixel. Cùng một bức ảnh sẽ chiếm nhiều dung lượng hơn khi ở dạng PNG."
+        },
+        {
+          "q": "Tôi có chuyển nhiều ảnh cùng lúc được không?",
+          "a": "Được. Bạn thêm bao nhiêu tùy ý, tối đa 500 ảnh mỗi lần, rồi tải về từng ảnh hoặc một tệp ZIP."
+        }
+      ]
+    }
+  },
+  "gifToJpg": {
+    "title": "Chuyển GIF sang JPG online - Miễn phí, không tải lên",
+    "description": "Chuyển GIF sang JPG online miễn phí: biến ảnh GIF thành tệp JPG ngay trong trình duyệt và tự chọn chất lượng. Không cần đăng ký, không tải lên, không giới hạn.",
+    "h1": "Chuyển GIF sang JPG",
+    "intro": "Biến ảnh GIF thành tệp JPG chỉ trong một bước. JPG được chấp nhận hầu như ở mọi nơi và nhẹ hơn nhiều với ảnh chụp. Thêm các tệp GIF, nhấn nút rồi tải về các tệp JPG, hoặc một tệp ZIP chứa tất cả.",
+    "blurb": "Biến ảnh GIF thành tệp JPG.",
+    "steps": [
+      {
+        "title": "Thêm ảnh GIF của bạn",
+        "text": "Kéo một hoặc nhiều ảnh GIF vào trang, hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "JPG đã được chọn sẵn làm định dạng đầu ra. Hạ chất lượng nếu muốn tệp nhẹ hơn."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh JPG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển GIF sang JPG",
+    "tips": [
+      "Ảnh GIF động sẽ thành một ảnh tĩnh duy nhất: khung hình đầu tiên. Muốn giữ chuyển động, hãy giữ lại tệp GIF.",
+      "JPG được tạo ra cho ảnh chụp và thường cho tệp nhỏ hơn với ảnh chụp. GIF phù hợp với đồ họa đơn giản ít màu.",
+      "Các vùng trong suốt của GIF sẽ chuyển thành màu trắng, vì JPG không thể trong suốt.",
+      "Chất lượng từ 80 đến 90 nhìn gần như giống ảnh gốc với hầu hết các ảnh, mà tệp nhẹ hơn."
+    ],
+    "detailsTitle": "GIF hay JPG: có gì khác?",
+    "details": [
+      "GIF được tạo ra cho các đồ họa nhỏ và ảnh động ngắn. Nhiều website, biểu mẫu và ứng dụng chỉ nhận ảnh tĩnh như JPG, nên tệp GIF thường bị từ chối.",
+      "Việc chuyển đổi diễn ra ngay trên thiết bị của bạn. Không có gì được tải lên nên bạn có thể yên tâm với ảnh riêng tư, và số tệp bạn chuyển đổi không bị giới hạn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển GIF sang JPG?",
+          "a": "Thêm ảnh GIF, đảm bảo JPG là định dạng đầu ra rồi nhấn Đổi kích thước ảnh. Tải ảnh JPG về khi đã xong."
+        },
+        {
+          "q": "Tôi có chuyển GIF động sang JPG được không?",
+          "a": "Được, nhưng bạn chỉ nhận được một ảnh: khung hình đầu tiên của ảnh động. Ảnh JPG không thể chuyển động."
+        },
+        {
+          "q": "Vùng trong suốt sẽ ra sao?",
+          "a": "Chúng được lấp bằng màu trắng, vì JPG không thể trong suốt."
+        },
+        {
+          "q": "Tôi có chuyển nhiều ảnh cùng lúc được không?",
+          "a": "Được. Bạn thêm bao nhiêu tùy ý, tối đa 500 ảnh mỗi lần, rồi tải về từng ảnh hoặc một tệp ZIP."
+        }
+      ]
+    }
+  },
+  "bmpToJpg": {
+    "title": "Chuyển BMP sang JPG online - Miễn phí, không tải lên",
+    "description": "Chuyển BMP sang JPG online miễn phí: biến ảnh BMP rất nặng thành tệp JPG nhẹ hơn ngay trong trình duyệt, tự chọn chất lượng. Không cần đăng ký, không tải lên.",
+    "h1": "Chuyển BMP sang JPG",
+    "intro": "Tệp BMP rất nặng vì không được nén. Hãy biến chúng thành tệp JPG nhẹ hơn nhiều và mở được ở mọi nơi. Thêm các tệp BMP, nhấn nút rồi tải về các tệp JPG, hoặc một tệp ZIP chứa tất cả.",
+    "blurb": "Biến ảnh BMP nặng thành tệp JPG nhẹ.",
+    "steps": [
+      {
+        "title": "Thêm ảnh BMP của bạn",
+        "text": "Kéo một hoặc nhiều ảnh BMP vào trang, hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "JPG đã được chọn sẵn làm định dạng đầu ra. Hạ chất lượng nếu muốn tệp nhẹ hơn."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh JPG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển BMP sang JPG",
+    "tips": [
+      "BMP lưu từng pixel mà không nén, nên ảnh chụp ở dạng JPG thường nhẹ hơn mười lần, thậm chí còn hơn thế.",
+      "Chất lượng từ 85 đến 90 nhìn gần như giống ảnh gốc với ảnh chụp, mà tệp nhẹ hơn nhiều.",
+      "Với ảnh chụp màn hình có chữ sắc nét hoặc đồ họa đơn giản, PNG là lựa chọn tốt hơn. Hãy dùng PNG ở trang Chuyển đổi ảnh.",
+      "Nhiều biểu mẫu tải lên từ chối tệp BMP. JPG thì được chấp nhận ở hầu như mọi nơi."
+    ],
+    "detailsTitle": "Vì sao tệp BMP lại nặng đến vậy",
+    "details": [
+      "BMP là một trong những định dạng ảnh lâu đời nhất. Nó ghi màu của từng pixel một, nên một bức ảnh 12 megapixel nặng khoảng 36 MB. JPG nén ảnh và giữ lại những gì mắt nhìn thấy được, nhờ đó tệp nhẹ đi rất nhiều.",
+      "Việc chuyển đổi diễn ra ngay trên thiết bị của bạn. Không có gì được tải lên nên bạn có thể yên tâm với ảnh riêng tư, và số tệp bạn chuyển đổi không bị giới hạn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển BMP sang JPG?",
+          "a": "Thêm ảnh BMP, đảm bảo JPG là định dạng đầu ra rồi nhấn Đổi kích thước ảnh. Tải ảnh JPG về khi đã xong."
+        },
+        {
+          "q": "JPG nhẹ hơn BMP bao nhiêu?",
+          "a": "Với ảnh chụp, thường nhẹ hơn mười lần hoặc hơn. Kết quả chính xác được hiển thị bên cạnh từng ảnh."
+        },
+        {
+          "q": "Chuyển BMP sang JPG có làm giảm chất lượng không?",
+          "a": "Giảm một chút, vì JPG nén có mất dữ liệu. Ở chất lượng từ 85 trở lên, sự khác biệt hiếm khi nhìn thấy được."
+        },
+        {
+          "q": "Tôi có chuyển nhiều ảnh cùng lúc được không?",
+          "a": "Được. Bạn thêm bao nhiêu tùy ý, tối đa 500 ảnh mỗi lần, rồi tải về từng ảnh hoặc một tệp ZIP."
+        }
+      ]
+    }
+  },
+  "avifToJpg": {
+    "title": "Chuyển AVIF sang JPG online - Miễn phí, không tải lên",
+    "description": "Chuyển AVIF sang JPG online miễn phí: biến ảnh AVIF thành tệp JPG mở được ở mọi nơi ngay trong trình duyệt. Không cần đăng ký, không tải lên, không giới hạn.",
+    "h1": "Chuyển AVIF sang JPG",
+    "intro": "AVIF là định dạng mới mà nhiều phần mềm và website chưa mở được. Hãy biến ảnh AVIF thành tệp JPG dùng được ở mọi nơi. Thêm các tệp AVIF, nhấn nút rồi tải về các tệp JPG, hoặc một tệp ZIP chứa tất cả.",
+    "blurb": "Biến ảnh AVIF thành tệp JPG.",
+    "steps": [
+      {
+        "title": "Thêm ảnh AVIF của bạn",
+        "text": "Kéo một hoặc nhiều ảnh AVIF vào trang, hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "JPG đã được chọn sẵn làm định dạng đầu ra. Hạ chất lượng nếu muốn tệp nhẹ hơn."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh JPG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển AVIF sang JPG",
+    "tips": [
+      "Trình duyệt của bạn phải mở được tệp AVIF. Các phiên bản hiện nay của Chrome, Edge, Firefox và Safari đều mở được. Nếu tệp bị từ chối, hãy cập nhật trình duyệt.",
+      "AVIF rất hiệu quả, nên ảnh JPG thường sẽ nặng hơn ảnh AVIF. Hãy hạ chất lượng một chút nếu bạn cần tệp nhỏ.",
+      "Các vùng trong suốt của ảnh AVIF sẽ chuyển thành màu trắng, vì JPG không thể trong suốt. Nếu cần giữ nền trong suốt, hãy chuyển sang PNG.",
+      "Chất lượng từ 85 đến 90 nhìn gần như giống ảnh gốc với ảnh chụp."
+    ],
+    "detailsTitle": "Vì sao nên chuyển AVIF sang JPG?",
+    "details": [
+      "AVIF nén một bức ảnh vào một tệp rất nhỏ, và các website đang bắt đầu dùng nó. Nhưng nhiều phần mềm chỉnh sửa, máy in, điện thoại và biểu mẫu tải lên vẫn chưa chấp nhận. JPG là định dạng dùng được ở mọi nơi.",
+      "Việc chuyển đổi diễn ra ngay trên thiết bị của bạn. Không có gì được tải lên nên bạn có thể yên tâm với ảnh riêng tư, và số tệp bạn chuyển đổi không bị giới hạn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển AVIF sang JPG?",
+          "a": "Thêm ảnh AVIF, đảm bảo JPG là định dạng đầu ra rồi nhấn Đổi kích thước ảnh. Tải ảnh JPG về khi đã xong."
+        },
+        {
+          "q": "Vì sao tệp AVIF của tôi không mở được?",
+          "a": "Công cụ dùng trình duyệt của bạn để đọc ảnh. Nếu trình duyệt cũ và không mở được AVIF, hãy cập nhật hoặc thử một trình duyệt hiện đại khác."
+        },
+        {
+          "q": "Vì sao ảnh JPG nặng hơn ảnh AVIF?",
+          "a": "AVIF là định dạng mới hơn và hiệu quả hơn, nên cùng một bức ảnh cần nhiều dung lượng hơn khi ở dạng JPG."
+        },
+        {
+          "q": "Tôi có chuyển nhiều ảnh cùng lúc được không?",
+          "a": "Được. Bạn thêm bao nhiêu tùy ý, tối đa 500 ảnh mỗi lần, rồi tải về từng ảnh hoặc một tệp ZIP."
+        }
+      ]
+    }
+  },
+  "jfifToJpg": {
+    "title": "Chuyển JFIF sang JPG online - Miễn phí, không tải lên",
+    "description": "Chuyển JFIF sang JPG online miễn phí: lưu ảnh .jfif thành tệp .jpg thông thường ngay trong trình duyệt, website nào cũng nhận. Không cần đăng ký, không tải lên.",
+    "h1": "Chuyển JFIF sang JPG",
+    "intro": "Một số lượt tải về và trình duyệt lưu ảnh dưới dạng tệp .jfif, mà nhiều website và biểu mẫu từ chối. Hãy biến chúng thành tệp JPG thông thường chỉ trong một bước. Thêm các tệp JFIF, nhấn nút rồi tải về các tệp JPG, hoặc một tệp ZIP chứa tất cả.",
+    "blurb": "Biến ảnh .jfif thành tệp JPG thông thường.",
+    "steps": [
+      {
+        "title": "Thêm ảnh JFIF của bạn",
+        "text": "Kéo một hoặc nhiều ảnh JFIF vào trang, hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Kiểm tra định dạng",
+        "text": "JPG đã được chọn sẵn làm định dạng đầu ra. Hãy nâng chất lượng lên để ảnh giống bản gốc nhất có thể."
+      },
+      {
+        "title": "Chuyển đổi và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải từng ảnh JPG, hoặc tải tất cả trong một tệp ZIP."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển JFIF sang JPG",
+    "tips": [
+      "JPEG và JPG là cùng một định dạng, chỉ khác tên gọi, nên tệp .jpg là ảnh JPEG bình thường.",
+      "Ảnh được lưu lại dưới dạng JPG. Hãy giữ chất lượng cao (90 trở lên) để giống bản gốc nhất có thể.",
+      "Nếu biểu mẫu yêu cầu tệp nhẹ, hãy đặt chất lượng thấp hơn hoặc dùng công cụ “Giảm ảnh xuống KB” sau khi chuyển đổi.",
+      "Bạn có thể thêm tệp .jfif như mọi ảnh khác: kéo vào trang hoặc chọn từ thiết bị."
+    ],
+    "detailsTitle": "Tệp JFIF là gì?",
+    "details": [
+      "JFIF là viết tắt của JPEG File Interchange Format. Đó là cách một ảnh JPEG được đóng gói trong tệp, nên ảnh .jfif chứa cùng loại dữ liệu với ảnh .jpg. Một số phần mềm và trình duyệt chỉ đơn giản lưu ảnh với tên .jfif, và nhiều website không chấp nhận đuôi này.",
+      "Việc chuyển đổi diễn ra ngay trên thiết bị của bạn. Không có gì được tải lên nên bạn có thể yên tâm với ảnh riêng tư, và số tệp bạn chuyển đổi không bị giới hạn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao chuyển JFIF sang JPG?",
+          "a": "Thêm ảnh JFIF, đảm bảo JPG là định dạng đầu ra rồi nhấn Đổi kích thước ảnh. Tải ảnh JPG về khi đã xong."
+        },
+        {
+          "q": "JFIF có giống JPG không?",
+          "a": "Gần như vậy. JFIF là một ảnh JPEG được lưu dưới tên và đuôi tệp khác. Sau khi chuyển đổi, bạn nhận được tệp .jpg thông thường."
+        },
+        {
+          "q": "JPEG có giống JPG không?",
+          "a": "Có. Đó là hai cách viết của cùng một định dạng. Các hệ thống cũ dùng tên ba chữ cái, vì vậy mới có đuôi .jpg bên cạnh .jpeg."
+        },
+        {
+          "q": "Tôi có chuyển nhiều ảnh cùng lúc được không?",
+          "a": "Được. Bạn thêm bao nhiêu tùy ý, tối đa 500 ảnh mỗi lần, rồi tải về từng ảnh hoặc một tệp ZIP."
+        }
+      ]
+    }
+  },
+  "kb150": {
+    "title": "Giảm dung lượng ảnh xuống dưới 150KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh dưới 150KB online miễn phí: nén ảnh JPG còn 150 KB trở xuống cho biểu mẫu, cổng thi mà vẫn nét. Không cần đăng ký, ảnh không rời thiết bị.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 150 KB",
+    "intro": "Biểu mẫu đăng ký, cổng thi và website tuyển dụng thường yêu cầu ảnh nặng tối đa 150 KB. Trang này đặt sẵn giới hạn đó cho bạn: thêm ảnh rồi tải về tệp dưới 150 KB mà vẫn rõ nét.",
+    "blurb": "Đưa ảnh xuống dưới 150 KB cho biểu mẫu và cổng thông tin.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh điện thoại lớn vẫn xử lý được."
+      },
+      {
+        "title": "Giữ giới hạn 150 KB",
+        "text": "Mức 150 KB đã được chọn sẵn. Công cụ tính mức đó là 150.000 byte, nên tệp đạt yêu cầu ở cả hệ thống tính 1 KB là 1.000 byte lẫn hệ thống tính 1.024 byte."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải tệp về. Kết quả hiển thị dung lượng chính xác."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh luôn dưới 150 KB",
+    "tips": [
+      "Hãy chọn JPG cho ảnh chụp. Ảnh chụp lưu dưới dạng PNG thường nặng gấp nhiều lần dù là cùng một bức ảnh.",
+      "Nếu biểu mẫu còn yêu cầu số pixel cụ thể, hãy nhập chiều rộng và chiều cao trước, rồi giữ nguyên giới hạn 150 KB.",
+      "Ảnh chân dung hoặc ảnh thẻ cỡ khoảng 400 × 500 pixel vừa trong 150 KB với chi tiết tốt. Ảnh điện thoại lớn phải giảm số pixel mới vừa, và công cụ làm việc đó giúp bạn.",
+      "Để áp dụng cùng một giới hạn cho nhiều ảnh, hãy thêm tất cả cùng lúc rồi tải về tệp ZIP."
+    ],
+    "detailsTitle": "150 KB nghĩa là gì với một bức ảnh",
+    "details": [
+      "Một trăm năm mươi kilobyte nhỏ hơn nhiều lần so với một ảnh điện thoại thông thường. Một ảnh JPG cỡ đó vẫn có thể chứa khuôn mặt hay giấy tờ rõ nét ở số pixel vừa phải, đúng là điều mà biểu mẫu và cổng thông tin cần.",
+      "Công cụ thử mức chất lượng cao nhất vẫn vừa giới hạn và cho bạn thấy dung lượng kết quả chính xác trước khi tải xuống. Nếu biểu mẫu cần tệp nhỏ hơn nữa, hãy chọn giới hạn thấp hơn như 100 KB hoặc 50 KB rồi chạy lại."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 150 KB?",
+          "a": "Thêm ảnh, giữ giới hạn 150 KB đã được chọn sẵn rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng cao nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "Ảnh có bị xấu đi không?",
+          "a": "Có một chút, vì tệp nhỏ hơn thì chứa ít chi tiết hơn. Công cụ chọn chất lượng tốt nhất vẫn vừa giới hạn, nên bạn có được ảnh nét nhất dưới 150 KB."
+        },
+        {
+          "q": "Nếu ảnh của tôi đã dưới 150 KB thì sao?",
+          "a": "Vậy là ảnh đã đủ nhỏ rồi. Chỉ chọn giới hạn thấp hơn nếu biểu mẫu yêu cầu."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "mb5": {
+    "title": "Giảm dung lượng ảnh xuống dưới 5MB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh xuống dưới 5MB online miễn phí: nén ảnh JPG còn 5 MB trở xuống cho email, biểu mẫu, tải lên mà gần như không giảm nét. Không cần đăng ký.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 5 MB",
+    "intro": "Dịch vụ email, biểu mẫu đăng ký và trang tải lên thường chỉ nhận tệp tối đa 5 MB, trong khi ảnh từ điện thoại hay máy ảnh đời mới có thể nặng hơn. Thêm ảnh rồi tải về tệp dưới 5 MB (5.000.000 byte) mà vẫn sắc nét.",
+    "blurb": "Đưa ảnh xuống dưới 5 MB để gửi email và tải lên.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh nặng từ 8 đến 20 MB vẫn xử lý được."
+      },
+      {
+        "title": "Giữ giới hạn 5 MB",
+        "text": "Mức 5 MB đã được chọn sẵn. Công cụ tính mức đó là 5.000.000 byte, nên tệp đạt yêu cầu ở cả hệ thống tính 5.000 KB lẫn hệ thống tính 5.120 KB."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải tệp về. Kết quả hiển thị dung lượng chính xác."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh luôn dưới 5 MB",
+    "tips": [
+      "Ảnh từ các điện thoại đời mới thường nặng từ 5 đến 15 MB. Để xuống dưới 5 MB thường chỉ cần hạ chất lượng một chút, mà trên màn hình không thấy khác biệt.",
+      "Ảnh chụp tốt nhất khi lưu dưới dạng JPG hoặc WebP. Ảnh chụp lưu dưới dạng PNG thường nặng gấp vài lần.",
+      "Ảnh chụp màn hình và logo nên để dạng PNG: chúng vốn đã nhẹ và giữ được cạnh sắc nét.",
+      "Để gửi nhiều ảnh trong một email, hãy thêm tất cả cùng lúc rồi tải về tệp ZIP."
+    ],
+    "detailsTitle": "5 MB nghĩa là gì với một bức ảnh",
+    "details": [
+      "Năm megabyte là 5.000 kilobyte. Một ảnh JPG cỡ đó có thể chứa bức ảnh khoảng 4000 × 3000 pixel với chi tiết rất tốt, tùy từng ảnh, nhiều hơn hầu hết màn hình hiển thị được.",
+      "Công cụ thử mức chất lượng cao nhất vẫn vừa giới hạn và cho bạn thấy dung lượng kết quả chính xác trước khi tải xuống. Công cụ chỉ giảm số pixel khi không thể đạt giới hạn chỉ bằng cách hạ chất lượng."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 5 MB?",
+          "a": "Thêm ảnh, giữ giới hạn 5 MB đã được chọn sẵn rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng cao nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "5 MB có bằng 5.120 KB không?",
+          "a": "Một số hệ thống tính một megabyte là 1.024 kilobyte, số khác tính là 1.000. Công cụ dùng giá trị nhỏ hơn (5.000 KB, tức 5.000.000 byte), nên tệp đạt yêu cầu ở cả hai cách tính."
+        },
+        {
+          "q": "Ảnh có bị nhỏ đi về số pixel không?",
+          "a": "Chỉ khi thật sự cần. Công cụ hạ chất lượng trước và chỉ giảm số pixel khi không còn cách nào khác để đạt giới hạn."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "kb15": {
+    "title": "Giảm dung lượng ảnh xuống dưới 15KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh dưới 15KB online miễn phí: nén ảnh hoặc chữ ký còn 15 KB trở xuống cho biểu mẫu khắt khe mà vẫn rõ nhất có thể. Không cần đăng ký.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 15 KB",
+    "intro": "Một số biểu mẫu chỉ nhận ảnh rất nhỏ, như chữ ký hoặc ảnh thẻ cỡ con tem nặng 15 KB. Trang này đặt sẵn giới hạn đó cho bạn: thêm ảnh rồi tải về tệp dưới 15 KB mà vẫn đọc được.",
+    "blurb": "Đưa ảnh xuống dưới 15 KB cho các biểu mẫu khắt khe.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh lớn vẫn xử lý được, công cụ sẽ thu nhỏ chúng."
+      },
+      {
+        "title": "Giữ giới hạn 15 KB",
+        "text": "Mức 15 KB đã được chọn sẵn. Công cụ tính mức đó là 15.000 byte, nên tệp đạt yêu cầu ở cả hệ thống tính 1 KB là 1.000 byte lẫn hệ thống tính 1.024 byte."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải tệp về. Kết quả hiển thị dung lượng chính xác."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh luôn dưới 15 KB",
+    "tips": [
+      "15 KB rất nhỏ. Công cụ hạ chất lượng và, khi cần, giảm cả số pixel, nên ảnh cuối cùng trông nhỏ trên màn hình nhưng vẫn đọc được.",
+      "Với chữ ký, hãy dùng nền trắng và mực đậm. Ảnh đơn giản nén tốt hơn nhiều so với ảnh nhiều chi tiết.",
+      "Nếu biểu mẫu còn yêu cầu số pixel cụ thể, hãy nhập chiều rộng và chiều cao trước, rồi giữ nguyên giới hạn 15 KB.",
+      "Hãy chọn JPG. Ảnh PNG không thể được làm nhỏ hơn để vừa giới hạn."
+    ],
+    "detailsTitle": "15 KB nghĩa là gì với một bức ảnh",
+    "details": [
+      "Mười lăm kilobyte là rất nhỏ: một ảnh điện thoại thông thường nặng gấp hàng trăm lần. Ở dung lượng này, ảnh chụp phải nhỏ, cỡ một ảnh thu nhỏ, còn chữ ký trên nền trắng thì vừa dễ dàng.",
+      "Công cụ thử mức chất lượng cao nhất vẫn vừa giới hạn và cho bạn thấy dung lượng kết quả chính xác trước khi tải xuống. Nếu không thể đạt giới hạn, công cụ sẽ cho bạn biết kích thước nhỏ nhất mà nó làm được."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 15 KB?",
+          "a": "Thêm ảnh, giữ giới hạn 15 KB đã được chọn sẵn rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng cao nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "Vì sao ảnh của tôi trông nhỏ và mềm?",
+          "a": "Ở 15 KB, còn rất ít chỗ cho chi tiết. Công cụ dùng chất lượng tốt nhất vẫn vừa giới hạn, và chỉ giảm số pixel khi thật sự cần."
+        },
+        {
+          "q": "Tôi có thể giảm chữ ký xuống 15 KB không?",
+          "a": "Được. Chữ ký trên nền trắng khá đơn giản, nên nén rất tốt và vẫn đọc được."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "kb25": {
+    "title": "Giảm dung lượng ảnh xuống dưới 25KB - Nén ảnh online",
+    "description": "Giảm dung lượng ảnh dưới 25KB online miễn phí: nén ảnh hoặc chữ ký còn 25 KB trở xuống cho biểu mẫu và cổng thông tin mà vẫn rõ nét. Không cần đăng ký.",
+    "h1": "Giảm dung lượng ảnh xuống dưới 25 KB",
+    "intro": "Các biểu mẫu và cổng thông tin cần ảnh hoặc chữ ký nhỏ thường đặt giới hạn 25 KB. Trang này đặt sẵn giới hạn đó cho bạn: thêm ảnh rồi tải về tệp dưới 25 KB mà vẫn rõ nét.",
+    "blurb": "Đưa ảnh xuống dưới 25 KB cho biểu mẫu và cổng thông tin.",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào đây hoặc chọn từ thiết bị. Ảnh điện thoại lớn vẫn xử lý được."
+      },
+      {
+        "title": "Giữ giới hạn 25 KB",
+        "text": "Mức 25 KB đã được chọn sẵn. Công cụ tính mức đó là 25.000 byte, nên tệp đạt yêu cầu ở cả hệ thống tính 1 KB là 1.000 byte lẫn hệ thống tính 1.024 byte."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh rồi tải tệp về. Kết quả hiển thị dung lượng chính xác."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh luôn dưới 25 KB",
+    "tips": [
+      "Ảnh thẻ cỡ khoảng 200 × 250 pixel thường vừa trong 25 KB. Ảnh điện thoại lớn phải giảm số pixel, và công cụ làm việc đó giúp bạn.",
+      "Với chữ ký, hãy dùng nền trắng và mực đậm. Ảnh đơn giản nén tốt hơn nhiều so với ảnh nhiều chi tiết.",
+      "Nếu biểu mẫu còn yêu cầu số pixel cụ thể, hãy nhập chiều rộng và chiều cao trước, rồi giữ nguyên giới hạn 25 KB.",
+      "Hãy chọn JPG. Ảnh PNG không thể được làm nhỏ hơn để vừa giới hạn."
+    ],
+    "detailsTitle": "25 KB nghĩa là gì với một bức ảnh",
+    "details": [
+      "Hai mươi lăm kilobyte là một tệp rất nhỏ, nhỏ hơn ảnh điện thoại thông thường hơn một trăm lần. Một ảnh JPG cỡ đó vẫn có thể chứa khuôn mặt hoặc chữ ký rõ nét ở số pixel nhỏ, đúng là điều mà các biểu mẫu này kiểm tra.",
+      "Công cụ thử mức chất lượng cao nhất vẫn vừa giới hạn và cho bạn thấy dung lượng kết quả chính xác trước khi tải xuống. Nếu biểu mẫu cần tệp nhỏ hơn nữa, hãy chọn 20 KB hoặc 15 KB rồi chạy lại."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Làm sao giảm ảnh xuống 25 KB?",
+          "a": "Thêm ảnh, giữ giới hạn 25 KB đã được chọn sẵn rồi nhấn Đổi kích thước ảnh. Công cụ tìm chất lượng cao nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "Ảnh 25 KB có rõ nét không?",
+          "a": "Ở kích thước nhỏ như ảnh thẻ thì có. Một ảnh rất lớn không thể giữ hết chi tiết trong 25 KB, nên công cụ giảm số pixel khi cần."
+        },
+        {
+          "q": "Nếu ảnh của tôi đã dưới 25 KB thì sao?",
+          "a": "Vậy là ảnh đã đủ nhỏ rồi. Chỉ chọn giới hạn thấp hơn nếu biểu mẫu yêu cầu."
+        },
+        {
+          "q": "Ảnh của tôi có bị tải lên không?",
+          "a": "Không. Ảnh được xử lý trên thiết bị của bạn và không bao giờ được tải lên."
+        }
+      ]
+    }
+  },
+  "pxToIn": {
+    "title": "Chuyển pixel sang inch online - Công cụ miễn phí (DPI)",
+    "description": "Chuyển pixel sang inch online miễn phí: nhập số pixel, chọn DPI và nhận kích thước in theo inch. Dùng cho ảnh, tài liệu và màn hình. Chạy ngay trên thiết bị.",
+    "h1": "Chuyển pixel sang inch",
+    "intro": "Nhập kích thước theo pixel và xem ảnh in ra lớn bao nhiêu inch ở mức DPI của bạn. Công cụ cũng hiển thị các cỡ in phổ biến theo pixel và có liên kết đến công cụ đổi kích thước ảnh miễn phí.",
+    "blurb": "Quy đổi pixel sang inch ở mọi mức DPI.",
+    "steps": [
+      {
+        "title": "Nhập kích thước theo pixel",
+        "text": "Nhập chiều rộng, và chiều cao nếu cần. Đơn vị đã được đặt sẵn là pixel."
+      },
+      {
+        "title": "Chọn DPI",
+        "text": "Dùng 300 để in, 96 cho màn hình, hoặc số mà máy in hay biểu mẫu của bạn dùng. Kết quả thay đổi ngay khi bạn gõ."
+      },
+      {
+        "title": "Xem kích thước",
+        "text": "Kích thước hiện ra theo inch. Đổi đơn vị nếu bạn muốn dùng đơn vị khác."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển pixel sang inch",
+    "tips": [
+      "Inch = pixel ÷ DPI. Ở 300 DPI, cứ 300 pixel là một inch.",
+      "Ảnh 1200 × 1800 pixel in ra khổ 4 × 6 inch ở 300 DPI, và 12,5 × 18,75 inch ở 96 DPI.",
+      "Cùng một bức ảnh sẽ in ra các kích thước khác nhau: DPI càng cao thì bản in càng nhỏ và càng nét.",
+      "Dùng nút đảo đơn vị để quy đổi inch sang pixel."
+    ],
+    "detailsTitle": "Cách chuyển pixel sang inch",
+    "details": [
+      "Công thức là inch = pixel ÷ DPI. Ở 300 DPI, mức thường dùng để in, 1000 pixel là 3,33 inch. Ở 96 DPI, chuẩn của màn hình trong trình duyệt, cũng 1000 pixel đó là 10,42 inch, còn ở 72 DPI là 13,89 inch.",
+      "Một bức ảnh không có kích thước thật cho đến khi được in, và DPI là thứ nối pixel với inch. Một ảnh full HD 1920 × 1080 pixel là 6,4 × 3,6 inch ở 300 DPI và 20 × 11,25 inch ở 96 DPI."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 pixel bằng bao nhiêu inch?",
+          "a": "Ở 300 DPI, 1000 pixel là khoảng 3,33 inch. Ở 96 DPI là khoảng 10,42 inch."
+        },
+        {
+          "q": "Làm sao chuyển pixel sang inch?",
+          "a": "Chia số pixel cho DPI. Hoặc nhập số pixel vào công cụ ở trên, công cụ sẽ tính giúp bạn."
+        },
+        {
+          "q": "Nên dùng DPI bao nhiêu?",
+          "a": "Dùng 300 để in, còn 72 hoặc 96 cho ảnh chỉ hiển thị trên màn hình."
+        },
+        {
+          "q": "DPI có làm thay đổi ảnh của tôi không?",
+          "a": "Không. DPI chỉ quyết định ảnh lớn bao nhiêu khi in. Hãy đổi kích thước chính bức ảnh bằng công cụ đổi kích thước ảnh."
+        }
+      ]
+    }
+  },
+  "pxToMm": {
+    "title": "Chuyển pixel sang mm online - Công cụ miễn phí (DPI)",
+    "description": "Chuyển pixel sang mm online miễn phí: nhập số pixel, chọn DPI và nhận kích thước in theo milimet. Tiện cho ảnh hộ chiếu và ảnh thẻ. Chạy ngay trên thiết bị.",
+    "h1": "Chuyển pixel sang mm",
+    "intro": "Nhập kích thước theo pixel và xem ảnh in ra lớn bao nhiêu milimet ở mức DPI của bạn. Rất tiện cho ảnh hộ chiếu và ảnh thẻ, vốn được cho theo milimet. Công cụ có liên kết đến công cụ đổi kích thước ảnh miễn phí.",
+    "blurb": "Quy đổi pixel sang milimet ở mọi mức DPI.",
+    "steps": [
+      {
+        "title": "Nhập kích thước theo pixel",
+        "text": "Nhập chiều rộng, và chiều cao nếu cần. Đơn vị đã được đặt sẵn là pixel."
+      },
+      {
+        "title": "Chọn DPI",
+        "text": "Dùng 300 để in, 96 cho màn hình, hoặc số mà máy in hay biểu mẫu của bạn dùng. Kết quả thay đổi ngay khi bạn gõ."
+      },
+      {
+        "title": "Xem kích thước",
+        "text": "Kích thước hiện ra theo milimet. Đổi đơn vị nếu bạn muốn dùng đơn vị khác."
+      }
+    ],
+    "tipsTitle": "Mẹo khi chuyển pixel sang mm",
+    "tips": [
+      "Milimet = pixel ÷ DPI × 25,4. Ở 300 DPI, một pixel là khoảng 0,085 mm.",
+      "Ảnh hộ chiếu 413 × 531 pixel là khoảng 35 × 45 mm ở 300 DPI.",
+      "Cùng một bức ảnh sẽ có kích thước khác nhau ở DPI khác nhau: ở 96 DPI, một pixel là khoảng 0,26 mm.",
+      "Dùng nút đảo đơn vị để quy đổi milimet sang pixel."
+    ],
+    "detailsTitle": "Cách chuyển pixel sang mm",
+    "details": [
+      "Công thức là milimet = pixel ÷ DPI × 25,4, vì một inch bằng 25,4 milimet. Ở 300 DPI, 1000 pixel là khoảng 84,67 mm. Ở 96 DPI, cũng 1000 pixel đó là khoảng 264,58 mm.",
+      "Một bức ảnh không có kích thước thật cho đến khi được in, và DPI là thứ nối pixel với milimet. Nếu biểu mẫu yêu cầu kích thước theo milimet mà bạn chỉ biết số pixel, 300 DPI là giá trị thường dùng cho ảnh."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "1000 pixel bằng bao nhiêu mm?",
+          "a": "Ở 300 DPI, 1000 pixel là khoảng 84,67 mm. Ở 96 DPI là khoảng 264,58 mm."
+        },
+        {
+          "q": "Làm sao chuyển pixel sang mm?",
+          "a": "Chia số pixel cho DPI rồi nhân với 25,4. Hoặc nhập số pixel vào công cụ ở trên, công cụ sẽ tính giúp bạn."
+        },
+        {
+          "q": "Nên dùng DPI bao nhiêu?",
+          "a": "Dùng 300 để in và cho ảnh hộ chiếu, ảnh thẻ, còn 72 hoặc 96 cho ảnh chỉ hiển thị trên màn hình."
+        },
+        {
+          "q": "DPI có làm thay đổi ảnh của tôi không?",
+          "a": "Không. DPI chỉ quyết định ảnh lớn bao nhiêu khi in. Hãy đổi kích thước chính bức ảnh bằng công cụ đổi kích thước ảnh."
+        }
+      ]
+    }
+  },
+  "paperPx": {
+    "title": "Kích thước A4 theo pixel - A5, Letter ở 72 đến 600 DPI",
+    "description": "Kích thước A4 theo pixel ở 72, 96, 150, 300 và 600 DPI, cùng A3, A5, A6, Letter và Legal trong một bảng, kèm công cụ tính miễn phí. Chạy ngay trên thiết bị.",
+    "h1": "Kích thước khổ giấy theo pixel (A4, A5, Letter)",
+    "intro": "Một trang A4 bằng bao nhiêu pixel? Còn tùy vào DPI. Bảng bên dưới cho biết các khổ giấy phổ biến theo pixel ở năm mức DPI, còn công cụ tính sẽ quy đổi mọi kích thước khác.",
+    "blurb": "A4, A5, Letter và nhiều khổ khác theo pixel ở mọi mức DPI.",
+    "note": "Số pixel được làm tròn thành số nguyên. Hãy dùng các kích thước này cho ảnh bạn muốn in hoặc đặt vào một trang có khổ giấy đó.",
+    "tableTitle": "Khổ giấy theo pixel",
+    "steps": [
+      {
+        "title": "Tìm khổ giấy của bạn",
+        "text": "Tra A3, A4, A5, A6, B5, Letter, Legal hoặc Tabloid trong bảng và đọc số pixel ở cột DPI bạn cần."
+      },
+      {
+        "title": "Hoặc nhập kích thước khác",
+        "text": "Nhập chiều rộng và chiều cao bất kỳ vào công cụ tính, chọn DPI rồi đọc kết quả theo pixel."
+      },
+      {
+        "title": "Đổi kích thước ảnh của bạn",
+        "text": "Mở công cụ đổi kích thước ảnh, nhập số pixel rồi tải về ảnh vừa với trang giấy."
+      }
+    ],
+    "tipsTitle": "Mẹo về khổ giấy theo pixel",
+    "tips": [
+      "A4 ở 300 DPI là 2480 × 3508 pixel: kích thước nên dùng để in cho sắc nét.",
+      "Với tài liệu chỉ xem trên màn hình, A4 ở 96 DPI (794 × 1123 pixel) là đủ.",
+      "A4 ở 72 DPI là 595 × 842 pixel, đúng kích thước một trang PDF tính bằng point.",
+      "US Letter ngắn hơn và rộng hơn A4: 2550 × 3300 pixel ở 300 DPI."
+    ],
+    "detailsTitle": "Vì sao giấy không có một kích thước pixel duy nhất",
+    "details": [
+      "Giấy có kích thước thật tính bằng milimet hoặc inch, còn ảnh thì có pixel. DPI (số điểm trên mỗi inch) nối hai thứ đó: A4 là 210 × 297 mm, tức 2480 × 3508 pixel ở 300 DPI nhưng chỉ 794 × 1123 pixel ở 96 DPI.",
+      "Dãy A theo chuẩn ISO chia đôi trang giấy mỗi lần: A4 bằng một nửa A3 và gấp đôi A5, và tất cả đều có cùng tỷ lệ. US Letter, Legal và Tabloid xuất phát từ inch và có tỷ lệ khác."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "A4 bằng bao nhiêu pixel?",
+          "a": "Ở 300 DPI, A4 là 2480 × 3508 pixel. Ở 150 DPI là 1240 × 1754, ở 96 DPI là 794 × 1123 và ở 72 DPI là 595 × 842."
+        },
+        {
+          "q": "US Letter bằng bao nhiêu pixel?",
+          "a": "Ở 300 DPI, US Letter (8,5 × 11 inch) là 2550 × 3300 pixel. Ở 96 DPI là 816 × 1056."
+        },
+        {
+          "q": "A5 bằng bao nhiêu pixel?",
+          "a": "Ở 300 DPI, A5 là 1748 × 2480 pixel. Ở 96 DPI là 559 × 794."
+        },
+        {
+          "q": "Nên dùng DPI bao nhiêu?",
+          "a": "Dùng 300 để in, còn 72 hoặc 96 cho ảnh chỉ hiển thị trên màn hình."
+        }
+      ]
+    }
+  },
+  "instagramSize": {
+    "title": "Kích thước ảnh Instagram: bài đăng, story - Đổi online",
+    "description": "Kích thước ảnh Instagram theo pixel cho bài đăng vuông và dọc, story và reel. Đổi kích thước ảnh vừa Instagram miễn phí, không tải lên, không cần đăng ký.",
+    "h1": "Kích thước ảnh Instagram",
+    "intro": "Ảnh đẹp nhất trên Instagram khi đã có đúng tỷ lệ. Hãy chọn kích thước bên dưới, công cụ sẽ đổi kích thước và cắt ảnh cho khớp, ngay trên thiết bị của bạn.",
+    "blurb": "Đổi kích thước ảnh cho bài đăng, story và reel trên Instagram.",
+    "note": "Instagram thỉnh thoảng thay đổi giao diện. Đây là những kích thước được dùng nhiều nhất hiện nay; các tỷ lệ (1:1, 4:5 và 9:16) ít thay đổi hơn nhiều so với số pixel cụ thể.",
+    "tableTitle": "Kích thước Instagram",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Chọn kích thước Instagram",
+        "text": "Mở danh sách Mẫu có sẵn, vào mục Mạng xã hội rồi chọn Instagram bài đăng (1080x1080 hoặc 1080x1350) cho bảng tin, hoặc Instagram story / reel (1080x1920). Kích thước bài đăng đầu tiên đã được chọn sẵn."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh. Chế độ Cắt để lấp đầy khung được chọn sẵn nên ảnh không bị kéo giãn."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh Instagram sắc nét",
+    "tips": [
+      "Bài đăng dọc (1080 × 1350 pixel, 4:5) chiếm nhiều chỗ nhất trên bảng tin, nên nổi bật hơn bài đăng vuông.",
+      "Story và reel có kích thước 1080 × 1920 pixel (9:16). Hãy để khuôn mặt và chữ cách xa mép trên và mép dưới, vì các nút và chú thích sẽ che phần đó.",
+      "Hãy bắt đầu từ ảnh ít nhất bằng kích thước đích. Instagram nén lại mọi ảnh tải lên, nên một ảnh gốc sắc nét cho kết quả tốt nhất.",
+      "Dùng JPG cho ảnh chụp và PNG cho đồ họa có chữ sắc nét."
+    ],
+    "detailsTitle": "Kích thước và tỷ lệ ảnh Instagram",
+    "details": [
+      "Bài đăng vuông là 1080 × 1080 pixel (1:1). Bài đăng dọc là 1080 × 1350 pixel (4:5), còn bài đăng ngang khoảng 1080 × 566 pixel (1.91:1). Story và reel dùng toàn bộ màn hình điện thoại: 1080 × 1920 pixel (9:16). Ảnh đại diện nên có kích thước ít nhất 320 × 320 pixel và được hiển thị dạng hình tròn.",
+      "Nếu ảnh có tỷ lệ khác, công cụ có thể cắt ảnh để lấp đầy khung hoặc đặt ảnh vừa trong khung. Chọn Vừa trong khung để giữ toàn bộ ảnh, với các dải trống ở hai bên, hoặc Cắt để lấp đầy khung để giữ phần giữa và cắt bỏ các mép."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Kích thước tốt nhất cho bài đăng Instagram là bao nhiêu?",
+          "a": "Dùng 1080 × 1080 pixel cho bài đăng vuông và 1080 × 1350 pixel cho bài đăng dọc, loại chiếm nhiều chỗ nhất trên bảng tin."
+        },
+        {
+          "q": "Story hoặc reel Instagram có kích thước bao nhiêu?",
+          "a": "1080 × 1920 pixel, tức 9:16, bằng toàn bộ chiều cao màn hình điện thoại."
+        },
+        {
+          "q": "Làm sao đăng nguyên ảnh mà không bị cắt?",
+          "a": "Chọn kích thước Instagram trong danh sách Mẫu có sẵn, rồi chọn Vừa trong khung thay vì Cắt để lấp đầy khung. Toàn bộ ảnh vẫn hiển thị và không bị cắt bỏ phần nào."
+        },
+        {
+          "q": "Ảnh đại diện Instagram có kích thước bao nhiêu?",
+          "a": "Hãy tải lên ít nhất 320 × 320 pixel. Instagram hiển thị ảnh dạng hình tròn, nên hãy để khuôn mặt ở giữa."
+        }
+      ]
+    }
+  },
+  "youtubeSize": {
+    "title": "Kích thước thumbnail YouTube 1280x720 - Đổi online",
+    "description": "Kích thước thumbnail YouTube là 1280 x 720 pixel (16:9). Đổi kích thước ảnh thành thumbnail hoặc banner kênh YouTube miễn phí, không tải lên, không cần đăng ký.",
+    "h1": "Kích thước thumbnail YouTube",
+    "intro": "Thumbnail (ảnh thu nhỏ) YouTube có kích thước 1280 × 720 pixel, tỷ lệ 16:9. Thêm ảnh của bạn, công cụ sẽ đổi kích thước và cắt ảnh theo cỡ đó ngay trên thiết bị, rồi cho bạn thấy dung lượng tệp.",
+    "blurb": "Đổi kích thước ảnh thành thumbnail hoặc banner YouTube.",
+    "note": "YouTube thỉnh thoảng cập nhật khuyến nghị của mình. Đây là những kích thước được dùng rộng rãi và phù hợp với các định dạng hiện nay.",
+    "tableTitle": "Kích thước YouTube",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Chọn kích thước YouTube",
+        "text": "Mở danh sách Mẫu có sẵn, vào mục Mạng xã hội rồi chọn YouTube ảnh thu nhỏ hoặc banner. Kích thước ảnh thu nhỏ đã được chọn sẵn."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh. Chế độ Cắt để lấp đầy khung được chọn sẵn nên ảnh không bị kéo giãn."
+      }
+    ],
+    "tipsTitle": "Mẹo để có thumbnail YouTube đẹp",
+    "tips": [
+      "Dùng 1280 × 720 pixel và giữ tỷ lệ 16:9. Tỷ lệ khác sẽ bị viền hoặc bị cắt.",
+      "Giữ tệp dưới 2 MB. Đó từ lâu là giới hạn, và tệp nhỏ hơn thì không bao giờ bị từ chối.",
+      "Để khuôn mặt và chữ cách xa góc dưới bên phải, nơi hiển thị thời lượng video.",
+      "Dùng JPG cho ảnh chụp. PNG tốt hơn cho đồ họa có chữ sắc nét, nhưng tệp nặng hơn."
+    ],
+    "detailsTitle": "Kích thước ảnh trên YouTube",
+    "details": [
+      "Thumbnail có kích thước 1280 × 720 pixel với chiều rộng tối thiểu 640 pixel, tỷ lệ 16:9. Banner kênh là 2560 × 1440 pixel, và chỉ phần giữa được hiển thị trên mọi thiết bị, nên hãy đặt logo và chữ ở chính giữa. Ảnh đại diện kênh tốt nhất ở 800 × 800 pixel.",
+      "Nếu thumbnail vượt giới hạn dung lượng tệp, công cụ có thể hạ chất lượng cho đến khi vừa. Hãy chọn Giới hạn dung lượng tệp và nhập 2 MB; công cụ sẽ tự chọn chất lượng tốt nhất vẫn nằm trong giới hạn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Thumbnail YouTube nên có kích thước bao nhiêu?",
+          "a": "1280 × 720 pixel, tỷ lệ 16:9, dung lượng tệp dưới 2 MB."
+        },
+        {
+          "q": "Banner kênh YouTube có kích thước bao nhiêu?",
+          "a": "2560 × 1440 pixel. Chỉ phần giữa hiển thị trên mọi thiết bị, nên hãy đặt nội dung quan trọng ở giữa."
+        },
+        {
+          "q": "Làm sao tạo thumbnail dưới 2 MB?",
+          "a": "Đổi kích thước sang 1280 × 720, rồi bật Giới hạn dung lượng tệp và nhập 2 MB. Công cụ sẽ tìm chất lượng tốt nhất vẫn vừa giới hạn."
+        },
+        {
+          "q": "Định dạng tệp nào tốt nhất cho thumbnail?",
+          "a": "JPG cho ảnh chụp. Tệp nhẹ và đủ nét. Chỉ dùng PNG khi ảnh có chữ sắc nét hoặc màu phẳng và dung lượng tệp cho phép."
+        }
+      ]
+    }
+  },
+  "facebookSize": {
+    "title": "Kích thước ảnh Facebook: ảnh bìa, bài đăng - Đổi online",
+    "description": "Kích thước ảnh Facebook theo pixel cho ảnh bìa và bài đăng. Đổi kích thước ảnh vừa Facebook miễn phí, không tải lên, không cần đăng ký, ngay trên thiết bị.",
+    "h1": "Kích thước ảnh Facebook",
+    "intro": "Ảnh đẹp nhất trên Facebook khi đã có đúng tỷ lệ. Hãy chọn kích thước bên dưới, công cụ sẽ đổi kích thước và cắt ảnh cho khớp, ngay trên thiết bị của bạn.",
+    "blurb": "Đổi kích thước ảnh cho ảnh bìa hoặc bài đăng Facebook.",
+    "note": "Facebook thỉnh thoảng thay đổi giao diện. Đây là những kích thước được dùng rộng rãi và phù hợp với các định dạng hiện nay.",
+    "tableTitle": "Kích thước Facebook",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Chọn kích thước Facebook",
+        "text": "Mở danh sách Mẫu có sẵn, vào mục Mạng xã hội rồi chọn Facebook bài đăng hoặc ảnh bìa. Kích thước bài đăng đã được chọn sẵn."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh. Chế độ Cắt để lấp đầy khung được chọn sẵn nên ảnh không bị kéo giãn."
+      }
+    ],
+    "tipsTitle": "Mẹo để ảnh Facebook sắc nét",
+    "tips": [
+      "Ảnh bìa hiển thị ở 820 × 312 pixel trên máy tính và theo tỷ lệ khác trên điện thoại, nên hãy đặt nội dung quan trọng ở giữa.",
+      "Ảnh bài đăng hoặc ảnh khi chia sẻ liên kết đẹp ở 1200 × 630 pixel.",
+      "Hãy bắt đầu từ ảnh ít nhất bằng kích thước đích. Facebook nén lại mọi ảnh tải lên, nên một ảnh gốc sắc nét cho kết quả tốt nhất.",
+      "Dùng JPG cho ảnh chụp và PNG cho đồ họa có chữ sắc nét."
+    ],
+    "detailsTitle": "Kích thước và tỷ lệ ảnh Facebook",
+    "details": [
+      "Ảnh bìa là 820 × 312 pixel trên máy tính, còn điện thoại hiển thị ảnh bị cắt theo tỷ lệ khác, vì vậy phần giữa của ảnh là quan trọng nhất. Ảnh bài đăng hoặc ảnh khi chia sẻ liên kết là 1200 × 630 pixel. Ảnh đại diện hiển thị dạng hình tròn: hãy tải lên ảnh vuông ít nhất 320 × 320 pixel và để khuôn mặt ở giữa.",
+      "Nếu ảnh có tỷ lệ khác, công cụ có thể cắt ảnh để lấp đầy khung hoặc đặt ảnh vừa trong khung. Chọn Vừa trong khung để giữ toàn bộ ảnh, với các dải trống ở hai bên, hoặc Cắt để lấp đầy khung để giữ phần giữa và cắt bỏ các mép."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Ảnh bìa Facebook có kích thước bao nhiêu?",
+          "a": "820 × 312 pixel trên máy tính. Điện thoại cắt ảnh theo cách khác, nên hãy để chữ và khuôn mặt ở giữa."
+        },
+        {
+          "q": "Ảnh bài đăng Facebook nên có kích thước bao nhiêu?",
+          "a": "1200 × 630 pixel là phù hợp cho một bài đăng hoặc một liên kết được chia sẻ."
+        },
+        {
+          "q": "Ảnh đại diện Facebook có kích thước bao nhiêu?",
+          "a": "Hãy tải lên ảnh vuông ít nhất 320 × 320 pixel. Facebook hiển thị ảnh dạng hình tròn, nên hãy để khuôn mặt ở giữa."
+        },
+        {
+          "q": "Làm sao tránh bị cắt ảnh trên Facebook?",
+          "a": "Chọn kích thước Facebook trong danh sách Mẫu có sẵn, rồi chọn Vừa trong khung thay vì Cắt để lấp đầy khung. Toàn bộ ảnh vẫn hiển thị và không bị cắt bỏ phần nào."
+        }
+      ]
+    }
+  },
+  "whatsappSize": {
+    "title": "Kích thước ảnh đại diện WhatsApp (DP) - Đổi online",
+    "description": "Kích thước ảnh đại diện WhatsApp (DP) là 500 x 500 pixel, trạng thái là 1080 x 1920. Đổi kích thước ảnh cho WhatsApp miễn phí, không tải lên, không cần đăng ký.",
+    "h1": "Kích thước ảnh đại diện WhatsApp (DP)",
+    "intro": "WhatsApp hiển thị ảnh đại diện (DP) của bạn dạng hình tròn, nên ảnh vuông là phù hợp nhất. Thêm ảnh của bạn, công cụ sẽ cắt và đổi kích thước ảnh về đúng cỡ, ngay trên thiết bị.",
+    "blurb": "Đổi kích thước ảnh cho ảnh đại diện hoặc trạng thái WhatsApp.",
+    "note": "WhatsApp có thể thay đổi cách hiển thị ảnh. Đây là những kích thước đang dùng tốt hiện nay.",
+    "tableTitle": "Kích thước WhatsApp",
+    "steps": [
+      {
+        "title": "Thêm ảnh của bạn",
+        "text": "Kéo ảnh vào trang hoặc chọn từ thiết bị."
+      },
+      {
+        "title": "Chọn kích thước WhatsApp",
+        "text": "Mở danh sách Mẫu có sẵn, vào mục Mạng xã hội rồi chọn WhatsApp ảnh đại diện cho DP, hoặc WhatsApp story / reel (1080x1920) cho trạng thái. Kích thước ảnh đại diện đã được chọn sẵn."
+      },
+      {
+        "title": "Đổi kích thước và tải xuống",
+        "text": "Nhấn Đổi kích thước ảnh. Chế độ Cắt để lấp đầy khung được chọn sẵn nên ảnh không bị kéo giãn."
+      }
+    ],
+    "tipsTitle": "Mẹo để có ảnh đại diện WhatsApp đẹp",
+    "tips": [
+      "Dùng ảnh vuông 500 × 500 pixel. WhatsApp hiển thị ảnh dạng hình tròn, nên hãy để khuôn mặt ở giữa.",
+      "Ảnh trạng thái là 1080 × 1920 pixel (9:16), bằng toàn bộ chiều cao màn hình điện thoại.",
+      "Ảnh lớn hơn mức cần thiết sẽ bị WhatsApp thu nhỏ và có thể bị mờ. Đổi kích thước trước giúp bạn kiểm soát kết quả.",
+      "Dùng JPG cho ảnh chụp. Tệp nhẹ và đủ nét cho một ảnh đại diện."
+    ],
+    "detailsTitle": "Kích thước ảnh trên WhatsApp",
+    "details": [
+      "WhatsApp yêu cầu ảnh đại diện hình vuông. Ứng dụng hiển thị ảnh dạng hình tròn trong cuộc trò chuyện và danh bạ, nên các góc của ảnh không bao giờ được nhìn thấy. Kích thước 500 × 500 pixel sắc nét trên mọi màn hình và đủ nhỏ để tải lên nhanh.",
+      "Nếu ảnh của bạn không vuông, hãy chọn Cắt để lấp đầy khung và phần giữa của ảnh sẽ được giữ lại. Chọn Vừa trong khung để giữ toàn bộ ảnh với các dải trống; khi đó WhatsApp cho phép bạn di chuyển và phóng to ảnh trong hình tròn."
+    ],
+    "faq": {
+      "items": [
+        {
+          "q": "Ảnh đại diện (DP) WhatsApp có kích thước bao nhiêu?",
+          "a": "500 × 500 pixel, ảnh vuông. WhatsApp hiển thị ảnh dạng hình tròn."
+        },
+        {
+          "q": "Ảnh trạng thái WhatsApp có kích thước bao nhiêu?",
+          "a": "1080 × 1920 pixel (9:16), bằng toàn bộ chiều cao màn hình điện thoại."
+        },
+        {
+          "q": "Làm sao để ảnh vừa ảnh đại diện WhatsApp mà không bị cắt mất khuôn mặt?",
+          "a": "Chọn kích thước WhatsApp trong danh sách Mẫu có sẵn và giữ Cắt để lấp đầy khung. Phần giữa của ảnh được giữ lại, nơi thường có khuôn mặt."
+        },
+        {
+          "q": "Vì sao ảnh đại diện của tôi bị mờ?",
+          "a": "Ảnh quá nhỏ sẽ bị phóng to, còn ảnh quá lớn sẽ bị ứng dụng thu nhỏ. Hãy đổi kích thước về 500 × 500 pixel trước để có kết quả sắc nét."
         }
       ]
     }

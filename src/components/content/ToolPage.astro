@@ -9,6 +9,7 @@ import PdfTool from '../tool/PdfTool.astro';
 import CalcTool from '../tool/CalcTool.astro';
 import Sections from './Sections.astro';
 import SizeTable from './SizeTable.astro';
+import PaperTable from './PaperTable.astro';
 import { SITE } from '../../config/site';
 import { getLanguage, list, localizedPath, t, type MessageKey } from '../../i18n';
 import { safeJson } from '../../i18n/safe-json';
@@ -22,14 +23,16 @@ interface Props {
   unit?: 'px' | 'cm' | 'mm' | 'in';
   dpi?: number;
   mode?: 'dimensions' | 'percent' | 'keep';
-  table?: 'documents' | 'social';
+  table?: 'documents' | 'social' | 'paper';
+  /** For a platform page: only the presets of these names appear in the size table (['Instagram']). */
+  tableOnly?: string[];
   /** Which widget the page shows: the resizer (default), the images-to-PDF maker or the size converter. */
   tool?: 'resizer' | 'pdf' | 'calc';
   /** Size converter only: the unit the page starts from and the one it converts to. */
   calcFrom?: 'px' | 'cm' | 'mm' | 'in';
   calcTo?: 'px' | 'cm' | 'mm' | 'in';
 }
-const { lang, pageKey, preset, format, unit, dpi, mode, table, tool = 'resizer', calcFrom = 'cm', calcTo = 'px' } = Astro.props;
+const { lang, pageKey, preset, format, unit, dpi, mode, table, tableOnly, tool = 'resizer', calcFrom = 'cm', calcTo = 'px' } = Astro.props;
 const route = TOOL_ROUTES.find((r) => r.key === pageKey)!;
 const p = (suffix: string) => t(lang, `${pageKey}.${suffix}` as MessageKey);
 
@@ -38,7 +41,7 @@ const tips = list<string>(lang, `${pageKey}.tips`);
 // A short explanatory section ("Why 50 KB works well", "Which format should you pick?"): real text for readers and search engines.
 const details = list<string>(lang, `${pageKey}.details`);
 const faq = list<{ q: string; a: string }>(lang, `${pageKey}.faq.items`);
-const hasNote = pageKey === 'passport' || pageKey === 'social';
+const hasNote = table !== undefined; // every page with a table has a note under it
 const pageUrl = new URL(localizedPath(lang, route.path), SITE.url).href;
 
 const faqLd = faq.length
@@ -102,7 +105,7 @@ const breadcrumbLd = {
       table && (
         <section class="block">
           <h2>{p('tableTitle')}</h2>
-          <SizeTable lang={lang} kind={table} />
+          {table === 'paper' ? <PaperTable lang={lang} /> : <SizeTable lang={lang} kind={table} only={tableOnly} />}
           {hasNote && (
             <p class="note">
               <strong>{t(lang, 'common.goodToKnow')}:</strong> {p('note')}
