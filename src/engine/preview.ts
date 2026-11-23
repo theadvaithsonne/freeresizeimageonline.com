@@ -12,9 +12,9 @@ export const PREVIEW_EXACT_MAX_PIXELS = 2_500_000;
 
 /** Longest side, in pixels, of the preview of a big result, by the number of cards on the page. */
 export function previewEdge(cardCount: number): number {
-  if (cardCount <= 4) return 1280; // one to four large cards: sharp even on a high-density screen
-  if (cardCount <= 24) return 800;
-  return 560; // a long batch: small cards, and the memory of every preview adds up
+  if (cardCount <= 4) return 1600; // one to four large cards (a single card is the width of the page): sharp even at 2x pixel density
+  if (cardCount <= 24) return 1000;
+  return 640; // a long batch: small cards, and the memory of every preview adds up
 }
 
 /** True when the result is shown as it is, false when it needs a scaled-down preview. */

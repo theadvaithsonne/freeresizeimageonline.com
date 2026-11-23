@@ -34,6 +34,7 @@ import {
   type SizeMode,
 } from '../../engine';
 import { findPreset } from '../../data/presets';
+import { makeThumbnail, thumbnailEdge } from './thumbnail';
 import { formatBytes, formatNumber } from '../../i18n/format';
 
 interface ToolItem extends BatchItem<File> {
@@ -626,32 +627,16 @@ export function initTool(root: HTMLElement): void {
 
   async function makeThumb(item: ToolItem) {
     try {
-      let bitmap: ImageBitmap;
-      if (item.el && aspect === null && items.includes(item)) {
-        // The first readable image defines the locked aspect ratio, so read its exact size (full decode, once).
-        // If it cannot be read the error is caught below and the next image gets its turn.
-        bitmap = await createImageBitmap(item.file, { imageOrientation: 'from-image' });
-        aspect = bitmap.height / bitmap.width;
-        aspectSource = item;
-        syncLocked();
-      } else {
-        try {
-          bitmap = await createImageBitmap(item.file, { resizeWidth: 160, resizeQuality: 'low', imageOrientation: 'from-image' });
-        } catch {
-          bitmap = await createImageBitmap(item.file);
+      // light backdrop so transparent images don't turn black in the thumbnail
+      const blob = await makeThumbnail(item.file, thumbnailEdge(items.length), '#f1f4f9', (width, height) => {
+        // The first readable image defines the locked aspect ratio. If it cannot be read, makeThumbnail throws (caught below)
+        // and the next image gets its turn.
+        if (item.el && aspect === null && items.includes(item)) {
+          aspect = height / width;
+          aspectSource = item;
+          syncLocked();
         }
-      }
-      const scale = Math.min(1, 160 / bitmap.width);
-      const canvas = document.createElement('canvas');
-      canvas.width = Math.max(1, Math.round(bitmap.width * scale));
-      canvas.height = Math.max(1, Math.round(bitmap.height * scale));
-      const tctx = canvas.getContext('2d')!;
-      tctx.fillStyle = '#f1f4f9'; // light backdrop so transparent images don't turn black in the thumbnail
-      tctx.fillRect(0, 0, canvas.width, canvas.height);
-      tctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
-      bitmap.close();
-      const blob: Blob | null = await new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg', 0.75));
-      canvas.width = 0;
+      });
       if (blob && items.includes(item)) {
         item.thumbUrl = URL.createObjectURL(blob);
         const rowImg = item.el?.querySelector('img');

@@ -5,6 +5,7 @@
 import { buildPdf, decodeImage, downloadBlob, looksLikeImage, type PdfOptions, type PdfPicture } from '../../engine';
 import { baseName } from '../../engine/naming';
 import { formatBytes, formatNumber } from '../../i18n/format';
+import { LIST_THUMBNAIL_EDGE, makeThumbnail } from './thumbnail';
 
 interface PdfItem {
   id: number;
@@ -97,23 +98,8 @@ export function initPdf(root: HTMLElement): void {
 
   async function makeThumb(item: PdfItem) {
     try {
-      let bitmap: ImageBitmap;
-      try {
-        bitmap = await createImageBitmap(item.file, { resizeWidth: 160, resizeQuality: 'low', imageOrientation: 'from-image' });
-      } catch {
-        bitmap = await createImageBitmap(item.file);
-      }
-      const scale = Math.min(1, 160 / bitmap.width);
-      const canvas = document.createElement('canvas');
-      canvas.width = Math.max(1, Math.round(bitmap.width * scale));
-      canvas.height = Math.max(1, Math.round(bitmap.height * scale));
-      const c = canvas.getContext('2d')!;
-      c.fillStyle = '#ffffff';
-      c.fillRect(0, 0, canvas.width, canvas.height);
-      c.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
-      bitmap.close();
-      const blob: Blob | null = await new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg', 0.75));
-      canvas.width = 0;
+      // white backdrop: transparent parts become white on the PDF page too
+      const blob = await makeThumbnail(item.file, LIST_THUMBNAIL_EDGE, '#ffffff');
       if (blob && items.includes(item)) {
         item.thumbUrl = URL.createObjectURL(blob);
         const img = item.el.querySelector('img');

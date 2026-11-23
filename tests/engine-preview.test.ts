@@ -24,12 +24,12 @@ describe('result preview sizes', () => {
 
   it('the preview is much sharper than the 160 px thumbnail it replaces, and smaller with more cards', () => {
     expect(previewEdge(1)).toBeGreaterThan(160 * 4);
-    expect(previewEdge(1)).toBe(1280);
-    expect(previewEdge(4)).toBe(1280);
-    expect(previewEdge(5)).toBe(800);
-    expect(previewEdge(24)).toBe(800);
-    expect(previewEdge(25)).toBe(560);
-    expect(previewEdge(500)).toBe(560);
+    expect(previewEdge(1)).toBe(1600);
+    expect(previewEdge(4)).toBe(1600);
+    expect(previewEdge(5)).toBe(1000);
+    expect(previewEdge(24)).toBe(1000);
+    expect(previewEdge(25)).toBe(640);
+    expect(previewEdge(500)).toBe(640);
     expect(previewEdge(500)).toBeGreaterThan(160 * 3);
   });
 });
